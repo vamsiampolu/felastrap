@@ -11,7 +11,7 @@ module.exports = {
     "plugin:storybook/recommended",
     "plugin:prettier/recommended",
   ],
-  ignorePatterns: ["dist", ".eslintrc.cjs"],
+  ignorePatterns: ["dist", "storybook-static", ".eslintrc.cjs"],
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",

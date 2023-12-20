@@ -5,10 +5,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    react(),
-    dts({ insertTypesEntry: true, include: ['src/'] }),
-  ],
+  plugins: [react(), dts({ insertTypesEntry: true, include: ["src/"] })],
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/main.tsx"),

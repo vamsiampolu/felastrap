@@ -4,7 +4,7 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-source './ci/setup.sh'
+source ./ci/setup.sh
 
 yarn install
 yarn build

@@ -4,7 +4,7 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-source './ci/logger.sh'
+source ./ci/logger.sh
 
 export FORCE_COLOR=1
 

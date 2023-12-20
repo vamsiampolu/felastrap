@@ -299,4 +299,4 @@ export {
   useEscapeKey,
   useWindowSize,
   useMediaQuery,
-} from './hooks'
+} from "./hooks";

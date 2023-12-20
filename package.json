@@ -33,7 +33,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "clean": "rimraf ./dist"
+    "clean": "rimraf ./dist ./storybook-static"
   },
   "dependencies": {
     "@floating-ui/core": "^1.5.0",
