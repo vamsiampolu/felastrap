@@ -2,15 +2,10 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import dts from "vite-plugin-dts";
 import path from "path";
-// import mdx from '@mdx-js/rollup'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    // {
-    //   enforce: 'pre',
-    //   ...mdx()
-    // },
     react(),
     dts({ insertTypesEntry: true, include: ['src/'] }),
   ],

@@ -1,3 +1,7 @@
+import { defineConfig, mergeConfig } from 'vite';
+import react from "@vitejs/plugin-react";
+
+
 /** @type { import('@storybook/react-vite').StorybookConfig } */
 const config = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
@@ -15,5 +19,11 @@ const config = {
   docs: {
     autodocs: "tag",
   },
+  async viteFinal(config, { configType}) {
+    return mergeConfig(config, {
+      plugins: [react()],
+      build: {}
+    })
+  }
 };
 export default config;
