@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/SegmentedButton/Wrapper should render a Segmented Button Wrapper 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: flex;
+}
+.c {
+  flex-wrap: wrap;
+}
+.d {
+  align-items: stretch;
+}
+.e {
+  width: 100%;
+}
+.f {
+  margin-bottom: 1rem;
+}
+
+
+<div data-testid="segmented-button" class="a b c d e f segmented-btn-wrapper">
+  Segmented Button Wrapper
+</div>
+;
+"
+`;

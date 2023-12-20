@@ -1,0 +1,736 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/RadioButtons/RadioButton should render a disabled radio button control 1`] = `
+".a {
+  display: block;
+}
+.b {
+  min-height: 1.5rem;
+}
+.c {
+  padding-left: 1.5rem !important;
+}
+.d {
+  padding-right: 0;
+}
+.e {
+  margin-bottom: 0.125rem;
+}
+.f {
+  text-align: left;
+}
+.g {
+  float: left !important;
+}
+.h {
+  margin-left: -1.5em;
+}
+.i {
+  flex-shrink: 0;
+}
+.j {
+  width: 1em;
+}
+.k {
+  height: 1em;
+}
+.l {
+  margin-top: 0.25em;
+}
+.m {
+  vertical-align: top;
+}
+.n {
+  appearance: none;
+}
+.o {
+  background-color: #fff;
+}
+.p {
+  background-repeat: no-repeat;
+}
+.q {
+  background-position: center;
+}
+.r {
+  background-size: contain;
+}
+.s {
+  print-color-adjust: exact;
+}
+.t {
+  color-adjust: exact;
+}
+.v:disabled {
+  pointer-events: none;
+}
+.w:disabled {
+  filter: none;
+}
+.x:disabled {
+  opacity: 0.5;
+}
+.ag:checked {
+  background-color: #0d6efd;
+}
+.ah:checked {
+  background-image: url(test-file-stub);
+}
+.ai:checked {
+  border-top-color: #0d6efd;
+}
+.aj:checked {
+  border-right-color: #0d6efd;
+}
+.ak:checked {
+  border-bottom-color: #0d6efd;
+}
+.al:checked {
+  border-left-color: #0d6efd;
+}
+.am {
+  border-top-left-radius: 50%;
+}
+.an {
+  border-top-right-radius: 50%;
+}
+.ao {
+  border-bottom-right-radius: 50%;
+}
+.ap {
+  border-bottom-left-radius: 50%;
+}
+.aq {
+  border-top-width: 1px;
+}
+.ar {
+  border-right-width: 1px;
+}
+.as {
+  border-bottom-width: 1px;
+}
+.at {
+  border-left-width: 1px;
+}
+.au {
+  border-top-style: solid;
+}
+.av {
+  border-right-style: solid;
+}
+.aw {
+  border-bottom-style: solid;
+}
+.ax {
+  border-left-style: solid;
+}
+.ay {
+  border-top-color: #dee2e6;
+}
+.az {
+  border-right-color: #dee2e6;
+}
+.ba {
+  border-bottom-color: #dee2e6;
+}
+.bb {
+  border-left-color: #dee2e6;
+}
+.bc {
+  cursor: default;
+}
+.bd {
+  opacity: 0.5;
+}
+.be {
+  display: inline-block;
+}
+.bf {
+  margin-bottom: 0.5rem;
+}
+.y:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.z:focus {
+  outline-width: 0;
+}
+.ab:focus {
+  border-top-color: #86b7fe;
+}
+.ac:focus {
+  border-right-color: #86b7fe;
+}
+.ae:focus {
+  border-bottom-color: #86b7fe;
+}
+.af:focus {
+  border-left-color: #86b7fe;
+}
+.u:active {
+  filter: brightness(90%);
+}
+
+
+<div data-testid="form-control-radio-button" class="a b c d e f">
+  <input
+    data-testid="radio-input"
+    type="radio"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb g h i j k l m n o p q r s t u v w x y z form-check-input"
+    id="foobar"
+    disabled=""
+  /><label
+    data-testid="form-label"
+    for="foobar"
+    class="be bf form-label bc bd form-check-label"
+    >Radio Button</label
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Form/RadioButtons/RadioButton should render a radio button control 1`] = `
+".a {
+  display: block;
+}
+.b {
+  min-height: 1.5rem;
+}
+.c {
+  padding-left: 1.5rem !important;
+}
+.d {
+  padding-right: 0;
+}
+.e {
+  margin-bottom: 0.125rem;
+}
+.f {
+  text-align: left;
+}
+.g {
+  float: left !important;
+}
+.h {
+  margin-left: -1.5em;
+}
+.i {
+  flex-shrink: 0;
+}
+.j {
+  width: 1em;
+}
+.k {
+  height: 1em;
+}
+.l {
+  margin-top: 0.25em;
+}
+.m {
+  vertical-align: top;
+}
+.n {
+  appearance: none;
+}
+.o {
+  background-color: #fff;
+}
+.p {
+  background-repeat: no-repeat;
+}
+.q {
+  background-position: center;
+}
+.r {
+  background-size: contain;
+}
+.s {
+  print-color-adjust: exact;
+}
+.t {
+  color-adjust: exact;
+}
+.v:disabled {
+  pointer-events: none;
+}
+.w:disabled {
+  filter: none;
+}
+.x:disabled {
+  opacity: 0.5;
+}
+.ag:checked {
+  background-color: #0d6efd;
+}
+.ah:checked {
+  background-image: url(test-file-stub);
+}
+.ai:checked {
+  border-top-color: #0d6efd;
+}
+.aj:checked {
+  border-right-color: #0d6efd;
+}
+.ak:checked {
+  border-bottom-color: #0d6efd;
+}
+.al:checked {
+  border-left-color: #0d6efd;
+}
+.am {
+  border-top-left-radius: 50%;
+}
+.an {
+  border-top-right-radius: 50%;
+}
+.ao {
+  border-bottom-right-radius: 50%;
+}
+.ap {
+  border-bottom-left-radius: 50%;
+}
+.aq {
+  border-top-width: 1px;
+}
+.ar {
+  border-right-width: 1px;
+}
+.as {
+  border-bottom-width: 1px;
+}
+.at {
+  border-left-width: 1px;
+}
+.au {
+  border-top-style: solid;
+}
+.av {
+  border-right-style: solid;
+}
+.aw {
+  border-bottom-style: solid;
+}
+.ax {
+  border-left-style: solid;
+}
+.ay {
+  border-top-color: #dee2e6;
+}
+.az {
+  border-right-color: #dee2e6;
+}
+.ba {
+  border-bottom-color: #dee2e6;
+}
+.bb {
+  border-left-color: #dee2e6;
+}
+.bc {
+  display: inline-block;
+}
+.bd {
+  margin-bottom: 0.5rem;
+}
+.y:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.z:focus {
+  outline-width: 0;
+}
+.ab:focus {
+  border-top-color: #86b7fe;
+}
+.ac:focus {
+  border-right-color: #86b7fe;
+}
+.ae:focus {
+  border-bottom-color: #86b7fe;
+}
+.af:focus {
+  border-left-color: #86b7fe;
+}
+.u:active {
+  filter: brightness(90%);
+}
+
+
+<div data-testid="form-control-radio-button" class="a b c d e f">
+  <input
+    data-testid="radio-input"
+    type="radio"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb g h i j k l m n o p q r s t u v w x y z form-check-input"
+    id="foobar"
+  /><label
+    data-testid="form-label"
+    for="foobar"
+    class="bc bd form-label form-check-label"
+    >Radio Button</label
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Form/RadioButtons/RadioButton should render a reverse radio button control 1`] = `
+".a {
+  display: block;
+}
+.b {
+  min-height: 1.5rem;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  padding-right: 1.5em;
+}
+.e {
+  margin-bottom: 0.125rem;
+}
+.f {
+  text-align: right;
+}
+.g {
+  float: left !important;
+}
+.h {
+  margin-left: -1.5em;
+}
+.i {
+  flex-shrink: 0;
+}
+.j {
+  width: 1em;
+}
+.k {
+  height: 1em;
+}
+.l {
+  margin-top: 0.25em;
+}
+.m {
+  vertical-align: top;
+}
+.n {
+  appearance: none;
+}
+.o {
+  background-color: #fff;
+}
+.p {
+  background-repeat: no-repeat;
+}
+.q {
+  background-position: center;
+}
+.r {
+  background-size: contain;
+}
+.s {
+  print-color-adjust: exact;
+}
+.t {
+  color-adjust: exact;
+}
+.v:disabled {
+  pointer-events: none;
+}
+.w:disabled {
+  filter: none;
+}
+.x:disabled {
+  opacity: 0.5;
+}
+.ag:checked {
+  background-color: #0d6efd;
+}
+.ah:checked {
+  background-image: url(test-file-stub);
+}
+.ai:checked {
+  border-top-color: #0d6efd;
+}
+.aj:checked {
+  border-right-color: #0d6efd;
+}
+.ak:checked {
+  border-bottom-color: #0d6efd;
+}
+.al:checked {
+  border-left-color: #0d6efd;
+}
+.am {
+  border-top-left-radius: 50%;
+}
+.an {
+  border-top-right-radius: 50%;
+}
+.ao {
+  border-bottom-right-radius: 50%;
+}
+.ap {
+  border-bottom-left-radius: 50%;
+}
+.aq {
+  border-top-width: 1px;
+}
+.ar {
+  border-right-width: 1px;
+}
+.as {
+  border-bottom-width: 1px;
+}
+.at {
+  border-left-width: 1px;
+}
+.au {
+  border-top-style: solid;
+}
+.av {
+  border-right-style: solid;
+}
+.aw {
+  border-bottom-style: solid;
+}
+.ax {
+  border-left-style: solid;
+}
+.ay {
+  border-top-color: #dee2e6;
+}
+.az {
+  border-right-color: #dee2e6;
+}
+.ba {
+  border-bottom-color: #dee2e6;
+}
+.bb {
+  border-left-color: #dee2e6;
+}
+.bc {
+  display: inline-block;
+}
+.bd {
+  margin-bottom: 0.5rem;
+}
+.y:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.z:focus {
+  outline-width: 0;
+}
+.ab:focus {
+  border-top-color: #86b7fe;
+}
+.ac:focus {
+  border-right-color: #86b7fe;
+}
+.ae:focus {
+  border-bottom-color: #86b7fe;
+}
+.af:focus {
+  border-left-color: #86b7fe;
+}
+.u:active {
+  filter: brightness(90%);
+}
+
+
+<div data-testid="form-control-radio-button" class="a b c d e f">
+  <input
+    data-testid="radio-input"
+    type="radio"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb c d f g h i j k l m n o p q r s t u v w x y z form-check-input"
+    id="foobar"
+  /><label
+    data-testid="form-label"
+    for="foobar"
+    class="bc bd form-label form-check-label"
+    >Radio Button</label
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Form/RadioButtons/RadioButton should render an inline radio button control 1`] = `
+".a {
+  display: block;
+}
+.b {
+  min-height: 1.5rem;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  padding-right: 1.5em;
+}
+.e {
+  margin-bottom: 0.125rem;
+}
+.f {
+  text-align: right;
+}
+.g {
+  float: left !important;
+}
+.h {
+  margin-left: -1.5em;
+}
+.i {
+  flex-shrink: 0;
+}
+.j {
+  width: 1em;
+}
+.k {
+  height: 1em;
+}
+.l {
+  margin-top: 0.25em;
+}
+.m {
+  vertical-align: top;
+}
+.n {
+  appearance: none;
+}
+.o {
+  background-color: #fff;
+}
+.p {
+  background-repeat: no-repeat;
+}
+.q {
+  background-position: center;
+}
+.r {
+  background-size: contain;
+}
+.s {
+  print-color-adjust: exact;
+}
+.t {
+  color-adjust: exact;
+}
+.v:disabled {
+  pointer-events: none;
+}
+.w:disabled {
+  filter: none;
+}
+.x:disabled {
+  opacity: 0.5;
+}
+.ag:checked {
+  background-color: #0d6efd;
+}
+.ah:checked {
+  background-image: url(test-file-stub);
+}
+.ai:checked {
+  border-top-color: #0d6efd;
+}
+.aj:checked {
+  border-right-color: #0d6efd;
+}
+.ak:checked {
+  border-bottom-color: #0d6efd;
+}
+.al:checked {
+  border-left-color: #0d6efd;
+}
+.am {
+  border-top-left-radius: 50%;
+}
+.an {
+  border-top-right-radius: 50%;
+}
+.ao {
+  border-bottom-right-radius: 50%;
+}
+.ap {
+  border-bottom-left-radius: 50%;
+}
+.aq {
+  border-top-width: 1px;
+}
+.ar {
+  border-right-width: 1px;
+}
+.as {
+  border-bottom-width: 1px;
+}
+.at {
+  border-left-width: 1px;
+}
+.au {
+  border-top-style: solid;
+}
+.av {
+  border-right-style: solid;
+}
+.aw {
+  border-bottom-style: solid;
+}
+.ax {
+  border-left-style: solid;
+}
+.ay {
+  border-top-color: #dee2e6;
+}
+.az {
+  border-right-color: #dee2e6;
+}
+.ba {
+  border-bottom-color: #dee2e6;
+}
+.bb {
+  border-left-color: #dee2e6;
+}
+.bc {
+  display: inline-block;
+}
+.bd {
+  margin-bottom: 0.5rem;
+}
+.y:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.z:focus {
+  outline-width: 0;
+}
+.ab:focus {
+  border-top-color: #86b7fe;
+}
+.ac:focus {
+  border-right-color: #86b7fe;
+}
+.ae:focus {
+  border-bottom-color: #86b7fe;
+}
+.af:focus {
+  border-left-color: #86b7fe;
+}
+.u:active {
+  filter: brightness(90%);
+}
+
+
+<div data-testid="form-control-radio-button" class="a b c d e f">
+  <input
+    data-testid="radio-input"
+    type="radio"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb c d f g h i j k l m n o p q r s t u v w x y z form-check-input"
+    id="foobar"
+  /><label
+    data-testid="form-label"
+    for="foobar"
+    class="bc bd form-label form-check-label"
+    >Radio Button</label
+  >
+</div>
+;
+"
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Modal/Title should render a Modal Title 1`] = `
+".a {
+  line-height: 1.42857143;
+}
+.b {
+  text-align: center;
+}
+.c {
+  margin-top: 0;
+}
+.d {
+  margin-right: 0;
+}
+.e {
+  margin-bottom: 0;
+}
+.f {
+  margin-left: 0;
+}
+
+
+<h4 data-testid="modal-title" class="a b c d e f bs-modal-title">
+  Modal Title
+</h4>
+;
+"
+`;

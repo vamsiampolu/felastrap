@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Modal/Overlay should render a Modal Overlay 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  height: 100%;
+}
+.c {
+  margin-left: auto;
+}
+.d {
+  margin-right: auto;
+}
+.e {
+  display: block;
+}
+.f {
+  position: fixed;
+}
+.g {
+  top: 0;
+}
+.h {
+  right: 0;
+}
+.i {
+  bottom: 0;
+}
+.j {
+  left: 0;
+}
+.k {
+  opacity: 1;
+}
+.l {
+  z-index: 1050;
+}
+.m {
+  overflow-x: hidden;
+}
+.n {
+  overflow-y: auto;
+}
+.o {
+  transition-property: opacity;
+}
+.p {
+  transition-duration: 0.15s;
+}
+.q {
+  transition-delay: linear;
+}
+.r {
+  transition-timing-function: ease;
+}
+.s {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="modal-overlay"
+  class="a b c d e f g h i j k l m n o p q r s modal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="Modal Overlay Title"
+>
+  Modal Overlay
+</div>
+;
+"
+`;

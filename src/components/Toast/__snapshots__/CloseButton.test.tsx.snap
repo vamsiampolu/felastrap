@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Toast/CloseButton render a close button 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  margin-right: calc(-0.5 * 0.75rem);
+}
+.f {
+  margin-left: 0.75rem;
+}
+.g {
+  padding-top: 10px !important;
+}
+.h {
+  padding-bottom: 10px !important;
+}
+.i {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.j {
+  -webkit-background-image: url(test-file-stub);
+  background-image: url(test-file-stub);
+}
+.k {
+  -webkit-background-position-x: center;
+  background-position-x: center;
+}
+.l {
+  background-origin: padding-box;
+}
+.m {
+  background-clip: border-box;
+}
+.n {
+  -webkit-background-position-y: 1em;
+  background-position-y: 1em;
+}
+.o {
+  background-repeat: no-repeat;
+}
+.p {
+  background-size: auto;
+}
+.q {
+  box-sizing: content-box;
+}
+.r {
+  color: #000;
+}
+.s {
+  height: 1em;
+}
+.t {
+  opacity: 0.5;
+}
+.u {
+  width: 1em;
+}
+.y:disabled {
+  opacity: 0.25;
+}
+.z:disabled {
+  pointer-events: none;
+}
+.ab:disabled {
+  user-select: none;
+}
+.ac {
+  border-top-width: 0;
+}
+.ae {
+  border-right-width: 0;
+}
+.af {
+  border-bottom-width: 0;
+}
+.ag {
+  border-left-width: 0;
+}
+.ah {
+  border-top-color: rgb(0, 0, 0);
+}
+.ai {
+  border-right-color: rgb(0, 0, 0);
+}
+.aj {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.ak {
+  border-left-color: rgb(0, 0, 0);
+}
+.v:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.w:focus {
+  opacity: 1;
+}
+.x:focus {
+  outline-width: 0;
+}
+
+
+<button
+  data-testid="toast-close-button"
+  type="button"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z toast-btn-close"
+  aria-label="Close"
+></button
+>;
+"
+`;
+
+exports[`components/Toast/CloseButton render a close button with a className 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  margin-right: calc(-0.5 * 0.75rem);
+}
+.f {
+  margin-left: 0.75rem;
+}
+.g {
+  padding-top: 10px !important;
+}
+.h {
+  padding-bottom: 10px !important;
+}
+.i {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.j {
+  -webkit-background-image: url(test-file-stub);
+  background-image: url(test-file-stub);
+}
+.k {
+  -webkit-background-position-x: center;
+  background-position-x: center;
+}
+.l {
+  background-origin: padding-box;
+}
+.m {
+  background-clip: border-box;
+}
+.n {
+  -webkit-background-position-y: 1em;
+  background-position-y: 1em;
+}
+.o {
+  background-repeat: no-repeat;
+}
+.p {
+  background-size: auto;
+}
+.q {
+  box-sizing: content-box;
+}
+.r {
+  color: #000;
+}
+.s {
+  height: 1em;
+}
+.t {
+  opacity: 0.5;
+}
+.u {
+  width: 1em;
+}
+.y:disabled {
+  opacity: 0.25;
+}
+.z:disabled {
+  pointer-events: none;
+}
+.ab:disabled {
+  user-select: none;
+}
+.ac {
+  border-top-width: 0;
+}
+.ae {
+  border-right-width: 0;
+}
+.af {
+  border-bottom-width: 0;
+}
+.ag {
+  border-left-width: 0;
+}
+.ah {
+  border-top-color: rgb(0, 0, 0);
+}
+.ai {
+  border-right-color: rgb(0, 0, 0);
+}
+.aj {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.ak {
+  border-left-color: rgb(0, 0, 0);
+}
+.v:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.w:focus {
+  opacity: 1;
+}
+.x:focus {
+  outline-width: 0;
+}
+
+
+<button
+  data-testid="toast-close-button"
+  type="button"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z toast-btn-close toast-close"
+  aria-label="Close"
+></button
+>;
+"
+`;

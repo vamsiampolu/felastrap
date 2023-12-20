@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Offcanvas/Body should render an offcanvas-body 1`] = `
+".a {
+  flex-grow: 1;
+}
+.b {
+  overflow-y: auto;
+}
+.c {
+  padding-top: 1rem;
+}
+.d {
+  padding-right: 1rem;
+}
+.e {
+  padding-bottom: 1rem;
+}
+.f {
+  padding-left: 1rem;
+}
+
+
+<div data-testid="offcanvas-body" class="a b c d e f offcanvas-body">Body</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Body should render an offcanvas-body with a className 1`] = `
+".a {
+  flex-grow: 1;
+}
+.b {
+  overflow-y: auto;
+}
+.c {
+  padding-top: 1rem;
+}
+.d {
+  padding-right: 1rem;
+}
+.e {
+  padding-bottom: 1rem;
+}
+.f {
+  padding-left: 1rem;
+}
+
+
+<div
+  data-testid="offcanvas-body"
+  class="a b c d e f offcanvas-body sidebar-content"
+>
+  Body
+</div>
+;
+"
+`;

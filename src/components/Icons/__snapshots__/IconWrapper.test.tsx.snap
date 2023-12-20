@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Icons/IconWrapper should render the icon wrapper 1`] = `
+".a {
+  color: rgba(112.520718, 44.062154, 249.437846, 1);
+}
+.b {
+  background-color: rgba(112.520718, 44.062154, 249.437846, 0.1);
+}
+.c {
+  background-blend-mode: multiple;
+}
+.d {
+  mix-blend-mode: darken;
+}
+.e {
+  margin-bottom: 1rem;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  border-top-left-radius: 1rem;
+}
+.h {
+  border-top-right-radius: 1rem;
+}
+.i {
+  border-bottom-right-radius: 1rem;
+}
+.j {
+  border-bottom-left-radius: 1rem;
+}
+.k {
+  padding-top: 1rem;
+}
+.l {
+  padding-right: 1rem;
+}
+.m {
+  padding-bottom: 1rem;
+}
+.n {
+  padding-left: 1rem;
+}
+
+
+<div
+  data-testid="icon-wrapper"
+  class="a b c d e f g h i j k l m n masthead-followup-icon"
+>
+  Icon Wrapper
+</div>
+;
+"
+`;

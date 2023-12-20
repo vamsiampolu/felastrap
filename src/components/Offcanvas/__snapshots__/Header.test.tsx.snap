@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Offcanvas/Header render an Offcanvas Header without a close button 1`] = `
+".a {
+  display: none;
+}
+.b {
+  align-items: center;
+}
+.c {
+  justify-content: space-between;
+}
+.d {
+  padding-top: 1rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  padding-bottom: 1rem;
+}
+.g {
+  padding-left: 1rem;
+}
+.h {
+  margin-bottom: 0;
+}
+.i {
+  line-height: 1.5;
+}
+
+
+<div data-testid="offcanvas-header" class="a b c d e f g offcanvas-header">
+  <h5
+    data-testid="offcanvas-title"
+    class="h i offcanvas-title"
+    id="sidebar-title"
+  >
+    Title
+  </h5>
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Header should render an Offcanvas Header 1`] = `
+".a {
+  display: none;
+}
+.b {
+  align-items: center;
+}
+.c {
+  justify-content: space-between;
+}
+.d {
+  padding-top: 1rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  padding-bottom: 1rem;
+}
+.g {
+  padding-left: 1rem;
+}
+.h {
+  margin-bottom: 0;
+}
+.i {
+  line-height: 1.5;
+}
+.j {
+  border-top-left-radius: 0.375rem;
+}
+.k {
+  border-top-right-radius: 0.375rem;
+}
+.l {
+  border-bottom-right-radius: 0.375rem;
+}
+.m {
+  border-bottom-left-radius: 0.375rem;
+}
+.n {
+  background-color: transparent;
+}
+.o {
+  background-image: url(test-file-stub);
+}
+.p {
+  background-position-x: center;
+}
+.q {
+  background-origin: padding-box;
+}
+.r {
+  background-clip: border-box;
+}
+.s {
+  background-position-y: 1em;
+}
+.t {
+  background-repeat: no-repeat;
+}
+.u {
+  background-size: auto;
+}
+.v {
+  box-sizing: content-box;
+}
+.w {
+  color: #000;
+}
+.x {
+  height: 1em;
+}
+.y {
+  opacity: 0.5;
+}
+.z {
+  padding-top: 10px;
+}
+.ab {
+  padding-bottom: 10px;
+}
+.ac {
+  padding-left: 0.25em;
+}
+.ae {
+  padding-right: 0.25em;
+}
+.af {
+  width: 1em;
+}
+.aj:disabled {
+  opacity: 0.25;
+}
+.ak:disabled {
+  pointer-events: none;
+}
+.al:disabled {
+  user-select: none;
+}
+.am {
+  margin-top: calc(-0.5 * 1rem);
+}
+.an {
+  margin-right: calc(-0.5 * 1rem);
+}
+.ao {
+  margin-bottom: calc(-0.5 * 1rem);
+}
+.ap {
+  border-top-width: 0;
+}
+.aq {
+  border-right-width: 0;
+}
+.ar {
+  border-bottom-width: 0;
+}
+.as {
+  border-left-width: 0;
+}
+.at {
+  border-top-color: rgb(0, 0, 0);
+}
+.au {
+  border-right-color: rgb(0, 0, 0);
+}
+.av {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.aw {
+  border-left-color: rgb(0, 0, 0);
+}
+.ag:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ah:focus {
+  opacity: 1;
+}
+.ai:focus {
+  outline-width: 0;
+}
+
+
+<div data-testid="offcanvas-header" class="a b c d e f g offcanvas-header">
+  <h5
+    data-testid="offcanvas-title"
+    class="h i offcanvas-title"
+    id="sidebar-title"
+  >
+    Title
+  </h5>
+  <button
+    data-testid="offcanvas-close-button"
+    type="button"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw j k l m n o p q r s t u v w x y z offcanvas-btn-close"
+    aria-label="Close"
+  ></button>
+</div>
+;
+"
+`;

@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Offcanvas/Backdrop should render a hidden Backdrop for the offcanvas 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  opacity: 0;
+}
+.c {
+  top: 0;
+}
+.d {
+  left: 0;
+}
+.e {
+  z-index: 1040;
+}
+.f {
+  width: 100vw;
+}
+.g {
+  height: 100vh;
+}
+.h {
+  background-color: #000;
+}
+
+
+<div
+  data-testid="offcanvas-backdrop"
+  class="a b c d e f g h offcanvas-backdrop"
+></div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Backdrop should render a visible Backdrop for the offcanvas 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  opacity: 0.5;
+}
+.c {
+  top: 0;
+}
+.d {
+  left: 0;
+}
+.e {
+  z-index: 1040;
+}
+.f {
+  width: 100vw;
+}
+.g {
+  height: 100vh;
+}
+.h {
+  background-color: #000;
+}
+
+
+<div
+  data-testid="offcanvas-backdrop"
+  class="a b c d e f g h offcanvas-backdrop"
+></div>
+;
+"
+`;

@@ -1,0 +1,1834 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/Floating/FloatingSelect should display a disabled floating select 1`] = `
+".a {
+  display: block;
+}
+.b {
+  width: 100%;
+}
+.c {
+  font-size: 1rem;
+}
+.d {
+  font-weight: 400;
+}
+.e {
+  line-height: 1.25;
+}
+.f {
+  color: #212529;
+}
+.g {
+  appearance: none;
+}
+.h {
+  background-color: #fff;
+}
+.i {
+  background-image: url(test-file-stub), none;
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-position: right 0.75rem center;
+}
+.l {
+  background-size: 16px 12px;
+}
+.w:disabled {
+  background-color: #e9ecef;
+}
+.x:-moz-focusring {
+  color: transparent;
+}
+.y:-moz-focusring {
+  text-shadow: 0 0 0 #212529;
+}
+.z {
+  height: calc(3.5rem + 2px);
+}
+.ab {
+  min-height: calc(3.5rem + 2px);
+}
+.ac {
+  padding-top: 1.625rem;
+}
+.ae {
+  padding-bottom: 0.625rem;
+}
+.af {
+  transition-property: border-color, box-shadow;
+}
+.ag {
+  transition-duration: 0.15s, 0.15s;
+}
+.ah {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ai {
+  transition-timing-function: ease, ease;
+}
+.aj {
+  border-top-left-radius: 0.375rem;
+}
+.ak {
+  border-top-right-radius: 0.375rem;
+}
+.al {
+  border-bottom-right-radius: 0.375rem;
+}
+.am {
+  border-bottom-left-radius: 0.375rem;
+}
+.an {
+  border-top-width: 1px;
+}
+.ao {
+  border-right-width: 1px;
+}
+.ap {
+  border-bottom-width: 1px;
+}
+.aq {
+  border-left-width: 1px;
+}
+.ar {
+  border-top-style: solid;
+}
+.as {
+  border-right-style: solid;
+}
+.at {
+  border-bottom-style: solid;
+}
+.au {
+  border-left-style: solid;
+}
+.av {
+  border-top-color: #dee2e6;
+}
+.aw {
+  border-right-color: #dee2e6;
+}
+.ax {
+  border-bottom-color: #dee2e6;
+}
+.ay {
+  border-left-color: #dee2e6;
+}
+.az {
+  padding-right: 2.25rem;
+}
+.ba {
+  padding-left: 0.75rem;
+}
+.bb {
+  position: relative;
+}
+.bc {
+  margin-bottom: 1rem;
+}
+.bd {
+  position: absolute;
+}
+.be {
+  top: 0;
+}
+.bf {
+  left: 0;
+}
+.bg {
+  z-index: 2;
+}
+.bh {
+  height: 100%;
+}
+.bi {
+  text-align: start;
+}
+.bj {
+  text-overflow: ellipsis;
+}
+.bk {
+  white-space: nowrap;
+}
+.bl {
+  pointer-events: none;
+}
+.bm {
+  transform-origin: 0 0;
+}
+.bn {
+  color: rgba(33, 37, 41, 0.65);
+}
+.bo {
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+.bp::after {
+  position: absolute;
+}
+.bq::after {
+  z-index: -1;
+}
+.br::after {
+  height: 1.5em;
+}
+.bs::after {
+  content:;
+}
+.bt::after {
+  background-color: #fff;
+}
+.bu::after {
+  border-top-left-radius: 0.375rem;
+}
+.bv::after {
+  border-top-right-radius: 0.375rem;
+}
+.bw::after {
+  border-bottom-right-radius: 0.375rem;
+}
+.bx::after {
+  border-bottom-left-radius: 0.375rem;
+}
+.by::after {
+  top: 1rem;
+}
+.bz::after {
+  right: 0.375rem;
+}
+.ca::after {
+  bottom: 1rem;
+}
+.cb::after {
+  left: 0.375rem;
+}
+.cc {
+  transition-property: opacity, transform;
+}
+.cd {
+  transition-duration: 0.1s, 0.1s;
+}
+.ce {
+  border-top-color: transparent;
+}
+.cf {
+  border-right-color: transparent;
+}
+.cg {
+  border-bottom-color: transparent;
+}
+.ch {
+  border-left-color: transparent;
+}
+.ci {
+  overflow-x: hidden;
+}
+.cj {
+  overflow-y: hidden;
+}
+.ck {
+  padding-top: 1rem;
+}
+.cl {
+  padding-right: 0.75rem;
+}
+.cm {
+  padding-bottom: 1rem;
+}
+.cn {
+  display: inline-block;
+}
+.co {
+  margin-bottom: 0.5rem;
+}
+.q:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.r:focus {
+  outline-width: 0;
+}
+.s:focus {
+  border-top-color: #86b7fe;
+}
+.t:focus {
+  border-right-color: #86b7fe;
+}
+.u:focus {
+  border-bottom-color: #86b7fe;
+}
+.v:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="form-floating-select" class="bb bc form-floating">
+  <label
+    data-testid="form-label"
+    for="floating"
+    class="cn co form-label ah ai an ao ap aq ar as at au ba bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm m n o p floating-select-label"
+    >Floating Select</label
+  ><select
+    data-testid="floating-select"
+    disabled=""
+    id="floating"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba c d e f g h i j k l m n o p q r s t u v w x y z floating-select"
+  >
+    <option
+      data-testid="floating-select-option-placeholder"
+      value=""
+      selected=""
+    >
+      Placeholder
+    </option>
+    <option data-testid="floating-select-option" value="Album">Album</option>
+    <option data-testid="floating-select-option" value="Kaleidescope">
+      Kaleidescope
+    </option>
+  </select>
+</div>
+;
+"
+`;
+
+exports[`components/Form/Floating/FloatingSelect should display a floating select 1`] = `
+".a {
+  display: block;
+}
+.b {
+  width: 100%;
+}
+.c {
+  font-size: 1rem;
+}
+.d {
+  font-weight: 400;
+}
+.e {
+  line-height: 1.25;
+}
+.f {
+  color: #212529;
+}
+.g {
+  appearance: none;
+}
+.h {
+  background-color: #fff;
+}
+.i {
+  background-image: url(test-file-stub), none;
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-position: right 0.75rem center;
+}
+.l {
+  background-size: 16px 12px;
+}
+.w:disabled {
+  background-color: #e9ecef;
+}
+.x:-moz-focusring {
+  color: transparent;
+}
+.y:-moz-focusring {
+  text-shadow: 0 0 0 #212529;
+}
+.z {
+  height: calc(3.5rem + 2px);
+}
+.ab {
+  min-height: calc(3.5rem + 2px);
+}
+.ac {
+  padding-top: 1.625rem;
+}
+.ae {
+  padding-bottom: 0.625rem;
+}
+.af {
+  transition-property: border-color, box-shadow;
+}
+.ag {
+  transition-duration: 0.15s, 0.15s;
+}
+.ah {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ai {
+  transition-timing-function: ease, ease;
+}
+.aj {
+  border-top-left-radius: 0.375rem;
+}
+.ak {
+  border-top-right-radius: 0.375rem;
+}
+.al {
+  border-bottom-right-radius: 0.375rem;
+}
+.am {
+  border-bottom-left-radius: 0.375rem;
+}
+.an {
+  border-top-width: 1px;
+}
+.ao {
+  border-right-width: 1px;
+}
+.ap {
+  border-bottom-width: 1px;
+}
+.aq {
+  border-left-width: 1px;
+}
+.ar {
+  border-top-style: solid;
+}
+.as {
+  border-right-style: solid;
+}
+.at {
+  border-bottom-style: solid;
+}
+.au {
+  border-left-style: solid;
+}
+.av {
+  border-top-color: #dee2e6;
+}
+.aw {
+  border-right-color: #dee2e6;
+}
+.ax {
+  border-bottom-color: #dee2e6;
+}
+.ay {
+  border-left-color: #dee2e6;
+}
+.az {
+  padding-right: 2.25rem;
+}
+.ba {
+  padding-left: 0.75rem;
+}
+.bb {
+  position: relative;
+}
+.bc {
+  margin-bottom: 1rem;
+}
+.bd {
+  position: absolute;
+}
+.be {
+  top: 0;
+}
+.bf {
+  left: 0;
+}
+.bg {
+  z-index: 2;
+}
+.bh {
+  height: 100%;
+}
+.bi {
+  text-align: start;
+}
+.bj {
+  text-overflow: ellipsis;
+}
+.bk {
+  white-space: nowrap;
+}
+.bl {
+  pointer-events: none;
+}
+.bm {
+  transform-origin: 0 0;
+}
+.bn {
+  color: rgba(33, 37, 41, 0.65);
+}
+.bo {
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+.bp::after {
+  position: absolute;
+}
+.bq::after {
+  z-index: -1;
+}
+.br::after {
+  height: 1.5em;
+}
+.bs::after {
+  content:;
+}
+.bt::after {
+  background-color: #fff;
+}
+.bu::after {
+  border-top-left-radius: 0.375rem;
+}
+.bv::after {
+  border-top-right-radius: 0.375rem;
+}
+.bw::after {
+  border-bottom-right-radius: 0.375rem;
+}
+.bx::after {
+  border-bottom-left-radius: 0.375rem;
+}
+.by::after {
+  top: 1rem;
+}
+.bz::after {
+  right: 0.375rem;
+}
+.ca::after {
+  bottom: 1rem;
+}
+.cb::after {
+  left: 0.375rem;
+}
+.cc {
+  transition-property: opacity, transform;
+}
+.cd {
+  transition-duration: 0.1s, 0.1s;
+}
+.ce {
+  border-top-color: transparent;
+}
+.cf {
+  border-right-color: transparent;
+}
+.cg {
+  border-bottom-color: transparent;
+}
+.ch {
+  border-left-color: transparent;
+}
+.ci {
+  overflow-x: hidden;
+}
+.cj {
+  overflow-y: hidden;
+}
+.ck {
+  padding-top: 1rem;
+}
+.cl {
+  padding-right: 0.75rem;
+}
+.cm {
+  padding-bottom: 1rem;
+}
+.cn {
+  display: inline-block;
+}
+.co {
+  margin-bottom: 0.5rem;
+}
+.q:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.r:focus {
+  outline-width: 0;
+}
+.s:focus {
+  border-top-color: #86b7fe;
+}
+.t:focus {
+  border-right-color: #86b7fe;
+}
+.u:focus {
+  border-bottom-color: #86b7fe;
+}
+.v:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="form-floating-select" class="bb bc form-floating">
+  <label
+    data-testid="form-label"
+    class="cn co form-label ah ai an ao ap aq ar as at au ba bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm m n o p floating-select-label"
+  ></label
+  ><select
+    data-testid="floating-select"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba c d e f g h i j k l m n o p q r s t u v w x y z floating-select"
+  >
+    <option
+      data-testid="floating-select-option-placeholder"
+      value=""
+      selected=""
+    >
+      Placeholder
+    </option>
+    <option data-testid="floating-select-option" value="Album">Album</option>
+    <option data-testid="floating-select-option" value="Kaleidescope">
+      Kaleidescope
+    </option>
+  </select>
+</div>
+;
+"
+`;
+
+exports[`components/Form/Floating/FloatingSelect should display a floating select with a label 1`] = `
+".a {
+  display: block;
+}
+.b {
+  width: 100%;
+}
+.c {
+  font-size: 1rem;
+}
+.d {
+  font-weight: 400;
+}
+.e {
+  line-height: 1.25;
+}
+.f {
+  color: #212529;
+}
+.g {
+  appearance: none;
+}
+.h {
+  background-color: #fff;
+}
+.i {
+  background-image: url(test-file-stub), none;
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-position: right 0.75rem center;
+}
+.l {
+  background-size: 16px 12px;
+}
+.w:disabled {
+  background-color: #e9ecef;
+}
+.x:-moz-focusring {
+  color: transparent;
+}
+.y:-moz-focusring {
+  text-shadow: 0 0 0 #212529;
+}
+.z {
+  height: calc(3.5rem + 2px);
+}
+.ab {
+  min-height: calc(3.5rem + 2px);
+}
+.ac {
+  padding-top: 1.625rem;
+}
+.ae {
+  padding-bottom: 0.625rem;
+}
+.af {
+  transition-property: border-color, box-shadow;
+}
+.ag {
+  transition-duration: 0.15s, 0.15s;
+}
+.ah {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ai {
+  transition-timing-function: ease, ease;
+}
+.aj {
+  border-top-left-radius: 0.375rem;
+}
+.ak {
+  border-top-right-radius: 0.375rem;
+}
+.al {
+  border-bottom-right-radius: 0.375rem;
+}
+.am {
+  border-bottom-left-radius: 0.375rem;
+}
+.an {
+  border-top-width: 1px;
+}
+.ao {
+  border-right-width: 1px;
+}
+.ap {
+  border-bottom-width: 1px;
+}
+.aq {
+  border-left-width: 1px;
+}
+.ar {
+  border-top-style: solid;
+}
+.as {
+  border-right-style: solid;
+}
+.at {
+  border-bottom-style: solid;
+}
+.au {
+  border-left-style: solid;
+}
+.av {
+  border-top-color: #dee2e6;
+}
+.aw {
+  border-right-color: #dee2e6;
+}
+.ax {
+  border-bottom-color: #dee2e6;
+}
+.ay {
+  border-left-color: #dee2e6;
+}
+.az {
+  padding-right: 2.25rem;
+}
+.ba {
+  padding-left: 0.75rem;
+}
+.bb {
+  position: relative;
+}
+.bc {
+  margin-bottom: 1rem;
+}
+.bd {
+  position: absolute;
+}
+.be {
+  top: 0;
+}
+.bf {
+  left: 0;
+}
+.bg {
+  z-index: 2;
+}
+.bh {
+  height: 100%;
+}
+.bi {
+  text-align: start;
+}
+.bj {
+  text-overflow: ellipsis;
+}
+.bk {
+  white-space: nowrap;
+}
+.bl {
+  pointer-events: none;
+}
+.bm {
+  transform-origin: 0 0;
+}
+.bn {
+  color: rgba(33, 37, 41, 0.65);
+}
+.bo {
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+.bp::after {
+  position: absolute;
+}
+.bq::after {
+  z-index: -1;
+}
+.br::after {
+  height: 1.5em;
+}
+.bs::after {
+  content:;
+}
+.bt::after {
+  background-color: #fff;
+}
+.bu::after {
+  border-top-left-radius: 0.375rem;
+}
+.bv::after {
+  border-top-right-radius: 0.375rem;
+}
+.bw::after {
+  border-bottom-right-radius: 0.375rem;
+}
+.bx::after {
+  border-bottom-left-radius: 0.375rem;
+}
+.by::after {
+  top: 1rem;
+}
+.bz::after {
+  right: 0.375rem;
+}
+.ca::after {
+  bottom: 1rem;
+}
+.cb::after {
+  left: 0.375rem;
+}
+.cc {
+  transition-property: opacity, transform;
+}
+.cd {
+  transition-duration: 0.1s, 0.1s;
+}
+.ce {
+  border-top-color: transparent;
+}
+.cf {
+  border-right-color: transparent;
+}
+.cg {
+  border-bottom-color: transparent;
+}
+.ch {
+  border-left-color: transparent;
+}
+.ci {
+  overflow-x: hidden;
+}
+.cj {
+  overflow-y: hidden;
+}
+.ck {
+  padding-top: 1rem;
+}
+.cl {
+  padding-right: 0.75rem;
+}
+.cm {
+  padding-bottom: 1rem;
+}
+.cn {
+  display: inline-block;
+}
+.co {
+  margin-bottom: 0.5rem;
+}
+.q:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.r:focus {
+  outline-width: 0;
+}
+.s:focus {
+  border-top-color: #86b7fe;
+}
+.t:focus {
+  border-right-color: #86b7fe;
+}
+.u:focus {
+  border-bottom-color: #86b7fe;
+}
+.v:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="form-floating-select" class="bb bc form-floating">
+  <label
+    data-testid="form-label"
+    for="floating"
+    class="cn co form-label ah ai an ao ap aq ar as at au ba bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm m n o p floating-select-label"
+    >Floating Select</label
+  ><select
+    data-testid="floating-select"
+    id="floating"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba c d e f g h i j k l m n o p q r s t u v w x y z floating-select"
+  >
+    <option
+      data-testid="floating-select-option-placeholder"
+      value=""
+      selected=""
+    >
+      Placeholder
+    </option>
+    <option data-testid="floating-select-option" value="Album">Album</option>
+    <option data-testid="floating-select-option" value="Kaleidescope">
+      Kaleidescope
+    </option>
+  </select>
+</div>
+;
+"
+`;
+
+exports[`components/Form/Floating/FloatingSelect should display an uncontrolled select with a value 1`] = `
+".a {
+  display: block;
+}
+.b {
+  width: 100%;
+}
+.c {
+  font-size: 1rem;
+}
+.d {
+  font-weight: 400;
+}
+.e {
+  line-height: 1.25;
+}
+.f {
+  color: #212529;
+}
+.g {
+  appearance: none;
+}
+.h {
+  background-color: #fff;
+}
+.i {
+  background-image: url(test-file-stub), none;
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-position: right 0.75rem center;
+}
+.l {
+  background-size: 16px 12px;
+}
+.w:disabled {
+  background-color: #e9ecef;
+}
+.x:-moz-focusring {
+  color: transparent;
+}
+.y:-moz-focusring {
+  text-shadow: 0 0 0 #212529;
+}
+.z {
+  height: calc(3.5rem + 2px);
+}
+.ab {
+  min-height: calc(3.5rem + 2px);
+}
+.ac {
+  padding-top: 1.625rem;
+}
+.ae {
+  padding-bottom: 0.625rem;
+}
+.af {
+  transition-property: border-color, box-shadow;
+}
+.ag {
+  transition-duration: 0.15s, 0.15s;
+}
+.ah {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ai {
+  transition-timing-function: ease, ease;
+}
+.aj {
+  border-top-left-radius: 0.375rem;
+}
+.ak {
+  border-top-right-radius: 0.375rem;
+}
+.al {
+  border-bottom-right-radius: 0.375rem;
+}
+.am {
+  border-bottom-left-radius: 0.375rem;
+}
+.an {
+  border-top-width: 1px;
+}
+.ao {
+  border-right-width: 1px;
+}
+.ap {
+  border-bottom-width: 1px;
+}
+.aq {
+  border-left-width: 1px;
+}
+.ar {
+  border-top-style: solid;
+}
+.as {
+  border-right-style: solid;
+}
+.at {
+  border-bottom-style: solid;
+}
+.au {
+  border-left-style: solid;
+}
+.av {
+  border-top-color: #dee2e6;
+}
+.aw {
+  border-right-color: #dee2e6;
+}
+.ax {
+  border-bottom-color: #dee2e6;
+}
+.ay {
+  border-left-color: #dee2e6;
+}
+.az {
+  padding-right: 2.25rem;
+}
+.ba {
+  padding-left: 0.75rem;
+}
+.bb {
+  position: relative;
+}
+.bc {
+  margin-bottom: 1rem;
+}
+.bd {
+  position: absolute;
+}
+.be {
+  top: 0;
+}
+.bf {
+  left: 0;
+}
+.bg {
+  z-index: 2;
+}
+.bh {
+  height: 100%;
+}
+.bi {
+  text-align: start;
+}
+.bj {
+  text-overflow: ellipsis;
+}
+.bk {
+  white-space: nowrap;
+}
+.bl {
+  pointer-events: none;
+}
+.bm {
+  transform-origin: 0 0;
+}
+.bn {
+  color: rgba(33, 37, 41, 0.65);
+}
+.bo {
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+.bp::after {
+  position: absolute;
+}
+.bq::after {
+  z-index: -1;
+}
+.br::after {
+  height: 1.5em;
+}
+.bs::after {
+  content:;
+}
+.bt::after {
+  background-color: #fff;
+}
+.bu::after {
+  border-top-left-radius: 0.375rem;
+}
+.bv::after {
+  border-top-right-radius: 0.375rem;
+}
+.bw::after {
+  border-bottom-right-radius: 0.375rem;
+}
+.bx::after {
+  border-bottom-left-radius: 0.375rem;
+}
+.by::after {
+  top: 1rem;
+}
+.bz::after {
+  right: 0.375rem;
+}
+.ca::after {
+  bottom: 1rem;
+}
+.cb::after {
+  left: 0.375rem;
+}
+.cc {
+  transition-property: opacity, transform;
+}
+.cd {
+  transition-duration: 0.1s, 0.1s;
+}
+.ce {
+  border-top-color: transparent;
+}
+.cf {
+  border-right-color: transparent;
+}
+.cg {
+  border-bottom-color: transparent;
+}
+.ch {
+  border-left-color: transparent;
+}
+.ci {
+  overflow-x: hidden;
+}
+.cj {
+  overflow-y: hidden;
+}
+.ck {
+  padding-top: 1rem;
+}
+.cl {
+  padding-right: 0.75rem;
+}
+.cm {
+  padding-bottom: 1rem;
+}
+.cn {
+  display: inline-block;
+}
+.co {
+  margin-bottom: 0.5rem;
+}
+.q:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.r:focus {
+  outline-width: 0;
+}
+.s:focus {
+  border-top-color: #86b7fe;
+}
+.t:focus {
+  border-right-color: #86b7fe;
+}
+.u:focus {
+  border-bottom-color: #86b7fe;
+}
+.v:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="form-floating-select" class="bb bc form-floating">
+  <label
+    data-testid="form-label"
+    for="floating"
+    class="cn co form-label ah ai an ao ap aq ar as at au ba bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm m n o p floating-select-label"
+    >Floating Select</label
+  ><select
+    data-testid="floating-select"
+    id="floating"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba c d e f g h i j k l m n o p q r s t u v w x y z floating-select"
+  >
+    <option data-testid="floating-select-option-placeholder" value="">
+      Placeholder
+    </option>
+    <option data-testid="floating-select-option" value="Album" selected="">
+      Album
+    </option>
+    <option data-testid="floating-select-option" value="Kaleidescope">
+      Kaleidescope
+    </option>
+  </select>
+</div>
+;
+"
+`;
+
+exports[`components/Form/Floating/FloatingSelect should invoke onChange when a controlled select is updated 1`] = `
+".a {
+  display: block;
+}
+.b {
+  width: 100%;
+}
+.c {
+  font-size: 1rem;
+}
+.d {
+  font-weight: 400;
+}
+.e {
+  line-height: 1.25;
+}
+.f {
+  color: #212529;
+}
+.g {
+  appearance: none;
+}
+.h {
+  background-color: #fff;
+}
+.i {
+  background-image: url(test-file-stub), none;
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-position: right 0.75rem center;
+}
+.l {
+  background-size: 16px 12px;
+}
+.w:disabled {
+  background-color: #e9ecef;
+}
+.x:-moz-focusring {
+  color: transparent;
+}
+.y:-moz-focusring {
+  text-shadow: 0 0 0 #212529;
+}
+.z {
+  height: calc(3.5rem + 2px);
+}
+.ab {
+  min-height: calc(3.5rem + 2px);
+}
+.ac {
+  padding-top: 1.625rem;
+}
+.ae {
+  padding-bottom: 0.625rem;
+}
+.af {
+  transition-property: border-color, box-shadow;
+}
+.ag {
+  transition-duration: 0.15s, 0.15s;
+}
+.ah {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ai {
+  transition-timing-function: ease, ease;
+}
+.aj {
+  border-top-left-radius: 0.375rem;
+}
+.ak {
+  border-top-right-radius: 0.375rem;
+}
+.al {
+  border-bottom-right-radius: 0.375rem;
+}
+.am {
+  border-bottom-left-radius: 0.375rem;
+}
+.an {
+  border-top-width: 1px;
+}
+.ao {
+  border-right-width: 1px;
+}
+.ap {
+  border-bottom-width: 1px;
+}
+.aq {
+  border-left-width: 1px;
+}
+.ar {
+  border-top-style: solid;
+}
+.as {
+  border-right-style: solid;
+}
+.at {
+  border-bottom-style: solid;
+}
+.au {
+  border-left-style: solid;
+}
+.av {
+  border-top-color: #dee2e6;
+}
+.aw {
+  border-right-color: #dee2e6;
+}
+.ax {
+  border-bottom-color: #dee2e6;
+}
+.ay {
+  border-left-color: #dee2e6;
+}
+.az {
+  padding-right: 2.25rem;
+}
+.ba {
+  padding-left: 0.75rem;
+}
+.bb {
+  position: relative;
+}
+.bc {
+  margin-bottom: 1rem;
+}
+.bd {
+  position: absolute;
+}
+.be {
+  top: 0;
+}
+.bf {
+  left: 0;
+}
+.bg {
+  z-index: 2;
+}
+.bh {
+  height: 100%;
+}
+.bi {
+  text-align: start;
+}
+.bj {
+  text-overflow: ellipsis;
+}
+.bk {
+  white-space: nowrap;
+}
+.bl {
+  pointer-events: none;
+}
+.bm {
+  transform-origin: 0 0;
+}
+.bn {
+  color: rgba(33, 37, 41, 0.65);
+}
+.bo {
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+.bp::after {
+  position: absolute;
+}
+.bq::after {
+  z-index: -1;
+}
+.br::after {
+  height: 1.5em;
+}
+.bs::after {
+  content:;
+}
+.bt::after {
+  background-color: #fff;
+}
+.bu::after {
+  border-top-left-radius: 0.375rem;
+}
+.bv::after {
+  border-top-right-radius: 0.375rem;
+}
+.bw::after {
+  border-bottom-right-radius: 0.375rem;
+}
+.bx::after {
+  border-bottom-left-radius: 0.375rem;
+}
+.by::after {
+  top: 1rem;
+}
+.bz::after {
+  right: 0.375rem;
+}
+.ca::after {
+  bottom: 1rem;
+}
+.cb::after {
+  left: 0.375rem;
+}
+.cc {
+  transition-property: opacity, transform;
+}
+.cd {
+  transition-duration: 0.1s, 0.1s;
+}
+.ce {
+  border-top-color: transparent;
+}
+.cf {
+  border-right-color: transparent;
+}
+.cg {
+  border-bottom-color: transparent;
+}
+.ch {
+  border-left-color: transparent;
+}
+.ci {
+  overflow-x: hidden;
+}
+.cj {
+  overflow-y: hidden;
+}
+.ck {
+  padding-top: 1rem;
+}
+.cl {
+  padding-right: 0.75rem;
+}
+.cm {
+  padding-bottom: 1rem;
+}
+.cn {
+  display: inline-block;
+}
+.co {
+  margin-bottom: 0.5rem;
+}
+.q:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.r:focus {
+  outline-width: 0;
+}
+.s:focus {
+  border-top-color: #86b7fe;
+}
+.t:focus {
+  border-right-color: #86b7fe;
+}
+.u:focus {
+  border-bottom-color: #86b7fe;
+}
+.v:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="form-floating-select" class="bb bc form-floating">
+  <label
+    data-testid="form-label"
+    for="foobar"
+    class="cn co form-label ah ai an ao ap aq ar as at au ba bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm m n o p floating-select-label"
+    >Select One</label
+  ><select
+    data-testid="floating-select"
+    id="foobar"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba c d e f g h i j k l m n o p q r s t u v w x y z floating-select"
+  >
+    <option data-testid="floating-select-option-placeholder" value="">
+      Placeholder
+    </option>
+    <option data-testid="floating-select-option" value="Album">Album</option>
+    <option
+      data-testid="floating-select-option"
+      value="Kaleidescope"
+      selected=""
+    >
+      Kaleidescope
+    </option>
+  </select>
+</div>
+;
+"
+`;
+
+exports[`components/Form/Floating/FloatingSelect should invoke onChange when uncontrolled select value is updated 1`] = `
+".a {
+  display: block;
+}
+.b {
+  width: 100%;
+}
+.c {
+  font-size: 1rem;
+}
+.d {
+  font-weight: 400;
+}
+.e {
+  line-height: 1.25;
+}
+.f {
+  color: #212529;
+}
+.g {
+  appearance: none;
+}
+.h {
+  background-color: #fff;
+}
+.i {
+  background-image: url(test-file-stub), none;
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-position: right 0.75rem center;
+}
+.l {
+  background-size: 16px 12px;
+}
+.w:disabled {
+  background-color: #e9ecef;
+}
+.x:-moz-focusring {
+  color: transparent;
+}
+.y:-moz-focusring {
+  text-shadow: 0 0 0 #212529;
+}
+.z {
+  height: calc(3.5rem + 2px);
+}
+.ab {
+  min-height: calc(3.5rem + 2px);
+}
+.ac {
+  padding-top: 1.625rem;
+}
+.ae {
+  padding-bottom: 0.625rem;
+}
+.af {
+  transition-property: border-color, box-shadow;
+}
+.ag {
+  transition-duration: 0.15s, 0.15s;
+}
+.ah {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ai {
+  transition-timing-function: ease, ease;
+}
+.aj {
+  border-top-left-radius: 0.375rem;
+}
+.ak {
+  border-top-right-radius: 0.375rem;
+}
+.al {
+  border-bottom-right-radius: 0.375rem;
+}
+.am {
+  border-bottom-left-radius: 0.375rem;
+}
+.an {
+  border-top-width: 1px;
+}
+.ao {
+  border-right-width: 1px;
+}
+.ap {
+  border-bottom-width: 1px;
+}
+.aq {
+  border-left-width: 1px;
+}
+.ar {
+  border-top-style: solid;
+}
+.as {
+  border-right-style: solid;
+}
+.at {
+  border-bottom-style: solid;
+}
+.au {
+  border-left-style: solid;
+}
+.av {
+  border-top-color: #dee2e6;
+}
+.aw {
+  border-right-color: #dee2e6;
+}
+.ax {
+  border-bottom-color: #dee2e6;
+}
+.ay {
+  border-left-color: #dee2e6;
+}
+.az {
+  padding-right: 2.25rem;
+}
+.ba {
+  padding-left: 0.75rem;
+}
+.bb {
+  position: relative;
+}
+.bc {
+  margin-bottom: 1rem;
+}
+.bd {
+  position: absolute;
+}
+.be {
+  top: 0;
+}
+.bf {
+  left: 0;
+}
+.bg {
+  z-index: 2;
+}
+.bh {
+  height: 100%;
+}
+.bi {
+  text-align: start;
+}
+.bj {
+  text-overflow: ellipsis;
+}
+.bk {
+  white-space: nowrap;
+}
+.bl {
+  pointer-events: none;
+}
+.bm {
+  transform-origin: 0 0;
+}
+.bn {
+  color: rgba(33, 37, 41, 0.65);
+}
+.bo {
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+.bp::after {
+  position: absolute;
+}
+.bq::after {
+  z-index: -1;
+}
+.br::after {
+  height: 1.5em;
+}
+.bs::after {
+  content:;
+}
+.bt::after {
+  background-color: #fff;
+}
+.bu::after {
+  border-top-left-radius: 0.375rem;
+}
+.bv::after {
+  border-top-right-radius: 0.375rem;
+}
+.bw::after {
+  border-bottom-right-radius: 0.375rem;
+}
+.bx::after {
+  border-bottom-left-radius: 0.375rem;
+}
+.by::after {
+  top: 1rem;
+}
+.bz::after {
+  right: 0.375rem;
+}
+.ca::after {
+  bottom: 1rem;
+}
+.cb::after {
+  left: 0.375rem;
+}
+.cc {
+  transition-property: opacity, transform;
+}
+.cd {
+  transition-duration: 0.1s, 0.1s;
+}
+.ce {
+  border-top-color: transparent;
+}
+.cf {
+  border-right-color: transparent;
+}
+.cg {
+  border-bottom-color: transparent;
+}
+.ch {
+  border-left-color: transparent;
+}
+.ci {
+  overflow-x: hidden;
+}
+.cj {
+  overflow-y: hidden;
+}
+.ck {
+  padding-top: 1rem;
+}
+.cl {
+  padding-right: 0.75rem;
+}
+.cm {
+  padding-bottom: 1rem;
+}
+.cn {
+  display: inline-block;
+}
+.co {
+  margin-bottom: 0.5rem;
+}
+.q:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.r:focus {
+  outline-width: 0;
+}
+.s:focus {
+  border-top-color: #86b7fe;
+}
+.t:focus {
+  border-right-color: #86b7fe;
+}
+.u:focus {
+  border-bottom-color: #86b7fe;
+}
+.v:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="form-floating-select" class="bb bc form-floating">
+  <label
+    data-testid="form-label"
+    for="floating"
+    class="cn co form-label ah ai an ao ap aq ar as at au ba bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm m n o p floating-select-label"
+    >Floating Select</label
+  ><select
+    data-testid="floating-select"
+    id="floating"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba c d e f g h i j k l m n o p q r s t u v w x y z floating-select"
+  >
+    <option data-testid="floating-select-option-placeholder" value="">
+      Placeholder
+    </option>
+    <option data-testid="floating-select-option" value="Album">Album</option>
+    <option
+      data-testid="floating-select-option"
+      value="Kaleidescope"
+      selected=""
+    >
+      Kaleidescope
+    </option>
+  </select>
+</div>
+;
+"
+`;

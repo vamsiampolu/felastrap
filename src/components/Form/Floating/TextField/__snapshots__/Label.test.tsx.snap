@@ -1,0 +1,996 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/Floating/TextField/Label should display a disabled floating input label 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  margin-bottom: 0.5rem;
+}
+.c {
+  height: 100%;
+}
+.d {
+  left: 0;
+}
+.e {
+  pointer-events: none;
+}
+.f {
+  position: absolute;
+}
+.g {
+  text-align: start;
+}
+.h {
+  text-overflow: ellipsis;
+}
+.i {
+  top: 0;
+}
+.j {
+  transform-origin: 0 0;
+}
+.k {
+  white-space: nowrap;
+}
+.l {
+  z-index: 2;
+}
+.q {
+  color: rgba(33, 37, 41, 0.65);
+}
+.r::after {
+  background-color: #fff;
+}
+.s::after {
+  position: absolute;
+}
+.t::after {
+  z-index: -1;
+}
+.u::after {
+  height: 1.5em;
+}
+.v::after {
+  content:;
+}
+.w::after {
+  border-top-left-radius: 0.375rem;
+}
+.x::after {
+  border-top-right-radius: 0.375rem;
+}
+.y::after {
+  border-bottom-right-radius: 0.375rem;
+}
+.z::after {
+  border-bottom-left-radius: 0.375rem;
+}
+.ab::after {
+  top: 1rem;
+}
+.ac::after {
+  right: 0.375rem;
+}
+.ae::after {
+  bottom: 1rem;
+}
+.af::after {
+  left: 0.375rem;
+}
+.ag {
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+.ah {
+  transition-property: opacity, transform;
+}
+.ai {
+  transition-duration: 0.1s, 0.1s;
+}
+.aj {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ak {
+  transition-timing-function: ease, ease;
+}
+.al {
+  padding-top: 1rem;
+}
+.am {
+  padding-right: 0.75rem;
+}
+.an {
+  padding-bottom: 1rem;
+}
+.ao {
+  padding-left: 0.75rem;
+}
+.ap {
+  overflow-x: hidden;
+}
+.aq {
+  overflow-y: hidden;
+}
+.ar {
+  border-top-width: 1px;
+}
+.as {
+  border-right-width: 1px;
+}
+.at {
+  border-bottom-width: 1px;
+}
+.au {
+  border-left-width: 1px;
+}
+.av {
+  border-top-style: solid;
+}
+.aw {
+  border-right-style: solid;
+}
+.ax {
+  border-bottom-style: solid;
+}
+.ay {
+  border-left-style: solid;
+}
+.az {
+  border-top-color: transparent;
+}
+.ba {
+  border-right-color: transparent;
+}
+.bb {
+  border-bottom-color: transparent;
+}
+.bc {
+  border-left-color: transparent;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<label
+  data-testid="floating-label"
+  for="foobar"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc c d e f g h i j k l m n o p q r s t u v w x y z floating-label"
+  >Floating Label</label
+>;
+"
+`;
+
+exports[`components/Form/Floating/TextField/Label should display a floating input label 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  margin-bottom: 0.5rem;
+}
+.c {
+  height: 100%;
+}
+.d {
+  left: 0;
+}
+.e {
+  pointer-events: none;
+}
+.f {
+  position: absolute;
+}
+.g {
+  text-align: start;
+}
+.h {
+  text-overflow: ellipsis;
+}
+.i {
+  top: 0;
+}
+.j {
+  transform-origin: 0 0;
+}
+.k {
+  white-space: nowrap;
+}
+.l {
+  z-index: 2;
+}
+.q {
+  color: rgba(33, 37, 41, 0.65);
+}
+.r {
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+.s::after {
+  position: absolute;
+}
+.t::after {
+  z-index: -1;
+}
+.u::after {
+  height: 1.5em;
+}
+.v::after {
+  content:;
+}
+.w::after {
+  background-color: #fff;
+}
+.x::after {
+  border-top-left-radius: 0.375rem;
+}
+.y::after {
+  border-top-right-radius: 0.375rem;
+}
+.z::after {
+  border-bottom-right-radius: 0.375rem;
+}
+.ab::after {
+  border-bottom-left-radius: 0.375rem;
+}
+.ac::after {
+  top: 1rem;
+}
+.ae::after {
+  right: 0.375rem;
+}
+.af::after {
+  bottom: 1rem;
+}
+.ag::after {
+  left: 0.375rem;
+}
+.ah {
+  transition-property: opacity, transform;
+}
+.ai {
+  transition-duration: 0.1s, 0.1s;
+}
+.aj {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ak {
+  transition-timing-function: ease, ease;
+}
+.al {
+  padding-top: 1rem;
+}
+.am {
+  padding-right: 0.75rem;
+}
+.an {
+  padding-bottom: 1rem;
+}
+.ao {
+  padding-left: 0.75rem;
+}
+.ap {
+  overflow-x: hidden;
+}
+.aq {
+  overflow-y: hidden;
+}
+.ar {
+  border-top-width: 1px;
+}
+.as {
+  border-right-width: 1px;
+}
+.at {
+  border-bottom-width: 1px;
+}
+.au {
+  border-left-width: 1px;
+}
+.av {
+  border-top-style: solid;
+}
+.aw {
+  border-right-style: solid;
+}
+.ax {
+  border-bottom-style: solid;
+}
+.ay {
+  border-left-style: solid;
+}
+.az {
+  border-top-color: transparent;
+}
+.ba {
+  border-right-color: transparent;
+}
+.bb {
+  border-bottom-color: transparent;
+}
+.bc {
+  border-left-color: transparent;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<label
+  data-testid="floating-label"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc c d e f g h i j k l m n o p q r s t u v w x y z floating-label"
+  >Floating Label</label
+>;
+"
+`;
+
+exports[`components/Form/Floating/TextField/Label should display a plaintext readOnly floating input label 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  margin-bottom: 0.5rem;
+}
+.c {
+  height: 100%;
+}
+.d {
+  left: 0;
+}
+.e {
+  pointer-events: none;
+}
+.f {
+  position: absolute;
+}
+.g {
+  text-align: start;
+}
+.h {
+  text-overflow: ellipsis;
+}
+.i {
+  top: 0;
+}
+.j {
+  transform-origin: 0 0;
+}
+.k {
+  white-space: nowrap;
+}
+.l {
+  z-index: 2;
+}
+.q {
+  color: rgba(33, 37, 41, 0.65);
+}
+.r {
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+.s::after {
+  position: absolute;
+}
+.t::after {
+  z-index: -1;
+}
+.u::after {
+  height: 1.5em;
+}
+.v::after {
+  content:;
+}
+.w::after {
+  background-color: #fff;
+}
+.x::after {
+  border-top-left-radius: 0.375rem;
+}
+.y::after {
+  border-top-right-radius: 0.375rem;
+}
+.z::after {
+  border-bottom-right-radius: 0.375rem;
+}
+.ab::after {
+  border-bottom-left-radius: 0.375rem;
+}
+.ac::after {
+  top: 1rem;
+}
+.ae::after {
+  right: 0.375rem;
+}
+.af::after {
+  bottom: 1rem;
+}
+.ag::after {
+  left: 0.375rem;
+}
+.ah {
+  border-top-width: 1px;
+}
+.ai {
+  border-right-width: 0;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 0;
+}
+.al {
+  transition-property: opacity, transform;
+}
+.am {
+  transition-duration: 0.1s, 0.1s;
+}
+.an {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ao {
+  transition-timing-function: ease, ease;
+}
+.ap {
+  padding-top: 1rem;
+}
+.aq {
+  padding-right: 0.75rem;
+}
+.ar {
+  padding-bottom: 1rem;
+}
+.as {
+  padding-left: 0.75rem;
+}
+.at {
+  overflow-x: hidden;
+}
+.au {
+  overflow-y: hidden;
+}
+.av {
+  border-top-style: solid;
+}
+.aw {
+  border-right-style: solid;
+}
+.ax {
+  border-bottom-style: solid;
+}
+.ay {
+  border-left-style: solid;
+}
+.az {
+  border-top-color: transparent;
+}
+.ba {
+  border-right-color: transparent;
+}
+.bb {
+  border-bottom-color: transparent;
+}
+.bc {
+  border-left-color: transparent;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<label
+  data-testid="floating-label"
+  for="foobar"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc c d e f g h i j k l m n o p q r s t u v w x y z floating-label"
+  >Floating Label</label
+>;
+"
+`;
+
+exports[`components/Form/Floating/TextField/Label should display the label for autofilled floating input 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  margin-bottom: 0.5rem;
+}
+.c {
+  height: 100%;
+}
+.d {
+  left: 0;
+}
+.e {
+  pointer-events: none;
+}
+.f {
+  position: absolute;
+}
+.g {
+  text-align: start;
+}
+.h {
+  text-overflow: ellipsis;
+}
+.i {
+  top: 0;
+}
+.j {
+  transform-origin: 0 0;
+}
+.k {
+  white-space: nowrap;
+}
+.l {
+  z-index: 2;
+}
+.q {
+  color: rgba(33, 37, 41, 0.65);
+}
+.r {
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+.s::after {
+  position: absolute;
+}
+.t::after {
+  z-index: -1;
+}
+.u::after {
+  height: 1.5em;
+}
+.v::after {
+  content:;
+}
+.w::after {
+  background-color: #fff;
+}
+.x::after {
+  border-top-left-radius: 0.375rem;
+}
+.y::after {
+  border-top-right-radius: 0.375rem;
+}
+.z::after {
+  border-bottom-right-radius: 0.375rem;
+}
+.ab::after {
+  border-bottom-left-radius: 0.375rem;
+}
+.ac::after {
+  top: 1rem;
+}
+.ae::after {
+  right: 0.375rem;
+}
+.af::after {
+  bottom: 1rem;
+}
+.ag::after {
+  left: 0.375rem;
+}
+.ah {
+  transition-property: opacity, transform;
+}
+.ai {
+  transition-duration: 0.1s, 0.1s;
+}
+.aj {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ak {
+  transition-timing-function: ease, ease;
+}
+.al {
+  padding-top: 1rem;
+}
+.am {
+  padding-right: 0.75rem;
+}
+.an {
+  padding-bottom: 1rem;
+}
+.ao {
+  padding-left: 0.75rem;
+}
+.ap {
+  overflow-x: hidden;
+}
+.aq {
+  overflow-y: hidden;
+}
+.ar {
+  border-top-width: 1px;
+}
+.as {
+  border-right-width: 1px;
+}
+.at {
+  border-bottom-width: 1px;
+}
+.au {
+  border-left-width: 1px;
+}
+.av {
+  border-top-style: solid;
+}
+.aw {
+  border-right-style: solid;
+}
+.ax {
+  border-bottom-style: solid;
+}
+.ay {
+  border-left-style: solid;
+}
+.az {
+  border-top-color: transparent;
+}
+.ba {
+  border-right-color: transparent;
+}
+.bb {
+  border-bottom-color: transparent;
+}
+.bc {
+  border-left-color: transparent;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<label
+  data-testid="floating-label"
+  for="foobar"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc c d e f g h i j k l m n o p q r s t u v w x y z floating-label"
+  >Floating Label</label
+>;
+"
+`;
+
+exports[`components/Form/Floating/TextField/Label should show a label when placeholder is visible for a floating input 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  margin-bottom: 0.5rem;
+}
+.c {
+  height: 100%;
+}
+.d {
+  left: 0;
+}
+.e {
+  pointer-events: none;
+}
+.f {
+  position: absolute;
+}
+.g {
+  text-align: start;
+}
+.h {
+  text-overflow: ellipsis;
+}
+.i {
+  top: 0;
+}
+.j {
+  transform-origin: 0 0;
+}
+.k {
+  white-space: nowrap;
+}
+.l {
+  z-index: 2;
+}
+.q {
+  transform: scale(0.85) translateY(0.5rem) translateX(0.15rem);
+}
+.r {
+  transition-property: opacity, transform;
+}
+.s {
+  transition-duration: 0.1s, 0.1s;
+}
+.t {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.u {
+  transition-timing-function: ease, ease;
+}
+.v {
+  padding-top: 1rem;
+}
+.w {
+  padding-right: 0.75rem;
+}
+.x {
+  padding-bottom: 1rem;
+}
+.y {
+  padding-left: 0.75rem;
+}
+.z {
+  overflow-x: hidden;
+}
+.ab {
+  overflow-y: hidden;
+}
+.ac {
+  border-top-width: 1px;
+}
+.ae {
+  border-right-width: 1px;
+}
+.af {
+  border-bottom-width: 1px;
+}
+.ag {
+  border-left-width: 1px;
+}
+.ah {
+  border-top-style: solid;
+}
+.ai {
+  border-right-style: solid;
+}
+.aj {
+  border-bottom-style: solid;
+}
+.ak {
+  border-left-style: solid;
+}
+.al {
+  border-top-color: transparent;
+}
+.am {
+  border-right-color: transparent;
+}
+.an {
+  border-bottom-color: transparent;
+}
+.ao {
+  border-left-color: transparent;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<label
+  data-testid="floating-label"
+  for="foobar"
+  class="a ab ac ae af ag ah ai aj ak al am an ao b c d e f g h i j k l m n o p q r s t u v w x y z floating-label"
+  >Floating Label</label
+>;
+"
+`;
+
+exports[`components/Form/Floating/TextField/Label should show the label for a focused floating input 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  margin-bottom: 0.5rem;
+}
+.c {
+  height: 100%;
+}
+.d {
+  left: 0;
+}
+.e {
+  pointer-events: none;
+}
+.f {
+  position: absolute;
+}
+.g {
+  text-align: start;
+}
+.h {
+  text-overflow: ellipsis;
+}
+.i {
+  top: 0;
+}
+.j {
+  transform-origin: 0 0;
+}
+.k {
+  white-space: nowrap;
+}
+.l {
+  z-index: 2;
+}
+.q {
+  color: rgba(33, 37, 41, 0.65);
+}
+.r {
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+.s::after {
+  position: absolute;
+}
+.t::after {
+  z-index: -1;
+}
+.u::after {
+  height: 1.5em;
+}
+.v::after {
+  content:;
+}
+.w::after {
+  background-color: #fff;
+}
+.x::after {
+  border-top-left-radius: 0.375rem;
+}
+.y::after {
+  border-top-right-radius: 0.375rem;
+}
+.z::after {
+  border-bottom-right-radius: 0.375rem;
+}
+.ab::after {
+  border-bottom-left-radius: 0.375rem;
+}
+.ac::after {
+  top: 1rem;
+}
+.ae::after {
+  right: 0.375rem;
+}
+.af::after {
+  bottom: 1rem;
+}
+.ag::after {
+  left: 0.375rem;
+}
+.ah {
+  transition-property: opacity, transform;
+}
+.ai {
+  transition-duration: 0.1s, 0.1s;
+}
+.aj {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ak {
+  transition-timing-function: ease, ease;
+}
+.al {
+  padding-top: 1rem;
+}
+.am {
+  padding-right: 0.75rem;
+}
+.an {
+  padding-bottom: 1rem;
+}
+.ao {
+  padding-left: 0.75rem;
+}
+.ap {
+  overflow-x: hidden;
+}
+.aq {
+  overflow-y: hidden;
+}
+.ar {
+  border-top-width: 1px;
+}
+.as {
+  border-right-width: 1px;
+}
+.at {
+  border-bottom-width: 1px;
+}
+.au {
+  border-left-width: 1px;
+}
+.av {
+  border-top-style: solid;
+}
+.aw {
+  border-right-style: solid;
+}
+.ax {
+  border-bottom-style: solid;
+}
+.ay {
+  border-left-style: solid;
+}
+.az {
+  border-top-color: transparent;
+}
+.ba {
+  border-right-color: transparent;
+}
+.bb {
+  border-bottom-color: transparent;
+}
+.bc {
+  border-left-color: transparent;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<label
+  data-testid="floating-label"
+  for="foobar"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc c d e f g h i j k l m n o p q r s t u v w x y z floating-label"
+  >Floating Label</label
+>;
+"
+`;

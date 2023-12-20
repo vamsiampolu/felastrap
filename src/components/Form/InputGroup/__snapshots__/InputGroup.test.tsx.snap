@@ -1,0 +1,881 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/InputGroup/InputGroup should display an input group 1`] = `
+".a {
+  align-items: stretch;
+}
+.b {
+  display: flex;
+}
+.c {
+  flex-wrap: wrap;
+}
+.d {
+  margin-bottom: 1rem;
+}
+.e {
+  position: relative;
+}
+.f {
+  width: 100%;
+}
+.g {
+  width: 1%;
+}
+.h {
+  min-width: 0;
+}
+.j {
+  flex-grow: 1;
+}
+.k {
+  flex-shrink: 1;
+}
+.l {
+  flex-basis: auto;
+}
+.m {
+  appearance: none;
+}
+.n {
+  background-clip: padding-box;
+}
+.o {
+  background-color: #fff;
+}
+.p {
+  color: #212529;
+}
+.q {
+  display: block;
+}
+.r {
+  font-size: 1rem;
+}
+.s {
+  font-weight: 400;
+}
+.t {
+  line-height: 1.5;
+}
+.y:disabled {
+  background-color: #e9ecef;
+}
+.z:disabled {
+  opacity: 1;
+}
+.ak::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.al::placeholder {
+  opacity: 1;
+}
+.am::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.an::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ao::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ap::-moz-placeholder {
+  opacity: 1;
+}
+.aq:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ar:-ms-input-placeholder {
+  opacity: 1;
+}
+.as:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.at:-moz-placeholder {
+  opacity: 1;
+}
+.au {
+  transition-property: border-color, box-shadow;
+}
+.av {
+  transition-duration: 0.15s, 0.15s;
+}
+.aw {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ax {
+  transition-timing-function: ease, ease;
+}
+.ay {
+  padding-top: 0.375rem;
+}
+.az {
+  padding-right: 0.75rem;
+}
+.ba {
+  padding-bottom: 0.375rem;
+}
+.bb {
+  padding-left: 0.75rem;
+}
+.bc {
+  border-top-left-radius: 0.375rem;
+}
+.bd {
+  border-top-right-radius: 0.375rem;
+}
+.be {
+  border-bottom-right-radius: 0.375rem;
+}
+.bf {
+  border-bottom-left-radius: 0.375rem;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #dee2e6;
+}
+.bp {
+  border-right-color: #dee2e6;
+}
+.bq {
+  border-bottom-color: #dee2e6;
+}
+.br {
+  border-left-color: #dee2e6;
+}
+.i:focus {
+  z-index: 5;
+}
+.ab:focus {
+  background-color: #fff;
+}
+.ac:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ae:focus {
+  color: #212529;
+}
+.af:focus {
+  outline-width: 0;
+}
+.ag:focus {
+  border-top-color: #86b7fe;
+}
+.ah:focus {
+  border-right-color: #86b7fe;
+}
+.ai:focus {
+  border-bottom-color: #86b7fe;
+}
+.aj:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .u {
+    transition-property: none;
+  }
+  .v {
+    transition-duration: 0s;
+  }
+  .w {
+    transition-delay: 0s;
+  }
+  .x {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="input-group" class="a b c d e f input-group">
+  <input data-testid="text-input" type="text" class="e g h i j k l" value="" />
+</div>
+;
+"
+`;
+
+exports[`components/Form/InputGroup/InputGroup should display an input group of size large 1`] = `
+".a {
+  align-items: stretch;
+}
+.b {
+  display: flex;
+}
+.c {
+  flex-wrap: wrap;
+}
+.d {
+  margin-bottom: 1rem;
+}
+.e {
+  position: relative;
+}
+.f {
+  width: 100%;
+}
+.g {
+  width: 1%;
+}
+.h {
+  min-width: 0;
+}
+.j {
+  font-size: 1.25rem;
+}
+.k {
+  border-top-left-radius: 0.5rem;
+}
+.l {
+  border-top-right-radius: 0.5rem;
+}
+.m {
+  border-bottom-right-radius: 0.5rem;
+}
+.n {
+  border-bottom-left-radius: 0.5rem;
+}
+.o {
+  padding-top: 0.5rem;
+}
+.p {
+  padding-right: 1rem;
+}
+.q {
+  padding-bottom: 0.5rem;
+}
+.r {
+  padding-left: 1rem;
+}
+.s {
+  flex-grow: 1;
+}
+.t {
+  flex-shrink: 1;
+}
+.u {
+  flex-basis: auto;
+}
+.v {
+  appearance: none;
+}
+.w {
+  background-clip: padding-box;
+}
+.x {
+  background-color: #fff;
+}
+.y {
+  color: #212529;
+}
+.z {
+  display: block;
+}
+.ab {
+  font-weight: 400;
+}
+.ac {
+  line-height: 1.5;
+}
+.ai:disabled {
+  background-color: #e9ecef;
+}
+.aj:disabled {
+  opacity: 1;
+}
+.as::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.at::placeholder {
+  opacity: 1;
+}
+.au {
+  min-height: calc(1.5em + 1rem + 2px);
+}
+.av::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aw::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ax::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ay::-moz-placeholder {
+  opacity: 1;
+}
+.az:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ba:-ms-input-placeholder {
+  opacity: 1;
+}
+.bb:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.bc:-moz-placeholder {
+  opacity: 1;
+}
+.bd {
+  transition-property: border-color, box-shadow;
+}
+.be {
+  transition-duration: 0.15s, 0.15s;
+}
+.bf {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.bg {
+  transition-timing-function: ease, ease;
+}
+.bh {
+  border-top-width: 1px;
+}
+.bi {
+  border-right-width: 1px;
+}
+.bj {
+  border-bottom-width: 1px;
+}
+.bk {
+  border-left-width: 1px;
+}
+.bl {
+  border-top-style: solid;
+}
+.bm {
+  border-right-style: solid;
+}
+.bn {
+  border-bottom-style: solid;
+}
+.bo {
+  border-left-style: solid;
+}
+.bp {
+  border-top-color: #dee2e6;
+}
+.bq {
+  border-right-color: #dee2e6;
+}
+.br {
+  border-bottom-color: #dee2e6;
+}
+.bs {
+  border-left-color: #dee2e6;
+}
+.i:focus {
+  z-index: 5;
+}
+.ak:focus {
+  background-color: #fff;
+}
+.al:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.am:focus {
+  color: #212529;
+}
+.an:focus {
+  outline-width: 0;
+}
+.ao:focus {
+  border-top-color: #86b7fe;
+}
+.ap:focus {
+  border-right-color: #86b7fe;
+}
+.aq:focus {
+  border-bottom-color: #86b7fe;
+}
+.ar:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ae {
+    transition-property: none;
+  }
+  .af {
+    transition-duration: 0s;
+  }
+  .ag {
+    transition-delay: 0s;
+  }
+  .ah {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="input-group" class="a b c d e f input-group">
+  <input
+    data-testid="text-input"
+    type="text"
+    class="e g h i j k l m n o p q r s t u"
+    value=""
+  />
+</div>
+;
+"
+`;
+
+exports[`components/Form/InputGroup/InputGroup should display an input group of size medium 1`] = `
+".a {
+  align-items: stretch;
+}
+.b {
+  display: flex;
+}
+.c {
+  flex-wrap: wrap;
+}
+.d {
+  margin-bottom: 1rem;
+}
+.e {
+  position: relative;
+}
+.f {
+  width: 100%;
+}
+.g {
+  width: 1%;
+}
+.h {
+  min-width: 0;
+}
+.j {
+  flex-grow: 1;
+}
+.k {
+  flex-shrink: 1;
+}
+.l {
+  flex-basis: auto;
+}
+.m {
+  appearance: none;
+}
+.n {
+  background-clip: padding-box;
+}
+.o {
+  background-color: #fff;
+}
+.p {
+  color: #212529;
+}
+.q {
+  display: block;
+}
+.r {
+  font-size: 1rem;
+}
+.s {
+  font-weight: 400;
+}
+.t {
+  line-height: 1.5;
+}
+.y:disabled {
+  background-color: #e9ecef;
+}
+.z:disabled {
+  opacity: 1;
+}
+.ak::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.al::placeholder {
+  opacity: 1;
+}
+.am::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.an::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ao::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ap::-moz-placeholder {
+  opacity: 1;
+}
+.aq:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ar:-ms-input-placeholder {
+  opacity: 1;
+}
+.as:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.at:-moz-placeholder {
+  opacity: 1;
+}
+.au {
+  transition-property: border-color, box-shadow;
+}
+.av {
+  transition-duration: 0.15s, 0.15s;
+}
+.aw {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ax {
+  transition-timing-function: ease, ease;
+}
+.ay {
+  padding-top: 0.375rem;
+}
+.az {
+  padding-right: 0.75rem;
+}
+.ba {
+  padding-bottom: 0.375rem;
+}
+.bb {
+  padding-left: 0.75rem;
+}
+.bc {
+  border-top-left-radius: 0.375rem;
+}
+.bd {
+  border-top-right-radius: 0.375rem;
+}
+.be {
+  border-bottom-right-radius: 0.375rem;
+}
+.bf {
+  border-bottom-left-radius: 0.375rem;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #dee2e6;
+}
+.bp {
+  border-right-color: #dee2e6;
+}
+.bq {
+  border-bottom-color: #dee2e6;
+}
+.br {
+  border-left-color: #dee2e6;
+}
+.i:focus {
+  z-index: 5;
+}
+.ab:focus {
+  background-color: #fff;
+}
+.ac:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ae:focus {
+  color: #212529;
+}
+.af:focus {
+  outline-width: 0;
+}
+.ag:focus {
+  border-top-color: #86b7fe;
+}
+.ah:focus {
+  border-right-color: #86b7fe;
+}
+.ai:focus {
+  border-bottom-color: #86b7fe;
+}
+.aj:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .u {
+    transition-property: none;
+  }
+  .v {
+    transition-duration: 0s;
+  }
+  .w {
+    transition-delay: 0s;
+  }
+  .x {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="input-group" class="a b c d e f input-group">
+  <input data-testid="text-input" type="text" class="e g h i j k l" value="" />
+</div>
+;
+"
+`;
+
+exports[`components/Form/InputGroup/InputGroup should display an input group of size small 1`] = `
+".a {
+  align-items: stretch;
+}
+.b {
+  display: flex;
+}
+.c {
+  flex-wrap: wrap;
+}
+.d {
+  margin-bottom: 1rem;
+}
+.e {
+  position: relative;
+}
+.f {
+  width: 100%;
+}
+.g {
+  width: 1%;
+}
+.h {
+  min-width: 0;
+}
+.j {
+  font-size: 0.875rem;
+}
+.k {
+  border-top-left-radius: 0.25rem;
+}
+.l {
+  border-top-right-radius: 0.25rem;
+}
+.m {
+  border-bottom-right-radius: 0.25rem;
+}
+.n {
+  border-bottom-left-radius: 0.25rem;
+}
+.o {
+  padding-top: 0.25rem;
+}
+.p {
+  padding-right: 0.5rem;
+}
+.q {
+  padding-bottom: 0.25rem;
+}
+.r {
+  padding-left: 0.5rem;
+}
+.s {
+  flex-grow: 1;
+}
+.t {
+  flex-shrink: 1;
+}
+.u {
+  flex-basis: auto;
+}
+.v {
+  appearance: none;
+}
+.w {
+  background-clip: padding-box;
+}
+.x {
+  background-color: #fff;
+}
+.y {
+  color: #212529;
+}
+.z {
+  display: block;
+}
+.ab {
+  font-weight: 400;
+}
+.ac {
+  line-height: 1.5;
+}
+.ai:disabled {
+  background-color: #e9ecef;
+}
+.aj:disabled {
+  opacity: 1;
+}
+.as::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.at::placeholder {
+  opacity: 1;
+}
+.au {
+  min-height: calc(1.5em + 0.5rem + calc(1px * 2));
+}
+.av::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aw::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ax::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ay::-moz-placeholder {
+  opacity: 1;
+}
+.az:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ba:-ms-input-placeholder {
+  opacity: 1;
+}
+.bb:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.bc:-moz-placeholder {
+  opacity: 1;
+}
+.bd {
+  transition-property: border-color, box-shadow;
+}
+.be {
+  transition-duration: 0.15s, 0.15s;
+}
+.bf {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.bg {
+  transition-timing-function: ease, ease;
+}
+.bh {
+  border-top-width: 1px;
+}
+.bi {
+  border-right-width: 1px;
+}
+.bj {
+  border-bottom-width: 1px;
+}
+.bk {
+  border-left-width: 1px;
+}
+.bl {
+  border-top-style: solid;
+}
+.bm {
+  border-right-style: solid;
+}
+.bn {
+  border-bottom-style: solid;
+}
+.bo {
+  border-left-style: solid;
+}
+.bp {
+  border-top-color: #dee2e6;
+}
+.bq {
+  border-right-color: #dee2e6;
+}
+.br {
+  border-bottom-color: #dee2e6;
+}
+.bs {
+  border-left-color: #dee2e6;
+}
+.i:focus {
+  z-index: 5;
+}
+.ak:focus {
+  background-color: #fff;
+}
+.al:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.am:focus {
+  color: #212529;
+}
+.an:focus {
+  outline-width: 0;
+}
+.ao:focus {
+  border-top-color: #86b7fe;
+}
+.ap:focus {
+  border-right-color: #86b7fe;
+}
+.aq:focus {
+  border-bottom-color: #86b7fe;
+}
+.ar:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ae {
+    transition-property: none;
+  }
+  .af {
+    transition-duration: 0s;
+  }
+  .ag {
+    transition-delay: 0s;
+  }
+  .ah {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="input-group" class="a b c d e f input-group">
+  <input
+    data-testid="text-input"
+    type="text"
+    class="e g h i j k l m n o p q r s t u"
+    value=""
+  />
+</div>
+;
+"
+`;

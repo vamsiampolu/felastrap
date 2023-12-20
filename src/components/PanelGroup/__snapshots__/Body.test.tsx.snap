@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/PanelGroup/Body should render a flush panel body 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  border-right-width: 0;
+}
+.c {
+  border-bottom-width: 0;
+}
+.d {
+  border-left-width: 0;
+}
+.e {
+  padding-top: 1rem;
+}
+.f {
+  padding-right: 1.25rem;
+}
+.g {
+  padding-bottom: 1rem;
+}
+.h {
+  padding-left: 1.25rem;
+}
+
+
+<div data-testid="panel-group-body" class="a b c d e f g h panel-group-body">
+  Panel Body
+</div>
+;
+"
+`;
+
+exports[`components/PanelGroup/Body should render a panel body 1`] = `
+".a {
+  padding-top: 1rem;
+}
+.b {
+  padding-right: 1.25rem;
+}
+.c {
+  padding-bottom: 1rem;
+}
+.d {
+  padding-left: 1.25rem;
+}
+
+
+<div data-testid="panel-group-body" class="a b c d panel-group-body">
+  Panel Body
+</div>
+;
+"
+`;

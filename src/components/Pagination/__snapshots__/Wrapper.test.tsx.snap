@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Pagination/Wrapper should match the snapshot 1`] = `
+".a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.b {
+  list-style: none;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  position: relative;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1rem;
+}
+.g {
+  color: #6ea8fe;
+}
+.h {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.y {
+  margin-left: -1px;
+}
+.z {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.ab {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.ac {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.ae {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.af {
+  border-top-width: 1px;
+}
+.ag {
+  border-right-width: 1px;
+}
+.ah {
+  border-bottom-width: 1px;
+}
+.ai {
+  border-left-width: 1px;
+}
+.aj {
+  border-top-style: solid;
+}
+.ak {
+  border-right-style: solid;
+}
+.al {
+  border-bottom-style: solid;
+}
+.am {
+  border-left-style: solid;
+}
+.an {
+  border-top-color: #dee2e6;
+}
+.ao {
+  border-right-color: #dee2e6;
+}
+.ap {
+  border-bottom-color: #dee2e6;
+}
+.aq {
+  border-left-color: #dee2e6;
+}
+.ar {
+  text-decoration-line: none;
+}
+.as {
+  padding-top: 0.375rem;
+}
+.at {
+  padding-right: 0.75rem;
+}
+.au {
+  padding-bottom: 0.375rem;
+}
+.av {
+  padding-left: 0.75rem;
+}
+.r:hover {
+  z-index: 2;
+}
+.s:hover {
+  color: #8bb9fe;
+}
+.t:hover {
+  -webkit-background-color: #2b3035;
+  background-color: #2b3035;
+}
+.u:hover {
+  border-top-color: #dee2e6;
+}
+.v:hover {
+  border-right-color: #dee2e6;
+}
+.w:hover {
+  border-bottom-color: #dee2e6;
+}
+.x:hover {
+  border-left-color: #dee2e6;
+}
+.m:focus {
+  z-index: 3;
+}
+.n:focus {
+  color: #8bb9fe;
+}
+.o:focus {
+  -webkit-background-color: #e9ecef;
+  background-color: #e9ecef;
+}
+.p:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.q:focus {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .i {
+    transition-property: none;
+  }
+  .j {
+    transition-duration: 0s;
+  }
+  .k {
+    transition-delay: 0s;
+  }
+  .l {
+    transition-timing-function: ease;
+  }
+}
+
+
+<nav data-testid="pagination-wrapper" aria-label="Page Navigation">
+  <ul class="a b c">
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av d e f g h i j k l m n o p q r s t u v w x y z"
+        >Page Item</a
+      >
+    </li>
+  </ul>
+</nav>
+;
+"
+`;

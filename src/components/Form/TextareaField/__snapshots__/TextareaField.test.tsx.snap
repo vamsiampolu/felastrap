@@ -1,0 +1,2426 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/TextareaField/TextareaField should display a textarea field 1`] = `
+".a {
+  margin-bottom: 1rem;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-bottom: 0.5rem;
+}
+.d {
+  appearance: none;
+}
+.e {
+  background-clip: padding-box;
+}
+.f {
+  background-color: #fff;
+}
+.g {
+  color: #212529;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  line-height: 1.5;
+}
+.l {
+  width: 100%;
+}
+.q:disabled {
+  background-color: #e9ecef;
+}
+.r:disabled {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ac::placeholder {
+  opacity: 1;
+}
+.ae::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.af::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ag::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ah::-moz-placeholder {
+  opacity: 1;
+}
+.ai:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aj:-ms-input-placeholder {
+  opacity: 1;
+}
+.ak:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.al:-moz-placeholder {
+  opacity: 1;
+}
+.am {
+  transition-property: border-color, box-shadow;
+}
+.an {
+  transition-duration: 0.15s, 0.15s;
+}
+.ao {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ap {
+  transition-timing-function: ease, ease;
+}
+.aq {
+  padding-top: 0.375rem;
+}
+.ar {
+  padding-right: 0.75rem;
+}
+.as {
+  padding-bottom: 0.375rem;
+}
+.at {
+  padding-left: 0.75rem;
+}
+.au {
+  border-top-left-radius: 0.375rem;
+}
+.av {
+  border-top-right-radius: 0.375rem;
+}
+.aw {
+  border-bottom-right-radius: 0.375rem;
+}
+.ax {
+  border-bottom-left-radius: 0.375rem;
+}
+.ay {
+  border-top-width: 1px;
+}
+.az {
+  border-right-width: 1px;
+}
+.ba {
+  border-bottom-width: 1px;
+}
+.bb {
+  border-left-width: 1px;
+}
+.bc {
+  border-top-style: solid;
+}
+.bd {
+  border-right-style: solid;
+}
+.be {
+  border-bottom-style: solid;
+}
+.bf {
+  border-left-style: solid;
+}
+.bg {
+  border-top-color: #dee2e6;
+}
+.bh {
+  border-right-color: #dee2e6;
+}
+.bi {
+  border-bottom-color: #dee2e6;
+}
+.bj {
+  border-left-color: #dee2e6;
+}
+.s:focus {
+  background-color: #fff;
+}
+.t:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.u:focus {
+  color: #212529;
+}
+.v:focus {
+  outline-width: 0;
+}
+.w:focus {
+  border-top-color: #86b7fe;
+}
+.x:focus {
+  border-right-color: #86b7fe;
+}
+.y:focus {
+  border-bottom-color: #86b7fe;
+}
+.z:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="textarea-field" class="a textarea-field">
+  <label data-testid="form-label" for="foobar" class="b c form-label"
+    >Comments</label
+  ><textarea
+    data-testid="form-textarea"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj d e f g h i j k l m n o p q r s t u v w x y z form-control form-control-medium"
+    id="foobar"
+  ></textarea>
+</div>
+;
+"
+`;
+
+exports[`components/Form/TextareaField/TextareaField should display a textarea field of size large 1`] = `
+".a {
+  margin-bottom: 1rem;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-bottom: 0.5rem;
+}
+.d {
+  appearance: none;
+}
+.e {
+  background-clip: padding-box;
+}
+.f {
+  background-color: #fff;
+}
+.g {
+  color: #212529;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1.25rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  line-height: 1.5;
+}
+.l {
+  width: 100%;
+}
+.q:disabled {
+  background-color: #e9ecef;
+}
+.r:disabled {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ac::placeholder {
+  opacity: 1;
+}
+.ae {
+  min-height: calc(1.5em + 1rem + 2px);
+}
+.af::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ag::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ah::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ai::-moz-placeholder {
+  opacity: 1;
+}
+.aj:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ak:-ms-input-placeholder {
+  opacity: 1;
+}
+.al:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.am:-moz-placeholder {
+  opacity: 1;
+}
+.an {
+  transition-property: border-color, box-shadow;
+}
+.ao {
+  transition-duration: 0.15s, 0.15s;
+}
+.ap {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.aq {
+  transition-timing-function: ease, ease;
+}
+.ar {
+  padding-top: 0.5rem;
+}
+.as {
+  padding-right: 1rem;
+}
+.at {
+  padding-bottom: 0.5rem;
+}
+.au {
+  padding-left: 1rem;
+}
+.av {
+  border-top-left-radius: 0.5rem;
+}
+.aw {
+  border-top-right-radius: 0.5rem;
+}
+.ax {
+  border-bottom-right-radius: 0.5rem;
+}
+.ay {
+  border-bottom-left-radius: 0.5rem;
+}
+.az {
+  border-top-width: 1px;
+}
+.ba {
+  border-right-width: 1px;
+}
+.bb {
+  border-bottom-width: 1px;
+}
+.bc {
+  border-left-width: 1px;
+}
+.bd {
+  border-top-style: solid;
+}
+.be {
+  border-right-style: solid;
+}
+.bf {
+  border-bottom-style: solid;
+}
+.bg {
+  border-left-style: solid;
+}
+.bh {
+  border-top-color: #dee2e6;
+}
+.bi {
+  border-right-color: #dee2e6;
+}
+.bj {
+  border-bottom-color: #dee2e6;
+}
+.bk {
+  border-left-color: #dee2e6;
+}
+.s:focus {
+  background-color: #fff;
+}
+.t:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.u:focus {
+  color: #212529;
+}
+.v:focus {
+  outline-width: 0;
+}
+.w:focus {
+  border-top-color: #86b7fe;
+}
+.x:focus {
+  border-right-color: #86b7fe;
+}
+.y:focus {
+  border-bottom-color: #86b7fe;
+}
+.z:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="textarea-field" class="a textarea-field">
+  <label data-testid="form-label" for="foobar" class="b c form-label"
+    >Comments</label
+  ><textarea
+    data-testid="form-textarea"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk d e f g h i j k l m n o p q r s t u v w x y z form-control form-control-large"
+    id="foobar"
+  ></textarea>
+</div>
+;
+"
+`;
+
+exports[`components/Form/TextareaField/TextareaField should display a textarea field of size medium 1`] = `
+".a {
+  margin-bottom: 1rem;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-bottom: 0.5rem;
+}
+.d {
+  appearance: none;
+}
+.e {
+  background-clip: padding-box;
+}
+.f {
+  background-color: #fff;
+}
+.g {
+  color: #212529;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  line-height: 1.5;
+}
+.l {
+  width: 100%;
+}
+.q:disabled {
+  background-color: #e9ecef;
+}
+.r:disabled {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ac::placeholder {
+  opacity: 1;
+}
+.ae::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.af::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ag::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ah::-moz-placeholder {
+  opacity: 1;
+}
+.ai:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aj:-ms-input-placeholder {
+  opacity: 1;
+}
+.ak:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.al:-moz-placeholder {
+  opacity: 1;
+}
+.am {
+  transition-property: border-color, box-shadow;
+}
+.an {
+  transition-duration: 0.15s, 0.15s;
+}
+.ao {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ap {
+  transition-timing-function: ease, ease;
+}
+.aq {
+  padding-top: 0.375rem;
+}
+.ar {
+  padding-right: 0.75rem;
+}
+.as {
+  padding-bottom: 0.375rem;
+}
+.at {
+  padding-left: 0.75rem;
+}
+.au {
+  border-top-left-radius: 0.375rem;
+}
+.av {
+  border-top-right-radius: 0.375rem;
+}
+.aw {
+  border-bottom-right-radius: 0.375rem;
+}
+.ax {
+  border-bottom-left-radius: 0.375rem;
+}
+.ay {
+  border-top-width: 1px;
+}
+.az {
+  border-right-width: 1px;
+}
+.ba {
+  border-bottom-width: 1px;
+}
+.bb {
+  border-left-width: 1px;
+}
+.bc {
+  border-top-style: solid;
+}
+.bd {
+  border-right-style: solid;
+}
+.be {
+  border-bottom-style: solid;
+}
+.bf {
+  border-left-style: solid;
+}
+.bg {
+  border-top-color: #dee2e6;
+}
+.bh {
+  border-right-color: #dee2e6;
+}
+.bi {
+  border-bottom-color: #dee2e6;
+}
+.bj {
+  border-left-color: #dee2e6;
+}
+.s:focus {
+  background-color: #fff;
+}
+.t:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.u:focus {
+  color: #212529;
+}
+.v:focus {
+  outline-width: 0;
+}
+.w:focus {
+  border-top-color: #86b7fe;
+}
+.x:focus {
+  border-right-color: #86b7fe;
+}
+.y:focus {
+  border-bottom-color: #86b7fe;
+}
+.z:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="textarea-field" class="a textarea-field">
+  <label data-testid="form-label" for="foobar" class="b c form-label"
+    >Comments</label
+  ><textarea
+    data-testid="form-textarea"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj d e f g h i j k l m n o p q r s t u v w x y z form-control form-control-medium"
+    id="foobar"
+  ></textarea>
+</div>
+;
+"
+`;
+
+exports[`components/Form/TextareaField/TextareaField should display a textarea field of size small 1`] = `
+".a {
+  margin-bottom: 1rem;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-bottom: 0.5rem;
+}
+.d {
+  appearance: none;
+}
+.e {
+  background-clip: padding-box;
+}
+.f {
+  background-color: #fff;
+}
+.g {
+  color: #212529;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 0.875rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  line-height: 1.5;
+}
+.l {
+  width: 100%;
+}
+.q:disabled {
+  background-color: #e9ecef;
+}
+.r:disabled {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ac::placeholder {
+  opacity: 1;
+}
+.ae {
+  min-height: calc(1.5em + 0.5rem + calc(1px * 2));
+}
+.af::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ag::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ah::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ai::-moz-placeholder {
+  opacity: 1;
+}
+.aj:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ak:-ms-input-placeholder {
+  opacity: 1;
+}
+.al:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.am:-moz-placeholder {
+  opacity: 1;
+}
+.an {
+  transition-property: border-color, box-shadow;
+}
+.ao {
+  transition-duration: 0.15s, 0.15s;
+}
+.ap {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.aq {
+  transition-timing-function: ease, ease;
+}
+.ar {
+  padding-top: 0.25rem;
+}
+.as {
+  padding-right: 0.5rem;
+}
+.at {
+  padding-bottom: 0.25rem;
+}
+.au {
+  padding-left: 0.5rem;
+}
+.av {
+  border-top-left-radius: 0.25rem;
+}
+.aw {
+  border-top-right-radius: 0.25rem;
+}
+.ax {
+  border-bottom-right-radius: 0.25rem;
+}
+.ay {
+  border-bottom-left-radius: 0.25rem;
+}
+.az {
+  border-top-width: 1px;
+}
+.ba {
+  border-right-width: 1px;
+}
+.bb {
+  border-bottom-width: 1px;
+}
+.bc {
+  border-left-width: 1px;
+}
+.bd {
+  border-top-style: solid;
+}
+.be {
+  border-right-style: solid;
+}
+.bf {
+  border-bottom-style: solid;
+}
+.bg {
+  border-left-style: solid;
+}
+.bh {
+  border-top-color: #dee2e6;
+}
+.bi {
+  border-right-color: #dee2e6;
+}
+.bj {
+  border-bottom-color: #dee2e6;
+}
+.bk {
+  border-left-color: #dee2e6;
+}
+.s:focus {
+  background-color: #fff;
+}
+.t:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.u:focus {
+  color: #212529;
+}
+.v:focus {
+  outline-width: 0;
+}
+.w:focus {
+  border-top-color: #86b7fe;
+}
+.x:focus {
+  border-right-color: #86b7fe;
+}
+.y:focus {
+  border-bottom-color: #86b7fe;
+}
+.z:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="textarea-field" class="a textarea-field">
+  <label data-testid="form-label" for="foobar" class="b c form-label"
+    >Comments</label
+  ><textarea
+    data-testid="form-textarea"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk d e f g h i j k l m n o p q r s t u v w x y z form-control form-control-small"
+    id="foobar"
+  ></textarea>
+</div>
+;
+"
+`;
+
+exports[`components/Form/TextareaField/TextareaField should display a textarea field with a placeholder 1`] = `
+".a {
+  margin-bottom: 1rem;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-bottom: 0.5rem;
+}
+.d {
+  appearance: none;
+}
+.e {
+  background-clip: padding-box;
+}
+.f {
+  background-color: #fff;
+}
+.g {
+  color: #212529;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  line-height: 1.5;
+}
+.l {
+  width: 100%;
+}
+.q:disabled {
+  background-color: #e9ecef;
+}
+.r:disabled {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ac::placeholder {
+  opacity: 1;
+}
+.ae::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.af::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ag::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ah::-moz-placeholder {
+  opacity: 1;
+}
+.ai:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aj:-ms-input-placeholder {
+  opacity: 1;
+}
+.ak:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.al:-moz-placeholder {
+  opacity: 1;
+}
+.am {
+  transition-property: border-color, box-shadow;
+}
+.an {
+  transition-duration: 0.15s, 0.15s;
+}
+.ao {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ap {
+  transition-timing-function: ease, ease;
+}
+.aq {
+  padding-top: 0.375rem;
+}
+.ar {
+  padding-right: 0.75rem;
+}
+.as {
+  padding-bottom: 0.375rem;
+}
+.at {
+  padding-left: 0.75rem;
+}
+.au {
+  border-top-left-radius: 0.375rem;
+}
+.av {
+  border-top-right-radius: 0.375rem;
+}
+.aw {
+  border-bottom-right-radius: 0.375rem;
+}
+.ax {
+  border-bottom-left-radius: 0.375rem;
+}
+.ay {
+  border-top-width: 1px;
+}
+.az {
+  border-right-width: 1px;
+}
+.ba {
+  border-bottom-width: 1px;
+}
+.bb {
+  border-left-width: 1px;
+}
+.bc {
+  border-top-style: solid;
+}
+.bd {
+  border-right-style: solid;
+}
+.be {
+  border-bottom-style: solid;
+}
+.bf {
+  border-left-style: solid;
+}
+.bg {
+  border-top-color: #dee2e6;
+}
+.bh {
+  border-right-color: #dee2e6;
+}
+.bi {
+  border-bottom-color: #dee2e6;
+}
+.bj {
+  border-left-color: #dee2e6;
+}
+.s:focus {
+  background-color: #fff;
+}
+.t:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.u:focus {
+  color: #212529;
+}
+.v:focus {
+  outline-width: 0;
+}
+.w:focus {
+  border-top-color: #86b7fe;
+}
+.x:focus {
+  border-right-color: #86b7fe;
+}
+.y:focus {
+  border-bottom-color: #86b7fe;
+}
+.z:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="textarea-field" class="a textarea-field">
+  <label data-testid="form-label" for="foobar" class="b c form-label"
+    >Comments</label
+  ><textarea
+    data-testid="form-textarea"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj d e f g h i j k l m n o p q r s t u v w x y z form-control form-control-medium"
+    id="foobar"
+    placeholder="Add comments"
+  ></textarea>
+</div>
+;
+"
+`;
+
+exports[`components/Form/TextareaField/TextareaField should display a textarea field with text below the control 1`] = `
+".a {
+  margin-bottom: 1rem;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-bottom: 0.5rem;
+}
+.d {
+  appearance: none;
+}
+.e {
+  background-clip: padding-box;
+}
+.f {
+  background-color: #fff;
+}
+.g {
+  color: #212529;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  line-height: 1.5;
+}
+.l {
+  width: 100%;
+}
+.q:disabled {
+  background-color: #e9ecef;
+}
+.r:disabled {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ac::placeholder {
+  opacity: 1;
+}
+.ae::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.af::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ag::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ah::-moz-placeholder {
+  opacity: 1;
+}
+.ai:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aj:-ms-input-placeholder {
+  opacity: 1;
+}
+.ak:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.al:-moz-placeholder {
+  opacity: 1;
+}
+.am {
+  transition-property: border-color, box-shadow;
+}
+.an {
+  transition-duration: 0.15s, 0.15s;
+}
+.ao {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ap {
+  transition-timing-function: ease, ease;
+}
+.aq {
+  padding-top: 0.375rem;
+}
+.ar {
+  padding-right: 0.75rem;
+}
+.as {
+  padding-bottom: 0.375rem;
+}
+.at {
+  padding-left: 0.75rem;
+}
+.au {
+  border-top-left-radius: 0.375rem;
+}
+.av {
+  border-top-right-radius: 0.375rem;
+}
+.aw {
+  border-bottom-right-radius: 0.375rem;
+}
+.ax {
+  border-bottom-left-radius: 0.375rem;
+}
+.ay {
+  border-top-width: 1px;
+}
+.az {
+  border-right-width: 1px;
+}
+.ba {
+  border-bottom-width: 1px;
+}
+.bb {
+  border-left-width: 1px;
+}
+.bc {
+  border-top-style: solid;
+}
+.bd {
+  border-right-style: solid;
+}
+.be {
+  border-bottom-style: solid;
+}
+.bf {
+  border-left-style: solid;
+}
+.bg {
+  border-top-color: #dee2e6;
+}
+.bh {
+  border-right-color: #dee2e6;
+}
+.bi {
+  border-bottom-color: #dee2e6;
+}
+.bj {
+  border-left-color: #dee2e6;
+}
+.bk {
+  margin-top: 0.25rem;
+}
+.bl {
+  font-size: 0.875em;
+}
+.bm {
+  color: rgba(33, 37, 41, 0.75);
+}
+.s:focus {
+  background-color: #fff;
+}
+.t:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.u:focus {
+  color: #212529;
+}
+.v:focus {
+  outline-width: 0;
+}
+.w:focus {
+  border-top-color: #86b7fe;
+}
+.x:focus {
+  border-right-color: #86b7fe;
+}
+.y:focus {
+  border-bottom-color: #86b7fe;
+}
+.z:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="textarea-field" class="a textarea-field">
+  <label data-testid="form-label" for="foobar" class="b c form-label"
+    >Comments</label
+  ><textarea
+    data-testid="form-textarea"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj d e f g h i j k l m n o p q r s t u v w x y z form-control form-control-medium"
+    id="foobar"
+    placeholder="Add comments"
+  ></textarea>
+  <div data-testid="form-text" class="bk bl bm form-text">
+    Read content guidelines
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Form/TextareaField/TextareaField should render a readonly plaintext textarea of size large 1`] = `
+".a {
+  margin-bottom: 1rem;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-bottom: 0.5rem;
+}
+.d {
+  appearance: none;
+}
+.e {
+  background-clip: padding-box;
+}
+.f {
+  background-color: transparent;
+}
+.g {
+  color: #212529;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1.25rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  line-height: 1.5;
+}
+.l {
+  width: 100%;
+}
+.q:disabled {
+  background-color: #e9ecef;
+}
+.r:disabled {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ac::placeholder {
+  opacity: 1;
+}
+.ae {
+  margin-bottom: 0;
+}
+.af {
+  min-height: calc(1.5em + 1rem + 2px);
+}
+.ag {
+  padding-right: 0;
+}
+.ah {
+  padding-left: 0;
+}
+.ai::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aj::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ak::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.al::-moz-placeholder {
+  opacity: 1;
+}
+.am:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.an:-ms-input-placeholder {
+  opacity: 1;
+}
+.ao:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ap:-moz-placeholder {
+  opacity: 1;
+}
+.aq {
+  border-top-width: 1px;
+}
+.ar {
+  border-right-width: 0;
+}
+.as {
+  border-bottom-width: 1px;
+}
+.at {
+  border-left-width: 0;
+}
+.au {
+  transition-property: border-color, box-shadow;
+}
+.av {
+  transition-duration: 0.15s, 0.15s;
+}
+.aw {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ax {
+  transition-timing-function: ease, ease;
+}
+.ay {
+  padding-top: 0.5rem;
+}
+.az {
+  padding-bottom: 0.5rem;
+}
+.ba {
+  border-top-left-radius: 0.5rem;
+}
+.bb {
+  border-top-right-radius: 0.5rem;
+}
+.bc {
+  border-bottom-right-radius: 0.5rem;
+}
+.bd {
+  border-bottom-left-radius: 0.5rem;
+}
+.be {
+  border-top-style: solid;
+}
+.bf {
+  border-right-style: solid;
+}
+.bg {
+  border-bottom-style: solid;
+}
+.bh {
+  border-left-style: solid;
+}
+.bi {
+  border-top-color: transparent;
+}
+.bj {
+  border-right-color: transparent;
+}
+.bk {
+  border-bottom-color: transparent;
+}
+.bl {
+  border-left-color: transparent;
+}
+.s:focus {
+  background-color: #fff;
+}
+.t:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.u:focus {
+  color: #212529;
+}
+.v:focus {
+  outline-width: 0;
+}
+.w:focus {
+  border-top-color: #86b7fe;
+}
+.x:focus {
+  border-right-color: #86b7fe;
+}
+.y:focus {
+  border-bottom-color: #86b7fe;
+}
+.z:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="textarea-field" class="a textarea-field">
+  <label data-testid="form-label" for="foobar" class="b c form-label"
+    >Comments</label
+  ><textarea
+    data-testid="form-textarea"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl d e f g h i j k l m n o p q r s t u v w x y z form-control form-control-large"
+    id="foobar"
+    readonly=""
+  >
+Blah Blah</textarea
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Form/TextareaField/TextareaField should render a readonly plaintext textarea of size medium 1`] = `
+".a {
+  margin-bottom: 1rem;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-bottom: 0.5rem;
+}
+.d {
+  appearance: none;
+}
+.e {
+  background-clip: padding-box;
+}
+.f {
+  background-color: transparent;
+}
+.g {
+  color: #212529;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  line-height: 1.5;
+}
+.l {
+  width: 100%;
+}
+.q:disabled {
+  background-color: #e9ecef;
+}
+.r:disabled {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ac::placeholder {
+  opacity: 1;
+}
+.ae {
+  margin-bottom: 0;
+}
+.af::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ag::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ah::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ai::-moz-placeholder {
+  opacity: 1;
+}
+.aj:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ak:-ms-input-placeholder {
+  opacity: 1;
+}
+.al:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.am:-moz-placeholder {
+  opacity: 1;
+}
+.an {
+  border-top-width: 1px;
+}
+.ao {
+  border-right-width: 0;
+}
+.ap {
+  border-bottom-width: 1px;
+}
+.aq {
+  border-left-width: 0;
+}
+.ar {
+  transition-property: border-color, box-shadow;
+}
+.as {
+  transition-duration: 0.15s, 0.15s;
+}
+.at {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.au {
+  transition-timing-function: ease, ease;
+}
+.av {
+  padding-top: 0.375rem;
+}
+.aw {
+  padding-right: 0;
+}
+.ax {
+  padding-bottom: 0.375rem;
+}
+.ay {
+  padding-left: 0;
+}
+.az {
+  border-top-left-radius: 0.375rem;
+}
+.ba {
+  border-top-right-radius: 0.375rem;
+}
+.bb {
+  border-bottom-right-radius: 0.375rem;
+}
+.bc {
+  border-bottom-left-radius: 0.375rem;
+}
+.bd {
+  border-top-style: solid;
+}
+.be {
+  border-right-style: solid;
+}
+.bf {
+  border-bottom-style: solid;
+}
+.bg {
+  border-left-style: solid;
+}
+.bh {
+  border-top-color: transparent;
+}
+.bi {
+  border-right-color: transparent;
+}
+.bj {
+  border-bottom-color: transparent;
+}
+.bk {
+  border-left-color: transparent;
+}
+.s:focus {
+  background-color: #fff;
+}
+.t:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.u:focus {
+  color: #212529;
+}
+.v:focus {
+  outline-width: 0;
+}
+.w:focus {
+  border-top-color: #86b7fe;
+}
+.x:focus {
+  border-right-color: #86b7fe;
+}
+.y:focus {
+  border-bottom-color: #86b7fe;
+}
+.z:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="textarea-field" class="a textarea-field">
+  <label data-testid="form-label" for="foobar" class="b c form-label"
+    >Comments</label
+  ><textarea
+    data-testid="form-textarea"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk d e f g h i j k l m n o p q r s t u v w x y z form-control form-control-medium"
+    id="foobar"
+    readonly=""
+  >
+Blah Blah</textarea
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Form/TextareaField/TextareaField should render a readonly plaintext textarea of size small 1`] = `
+".a {
+  margin-bottom: 1rem;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-bottom: 0.5rem;
+}
+.d {
+  appearance: none;
+}
+.e {
+  background-clip: padding-box;
+}
+.f {
+  background-color: transparent;
+}
+.g {
+  color: #212529;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 0.875rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  line-height: 1.5;
+}
+.l {
+  width: 100%;
+}
+.q:disabled {
+  background-color: #e9ecef;
+}
+.r:disabled {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ac::placeholder {
+  opacity: 1;
+}
+.ae {
+  margin-bottom: 0;
+}
+.af {
+  min-height: calc(1.5em + 0.5rem + calc(1px * 2));
+}
+.ag {
+  padding-right: 0;
+}
+.ah {
+  padding-left: 0;
+}
+.ai::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aj::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ak::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.al::-moz-placeholder {
+  opacity: 1;
+}
+.am:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.an:-ms-input-placeholder {
+  opacity: 1;
+}
+.ao:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ap:-moz-placeholder {
+  opacity: 1;
+}
+.aq {
+  border-top-width: 1px;
+}
+.ar {
+  border-right-width: 0;
+}
+.as {
+  border-bottom-width: 1px;
+}
+.at {
+  border-left-width: 0;
+}
+.au {
+  transition-property: border-color, box-shadow;
+}
+.av {
+  transition-duration: 0.15s, 0.15s;
+}
+.aw {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ax {
+  transition-timing-function: ease, ease;
+}
+.ay {
+  padding-top: 0.25rem;
+}
+.az {
+  padding-bottom: 0.25rem;
+}
+.ba {
+  border-top-left-radius: 0.25rem;
+}
+.bb {
+  border-top-right-radius: 0.25rem;
+}
+.bc {
+  border-bottom-right-radius: 0.25rem;
+}
+.bd {
+  border-bottom-left-radius: 0.25rem;
+}
+.be {
+  border-top-style: solid;
+}
+.bf {
+  border-right-style: solid;
+}
+.bg {
+  border-bottom-style: solid;
+}
+.bh {
+  border-left-style: solid;
+}
+.bi {
+  border-top-color: transparent;
+}
+.bj {
+  border-right-color: transparent;
+}
+.bk {
+  border-bottom-color: transparent;
+}
+.bl {
+  border-left-color: transparent;
+}
+.s:focus {
+  background-color: #fff;
+}
+.t:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.u:focus {
+  color: #212529;
+}
+.v:focus {
+  outline-width: 0;
+}
+.w:focus {
+  border-top-color: #86b7fe;
+}
+.x:focus {
+  border-right-color: #86b7fe;
+}
+.y:focus {
+  border-bottom-color: #86b7fe;
+}
+.z:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="textarea-field" class="a textarea-field">
+  <label data-testid="form-label" for="foobar" class="b c form-label"
+    >Comments</label
+  ><textarea
+    data-testid="form-textarea"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl d e f g h i j k l m n o p q r s t u v w x y z form-control form-control-small"
+    id="foobar"
+    readonly=""
+  >
+Blah Blah</textarea
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Form/TextareaField/TextareaField should render a readonly textarea 1`] = `
+".a {
+  margin-bottom: 1rem;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-bottom: 0.5rem;
+}
+.d {
+  appearance: none;
+}
+.e {
+  background-clip: padding-box;
+}
+.f {
+  background-color: #fff;
+}
+.g {
+  color: #212529;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  line-height: 1.5;
+}
+.l {
+  width: 100%;
+}
+.q:disabled {
+  background-color: #e9ecef;
+}
+.r:disabled {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ac::placeholder {
+  opacity: 1;
+}
+.ae::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.af::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ag::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ah::-moz-placeholder {
+  opacity: 1;
+}
+.ai:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aj:-ms-input-placeholder {
+  opacity: 1;
+}
+.ak:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.al:-moz-placeholder {
+  opacity: 1;
+}
+.am {
+  transition-property: border-color, box-shadow;
+}
+.an {
+  transition-duration: 0.15s, 0.15s;
+}
+.ao {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ap {
+  transition-timing-function: ease, ease;
+}
+.aq {
+  padding-top: 0.375rem;
+}
+.ar {
+  padding-right: 0.75rem;
+}
+.as {
+  padding-bottom: 0.375rem;
+}
+.at {
+  padding-left: 0.75rem;
+}
+.au {
+  border-top-left-radius: 0.375rem;
+}
+.av {
+  border-top-right-radius: 0.375rem;
+}
+.aw {
+  border-bottom-right-radius: 0.375rem;
+}
+.ax {
+  border-bottom-left-radius: 0.375rem;
+}
+.ay {
+  border-top-width: 1px;
+}
+.az {
+  border-right-width: 1px;
+}
+.ba {
+  border-bottom-width: 1px;
+}
+.bb {
+  border-left-width: 1px;
+}
+.bc {
+  border-top-style: solid;
+}
+.bd {
+  border-right-style: solid;
+}
+.be {
+  border-bottom-style: solid;
+}
+.bf {
+  border-left-style: solid;
+}
+.bg {
+  border-top-color: #dee2e6;
+}
+.bh {
+  border-right-color: #dee2e6;
+}
+.bi {
+  border-bottom-color: #dee2e6;
+}
+.bj {
+  border-left-color: #dee2e6;
+}
+.s:focus {
+  background-color: #fff;
+}
+.t:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.u:focus {
+  color: #212529;
+}
+.v:focus {
+  outline-width: 0;
+}
+.w:focus {
+  border-top-color: #86b7fe;
+}
+.x:focus {
+  border-right-color: #86b7fe;
+}
+.y:focus {
+  border-bottom-color: #86b7fe;
+}
+.z:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="textarea-field" class="a textarea-field">
+  <label data-testid="form-label" for="foobar" class="b c form-label"
+    >Comments</label
+  ><textarea
+    data-testid="form-textarea"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj d e f g h i j k l m n o p q r s t u v w x y z form-control form-control-medium"
+    id="foobar"
+    readonly=""
+  ></textarea>
+</div>
+;
+"
+`;
+
+exports[`components/Form/TextareaField/TextareaField should render a textarea with a value 1`] = `
+".a {
+  margin-bottom: 1rem;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-bottom: 0.5rem;
+}
+.d {
+  appearance: none;
+}
+.e {
+  background-clip: padding-box;
+}
+.f {
+  background-color: #fff;
+}
+.g {
+  color: #212529;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  line-height: 1.5;
+}
+.l {
+  width: 100%;
+}
+.q:disabled {
+  background-color: #e9ecef;
+}
+.r:disabled {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ac::placeholder {
+  opacity: 1;
+}
+.ae::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.af::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ag::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ah::-moz-placeholder {
+  opacity: 1;
+}
+.ai:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aj:-ms-input-placeholder {
+  opacity: 1;
+}
+.ak:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.al:-moz-placeholder {
+  opacity: 1;
+}
+.am {
+  transition-property: border-color, box-shadow;
+}
+.an {
+  transition-duration: 0.15s, 0.15s;
+}
+.ao {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ap {
+  transition-timing-function: ease, ease;
+}
+.aq {
+  padding-top: 0.375rem;
+}
+.ar {
+  padding-right: 0.75rem;
+}
+.as {
+  padding-bottom: 0.375rem;
+}
+.at {
+  padding-left: 0.75rem;
+}
+.au {
+  border-top-left-radius: 0.375rem;
+}
+.av {
+  border-top-right-radius: 0.375rem;
+}
+.aw {
+  border-bottom-right-radius: 0.375rem;
+}
+.ax {
+  border-bottom-left-radius: 0.375rem;
+}
+.ay {
+  border-top-width: 1px;
+}
+.az {
+  border-right-width: 1px;
+}
+.ba {
+  border-bottom-width: 1px;
+}
+.bb {
+  border-left-width: 1px;
+}
+.bc {
+  border-top-style: solid;
+}
+.bd {
+  border-right-style: solid;
+}
+.be {
+  border-bottom-style: solid;
+}
+.bf {
+  border-left-style: solid;
+}
+.bg {
+  border-top-color: #dee2e6;
+}
+.bh {
+  border-right-color: #dee2e6;
+}
+.bi {
+  border-bottom-color: #dee2e6;
+}
+.bj {
+  border-left-color: #dee2e6;
+}
+.s:focus {
+  background-color: #fff;
+}
+.t:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.u:focus {
+  color: #212529;
+}
+.v:focus {
+  outline-width: 0;
+}
+.w:focus {
+  border-top-color: #86b7fe;
+}
+.x:focus {
+  border-right-color: #86b7fe;
+}
+.y:focus {
+  border-bottom-color: #86b7fe;
+}
+.z:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="textarea-field" class="a textarea-field">
+  <label data-testid="form-label" for="foobar" class="b c form-label"
+    >Comments</label
+  ><textarea
+    data-testid="form-textarea"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj d e f g h i j k l m n o p q r s t u v w x y z form-control form-control-medium"
+    id="foobar"
+  >
+Blah Blah</textarea
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Form/TextareaField/TextareaField should render a textarea with a value 2`] = `
+".a {
+  margin-bottom: 1rem;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-bottom: 0.5rem;
+}
+.d {
+  appearance: none;
+}
+.e {
+  background-clip: padding-box;
+}
+.f {
+  background-color: #fff;
+}
+.g {
+  color: #212529;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  line-height: 1.5;
+}
+.l {
+  width: 100%;
+}
+.q:disabled {
+  background-color: #e9ecef;
+}
+.r:disabled {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ac::placeholder {
+  opacity: 1;
+}
+.ae::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.af::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ag::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ah::-moz-placeholder {
+  opacity: 1;
+}
+.ai:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aj:-ms-input-placeholder {
+  opacity: 1;
+}
+.ak:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.al:-moz-placeholder {
+  opacity: 1;
+}
+.am {
+  transition-property: border-color, box-shadow;
+}
+.an {
+  transition-duration: 0.15s, 0.15s;
+}
+.ao {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ap {
+  transition-timing-function: ease, ease;
+}
+.aq {
+  padding-top: 0.375rem;
+}
+.ar {
+  padding-right: 0.75rem;
+}
+.as {
+  padding-bottom: 0.375rem;
+}
+.at {
+  padding-left: 0.75rem;
+}
+.au {
+  border-top-left-radius: 0.375rem;
+}
+.av {
+  border-top-right-radius: 0.375rem;
+}
+.aw {
+  border-bottom-right-radius: 0.375rem;
+}
+.ax {
+  border-bottom-left-radius: 0.375rem;
+}
+.ay {
+  border-top-width: 1px;
+}
+.az {
+  border-right-width: 1px;
+}
+.ba {
+  border-bottom-width: 1px;
+}
+.bb {
+  border-left-width: 1px;
+}
+.bc {
+  border-top-style: solid;
+}
+.bd {
+  border-right-style: solid;
+}
+.be {
+  border-bottom-style: solid;
+}
+.bf {
+  border-left-style: solid;
+}
+.bg {
+  border-top-color: #dee2e6;
+}
+.bh {
+  border-right-color: #dee2e6;
+}
+.bi {
+  border-bottom-color: #dee2e6;
+}
+.bj {
+  border-left-color: #dee2e6;
+}
+.s:focus {
+  background-color: #fff;
+}
+.t:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.u:focus {
+  color: #212529;
+}
+.v:focus {
+  outline-width: 0;
+}
+.w:focus {
+  border-top-color: #86b7fe;
+}
+.x:focus {
+  border-right-color: #86b7fe;
+}
+.y:focus {
+  border-bottom-color: #86b7fe;
+}
+.z:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="textarea-field" class="a textarea-field">
+  <label data-testid="form-label" for="foobar" class="b c form-label"
+    >Comments</label
+  ><textarea
+    data-testid="form-textarea"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj d e f g h i j k l m n o p q r s t u v w x y z form-control form-control-medium"
+    id="foobar"
+  >
+Blah Blah</textarea
+  >
+</div>
+;
+"
+`;

@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Grid should automatically designate column size based on the number of items 1`] = `
+".a {
+  display: grid;
+}
+.b {
+  grid-template-rows: repeat(1, 1fr);
+}
+.c {
+  grid-template-columns: repeat(12, 1fr);
+}
+.d {
+  row-gap: 1.5em;
+}
+.e {
+  column-gap: 1.5em;
+}
+.f {
+  background-color: rgba(112.520718, 44.062154, 249.437846, 0.15);
+}
+.g {
+  padding-top: 0.75rem;
+}
+.h {
+  padding-bottom: 0.75rem;
+}
+.i {
+  padding-left: 0.75rem;
+}
+.j {
+  padding-right: 0.75rem;
+}
+.k {
+  height: 4rem;
+}
+.l {
+  border-top-width: 1px;
+}
+.m {
+  border-right-width: 1px;
+}
+.n {
+  border-bottom-width: 1px;
+}
+.o {
+  border-left-width: 1px;
+}
+.p {
+  border-top-style: solid;
+}
+.q {
+  border-right-style: solid;
+}
+.r {
+  border-bottom-style: solid;
+}
+.s {
+  border-left-style: solid;
+}
+.t {
+  border-top-color: rgba(112.520718, 44.062154, 249.437846, 0.3);
+}
+.u {
+  border-right-color: rgba(112.520718, 44.062154, 249.437846, 0.3);
+}
+.v {
+  border-bottom-color: rgba(112.520718, 44.062154, 249.437846, 0.3);
+}
+.w {
+  border-left-color: rgba(112.520718, 44.062154, 249.437846, 0.3);
+}
+
+
+<div data-testid="grid" class="a b c d e grid">
+  <div data-testid="box" class="f g h i j k l m n o p q r s t u v w box">
+    box
+  </div>
+  <div data-testid="box" class="f g h i j k l m n o p q r s t u v w box">
+    box
+  </div>
+  <div data-testid="box" class="f g h i j k l m n o p q r s t u v w box">
+    box
+  </div>
+  <div data-testid="box" class="f g h i j k l m n o p q r s t u v w box">
+    box
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Grid should create a responsive grid that uses different sizes per breakpoint 1`] = `
+".a {
+  display: grid;
+}
+.b {
+  grid-template-rows: repeat(1, 1fr);
+}
+.c {
+  grid-template-columns: repeat(12, 1fr);
+}
+.d {
+  row-gap: 1.5em;
+}
+.e {
+  column-gap: 1.5em;
+}
+.f {
+  grid-column: auto/span 2;
+}
+.i {
+  grid-column: auto/span 4;
+}
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .g {
+    grid-column: auto/span 6;
+  }
+}
+@media (min-width: 992px) {
+  .h {
+    grid-column: auto/span 4;
+  }
+}
+
+
+<div data-testid="grid" class="a b c d e grid">
+  <div data-testid="grid-column" class="f g h grid-column-2">
+    g-col-2 g-sm-6 g-lg-4
+  </div>
+  <div data-testid="grid-column" class="f g h grid-column-2">
+    g-col-2 g-sm-6 g-lg-4
+  </div>
+  <div data-testid="grid-column" class="g h i grid-column-4">
+    g-col-2 g-sm-6 g-lg-4
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Grid should create a responsive grid that uses different start points per breakpoint 1`] = `
+".a {
+  display: grid;
+}
+.b {
+  grid-template-rows: repeat(1, 1fr);
+}
+.c {
+  grid-template-columns: repeat(12, 1fr);
+}
+.d {
+  row-gap: 1.5em;
+}
+.e {
+  column-gap: 1.5em;
+}
+.f {
+  grid-column: auto/span 2;
+}
+.i {
+  grid-column-start: 2;
+}
+.k {
+  grid-column: auto/span 4;
+}
+@media (min-width: 576px) {
+  .j {
+    grid-column-start: 4;
+  }
+}
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .g {
+    grid-column: auto/span 6;
+  }
+}
+@media (min-width: 992px) {
+  .h {
+    grid-column: auto/span 4;
+  }
+}
+
+
+<div data-testid="grid" class="a b c d e grid">
+  <div data-testid="grid-column" class="f g h i j grid-column-2" startLg="1">
+    g-col-2 g-sm-6 g-lg-4
+  </div>
+  <div data-testid="grid-column" class="f g h j grid-column-2" startLg="2">
+    g-col-2 g-sm-6 g-lg-4
+  </div>
+  <div data-testid="grid-column" class="g h j k grid-column-4" startLg="3">
+    g-col-2 g-sm-6 g-lg-4
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Grid should render a grid with 3 columns 1`] = `
+".a {
+  display: grid;
+}
+.b {
+  grid-template-rows: repeat(1, 1fr);
+}
+.c {
+  grid-template-columns: repeat(12, 1fr);
+}
+.d {
+  row-gap: 1.5em;
+}
+.e {
+  column-gap: 1.5em;
+}
+.f {
+  grid-column: auto/span 4;
+}
+
+
+<div data-testid="grid" class="a b c d e grid">
+  <div data-testid="grid-column" class="f grid-column-4">g-col-4</div>
+  <div data-testid="grid-column" class="f grid-column-4">g-col-4</div>
+  <div data-testid="grid-column" class="f grid-column-4">g-col-4</div>
+</div>
+;
+"
+`;

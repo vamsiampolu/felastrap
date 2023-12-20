@@ -1,0 +1,1495 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/FileUploadField should display a file upload field with a label 1`] = `
+".a {
+  margin-bottom: 1rem;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-bottom: 0.5rem;
+}
+.d {
+  appearance: none;
+}
+.e {
+  background-clip: padding-box;
+}
+.f {
+  background-color: #fff;
+}
+.g {
+  color: #212529;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  line-height: 1.5;
+}
+.l {
+  width: 100%;
+}
+.m {
+  cursor: pointer;
+}
+.r:disabled {
+  background-color: #e9ecef;
+}
+.s:disabled {
+  cursor: default;
+}
+.t:disabled {
+  opacity: 1;
+}
+.ae::file-selector-button {
+  margin-right: 0.75rem;
+}
+.af::file-selector-button {
+  margin-end: 0.75rem;
+}
+.ag::file-selector-button {
+  margin-inline-end: 0.75rem;
+}
+.ah::file-selector-button {
+  color: #212529;
+}
+.ai::file-selector-button {
+  background-color: #f8f9fa;
+}
+.aj::file-selector-button {
+  pointer-events: none;
+}
+.ak::file-selector-button {
+  border-inline-end-width: 1px;
+}
+.ap::file-selector-button:hover:not(:disabled):not([readonly]) {
+  background-color: #e9ecef;
+}
+.aq::file-selector-button {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.ar::file-selector-button {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.as::file-selector-button {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.at::file-selector-button {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.au::file-selector-button {
+  border-top-left-radius: 0;
+}
+.av::file-selector-button {
+  border-top-right-radius: 0;
+}
+.aw::file-selector-button {
+  border-bottom-right-radius: 0;
+}
+.ax::file-selector-button {
+  border-bottom-left-radius: 0;
+}
+.ay::file-selector-button {
+  border-top-width: 0;
+}
+.az::file-selector-button {
+  border-right-width: 0;
+}
+.ba::file-selector-button {
+  border-bottom-width: 0;
+}
+.bb::file-selector-button {
+  border-left-width: 0;
+}
+.bc::file-selector-button {
+  border-top-style: solid;
+}
+.bd::file-selector-button {
+  border-right-style: solid;
+}
+.be::file-selector-button {
+  border-bottom-style: solid;
+}
+.bf::file-selector-button {
+  border-left-style: solid;
+}
+.bg::file-selector-button {
+  border-top-color: inherit;
+}
+.bh::file-selector-button {
+  border-right-color: inherit;
+}
+.bi::file-selector-button {
+  border-bottom-color: inherit;
+}
+.bj::file-selector-button {
+  border-left-color: inherit;
+}
+.bk::file-selector-button {
+  margin-top: -0.375rem;
+}
+.bl::file-selector-button {
+  margin-bottom: -0.375rem;
+}
+.bm::file-selector-button {
+  margin-left: -0.75rem;
+}
+.bn::file-selector-button {
+  padding-top: 0.375rem;
+}
+.bo::file-selector-button {
+  padding-right: 0.75rem;
+}
+.bp::file-selector-button {
+  padding-bottom: 0.375rem;
+}
+.bq::file-selector-button {
+  padding-left: 0.75rem;
+}
+.br {
+  transition-property: border-color, box-shadow;
+}
+.bs {
+  transition-duration: 0.15s, 0.15s;
+}
+.bt {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.bu {
+  transition-timing-function: ease, ease;
+}
+.bv {
+  padding-top: 0.375rem;
+}
+.bw {
+  padding-right: 0.75rem;
+}
+.bx {
+  padding-bottom: 0.375rem;
+}
+.by {
+  padding-left: 0.75rem;
+}
+.bz {
+  overflow-x: hidden;
+}
+.ca {
+  overflow-y: hidden;
+}
+.cb {
+  border-top-left-radius: 0.375rem;
+}
+.cc {
+  border-top-right-radius: 0.375rem;
+}
+.cd {
+  border-bottom-right-radius: 0.375rem;
+}
+.ce {
+  border-bottom-left-radius: 0.375rem;
+}
+.cf {
+  border-top-width: 1px;
+}
+.cg {
+  border-right-width: 1px;
+}
+.ch {
+  border-bottom-width: 1px;
+}
+.ci {
+  border-left-width: 1px;
+}
+.cj {
+  border-top-style: solid;
+}
+.ck {
+  border-right-style: solid;
+}
+.cl {
+  border-bottom-style: solid;
+}
+.cm {
+  border-left-style: solid;
+}
+.cn {
+  border-top-color: #dee2e6;
+}
+.co {
+  border-right-color: #dee2e6;
+}
+.cp {
+  border-bottom-color: #dee2e6;
+}
+.cq {
+  border-left-color: #dee2e6;
+}
+.u:focus {
+  background-color: #fff;
+}
+.v:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.w:focus {
+  color: #212529;
+}
+.x:focus {
+  outline-width: 0;
+}
+.y:focus {
+  border-top-color: #86b7fe;
+}
+.z:focus {
+  border-right-color: #86b7fe;
+}
+.ab:focus {
+  border-bottom-color: #86b7fe;
+}
+.ac:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .n {
+    transition-property: none;
+  }
+  .o {
+    transition-duration: 0s;
+  }
+  .p {
+    transition-delay: 0s;
+  }
+  .q {
+    transition-timing-function: ease;
+  }
+  .al::file-selector-button {
+    transition-property: none;
+  }
+  .am::file-selector-button {
+    transition-duration: 0s;
+  }
+  .an::file-selector-button {
+    transition-delay: 0s;
+  }
+  .ao::file-selector-button {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="file-upload-field" class="a file-upload-field">
+  <label data-testid="form-label" for="file-upload" class="b c form-label"
+    >Upload File</label
+  ><input
+    data-testid="file-upload"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq d e f g h i j k l m n o p q r s t u v w x y z form-control file-upload"
+    type="file"
+    id="file-upload"
+  />
+</div>
+;
+"
+`;
+
+exports[`components/Form/FileUploadField should display a file upload field without a label 1`] = `
+".a {
+  margin-bottom: 1rem;
+}
+.b {
+  appearance: none;
+}
+.c {
+  background-clip: padding-box;
+}
+.d {
+  background-color: #fff;
+}
+.e {
+  color: #212529;
+}
+.f {
+  display: block;
+}
+.g {
+  font-size: 1rem;
+}
+.h {
+  font-weight: 400;
+}
+.i {
+  line-height: 1.5;
+}
+.j {
+  width: 100%;
+}
+.k {
+  cursor: pointer;
+}
+.p:disabled {
+  background-color: #e9ecef;
+}
+.q:disabled {
+  cursor: default;
+}
+.r:disabled {
+  opacity: 1;
+}
+.ab::file-selector-button {
+  margin-right: 0.75rem;
+}
+.ac::file-selector-button {
+  margin-end: 0.75rem;
+}
+.ae::file-selector-button {
+  margin-inline-end: 0.75rem;
+}
+.af::file-selector-button {
+  color: #212529;
+}
+.ag::file-selector-button {
+  background-color: #f8f9fa;
+}
+.ah::file-selector-button {
+  pointer-events: none;
+}
+.ai::file-selector-button {
+  border-inline-end-width: 1px;
+}
+.an::file-selector-button:hover:not(:disabled):not([readonly]) {
+  background-color: #e9ecef;
+}
+.ao::file-selector-button {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.ap::file-selector-button {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.aq::file-selector-button {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.ar::file-selector-button {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.as::file-selector-button {
+  border-top-left-radius: 0;
+}
+.at::file-selector-button {
+  border-top-right-radius: 0;
+}
+.au::file-selector-button {
+  border-bottom-right-radius: 0;
+}
+.av::file-selector-button {
+  border-bottom-left-radius: 0;
+}
+.aw::file-selector-button {
+  border-top-width: 0;
+}
+.ax::file-selector-button {
+  border-right-width: 0;
+}
+.ay::file-selector-button {
+  border-bottom-width: 0;
+}
+.az::file-selector-button {
+  border-left-width: 0;
+}
+.ba::file-selector-button {
+  border-top-style: solid;
+}
+.bb::file-selector-button {
+  border-right-style: solid;
+}
+.bc::file-selector-button {
+  border-bottom-style: solid;
+}
+.bd::file-selector-button {
+  border-left-style: solid;
+}
+.be::file-selector-button {
+  border-top-color: inherit;
+}
+.bf::file-selector-button {
+  border-right-color: inherit;
+}
+.bg::file-selector-button {
+  border-bottom-color: inherit;
+}
+.bh::file-selector-button {
+  border-left-color: inherit;
+}
+.bi::file-selector-button {
+  margin-top: -0.375rem;
+}
+.bj::file-selector-button {
+  margin-bottom: -0.375rem;
+}
+.bk::file-selector-button {
+  margin-left: -0.75rem;
+}
+.bl::file-selector-button {
+  padding-top: 0.375rem;
+}
+.bm::file-selector-button {
+  padding-right: 0.75rem;
+}
+.bn::file-selector-button {
+  padding-bottom: 0.375rem;
+}
+.bo::file-selector-button {
+  padding-left: 0.75rem;
+}
+.bp {
+  transition-property: border-color, box-shadow;
+}
+.bq {
+  transition-duration: 0.15s, 0.15s;
+}
+.br {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.bs {
+  transition-timing-function: ease, ease;
+}
+.bt {
+  padding-top: 0.375rem;
+}
+.bu {
+  padding-right: 0.75rem;
+}
+.bv {
+  padding-bottom: 0.375rem;
+}
+.bw {
+  padding-left: 0.75rem;
+}
+.bx {
+  overflow-x: hidden;
+}
+.by {
+  overflow-y: hidden;
+}
+.bz {
+  border-top-left-radius: 0.375rem;
+}
+.ca {
+  border-top-right-radius: 0.375rem;
+}
+.cb {
+  border-bottom-right-radius: 0.375rem;
+}
+.cc {
+  border-bottom-left-radius: 0.375rem;
+}
+.cd {
+  border-top-width: 1px;
+}
+.ce {
+  border-right-width: 1px;
+}
+.cf {
+  border-bottom-width: 1px;
+}
+.cg {
+  border-left-width: 1px;
+}
+.ch {
+  border-top-style: solid;
+}
+.ci {
+  border-right-style: solid;
+}
+.cj {
+  border-bottom-style: solid;
+}
+.ck {
+  border-left-style: solid;
+}
+.cl {
+  border-top-color: #dee2e6;
+}
+.cm {
+  border-right-color: #dee2e6;
+}
+.cn {
+  border-bottom-color: #dee2e6;
+}
+.co {
+  border-left-color: #dee2e6;
+}
+.s:focus {
+  background-color: #fff;
+}
+.t:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.u:focus {
+  color: #212529;
+}
+.v:focus {
+  outline-width: 0;
+}
+.w:focus {
+  border-top-color: #86b7fe;
+}
+.x:focus {
+  border-right-color: #86b7fe;
+}
+.y:focus {
+  border-bottom-color: #86b7fe;
+}
+.z:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .l {
+    transition-property: none;
+  }
+  .m {
+    transition-duration: 0s;
+  }
+  .n {
+    transition-delay: 0s;
+  }
+  .o {
+    transition-timing-function: ease;
+  }
+  .aj::file-selector-button {
+    transition-property: none;
+  }
+  .ak::file-selector-button {
+    transition-duration: 0s;
+  }
+  .al::file-selector-button {
+    transition-delay: 0s;
+  }
+  .am::file-selector-button {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="file-upload-field" class="a file-upload-field">
+  <input
+    data-testid="file-upload"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf cg ch ci cj ck cl cm cn co d e f g h i j k l m n o p q r s t u v w x y z form-control file-upload"
+    type="file"
+    id="file-upload"
+  />
+</div>
+;
+"
+`;
+
+exports[`components/Form/FileUploadField should display a file upload of size large 1`] = `
+".a {
+  margin-bottom: 1rem;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-bottom: 0.5rem;
+}
+.d {
+  appearance: none;
+}
+.e {
+  background-clip: padding-box;
+}
+.f {
+  background-color: #fff;
+}
+.g {
+  color: #212529;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1.25rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  line-height: 1.5;
+}
+.l {
+  width: 100%;
+}
+.m {
+  cursor: pointer;
+}
+.r:disabled {
+  background-color: #e9ecef;
+}
+.s:disabled {
+  cursor: default;
+}
+.t:disabled {
+  opacity: 1;
+}
+.ae::file-selector-button {
+  margin-right: 1rem;
+}
+.af::file-selector-button {
+  margin-end: 0.75rem;
+}
+.ag::file-selector-button {
+  margin-inline-end: 1rem;
+}
+.ah::file-selector-button {
+  color: #212529;
+}
+.ai::file-selector-button {
+  background-color: #f8f9fa;
+}
+.aj::file-selector-button {
+  pointer-events: none;
+}
+.ak::file-selector-button {
+  border-inline-end-width: 1px;
+}
+.ap::file-selector-button:hover:not(:disabled):not([readonly]) {
+  background-color: #e9ecef;
+}
+.aq::file-selector-button {
+  -webkit-margin-end: 1rem;
+}
+.ar::file-selector-button {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.as::file-selector-button {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.at::file-selector-button {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.au::file-selector-button {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.av::file-selector-button {
+  border-top-left-radius: 0;
+}
+.aw::file-selector-button {
+  border-top-right-radius: 0;
+}
+.ax::file-selector-button {
+  border-bottom-right-radius: 0;
+}
+.ay::file-selector-button {
+  border-bottom-left-radius: 0;
+}
+.az::file-selector-button {
+  border-top-width: 0;
+}
+.ba::file-selector-button {
+  border-right-width: 0;
+}
+.bb::file-selector-button {
+  border-bottom-width: 0;
+}
+.bc::file-selector-button {
+  border-left-width: 0;
+}
+.bd::file-selector-button {
+  border-top-style: solid;
+}
+.be::file-selector-button {
+  border-right-style: solid;
+}
+.bf::file-selector-button {
+  border-bottom-style: solid;
+}
+.bg::file-selector-button {
+  border-left-style: solid;
+}
+.bh::file-selector-button {
+  border-top-color: inherit;
+}
+.bi::file-selector-button {
+  border-right-color: inherit;
+}
+.bj::file-selector-button {
+  border-bottom-color: inherit;
+}
+.bk::file-selector-button {
+  border-left-color: inherit;
+}
+.bl::file-selector-button {
+  margin-top: -0.5rem;
+}
+.bm::file-selector-button {
+  margin-bottom: -0.5rem;
+}
+.bn::file-selector-button {
+  margin-left: -1rem;
+}
+.bo::file-selector-button {
+  padding-top: 0.5rem;
+}
+.bp::file-selector-button {
+  padding-right: 1rem;
+}
+.bq::file-selector-button {
+  padding-bottom: 0.5rem;
+}
+.br::file-selector-button {
+  padding-left: 1rem;
+}
+.bs {
+  min-height: calc(1.5em + 1rem + 2px);
+}
+.bt {
+  transition-property: border-color, box-shadow;
+}
+.bu {
+  transition-duration: 0.15s, 0.15s;
+}
+.bv {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.bw {
+  transition-timing-function: ease, ease;
+}
+.bx {
+  padding-top: 0.5rem;
+}
+.by {
+  padding-right: 1rem;
+}
+.bz {
+  padding-bottom: 0.5rem;
+}
+.ca {
+  padding-left: 1rem;
+}
+.cb {
+  overflow-x: hidden;
+}
+.cc {
+  overflow-y: hidden;
+}
+.cd {
+  border-top-left-radius: 0.5rem;
+}
+.ce {
+  border-top-right-radius: 0.5rem;
+}
+.cf {
+  border-bottom-right-radius: 0.5rem;
+}
+.cg {
+  border-bottom-left-radius: 0.5rem;
+}
+.ch {
+  border-top-width: 1px;
+}
+.ci {
+  border-right-width: 1px;
+}
+.cj {
+  border-bottom-width: 1px;
+}
+.ck {
+  border-left-width: 1px;
+}
+.cl {
+  border-top-style: solid;
+}
+.cm {
+  border-right-style: solid;
+}
+.cn {
+  border-bottom-style: solid;
+}
+.co {
+  border-left-style: solid;
+}
+.cp {
+  border-top-color: #dee2e6;
+}
+.cq {
+  border-right-color: #dee2e6;
+}
+.cr {
+  border-bottom-color: #dee2e6;
+}
+.cs {
+  border-left-color: #dee2e6;
+}
+.u:focus {
+  background-color: #fff;
+}
+.v:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.w:focus {
+  color: #212529;
+}
+.x:focus {
+  outline-width: 0;
+}
+.y:focus {
+  border-top-color: #86b7fe;
+}
+.z:focus {
+  border-right-color: #86b7fe;
+}
+.ab:focus {
+  border-bottom-color: #86b7fe;
+}
+.ac:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .n {
+    transition-property: none;
+  }
+  .o {
+    transition-duration: 0s;
+  }
+  .p {
+    transition-delay: 0s;
+  }
+  .q {
+    transition-timing-function: ease;
+  }
+  .al::file-selector-button {
+    transition-property: none;
+  }
+  .am::file-selector-button {
+    transition-duration: 0s;
+  }
+  .an::file-selector-button {
+    transition-delay: 0s;
+  }
+  .ao::file-selector-button {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="file-upload-field" class="a file-upload-field">
+  <label data-testid="form-label" for="file-upload" class="b c form-label"
+    >Upload File</label
+  ><input
+    data-testid="file-upload"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs d e f g h i j k l m n o p q r s t u v w x y z form-control file-upload"
+    type="file"
+    id="file-upload"
+  />
+</div>
+;
+"
+`;
+
+exports[`components/Form/FileUploadField should display a file upload of size medium 1`] = `
+".a {
+  margin-bottom: 1rem;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-bottom: 0.5rem;
+}
+.d {
+  appearance: none;
+}
+.e {
+  background-clip: padding-box;
+}
+.f {
+  background-color: #fff;
+}
+.g {
+  color: #212529;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  line-height: 1.5;
+}
+.l {
+  width: 100%;
+}
+.m {
+  cursor: pointer;
+}
+.r:disabled {
+  background-color: #e9ecef;
+}
+.s:disabled {
+  cursor: default;
+}
+.t:disabled {
+  opacity: 1;
+}
+.ae::file-selector-button {
+  margin-right: 0.75rem;
+}
+.af::file-selector-button {
+  margin-end: 0.75rem;
+}
+.ag::file-selector-button {
+  margin-inline-end: 0.75rem;
+}
+.ah::file-selector-button {
+  color: #212529;
+}
+.ai::file-selector-button {
+  background-color: #f8f9fa;
+}
+.aj::file-selector-button {
+  pointer-events: none;
+}
+.ak::file-selector-button {
+  border-inline-end-width: 1px;
+}
+.ap::file-selector-button:hover:not(:disabled):not([readonly]) {
+  background-color: #e9ecef;
+}
+.aq::file-selector-button {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.ar::file-selector-button {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.as::file-selector-button {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.at::file-selector-button {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.au::file-selector-button {
+  border-top-left-radius: 0;
+}
+.av::file-selector-button {
+  border-top-right-radius: 0;
+}
+.aw::file-selector-button {
+  border-bottom-right-radius: 0;
+}
+.ax::file-selector-button {
+  border-bottom-left-radius: 0;
+}
+.ay::file-selector-button {
+  border-top-width: 0;
+}
+.az::file-selector-button {
+  border-right-width: 0;
+}
+.ba::file-selector-button {
+  border-bottom-width: 0;
+}
+.bb::file-selector-button {
+  border-left-width: 0;
+}
+.bc::file-selector-button {
+  border-top-style: solid;
+}
+.bd::file-selector-button {
+  border-right-style: solid;
+}
+.be::file-selector-button {
+  border-bottom-style: solid;
+}
+.bf::file-selector-button {
+  border-left-style: solid;
+}
+.bg::file-selector-button {
+  border-top-color: inherit;
+}
+.bh::file-selector-button {
+  border-right-color: inherit;
+}
+.bi::file-selector-button {
+  border-bottom-color: inherit;
+}
+.bj::file-selector-button {
+  border-left-color: inherit;
+}
+.bk::file-selector-button {
+  margin-top: -0.375rem;
+}
+.bl::file-selector-button {
+  margin-bottom: -0.375rem;
+}
+.bm::file-selector-button {
+  margin-left: -0.75rem;
+}
+.bn::file-selector-button {
+  padding-top: 0.375rem;
+}
+.bo::file-selector-button {
+  padding-right: 0.75rem;
+}
+.bp::file-selector-button {
+  padding-bottom: 0.375rem;
+}
+.bq::file-selector-button {
+  padding-left: 0.75rem;
+}
+.br {
+  transition-property: border-color, box-shadow;
+}
+.bs {
+  transition-duration: 0.15s, 0.15s;
+}
+.bt {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.bu {
+  transition-timing-function: ease, ease;
+}
+.bv {
+  padding-top: 0.375rem;
+}
+.bw {
+  padding-right: 0.75rem;
+}
+.bx {
+  padding-bottom: 0.375rem;
+}
+.by {
+  padding-left: 0.75rem;
+}
+.bz {
+  overflow-x: hidden;
+}
+.ca {
+  overflow-y: hidden;
+}
+.cb {
+  border-top-left-radius: 0.375rem;
+}
+.cc {
+  border-top-right-radius: 0.375rem;
+}
+.cd {
+  border-bottom-right-radius: 0.375rem;
+}
+.ce {
+  border-bottom-left-radius: 0.375rem;
+}
+.cf {
+  border-top-width: 1px;
+}
+.cg {
+  border-right-width: 1px;
+}
+.ch {
+  border-bottom-width: 1px;
+}
+.ci {
+  border-left-width: 1px;
+}
+.cj {
+  border-top-style: solid;
+}
+.ck {
+  border-right-style: solid;
+}
+.cl {
+  border-bottom-style: solid;
+}
+.cm {
+  border-left-style: solid;
+}
+.cn {
+  border-top-color: #dee2e6;
+}
+.co {
+  border-right-color: #dee2e6;
+}
+.cp {
+  border-bottom-color: #dee2e6;
+}
+.cq {
+  border-left-color: #dee2e6;
+}
+.u:focus {
+  background-color: #fff;
+}
+.v:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.w:focus {
+  color: #212529;
+}
+.x:focus {
+  outline-width: 0;
+}
+.y:focus {
+  border-top-color: #86b7fe;
+}
+.z:focus {
+  border-right-color: #86b7fe;
+}
+.ab:focus {
+  border-bottom-color: #86b7fe;
+}
+.ac:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .n {
+    transition-property: none;
+  }
+  .o {
+    transition-duration: 0s;
+  }
+  .p {
+    transition-delay: 0s;
+  }
+  .q {
+    transition-timing-function: ease;
+  }
+  .al::file-selector-button {
+    transition-property: none;
+  }
+  .am::file-selector-button {
+    transition-duration: 0s;
+  }
+  .an::file-selector-button {
+    transition-delay: 0s;
+  }
+  .ao::file-selector-button {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="file-upload-field" class="a file-upload-field">
+  <label data-testid="form-label" for="file-upload" class="b c form-label"
+    >Upload File</label
+  ><input
+    data-testid="file-upload"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq d e f g h i j k l m n o p q r s t u v w x y z form-control file-upload"
+    type="file"
+    id="file-upload"
+  />
+</div>
+;
+"
+`;
+
+exports[`components/Form/FileUploadField should display a file upload of size small 1`] = `
+".a {
+  margin-bottom: 1rem;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-bottom: 0.5rem;
+}
+.d {
+  appearance: none;
+}
+.e {
+  background-clip: padding-box;
+}
+.f {
+  background-color: #fff;
+}
+.g {
+  color: #212529;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 0.875rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  line-height: 1.5;
+}
+.l {
+  width: 100%;
+}
+.m {
+  cursor: pointer;
+}
+.r:disabled {
+  background-color: #e9ecef;
+}
+.s:disabled {
+  cursor: default;
+}
+.t:disabled {
+  opacity: 1;
+}
+.ae::file-selector-button {
+  margin-right: 0.5rem;
+}
+.af::file-selector-button {
+  margin-end: 0.75rem;
+}
+.ag::file-selector-button {
+  margin-inline-end: 0.5rem;
+}
+.ah::file-selector-button {
+  color: #212529;
+}
+.ai::file-selector-button {
+  background-color: #f8f9fa;
+}
+.aj::file-selector-button {
+  pointer-events: none;
+}
+.ak::file-selector-button {
+  border-inline-end-width: 1px;
+}
+.ap::file-selector-button:hover:not(:disabled):not([readonly]) {
+  background-color: #e9ecef;
+}
+.aq::file-selector-button {
+  -webkit-margin-end: 0.5rem;
+}
+.ar::file-selector-button {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.as::file-selector-button {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.at::file-selector-button {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.au::file-selector-button {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.av::file-selector-button {
+  border-top-left-radius: 0;
+}
+.aw::file-selector-button {
+  border-top-right-radius: 0;
+}
+.ax::file-selector-button {
+  border-bottom-right-radius: 0;
+}
+.ay::file-selector-button {
+  border-bottom-left-radius: 0;
+}
+.az::file-selector-button {
+  border-top-width: 0;
+}
+.ba::file-selector-button {
+  border-right-width: 0;
+}
+.bb::file-selector-button {
+  border-bottom-width: 0;
+}
+.bc::file-selector-button {
+  border-left-width: 0;
+}
+.bd::file-selector-button {
+  border-top-style: solid;
+}
+.be::file-selector-button {
+  border-right-style: solid;
+}
+.bf::file-selector-button {
+  border-bottom-style: solid;
+}
+.bg::file-selector-button {
+  border-left-style: solid;
+}
+.bh::file-selector-button {
+  border-top-color: inherit;
+}
+.bi::file-selector-button {
+  border-right-color: inherit;
+}
+.bj::file-selector-button {
+  border-bottom-color: inherit;
+}
+.bk::file-selector-button {
+  border-left-color: inherit;
+}
+.bl::file-selector-button {
+  margin-top: -0.25rem;
+}
+.bm::file-selector-button {
+  margin-bottom: -0.25rem;
+}
+.bn::file-selector-button {
+  margin-left: -0.5rem;
+}
+.bo::file-selector-button {
+  padding-top: 0.25rem;
+}
+.bp::file-selector-button {
+  padding-right: 0.5rem;
+}
+.bq::file-selector-button {
+  padding-bottom: 0.25rem;
+}
+.br::file-selector-button {
+  padding-left: 0.5rem;
+}
+.bs {
+  min-height: calc(1.5em + 0.5rem + 2px);
+}
+.bt {
+  transition-property: border-color, box-shadow;
+}
+.bu {
+  transition-duration: 0.15s, 0.15s;
+}
+.bv {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.bw {
+  transition-timing-function: ease, ease;
+}
+.bx {
+  padding-top: 0.25rem;
+}
+.by {
+  padding-right: 0.5rem;
+}
+.bz {
+  padding-bottom: 0.25rem;
+}
+.ca {
+  padding-left: 0.5rem;
+}
+.cb {
+  overflow-x: hidden;
+}
+.cc {
+  overflow-y: hidden;
+}
+.cd {
+  border-top-left-radius: 0.25rem;
+}
+.ce {
+  border-top-right-radius: 0.25rem;
+}
+.cf {
+  border-bottom-right-radius: 0.25rem;
+}
+.cg {
+  border-bottom-left-radius: 0.25rem;
+}
+.ch {
+  border-top-width: 1px;
+}
+.ci {
+  border-right-width: 1px;
+}
+.cj {
+  border-bottom-width: 1px;
+}
+.ck {
+  border-left-width: 1px;
+}
+.cl {
+  border-top-style: solid;
+}
+.cm {
+  border-right-style: solid;
+}
+.cn {
+  border-bottom-style: solid;
+}
+.co {
+  border-left-style: solid;
+}
+.cp {
+  border-top-color: #dee2e6;
+}
+.cq {
+  border-right-color: #dee2e6;
+}
+.cr {
+  border-bottom-color: #dee2e6;
+}
+.cs {
+  border-left-color: #dee2e6;
+}
+.u:focus {
+  background-color: #fff;
+}
+.v:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.w:focus {
+  color: #212529;
+}
+.x:focus {
+  outline-width: 0;
+}
+.y:focus {
+  border-top-color: #86b7fe;
+}
+.z:focus {
+  border-right-color: #86b7fe;
+}
+.ab:focus {
+  border-bottom-color: #86b7fe;
+}
+.ac:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .n {
+    transition-property: none;
+  }
+  .o {
+    transition-duration: 0s;
+  }
+  .p {
+    transition-delay: 0s;
+  }
+  .q {
+    transition-timing-function: ease;
+  }
+  .al::file-selector-button {
+    transition-property: none;
+  }
+  .am::file-selector-button {
+    transition-duration: 0s;
+  }
+  .an::file-selector-button {
+    transition-delay: 0s;
+  }
+  .ao::file-selector-button {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="file-upload-field" class="a file-upload-field">
+  <label data-testid="form-label" for="file-upload" class="b c form-label"
+    >Upload File</label
+  ><input
+    data-testid="file-upload"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs d e f g h i j k l m n o p q r s t u v w x y z form-control file-upload"
+    type="file"
+    id="file-upload"
+  />
+</div>
+;
+"
+`;

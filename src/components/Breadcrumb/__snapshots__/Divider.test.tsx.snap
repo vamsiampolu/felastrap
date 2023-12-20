@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Breadcrumbs/Divider should render a divider 1`] = `
+".a {
+  float: left;
+}
+.b {
+  padding-right: 0.5rem;
+}
+.c {
+  color: rgba(33, 37, 41, 0.75);
+}
+
+
+<span data-testid="breadcrumb-divider" aria-hidden="true" class="a b c">/</span
+>;
+"
+`;
+
+exports[`components/Breadcrumbs/Divider should render the default divider 1`] = `
+".a {
+  float: left;
+}
+.b {
+  padding-right: 0.5rem;
+}
+.c {
+  color: rgba(33, 37, 41, 0.75);
+}
+
+
+<span data-testid="breadcrumb-divider" aria-hidden="true" class="a b c">/</span
+>;
+"
+`;

@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/Floating/InputGroup/FloatingGroupButton should display a floating group button 1`] = `
+".a {
+  height: calc(3.5rem + 2px);
+}
+.b {
+  min-height: calc(3.5rem + 2px);
+}
+.c {
+  position: relative;
+}
+.d {
+  z-index: 2;
+}
+.f {
+  border-top-left-radius: 4px;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-right-radius: 0;
+}
+.i {
+  border-bottom-left-radius: 4px;
+}
+.j {
+  padding-top: 6px;
+}
+.k {
+  padding-bottom: 6px;
+}
+.l {
+  padding-left: 12px;
+}
+.m {
+  padding-right: 12px;
+}
+.n {
+  background-color: rgba(0, 0, 0, 0);
+}
+.o {
+  background-image: none;
+}
+.p {
+  color: #6c757d;
+}
+.q {
+  cursor: pointer;
+}
+.r {
+  display: inline-block;
+}
+.s {
+  font-size: 14px;
+}
+.t {
+  font-weight: 400;
+}
+.u {
+  line-height: 1.42857143;
+}
+.v {
+  margin-bottom: 0;
+}
+.w {
+  text-align: center;
+}
+.x {
+  touch-action: manipulation;
+}
+.y {
+  white-space: nowrap;
+}
+.z {
+  vertical-align: middle;
+}
+.ab {
+  user-select: none;
+}
+.am:disabled {
+  background-color: transparent;
+}
+.an:disabled {
+  color: #6c757d;
+}
+.ao:disabled {
+  box-shadow: none;
+}
+.ap:disabled {
+  cursor: not-allowed;
+}
+.aq:disabled {
+  filter: alpha(opacity=65);
+}
+.ar:disabled {
+  opacity: 0.65;
+}
+.as:disabled {
+  pointer-events: none;
+}
+.at:disabled {
+  border-top-color: #6c757d;
+}
+.au:disabled {
+  border-right-color: #6c757d;
+}
+.av:disabled {
+  border-bottom-color: #6c757d;
+}
+.aw:disabled {
+  border-left-color: #6c757d;
+}
+.bl {
+  gradient: none;
+}
+.bn {
+  border-top-width: 1px;
+}
+.bo {
+  border-right-width: 1px;
+}
+.bp {
+  border-bottom-width: 1px;
+}
+.bq {
+  border-left-width: 1px;
+}
+.br {
+  border-top-style: solid;
+}
+.bs {
+  border-right-style: solid;
+}
+.bt {
+  border-bottom-style: solid;
+}
+.bu {
+  border-left-style: solid;
+}
+.bv {
+  border-top-color: #6c757d;
+}
+.bw {
+  border-right-color: #6c757d;
+}
+.bx {
+  border-bottom-color: #6c757d;
+}
+.by {
+  border-left-color: #6c757d;
+}
+.bf:hover {
+  background-color: #6c757d;
+}
+.bg:hover {
+  color: #fff;
+}
+.bh:hover {
+  border-top-color: #6c757d;
+}
+.bi:hover {
+  border-right-color: #6c757d;
+}
+.bj:hover {
+  border-bottom-color: #6c757d;
+}
+.bk:hover {
+  border-left-color: #6c757d;
+}
+.e:focus {
+  z-index: 5;
+}
+.ax:focus-visible {
+  color: #fff;
+}
+.ay:focus-visible {
+  background-color: #5c636a;
+}
+.az:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+}
+.ba:focus-visible {
+  outline-width: 0;
+}
+.bb:focus-visible {
+  border-top-color: #565e64;
+}
+.bc:focus-visible {
+  border-right-color: #565e64;
+}
+.bd:focus-visible {
+  border-bottom-color: #565e64;
+}
+.be:focus-visible {
+  border-left-color: #565e64;
+}
+.bm:focus {
+  box-shadow: 0 0 0 0.25rem rgba(108, 117, 125, 0.5);
+}
+.ac:active {
+  color: #fff;
+}
+.ae:active {
+  background-color: #6c757d;
+}
+.af:active {
+  background-image: none;
+}
+.ag:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ah:active {
+  outline-width: 0;
+}
+.ai:active {
+  border-top-color: #6c757d;
+}
+.aj:active {
+  border-right-color: #6c757d;
+}
+.ak:active {
+  border-bottom-color: #6c757d;
+}
+.al:active {
+  border-left-color: #6c757d;
+}
+
+
+<button
+  data-testid="input-group-btn"
+  class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by f g h i j k l m n o p q r s t u v w x y z c d e input-group-btn a b floating-input-group-button"
+>
+  Floating Group Button</button
+>;
+"
+`;

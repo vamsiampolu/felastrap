@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Icons/CirclePopIcon should render a circle pop icon 1`] = `
+".a {
+  color: rgba(32, 201, 151, 1);
+}
+.b {
+  -webkit-background-color: rgba(32, 201, 151, 0.1);
+  background-color: rgba(32, 201, 151, 0.1);
+}
+.c {
+  -webkit-background-blend-mode: multiple;
+  background-blend-mode: multiple;
+}
+.d {
+  mix-blend-mode: darken;
+}
+.e {
+  -webkit-filter: drop-shadow(0 1px 1px #fff);
+  filter: drop-shadow(0 1px 1px #fff);
+}
+.f {
+  border-top-left-radius: 1rem;
+}
+.g {
+  border-top-right-radius: 1rem;
+}
+.h {
+  border-bottom-right-radius: 1rem;
+}
+.i {
+  border-bottom-left-radius: 1rem;
+}
+.j {
+  padding-top: 1rem;
+}
+.k {
+  padding-right: 1rem;
+}
+.l {
+  padding-bottom: 1rem;
+}
+.m {
+  padding-left: 1rem;
+}
+
+
+<svg
+  class="a b c d e f g h i j k l m circle-pop-icon"
+  xmlns="http://www.w3.org/2000/svg"
+  width="32"
+  height="32"
+  fill="currentColor"
+  focusable="false"
+  viewBox="0 0 16 16"
+>
+  <path d="M0 6a6 6 0 1112 0A6 6 0 010 6z"></path>
+  <path
+    d="M12.93 5h1.57a.5.5 0 01.5.5v9a.5.5 0 01-.5.5h-9a.5.5 0 01-.5-.5v-1.57a6.953 6.953 0 01-1-.22v1.79A1.5 1.5 0 005.5 16h9a1.5 1.5 0 001.5-1.5v-9A1.5 1.5 0 0014.5 4h-1.79c.097.324.17.658.22 1z"
+  ></path></svg
+>;
+"
+`;

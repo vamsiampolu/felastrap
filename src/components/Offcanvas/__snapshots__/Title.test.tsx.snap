@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Offcanvas/Title should render an off-canvas title 1`] = `
+".a {
+  margin-bottom: 0;
+}
+.b {
+  line-height: 1.5;
+}
+
+
+<h5 data-testid="offcanvas-title" class="a b offcanvas-title">
+  Offcanvas Title
+</h5>
+;
+"
+`;
+
+exports[`components/Offcanvas/Title should render an off-canvas title with a className 1`] = `
+".a {
+  margin-bottom: 0;
+}
+.b {
+  line-height: 1.5;
+}
+
+
+<h5 data-testid="offcanvas-title" class="a b offcanvas-title sidebar-title">
+  Offcanvas Title
+</h5>
+;
+"
+`;

@@ -1,0 +1,770 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/RadioButtons/RadioInput should correctly render a radio input 1`] = `
+".a {
+  float: left !important;
+}
+.b {
+  margin-left: -1.5em;
+}
+.c {
+  flex-shrink: 0;
+}
+.d {
+  width: 1em;
+}
+.e {
+  height: 1em;
+}
+.f {
+  margin-top: 0.25em;
+}
+.g {
+  vertical-align: top;
+}
+.h {
+  appearance: none;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-position: center;
+}
+.l {
+  background-size: contain;
+}
+.m {
+  print-color-adjust: exact;
+}
+.n {
+  color-adjust: exact;
+}
+.p:disabled {
+  pointer-events: none;
+}
+.q:disabled {
+  filter: none;
+}
+.r:disabled {
+  opacity: 0.5;
+}
+.y:checked {
+  background-color: #0d6efd;
+}
+.z:checked {
+  background-image: url(test-file-stub);
+}
+.ab:checked {
+  border-top-color: #0d6efd;
+}
+.ac:checked {
+  border-right-color: #0d6efd;
+}
+.ae:checked {
+  border-bottom-color: #0d6efd;
+}
+.af:checked {
+  border-left-color: #0d6efd;
+}
+.ag {
+  border-top-left-radius: 50%;
+}
+.ah {
+  border-top-right-radius: 50%;
+}
+.ai {
+  border-bottom-right-radius: 50%;
+}
+.aj {
+  border-bottom-left-radius: 50%;
+}
+.ak {
+  border-top-width: 1px;
+}
+.al {
+  border-right-width: 1px;
+}
+.am {
+  border-bottom-width: 1px;
+}
+.an {
+  border-left-width: 1px;
+}
+.ao {
+  border-top-style: solid;
+}
+.ap {
+  border-right-style: solid;
+}
+.aq {
+  border-bottom-style: solid;
+}
+.ar {
+  border-left-style: solid;
+}
+.as {
+  border-top-color: #dee2e6;
+}
+.at {
+  border-right-color: #dee2e6;
+}
+.au {
+  border-bottom-color: #dee2e6;
+}
+.av {
+  border-left-color: #dee2e6;
+}
+.s:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus {
+  outline-width: 0;
+}
+.u:focus {
+  border-top-color: #86b7fe;
+}
+.v:focus {
+  border-right-color: #86b7fe;
+}
+.w:focus {
+  border-bottom-color: #86b7fe;
+}
+.x:focus {
+  border-left-color: #86b7fe;
+}
+.o:active {
+  filter: brightness(90%);
+}
+
+
+<input
+  data-testid="radio-input"
+  type="radio"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av b c d e f g h i j k l m n o p q r s t u v w x y z form-check-input"
+/>;
+"
+`;
+
+exports[`components/Form/RadioButtons/RadioInput should invoke onChange when radio input state changes 1`] = `
+".a {
+  float: left !important;
+}
+.b {
+  margin-left: -1.5em;
+}
+.c {
+  flex-shrink: 0;
+}
+.d {
+  width: 1em;
+}
+.e {
+  height: 1em;
+}
+.f {
+  margin-top: 0.25em;
+}
+.g {
+  vertical-align: top;
+}
+.h {
+  appearance: none;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-position: center;
+}
+.l {
+  background-size: contain;
+}
+.m {
+  print-color-adjust: exact;
+}
+.n {
+  color-adjust: exact;
+}
+.p:disabled {
+  pointer-events: none;
+}
+.q:disabled {
+  filter: none;
+}
+.r:disabled {
+  opacity: 0.5;
+}
+.y:checked {
+  background-color: #0d6efd;
+}
+.z:checked {
+  background-image: url(test-file-stub);
+}
+.ab:checked {
+  border-top-color: #0d6efd;
+}
+.ac:checked {
+  border-right-color: #0d6efd;
+}
+.ae:checked {
+  border-bottom-color: #0d6efd;
+}
+.af:checked {
+  border-left-color: #0d6efd;
+}
+.ag {
+  border-top-left-radius: 50%;
+}
+.ah {
+  border-top-right-radius: 50%;
+}
+.ai {
+  border-bottom-right-radius: 50%;
+}
+.aj {
+  border-bottom-left-radius: 50%;
+}
+.ak {
+  border-top-width: 1px;
+}
+.al {
+  border-right-width: 1px;
+}
+.am {
+  border-bottom-width: 1px;
+}
+.an {
+  border-left-width: 1px;
+}
+.ao {
+  border-top-style: solid;
+}
+.ap {
+  border-right-style: solid;
+}
+.aq {
+  border-bottom-style: solid;
+}
+.ar {
+  border-left-style: solid;
+}
+.as {
+  border-top-color: #dee2e6;
+}
+.at {
+  border-right-color: #dee2e6;
+}
+.au {
+  border-bottom-color: #dee2e6;
+}
+.av {
+  border-left-color: #dee2e6;
+}
+.s:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus {
+  outline-width: 0;
+}
+.u:focus {
+  border-top-color: #86b7fe;
+}
+.v:focus {
+  border-right-color: #86b7fe;
+}
+.w:focus {
+  border-bottom-color: #86b7fe;
+}
+.x:focus {
+  border-left-color: #86b7fe;
+}
+.o:active {
+  filter: brightness(90%);
+}
+
+
+<input
+  data-testid="radio-input"
+  type="radio"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av b c d e f g h i j k l m n o p q r s t u v w x y z form-check-input"
+  id="foobar"
+/>;
+"
+`;
+
+exports[`components/Form/RadioButtons/RadioInput should render a checked radio input 1`] = `
+".a {
+  float: left !important;
+}
+.b {
+  margin-left: -1.5em;
+}
+.c {
+  flex-shrink: 0;
+}
+.d {
+  width: 1em;
+}
+.e {
+  height: 1em;
+}
+.f {
+  margin-top: 0.25em;
+}
+.g {
+  vertical-align: top;
+}
+.h {
+  appearance: none;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-position: center;
+}
+.l {
+  background-size: contain;
+}
+.m {
+  print-color-adjust: exact;
+}
+.n {
+  color-adjust: exact;
+}
+.p:disabled {
+  pointer-events: none;
+}
+.q:disabled {
+  filter: none;
+}
+.r:disabled {
+  opacity: 0.5;
+}
+.y:checked {
+  background-color: #0d6efd;
+}
+.z:checked {
+  background-image: url(test-file-stub);
+}
+.ab:checked {
+  border-top-color: #0d6efd;
+}
+.ac:checked {
+  border-right-color: #0d6efd;
+}
+.ae:checked {
+  border-bottom-color: #0d6efd;
+}
+.af:checked {
+  border-left-color: #0d6efd;
+}
+.ag {
+  border-top-left-radius: 50%;
+}
+.ah {
+  border-top-right-radius: 50%;
+}
+.ai {
+  border-bottom-right-radius: 50%;
+}
+.aj {
+  border-bottom-left-radius: 50%;
+}
+.ak {
+  border-top-width: 1px;
+}
+.al {
+  border-right-width: 1px;
+}
+.am {
+  border-bottom-width: 1px;
+}
+.an {
+  border-left-width: 1px;
+}
+.ao {
+  border-top-style: solid;
+}
+.ap {
+  border-right-style: solid;
+}
+.aq {
+  border-bottom-style: solid;
+}
+.ar {
+  border-left-style: solid;
+}
+.as {
+  border-top-color: #dee2e6;
+}
+.at {
+  border-right-color: #dee2e6;
+}
+.au {
+  border-bottom-color: #dee2e6;
+}
+.av {
+  border-left-color: #dee2e6;
+}
+.s:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus {
+  outline-width: 0;
+}
+.u:focus {
+  border-top-color: #86b7fe;
+}
+.v:focus {
+  border-right-color: #86b7fe;
+}
+.w:focus {
+  border-bottom-color: #86b7fe;
+}
+.x:focus {
+  border-left-color: #86b7fe;
+}
+.o:active {
+  filter: brightness(90%);
+}
+
+
+<input
+  data-testid="radio-input"
+  type="radio"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av b c d e f g h i j k l m n o p q r s t u v w x y z form-check-input"
+  id="foobar"
+  checked=""
+/>;
+"
+`;
+
+exports[`components/Form/RadioButtons/RadioInput should render a disabled radio input 1`] = `
+".a {
+  float: left !important;
+}
+.b {
+  margin-left: -1.5em;
+}
+.c {
+  flex-shrink: 0;
+}
+.d {
+  width: 1em;
+}
+.e {
+  height: 1em;
+}
+.f {
+  margin-top: 0.25em;
+}
+.g {
+  vertical-align: top;
+}
+.h {
+  appearance: none;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-position: center;
+}
+.l {
+  background-size: contain;
+}
+.m {
+  print-color-adjust: exact;
+}
+.n {
+  color-adjust: exact;
+}
+.p:disabled {
+  pointer-events: none;
+}
+.q:disabled {
+  filter: none;
+}
+.r:disabled {
+  opacity: 0.5;
+}
+.y:checked {
+  background-color: #0d6efd;
+}
+.z:checked {
+  background-image: url(test-file-stub);
+}
+.ab:checked {
+  border-top-color: #0d6efd;
+}
+.ac:checked {
+  border-right-color: #0d6efd;
+}
+.ae:checked {
+  border-bottom-color: #0d6efd;
+}
+.af:checked {
+  border-left-color: #0d6efd;
+}
+.ag {
+  border-top-left-radius: 50%;
+}
+.ah {
+  border-top-right-radius: 50%;
+}
+.ai {
+  border-bottom-right-radius: 50%;
+}
+.aj {
+  border-bottom-left-radius: 50%;
+}
+.ak {
+  border-top-width: 1px;
+}
+.al {
+  border-right-width: 1px;
+}
+.am {
+  border-bottom-width: 1px;
+}
+.an {
+  border-left-width: 1px;
+}
+.ao {
+  border-top-style: solid;
+}
+.ap {
+  border-right-style: solid;
+}
+.aq {
+  border-bottom-style: solid;
+}
+.ar {
+  border-left-style: solid;
+}
+.as {
+  border-top-color: #dee2e6;
+}
+.at {
+  border-right-color: #dee2e6;
+}
+.au {
+  border-bottom-color: #dee2e6;
+}
+.av {
+  border-left-color: #dee2e6;
+}
+.s:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus {
+  outline-width: 0;
+}
+.u:focus {
+  border-top-color: #86b7fe;
+}
+.v:focus {
+  border-right-color: #86b7fe;
+}
+.w:focus {
+  border-bottom-color: #86b7fe;
+}
+.x:focus {
+  border-left-color: #86b7fe;
+}
+.o:active {
+  filter: brightness(90%);
+}
+
+
+<input
+  data-testid="radio-input"
+  type="radio"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av b c d e f g h i j k l m n o p q r s t u v w x y z form-check-input"
+  id="foobar"
+  disabled=""
+/>;
+"
+`;
+
+exports[`components/Form/RadioButtons/RadioInput should render a reverse radio input 1`] = `
+".a {
+  float: left !important;
+}
+.b {
+  margin-left: -1.5em;
+}
+.c {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.d {
+  width: 1em;
+}
+.e {
+  height: 1em;
+}
+.f {
+  margin-top: 0.25em;
+}
+.g {
+  vertical-align: top;
+}
+.h {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+}
+.i {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-position: center;
+}
+.l {
+  background-size: contain;
+}
+.m {
+  print-color-adjust: exact;
+}
+.n {
+  color-adjust: exact;
+}
+.p:disabled {
+  pointer-events: none;
+}
+.q:disabled {
+  -webkit-filter: none;
+  filter: none;
+}
+.r:disabled {
+  opacity: 0.5;
+}
+.y:checked {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.z:checked {
+  -webkit-background-image: url(test-file-stub);
+  background-image: url(test-file-stub);
+}
+.ab:checked {
+  border-top-color: #0d6efd;
+}
+.ac:checked {
+  border-right-color: #0d6efd;
+}
+.ae:checked {
+  border-bottom-color: #0d6efd;
+}
+.af:checked {
+  border-left-color: #0d6efd;
+}
+.ag {
+  padding-right: 1.5em;
+}
+.ah {
+  padding-left: 0;
+}
+.ai {
+  text-align: right;
+}
+.aj {
+  border-top-left-radius: 50%;
+}
+.ak {
+  border-top-right-radius: 50%;
+}
+.al {
+  border-bottom-right-radius: 50%;
+}
+.am {
+  border-bottom-left-radius: 50%;
+}
+.an {
+  border-top-width: 1px;
+}
+.ao {
+  border-right-width: 1px;
+}
+.ap {
+  border-bottom-width: 1px;
+}
+.aq {
+  border-left-width: 1px;
+}
+.ar {
+  border-top-style: solid;
+}
+.as {
+  border-right-style: solid;
+}
+.at {
+  border-bottom-style: solid;
+}
+.au {
+  border-left-style: solid;
+}
+.av {
+  border-top-color: #dee2e6;
+}
+.aw {
+  border-right-color: #dee2e6;
+}
+.ax {
+  border-bottom-color: #dee2e6;
+}
+.ay {
+  border-left-color: #dee2e6;
+}
+.s:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus {
+  outline-width: 0;
+}
+.u:focus {
+  border-top-color: #86b7fe;
+}
+.v:focus {
+  border-right-color: #86b7fe;
+}
+.w:focus {
+  border-bottom-color: #86b7fe;
+}
+.x:focus {
+  border-left-color: #86b7fe;
+}
+.o:active {
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%);
+}
+
+
+<input
+  data-testid="radio-input"
+  type="radio"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay b c d e f g h i j k l m n o p q r s t u v w x y z form-check-input"
+/>;
+"
+`;

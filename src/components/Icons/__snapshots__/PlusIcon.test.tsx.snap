@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Icons/PlusIcon should render the plus icon 1`] = `
+".a {
+  color: rgba(33, 37, 41, 0.75);
+}
+.b {
+  width: 1em;
+}
+.c {
+  height: 1em;
+}
+.d {
+  vertical-align: -0.125em;
+}
+.e {
+  fill: currentcolor;
+}
+.f {
+  margin-right: 0.5rem;
+}
+.g {
+  margin-left: 0.5rem;
+}
+@media (min-width: 1200px) {
+  .h {
+    font-size: 2rem !important;
+  }
+}
+
+
+<svg class="a b c d e f g h plus-icon" id="plus" viewBox="0 0 16 16">
+  <path
+    d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"
+  ></path></svg
+>;
+"
+`;

@@ -1,0 +1,899 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/Switch should display a checked switch button 1`] = `
+".a {
+  display: block;
+}
+.b {
+  min-height: 1.5rem;
+}
+.c {
+  padding-left: 2.5em;
+}
+.d {
+  padding-right: 0;
+}
+.e {
+  margin-bottom: 0.125rem;
+}
+.f {
+  text-align: left;
+}
+.g {
+  float: left;
+}
+.h {
+  flex-shrink: 0;
+}
+.i {
+  background-image: url(test-file-stub);
+}
+.j {
+  height: 1em;
+}
+.k {
+  margin-top: 0.25em;
+}
+.l {
+  vertical-align: top;
+}
+.m {
+  appearance: none;
+}
+.n {
+  background-color: #fff;
+}
+.o {
+  background-repeat: no-repeat;
+}
+.p {
+  background-size: contain;
+}
+.q {
+  color-adjust: exact;
+}
+.r {
+  print-color-adjust: exact;
+}
+.s {
+  width: 2em;
+}
+.t {
+  margin-left: -2.5em !important;
+}
+.u {
+  margin-right: 0;
+}
+.v {
+  background-position: left center;
+}
+.ac:checked {
+  background-position: right center;
+}
+.ae:checked {
+  background-image: url(test-file-stub);
+}
+.af:checked {
+  background-color: #0d6efd;
+}
+.ag:checked {
+  border-top-color: #0d6efd;
+}
+.ah:checked {
+  border-right-color: #0d6efd;
+}
+.ai:checked {
+  border-bottom-color: #0d6efd;
+}
+.aj:checked {
+  border-left-color: #0d6efd;
+}
+.ak:disabled {
+  pointer-events: none;
+}
+.al:disabled {
+  filter: none;
+}
+.am:disabled {
+  opacity: 0.5;
+}
+.au {
+  transition-property: background-position;
+}
+.av {
+  transition-duration: 0.15s;
+}
+.aw {
+  transition-delay: ease-in-out;
+}
+.ax {
+  transition-timing-function: ease;
+}
+.ay {
+  border-top-left-radius: 2em;
+}
+.az {
+  border-top-right-radius: 2em;
+}
+.ba {
+  border-bottom-right-radius: 2em;
+}
+.bb {
+  border-bottom-left-radius: 2em;
+}
+.bc {
+  border-top-width: 1px;
+}
+.bd {
+  border-right-width: 1px;
+}
+.be {
+  border-bottom-width: 1px;
+}
+.bf {
+  border-left-width: 1px;
+}
+.bg {
+  border-top-style: solid;
+}
+.bh {
+  border-right-style: solid;
+}
+.bi {
+  border-bottom-style: solid;
+}
+.bj {
+  border-left-style: solid;
+}
+.bk {
+  border-top-color: #dee2e6;
+}
+.bl {
+  border-right-color: #dee2e6;
+}
+.bm {
+  border-bottom-color: #dee2e6;
+}
+.bn {
+  border-left-color: #dee2e6;
+}
+.bo {
+  display: inline-block;
+}
+.bp {
+  margin-bottom: 0.5rem;
+}
+.an:focus {
+  background-image: url(test-file-stub);
+}
+.ao:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ap:focus {
+  outline-width: 0;
+}
+.aq:focus {
+  border-top-color: #86b7fe;
+}
+.ar:focus {
+  border-right-color: #86b7fe;
+}
+.as:focus {
+  border-bottom-color: #86b7fe;
+}
+.at:focus {
+  border-left-color: #86b7fe;
+}
+.ab:active {
+  filter: brightness(90%);
+}
+@media (prefers-reduced-motion: reduce) {
+  .w {
+    transition-property: none;
+  }
+  .x {
+    transition-duration: 0s;
+  }
+  .y {
+    transition-delay: 0s;
+  }
+  .z {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="switch-field" class="a b c d e f form-check form-switch">
+  <input
+    id="spiel"
+    data-testid="switch-input"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn g h i j k l m n o p q r s t u v w x y z form-check-input form-switch-input"
+    type="checkbox"
+    role="switch"
+    checked=""
+  /><label
+    data-testid="form-label"
+    for="spiel"
+    class="bo bp form-label form-check-label form-check-label form-switch-label"
+    >Switch Label</label
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Form/Switch should display a disabled switch button 1`] = `
+".a {
+  display: block;
+}
+.b {
+  min-height: 1.5rem;
+}
+.c {
+  padding-left: 2.5em;
+}
+.d {
+  padding-right: 0;
+}
+.e {
+  margin-bottom: 0.125rem;
+}
+.f {
+  text-align: left;
+}
+.g {
+  float: left;
+}
+.h {
+  flex-shrink: 0;
+}
+.i {
+  background-image: url(test-file-stub);
+}
+.j {
+  height: 1em;
+}
+.k {
+  margin-top: 0.25em;
+}
+.l {
+  vertical-align: top;
+}
+.m {
+  appearance: none;
+}
+.n {
+  background-color: #fff;
+}
+.o {
+  background-repeat: no-repeat;
+}
+.p {
+  background-size: contain;
+}
+.q {
+  color-adjust: exact;
+}
+.r {
+  print-color-adjust: exact;
+}
+.s {
+  width: 2em;
+}
+.t {
+  margin-left: -2.5em !important;
+}
+.u {
+  margin-right: 0;
+}
+.v {
+  background-position: left center;
+}
+.ac:checked {
+  background-position: right center;
+}
+.ae:checked {
+  background-image: url(test-file-stub);
+}
+.af:checked {
+  background-color: #0d6efd;
+}
+.ag:checked {
+  border-top-color: #0d6efd;
+}
+.ah:checked {
+  border-right-color: #0d6efd;
+}
+.ai:checked {
+  border-bottom-color: #0d6efd;
+}
+.aj:checked {
+  border-left-color: #0d6efd;
+}
+.ak:disabled {
+  pointer-events: none;
+}
+.al:disabled {
+  filter: none;
+}
+.am:disabled {
+  opacity: 0.5;
+}
+.au {
+  transition-property: background-position;
+}
+.av {
+  transition-duration: 0.15s;
+}
+.aw {
+  transition-delay: ease-in-out;
+}
+.ax {
+  transition-timing-function: ease;
+}
+.ay {
+  border-top-left-radius: 2em;
+}
+.az {
+  border-top-right-radius: 2em;
+}
+.ba {
+  border-bottom-right-radius: 2em;
+}
+.bb {
+  border-bottom-left-radius: 2em;
+}
+.bc {
+  border-top-width: 1px;
+}
+.bd {
+  border-right-width: 1px;
+}
+.be {
+  border-bottom-width: 1px;
+}
+.bf {
+  border-left-width: 1px;
+}
+.bg {
+  border-top-style: solid;
+}
+.bh {
+  border-right-style: solid;
+}
+.bi {
+  border-bottom-style: solid;
+}
+.bj {
+  border-left-style: solid;
+}
+.bk {
+  border-top-color: #dee2e6;
+}
+.bl {
+  border-right-color: #dee2e6;
+}
+.bm {
+  border-bottom-color: #dee2e6;
+}
+.bn {
+  border-left-color: #dee2e6;
+}
+.bo {
+  display: inline-block;
+}
+.bp {
+  margin-bottom: 0.5rem;
+}
+.an:focus {
+  background-image: url(test-file-stub);
+}
+.ao:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ap:focus {
+  outline-width: 0;
+}
+.aq:focus {
+  border-top-color: #86b7fe;
+}
+.ar:focus {
+  border-right-color: #86b7fe;
+}
+.as:focus {
+  border-bottom-color: #86b7fe;
+}
+.at:focus {
+  border-left-color: #86b7fe;
+}
+.ab:active {
+  filter: brightness(90%);
+}
+@media (prefers-reduced-motion: reduce) {
+  .w {
+    transition-property: none;
+  }
+  .x {
+    transition-duration: 0s;
+  }
+  .y {
+    transition-delay: 0s;
+  }
+  .z {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="switch-field" class="a b c d e f form-check form-switch">
+  <input
+    id="spiel"
+    data-testid="switch-input"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn g h i j k l m n o p q r s t u v w x y z form-check-input form-switch-input"
+    disabled=""
+    type="checkbox"
+    role="switch"
+  /><label
+    data-testid="form-label"
+    for="spiel"
+    class="bo bp form-label form-check-label form-check-label form-switch-label"
+    >Switch Label</label
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Form/Switch should display a switch button 1`] = `
+".a {
+  display: block;
+}
+.b {
+  min-height: 1.5rem;
+}
+.c {
+  padding-left: 2.5em;
+}
+.d {
+  padding-right: 0;
+}
+.e {
+  margin-bottom: 0.125rem;
+}
+.f {
+  text-align: left;
+}
+.g {
+  float: left;
+}
+.h {
+  flex-shrink: 0;
+}
+.i {
+  background-image: url(test-file-stub);
+}
+.j {
+  height: 1em;
+}
+.k {
+  margin-top: 0.25em;
+}
+.l {
+  vertical-align: top;
+}
+.m {
+  appearance: none;
+}
+.n {
+  background-color: #fff;
+}
+.o {
+  background-repeat: no-repeat;
+}
+.p {
+  background-size: contain;
+}
+.q {
+  color-adjust: exact;
+}
+.r {
+  print-color-adjust: exact;
+}
+.s {
+  width: 2em;
+}
+.t {
+  margin-left: -2.5em !important;
+}
+.u {
+  margin-right: 0;
+}
+.v {
+  background-position: left center;
+}
+.ac:checked {
+  background-position: right center;
+}
+.ae:checked {
+  background-image: url(test-file-stub);
+}
+.af:checked {
+  background-color: #0d6efd;
+}
+.ag:checked {
+  border-top-color: #0d6efd;
+}
+.ah:checked {
+  border-right-color: #0d6efd;
+}
+.ai:checked {
+  border-bottom-color: #0d6efd;
+}
+.aj:checked {
+  border-left-color: #0d6efd;
+}
+.ak:disabled {
+  pointer-events: none;
+}
+.al:disabled {
+  filter: none;
+}
+.am:disabled {
+  opacity: 0.5;
+}
+.au {
+  transition-property: background-position;
+}
+.av {
+  transition-duration: 0.15s;
+}
+.aw {
+  transition-delay: ease-in-out;
+}
+.ax {
+  transition-timing-function: ease;
+}
+.ay {
+  border-top-left-radius: 2em;
+}
+.az {
+  border-top-right-radius: 2em;
+}
+.ba {
+  border-bottom-right-radius: 2em;
+}
+.bb {
+  border-bottom-left-radius: 2em;
+}
+.bc {
+  border-top-width: 1px;
+}
+.bd {
+  border-right-width: 1px;
+}
+.be {
+  border-bottom-width: 1px;
+}
+.bf {
+  border-left-width: 1px;
+}
+.bg {
+  border-top-style: solid;
+}
+.bh {
+  border-right-style: solid;
+}
+.bi {
+  border-bottom-style: solid;
+}
+.bj {
+  border-left-style: solid;
+}
+.bk {
+  border-top-color: #dee2e6;
+}
+.bl {
+  border-right-color: #dee2e6;
+}
+.bm {
+  border-bottom-color: #dee2e6;
+}
+.bn {
+  border-left-color: #dee2e6;
+}
+.bo {
+  display: inline-block;
+}
+.bp {
+  margin-bottom: 0.5rem;
+}
+.an:focus {
+  background-image: url(test-file-stub);
+}
+.ao:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ap:focus {
+  outline-width: 0;
+}
+.aq:focus {
+  border-top-color: #86b7fe;
+}
+.ar:focus {
+  border-right-color: #86b7fe;
+}
+.as:focus {
+  border-bottom-color: #86b7fe;
+}
+.at:focus {
+  border-left-color: #86b7fe;
+}
+.ab:active {
+  filter: brightness(90%);
+}
+@media (prefers-reduced-motion: reduce) {
+  .w {
+    transition-property: none;
+  }
+  .x {
+    transition-duration: 0s;
+  }
+  .y {
+    transition-delay: 0s;
+  }
+  .z {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="switch-field" class="a b c d e f form-check form-switch">
+  <input
+    id="spiel"
+    data-testid="switch-input"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn g h i j k l m n o p q r s t u v w x y z form-check-input form-switch-input"
+    type="checkbox"
+    role="switch"
+  /><label
+    data-testid="form-label"
+    for="spiel"
+    class="bo bp form-label form-check-label form-check-label form-switch-label"
+    >Switch Label</label
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Form/Switch should reverse a switch button 1`] = `
+".a {
+  display: block;
+}
+.b {
+  min-height: 1.5rem;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  padding-right: 2.5em;
+}
+.e {
+  margin-bottom: 0.125rem;
+}
+.f {
+  text-align: right;
+}
+.g {
+  float: right;
+}
+.h {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.i {
+  -webkit-background-image: url(test-file-stub);
+  background-image: url(test-file-stub);
+}
+.j {
+  height: 1em;
+}
+.k {
+  margin-top: 0.25em;
+}
+.l {
+  vertical-align: top;
+}
+.m {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+}
+.n {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.o {
+  background-repeat: no-repeat;
+}
+.p {
+  background-size: contain;
+}
+.q {
+  color-adjust: exact;
+}
+.r {
+  print-color-adjust: exact;
+}
+.s {
+  width: 2em;
+}
+.t {
+  margin-left: 0;
+}
+.u {
+  margin-right: -2.5em !important;
+}
+.v {
+  background-position: left center;
+}
+.ac:checked {
+  background-position: right center;
+}
+.ae:checked {
+  -webkit-background-image: url(test-file-stub);
+  background-image: url(test-file-stub);
+}
+.af:checked {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.ag:checked {
+  border-top-color: #0d6efd;
+}
+.ah:checked {
+  border-right-color: #0d6efd;
+}
+.ai:checked {
+  border-bottom-color: #0d6efd;
+}
+.aj:checked {
+  border-left-color: #0d6efd;
+}
+.ak:disabled {
+  pointer-events: none;
+}
+.al:disabled {
+  -webkit-filter: none;
+  filter: none;
+}
+.am:disabled {
+  opacity: 0.5;
+}
+.au {
+  transition-property: background-position;
+}
+.av {
+  transition-duration: 0.15s;
+}
+.aw {
+  transition-delay: ease-in-out;
+}
+.ax {
+  transition-timing-function: ease;
+}
+.ay {
+  border-top-left-radius: 2em;
+}
+.az {
+  border-top-right-radius: 2em;
+}
+.ba {
+  border-bottom-right-radius: 2em;
+}
+.bb {
+  border-bottom-left-radius: 2em;
+}
+.bc {
+  border-top-width: 1px;
+}
+.bd {
+  border-right-width: 1px;
+}
+.be {
+  border-bottom-width: 1px;
+}
+.bf {
+  border-left-width: 1px;
+}
+.bg {
+  border-top-style: solid;
+}
+.bh {
+  border-right-style: solid;
+}
+.bi {
+  border-bottom-style: solid;
+}
+.bj {
+  border-left-style: solid;
+}
+.bk {
+  border-top-color: #dee2e6;
+}
+.bl {
+  border-right-color: #dee2e6;
+}
+.bm {
+  border-bottom-color: #dee2e6;
+}
+.bn {
+  border-left-color: #dee2e6;
+}
+.bo {
+  display: inline-block;
+}
+.bp {
+  margin-bottom: 0.5rem;
+}
+.an:focus {
+  -webkit-background-image: url(test-file-stub);
+  background-image: url(test-file-stub);
+}
+.ao:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ap:focus {
+  outline-width: 0;
+}
+.aq:focus {
+  border-top-color: #86b7fe;
+}
+.ar:focus {
+  border-right-color: #86b7fe;
+}
+.as:focus {
+  border-bottom-color: #86b7fe;
+}
+.at:focus {
+  border-left-color: #86b7fe;
+}
+.ab:active {
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%);
+}
+@media (prefers-reduced-motion: reduce) {
+  .w {
+    transition-property: none;
+  }
+  .x {
+    transition-duration: 0s;
+  }
+  .y {
+    transition-delay: 0s;
+  }
+  .z {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="switch-field" class="a b c d e f form-check form-switch">
+  <input
+    id="spiel"
+    data-testid="switch-input"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn g h i j k l m n o p q r s t u v w x y z form-check-input form-switch-input"
+    type="checkbox"
+    role="switch"
+  /><label
+    data-testid="form-label"
+    for="spiel"
+    class="bo bp form-label form-check-label form-check-label form-switch-label"
+    >Switch Label</label
+  >
+</div>
+;
+"
+`;

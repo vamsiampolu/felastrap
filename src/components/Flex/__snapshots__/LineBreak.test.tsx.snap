@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Flex/LineBreak should render a line break 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  height: auto;
+}
+
+
+<div data-testid="line-break" class="a b"></div>
+;
+"
+`;
+
+exports[`components/Flex/LineBreak should render a line break with a specific height 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  height: 2rem;
+}
+
+
+<div data-testid="line-break" class="a b"></div>
+;
+"
+`;

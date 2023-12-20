@@ -1,0 +1,5296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Button/ButtonGroup should render a ButtonGroup with three buttons of variant danger 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  border-top-left-radius: 0.375rem;
+}
+.e {
+  border-top-right-radius: 0.375rem;
+}
+.f {
+  border-bottom-right-radius: 0.375rem;
+}
+.g {
+  border-bottom-left-radius: 0.375rem;
+}
+.h {
+  border-top-left-radius: 4px;
+}
+.i {
+  border-top-right-radius: 0;
+}
+.j {
+  border-bottom-right-radius: 0;
+}
+.k {
+  border-bottom-left-radius: 4px;
+}
+.l {
+  padding-top: 6px;
+}
+.m {
+  padding-bottom: 6px;
+}
+.n {
+  padding-left: 12px;
+}
+.o {
+  padding-right: 12px;
+}
+.p {
+  -webkit-background-color: #dc3545;
+  background-color: #dc3545;
+}
+.q {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.r {
+  color: #fff;
+}
+.s {
+  cursor: pointer;
+}
+.t {
+  display: inline-block;
+}
+.u {
+  font-size: 14px;
+}
+.v {
+  font-weight: 400;
+}
+.w {
+  line-height: 1.42857143;
+}
+.x {
+  margin-bottom: 0;
+}
+.y {
+  text-align: center;
+}
+.z {
+  touch-action: manipulation;
+}
+.ab {
+  white-space: nowrap;
+}
+.ac {
+  user-select: none;
+}
+.ao:disabled {
+  -webkit-background-color: #dc3545;
+  background-color: #dc3545;
+}
+.ap:disabled {
+  color: #fff;
+}
+.aq:disabled {
+  box-shadow: none;
+}
+.ar:disabled {
+  cursor: not-allowed;
+}
+.as:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.at:disabled {
+  opacity: 0.65;
+}
+.au:disabled {
+  pointer-events: none;
+}
+.av:disabled {
+  border-top-color: #dc3545;
+}
+.aw:disabled {
+  border-right-color: #dc3545;
+}
+.ax:disabled {
+  border-bottom-color: #dc3545;
+}
+.ay:disabled {
+  border-left-color: #dc3545;
+}
+.bp {
+  flex-grow: 1;
+}
+.bq {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.br {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.bs {
+  border-top-width: 1px;
+}
+.bt {
+  border-right-width: 1px;
+}
+.bu {
+  border-bottom-width: 1px;
+}
+.bv {
+  border-left-width: 1px;
+}
+.bw {
+  border-top-style: solid;
+}
+.bx {
+  border-right-style: solid;
+}
+.by {
+  border-bottom-style: solid;
+}
+.bz {
+  border-left-style: solid;
+}
+.ca {
+  border-top-color: #dc3545;
+}
+.cb {
+  border-right-color: #dc3545;
+}
+.cc {
+  border-bottom-color: #dc3545;
+}
+.cd {
+  border-left-color: #dc3545;
+}
+.bh:hover {
+  -webkit-background-color: #bb2d3b;
+  background-color: #bb2d3b;
+}
+.bi:hover {
+  color: #fff;
+}
+.bj:hover {
+  z-index: 1;
+}
+.bk:hover {
+  border-top-color: #b02a37;
+}
+.bl:hover {
+  border-right-color: #b02a37;
+}
+.bm:hover {
+  border-bottom-color: #b02a37;
+}
+.bn:hover {
+  border-left-color: #b02a37;
+}
+.az:focus-visible {
+  color: #fff;
+}
+.ba:focus-visible {
+  -webkit-background-color: #bb2d3b;
+  background-color: #bb2d3b;
+}
+.bb:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(225, 83, 97, 0.5);
+}
+.bc:focus-visible {
+  outline-width: 0;
+}
+.bd:focus-visible {
+  border-top-color: #b02a37;
+}
+.be:focus-visible {
+  border-right-color: #b02a37;
+}
+.bf:focus-visible {
+  border-bottom-color: #b02a37;
+}
+.bg:focus-visible {
+  border-left-color: #b02a37;
+}
+.bo:focus {
+  z-index: 1;
+}
+.ae:active {
+  color: #fff;
+}
+.af:active {
+  -webkit-background-color: #b02a37;
+  background-color: #b02a37;
+}
+.ag:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.ah:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ai:active {
+  z-index: 1;
+}
+.aj:active {
+  outline-width: 0;
+}
+.ak:active {
+  border-top-color: #a52834;
+}
+.al:active {
+  border-right-color: #a52834;
+}
+.am:active {
+  border-bottom-color: #a52834;
+}
+.an:active {
+  border-left-color: #a52834;
+}
+
+
+<div data-testid="button-group" class="a b c d e f g button-group" role="group">
+  <button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Left</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Middle</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Right
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Button/ButtonGroup should render a ButtonGroup with three buttons of variant default 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  border-top-left-radius: 0.375rem;
+}
+.e {
+  border-top-right-radius: 0.375rem;
+}
+.f {
+  border-bottom-right-radius: 0.375rem;
+}
+.g {
+  border-bottom-left-radius: 0.375rem;
+}
+.h {
+  border-top-left-radius: 4px;
+}
+.i {
+  border-top-right-radius: 0;
+}
+.j {
+  border-bottom-right-radius: 0;
+}
+.k {
+  border-bottom-left-radius: 4px;
+}
+.l {
+  padding-top: 6px;
+}
+.m {
+  padding-bottom: 6px;
+}
+.n {
+  padding-left: 12px;
+}
+.o {
+  padding-right: 12px;
+}
+.p {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.q {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.r {
+  color: #333;
+}
+.s {
+  cursor: pointer;
+}
+.t {
+  display: inline-block;
+}
+.u {
+  font-size: 14px;
+}
+.v {
+  font-weight: 400;
+}
+.w {
+  line-height: 1.42857143;
+}
+.x {
+  margin-bottom: 0;
+}
+.y {
+  text-align: center;
+}
+.z {
+  touch-action: manipulation;
+}
+.ab {
+  white-space: nowrap;
+}
+.ac {
+  user-select: none;
+}
+.ao:disabled {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.ap:disabled {
+  color: #333;
+}
+.aq:disabled {
+  box-shadow: none;
+}
+.ar:disabled {
+  cursor: not-allowed;
+}
+.as:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.at:disabled {
+  opacity: 0.65;
+}
+.au:disabled {
+  pointer-events: none;
+}
+.av:disabled {
+  border-top-color: #ccc;
+}
+.aw:disabled {
+  border-right-color: #ccc;
+}
+.ax:disabled {
+  border-bottom-color: #ccc;
+}
+.ay:disabled {
+  border-left-color: #ccc;
+}
+.bp {
+  flex-grow: 1;
+}
+.bq {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.br {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.bs {
+  border-top-width: 1px;
+}
+.bt {
+  border-right-width: 1px;
+}
+.bu {
+  border-bottom-width: 1px;
+}
+.bv {
+  border-left-width: 1px;
+}
+.bw {
+  border-top-style: solid;
+}
+.bx {
+  border-right-style: solid;
+}
+.by {
+  border-bottom-style: solid;
+}
+.bz {
+  border-left-style: solid;
+}
+.ca {
+  border-top-color: #ccc;
+}
+.cb {
+  border-right-color: #ccc;
+}
+.cc {
+  border-bottom-color: #ccc;
+}
+.cd {
+  border-left-color: #ccc;
+}
+.bh:hover {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.bi:hover {
+  color: #333;
+}
+.bj:hover {
+  z-index: 1;
+}
+.bk:hover {
+  border-top-color: #adadad;
+}
+.bl:hover {
+  border-right-color: #adadad;
+}
+.bm:hover {
+  border-bottom-color: #adadad;
+}
+.bn:hover {
+  border-left-color: #adadad;
+}
+.az:focus-visible {
+  color: #333;
+}
+.ba:focus-visible {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.bb:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.bc:focus-visible {
+  outline-width: 0;
+}
+.bd:focus-visible {
+  border-top-color: #adadad;
+}
+.be:focus-visible {
+  border-right-color: #adadad;
+}
+.bf:focus-visible {
+  border-bottom-color: #adadad;
+}
+.bg:focus-visible {
+  border-left-color: #adadad;
+}
+.bo:focus {
+  z-index: 1;
+}
+.ae:active {
+  color: #333;
+}
+.af:active {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.ag:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.ah:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ai:active {
+  z-index: 1;
+}
+.aj:active {
+  outline-width: 0;
+}
+.ak:active {
+  border-top-color: #adadad;
+}
+.al:active {
+  border-right-color: #adadad;
+}
+.am:active {
+  border-bottom-color: #adadad;
+}
+.an:active {
+  border-left-color: #adadad;
+}
+
+
+<div data-testid="button-group" class="a b c d e f g button-group" role="group">
+  <button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Left</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Middle</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Right
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Button/ButtonGroup should render a ButtonGroup with three buttons of variant info 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  border-top-left-radius: 0.375rem;
+}
+.e {
+  border-top-right-radius: 0.375rem;
+}
+.f {
+  border-bottom-right-radius: 0.375rem;
+}
+.g {
+  border-bottom-left-radius: 0.375rem;
+}
+.h {
+  border-top-left-radius: 4px;
+}
+.i {
+  border-top-right-radius: 0;
+}
+.j {
+  border-bottom-right-radius: 0;
+}
+.k {
+  border-bottom-left-radius: 4px;
+}
+.l {
+  padding-top: 6px;
+}
+.m {
+  padding-bottom: 6px;
+}
+.n {
+  padding-left: 12px;
+}
+.o {
+  padding-right: 12px;
+}
+.p {
+  -webkit-background-color: #0dcaf0;
+  background-color: #0dcaf0;
+}
+.q {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.r {
+  color: #000;
+}
+.s {
+  cursor: pointer;
+}
+.t {
+  display: inline-block;
+}
+.u {
+  font-size: 14px;
+}
+.v {
+  font-weight: 400;
+}
+.w {
+  line-height: 1.42857143;
+}
+.x {
+  margin-bottom: 0;
+}
+.y {
+  text-align: center;
+}
+.z {
+  touch-action: manipulation;
+}
+.ab {
+  white-space: nowrap;
+}
+.ac {
+  user-select: none;
+}
+.ao:disabled {
+  -webkit-background-color: #0dcaf0;
+  background-color: #0dcaf0;
+}
+.ap:disabled {
+  color: #000;
+}
+.aq:disabled {
+  box-shadow: none;
+}
+.ar:disabled {
+  cursor: not-allowed;
+}
+.as:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.at:disabled {
+  opacity: 0.65;
+}
+.au:disabled {
+  pointer-events: none;
+}
+.av:disabled {
+  border-top-color: #0dcaf0;
+}
+.aw:disabled {
+  border-right-color: #0dcaf0;
+}
+.ax:disabled {
+  border-bottom-color: #0dcaf0;
+}
+.ay:disabled {
+  border-left-color: #0dcaf0;
+}
+.bp {
+  flex-grow: 1;
+}
+.bq {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.br {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.bs {
+  border-top-width: 1px;
+}
+.bt {
+  border-right-width: 1px;
+}
+.bu {
+  border-bottom-width: 1px;
+}
+.bv {
+  border-left-width: 1px;
+}
+.bw {
+  border-top-style: solid;
+}
+.bx {
+  border-right-style: solid;
+}
+.by {
+  border-bottom-style: solid;
+}
+.bz {
+  border-left-style: solid;
+}
+.ca {
+  border-top-color: #0dcaf0;
+}
+.cb {
+  border-right-color: #0dcaf0;
+}
+.cc {
+  border-bottom-color: #0dcaf0;
+}
+.cd {
+  border-left-color: #0dcaf0;
+}
+.bh:hover {
+  -webkit-background-color: #31d2f2;
+  background-color: #31d2f2;
+}
+.bi:hover {
+  color: #000;
+}
+.bj:hover {
+  z-index: 1;
+}
+.bk:hover {
+  border-top-color: #25cff2;
+}
+.bl:hover {
+  border-right-color: #25cff2;
+}
+.bm:hover {
+  border-bottom-color: #25cff2;
+}
+.bn:hover {
+  border-left-color: #25cff2;
+}
+.az:focus-visible {
+  color: #000;
+}
+.ba:focus-visible {
+  -webkit-background-color: #31d2f2;
+  background-color: #31d2f2;
+}
+.bb:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(11, 172, 204, 0.5);
+}
+.bc:focus-visible {
+  outline-width: 0;
+}
+.bd:focus-visible {
+  border-top-color: #25cff2;
+}
+.be:focus-visible {
+  border-right-color: #25cff2;
+}
+.bf:focus-visible {
+  border-bottom-color: #25cff2;
+}
+.bg:focus-visible {
+  border-left-color: #25cff2;
+}
+.bo:focus {
+  z-index: 1;
+}
+.ae:active {
+  color: #000;
+}
+.af:active {
+  -webkit-background-color: #3dd5f3;
+  background-color: #3dd5f3;
+}
+.ag:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.ah:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ai:active {
+  z-index: 1;
+}
+.aj:active {
+  outline-width: 0;
+}
+.ak:active {
+  border-top-color: #25cff2;
+}
+.al:active {
+  border-right-color: #25cff2;
+}
+.am:active {
+  border-bottom-color: #25cff2;
+}
+.an:active {
+  border-left-color: #25cff2;
+}
+
+
+<div data-testid="button-group" class="a b c d e f g button-group" role="group">
+  <button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Left</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Middle</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Right
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Button/ButtonGroup should render a ButtonGroup with three buttons of variant primary 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  border-top-left-radius: 0.375rem;
+}
+.e {
+  border-top-right-radius: 0.375rem;
+}
+.f {
+  border-bottom-right-radius: 0.375rem;
+}
+.g {
+  border-bottom-left-radius: 0.375rem;
+}
+.h {
+  border-top-left-radius: 4px;
+}
+.i {
+  border-top-right-radius: 0;
+}
+.j {
+  border-bottom-right-radius: 0;
+}
+.k {
+  border-bottom-left-radius: 4px;
+}
+.l {
+  padding-top: 6px;
+}
+.m {
+  padding-bottom: 6px;
+}
+.n {
+  padding-left: 12px;
+}
+.o {
+  padding-right: 12px;
+}
+.p {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.q {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.r {
+  color: #fff;
+}
+.s {
+  cursor: pointer;
+}
+.t {
+  display: inline-block;
+}
+.u {
+  font-size: 14px;
+}
+.v {
+  font-weight: 400;
+}
+.w {
+  line-height: 1.42857143;
+}
+.x {
+  margin-bottom: 0;
+}
+.y {
+  text-align: center;
+}
+.z {
+  touch-action: manipulation;
+}
+.ab {
+  white-space: nowrap;
+}
+.ac {
+  user-select: none;
+}
+.ao:disabled {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.ap:disabled {
+  color: #fff;
+}
+.aq:disabled {
+  box-shadow: none;
+}
+.ar:disabled {
+  cursor: not-allowed;
+}
+.as:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.at:disabled {
+  opacity: 0.65;
+}
+.au:disabled {
+  pointer-events: none;
+}
+.av:disabled {
+  border-top-color: #0d6efd;
+}
+.aw:disabled {
+  border-right-color: #0d6efd;
+}
+.ax:disabled {
+  border-bottom-color: #0d6efd;
+}
+.ay:disabled {
+  border-left-color: #0d6efd;
+}
+.bp {
+  flex-grow: 1;
+}
+.bq {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.br {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.bs {
+  border-top-width: 1px;
+}
+.bt {
+  border-right-width: 1px;
+}
+.bu {
+  border-bottom-width: 1px;
+}
+.bv {
+  border-left-width: 1px;
+}
+.bw {
+  border-top-style: solid;
+}
+.bx {
+  border-right-style: solid;
+}
+.by {
+  border-bottom-style: solid;
+}
+.bz {
+  border-left-style: solid;
+}
+.ca {
+  border-top-color: #2e6da4;
+}
+.cb {
+  border-right-color: #2e6da4;
+}
+.cc {
+  border-bottom-color: #2e6da4;
+}
+.cd {
+  border-left-color: #2e6da4;
+}
+.bh:hover {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.bi:hover {
+  color: #fff;
+}
+.bj:hover {
+  z-index: 1;
+}
+.bk:hover {
+  border-top-color: #0a58ca;
+}
+.bl:hover {
+  border-right-color: #0a58ca;
+}
+.bm:hover {
+  border-bottom-color: #0a58ca;
+}
+.bn:hover {
+  border-left-color: #0a58ca;
+}
+.az:focus-visible {
+  color: #fff;
+}
+.ba:focus-visible {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.bb:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.bc:focus-visible {
+  outline-width: 0;
+}
+.bd:focus-visible {
+  border-top-color: #0a58ca;
+}
+.be:focus-visible {
+  border-right-color: #0a58ca;
+}
+.bf:focus-visible {
+  border-bottom-color: #0a58ca;
+}
+.bg:focus-visible {
+  border-left-color: #0a58ca;
+}
+.bo:focus {
+  z-index: 1;
+}
+.ae:active {
+  color: #fff;
+}
+.af:active {
+  -webkit-background-color: #0a58ca;
+  background-color: #0a58ca;
+}
+.ag:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.ah:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ai:active {
+  z-index: 1;
+}
+.aj:active {
+  outline-width: 0;
+}
+.ak:active {
+  border-top-color: #0a53be;
+}
+.al:active {
+  border-right-color: #0a53be;
+}
+.am:active {
+  border-bottom-color: #0a53be;
+}
+.an:active {
+  border-left-color: #0a53be;
+}
+
+
+<div data-testid="button-group" class="a b c d e f g button-group" role="group">
+  <button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Left</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Middle</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Right
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Button/ButtonGroup should render a ButtonGroup with three buttons of variant secondary 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  border-top-left-radius: 0.375rem;
+}
+.e {
+  border-top-right-radius: 0.375rem;
+}
+.f {
+  border-bottom-right-radius: 0.375rem;
+}
+.g {
+  border-bottom-left-radius: 0.375rem;
+}
+.h {
+  border-top-left-radius: 4px;
+}
+.i {
+  border-top-right-radius: 0;
+}
+.j {
+  border-bottom-right-radius: 0;
+}
+.k {
+  border-bottom-left-radius: 4px;
+}
+.l {
+  padding-top: 6px;
+}
+.m {
+  padding-bottom: 6px;
+}
+.n {
+  padding-left: 12px;
+}
+.o {
+  padding-right: 12px;
+}
+.p {
+  -webkit-background-color: #6c757d;
+  background-color: #6c757d;
+}
+.q {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.r {
+  color: #fff;
+}
+.s {
+  cursor: pointer;
+}
+.t {
+  display: inline-block;
+}
+.u {
+  font-size: 14px;
+}
+.v {
+  font-weight: 400;
+}
+.w {
+  line-height: 1.42857143;
+}
+.x {
+  margin-bottom: 0;
+}
+.y {
+  text-align: center;
+}
+.z {
+  touch-action: manipulation;
+}
+.ab {
+  white-space: nowrap;
+}
+.ac {
+  user-select: none;
+}
+.ao:disabled {
+  -webkit-background-color: #6c757d;
+  background-color: #6c757d;
+}
+.ap:disabled {
+  color: #fff;
+}
+.aq:disabled {
+  box-shadow: none;
+}
+.ar:disabled {
+  cursor: not-allowed;
+}
+.as:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.at:disabled {
+  opacity: 0.65;
+}
+.au:disabled {
+  pointer-events: none;
+}
+.av:disabled {
+  border-top-color: #6c757d;
+}
+.aw:disabled {
+  border-right-color: #6c757d;
+}
+.ax:disabled {
+  border-bottom-color: #6c757d;
+}
+.ay:disabled {
+  border-left-color: #6c757d;
+}
+.bp {
+  flex-grow: 1;
+}
+.bq {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.br {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.bs {
+  border-top-width: 1px;
+}
+.bt {
+  border-right-width: 1px;
+}
+.bu {
+  border-bottom-width: 1px;
+}
+.bv {
+  border-left-width: 1px;
+}
+.bw {
+  border-top-style: solid;
+}
+.bx {
+  border-right-style: solid;
+}
+.by {
+  border-bottom-style: solid;
+}
+.bz {
+  border-left-style: solid;
+}
+.ca {
+  border-top-color: #6c757d;
+}
+.cb {
+  border-right-color: #6c757d;
+}
+.cc {
+  border-bottom-color: #6c757d;
+}
+.cd {
+  border-left-color: #6c757d;
+}
+.bh:hover {
+  -webkit-background-color: #5c636a;
+  background-color: #5c636a;
+}
+.bi:hover {
+  color: #fff;
+}
+.bj:hover {
+  z-index: 1;
+}
+.bk:hover {
+  border-top-color: #565e64;
+}
+.bl:hover {
+  border-right-color: #565e64;
+}
+.bm:hover {
+  border-bottom-color: #565e64;
+}
+.bn:hover {
+  border-left-color: #565e64;
+}
+.az:focus-visible {
+  color: #fff;
+}
+.ba:focus-visible {
+  -webkit-background-color: #5c636a;
+  background-color: #5c636a;
+}
+.bb:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+}
+.bc:focus-visible {
+  outline-width: 0;
+}
+.bd:focus-visible {
+  border-top-color: #565e64;
+}
+.be:focus-visible {
+  border-right-color: #565e64;
+}
+.bf:focus-visible {
+  border-bottom-color: #565e64;
+}
+.bg:focus-visible {
+  border-left-color: #565e64;
+}
+.bo:focus {
+  z-index: 1;
+}
+.ae:active {
+  color: #fff;
+}
+.af:active {
+  -webkit-background-color: #565e64;
+  background-color: #565e64;
+}
+.ag:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.ah:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ai:active {
+  z-index: 1;
+}
+.aj:active {
+  outline-width: 0;
+}
+.ak:active {
+  border-top-color: #51585e;
+}
+.al:active {
+  border-right-color: #51585e;
+}
+.am:active {
+  border-bottom-color: #51585e;
+}
+.an:active {
+  border-left-color: #51585e;
+}
+
+
+<div data-testid="button-group" class="a b c d e f g button-group" role="group">
+  <button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Left</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Middle</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Right
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Button/ButtonGroup should render a ButtonGroup with three buttons of variant success 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  border-top-left-radius: 0.375rem;
+}
+.e {
+  border-top-right-radius: 0.375rem;
+}
+.f {
+  border-bottom-right-radius: 0.375rem;
+}
+.g {
+  border-bottom-left-radius: 0.375rem;
+}
+.h {
+  border-top-left-radius: 4px;
+}
+.i {
+  border-top-right-radius: 0;
+}
+.j {
+  border-bottom-right-radius: 0;
+}
+.k {
+  border-bottom-left-radius: 4px;
+}
+.l {
+  padding-top: 6px;
+}
+.m {
+  padding-bottom: 6px;
+}
+.n {
+  padding-left: 12px;
+}
+.o {
+  padding-right: 12px;
+}
+.p {
+  -webkit-background-color: #198754;
+  background-color: #198754;
+}
+.q {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.r {
+  color: #fff;
+}
+.s {
+  cursor: pointer;
+}
+.t {
+  display: inline-block;
+}
+.u {
+  font-size: 14px;
+}
+.v {
+  font-weight: 400;
+}
+.w {
+  line-height: 1.42857143;
+}
+.x {
+  margin-bottom: 0;
+}
+.y {
+  text-align: center;
+}
+.z {
+  touch-action: manipulation;
+}
+.ab {
+  white-space: nowrap;
+}
+.ac {
+  user-select: none;
+}
+.ao:disabled {
+  -webkit-background-color: #198754;
+  background-color: #198754;
+}
+.ap:disabled {
+  color: #fff;
+}
+.aq:disabled {
+  box-shadow: none;
+}
+.ar:disabled {
+  cursor: not-allowed;
+}
+.as:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.at:disabled {
+  opacity: 0.65;
+}
+.au:disabled {
+  pointer-events: none;
+}
+.av:disabled {
+  border-top-color: #198754;
+}
+.aw:disabled {
+  border-right-color: #198754;
+}
+.ax:disabled {
+  border-bottom-color: #198754;
+}
+.ay:disabled {
+  border-left-color: #198754;
+}
+.bp {
+  flex-grow: 1;
+}
+.bq {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.br {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.bs {
+  border-top-width: 1px;
+}
+.bt {
+  border-right-width: 1px;
+}
+.bu {
+  border-bottom-width: 1px;
+}
+.bv {
+  border-left-width: 1px;
+}
+.bw {
+  border-top-style: solid;
+}
+.bx {
+  border-right-style: solid;
+}
+.by {
+  border-bottom-style: solid;
+}
+.bz {
+  border-left-style: solid;
+}
+.ca {
+  border-top-color: #198754;
+}
+.cb {
+  border-right-color: #198754;
+}
+.cc {
+  border-bottom-color: #198754;
+}
+.cd {
+  border-left-color: #198754;
+}
+.bh:hover {
+  -webkit-background-color: #157347;
+  background-color: #157347;
+}
+.bi:hover {
+  color: #fff;
+}
+.bj:hover {
+  z-index: 1;
+}
+.bk:hover {
+  border-top-color: #146c43;
+}
+.bl:hover {
+  border-right-color: #146c43;
+}
+.bm:hover {
+  border-bottom-color: #146c43;
+}
+.bn:hover {
+  border-left-color: #146c43;
+}
+.az:focus-visible {
+  color: #fff;
+}
+.ba:focus-visible {
+  -webkit-background-color: #157347;
+  background-color: #157347;
+}
+.bb:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+}
+.bc:focus-visible {
+  outline-width: 0;
+}
+.bd:focus-visible {
+  border-top-color: #146c43;
+}
+.be:focus-visible {
+  border-right-color: #146c43;
+}
+.bf:focus-visible {
+  border-bottom-color: #146c43;
+}
+.bg:focus-visible {
+  border-left-color: #146c43;
+}
+.bo:focus {
+  z-index: 1;
+}
+.ae:active {
+  color: #fff;
+}
+.af:active {
+  -webkit-background-color: #146c43;
+  background-color: #146c43;
+}
+.ag:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.ah:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ai:active {
+  z-index: 1;
+}
+.aj:active {
+  outline-width: 0;
+}
+.ak:active {
+  border-top-color: #13653f;
+}
+.al:active {
+  border-right-color: #13653f;
+}
+.am:active {
+  border-bottom-color: #13653f;
+}
+.an:active {
+  border-left-color: #13653f;
+}
+
+
+<div data-testid="button-group" class="a b c d e f g button-group" role="group">
+  <button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Left</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Middle</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Right
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Button/ButtonGroup should render a ButtonGroup with three buttons of variant warning 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  border-top-left-radius: 0.375rem;
+}
+.e {
+  border-top-right-radius: 0.375rem;
+}
+.f {
+  border-bottom-right-radius: 0.375rem;
+}
+.g {
+  border-bottom-left-radius: 0.375rem;
+}
+.h {
+  border-top-left-radius: 4px;
+}
+.i {
+  border-top-right-radius: 0;
+}
+.j {
+  border-bottom-right-radius: 0;
+}
+.k {
+  border-bottom-left-radius: 4px;
+}
+.l {
+  padding-top: 6px;
+}
+.m {
+  padding-bottom: 6px;
+}
+.n {
+  padding-left: 12px;
+}
+.o {
+  padding-right: 12px;
+}
+.p {
+  -webkit-background-color: #ffc107;
+  background-color: #ffc107;
+}
+.q {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.r {
+  color: #000;
+}
+.s {
+  cursor: pointer;
+}
+.t {
+  display: inline-block;
+}
+.u {
+  font-size: 14px;
+}
+.v {
+  font-weight: 400;
+}
+.w {
+  line-height: 1.42857143;
+}
+.x {
+  margin-bottom: 0;
+}
+.y {
+  text-align: center;
+}
+.z {
+  touch-action: manipulation;
+}
+.ab {
+  white-space: nowrap;
+}
+.ac {
+  user-select: none;
+}
+.ao:disabled {
+  -webkit-background-color: #ffc107;
+  background-color: #ffc107;
+}
+.ap:disabled {
+  color: #000;
+}
+.aq:disabled {
+  box-shadow: none;
+}
+.ar:disabled {
+  cursor: not-allowed;
+}
+.as:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.at:disabled {
+  opacity: 0.65;
+}
+.au:disabled {
+  pointer-events: none;
+}
+.av:disabled {
+  border-top-color: #ffc107;
+}
+.aw:disabled {
+  border-right-color: #ffc107;
+}
+.ax:disabled {
+  border-bottom-color: #ffc107;
+}
+.ay:disabled {
+  border-left-color: #ffc107;
+}
+.bp {
+  flex-grow: 1;
+}
+.bq {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.br {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.bs {
+  border-top-width: 1px;
+}
+.bt {
+  border-right-width: 1px;
+}
+.bu {
+  border-bottom-width: 1px;
+}
+.bv {
+  border-left-width: 1px;
+}
+.bw {
+  border-top-style: solid;
+}
+.bx {
+  border-right-style: solid;
+}
+.by {
+  border-bottom-style: solid;
+}
+.bz {
+  border-left-style: solid;
+}
+.ca {
+  border-top-color: #ffc107;
+}
+.cb {
+  border-right-color: #ffc107;
+}
+.cc {
+  border-bottom-color: #ffc107;
+}
+.cd {
+  border-left-color: #ffc107;
+}
+.bh:hover {
+  -webkit-background-color: #ffca2c;
+  background-color: #ffca2c;
+}
+.bi:hover {
+  color: #000;
+}
+.bj:hover {
+  z-index: 1;
+}
+.bk:hover {
+  border-top-color: #ffc720;
+}
+.bl:hover {
+  border-right-color: #ffc720;
+}
+.bm:hover {
+  border-bottom-color: #ffc720;
+}
+.bn:hover {
+  border-left-color: #ffc720;
+}
+.az:focus-visible {
+  color: #000;
+}
+.ba:focus-visible {
+  -webkit-background-color: #ffca2c;
+  background-color: #ffca2c;
+}
+.bb:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(217, 164, 6, 0.5);
+}
+.bc:focus-visible {
+  outline-width: 0;
+}
+.bd:focus-visible {
+  border-top-color: #ffc720;
+}
+.be:focus-visible {
+  border-right-color: #ffc720;
+}
+.bf:focus-visible {
+  border-bottom-color: #ffc720;
+}
+.bg:focus-visible {
+  border-left-color: #ffc720;
+}
+.bo:focus {
+  z-index: 1;
+}
+.ae:active {
+  color: #000;
+}
+.af:active {
+  -webkit-background-color: #ffcd39;
+  background-color: #ffcd39;
+}
+.ag:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.ah:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ai:active {
+  z-index: 1;
+}
+.aj:active {
+  outline-width: 0;
+}
+.ak:active {
+  border-top-color: #ffc720;
+}
+.al:active {
+  border-right-color: #ffc720;
+}
+.am:active {
+  border-bottom-color: #ffc720;
+}
+.an:active {
+  border-left-color: #ffc720;
+}
+
+
+<div data-testid="button-group" class="a b c d e f g button-group" role="group">
+  <button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Left</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Middle</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Right
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Button/ButtonGroup should render a group of large buttons 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  border-top-left-radius: 0.375rem;
+}
+.e {
+  border-top-right-radius: 0.375rem;
+}
+.f {
+  border-bottom-right-radius: 0.375rem;
+}
+.g {
+  border-bottom-left-radius: 0.375rem;
+}
+.h {
+  border-top-left-radius: 4px;
+}
+.i {
+  border-top-right-radius: 0;
+}
+.j {
+  border-bottom-right-radius: 0;
+}
+.k {
+  border-bottom-left-radius: 4px;
+}
+.l {
+  padding-top: 6px;
+}
+.m {
+  padding-bottom: 6px;
+}
+.n {
+  padding-left: 12px;
+}
+.o {
+  padding-right: 12px;
+}
+.p {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.q {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.r {
+  color: #fff;
+}
+.s {
+  cursor: pointer;
+}
+.t {
+  display: inline-block;
+}
+.u {
+  font-size: 1.25rem;
+}
+.v {
+  font-weight: 400;
+}
+.w {
+  line-height: 1.42857143;
+}
+.x {
+  margin-bottom: 0;
+}
+.y {
+  text-align: center;
+}
+.z {
+  touch-action: manipulation;
+}
+.ab {
+  white-space: nowrap;
+}
+.ac {
+  user-select: none;
+}
+.ao:disabled {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.ap:disabled {
+  color: #fff;
+}
+.aq:disabled {
+  box-shadow: none;
+}
+.ar:disabled {
+  cursor: not-allowed;
+}
+.as:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.at:disabled {
+  opacity: 0.65;
+}
+.au:disabled {
+  pointer-events: none;
+}
+.av:disabled {
+  border-top-color: #0d6efd;
+}
+.aw:disabled {
+  border-right-color: #0d6efd;
+}
+.ax:disabled {
+  border-bottom-color: #0d6efd;
+}
+.ay:disabled {
+  border-left-color: #0d6efd;
+}
+.bp {
+  flex-grow: 1;
+}
+.bq {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.br {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.bs {
+  border-top-width: 1px;
+}
+.bt {
+  border-right-width: 1px;
+}
+.bu {
+  border-bottom-width: 1px;
+}
+.bv {
+  border-left-width: 1px;
+}
+.bw {
+  border-top-style: solid;
+}
+.bx {
+  border-right-style: solid;
+}
+.by {
+  border-bottom-style: solid;
+}
+.bz {
+  border-left-style: solid;
+}
+.ca {
+  border-top-color: #2e6da4;
+}
+.cb {
+  border-right-color: #2e6da4;
+}
+.cc {
+  border-bottom-color: #2e6da4;
+}
+.cd {
+  border-left-color: #2e6da4;
+}
+.bh:hover {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.bi:hover {
+  color: #fff;
+}
+.bj:hover {
+  z-index: 1;
+}
+.bk:hover {
+  border-top-color: #0a58ca;
+}
+.bl:hover {
+  border-right-color: #0a58ca;
+}
+.bm:hover {
+  border-bottom-color: #0a58ca;
+}
+.bn:hover {
+  border-left-color: #0a58ca;
+}
+.az:focus-visible {
+  color: #fff;
+}
+.ba:focus-visible {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.bb:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.bc:focus-visible {
+  outline-width: 0;
+}
+.bd:focus-visible {
+  border-top-color: #0a58ca;
+}
+.be:focus-visible {
+  border-right-color: #0a58ca;
+}
+.bf:focus-visible {
+  border-bottom-color: #0a58ca;
+}
+.bg:focus-visible {
+  border-left-color: #0a58ca;
+}
+.bo:focus {
+  z-index: 1;
+}
+.ae:active {
+  color: #fff;
+}
+.af:active {
+  -webkit-background-color: #0a58ca;
+  background-color: #0a58ca;
+}
+.ag:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.ah:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ai:active {
+  z-index: 1;
+}
+.aj:active {
+  outline-width: 0;
+}
+.ak:active {
+  border-top-color: #0a53be;
+}
+.al:active {
+  border-right-color: #0a53be;
+}
+.am:active {
+  border-bottom-color: #0a53be;
+}
+.an:active {
+  border-left-color: #0a53be;
+}
+
+
+<div data-testid="button-group" class="a b c d e f g button-group" role="group">
+  <button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Left</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Middle</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Right
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Button/ButtonGroup should render a group of medium buttons 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  border-top-left-radius: 0.375rem;
+}
+.e {
+  border-top-right-radius: 0.375rem;
+}
+.f {
+  border-bottom-right-radius: 0.375rem;
+}
+.g {
+  border-bottom-left-radius: 0.375rem;
+}
+.h {
+  border-top-left-radius: 4px;
+}
+.i {
+  border-top-right-radius: 0;
+}
+.j {
+  border-bottom-right-radius: 0;
+}
+.k {
+  border-bottom-left-radius: 4px;
+}
+.l {
+  padding-top: 6px;
+}
+.m {
+  padding-bottom: 6px;
+}
+.n {
+  padding-left: 12px;
+}
+.o {
+  padding-right: 12px;
+}
+.p {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.q {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.r {
+  color: #fff;
+}
+.s {
+  cursor: pointer;
+}
+.t {
+  display: inline-block;
+}
+.u {
+  font-size: 14px;
+}
+.v {
+  font-weight: 400;
+}
+.w {
+  line-height: 1.42857143;
+}
+.x {
+  margin-bottom: 0;
+}
+.y {
+  text-align: center;
+}
+.z {
+  touch-action: manipulation;
+}
+.ab {
+  white-space: nowrap;
+}
+.ac {
+  user-select: none;
+}
+.ao:disabled {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.ap:disabled {
+  color: #fff;
+}
+.aq:disabled {
+  box-shadow: none;
+}
+.ar:disabled {
+  cursor: not-allowed;
+}
+.as:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.at:disabled {
+  opacity: 0.65;
+}
+.au:disabled {
+  pointer-events: none;
+}
+.av:disabled {
+  border-top-color: #0d6efd;
+}
+.aw:disabled {
+  border-right-color: #0d6efd;
+}
+.ax:disabled {
+  border-bottom-color: #0d6efd;
+}
+.ay:disabled {
+  border-left-color: #0d6efd;
+}
+.bp {
+  flex-grow: 1;
+}
+.bq {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.br {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.bs {
+  border-top-width: 1px;
+}
+.bt {
+  border-right-width: 1px;
+}
+.bu {
+  border-bottom-width: 1px;
+}
+.bv {
+  border-left-width: 1px;
+}
+.bw {
+  border-top-style: solid;
+}
+.bx {
+  border-right-style: solid;
+}
+.by {
+  border-bottom-style: solid;
+}
+.bz {
+  border-left-style: solid;
+}
+.ca {
+  border-top-color: #2e6da4;
+}
+.cb {
+  border-right-color: #2e6da4;
+}
+.cc {
+  border-bottom-color: #2e6da4;
+}
+.cd {
+  border-left-color: #2e6da4;
+}
+.bh:hover {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.bi:hover {
+  color: #fff;
+}
+.bj:hover {
+  z-index: 1;
+}
+.bk:hover {
+  border-top-color: #0a58ca;
+}
+.bl:hover {
+  border-right-color: #0a58ca;
+}
+.bm:hover {
+  border-bottom-color: #0a58ca;
+}
+.bn:hover {
+  border-left-color: #0a58ca;
+}
+.az:focus-visible {
+  color: #fff;
+}
+.ba:focus-visible {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.bb:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.bc:focus-visible {
+  outline-width: 0;
+}
+.bd:focus-visible {
+  border-top-color: #0a58ca;
+}
+.be:focus-visible {
+  border-right-color: #0a58ca;
+}
+.bf:focus-visible {
+  border-bottom-color: #0a58ca;
+}
+.bg:focus-visible {
+  border-left-color: #0a58ca;
+}
+.bo:focus {
+  z-index: 1;
+}
+.ae:active {
+  color: #fff;
+}
+.af:active {
+  -webkit-background-color: #0a58ca;
+  background-color: #0a58ca;
+}
+.ag:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.ah:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ai:active {
+  z-index: 1;
+}
+.aj:active {
+  outline-width: 0;
+}
+.ak:active {
+  border-top-color: #0a53be;
+}
+.al:active {
+  border-right-color: #0a53be;
+}
+.am:active {
+  border-bottom-color: #0a53be;
+}
+.an:active {
+  border-left-color: #0a53be;
+}
+
+
+<div data-testid="button-group" class="a b c d e f g button-group" role="group">
+  <button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Left</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Middle</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Right
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Button/ButtonGroup should render a group of small buttons 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  border-top-left-radius: 0.375rem;
+}
+.e {
+  border-top-right-radius: 0.375rem;
+}
+.f {
+  border-bottom-right-radius: 0.375rem;
+}
+.g {
+  border-bottom-left-radius: 0.375rem;
+}
+.h {
+  border-top-left-radius: 4px;
+}
+.i {
+  border-top-right-radius: 0;
+}
+.j {
+  border-bottom-right-radius: 0;
+}
+.k {
+  border-bottom-left-radius: 4px;
+}
+.l {
+  padding-top: 6px;
+}
+.m {
+  padding-bottom: 6px;
+}
+.n {
+  padding-left: 12px;
+}
+.o {
+  padding-right: 12px;
+}
+.p {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.q {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.r {
+  color: #fff;
+}
+.s {
+  cursor: pointer;
+}
+.t {
+  display: inline-block;
+}
+.u {
+  font-size: 0.5rem;
+}
+.v {
+  font-weight: 400;
+}
+.w {
+  line-height: 1.42857143;
+}
+.x {
+  margin-bottom: 0;
+}
+.y {
+  text-align: center;
+}
+.z {
+  touch-action: manipulation;
+}
+.ab {
+  white-space: nowrap;
+}
+.ac {
+  user-select: none;
+}
+.ao:disabled {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.ap:disabled {
+  color: #fff;
+}
+.aq:disabled {
+  box-shadow: none;
+}
+.ar:disabled {
+  cursor: not-allowed;
+}
+.as:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.at:disabled {
+  opacity: 0.65;
+}
+.au:disabled {
+  pointer-events: none;
+}
+.av:disabled {
+  border-top-color: #0d6efd;
+}
+.aw:disabled {
+  border-right-color: #0d6efd;
+}
+.ax:disabled {
+  border-bottom-color: #0d6efd;
+}
+.ay:disabled {
+  border-left-color: #0d6efd;
+}
+.bp {
+  flex-grow: 1;
+}
+.bq {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.br {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.bs {
+  border-top-width: 1px;
+}
+.bt {
+  border-right-width: 1px;
+}
+.bu {
+  border-bottom-width: 1px;
+}
+.bv {
+  border-left-width: 1px;
+}
+.bw {
+  border-top-style: solid;
+}
+.bx {
+  border-right-style: solid;
+}
+.by {
+  border-bottom-style: solid;
+}
+.bz {
+  border-left-style: solid;
+}
+.ca {
+  border-top-color: #2e6da4;
+}
+.cb {
+  border-right-color: #2e6da4;
+}
+.cc {
+  border-bottom-color: #2e6da4;
+}
+.cd {
+  border-left-color: #2e6da4;
+}
+.bh:hover {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.bi:hover {
+  color: #fff;
+}
+.bj:hover {
+  z-index: 1;
+}
+.bk:hover {
+  border-top-color: #0a58ca;
+}
+.bl:hover {
+  border-right-color: #0a58ca;
+}
+.bm:hover {
+  border-bottom-color: #0a58ca;
+}
+.bn:hover {
+  border-left-color: #0a58ca;
+}
+.az:focus-visible {
+  color: #fff;
+}
+.ba:focus-visible {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.bb:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.bc:focus-visible {
+  outline-width: 0;
+}
+.bd:focus-visible {
+  border-top-color: #0a58ca;
+}
+.be:focus-visible {
+  border-right-color: #0a58ca;
+}
+.bf:focus-visible {
+  border-bottom-color: #0a58ca;
+}
+.bg:focus-visible {
+  border-left-color: #0a58ca;
+}
+.bo:focus {
+  z-index: 1;
+}
+.ae:active {
+  color: #fff;
+}
+.af:active {
+  -webkit-background-color: #0a58ca;
+  background-color: #0a58ca;
+}
+.ag:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.ah:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ai:active {
+  z-index: 1;
+}
+.aj:active {
+  outline-width: 0;
+}
+.ak:active {
+  border-top-color: #0a53be;
+}
+.al:active {
+  border-right-color: #0a53be;
+}
+.am:active {
+  border-bottom-color: #0a53be;
+}
+.an:active {
+  border-left-color: #0a53be;
+}
+
+
+<div data-testid="button-group" class="a b c d e f g button-group" role="group">
+  <button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Left</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Middle</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Right
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Button/ButtonGroup should render a mixed ButtonGroup with three buttons 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  border-top-left-radius: 0.375rem;
+}
+.e {
+  border-top-right-radius: 0.375rem;
+}
+.f {
+  border-bottom-right-radius: 0.375rem;
+}
+.g {
+  border-bottom-left-radius: 0.375rem;
+}
+.h {
+  border-top-left-radius: 4px;
+}
+.i {
+  border-top-right-radius: 0;
+}
+.j {
+  border-bottom-right-radius: 0;
+}
+.k {
+  border-bottom-left-radius: 4px;
+}
+.l {
+  padding-top: 6px;
+}
+.m {
+  padding-bottom: 6px;
+}
+.n {
+  padding-left: 12px;
+}
+.o {
+  padding-right: 12px;
+}
+.p {
+  -webkit-background-color: #dc3545;
+  background-color: #dc3545;
+}
+.q {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.r {
+  color: #fff;
+}
+.s {
+  cursor: pointer;
+}
+.t {
+  display: inline-block;
+}
+.u {
+  font-size: 14px;
+}
+.v {
+  font-weight: 400;
+}
+.w {
+  line-height: 1.42857143;
+}
+.x {
+  margin-bottom: 0;
+}
+.y {
+  text-align: center;
+}
+.z {
+  touch-action: manipulation;
+}
+.ab {
+  white-space: nowrap;
+}
+.ac {
+  user-select: none;
+}
+.ao:disabled {
+  -webkit-background-color: #dc3545;
+  background-color: #dc3545;
+}
+.ap:disabled {
+  color: #fff;
+}
+.aq:disabled {
+  box-shadow: none;
+}
+.ar:disabled {
+  cursor: not-allowed;
+}
+.as:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.at:disabled {
+  opacity: 0.65;
+}
+.au:disabled {
+  pointer-events: none;
+}
+.av:disabled {
+  border-top-color: #dc3545;
+}
+.aw:disabled {
+  border-right-color: #dc3545;
+}
+.ax:disabled {
+  border-bottom-color: #dc3545;
+}
+.ay:disabled {
+  border-left-color: #dc3545;
+}
+.bp {
+  flex-grow: 1;
+}
+.bq {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.br {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.bs {
+  border-top-width: 1px;
+}
+.bt {
+  border-right-width: 1px;
+}
+.bu {
+  border-bottom-width: 1px;
+}
+.bv {
+  border-left-width: 1px;
+}
+.bw {
+  border-top-style: solid;
+}
+.bx {
+  border-right-style: solid;
+}
+.by {
+  border-bottom-style: solid;
+}
+.bz {
+  border-left-style: solid;
+}
+.ca {
+  border-top-color: #dc3545;
+}
+.cb {
+  border-right-color: #dc3545;
+}
+.cc {
+  border-bottom-color: #dc3545;
+}
+.cd {
+  border-left-color: #dc3545;
+}
+.ce {
+  -webkit-background-color: #ffc107;
+  background-color: #ffc107;
+}
+.cf {
+  color: #000;
+}
+.cm:disabled {
+  -webkit-background-color: #ffc107;
+  background-color: #ffc107;
+}
+.cn:disabled {
+  color: #000;
+}
+.co:disabled {
+  border-top-color: #ffc107;
+}
+.cp:disabled {
+  border-right-color: #ffc107;
+}
+.cq:disabled {
+  border-bottom-color: #ffc107;
+}
+.cr:disabled {
+  border-left-color: #ffc107;
+}
+.df {
+  border-top-color: #ffc107;
+}
+.dg {
+  border-right-color: #ffc107;
+}
+.dh {
+  border-bottom-color: #ffc107;
+}
+.di {
+  border-left-color: #ffc107;
+}
+.dj {
+  -webkit-background-color: #198754;
+  background-color: #198754;
+}
+.dp:disabled {
+  -webkit-background-color: #198754;
+  background-color: #198754;
+}
+.dq:disabled {
+  border-top-color: #198754;
+}
+.dr:disabled {
+  border-right-color: #198754;
+}
+.ds:disabled {
+  border-bottom-color: #198754;
+}
+.dt:disabled {
+  border-left-color: #198754;
+}
+.ef {
+  border-top-color: #198754;
+}
+.eg {
+  border-right-color: #198754;
+}
+.eh {
+  border-bottom-color: #198754;
+}
+.ei {
+  border-left-color: #198754;
+}
+.bh:hover {
+  -webkit-background-color: #bb2d3b;
+  background-color: #bb2d3b;
+}
+.bi:hover {
+  color: #fff;
+}
+.bj:hover {
+  z-index: 1;
+}
+.bk:hover {
+  border-top-color: #b02a37;
+}
+.bl:hover {
+  border-right-color: #b02a37;
+}
+.bm:hover {
+  border-bottom-color: #b02a37;
+}
+.bn:hover {
+  border-left-color: #b02a37;
+}
+.cz:hover {
+  -webkit-background-color: #ffca2c;
+  background-color: #ffca2c;
+}
+.da:hover {
+  color: #000;
+}
+.db:hover {
+  border-top-color: #ffc720;
+}
+.dc:hover {
+  border-right-color: #ffc720;
+}
+.dd:hover {
+  border-bottom-color: #ffc720;
+}
+.de:hover {
+  border-left-color: #ffc720;
+}
+.ea:hover {
+  -webkit-background-color: #157347;
+  background-color: #157347;
+}
+.eb:hover {
+  border-top-color: #146c43;
+}
+.ec:hover {
+  border-right-color: #146c43;
+}
+.ed:hover {
+  border-bottom-color: #146c43;
+}
+.ee:hover {
+  border-left-color: #146c43;
+}
+.az:focus-visible {
+  color: #fff;
+}
+.ba:focus-visible {
+  -webkit-background-color: #bb2d3b;
+  background-color: #bb2d3b;
+}
+.bb:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(225, 83, 97, 0.5);
+}
+.bc:focus-visible {
+  outline-width: 0;
+}
+.bd:focus-visible {
+  border-top-color: #b02a37;
+}
+.be:focus-visible {
+  border-right-color: #b02a37;
+}
+.bf:focus-visible {
+  border-bottom-color: #b02a37;
+}
+.bg:focus-visible {
+  border-left-color: #b02a37;
+}
+.bo:focus {
+  z-index: 1;
+}
+.cs:focus-visible {
+  color: #000;
+}
+.ct:focus-visible {
+  -webkit-background-color: #ffca2c;
+  background-color: #ffca2c;
+}
+.cu:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(217, 164, 6, 0.5);
+}
+.cv:focus-visible {
+  border-top-color: #ffc720;
+}
+.cw:focus-visible {
+  border-right-color: #ffc720;
+}
+.cx:focus-visible {
+  border-bottom-color: #ffc720;
+}
+.cy:focus-visible {
+  border-left-color: #ffc720;
+}
+.du:focus-visible {
+  -webkit-background-color: #157347;
+  background-color: #157347;
+}
+.dv:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+}
+.dw:focus-visible {
+  border-top-color: #146c43;
+}
+.dx:focus-visible {
+  border-right-color: #146c43;
+}
+.dy:focus-visible {
+  border-bottom-color: #146c43;
+}
+.dz:focus-visible {
+  border-left-color: #146c43;
+}
+.ae:active {
+  color: #fff;
+}
+.af:active {
+  -webkit-background-color: #b02a37;
+  background-color: #b02a37;
+}
+.ag:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.ah:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ai:active {
+  z-index: 1;
+}
+.aj:active {
+  outline-width: 0;
+}
+.ak:active {
+  border-top-color: #a52834;
+}
+.al:active {
+  border-right-color: #a52834;
+}
+.am:active {
+  border-bottom-color: #a52834;
+}
+.an:active {
+  border-left-color: #a52834;
+}
+.cg:active {
+  color: #000;
+}
+.ch:active {
+  -webkit-background-color: #ffcd39;
+  background-color: #ffcd39;
+}
+.ci:active {
+  border-top-color: #ffc720;
+}
+.cj:active {
+  border-right-color: #ffc720;
+}
+.ck:active {
+  border-bottom-color: #ffc720;
+}
+.cl:active {
+  border-left-color: #ffc720;
+}
+.dk:active {
+  -webkit-background-color: #146c43;
+  background-color: #146c43;
+}
+.dl:active {
+  border-top-color: #13653f;
+}
+.dm:active {
+  border-right-color: #13653f;
+}
+.dn:active {
+  border-bottom-color: #13653f;
+}
+.do:active {
+  border-left-color: #13653f;
+}
+
+
+<div data-testid="button-group" class="a b c d e f g button-group" role="group">
+  <button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd h i j k l m n o p q r s t u v w x y z"
+  >
+    Left</button
+  ><button
+    data-testid="button"
+    class="a ab ac ag ah ai aj aq ar as at au bc bj bo bp bq br bs bt bu bv bw bx by bz c ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di h i j k l m n o q s t u v w x y z"
+  >
+    Middle</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae ag ah ai aj ap aq ar as at au az bc bi bj bo bp bq br bs bt bu bv bw bx by bz c dj dk dl dm dn do dp dq dr ds dt du dv dw dx dy dz ea eb ec ed ee ef eg eh ei h i j k l m n o q r s t u v w x y z"
+  >
+    Right
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Button/ButtonGroup should render a vertical group of buttons of variant danger 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  flex-direction: column;
+}
+.e {
+  -webkit-align-items: flex-start;
+  -ms-flex-item-align-items: start;
+  align-items: flex-start;
+}
+.f {
+  justify-content: center;
+}
+.g {
+  border-top-left-radius: 4px;
+}
+.h {
+  border-top-right-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  border-bottom-left-radius: 4px;
+}
+.k {
+  padding-top: 6px;
+}
+.l {
+  padding-bottom: 6px;
+}
+.m {
+  padding-left: 12px;
+}
+.n {
+  padding-right: 12px;
+}
+.o {
+  -webkit-background-color: #dc3545;
+  background-color: #dc3545;
+}
+.p {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.q {
+  color: #fff;
+}
+.r {
+  cursor: pointer;
+}
+.s {
+  display: inline-block;
+}
+.t {
+  font-size: 14px;
+}
+.u {
+  font-weight: 400;
+}
+.v {
+  line-height: 1.42857143;
+}
+.w {
+  margin-bottom: 0;
+}
+.x {
+  text-align: center;
+}
+.y {
+  touch-action: manipulation;
+}
+.z {
+  white-space: nowrap;
+}
+.ab {
+  user-select: none;
+}
+.an:disabled {
+  -webkit-background-color: #dc3545;
+  background-color: #dc3545;
+}
+.ao:disabled {
+  color: #fff;
+}
+.ap:disabled {
+  box-shadow: none;
+}
+.aq:disabled {
+  cursor: not-allowed;
+}
+.ar:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.as:disabled {
+  opacity: 0.65;
+}
+.at:disabled {
+  pointer-events: none;
+}
+.au:disabled {
+  border-top-color: #dc3545;
+}
+.av:disabled {
+  border-right-color: #dc3545;
+}
+.aw:disabled {
+  border-bottom-color: #dc3545;
+}
+.ax:disabled {
+  border-left-color: #dc3545;
+}
+.bo {
+  width: 100%;
+}
+.bp {
+  flex-grow: 1;
+}
+.bq {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.br {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.bs {
+  border-top-width: 1px;
+}
+.bt {
+  border-right-width: 1px;
+}
+.bu {
+  border-bottom-width: 1px;
+}
+.bv {
+  border-left-width: 1px;
+}
+.bw {
+  border-top-style: solid;
+}
+.bx {
+  border-right-style: solid;
+}
+.by {
+  border-bottom-style: solid;
+}
+.bz {
+  border-left-style: solid;
+}
+.ca {
+  border-top-color: #dc3545;
+}
+.cb {
+  border-right-color: #dc3545;
+}
+.cc {
+  border-bottom-color: #dc3545;
+}
+.cd {
+  border-left-color: #dc3545;
+}
+.ce {
+  border-top-left-radius: 0;
+}
+.cf {
+  margin-top: calc(1px * -1);
+}
+.bg:hover {
+  -webkit-background-color: #bb2d3b;
+  background-color: #bb2d3b;
+}
+.bh:hover {
+  color: #fff;
+}
+.bi:hover {
+  z-index: 1;
+}
+.bj:hover {
+  border-top-color: #b02a37;
+}
+.bk:hover {
+  border-right-color: #b02a37;
+}
+.bl:hover {
+  border-bottom-color: #b02a37;
+}
+.bm:hover {
+  border-left-color: #b02a37;
+}
+.ay:focus-visible {
+  color: #fff;
+}
+.az:focus-visible {
+  -webkit-background-color: #bb2d3b;
+  background-color: #bb2d3b;
+}
+.ba:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(225, 83, 97, 0.5);
+}
+.bb:focus-visible {
+  outline-width: 0;
+}
+.bc:focus-visible {
+  border-top-color: #b02a37;
+}
+.bd:focus-visible {
+  border-right-color: #b02a37;
+}
+.be:focus-visible {
+  border-bottom-color: #b02a37;
+}
+.bf:focus-visible {
+  border-left-color: #b02a37;
+}
+.bn:focus {
+  z-index: 1;
+}
+.ac:active {
+  color: #fff;
+}
+.ae:active {
+  -webkit-background-color: #b02a37;
+  background-color: #b02a37;
+}
+.af:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.ag:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ah:active {
+  z-index: 1;
+}
+.ai:active {
+  outline-width: 0;
+}
+.aj:active {
+  border-top-color: #a52834;
+}
+.ak:active {
+  border-right-color: #a52834;
+}
+.al:active {
+  border-bottom-color: #a52834;
+}
+.am:active {
+  border-left-color: #a52834;
+}
+
+
+<div data-testid="button-group" class="a b c d e f button-group" role="group">
+  <button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd g h i j k l m n o p q r s t u v w x y z"
+  >
+    Left</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf h i j k l m n o p q r s t u v w x y z"
+  >
+    Middle</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf h i j k l m n o p q r s t u v w x y z"
+  >
+    Right
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Button/ButtonGroup should render a vertical group of buttons of variant default 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  flex-direction: column;
+}
+.e {
+  -webkit-align-items: flex-start;
+  -ms-flex-item-align-items: start;
+  align-items: flex-start;
+}
+.f {
+  justify-content: center;
+}
+.g {
+  border-top-left-radius: 4px;
+}
+.h {
+  border-top-right-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  border-bottom-left-radius: 4px;
+}
+.k {
+  padding-top: 6px;
+}
+.l {
+  padding-bottom: 6px;
+}
+.m {
+  padding-left: 12px;
+}
+.n {
+  padding-right: 12px;
+}
+.o {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.p {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.q {
+  color: #333;
+}
+.r {
+  cursor: pointer;
+}
+.s {
+  display: inline-block;
+}
+.t {
+  font-size: 14px;
+}
+.u {
+  font-weight: 400;
+}
+.v {
+  line-height: 1.42857143;
+}
+.w {
+  margin-bottom: 0;
+}
+.x {
+  text-align: center;
+}
+.y {
+  touch-action: manipulation;
+}
+.z {
+  white-space: nowrap;
+}
+.ab {
+  user-select: none;
+}
+.an:disabled {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.ao:disabled {
+  color: #333;
+}
+.ap:disabled {
+  box-shadow: none;
+}
+.aq:disabled {
+  cursor: not-allowed;
+}
+.ar:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.as:disabled {
+  opacity: 0.65;
+}
+.at:disabled {
+  pointer-events: none;
+}
+.au:disabled {
+  border-top-color: #ccc;
+}
+.av:disabled {
+  border-right-color: #ccc;
+}
+.aw:disabled {
+  border-bottom-color: #ccc;
+}
+.ax:disabled {
+  border-left-color: #ccc;
+}
+.bo {
+  width: 100%;
+}
+.bp {
+  flex-grow: 1;
+}
+.bq {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.br {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.bs {
+  border-top-width: 1px;
+}
+.bt {
+  border-right-width: 1px;
+}
+.bu {
+  border-bottom-width: 1px;
+}
+.bv {
+  border-left-width: 1px;
+}
+.bw {
+  border-top-style: solid;
+}
+.bx {
+  border-right-style: solid;
+}
+.by {
+  border-bottom-style: solid;
+}
+.bz {
+  border-left-style: solid;
+}
+.ca {
+  border-top-color: #ccc;
+}
+.cb {
+  border-right-color: #ccc;
+}
+.cc {
+  border-bottom-color: #ccc;
+}
+.cd {
+  border-left-color: #ccc;
+}
+.ce {
+  border-top-left-radius: 0;
+}
+.cf {
+  margin-top: calc(1px * -1);
+}
+.bg:hover {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.bh:hover {
+  color: #333;
+}
+.bi:hover {
+  z-index: 1;
+}
+.bj:hover {
+  border-top-color: #adadad;
+}
+.bk:hover {
+  border-right-color: #adadad;
+}
+.bl:hover {
+  border-bottom-color: #adadad;
+}
+.bm:hover {
+  border-left-color: #adadad;
+}
+.ay:focus-visible {
+  color: #333;
+}
+.az:focus-visible {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.ba:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.bb:focus-visible {
+  outline-width: 0;
+}
+.bc:focus-visible {
+  border-top-color: #adadad;
+}
+.bd:focus-visible {
+  border-right-color: #adadad;
+}
+.be:focus-visible {
+  border-bottom-color: #adadad;
+}
+.bf:focus-visible {
+  border-left-color: #adadad;
+}
+.bn:focus {
+  z-index: 1;
+}
+.ac:active {
+  color: #333;
+}
+.ae:active {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.af:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.ag:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ah:active {
+  z-index: 1;
+}
+.ai:active {
+  outline-width: 0;
+}
+.aj:active {
+  border-top-color: #adadad;
+}
+.ak:active {
+  border-right-color: #adadad;
+}
+.al:active {
+  border-bottom-color: #adadad;
+}
+.am:active {
+  border-left-color: #adadad;
+}
+
+
+<div data-testid="button-group" class="a b c d e f button-group" role="group">
+  <button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd g h i j k l m n o p q r s t u v w x y z"
+  >
+    Left</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf h i j k l m n o p q r s t u v w x y z"
+  >
+    Middle</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf h i j k l m n o p q r s t u v w x y z"
+  >
+    Right
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Button/ButtonGroup should render a vertical group of buttons of variant info 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  flex-direction: column;
+}
+.e {
+  -webkit-align-items: flex-start;
+  -ms-flex-item-align-items: start;
+  align-items: flex-start;
+}
+.f {
+  justify-content: center;
+}
+.g {
+  border-top-left-radius: 4px;
+}
+.h {
+  border-top-right-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  border-bottom-left-radius: 4px;
+}
+.k {
+  padding-top: 6px;
+}
+.l {
+  padding-bottom: 6px;
+}
+.m {
+  padding-left: 12px;
+}
+.n {
+  padding-right: 12px;
+}
+.o {
+  -webkit-background-color: #0dcaf0;
+  background-color: #0dcaf0;
+}
+.p {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.q {
+  color: #000;
+}
+.r {
+  cursor: pointer;
+}
+.s {
+  display: inline-block;
+}
+.t {
+  font-size: 14px;
+}
+.u {
+  font-weight: 400;
+}
+.v {
+  line-height: 1.42857143;
+}
+.w {
+  margin-bottom: 0;
+}
+.x {
+  text-align: center;
+}
+.y {
+  touch-action: manipulation;
+}
+.z {
+  white-space: nowrap;
+}
+.ab {
+  user-select: none;
+}
+.an:disabled {
+  -webkit-background-color: #0dcaf0;
+  background-color: #0dcaf0;
+}
+.ao:disabled {
+  color: #000;
+}
+.ap:disabled {
+  box-shadow: none;
+}
+.aq:disabled {
+  cursor: not-allowed;
+}
+.ar:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.as:disabled {
+  opacity: 0.65;
+}
+.at:disabled {
+  pointer-events: none;
+}
+.au:disabled {
+  border-top-color: #0dcaf0;
+}
+.av:disabled {
+  border-right-color: #0dcaf0;
+}
+.aw:disabled {
+  border-bottom-color: #0dcaf0;
+}
+.ax:disabled {
+  border-left-color: #0dcaf0;
+}
+.bo {
+  width: 100%;
+}
+.bp {
+  flex-grow: 1;
+}
+.bq {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.br {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.bs {
+  border-top-width: 1px;
+}
+.bt {
+  border-right-width: 1px;
+}
+.bu {
+  border-bottom-width: 1px;
+}
+.bv {
+  border-left-width: 1px;
+}
+.bw {
+  border-top-style: solid;
+}
+.bx {
+  border-right-style: solid;
+}
+.by {
+  border-bottom-style: solid;
+}
+.bz {
+  border-left-style: solid;
+}
+.ca {
+  border-top-color: #0dcaf0;
+}
+.cb {
+  border-right-color: #0dcaf0;
+}
+.cc {
+  border-bottom-color: #0dcaf0;
+}
+.cd {
+  border-left-color: #0dcaf0;
+}
+.ce {
+  border-top-left-radius: 0;
+}
+.cf {
+  margin-top: calc(1px * -1);
+}
+.bg:hover {
+  -webkit-background-color: #31d2f2;
+  background-color: #31d2f2;
+}
+.bh:hover {
+  color: #000;
+}
+.bi:hover {
+  z-index: 1;
+}
+.bj:hover {
+  border-top-color: #25cff2;
+}
+.bk:hover {
+  border-right-color: #25cff2;
+}
+.bl:hover {
+  border-bottom-color: #25cff2;
+}
+.bm:hover {
+  border-left-color: #25cff2;
+}
+.ay:focus-visible {
+  color: #000;
+}
+.az:focus-visible {
+  -webkit-background-color: #31d2f2;
+  background-color: #31d2f2;
+}
+.ba:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(11, 172, 204, 0.5);
+}
+.bb:focus-visible {
+  outline-width: 0;
+}
+.bc:focus-visible {
+  border-top-color: #25cff2;
+}
+.bd:focus-visible {
+  border-right-color: #25cff2;
+}
+.be:focus-visible {
+  border-bottom-color: #25cff2;
+}
+.bf:focus-visible {
+  border-left-color: #25cff2;
+}
+.bn:focus {
+  z-index: 1;
+}
+.ac:active {
+  color: #000;
+}
+.ae:active {
+  -webkit-background-color: #3dd5f3;
+  background-color: #3dd5f3;
+}
+.af:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.ag:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ah:active {
+  z-index: 1;
+}
+.ai:active {
+  outline-width: 0;
+}
+.aj:active {
+  border-top-color: #25cff2;
+}
+.ak:active {
+  border-right-color: #25cff2;
+}
+.al:active {
+  border-bottom-color: #25cff2;
+}
+.am:active {
+  border-left-color: #25cff2;
+}
+
+
+<div data-testid="button-group" class="a b c d e f button-group" role="group">
+  <button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd g h i j k l m n o p q r s t u v w x y z"
+  >
+    Left</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf h i j k l m n o p q r s t u v w x y z"
+  >
+    Middle</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf h i j k l m n o p q r s t u v w x y z"
+  >
+    Right
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Button/ButtonGroup should render a vertical group of buttons of variant primary 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  flex-direction: column;
+}
+.e {
+  -webkit-align-items: flex-start;
+  -ms-flex-item-align-items: start;
+  align-items: flex-start;
+}
+.f {
+  justify-content: center;
+}
+.g {
+  border-top-left-radius: 4px;
+}
+.h {
+  border-top-right-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  border-bottom-left-radius: 4px;
+}
+.k {
+  padding-top: 6px;
+}
+.l {
+  padding-bottom: 6px;
+}
+.m {
+  padding-left: 12px;
+}
+.n {
+  padding-right: 12px;
+}
+.o {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.p {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.q {
+  color: #fff;
+}
+.r {
+  cursor: pointer;
+}
+.s {
+  display: inline-block;
+}
+.t {
+  font-size: 14px;
+}
+.u {
+  font-weight: 400;
+}
+.v {
+  line-height: 1.42857143;
+}
+.w {
+  margin-bottom: 0;
+}
+.x {
+  text-align: center;
+}
+.y {
+  touch-action: manipulation;
+}
+.z {
+  white-space: nowrap;
+}
+.ab {
+  user-select: none;
+}
+.an:disabled {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.ao:disabled {
+  color: #fff;
+}
+.ap:disabled {
+  box-shadow: none;
+}
+.aq:disabled {
+  cursor: not-allowed;
+}
+.ar:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.as:disabled {
+  opacity: 0.65;
+}
+.at:disabled {
+  pointer-events: none;
+}
+.au:disabled {
+  border-top-color: #0d6efd;
+}
+.av:disabled {
+  border-right-color: #0d6efd;
+}
+.aw:disabled {
+  border-bottom-color: #0d6efd;
+}
+.ax:disabled {
+  border-left-color: #0d6efd;
+}
+.bo {
+  width: 100%;
+}
+.bp {
+  flex-grow: 1;
+}
+.bq {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.br {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.bs {
+  border-top-width: 1px;
+}
+.bt {
+  border-right-width: 1px;
+}
+.bu {
+  border-bottom-width: 1px;
+}
+.bv {
+  border-left-width: 1px;
+}
+.bw {
+  border-top-style: solid;
+}
+.bx {
+  border-right-style: solid;
+}
+.by {
+  border-bottom-style: solid;
+}
+.bz {
+  border-left-style: solid;
+}
+.ca {
+  border-top-color: #2e6da4;
+}
+.cb {
+  border-right-color: #2e6da4;
+}
+.cc {
+  border-bottom-color: #2e6da4;
+}
+.cd {
+  border-left-color: #2e6da4;
+}
+.ce {
+  border-top-left-radius: 0;
+}
+.cf {
+  margin-top: calc(1px * -1);
+}
+.bg:hover {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.bh:hover {
+  color: #fff;
+}
+.bi:hover {
+  z-index: 1;
+}
+.bj:hover {
+  border-top-color: #0a58ca;
+}
+.bk:hover {
+  border-right-color: #0a58ca;
+}
+.bl:hover {
+  border-bottom-color: #0a58ca;
+}
+.bm:hover {
+  border-left-color: #0a58ca;
+}
+.ay:focus-visible {
+  color: #fff;
+}
+.az:focus-visible {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.ba:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.bb:focus-visible {
+  outline-width: 0;
+}
+.bc:focus-visible {
+  border-top-color: #0a58ca;
+}
+.bd:focus-visible {
+  border-right-color: #0a58ca;
+}
+.be:focus-visible {
+  border-bottom-color: #0a58ca;
+}
+.bf:focus-visible {
+  border-left-color: #0a58ca;
+}
+.bn:focus {
+  z-index: 1;
+}
+.ac:active {
+  color: #fff;
+}
+.ae:active {
+  -webkit-background-color: #0a58ca;
+  background-color: #0a58ca;
+}
+.af:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.ag:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ah:active {
+  z-index: 1;
+}
+.ai:active {
+  outline-width: 0;
+}
+.aj:active {
+  border-top-color: #0a53be;
+}
+.ak:active {
+  border-right-color: #0a53be;
+}
+.al:active {
+  border-bottom-color: #0a53be;
+}
+.am:active {
+  border-left-color: #0a53be;
+}
+
+
+<div data-testid="button-group" class="a b c d e f button-group" role="group">
+  <button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd g h i j k l m n o p q r s t u v w x y z"
+  >
+    Left</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf h i j k l m n o p q r s t u v w x y z"
+  >
+    Middle</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf h i j k l m n o p q r s t u v w x y z"
+  >
+    Right
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Button/ButtonGroup should render a vertical group of buttons of variant secondary 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  flex-direction: column;
+}
+.e {
+  -webkit-align-items: flex-start;
+  -ms-flex-item-align-items: start;
+  align-items: flex-start;
+}
+.f {
+  justify-content: center;
+}
+.g {
+  border-top-left-radius: 4px;
+}
+.h {
+  border-top-right-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  border-bottom-left-radius: 4px;
+}
+.k {
+  padding-top: 6px;
+}
+.l {
+  padding-bottom: 6px;
+}
+.m {
+  padding-left: 12px;
+}
+.n {
+  padding-right: 12px;
+}
+.o {
+  -webkit-background-color: #6c757d;
+  background-color: #6c757d;
+}
+.p {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.q {
+  color: #fff;
+}
+.r {
+  cursor: pointer;
+}
+.s {
+  display: inline-block;
+}
+.t {
+  font-size: 14px;
+}
+.u {
+  font-weight: 400;
+}
+.v {
+  line-height: 1.42857143;
+}
+.w {
+  margin-bottom: 0;
+}
+.x {
+  text-align: center;
+}
+.y {
+  touch-action: manipulation;
+}
+.z {
+  white-space: nowrap;
+}
+.ab {
+  user-select: none;
+}
+.an:disabled {
+  -webkit-background-color: #6c757d;
+  background-color: #6c757d;
+}
+.ao:disabled {
+  color: #fff;
+}
+.ap:disabled {
+  box-shadow: none;
+}
+.aq:disabled {
+  cursor: not-allowed;
+}
+.ar:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.as:disabled {
+  opacity: 0.65;
+}
+.at:disabled {
+  pointer-events: none;
+}
+.au:disabled {
+  border-top-color: #6c757d;
+}
+.av:disabled {
+  border-right-color: #6c757d;
+}
+.aw:disabled {
+  border-bottom-color: #6c757d;
+}
+.ax:disabled {
+  border-left-color: #6c757d;
+}
+.bo {
+  width: 100%;
+}
+.bp {
+  flex-grow: 1;
+}
+.bq {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.br {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.bs {
+  border-top-width: 1px;
+}
+.bt {
+  border-right-width: 1px;
+}
+.bu {
+  border-bottom-width: 1px;
+}
+.bv {
+  border-left-width: 1px;
+}
+.bw {
+  border-top-style: solid;
+}
+.bx {
+  border-right-style: solid;
+}
+.by {
+  border-bottom-style: solid;
+}
+.bz {
+  border-left-style: solid;
+}
+.ca {
+  border-top-color: #6c757d;
+}
+.cb {
+  border-right-color: #6c757d;
+}
+.cc {
+  border-bottom-color: #6c757d;
+}
+.cd {
+  border-left-color: #6c757d;
+}
+.ce {
+  border-top-left-radius: 0;
+}
+.cf {
+  margin-top: calc(1px * -1);
+}
+.bg:hover {
+  -webkit-background-color: #5c636a;
+  background-color: #5c636a;
+}
+.bh:hover {
+  color: #fff;
+}
+.bi:hover {
+  z-index: 1;
+}
+.bj:hover {
+  border-top-color: #565e64;
+}
+.bk:hover {
+  border-right-color: #565e64;
+}
+.bl:hover {
+  border-bottom-color: #565e64;
+}
+.bm:hover {
+  border-left-color: #565e64;
+}
+.ay:focus-visible {
+  color: #fff;
+}
+.az:focus-visible {
+  -webkit-background-color: #5c636a;
+  background-color: #5c636a;
+}
+.ba:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+}
+.bb:focus-visible {
+  outline-width: 0;
+}
+.bc:focus-visible {
+  border-top-color: #565e64;
+}
+.bd:focus-visible {
+  border-right-color: #565e64;
+}
+.be:focus-visible {
+  border-bottom-color: #565e64;
+}
+.bf:focus-visible {
+  border-left-color: #565e64;
+}
+.bn:focus {
+  z-index: 1;
+}
+.ac:active {
+  color: #fff;
+}
+.ae:active {
+  -webkit-background-color: #565e64;
+  background-color: #565e64;
+}
+.af:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.ag:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ah:active {
+  z-index: 1;
+}
+.ai:active {
+  outline-width: 0;
+}
+.aj:active {
+  border-top-color: #51585e;
+}
+.ak:active {
+  border-right-color: #51585e;
+}
+.al:active {
+  border-bottom-color: #51585e;
+}
+.am:active {
+  border-left-color: #51585e;
+}
+
+
+<div data-testid="button-group" class="a b c d e f button-group" role="group">
+  <button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd g h i j k l m n o p q r s t u v w x y z"
+  >
+    Left</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf h i j k l m n o p q r s t u v w x y z"
+  >
+    Middle</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf h i j k l m n o p q r s t u v w x y z"
+  >
+    Right
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Button/ButtonGroup should render a vertical group of buttons of variant success 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  flex-direction: column;
+}
+.e {
+  -webkit-align-items: flex-start;
+  -ms-flex-item-align-items: start;
+  align-items: flex-start;
+}
+.f {
+  justify-content: center;
+}
+.g {
+  border-top-left-radius: 4px;
+}
+.h {
+  border-top-right-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  border-bottom-left-radius: 4px;
+}
+.k {
+  padding-top: 6px;
+}
+.l {
+  padding-bottom: 6px;
+}
+.m {
+  padding-left: 12px;
+}
+.n {
+  padding-right: 12px;
+}
+.o {
+  -webkit-background-color: #198754;
+  background-color: #198754;
+}
+.p {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.q {
+  color: #fff;
+}
+.r {
+  cursor: pointer;
+}
+.s {
+  display: inline-block;
+}
+.t {
+  font-size: 14px;
+}
+.u {
+  font-weight: 400;
+}
+.v {
+  line-height: 1.42857143;
+}
+.w {
+  margin-bottom: 0;
+}
+.x {
+  text-align: center;
+}
+.y {
+  touch-action: manipulation;
+}
+.z {
+  white-space: nowrap;
+}
+.ab {
+  user-select: none;
+}
+.an:disabled {
+  -webkit-background-color: #198754;
+  background-color: #198754;
+}
+.ao:disabled {
+  color: #fff;
+}
+.ap:disabled {
+  box-shadow: none;
+}
+.aq:disabled {
+  cursor: not-allowed;
+}
+.ar:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.as:disabled {
+  opacity: 0.65;
+}
+.at:disabled {
+  pointer-events: none;
+}
+.au:disabled {
+  border-top-color: #198754;
+}
+.av:disabled {
+  border-right-color: #198754;
+}
+.aw:disabled {
+  border-bottom-color: #198754;
+}
+.ax:disabled {
+  border-left-color: #198754;
+}
+.bo {
+  width: 100%;
+}
+.bp {
+  flex-grow: 1;
+}
+.bq {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.br {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.bs {
+  border-top-width: 1px;
+}
+.bt {
+  border-right-width: 1px;
+}
+.bu {
+  border-bottom-width: 1px;
+}
+.bv {
+  border-left-width: 1px;
+}
+.bw {
+  border-top-style: solid;
+}
+.bx {
+  border-right-style: solid;
+}
+.by {
+  border-bottom-style: solid;
+}
+.bz {
+  border-left-style: solid;
+}
+.ca {
+  border-top-color: #198754;
+}
+.cb {
+  border-right-color: #198754;
+}
+.cc {
+  border-bottom-color: #198754;
+}
+.cd {
+  border-left-color: #198754;
+}
+.ce {
+  border-top-left-radius: 0;
+}
+.cf {
+  margin-top: calc(1px * -1);
+}
+.bg:hover {
+  -webkit-background-color: #157347;
+  background-color: #157347;
+}
+.bh:hover {
+  color: #fff;
+}
+.bi:hover {
+  z-index: 1;
+}
+.bj:hover {
+  border-top-color: #146c43;
+}
+.bk:hover {
+  border-right-color: #146c43;
+}
+.bl:hover {
+  border-bottom-color: #146c43;
+}
+.bm:hover {
+  border-left-color: #146c43;
+}
+.ay:focus-visible {
+  color: #fff;
+}
+.az:focus-visible {
+  -webkit-background-color: #157347;
+  background-color: #157347;
+}
+.ba:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+}
+.bb:focus-visible {
+  outline-width: 0;
+}
+.bc:focus-visible {
+  border-top-color: #146c43;
+}
+.bd:focus-visible {
+  border-right-color: #146c43;
+}
+.be:focus-visible {
+  border-bottom-color: #146c43;
+}
+.bf:focus-visible {
+  border-left-color: #146c43;
+}
+.bn:focus {
+  z-index: 1;
+}
+.ac:active {
+  color: #fff;
+}
+.ae:active {
+  -webkit-background-color: #146c43;
+  background-color: #146c43;
+}
+.af:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.ag:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ah:active {
+  z-index: 1;
+}
+.ai:active {
+  outline-width: 0;
+}
+.aj:active {
+  border-top-color: #13653f;
+}
+.ak:active {
+  border-right-color: #13653f;
+}
+.al:active {
+  border-bottom-color: #13653f;
+}
+.am:active {
+  border-left-color: #13653f;
+}
+
+
+<div data-testid="button-group" class="a b c d e f button-group" role="group">
+  <button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd g h i j k l m n o p q r s t u v w x y z"
+  >
+    Left</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf h i j k l m n o p q r s t u v w x y z"
+  >
+    Middle</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf h i j k l m n o p q r s t u v w x y z"
+  >
+    Right
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Button/ButtonGroup should render a vertical group of buttons of variant warning 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  flex-direction: column;
+}
+.e {
+  -webkit-align-items: flex-start;
+  -ms-flex-item-align-items: start;
+  align-items: flex-start;
+}
+.f {
+  justify-content: center;
+}
+.g {
+  border-top-left-radius: 4px;
+}
+.h {
+  border-top-right-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  border-bottom-left-radius: 4px;
+}
+.k {
+  padding-top: 6px;
+}
+.l {
+  padding-bottom: 6px;
+}
+.m {
+  padding-left: 12px;
+}
+.n {
+  padding-right: 12px;
+}
+.o {
+  -webkit-background-color: #ffc107;
+  background-color: #ffc107;
+}
+.p {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.q {
+  color: #000;
+}
+.r {
+  cursor: pointer;
+}
+.s {
+  display: inline-block;
+}
+.t {
+  font-size: 14px;
+}
+.u {
+  font-weight: 400;
+}
+.v {
+  line-height: 1.42857143;
+}
+.w {
+  margin-bottom: 0;
+}
+.x {
+  text-align: center;
+}
+.y {
+  touch-action: manipulation;
+}
+.z {
+  white-space: nowrap;
+}
+.ab {
+  user-select: none;
+}
+.an:disabled {
+  -webkit-background-color: #ffc107;
+  background-color: #ffc107;
+}
+.ao:disabled {
+  color: #000;
+}
+.ap:disabled {
+  box-shadow: none;
+}
+.aq:disabled {
+  cursor: not-allowed;
+}
+.ar:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.as:disabled {
+  opacity: 0.65;
+}
+.at:disabled {
+  pointer-events: none;
+}
+.au:disabled {
+  border-top-color: #ffc107;
+}
+.av:disabled {
+  border-right-color: #ffc107;
+}
+.aw:disabled {
+  border-bottom-color: #ffc107;
+}
+.ax:disabled {
+  border-left-color: #ffc107;
+}
+.bo {
+  width: 100%;
+}
+.bp {
+  flex-grow: 1;
+}
+.bq {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.br {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.bs {
+  border-top-width: 1px;
+}
+.bt {
+  border-right-width: 1px;
+}
+.bu {
+  border-bottom-width: 1px;
+}
+.bv {
+  border-left-width: 1px;
+}
+.bw {
+  border-top-style: solid;
+}
+.bx {
+  border-right-style: solid;
+}
+.by {
+  border-bottom-style: solid;
+}
+.bz {
+  border-left-style: solid;
+}
+.ca {
+  border-top-color: #ffc107;
+}
+.cb {
+  border-right-color: #ffc107;
+}
+.cc {
+  border-bottom-color: #ffc107;
+}
+.cd {
+  border-left-color: #ffc107;
+}
+.ce {
+  border-top-left-radius: 0;
+}
+.cf {
+  margin-top: calc(1px * -1);
+}
+.bg:hover {
+  -webkit-background-color: #ffca2c;
+  background-color: #ffca2c;
+}
+.bh:hover {
+  color: #000;
+}
+.bi:hover {
+  z-index: 1;
+}
+.bj:hover {
+  border-top-color: #ffc720;
+}
+.bk:hover {
+  border-right-color: #ffc720;
+}
+.bl:hover {
+  border-bottom-color: #ffc720;
+}
+.bm:hover {
+  border-left-color: #ffc720;
+}
+.ay:focus-visible {
+  color: #000;
+}
+.az:focus-visible {
+  -webkit-background-color: #ffca2c;
+  background-color: #ffca2c;
+}
+.ba:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(217, 164, 6, 0.5);
+}
+.bb:focus-visible {
+  outline-width: 0;
+}
+.bc:focus-visible {
+  border-top-color: #ffc720;
+}
+.bd:focus-visible {
+  border-right-color: #ffc720;
+}
+.be:focus-visible {
+  border-bottom-color: #ffc720;
+}
+.bf:focus-visible {
+  border-left-color: #ffc720;
+}
+.bn:focus {
+  z-index: 1;
+}
+.ac:active {
+  color: #000;
+}
+.ae:active {
+  -webkit-background-color: #ffcd39;
+  background-color: #ffcd39;
+}
+.af:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.ag:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ah:active {
+  z-index: 1;
+}
+.ai:active {
+  outline-width: 0;
+}
+.aj:active {
+  border-top-color: #ffc720;
+}
+.ak:active {
+  border-right-color: #ffc720;
+}
+.al:active {
+  border-bottom-color: #ffc720;
+}
+.am:active {
+  border-left-color: #ffc720;
+}
+
+
+<div data-testid="button-group" class="a b c d e f button-group" role="group">
+  <button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd g h i j k l m n o p q r s t u v w x y z"
+  >
+    Left</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf h i j k l m n o p q r s t u v w x y z"
+  >
+    Middle</button
+  ><button
+    data-testid="button"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf h i j k l m n o p q r s t u v w x y z"
+  >
+    Right
+  </button>
+</div>
+;
+"
+`;

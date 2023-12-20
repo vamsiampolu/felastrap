@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/Controls/FormText should render a form text 1`] = `
+".a {
+  margin-top: 0.25rem;
+}
+.b {
+  font-size: 0.875em;
+}
+.c {
+  color: rgba(33, 37, 41, 0.75);
+}
+
+
+<div data-testid="form-text" class="a b c form-text">Form Text</div>
+;
+"
+`;

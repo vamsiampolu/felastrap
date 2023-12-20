@@ -1,0 +1,7801 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Navbar/Nav should render a navbar menu of no size and variant expand with dropdown items 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.i {
+  max-height: 75vh;
+}
+.j {
+  overflow-y: auto;
+}
+.k {
+  position: static;
+}
+.m {
+  background-clip: padding-box;
+}
+.n {
+  background-color: #fff;
+}
+.o {
+  color: #212529;
+}
+.p {
+  display: block;
+}
+.q {
+  font-size: 1rem;
+}
+.r {
+  left: 0;
+}
+.s {
+  width: 100%;
+}
+.t {
+  margin-top: calc(-1 * 1px);
+}
+.u {
+  min-width: 10rem;
+}
+.v {
+  position: absolute;
+}
+.w {
+  text-align: left;
+}
+.x {
+  top: -2.5rem;
+}
+.y {
+  z-index: 1000;
+}
+.z {
+  transform: translate3d(0px, 40px, 0px);
+}
+.ab {
+  border-top-left-radius: 0;
+}
+.ac {
+  border-top-right-radius: 0;
+}
+.ae {
+  right: auto;
+}
+.af {
+  bottom: auto;
+}
+.ag {
+  padding-top: 0.5rem;
+}
+.ah {
+  padding-right: 0.125rem;
+}
+.ai {
+  padding-bottom: 0.5rem;
+}
+.aj {
+  padding-left: 0.125rem;
+}
+.ak {
+  margin-right: 0px;
+}
+.al {
+  margin-bottom: 0px;
+}
+.am {
+  margin-left: 0px;
+}
+.an {
+  border-bottom-right-radius: 0.375rem;
+}
+.ao {
+  border-bottom-left-radius: 0.375rem;
+}
+.ap {
+  border-top-width: 1px;
+}
+.aq {
+  border-right-width: 1px;
+}
+.ar {
+  border-bottom-width: 1px;
+}
+.as {
+  border-left-width: 1px;
+}
+.at {
+  border-top-style: solid;
+}
+.au {
+  border-right-style: solid;
+}
+.av {
+  border-bottom-style: solid;
+}
+.aw {
+  border-left-style: solid;
+}
+.ax {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.ay {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.az {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ba {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.bb {
+  margin-top: -0.2rem;
+}
+.bc {
+  padding-top: 0;
+}
+.bd {
+  margin-top: 0.2rem;
+}
+.be {
+  padding-top: -0.5rem;
+}
+.bf {
+  white-space: nowrap;
+}
+.bg:empty::after {
+  margin-left: 0;
+}
+.bh::after {
+  content:;
+}
+.bi::after {
+  display: inline-block;
+}
+.bj::after {
+  margin-left: 0.255em;
+}
+.bk::after {
+  vertical-align: 0.255em;
+}
+.bl::after {
+  border-top-width: 0.3em;
+}
+.bm::after {
+  border-top-style: solid;
+}
+.bn::after {
+  border-right-width: 0.3em;
+}
+.bo::after {
+  border-right-style: solid;
+}
+.bp::after {
+  border-right-color: transparent;
+}
+.bq::after {
+  border-left-width: 0.3em;
+}
+.br::after {
+  border-left-style: solid;
+}
+.bs::after {
+  border-left-color: transparent;
+}
+.bt::after {
+  border-bottom-width: 0;
+}
+.bu {
+  font-weight: 400;
+}
+.bv {
+  color: #0d6efd;
+}
+.bw {
+  background: none;
+}
+.cf {
+  transition-property: color, background-color, border-color;
+}
+.cg {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.ch {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ci {
+  transition-timing-function: ease, ease, ease;
+}
+.cj {
+  border-top-width: 0;
+}
+.ck {
+  border-right-width: 0;
+}
+.cl {
+  border-bottom-width: 0;
+}
+.cm {
+  border-left-width: 0;
+}
+.cn {
+  text-decoration-line: none;
+}
+.co {
+  padding-right: 1rem;
+}
+.cp {
+  padding-left: 1rem;
+}
+.cq {
+  content:;
+}
+.cr {
+  display: inline-block;
+}
+.cs {
+  margin-left: calc(0.3em * 0.85);
+}
+.ct {
+  vertical-align: calc(0.3em * 0.85);
+}
+.cu {
+  border-top-width: 0.3em;
+}
+.cv {
+  border-right-width: 0.3em;
+}
+.cw {
+  border-right-color: transparent;
+}
+.cx {
+  border-left-width: 0.3em;
+}
+.cy {
+  border-left-color: transparent;
+}
+.cz {
+  top: 0;
+}
+.da {
+  width: auto;
+}
+.cb:hover {
+  color: #0a58ca;
+}
+.cc:focus {
+  color: #0a58ca;
+}
+.cd:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ce:focus-visible {
+  outline-width: 0;
+}
+@media (min-width: 768px) {
+  .f {
+    flex-direction: row;
+  }
+  .g {
+    overflow-x: visible;
+  }
+  .h {
+    overflow-y: visible;
+  }
+  .l {
+    position: absolute;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bx {
+    transition-property: none;
+  }
+  .by {
+    transition-duration: 0s;
+  }
+  .bz {
+    transition-delay: 0s;
+  }
+  .ca {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g h i j navbar-nav">
+  <li data-testid="nav-item" class="nav-item">
+    <a
+      data-testid="dropdown-toggle"
+      class="ag ai bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp p q nav-link bf bg bh bi bj bk bl bm bn bo bp bq br bs bt dropdown-toggle"
+      tabindex="0"
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      role="combobox"
+      >Dropdown
+      <div
+        class="at au aw cl cq cr cs ct cu cv cw cx cy"
+        data-testid="dropdown-toggle-caret"
+      ></div
+    ></a>
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of no size and variant fixed with dropdown items 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  max-height: 75vh;
+}
+.g {
+  overflow-y: auto;
+}
+.h {
+  position: static;
+}
+.i {
+  background-clip: padding-box;
+}
+.j {
+  background-color: #fff;
+}
+.k {
+  color: #212529;
+}
+.l {
+  display: block;
+}
+.m {
+  font-size: 1rem;
+}
+.n {
+  left: 0;
+}
+.o {
+  width: 100%;
+}
+.p {
+  margin-top: calc(-1 * 1px);
+}
+.q {
+  min-width: 10rem;
+}
+.r {
+  position: absolute;
+}
+.s {
+  text-align: left;
+}
+.t {
+  top: -2.5rem;
+}
+.u {
+  z-index: 1000;
+}
+.v {
+  transform: translate3d(0px, 40px, 0px);
+}
+.w {
+  border-top-left-radius: 0;
+}
+.x {
+  border-top-right-radius: 0;
+}
+.y {
+  right: auto;
+}
+.z {
+  bottom: auto;
+}
+.ab {
+  padding-top: 0.5rem;
+}
+.ac {
+  padding-right: 0.125rem;
+}
+.ae {
+  padding-bottom: 0.5rem;
+}
+.af {
+  padding-left: 0.125rem;
+}
+.ag {
+  margin-right: 0px;
+}
+.ah {
+  margin-bottom: 0px;
+}
+.ai {
+  margin-left: 0px;
+}
+.aj {
+  border-bottom-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-left-radius: 0.375rem;
+}
+.al {
+  border-top-width: 1px;
+}
+.am {
+  border-right-width: 1px;
+}
+.an {
+  border-bottom-width: 1px;
+}
+.ao {
+  border-left-width: 1px;
+}
+.ap {
+  border-top-style: solid;
+}
+.aq {
+  border-right-style: solid;
+}
+.ar {
+  border-bottom-style: solid;
+}
+.as {
+  border-left-style: solid;
+}
+.at {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.au {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.av {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.aw {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ax {
+  margin-top: -0.2rem;
+}
+.ay {
+  padding-top: 0;
+}
+.az {
+  margin-top: 0.2rem;
+}
+.ba {
+  padding-top: -0.5rem;
+}
+.bb {
+  white-space: nowrap;
+}
+.bc:empty::after {
+  margin-left: 0;
+}
+.bd::after {
+  content:;
+}
+.be::after {
+  display: inline-block;
+}
+.bf::after {
+  margin-left: 0.255em;
+}
+.bg::after {
+  vertical-align: 0.255em;
+}
+.bh::after {
+  border-top-width: 0.3em;
+}
+.bi::after {
+  border-top-style: solid;
+}
+.bj::after {
+  border-right-width: 0.3em;
+}
+.bk::after {
+  border-right-style: solid;
+}
+.bl::after {
+  border-right-color: transparent;
+}
+.bm::after {
+  border-left-width: 0.3em;
+}
+.bn::after {
+  border-left-style: solid;
+}
+.bo::after {
+  border-left-color: transparent;
+}
+.bp::after {
+  border-bottom-width: 0;
+}
+.bq {
+  font-weight: 400;
+}
+.br {
+  color: #0d6efd;
+}
+.bs {
+  background: none;
+}
+.cb {
+  transition-property: color, background-color, border-color;
+}
+.cc {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.cd {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ce {
+  transition-timing-function: ease, ease, ease;
+}
+.cf {
+  border-top-width: 0;
+}
+.cg {
+  border-right-width: 0;
+}
+.ch {
+  border-bottom-width: 0;
+}
+.ci {
+  border-left-width: 0;
+}
+.cj {
+  text-decoration-line: none;
+}
+.ck {
+  padding-right: 1rem;
+}
+.cl {
+  padding-left: 1rem;
+}
+.cm {
+  content:;
+}
+.cn {
+  display: inline-block;
+}
+.co {
+  margin-left: calc(0.3em * 0.85);
+}
+.cp {
+  vertical-align: calc(0.3em * 0.85);
+}
+.cq {
+  border-top-width: 0.3em;
+}
+.cr {
+  border-right-width: 0.3em;
+}
+.cs {
+  border-right-color: transparent;
+}
+.ct {
+  border-left-width: 0.3em;
+}
+.cu {
+  border-left-color: transparent;
+}
+.cv {
+  top: 0;
+}
+.cw {
+  width: auto;
+}
+.bx:hover {
+  color: #0a58ca;
+}
+.by:focus {
+  color: #0a58ca;
+}
+.bz:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ca:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .bt {
+    transition-property: none;
+  }
+  .bu {
+    transition-duration: 0s;
+  }
+  .bv {
+    transition-delay: 0s;
+  }
+  .bw {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g navbar-nav">
+  <li data-testid="nav-item" class="nav-item">
+    <a
+      data-testid="dropdown-toggle"
+      class="ab ae bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl l m nav-link bb bc bd be bf bg bh bi bj bk bl bm bn bo bp dropdown-toggle"
+      tabindex="0"
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      role="combobox"
+      >Dropdown
+      <div
+        class="ap aq as ch cm cn co cp cq cr cs ct cu"
+        data-testid="dropdown-toggle-caret"
+      ></div
+    ></a>
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of no size and variant sticky with dropdown items 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  max-height: 75vh;
+}
+.g {
+  overflow-y: auto;
+}
+.h {
+  position: static;
+}
+.i {
+  background-clip: padding-box;
+}
+.j {
+  background-color: #fff;
+}
+.k {
+  color: #212529;
+}
+.l {
+  display: block;
+}
+.m {
+  font-size: 1rem;
+}
+.n {
+  left: 0;
+}
+.o {
+  width: 100%;
+}
+.p {
+  margin-top: calc(-1 * 1px);
+}
+.q {
+  min-width: 10rem;
+}
+.r {
+  position: absolute;
+}
+.s {
+  text-align: left;
+}
+.t {
+  top: -2.5rem;
+}
+.u {
+  z-index: 1000;
+}
+.v {
+  transform: translate3d(0px, 40px, 0px);
+}
+.w {
+  border-top-left-radius: 0;
+}
+.x {
+  border-top-right-radius: 0;
+}
+.y {
+  right: auto;
+}
+.z {
+  bottom: auto;
+}
+.ab {
+  padding-top: 0.5rem;
+}
+.ac {
+  padding-right: 0.125rem;
+}
+.ae {
+  padding-bottom: 0.5rem;
+}
+.af {
+  padding-left: 0.125rem;
+}
+.ag {
+  margin-right: 0px;
+}
+.ah {
+  margin-bottom: 0px;
+}
+.ai {
+  margin-left: 0px;
+}
+.aj {
+  border-bottom-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-left-radius: 0.375rem;
+}
+.al {
+  border-top-width: 1px;
+}
+.am {
+  border-right-width: 1px;
+}
+.an {
+  border-bottom-width: 1px;
+}
+.ao {
+  border-left-width: 1px;
+}
+.ap {
+  border-top-style: solid;
+}
+.aq {
+  border-right-style: solid;
+}
+.ar {
+  border-bottom-style: solid;
+}
+.as {
+  border-left-style: solid;
+}
+.at {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.au {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.av {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.aw {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ax {
+  margin-top: -0.2rem;
+}
+.ay {
+  padding-top: 0;
+}
+.az {
+  margin-top: 0.2rem;
+}
+.ba {
+  padding-top: -0.5rem;
+}
+.bb {
+  white-space: nowrap;
+}
+.bc:empty::after {
+  margin-left: 0;
+}
+.bd::after {
+  content:;
+}
+.be::after {
+  display: inline-block;
+}
+.bf::after {
+  margin-left: 0.255em;
+}
+.bg::after {
+  vertical-align: 0.255em;
+}
+.bh::after {
+  border-top-width: 0.3em;
+}
+.bi::after {
+  border-top-style: solid;
+}
+.bj::after {
+  border-right-width: 0.3em;
+}
+.bk::after {
+  border-right-style: solid;
+}
+.bl::after {
+  border-right-color: transparent;
+}
+.bm::after {
+  border-left-width: 0.3em;
+}
+.bn::after {
+  border-left-style: solid;
+}
+.bo::after {
+  border-left-color: transparent;
+}
+.bp::after {
+  border-bottom-width: 0;
+}
+.bq {
+  font-weight: 400;
+}
+.br {
+  color: #0d6efd;
+}
+.bs {
+  background: none;
+}
+.cb {
+  transition-property: color, background-color, border-color;
+}
+.cc {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.cd {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ce {
+  transition-timing-function: ease, ease, ease;
+}
+.cf {
+  border-top-width: 0;
+}
+.cg {
+  border-right-width: 0;
+}
+.ch {
+  border-bottom-width: 0;
+}
+.ci {
+  border-left-width: 0;
+}
+.cj {
+  text-decoration-line: none;
+}
+.ck {
+  padding-right: 1rem;
+}
+.cl {
+  padding-left: 1rem;
+}
+.cm {
+  content:;
+}
+.cn {
+  display: inline-block;
+}
+.co {
+  margin-left: calc(0.3em * 0.85);
+}
+.cp {
+  vertical-align: calc(0.3em * 0.85);
+}
+.cq {
+  border-top-width: 0.3em;
+}
+.cr {
+  border-right-width: 0.3em;
+}
+.cs {
+  border-right-color: transparent;
+}
+.ct {
+  border-left-width: 0.3em;
+}
+.cu {
+  border-left-color: transparent;
+}
+.cv {
+  top: 0;
+}
+.cw {
+  width: auto;
+}
+.bx:hover {
+  color: #0a58ca;
+}
+.by:focus {
+  color: #0a58ca;
+}
+.bz:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ca:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .bt {
+    transition-property: none;
+  }
+  .bu {
+    transition-duration: 0s;
+  }
+  .bv {
+    transition-delay: 0s;
+  }
+  .bw {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g navbar-nav">
+  <li data-testid="nav-item" class="nav-item">
+    <a
+      data-testid="dropdown-toggle"
+      class="ab ae bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl l m nav-link bb bc bd be bf bg bh bi bj bk bl bm bn bo bp dropdown-toggle"
+      tabindex="0"
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      role="combobox"
+      >Dropdown
+      <div
+        class="ap aq as ch cm cn co cp cq cr cs ct cu"
+        data-testid="dropdown-toggle-caret"
+      ></div
+    ></a>
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size large with dropdown items of variant expand 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.i {
+  max-height: 75vh;
+}
+.j {
+  overflow-y: auto;
+}
+.k {
+  position: static;
+}
+.m {
+  background-clip: padding-box;
+}
+.n {
+  background-color: #fff;
+}
+.o {
+  color: #212529;
+}
+.p {
+  display: block;
+}
+.q {
+  font-size: 1rem;
+}
+.r {
+  left: 0;
+}
+.s {
+  width: 100%;
+}
+.t {
+  margin-top: calc(-1 * 1px);
+}
+.u {
+  min-width: 10rem;
+}
+.v {
+  position: absolute;
+}
+.w {
+  text-align: left;
+}
+.x {
+  top: -2.5rem;
+}
+.y {
+  z-index: 1000;
+}
+.z {
+  transform: translate3d(0px, 40px, 0px);
+}
+.ab {
+  border-top-left-radius: 0;
+}
+.ac {
+  border-top-right-radius: 0;
+}
+.ae {
+  right: auto;
+}
+.af {
+  bottom: auto;
+}
+.ag {
+  padding-top: 0.5rem;
+}
+.ah {
+  padding-right: 0.125rem;
+}
+.ai {
+  padding-bottom: 0.5rem;
+}
+.aj {
+  padding-left: 0.125rem;
+}
+.ak {
+  margin-right: 0px;
+}
+.al {
+  margin-bottom: 0px;
+}
+.am {
+  margin-left: 0px;
+}
+.an {
+  border-bottom-right-radius: 0.375rem;
+}
+.ao {
+  border-bottom-left-radius: 0.375rem;
+}
+.ap {
+  border-top-width: 1px;
+}
+.aq {
+  border-right-width: 1px;
+}
+.ar {
+  border-bottom-width: 1px;
+}
+.as {
+  border-left-width: 1px;
+}
+.at {
+  border-top-style: solid;
+}
+.au {
+  border-right-style: solid;
+}
+.av {
+  border-bottom-style: solid;
+}
+.aw {
+  border-left-style: solid;
+}
+.ax {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.ay {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.az {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ba {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.bb {
+  margin-top: -0.2rem;
+}
+.bc {
+  padding-top: 0;
+}
+.bd {
+  margin-top: 0.2rem;
+}
+.be {
+  padding-top: -0.5rem;
+}
+.bf {
+  white-space: nowrap;
+}
+.bg:empty::after {
+  margin-left: 0;
+}
+.bh::after {
+  content:;
+}
+.bi::after {
+  display: inline-block;
+}
+.bj::after {
+  margin-left: 0.255em;
+}
+.bk::after {
+  vertical-align: 0.255em;
+}
+.bl::after {
+  border-top-width: 0.3em;
+}
+.bm::after {
+  border-top-style: solid;
+}
+.bn::after {
+  border-right-width: 0.3em;
+}
+.bo::after {
+  border-right-style: solid;
+}
+.bp::after {
+  border-right-color: transparent;
+}
+.bq::after {
+  border-left-width: 0.3em;
+}
+.br::after {
+  border-left-style: solid;
+}
+.bs::after {
+  border-left-color: transparent;
+}
+.bt::after {
+  border-bottom-width: 0;
+}
+.bu {
+  font-weight: 400;
+}
+.bv {
+  color: #0d6efd;
+}
+.bw {
+  background: none;
+}
+.cf {
+  transition-property: color, background-color, border-color;
+}
+.cg {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.ch {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ci {
+  transition-timing-function: ease, ease, ease;
+}
+.cj {
+  border-top-width: 0;
+}
+.ck {
+  border-right-width: 0;
+}
+.cl {
+  border-bottom-width: 0;
+}
+.cm {
+  border-left-width: 0;
+}
+.cn {
+  text-decoration-line: none;
+}
+.co {
+  padding-right: 1rem;
+}
+.cp {
+  padding-left: 1rem;
+}
+.cq {
+  content:;
+}
+.cr {
+  display: inline-block;
+}
+.cs {
+  margin-left: calc(0.3em * 0.85);
+}
+.ct {
+  vertical-align: calc(0.3em * 0.85);
+}
+.cu {
+  border-top-width: 0.3em;
+}
+.cv {
+  border-right-width: 0.3em;
+}
+.cw {
+  border-right-color: transparent;
+}
+.cx {
+  border-left-width: 0.3em;
+}
+.cy {
+  border-left-color: transparent;
+}
+.cz {
+  top: 0;
+}
+.da {
+  width: auto;
+}
+.cb:hover {
+  color: #0a58ca;
+}
+.cc:focus {
+  color: #0a58ca;
+}
+.cd:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ce:focus-visible {
+  outline-width: 0;
+}
+@media (min-width: 992px) {
+  .f {
+    flex-direction: row;
+  }
+  .g {
+    overflow-x: visible;
+  }
+  .h {
+    overflow-y: visible;
+  }
+  .l {
+    position: absolute;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bx {
+    transition-property: none;
+  }
+  .by {
+    transition-duration: 0s;
+  }
+  .bz {
+    transition-delay: 0s;
+  }
+  .ca {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g h i j navbar-nav">
+  <li data-testid="nav-item" class="nav-item">
+    <a
+      data-testid="dropdown-toggle"
+      class="ag ai bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp p q nav-link bf bg bh bi bj bk bl bm bn bo bp bq br bs bt dropdown-toggle"
+      tabindex="0"
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      role="combobox"
+      >Dropdown
+      <div
+        class="at au aw cl cq cr cs ct cu cv cw cx cy"
+        data-testid="dropdown-toggle-caret"
+      ></div
+    ></a>
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size large with dropdown items of variant fixed 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  max-height: 75vh;
+}
+.g {
+  overflow-y: auto;
+}
+.h {
+  position: static;
+}
+.i {
+  background-clip: padding-box;
+}
+.j {
+  background-color: #fff;
+}
+.k {
+  color: #212529;
+}
+.l {
+  display: block;
+}
+.m {
+  font-size: 1rem;
+}
+.n {
+  left: 0;
+}
+.o {
+  width: 100%;
+}
+.p {
+  margin-top: calc(-1 * 1px);
+}
+.q {
+  min-width: 10rem;
+}
+.r {
+  position: absolute;
+}
+.s {
+  text-align: left;
+}
+.t {
+  top: -2.5rem;
+}
+.u {
+  z-index: 1000;
+}
+.v {
+  transform: translate3d(0px, 40px, 0px);
+}
+.w {
+  border-top-left-radius: 0;
+}
+.x {
+  border-top-right-radius: 0;
+}
+.y {
+  right: auto;
+}
+.z {
+  bottom: auto;
+}
+.ab {
+  padding-top: 0.5rem;
+}
+.ac {
+  padding-right: 0.125rem;
+}
+.ae {
+  padding-bottom: 0.5rem;
+}
+.af {
+  padding-left: 0.125rem;
+}
+.ag {
+  margin-right: 0px;
+}
+.ah {
+  margin-bottom: 0px;
+}
+.ai {
+  margin-left: 0px;
+}
+.aj {
+  border-bottom-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-left-radius: 0.375rem;
+}
+.al {
+  border-top-width: 1px;
+}
+.am {
+  border-right-width: 1px;
+}
+.an {
+  border-bottom-width: 1px;
+}
+.ao {
+  border-left-width: 1px;
+}
+.ap {
+  border-top-style: solid;
+}
+.aq {
+  border-right-style: solid;
+}
+.ar {
+  border-bottom-style: solid;
+}
+.as {
+  border-left-style: solid;
+}
+.at {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.au {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.av {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.aw {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ax {
+  margin-top: -0.2rem;
+}
+.ay {
+  padding-top: 0;
+}
+.az {
+  margin-top: 0.2rem;
+}
+.ba {
+  padding-top: -0.5rem;
+}
+.bb {
+  white-space: nowrap;
+}
+.bc:empty::after {
+  margin-left: 0;
+}
+.bd::after {
+  content:;
+}
+.be::after {
+  display: inline-block;
+}
+.bf::after {
+  margin-left: 0.255em;
+}
+.bg::after {
+  vertical-align: 0.255em;
+}
+.bh::after {
+  border-top-width: 0.3em;
+}
+.bi::after {
+  border-top-style: solid;
+}
+.bj::after {
+  border-right-width: 0.3em;
+}
+.bk::after {
+  border-right-style: solid;
+}
+.bl::after {
+  border-right-color: transparent;
+}
+.bm::after {
+  border-left-width: 0.3em;
+}
+.bn::after {
+  border-left-style: solid;
+}
+.bo::after {
+  border-left-color: transparent;
+}
+.bp::after {
+  border-bottom-width: 0;
+}
+.bq {
+  font-weight: 400;
+}
+.br {
+  color: #0d6efd;
+}
+.bs {
+  background: none;
+}
+.cb {
+  transition-property: color, background-color, border-color;
+}
+.cc {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.cd {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ce {
+  transition-timing-function: ease, ease, ease;
+}
+.cf {
+  border-top-width: 0;
+}
+.cg {
+  border-right-width: 0;
+}
+.ch {
+  border-bottom-width: 0;
+}
+.ci {
+  border-left-width: 0;
+}
+.cj {
+  text-decoration-line: none;
+}
+.ck {
+  padding-right: 1rem;
+}
+.cl {
+  padding-left: 1rem;
+}
+.cm {
+  content:;
+}
+.cn {
+  display: inline-block;
+}
+.co {
+  margin-left: calc(0.3em * 0.85);
+}
+.cp {
+  vertical-align: calc(0.3em * 0.85);
+}
+.cq {
+  border-top-width: 0.3em;
+}
+.cr {
+  border-right-width: 0.3em;
+}
+.cs {
+  border-right-color: transparent;
+}
+.ct {
+  border-left-width: 0.3em;
+}
+.cu {
+  border-left-color: transparent;
+}
+.cv {
+  top: 0;
+}
+.cw {
+  width: auto;
+}
+.bx:hover {
+  color: #0a58ca;
+}
+.by:focus {
+  color: #0a58ca;
+}
+.bz:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ca:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .bt {
+    transition-property: none;
+  }
+  .bu {
+    transition-duration: 0s;
+  }
+  .bv {
+    transition-delay: 0s;
+  }
+  .bw {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g navbar-nav">
+  <li data-testid="nav-item" class="nav-item">
+    <a
+      data-testid="dropdown-toggle"
+      class="ab ae bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl l m nav-link bb bc bd be bf bg bh bi bj bk bl bm bn bo bp dropdown-toggle"
+      tabindex="0"
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      role="combobox"
+      >Dropdown
+      <div
+        class="ap aq as ch cm cn co cp cq cr cs ct cu"
+        data-testid="dropdown-toggle-caret"
+      ></div
+    ></a>
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size large with dropdown items of variant sticky 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  max-height: 75vh;
+}
+.g {
+  overflow-y: auto;
+}
+.h {
+  position: static;
+}
+.i {
+  background-clip: padding-box;
+}
+.j {
+  background-color: #fff;
+}
+.k {
+  color: #212529;
+}
+.l {
+  display: block;
+}
+.m {
+  font-size: 1rem;
+}
+.n {
+  left: 0;
+}
+.o {
+  width: 100%;
+}
+.p {
+  margin-top: calc(-1 * 1px);
+}
+.q {
+  min-width: 10rem;
+}
+.r {
+  position: absolute;
+}
+.s {
+  text-align: left;
+}
+.t {
+  top: -2.5rem;
+}
+.u {
+  z-index: 1000;
+}
+.v {
+  transform: translate3d(0px, 40px, 0px);
+}
+.w {
+  border-top-left-radius: 0;
+}
+.x {
+  border-top-right-radius: 0;
+}
+.y {
+  right: auto;
+}
+.z {
+  bottom: auto;
+}
+.ab {
+  padding-top: 0.5rem;
+}
+.ac {
+  padding-right: 0.125rem;
+}
+.ae {
+  padding-bottom: 0.5rem;
+}
+.af {
+  padding-left: 0.125rem;
+}
+.ag {
+  margin-right: 0px;
+}
+.ah {
+  margin-bottom: 0px;
+}
+.ai {
+  margin-left: 0px;
+}
+.aj {
+  border-bottom-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-left-radius: 0.375rem;
+}
+.al {
+  border-top-width: 1px;
+}
+.am {
+  border-right-width: 1px;
+}
+.an {
+  border-bottom-width: 1px;
+}
+.ao {
+  border-left-width: 1px;
+}
+.ap {
+  border-top-style: solid;
+}
+.aq {
+  border-right-style: solid;
+}
+.ar {
+  border-bottom-style: solid;
+}
+.as {
+  border-left-style: solid;
+}
+.at {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.au {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.av {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.aw {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ax {
+  margin-top: -0.2rem;
+}
+.ay {
+  padding-top: 0;
+}
+.az {
+  margin-top: 0.2rem;
+}
+.ba {
+  padding-top: -0.5rem;
+}
+.bb {
+  white-space: nowrap;
+}
+.bc:empty::after {
+  margin-left: 0;
+}
+.bd::after {
+  content:;
+}
+.be::after {
+  display: inline-block;
+}
+.bf::after {
+  margin-left: 0.255em;
+}
+.bg::after {
+  vertical-align: 0.255em;
+}
+.bh::after {
+  border-top-width: 0.3em;
+}
+.bi::after {
+  border-top-style: solid;
+}
+.bj::after {
+  border-right-width: 0.3em;
+}
+.bk::after {
+  border-right-style: solid;
+}
+.bl::after {
+  border-right-color: transparent;
+}
+.bm::after {
+  border-left-width: 0.3em;
+}
+.bn::after {
+  border-left-style: solid;
+}
+.bo::after {
+  border-left-color: transparent;
+}
+.bp::after {
+  border-bottom-width: 0;
+}
+.bq {
+  font-weight: 400;
+}
+.br {
+  color: #0d6efd;
+}
+.bs {
+  background: none;
+}
+.cb {
+  transition-property: color, background-color, border-color;
+}
+.cc {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.cd {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ce {
+  transition-timing-function: ease, ease, ease;
+}
+.cf {
+  border-top-width: 0;
+}
+.cg {
+  border-right-width: 0;
+}
+.ch {
+  border-bottom-width: 0;
+}
+.ci {
+  border-left-width: 0;
+}
+.cj {
+  text-decoration-line: none;
+}
+.ck {
+  padding-right: 1rem;
+}
+.cl {
+  padding-left: 1rem;
+}
+.cm {
+  content:;
+}
+.cn {
+  display: inline-block;
+}
+.co {
+  margin-left: calc(0.3em * 0.85);
+}
+.cp {
+  vertical-align: calc(0.3em * 0.85);
+}
+.cq {
+  border-top-width: 0.3em;
+}
+.cr {
+  border-right-width: 0.3em;
+}
+.cs {
+  border-right-color: transparent;
+}
+.ct {
+  border-left-width: 0.3em;
+}
+.cu {
+  border-left-color: transparent;
+}
+.cv {
+  top: 0;
+}
+.cw {
+  width: auto;
+}
+.bx:hover {
+  color: #0a58ca;
+}
+.by:focus {
+  color: #0a58ca;
+}
+.bz:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ca:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .bt {
+    transition-property: none;
+  }
+  .bu {
+    transition-duration: 0s;
+  }
+  .bv {
+    transition-delay: 0s;
+  }
+  .bw {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g navbar-nav">
+  <li data-testid="nav-item" class="nav-item">
+    <a
+      data-testid="dropdown-toggle"
+      class="ab ae bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl l m nav-link bb bc bd be bf bg bh bi bj bk bl bm bn bo bp dropdown-toggle"
+      tabindex="0"
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      role="combobox"
+      >Dropdown
+      <div
+        class="ap aq as ch cm cn co cp cq cr cs ct cu"
+        data-testid="dropdown-toggle-caret"
+      ></div
+    ></a>
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size large with link of variant expand 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.i {
+  max-height: 75vh;
+}
+.j {
+  overflow-y: auto;
+}
+.o {
+  display: block;
+}
+.p {
+  font-size: 1rem;
+}
+.q {
+  font-weight: 400;
+}
+.r {
+  color: #0d6efd;
+}
+.s {
+  background: none;
+}
+.ac {
+  transition-property: color, background-color, border-color;
+}
+.ae {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.af {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ag {
+  transition-timing-function: ease, ease, ease;
+}
+.ah {
+  border-top-width: 0;
+}
+.ai {
+  border-right-width: 0;
+}
+.aj {
+  border-bottom-width: 0;
+}
+.ak {
+  border-left-width: 0;
+}
+.al {
+  text-decoration-line: none;
+}
+.am {
+  padding-top: 0.5rem;
+}
+.an {
+  padding-right: 1rem;
+}
+.ao {
+  padding-bottom: 0.5rem;
+}
+.ap {
+  padding-left: 1rem;
+}
+.x:hover {
+  color: #0a58ca;
+}
+.y:focus {
+  color: #0a58ca;
+}
+.z:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ab:focus-visible {
+  outline-width: 0;
+}
+@media (min-width: 992px) {
+  .f {
+    flex-direction: row;
+  }
+  .g {
+    overflow-x: visible;
+  }
+  .h {
+    overflow-y: visible;
+  }
+  .k {
+    padding-right: 0.5rem;
+  }
+  .l {
+    padding-left: 0.5rem;
+  }
+  .m {
+    padding-top: 0.5rem;
+  }
+  .n {
+    padding-bottom: 0.5rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .t {
+    transition-property: none;
+  }
+  .u {
+    transition-duration: 0s;
+  }
+  .v {
+    transition-delay: 0s;
+  }
+  .w {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g h i j navbar-nav">
+  <li
+    data-testid="nav-item"
+    class="nav-item k l m n navbar-link"
+    style="padding-bottom: 1.25em"
+  >
+    <a
+      data-testid="nav-link"
+      href="#"
+      class="ab ac ae af ag ah ai aj ak al am an ao ap o p q r s t u v w x y z nav-link k l m n navbar-link"
+      type="link"
+      label="Home"
+      >Home</a
+    >
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size large with link of variant fixed 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  max-height: 75vh;
+}
+.g {
+  overflow-y: auto;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  color: #0d6efd;
+}
+.l {
+  background: none;
+}
+.u {
+  transition-property: color, background-color, border-color;
+}
+.v {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.w {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.x {
+  transition-timing-function: ease, ease, ease;
+}
+.y {
+  border-top-width: 0;
+}
+.z {
+  border-right-width: 0;
+}
+.ab {
+  border-bottom-width: 0;
+}
+.ac {
+  border-left-width: 0;
+}
+.ae {
+  text-decoration-line: none;
+}
+.af {
+  padding-top: 0.5rem;
+}
+.ag {
+  padding-right: 1rem;
+}
+.ah {
+  padding-bottom: 0.5rem;
+}
+.ai {
+  padding-left: 1rem;
+}
+.q:hover {
+  color: #0a58ca;
+}
+.r:focus {
+  color: #0a58ca;
+}
+.s:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g navbar-nav">
+  <li
+    data-testid="nav-item"
+    class="nav-item navbar-link"
+    style="padding-bottom: 1.25em"
+  >
+    <a
+      data-testid="nav-link"
+      href="#"
+      class="ab ac ae af ag ah ai h i j k l m n o p q r s t u v w x y z nav-link navbar-link"
+      type="link"
+      label="Home"
+      >Home</a
+    >
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size large with link of variant sticky 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  max-height: 75vh;
+}
+.g {
+  overflow-y: auto;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  color: #0d6efd;
+}
+.l {
+  background: none;
+}
+.u {
+  transition-property: color, background-color, border-color;
+}
+.v {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.w {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.x {
+  transition-timing-function: ease, ease, ease;
+}
+.y {
+  border-top-width: 0;
+}
+.z {
+  border-right-width: 0;
+}
+.ab {
+  border-bottom-width: 0;
+}
+.ac {
+  border-left-width: 0;
+}
+.ae {
+  text-decoration-line: none;
+}
+.af {
+  padding-top: 0.5rem;
+}
+.ag {
+  padding-right: 1rem;
+}
+.ah {
+  padding-bottom: 0.5rem;
+}
+.ai {
+  padding-left: 1rem;
+}
+.q:hover {
+  color: #0a58ca;
+}
+.r:focus {
+  color: #0a58ca;
+}
+.s:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g navbar-nav">
+  <li
+    data-testid="nav-item"
+    class="nav-item navbar-link"
+    style="padding-bottom: 1.25em"
+  >
+    <a
+      data-testid="nav-link"
+      href="#"
+      class="ab ac ae af ag ah ai h i j k l m n o p q r s t u v w x y z nav-link navbar-link"
+      type="link"
+      label="Home"
+      >Home</a
+    >
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size medium with dropdown items of variant expand 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.i {
+  max-height: 75vh;
+}
+.j {
+  overflow-y: auto;
+}
+.k {
+  position: static;
+}
+.m {
+  background-clip: padding-box;
+}
+.n {
+  background-color: #fff;
+}
+.o {
+  color: #212529;
+}
+.p {
+  display: block;
+}
+.q {
+  font-size: 1rem;
+}
+.r {
+  left: 0;
+}
+.s {
+  width: 100%;
+}
+.t {
+  margin-top: calc(-1 * 1px);
+}
+.u {
+  min-width: 10rem;
+}
+.v {
+  position: absolute;
+}
+.w {
+  text-align: left;
+}
+.x {
+  top: -2.5rem;
+}
+.y {
+  z-index: 1000;
+}
+.z {
+  transform: translate3d(0px, 40px, 0px);
+}
+.ab {
+  border-top-left-radius: 0;
+}
+.ac {
+  border-top-right-radius: 0;
+}
+.ae {
+  right: auto;
+}
+.af {
+  bottom: auto;
+}
+.ag {
+  padding-top: 0.5rem;
+}
+.ah {
+  padding-right: 0.125rem;
+}
+.ai {
+  padding-bottom: 0.5rem;
+}
+.aj {
+  padding-left: 0.125rem;
+}
+.ak {
+  margin-right: 0px;
+}
+.al {
+  margin-bottom: 0px;
+}
+.am {
+  margin-left: 0px;
+}
+.an {
+  border-bottom-right-radius: 0.375rem;
+}
+.ao {
+  border-bottom-left-radius: 0.375rem;
+}
+.ap {
+  border-top-width: 1px;
+}
+.aq {
+  border-right-width: 1px;
+}
+.ar {
+  border-bottom-width: 1px;
+}
+.as {
+  border-left-width: 1px;
+}
+.at {
+  border-top-style: solid;
+}
+.au {
+  border-right-style: solid;
+}
+.av {
+  border-bottom-style: solid;
+}
+.aw {
+  border-left-style: solid;
+}
+.ax {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.ay {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.az {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ba {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.bb {
+  margin-top: -0.2rem;
+}
+.bc {
+  padding-top: 0;
+}
+.bd {
+  margin-top: 0.2rem;
+}
+.be {
+  padding-top: -0.5rem;
+}
+.bf {
+  white-space: nowrap;
+}
+.bg:empty::after {
+  margin-left: 0;
+}
+.bh::after {
+  content:;
+}
+.bi::after {
+  display: inline-block;
+}
+.bj::after {
+  margin-left: 0.255em;
+}
+.bk::after {
+  vertical-align: 0.255em;
+}
+.bl::after {
+  border-top-width: 0.3em;
+}
+.bm::after {
+  border-top-style: solid;
+}
+.bn::after {
+  border-right-width: 0.3em;
+}
+.bo::after {
+  border-right-style: solid;
+}
+.bp::after {
+  border-right-color: transparent;
+}
+.bq::after {
+  border-left-width: 0.3em;
+}
+.br::after {
+  border-left-style: solid;
+}
+.bs::after {
+  border-left-color: transparent;
+}
+.bt::after {
+  border-bottom-width: 0;
+}
+.bu {
+  font-weight: 400;
+}
+.bv {
+  color: #0d6efd;
+}
+.bw {
+  background: none;
+}
+.cf {
+  transition-property: color, background-color, border-color;
+}
+.cg {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.ch {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ci {
+  transition-timing-function: ease, ease, ease;
+}
+.cj {
+  border-top-width: 0;
+}
+.ck {
+  border-right-width: 0;
+}
+.cl {
+  border-bottom-width: 0;
+}
+.cm {
+  border-left-width: 0;
+}
+.cn {
+  text-decoration-line: none;
+}
+.co {
+  padding-right: 1rem;
+}
+.cp {
+  padding-left: 1rem;
+}
+.cq {
+  content:;
+}
+.cr {
+  display: inline-block;
+}
+.cs {
+  margin-left: calc(0.3em * 0.85);
+}
+.ct {
+  vertical-align: calc(0.3em * 0.85);
+}
+.cu {
+  border-top-width: 0.3em;
+}
+.cv {
+  border-right-width: 0.3em;
+}
+.cw {
+  border-right-color: transparent;
+}
+.cx {
+  border-left-width: 0.3em;
+}
+.cy {
+  border-left-color: transparent;
+}
+.cz {
+  top: 0;
+}
+.da {
+  width: auto;
+}
+.cb:hover {
+  color: #0a58ca;
+}
+.cc:focus {
+  color: #0a58ca;
+}
+.cd:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ce:focus-visible {
+  outline-width: 0;
+}
+@media (min-width: 768px) {
+  .f {
+    flex-direction: row;
+  }
+  .g {
+    overflow-x: visible;
+  }
+  .h {
+    overflow-y: visible;
+  }
+  .l {
+    position: absolute;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bx {
+    transition-property: none;
+  }
+  .by {
+    transition-duration: 0s;
+  }
+  .bz {
+    transition-delay: 0s;
+  }
+  .ca {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g h i j navbar-nav">
+  <li data-testid="nav-item" class="nav-item">
+    <a
+      data-testid="dropdown-toggle"
+      class="ag ai bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp p q nav-link bf bg bh bi bj bk bl bm bn bo bp bq br bs bt dropdown-toggle"
+      tabindex="0"
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      role="combobox"
+      >Dropdown
+      <div
+        class="at au aw cl cq cr cs ct cu cv cw cx cy"
+        data-testid="dropdown-toggle-caret"
+      ></div
+    ></a>
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size medium with dropdown items of variant fixed 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  max-height: 75vh;
+}
+.g {
+  overflow-y: auto;
+}
+.h {
+  position: static;
+}
+.i {
+  background-clip: padding-box;
+}
+.j {
+  background-color: #fff;
+}
+.k {
+  color: #212529;
+}
+.l {
+  display: block;
+}
+.m {
+  font-size: 1rem;
+}
+.n {
+  left: 0;
+}
+.o {
+  width: 100%;
+}
+.p {
+  margin-top: calc(-1 * 1px);
+}
+.q {
+  min-width: 10rem;
+}
+.r {
+  position: absolute;
+}
+.s {
+  text-align: left;
+}
+.t {
+  top: -2.5rem;
+}
+.u {
+  z-index: 1000;
+}
+.v {
+  transform: translate3d(0px, 40px, 0px);
+}
+.w {
+  border-top-left-radius: 0;
+}
+.x {
+  border-top-right-radius: 0;
+}
+.y {
+  right: auto;
+}
+.z {
+  bottom: auto;
+}
+.ab {
+  padding-top: 0.5rem;
+}
+.ac {
+  padding-right: 0.125rem;
+}
+.ae {
+  padding-bottom: 0.5rem;
+}
+.af {
+  padding-left: 0.125rem;
+}
+.ag {
+  margin-right: 0px;
+}
+.ah {
+  margin-bottom: 0px;
+}
+.ai {
+  margin-left: 0px;
+}
+.aj {
+  border-bottom-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-left-radius: 0.375rem;
+}
+.al {
+  border-top-width: 1px;
+}
+.am {
+  border-right-width: 1px;
+}
+.an {
+  border-bottom-width: 1px;
+}
+.ao {
+  border-left-width: 1px;
+}
+.ap {
+  border-top-style: solid;
+}
+.aq {
+  border-right-style: solid;
+}
+.ar {
+  border-bottom-style: solid;
+}
+.as {
+  border-left-style: solid;
+}
+.at {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.au {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.av {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.aw {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ax {
+  margin-top: -0.2rem;
+}
+.ay {
+  padding-top: 0;
+}
+.az {
+  margin-top: 0.2rem;
+}
+.ba {
+  padding-top: -0.5rem;
+}
+.bb {
+  white-space: nowrap;
+}
+.bc:empty::after {
+  margin-left: 0;
+}
+.bd::after {
+  content:;
+}
+.be::after {
+  display: inline-block;
+}
+.bf::after {
+  margin-left: 0.255em;
+}
+.bg::after {
+  vertical-align: 0.255em;
+}
+.bh::after {
+  border-top-width: 0.3em;
+}
+.bi::after {
+  border-top-style: solid;
+}
+.bj::after {
+  border-right-width: 0.3em;
+}
+.bk::after {
+  border-right-style: solid;
+}
+.bl::after {
+  border-right-color: transparent;
+}
+.bm::after {
+  border-left-width: 0.3em;
+}
+.bn::after {
+  border-left-style: solid;
+}
+.bo::after {
+  border-left-color: transparent;
+}
+.bp::after {
+  border-bottom-width: 0;
+}
+.bq {
+  font-weight: 400;
+}
+.br {
+  color: #0d6efd;
+}
+.bs {
+  background: none;
+}
+.cb {
+  transition-property: color, background-color, border-color;
+}
+.cc {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.cd {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ce {
+  transition-timing-function: ease, ease, ease;
+}
+.cf {
+  border-top-width: 0;
+}
+.cg {
+  border-right-width: 0;
+}
+.ch {
+  border-bottom-width: 0;
+}
+.ci {
+  border-left-width: 0;
+}
+.cj {
+  text-decoration-line: none;
+}
+.ck {
+  padding-right: 1rem;
+}
+.cl {
+  padding-left: 1rem;
+}
+.cm {
+  content:;
+}
+.cn {
+  display: inline-block;
+}
+.co {
+  margin-left: calc(0.3em * 0.85);
+}
+.cp {
+  vertical-align: calc(0.3em * 0.85);
+}
+.cq {
+  border-top-width: 0.3em;
+}
+.cr {
+  border-right-width: 0.3em;
+}
+.cs {
+  border-right-color: transparent;
+}
+.ct {
+  border-left-width: 0.3em;
+}
+.cu {
+  border-left-color: transparent;
+}
+.cv {
+  top: 0;
+}
+.cw {
+  width: auto;
+}
+.bx:hover {
+  color: #0a58ca;
+}
+.by:focus {
+  color: #0a58ca;
+}
+.bz:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ca:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .bt {
+    transition-property: none;
+  }
+  .bu {
+    transition-duration: 0s;
+  }
+  .bv {
+    transition-delay: 0s;
+  }
+  .bw {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g navbar-nav">
+  <li data-testid="nav-item" class="nav-item">
+    <a
+      data-testid="dropdown-toggle"
+      class="ab ae bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl l m nav-link bb bc bd be bf bg bh bi bj bk bl bm bn bo bp dropdown-toggle"
+      tabindex="0"
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      role="combobox"
+      >Dropdown
+      <div
+        class="ap aq as ch cm cn co cp cq cr cs ct cu"
+        data-testid="dropdown-toggle-caret"
+      ></div
+    ></a>
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size medium with dropdown items of variant sticky 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  max-height: 75vh;
+}
+.g {
+  overflow-y: auto;
+}
+.h {
+  position: static;
+}
+.i {
+  background-clip: padding-box;
+}
+.j {
+  background-color: #fff;
+}
+.k {
+  color: #212529;
+}
+.l {
+  display: block;
+}
+.m {
+  font-size: 1rem;
+}
+.n {
+  left: 0;
+}
+.o {
+  width: 100%;
+}
+.p {
+  margin-top: calc(-1 * 1px);
+}
+.q {
+  min-width: 10rem;
+}
+.r {
+  position: absolute;
+}
+.s {
+  text-align: left;
+}
+.t {
+  top: -2.5rem;
+}
+.u {
+  z-index: 1000;
+}
+.v {
+  transform: translate3d(0px, 40px, 0px);
+}
+.w {
+  border-top-left-radius: 0;
+}
+.x {
+  border-top-right-radius: 0;
+}
+.y {
+  right: auto;
+}
+.z {
+  bottom: auto;
+}
+.ab {
+  padding-top: 0.5rem;
+}
+.ac {
+  padding-right: 0.125rem;
+}
+.ae {
+  padding-bottom: 0.5rem;
+}
+.af {
+  padding-left: 0.125rem;
+}
+.ag {
+  margin-right: 0px;
+}
+.ah {
+  margin-bottom: 0px;
+}
+.ai {
+  margin-left: 0px;
+}
+.aj {
+  border-bottom-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-left-radius: 0.375rem;
+}
+.al {
+  border-top-width: 1px;
+}
+.am {
+  border-right-width: 1px;
+}
+.an {
+  border-bottom-width: 1px;
+}
+.ao {
+  border-left-width: 1px;
+}
+.ap {
+  border-top-style: solid;
+}
+.aq {
+  border-right-style: solid;
+}
+.ar {
+  border-bottom-style: solid;
+}
+.as {
+  border-left-style: solid;
+}
+.at {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.au {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.av {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.aw {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ax {
+  margin-top: -0.2rem;
+}
+.ay {
+  padding-top: 0;
+}
+.az {
+  margin-top: 0.2rem;
+}
+.ba {
+  padding-top: -0.5rem;
+}
+.bb {
+  white-space: nowrap;
+}
+.bc:empty::after {
+  margin-left: 0;
+}
+.bd::after {
+  content:;
+}
+.be::after {
+  display: inline-block;
+}
+.bf::after {
+  margin-left: 0.255em;
+}
+.bg::after {
+  vertical-align: 0.255em;
+}
+.bh::after {
+  border-top-width: 0.3em;
+}
+.bi::after {
+  border-top-style: solid;
+}
+.bj::after {
+  border-right-width: 0.3em;
+}
+.bk::after {
+  border-right-style: solid;
+}
+.bl::after {
+  border-right-color: transparent;
+}
+.bm::after {
+  border-left-width: 0.3em;
+}
+.bn::after {
+  border-left-style: solid;
+}
+.bo::after {
+  border-left-color: transparent;
+}
+.bp::after {
+  border-bottom-width: 0;
+}
+.bq {
+  font-weight: 400;
+}
+.br {
+  color: #0d6efd;
+}
+.bs {
+  background: none;
+}
+.cb {
+  transition-property: color, background-color, border-color;
+}
+.cc {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.cd {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ce {
+  transition-timing-function: ease, ease, ease;
+}
+.cf {
+  border-top-width: 0;
+}
+.cg {
+  border-right-width: 0;
+}
+.ch {
+  border-bottom-width: 0;
+}
+.ci {
+  border-left-width: 0;
+}
+.cj {
+  text-decoration-line: none;
+}
+.ck {
+  padding-right: 1rem;
+}
+.cl {
+  padding-left: 1rem;
+}
+.cm {
+  content:;
+}
+.cn {
+  display: inline-block;
+}
+.co {
+  margin-left: calc(0.3em * 0.85);
+}
+.cp {
+  vertical-align: calc(0.3em * 0.85);
+}
+.cq {
+  border-top-width: 0.3em;
+}
+.cr {
+  border-right-width: 0.3em;
+}
+.cs {
+  border-right-color: transparent;
+}
+.ct {
+  border-left-width: 0.3em;
+}
+.cu {
+  border-left-color: transparent;
+}
+.cv {
+  top: 0;
+}
+.cw {
+  width: auto;
+}
+.bx:hover {
+  color: #0a58ca;
+}
+.by:focus {
+  color: #0a58ca;
+}
+.bz:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ca:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .bt {
+    transition-property: none;
+  }
+  .bu {
+    transition-duration: 0s;
+  }
+  .bv {
+    transition-delay: 0s;
+  }
+  .bw {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g navbar-nav">
+  <li data-testid="nav-item" class="nav-item">
+    <a
+      data-testid="dropdown-toggle"
+      class="ab ae bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl l m nav-link bb bc bd be bf bg bh bi bj bk bl bm bn bo bp dropdown-toggle"
+      tabindex="0"
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      role="combobox"
+      >Dropdown
+      <div
+        class="ap aq as ch cm cn co cp cq cr cs ct cu"
+        data-testid="dropdown-toggle-caret"
+      ></div
+    ></a>
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size medium with link of variant expand 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.i {
+  max-height: 75vh;
+}
+.j {
+  overflow-y: auto;
+}
+.o {
+  display: block;
+}
+.p {
+  font-size: 1rem;
+}
+.q {
+  font-weight: 400;
+}
+.r {
+  color: #0d6efd;
+}
+.s {
+  background: none;
+}
+.ac {
+  transition-property: color, background-color, border-color;
+}
+.ae {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.af {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ag {
+  transition-timing-function: ease, ease, ease;
+}
+.ah {
+  border-top-width: 0;
+}
+.ai {
+  border-right-width: 0;
+}
+.aj {
+  border-bottom-width: 0;
+}
+.ak {
+  border-left-width: 0;
+}
+.al {
+  text-decoration-line: none;
+}
+.am {
+  padding-top: 0.5rem;
+}
+.an {
+  padding-right: 1rem;
+}
+.ao {
+  padding-bottom: 0.5rem;
+}
+.ap {
+  padding-left: 1rem;
+}
+.x:hover {
+  color: #0a58ca;
+}
+.y:focus {
+  color: #0a58ca;
+}
+.z:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ab:focus-visible {
+  outline-width: 0;
+}
+@media (min-width: 768px) {
+  .f {
+    flex-direction: row;
+  }
+  .g {
+    overflow-x: visible;
+  }
+  .h {
+    overflow-y: visible;
+  }
+  .k {
+    padding-right: 0.5rem;
+  }
+  .l {
+    padding-left: 0.5rem;
+  }
+  .m {
+    padding-top: 0.5rem;
+  }
+  .n {
+    padding-bottom: 0.5rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .t {
+    transition-property: none;
+  }
+  .u {
+    transition-duration: 0s;
+  }
+  .v {
+    transition-delay: 0s;
+  }
+  .w {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g h i j navbar-nav">
+  <li
+    data-testid="nav-item"
+    class="nav-item k l m n navbar-link"
+    style="padding-bottom: 1.25em"
+  >
+    <a
+      data-testid="nav-link"
+      href="#"
+      class="ab ac ae af ag ah ai aj ak al am an ao ap o p q r s t u v w x y z nav-link k l m n navbar-link"
+      type="link"
+      label="Home"
+      >Home</a
+    >
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size medium with link of variant fixed 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  max-height: 75vh;
+}
+.g {
+  overflow-y: auto;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  color: #0d6efd;
+}
+.l {
+  background: none;
+}
+.u {
+  transition-property: color, background-color, border-color;
+}
+.v {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.w {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.x {
+  transition-timing-function: ease, ease, ease;
+}
+.y {
+  border-top-width: 0;
+}
+.z {
+  border-right-width: 0;
+}
+.ab {
+  border-bottom-width: 0;
+}
+.ac {
+  border-left-width: 0;
+}
+.ae {
+  text-decoration-line: none;
+}
+.af {
+  padding-top: 0.5rem;
+}
+.ag {
+  padding-right: 1rem;
+}
+.ah {
+  padding-bottom: 0.5rem;
+}
+.ai {
+  padding-left: 1rem;
+}
+.q:hover {
+  color: #0a58ca;
+}
+.r:focus {
+  color: #0a58ca;
+}
+.s:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g navbar-nav">
+  <li
+    data-testid="nav-item"
+    class="nav-item navbar-link"
+    style="padding-bottom: 1.25em"
+  >
+    <a
+      data-testid="nav-link"
+      href="#"
+      class="ab ac ae af ag ah ai h i j k l m n o p q r s t u v w x y z nav-link navbar-link"
+      type="link"
+      label="Home"
+      >Home</a
+    >
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size medium with link of variant sticky 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  max-height: 75vh;
+}
+.g {
+  overflow-y: auto;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  color: #0d6efd;
+}
+.l {
+  background: none;
+}
+.u {
+  transition-property: color, background-color, border-color;
+}
+.v {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.w {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.x {
+  transition-timing-function: ease, ease, ease;
+}
+.y {
+  border-top-width: 0;
+}
+.z {
+  border-right-width: 0;
+}
+.ab {
+  border-bottom-width: 0;
+}
+.ac {
+  border-left-width: 0;
+}
+.ae {
+  text-decoration-line: none;
+}
+.af {
+  padding-top: 0.5rem;
+}
+.ag {
+  padding-right: 1rem;
+}
+.ah {
+  padding-bottom: 0.5rem;
+}
+.ai {
+  padding-left: 1rem;
+}
+.q:hover {
+  color: #0a58ca;
+}
+.r:focus {
+  color: #0a58ca;
+}
+.s:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g navbar-nav">
+  <li
+    data-testid="nav-item"
+    class="nav-item navbar-link"
+    style="padding-bottom: 1.25em"
+  >
+    <a
+      data-testid="nav-link"
+      href="#"
+      class="ab ac ae af ag ah ai h i j k l m n o p q r s t u v w x y z nav-link navbar-link"
+      type="link"
+      label="Home"
+      >Home</a
+    >
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size small with dropdown items of variant expand 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.i {
+  max-height: 75vh;
+}
+.j {
+  overflow-y: auto;
+}
+.k {
+  position: static;
+}
+.m {
+  background-clip: padding-box;
+}
+.n {
+  background-color: #fff;
+}
+.o {
+  color: #212529;
+}
+.p {
+  display: block;
+}
+.q {
+  font-size: 1rem;
+}
+.r {
+  left: 0;
+}
+.s {
+  width: 100%;
+}
+.t {
+  margin-top: calc(-1 * 1px);
+}
+.u {
+  min-width: 10rem;
+}
+.v {
+  position: absolute;
+}
+.w {
+  text-align: left;
+}
+.x {
+  top: -2.5rem;
+}
+.y {
+  z-index: 1000;
+}
+.z {
+  transform: translate3d(0px, 40px, 0px);
+}
+.ab {
+  border-top-left-radius: 0;
+}
+.ac {
+  border-top-right-radius: 0;
+}
+.ae {
+  right: auto;
+}
+.af {
+  bottom: auto;
+}
+.ag {
+  padding-top: 0.5rem;
+}
+.ah {
+  padding-right: 0.125rem;
+}
+.ai {
+  padding-bottom: 0.5rem;
+}
+.aj {
+  padding-left: 0.125rem;
+}
+.ak {
+  margin-right: 0px;
+}
+.al {
+  margin-bottom: 0px;
+}
+.am {
+  margin-left: 0px;
+}
+.an {
+  border-bottom-right-radius: 0.375rem;
+}
+.ao {
+  border-bottom-left-radius: 0.375rem;
+}
+.ap {
+  border-top-width: 1px;
+}
+.aq {
+  border-right-width: 1px;
+}
+.ar {
+  border-bottom-width: 1px;
+}
+.as {
+  border-left-width: 1px;
+}
+.at {
+  border-top-style: solid;
+}
+.au {
+  border-right-style: solid;
+}
+.av {
+  border-bottom-style: solid;
+}
+.aw {
+  border-left-style: solid;
+}
+.ax {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.ay {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.az {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ba {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.bb {
+  margin-top: -0.2rem;
+}
+.bc {
+  padding-top: 0;
+}
+.bd {
+  margin-top: 0.2rem;
+}
+.be {
+  padding-top: -0.5rem;
+}
+.bf {
+  white-space: nowrap;
+}
+.bg:empty::after {
+  margin-left: 0;
+}
+.bh::after {
+  content:;
+}
+.bi::after {
+  display: inline-block;
+}
+.bj::after {
+  margin-left: 0.255em;
+}
+.bk::after {
+  vertical-align: 0.255em;
+}
+.bl::after {
+  border-top-width: 0.3em;
+}
+.bm::after {
+  border-top-style: solid;
+}
+.bn::after {
+  border-right-width: 0.3em;
+}
+.bo::after {
+  border-right-style: solid;
+}
+.bp::after {
+  border-right-color: transparent;
+}
+.bq::after {
+  border-left-width: 0.3em;
+}
+.br::after {
+  border-left-style: solid;
+}
+.bs::after {
+  border-left-color: transparent;
+}
+.bt::after {
+  border-bottom-width: 0;
+}
+.bu {
+  font-weight: 400;
+}
+.bv {
+  color: #0d6efd;
+}
+.bw {
+  background: none;
+}
+.cf {
+  transition-property: color, background-color, border-color;
+}
+.cg {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.ch {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ci {
+  transition-timing-function: ease, ease, ease;
+}
+.cj {
+  border-top-width: 0;
+}
+.ck {
+  border-right-width: 0;
+}
+.cl {
+  border-bottom-width: 0;
+}
+.cm {
+  border-left-width: 0;
+}
+.cn {
+  text-decoration-line: none;
+}
+.co {
+  padding-right: 1rem;
+}
+.cp {
+  padding-left: 1rem;
+}
+.cq {
+  content:;
+}
+.cr {
+  display: inline-block;
+}
+.cs {
+  margin-left: calc(0.3em * 0.85);
+}
+.ct {
+  vertical-align: calc(0.3em * 0.85);
+}
+.cu {
+  border-top-width: 0.3em;
+}
+.cv {
+  border-right-width: 0.3em;
+}
+.cw {
+  border-right-color: transparent;
+}
+.cx {
+  border-left-width: 0.3em;
+}
+.cy {
+  border-left-color: transparent;
+}
+.cz {
+  top: 0;
+}
+.da {
+  width: auto;
+}
+.cb:hover {
+  color: #0a58ca;
+}
+.cc:focus {
+  color: #0a58ca;
+}
+.cd:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ce:focus-visible {
+  outline-width: 0;
+}
+@media (min-width: 576px) {
+  .f {
+    flex-direction: row;
+  }
+  .g {
+    overflow-x: visible;
+  }
+  .h {
+    overflow-y: visible;
+  }
+  .l {
+    position: absolute;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bx {
+    transition-property: none;
+  }
+  .by {
+    transition-duration: 0s;
+  }
+  .bz {
+    transition-delay: 0s;
+  }
+  .ca {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g h i j navbar-nav">
+  <li data-testid="nav-item" class="nav-item">
+    <a
+      data-testid="dropdown-toggle"
+      class="ag ai bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp p q nav-link bf bg bh bi bj bk bl bm bn bo bp bq br bs bt dropdown-toggle"
+      tabindex="0"
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      role="combobox"
+      >Dropdown
+      <div
+        class="at au aw cl cq cr cs ct cu cv cw cx cy"
+        data-testid="dropdown-toggle-caret"
+      ></div
+    ></a>
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size small with dropdown items of variant fixed 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  max-height: 75vh;
+}
+.g {
+  overflow-y: auto;
+}
+.h {
+  position: static;
+}
+.i {
+  background-clip: padding-box;
+}
+.j {
+  background-color: #fff;
+}
+.k {
+  color: #212529;
+}
+.l {
+  display: block;
+}
+.m {
+  font-size: 1rem;
+}
+.n {
+  left: 0;
+}
+.o {
+  width: 100%;
+}
+.p {
+  margin-top: calc(-1 * 1px);
+}
+.q {
+  min-width: 10rem;
+}
+.r {
+  position: absolute;
+}
+.s {
+  text-align: left;
+}
+.t {
+  top: -2.5rem;
+}
+.u {
+  z-index: 1000;
+}
+.v {
+  transform: translate3d(0px, 40px, 0px);
+}
+.w {
+  border-top-left-radius: 0;
+}
+.x {
+  border-top-right-radius: 0;
+}
+.y {
+  right: auto;
+}
+.z {
+  bottom: auto;
+}
+.ab {
+  padding-top: 0.5rem;
+}
+.ac {
+  padding-right: 0.125rem;
+}
+.ae {
+  padding-bottom: 0.5rem;
+}
+.af {
+  padding-left: 0.125rem;
+}
+.ag {
+  margin-right: 0px;
+}
+.ah {
+  margin-bottom: 0px;
+}
+.ai {
+  margin-left: 0px;
+}
+.aj {
+  border-bottom-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-left-radius: 0.375rem;
+}
+.al {
+  border-top-width: 1px;
+}
+.am {
+  border-right-width: 1px;
+}
+.an {
+  border-bottom-width: 1px;
+}
+.ao {
+  border-left-width: 1px;
+}
+.ap {
+  border-top-style: solid;
+}
+.aq {
+  border-right-style: solid;
+}
+.ar {
+  border-bottom-style: solid;
+}
+.as {
+  border-left-style: solid;
+}
+.at {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.au {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.av {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.aw {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ax {
+  margin-top: -0.2rem;
+}
+.ay {
+  padding-top: 0;
+}
+.az {
+  margin-top: 0.2rem;
+}
+.ba {
+  padding-top: -0.5rem;
+}
+.bb {
+  white-space: nowrap;
+}
+.bc:empty::after {
+  margin-left: 0;
+}
+.bd::after {
+  content:;
+}
+.be::after {
+  display: inline-block;
+}
+.bf::after {
+  margin-left: 0.255em;
+}
+.bg::after {
+  vertical-align: 0.255em;
+}
+.bh::after {
+  border-top-width: 0.3em;
+}
+.bi::after {
+  border-top-style: solid;
+}
+.bj::after {
+  border-right-width: 0.3em;
+}
+.bk::after {
+  border-right-style: solid;
+}
+.bl::after {
+  border-right-color: transparent;
+}
+.bm::after {
+  border-left-width: 0.3em;
+}
+.bn::after {
+  border-left-style: solid;
+}
+.bo::after {
+  border-left-color: transparent;
+}
+.bp::after {
+  border-bottom-width: 0;
+}
+.bq {
+  font-weight: 400;
+}
+.br {
+  color: #0d6efd;
+}
+.bs {
+  background: none;
+}
+.cb {
+  transition-property: color, background-color, border-color;
+}
+.cc {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.cd {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ce {
+  transition-timing-function: ease, ease, ease;
+}
+.cf {
+  border-top-width: 0;
+}
+.cg {
+  border-right-width: 0;
+}
+.ch {
+  border-bottom-width: 0;
+}
+.ci {
+  border-left-width: 0;
+}
+.cj {
+  text-decoration-line: none;
+}
+.ck {
+  padding-right: 1rem;
+}
+.cl {
+  padding-left: 1rem;
+}
+.cm {
+  content:;
+}
+.cn {
+  display: inline-block;
+}
+.co {
+  margin-left: calc(0.3em * 0.85);
+}
+.cp {
+  vertical-align: calc(0.3em * 0.85);
+}
+.cq {
+  border-top-width: 0.3em;
+}
+.cr {
+  border-right-width: 0.3em;
+}
+.cs {
+  border-right-color: transparent;
+}
+.ct {
+  border-left-width: 0.3em;
+}
+.cu {
+  border-left-color: transparent;
+}
+.cv {
+  top: 0;
+}
+.cw {
+  width: auto;
+}
+.bx:hover {
+  color: #0a58ca;
+}
+.by:focus {
+  color: #0a58ca;
+}
+.bz:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ca:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .bt {
+    transition-property: none;
+  }
+  .bu {
+    transition-duration: 0s;
+  }
+  .bv {
+    transition-delay: 0s;
+  }
+  .bw {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g navbar-nav">
+  <li data-testid="nav-item" class="nav-item">
+    <a
+      data-testid="dropdown-toggle"
+      class="ab ae bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl l m nav-link bb bc bd be bf bg bh bi bj bk bl bm bn bo bp dropdown-toggle"
+      tabindex="0"
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      role="combobox"
+      >Dropdown
+      <div
+        class="ap aq as ch cm cn co cp cq cr cs ct cu"
+        data-testid="dropdown-toggle-caret"
+      ></div
+    ></a>
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size small with dropdown items of variant sticky 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  max-height: 75vh;
+}
+.g {
+  overflow-y: auto;
+}
+.h {
+  position: static;
+}
+.i {
+  background-clip: padding-box;
+}
+.j {
+  background-color: #fff;
+}
+.k {
+  color: #212529;
+}
+.l {
+  display: block;
+}
+.m {
+  font-size: 1rem;
+}
+.n {
+  left: 0;
+}
+.o {
+  width: 100%;
+}
+.p {
+  margin-top: calc(-1 * 1px);
+}
+.q {
+  min-width: 10rem;
+}
+.r {
+  position: absolute;
+}
+.s {
+  text-align: left;
+}
+.t {
+  top: -2.5rem;
+}
+.u {
+  z-index: 1000;
+}
+.v {
+  transform: translate3d(0px, 40px, 0px);
+}
+.w {
+  border-top-left-radius: 0;
+}
+.x {
+  border-top-right-radius: 0;
+}
+.y {
+  right: auto;
+}
+.z {
+  bottom: auto;
+}
+.ab {
+  padding-top: 0.5rem;
+}
+.ac {
+  padding-right: 0.125rem;
+}
+.ae {
+  padding-bottom: 0.5rem;
+}
+.af {
+  padding-left: 0.125rem;
+}
+.ag {
+  margin-right: 0px;
+}
+.ah {
+  margin-bottom: 0px;
+}
+.ai {
+  margin-left: 0px;
+}
+.aj {
+  border-bottom-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-left-radius: 0.375rem;
+}
+.al {
+  border-top-width: 1px;
+}
+.am {
+  border-right-width: 1px;
+}
+.an {
+  border-bottom-width: 1px;
+}
+.ao {
+  border-left-width: 1px;
+}
+.ap {
+  border-top-style: solid;
+}
+.aq {
+  border-right-style: solid;
+}
+.ar {
+  border-bottom-style: solid;
+}
+.as {
+  border-left-style: solid;
+}
+.at {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.au {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.av {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.aw {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ax {
+  margin-top: -0.2rem;
+}
+.ay {
+  padding-top: 0;
+}
+.az {
+  margin-top: 0.2rem;
+}
+.ba {
+  padding-top: -0.5rem;
+}
+.bb {
+  white-space: nowrap;
+}
+.bc:empty::after {
+  margin-left: 0;
+}
+.bd::after {
+  content:;
+}
+.be::after {
+  display: inline-block;
+}
+.bf::after {
+  margin-left: 0.255em;
+}
+.bg::after {
+  vertical-align: 0.255em;
+}
+.bh::after {
+  border-top-width: 0.3em;
+}
+.bi::after {
+  border-top-style: solid;
+}
+.bj::after {
+  border-right-width: 0.3em;
+}
+.bk::after {
+  border-right-style: solid;
+}
+.bl::after {
+  border-right-color: transparent;
+}
+.bm::after {
+  border-left-width: 0.3em;
+}
+.bn::after {
+  border-left-style: solid;
+}
+.bo::after {
+  border-left-color: transparent;
+}
+.bp::after {
+  border-bottom-width: 0;
+}
+.bq {
+  font-weight: 400;
+}
+.br {
+  color: #0d6efd;
+}
+.bs {
+  background: none;
+}
+.cb {
+  transition-property: color, background-color, border-color;
+}
+.cc {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.cd {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ce {
+  transition-timing-function: ease, ease, ease;
+}
+.cf {
+  border-top-width: 0;
+}
+.cg {
+  border-right-width: 0;
+}
+.ch {
+  border-bottom-width: 0;
+}
+.ci {
+  border-left-width: 0;
+}
+.cj {
+  text-decoration-line: none;
+}
+.ck {
+  padding-right: 1rem;
+}
+.cl {
+  padding-left: 1rem;
+}
+.cm {
+  content:;
+}
+.cn {
+  display: inline-block;
+}
+.co {
+  margin-left: calc(0.3em * 0.85);
+}
+.cp {
+  vertical-align: calc(0.3em * 0.85);
+}
+.cq {
+  border-top-width: 0.3em;
+}
+.cr {
+  border-right-width: 0.3em;
+}
+.cs {
+  border-right-color: transparent;
+}
+.ct {
+  border-left-width: 0.3em;
+}
+.cu {
+  border-left-color: transparent;
+}
+.cv {
+  top: 0;
+}
+.cw {
+  width: auto;
+}
+.bx:hover {
+  color: #0a58ca;
+}
+.by:focus {
+  color: #0a58ca;
+}
+.bz:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ca:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .bt {
+    transition-property: none;
+  }
+  .bu {
+    transition-duration: 0s;
+  }
+  .bv {
+    transition-delay: 0s;
+  }
+  .bw {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g navbar-nav">
+  <li data-testid="nav-item" class="nav-item">
+    <a
+      data-testid="dropdown-toggle"
+      class="ab ae bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl l m nav-link bb bc bd be bf bg bh bi bj bk bl bm bn bo bp dropdown-toggle"
+      tabindex="0"
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      role="combobox"
+      >Dropdown
+      <div
+        class="ap aq as ch cm cn co cp cq cr cs ct cu"
+        data-testid="dropdown-toggle-caret"
+      ></div
+    ></a>
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size small with link of variant expand 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.i {
+  max-height: 75vh;
+}
+.j {
+  overflow-y: auto;
+}
+.o {
+  display: block;
+}
+.p {
+  font-size: 1rem;
+}
+.q {
+  font-weight: 400;
+}
+.r {
+  color: #0d6efd;
+}
+.s {
+  background: none;
+}
+.ac {
+  transition-property: color, background-color, border-color;
+}
+.ae {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.af {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ag {
+  transition-timing-function: ease, ease, ease;
+}
+.ah {
+  border-top-width: 0;
+}
+.ai {
+  border-right-width: 0;
+}
+.aj {
+  border-bottom-width: 0;
+}
+.ak {
+  border-left-width: 0;
+}
+.al {
+  text-decoration-line: none;
+}
+.am {
+  padding-top: 0.5rem;
+}
+.an {
+  padding-right: 1rem;
+}
+.ao {
+  padding-bottom: 0.5rem;
+}
+.ap {
+  padding-left: 1rem;
+}
+.x:hover {
+  color: #0a58ca;
+}
+.y:focus {
+  color: #0a58ca;
+}
+.z:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ab:focus-visible {
+  outline-width: 0;
+}
+@media (min-width: 576px) {
+  .f {
+    flex-direction: row;
+  }
+  .g {
+    overflow-x: visible;
+  }
+  .h {
+    overflow-y: visible;
+  }
+  .k {
+    padding-right: 0.5rem;
+  }
+  .l {
+    padding-left: 0.5rem;
+  }
+  .m {
+    padding-top: 0.5rem;
+  }
+  .n {
+    padding-bottom: 0.5rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .t {
+    transition-property: none;
+  }
+  .u {
+    transition-duration: 0s;
+  }
+  .v {
+    transition-delay: 0s;
+  }
+  .w {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g h i j navbar-nav">
+  <li
+    data-testid="nav-item"
+    class="nav-item k l m n navbar-link"
+    style="padding-bottom: 1.25em"
+  >
+    <a
+      data-testid="nav-link"
+      href="#"
+      class="ab ac ae af ag ah ai aj ak al am an ao ap o p q r s t u v w x y z nav-link k l m n navbar-link"
+      type="link"
+      label="Home"
+      >Home</a
+    >
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size small with link of variant fixed 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  max-height: 75vh;
+}
+.g {
+  overflow-y: auto;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  color: #0d6efd;
+}
+.l {
+  background: none;
+}
+.u {
+  transition-property: color, background-color, border-color;
+}
+.v {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.w {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.x {
+  transition-timing-function: ease, ease, ease;
+}
+.y {
+  border-top-width: 0;
+}
+.z {
+  border-right-width: 0;
+}
+.ab {
+  border-bottom-width: 0;
+}
+.ac {
+  border-left-width: 0;
+}
+.ae {
+  text-decoration-line: none;
+}
+.af {
+  padding-top: 0.5rem;
+}
+.ag {
+  padding-right: 1rem;
+}
+.ah {
+  padding-bottom: 0.5rem;
+}
+.ai {
+  padding-left: 1rem;
+}
+.q:hover {
+  color: #0a58ca;
+}
+.r:focus {
+  color: #0a58ca;
+}
+.s:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g navbar-nav">
+  <li
+    data-testid="nav-item"
+    class="nav-item navbar-link"
+    style="padding-bottom: 1.25em"
+  >
+    <a
+      data-testid="nav-link"
+      href="#"
+      class="ab ac ae af ag ah ai h i j k l m n o p q r s t u v w x y z nav-link navbar-link"
+      type="link"
+      label="Home"
+      >Home</a
+    >
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size small with link of variant sticky 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  max-height: 75vh;
+}
+.g {
+  overflow-y: auto;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  color: #0d6efd;
+}
+.l {
+  background: none;
+}
+.u {
+  transition-property: color, background-color, border-color;
+}
+.v {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.w {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.x {
+  transition-timing-function: ease, ease, ease;
+}
+.y {
+  border-top-width: 0;
+}
+.z {
+  border-right-width: 0;
+}
+.ab {
+  border-bottom-width: 0;
+}
+.ac {
+  border-left-width: 0;
+}
+.ae {
+  text-decoration-line: none;
+}
+.af {
+  padding-top: 0.5rem;
+}
+.ag {
+  padding-right: 1rem;
+}
+.ah {
+  padding-bottom: 0.5rem;
+}
+.ai {
+  padding-left: 1rem;
+}
+.q:hover {
+  color: #0a58ca;
+}
+.r:focus {
+  color: #0a58ca;
+}
+.s:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g navbar-nav">
+  <li
+    data-testid="nav-item"
+    class="nav-item navbar-link"
+    style="padding-bottom: 1.25em"
+  >
+    <a
+      data-testid="nav-link"
+      href="#"
+      class="ab ac ae af ag ah ai h i j k l m n o p q r s t u v w x y z nav-link navbar-link"
+      type="link"
+      label="Home"
+      >Home</a
+    >
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size x-large with dropdown items of variant expand 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.i {
+  max-height: 75vh;
+}
+.j {
+  overflow-y: auto;
+}
+.k {
+  position: static;
+}
+.m {
+  background-clip: padding-box;
+}
+.n {
+  background-color: #fff;
+}
+.o {
+  color: #212529;
+}
+.p {
+  display: block;
+}
+.q {
+  font-size: 1rem;
+}
+.r {
+  left: 0;
+}
+.s {
+  width: 100%;
+}
+.t {
+  margin-top: calc(-1 * 1px);
+}
+.u {
+  min-width: 10rem;
+}
+.v {
+  position: absolute;
+}
+.w {
+  text-align: left;
+}
+.x {
+  top: -2.5rem;
+}
+.y {
+  z-index: 1000;
+}
+.z {
+  transform: translate3d(0px, 40px, 0px);
+}
+.ab {
+  border-top-left-radius: 0;
+}
+.ac {
+  border-top-right-radius: 0;
+}
+.ae {
+  right: auto;
+}
+.af {
+  bottom: auto;
+}
+.ag {
+  padding-top: 0.5rem;
+}
+.ah {
+  padding-right: 0.125rem;
+}
+.ai {
+  padding-bottom: 0.5rem;
+}
+.aj {
+  padding-left: 0.125rem;
+}
+.ak {
+  margin-right: 0px;
+}
+.al {
+  margin-bottom: 0px;
+}
+.am {
+  margin-left: 0px;
+}
+.an {
+  border-bottom-right-radius: 0.375rem;
+}
+.ao {
+  border-bottom-left-radius: 0.375rem;
+}
+.ap {
+  border-top-width: 1px;
+}
+.aq {
+  border-right-width: 1px;
+}
+.ar {
+  border-bottom-width: 1px;
+}
+.as {
+  border-left-width: 1px;
+}
+.at {
+  border-top-style: solid;
+}
+.au {
+  border-right-style: solid;
+}
+.av {
+  border-bottom-style: solid;
+}
+.aw {
+  border-left-style: solid;
+}
+.ax {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.ay {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.az {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ba {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.bb {
+  margin-top: -0.2rem;
+}
+.bc {
+  padding-top: 0;
+}
+.bd {
+  margin-top: 0.2rem;
+}
+.be {
+  padding-top: -0.5rem;
+}
+.bf {
+  white-space: nowrap;
+}
+.bg:empty::after {
+  margin-left: 0;
+}
+.bh::after {
+  content:;
+}
+.bi::after {
+  display: inline-block;
+}
+.bj::after {
+  margin-left: 0.255em;
+}
+.bk::after {
+  vertical-align: 0.255em;
+}
+.bl::after {
+  border-top-width: 0.3em;
+}
+.bm::after {
+  border-top-style: solid;
+}
+.bn::after {
+  border-right-width: 0.3em;
+}
+.bo::after {
+  border-right-style: solid;
+}
+.bp::after {
+  border-right-color: transparent;
+}
+.bq::after {
+  border-left-width: 0.3em;
+}
+.br::after {
+  border-left-style: solid;
+}
+.bs::after {
+  border-left-color: transparent;
+}
+.bt::after {
+  border-bottom-width: 0;
+}
+.bu {
+  font-weight: 400;
+}
+.bv {
+  color: #0d6efd;
+}
+.bw {
+  background: none;
+}
+.cf {
+  transition-property: color, background-color, border-color;
+}
+.cg {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.ch {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ci {
+  transition-timing-function: ease, ease, ease;
+}
+.cj {
+  border-top-width: 0;
+}
+.ck {
+  border-right-width: 0;
+}
+.cl {
+  border-bottom-width: 0;
+}
+.cm {
+  border-left-width: 0;
+}
+.cn {
+  text-decoration-line: none;
+}
+.co {
+  padding-right: 1rem;
+}
+.cp {
+  padding-left: 1rem;
+}
+.cq {
+  content:;
+}
+.cr {
+  display: inline-block;
+}
+.cs {
+  margin-left: calc(0.3em * 0.85);
+}
+.ct {
+  vertical-align: calc(0.3em * 0.85);
+}
+.cu {
+  border-top-width: 0.3em;
+}
+.cv {
+  border-right-width: 0.3em;
+}
+.cw {
+  border-right-color: transparent;
+}
+.cx {
+  border-left-width: 0.3em;
+}
+.cy {
+  border-left-color: transparent;
+}
+.cz {
+  top: 0;
+}
+.da {
+  width: auto;
+}
+.cb:hover {
+  color: #0a58ca;
+}
+.cc:focus {
+  color: #0a58ca;
+}
+.cd:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ce:focus-visible {
+  outline-width: 0;
+}
+@media (min-width: 1200px) {
+  .f {
+    flex-direction: row;
+  }
+  .g {
+    overflow-x: visible;
+  }
+  .h {
+    overflow-y: visible;
+  }
+  .l {
+    position: absolute;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bx {
+    transition-property: none;
+  }
+  .by {
+    transition-duration: 0s;
+  }
+  .bz {
+    transition-delay: 0s;
+  }
+  .ca {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g h i j navbar-nav">
+  <li data-testid="nav-item" class="nav-item">
+    <a
+      data-testid="dropdown-toggle"
+      class="ag ai bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp p q nav-link bf bg bh bi bj bk bl bm bn bo bp bq br bs bt dropdown-toggle"
+      tabindex="0"
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      role="combobox"
+      >Dropdown
+      <div
+        class="at au aw cl cq cr cs ct cu cv cw cx cy"
+        data-testid="dropdown-toggle-caret"
+      ></div
+    ></a>
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size x-large with dropdown items of variant fixed 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  max-height: 75vh;
+}
+.g {
+  overflow-y: auto;
+}
+.h {
+  position: static;
+}
+.i {
+  background-clip: padding-box;
+}
+.j {
+  background-color: #fff;
+}
+.k {
+  color: #212529;
+}
+.l {
+  display: block;
+}
+.m {
+  font-size: 1rem;
+}
+.n {
+  left: 0;
+}
+.o {
+  width: 100%;
+}
+.p {
+  margin-top: calc(-1 * 1px);
+}
+.q {
+  min-width: 10rem;
+}
+.r {
+  position: absolute;
+}
+.s {
+  text-align: left;
+}
+.t {
+  top: -2.5rem;
+}
+.u {
+  z-index: 1000;
+}
+.v {
+  transform: translate3d(0px, 40px, 0px);
+}
+.w {
+  border-top-left-radius: 0;
+}
+.x {
+  border-top-right-radius: 0;
+}
+.y {
+  right: auto;
+}
+.z {
+  bottom: auto;
+}
+.ab {
+  padding-top: 0.5rem;
+}
+.ac {
+  padding-right: 0.125rem;
+}
+.ae {
+  padding-bottom: 0.5rem;
+}
+.af {
+  padding-left: 0.125rem;
+}
+.ag {
+  margin-right: 0px;
+}
+.ah {
+  margin-bottom: 0px;
+}
+.ai {
+  margin-left: 0px;
+}
+.aj {
+  border-bottom-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-left-radius: 0.375rem;
+}
+.al {
+  border-top-width: 1px;
+}
+.am {
+  border-right-width: 1px;
+}
+.an {
+  border-bottom-width: 1px;
+}
+.ao {
+  border-left-width: 1px;
+}
+.ap {
+  border-top-style: solid;
+}
+.aq {
+  border-right-style: solid;
+}
+.ar {
+  border-bottom-style: solid;
+}
+.as {
+  border-left-style: solid;
+}
+.at {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.au {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.av {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.aw {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ax {
+  margin-top: -0.2rem;
+}
+.ay {
+  padding-top: 0;
+}
+.az {
+  margin-top: 0.2rem;
+}
+.ba {
+  padding-top: -0.5rem;
+}
+.bb {
+  white-space: nowrap;
+}
+.bc:empty::after {
+  margin-left: 0;
+}
+.bd::after {
+  content:;
+}
+.be::after {
+  display: inline-block;
+}
+.bf::after {
+  margin-left: 0.255em;
+}
+.bg::after {
+  vertical-align: 0.255em;
+}
+.bh::after {
+  border-top-width: 0.3em;
+}
+.bi::after {
+  border-top-style: solid;
+}
+.bj::after {
+  border-right-width: 0.3em;
+}
+.bk::after {
+  border-right-style: solid;
+}
+.bl::after {
+  border-right-color: transparent;
+}
+.bm::after {
+  border-left-width: 0.3em;
+}
+.bn::after {
+  border-left-style: solid;
+}
+.bo::after {
+  border-left-color: transparent;
+}
+.bp::after {
+  border-bottom-width: 0;
+}
+.bq {
+  font-weight: 400;
+}
+.br {
+  color: #0d6efd;
+}
+.bs {
+  background: none;
+}
+.cb {
+  transition-property: color, background-color, border-color;
+}
+.cc {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.cd {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ce {
+  transition-timing-function: ease, ease, ease;
+}
+.cf {
+  border-top-width: 0;
+}
+.cg {
+  border-right-width: 0;
+}
+.ch {
+  border-bottom-width: 0;
+}
+.ci {
+  border-left-width: 0;
+}
+.cj {
+  text-decoration-line: none;
+}
+.ck {
+  padding-right: 1rem;
+}
+.cl {
+  padding-left: 1rem;
+}
+.cm {
+  content:;
+}
+.cn {
+  display: inline-block;
+}
+.co {
+  margin-left: calc(0.3em * 0.85);
+}
+.cp {
+  vertical-align: calc(0.3em * 0.85);
+}
+.cq {
+  border-top-width: 0.3em;
+}
+.cr {
+  border-right-width: 0.3em;
+}
+.cs {
+  border-right-color: transparent;
+}
+.ct {
+  border-left-width: 0.3em;
+}
+.cu {
+  border-left-color: transparent;
+}
+.cv {
+  top: 0;
+}
+.cw {
+  width: auto;
+}
+.bx:hover {
+  color: #0a58ca;
+}
+.by:focus {
+  color: #0a58ca;
+}
+.bz:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ca:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .bt {
+    transition-property: none;
+  }
+  .bu {
+    transition-duration: 0s;
+  }
+  .bv {
+    transition-delay: 0s;
+  }
+  .bw {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g navbar-nav">
+  <li data-testid="nav-item" class="nav-item">
+    <a
+      data-testid="dropdown-toggle"
+      class="ab ae bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl l m nav-link bb bc bd be bf bg bh bi bj bk bl bm bn bo bp dropdown-toggle"
+      tabindex="0"
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      role="combobox"
+      >Dropdown
+      <div
+        class="ap aq as ch cm cn co cp cq cr cs ct cu"
+        data-testid="dropdown-toggle-caret"
+      ></div
+    ></a>
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size x-large with dropdown items of variant sticky 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  max-height: 75vh;
+}
+.g {
+  overflow-y: auto;
+}
+.h {
+  position: static;
+}
+.i {
+  background-clip: padding-box;
+}
+.j {
+  background-color: #fff;
+}
+.k {
+  color: #212529;
+}
+.l {
+  display: block;
+}
+.m {
+  font-size: 1rem;
+}
+.n {
+  left: 0;
+}
+.o {
+  width: 100%;
+}
+.p {
+  margin-top: calc(-1 * 1px);
+}
+.q {
+  min-width: 10rem;
+}
+.r {
+  position: absolute;
+}
+.s {
+  text-align: left;
+}
+.t {
+  top: -2.5rem;
+}
+.u {
+  z-index: 1000;
+}
+.v {
+  transform: translate3d(0px, 40px, 0px);
+}
+.w {
+  border-top-left-radius: 0;
+}
+.x {
+  border-top-right-radius: 0;
+}
+.y {
+  right: auto;
+}
+.z {
+  bottom: auto;
+}
+.ab {
+  padding-top: 0.5rem;
+}
+.ac {
+  padding-right: 0.125rem;
+}
+.ae {
+  padding-bottom: 0.5rem;
+}
+.af {
+  padding-left: 0.125rem;
+}
+.ag {
+  margin-right: 0px;
+}
+.ah {
+  margin-bottom: 0px;
+}
+.ai {
+  margin-left: 0px;
+}
+.aj {
+  border-bottom-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-left-radius: 0.375rem;
+}
+.al {
+  border-top-width: 1px;
+}
+.am {
+  border-right-width: 1px;
+}
+.an {
+  border-bottom-width: 1px;
+}
+.ao {
+  border-left-width: 1px;
+}
+.ap {
+  border-top-style: solid;
+}
+.aq {
+  border-right-style: solid;
+}
+.ar {
+  border-bottom-style: solid;
+}
+.as {
+  border-left-style: solid;
+}
+.at {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.au {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.av {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.aw {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ax {
+  margin-top: -0.2rem;
+}
+.ay {
+  padding-top: 0;
+}
+.az {
+  margin-top: 0.2rem;
+}
+.ba {
+  padding-top: -0.5rem;
+}
+.bb {
+  white-space: nowrap;
+}
+.bc:empty::after {
+  margin-left: 0;
+}
+.bd::after {
+  content:;
+}
+.be::after {
+  display: inline-block;
+}
+.bf::after {
+  margin-left: 0.255em;
+}
+.bg::after {
+  vertical-align: 0.255em;
+}
+.bh::after {
+  border-top-width: 0.3em;
+}
+.bi::after {
+  border-top-style: solid;
+}
+.bj::after {
+  border-right-width: 0.3em;
+}
+.bk::after {
+  border-right-style: solid;
+}
+.bl::after {
+  border-right-color: transparent;
+}
+.bm::after {
+  border-left-width: 0.3em;
+}
+.bn::after {
+  border-left-style: solid;
+}
+.bo::after {
+  border-left-color: transparent;
+}
+.bp::after {
+  border-bottom-width: 0;
+}
+.bq {
+  font-weight: 400;
+}
+.br {
+  color: #0d6efd;
+}
+.bs {
+  background: none;
+}
+.cb {
+  transition-property: color, background-color, border-color;
+}
+.cc {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.cd {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ce {
+  transition-timing-function: ease, ease, ease;
+}
+.cf {
+  border-top-width: 0;
+}
+.cg {
+  border-right-width: 0;
+}
+.ch {
+  border-bottom-width: 0;
+}
+.ci {
+  border-left-width: 0;
+}
+.cj {
+  text-decoration-line: none;
+}
+.ck {
+  padding-right: 1rem;
+}
+.cl {
+  padding-left: 1rem;
+}
+.cm {
+  content:;
+}
+.cn {
+  display: inline-block;
+}
+.co {
+  margin-left: calc(0.3em * 0.85);
+}
+.cp {
+  vertical-align: calc(0.3em * 0.85);
+}
+.cq {
+  border-top-width: 0.3em;
+}
+.cr {
+  border-right-width: 0.3em;
+}
+.cs {
+  border-right-color: transparent;
+}
+.ct {
+  border-left-width: 0.3em;
+}
+.cu {
+  border-left-color: transparent;
+}
+.cv {
+  top: 0;
+}
+.cw {
+  width: auto;
+}
+.bx:hover {
+  color: #0a58ca;
+}
+.by:focus {
+  color: #0a58ca;
+}
+.bz:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ca:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .bt {
+    transition-property: none;
+  }
+  .bu {
+    transition-duration: 0s;
+  }
+  .bv {
+    transition-delay: 0s;
+  }
+  .bw {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g navbar-nav">
+  <li data-testid="nav-item" class="nav-item">
+    <a
+      data-testid="dropdown-toggle"
+      class="ab ae bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl l m nav-link bb bc bd be bf bg bh bi bj bk bl bm bn bo bp dropdown-toggle"
+      tabindex="0"
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      role="combobox"
+      >Dropdown
+      <div
+        class="ap aq as ch cm cn co cp cq cr cs ct cu"
+        data-testid="dropdown-toggle-caret"
+      ></div
+    ></a>
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size x-large with link of variant expand 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.i {
+  max-height: 75vh;
+}
+.j {
+  overflow-y: auto;
+}
+.o {
+  display: block;
+}
+.p {
+  font-size: 1rem;
+}
+.q {
+  font-weight: 400;
+}
+.r {
+  color: #0d6efd;
+}
+.s {
+  background: none;
+}
+.ac {
+  transition-property: color, background-color, border-color;
+}
+.ae {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.af {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ag {
+  transition-timing-function: ease, ease, ease;
+}
+.ah {
+  border-top-width: 0;
+}
+.ai {
+  border-right-width: 0;
+}
+.aj {
+  border-bottom-width: 0;
+}
+.ak {
+  border-left-width: 0;
+}
+.al {
+  text-decoration-line: none;
+}
+.am {
+  padding-top: 0.5rem;
+}
+.an {
+  padding-right: 1rem;
+}
+.ao {
+  padding-bottom: 0.5rem;
+}
+.ap {
+  padding-left: 1rem;
+}
+.x:hover {
+  color: #0a58ca;
+}
+.y:focus {
+  color: #0a58ca;
+}
+.z:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ab:focus-visible {
+  outline-width: 0;
+}
+@media (min-width: 1200px) {
+  .f {
+    flex-direction: row;
+  }
+  .g {
+    overflow-x: visible;
+  }
+  .h {
+    overflow-y: visible;
+  }
+  .k {
+    padding-right: 0.5rem;
+  }
+  .l {
+    padding-left: 0.5rem;
+  }
+  .m {
+    padding-top: 0.5rem;
+  }
+  .n {
+    padding-bottom: 0.5rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .t {
+    transition-property: none;
+  }
+  .u {
+    transition-duration: 0s;
+  }
+  .v {
+    transition-delay: 0s;
+  }
+  .w {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g h i j navbar-nav">
+  <li
+    data-testid="nav-item"
+    class="nav-item k l m n navbar-link"
+    style="padding-bottom: 1.25em"
+  >
+    <a
+      data-testid="nav-link"
+      href="#"
+      class="ab ac ae af ag ah ai aj ak al am an ao ap o p q r s t u v w x y z nav-link k l m n navbar-link"
+      type="link"
+      label="Home"
+      >Home</a
+    >
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size x-large with link of variant fixed 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  max-height: 75vh;
+}
+.g {
+  overflow-y: auto;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  color: #0d6efd;
+}
+.l {
+  background: none;
+}
+.u {
+  transition-property: color, background-color, border-color;
+}
+.v {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.w {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.x {
+  transition-timing-function: ease, ease, ease;
+}
+.y {
+  border-top-width: 0;
+}
+.z {
+  border-right-width: 0;
+}
+.ab {
+  border-bottom-width: 0;
+}
+.ac {
+  border-left-width: 0;
+}
+.ae {
+  text-decoration-line: none;
+}
+.af {
+  padding-top: 0.5rem;
+}
+.ag {
+  padding-right: 1rem;
+}
+.ah {
+  padding-bottom: 0.5rem;
+}
+.ai {
+  padding-left: 1rem;
+}
+.q:hover {
+  color: #0a58ca;
+}
+.r:focus {
+  color: #0a58ca;
+}
+.s:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g navbar-nav">
+  <li
+    data-testid="nav-item"
+    class="nav-item navbar-link"
+    style="padding-bottom: 1.25em"
+  >
+    <a
+      data-testid="nav-link"
+      href="#"
+      class="ab ac ae af ag ah ai h i j k l m n o p q r s t u v w x y z nav-link navbar-link"
+      type="link"
+      label="Home"
+      >Home</a
+    >
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu of size x-large with link of variant sticky 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  max-height: 75vh;
+}
+.g {
+  overflow-y: auto;
+}
+.h {
+  display: block;
+}
+.i {
+  font-size: 1rem;
+}
+.j {
+  font-weight: 400;
+}
+.k {
+  color: #0d6efd;
+}
+.l {
+  background: none;
+}
+.u {
+  transition-property: color, background-color, border-color;
+}
+.v {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.w {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.x {
+  transition-timing-function: ease, ease, ease;
+}
+.y {
+  border-top-width: 0;
+}
+.z {
+  border-right-width: 0;
+}
+.ab {
+  border-bottom-width: 0;
+}
+.ac {
+  border-left-width: 0;
+}
+.ae {
+  text-decoration-line: none;
+}
+.af {
+  padding-top: 0.5rem;
+}
+.ag {
+  padding-right: 1rem;
+}
+.ah {
+  padding-bottom: 0.5rem;
+}
+.ai {
+  padding-left: 1rem;
+}
+.q:hover {
+  color: #0a58ca;
+}
+.r:focus {
+  color: #0a58ca;
+}
+.s:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g navbar-nav">
+  <li
+    data-testid="nav-item"
+    class="nav-item navbar-link"
+    style="padding-bottom: 1.25em"
+  >
+    <a
+      data-testid="nav-link"
+      href="#"
+      class="ab ac ae af ag ah ai h i j k l m n o p q r s t u v w x y z nav-link navbar-link"
+      type="link"
+      label="Home"
+      >Home</a
+    >
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu with a disabled link 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.i {
+  max-height: 75vh;
+}
+.j {
+  overflow-y: auto;
+}
+.o {
+  display: block;
+}
+.p {
+  font-size: 1rem;
+}
+.q {
+  font-weight: 400;
+}
+.r {
+  color: rgba(33, 37, 41, 0.75);
+}
+.s {
+  background: none;
+}
+.ac {
+  pointer-events: none;
+}
+.ae {
+  cursor: default;
+}
+.af {
+  transition-property: color, background-color, border-color;
+}
+.ag {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.ah {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ai {
+  transition-timing-function: ease, ease, ease;
+}
+.aj {
+  border-top-width: 0;
+}
+.ak {
+  border-right-width: 0;
+}
+.al {
+  border-bottom-width: 0;
+}
+.am {
+  border-left-width: 0;
+}
+.an {
+  text-decoration-line: none;
+}
+.ao {
+  padding-top: 0.5rem;
+}
+.ap {
+  padding-right: 1rem;
+}
+.aq {
+  padding-bottom: 0.5rem;
+}
+.ar {
+  padding-left: 1rem;
+}
+.x:hover {
+  color: #0a58ca;
+}
+.y:focus {
+  color: #0a58ca;
+}
+.z:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ab:focus-visible {
+  outline-width: 0;
+}
+@media (min-width: 576px) {
+  .f {
+    flex-direction: row;
+  }
+  .g {
+    overflow-x: visible;
+  }
+  .h {
+    overflow-y: visible;
+  }
+  .k {
+    padding-right: 0.5rem;
+  }
+  .l {
+    padding-left: 0.5rem;
+  }
+  .m {
+    padding-top: 0.5rem;
+  }
+  .n {
+    padding-bottom: 0.5rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .t {
+    transition-property: none;
+  }
+  .u {
+    transition-duration: 0s;
+  }
+  .v {
+    transition-delay: 0s;
+  }
+  .w {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g h i j navbar-nav">
+  <li
+    data-testid="nav-item"
+    class="nav-item k l m n navbar-link"
+    style="padding-bottom: 1.25em"
+  >
+    <a
+      data-testid="nav-link"
+      href="#"
+      class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar o p q r s t u v w x y z nav-link k l m n navbar-link"
+      type="link"
+      label="Home"
+      >Home</a
+    >
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu with a dropdown 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.i {
+  max-height: 75vh;
+}
+.j {
+  overflow-y: auto;
+}
+.k {
+  position: static;
+}
+.m {
+  background-clip: padding-box;
+}
+.n {
+  background-color: #fff;
+}
+.o {
+  color: #212529;
+}
+.p {
+  display: block;
+}
+.q {
+  font-size: 1rem;
+}
+.r {
+  left: 0;
+}
+.s {
+  width: 100%;
+}
+.t {
+  margin-top: calc(-1 * 1px);
+}
+.u {
+  min-width: 10rem;
+}
+.v {
+  position: absolute;
+}
+.w {
+  text-align: left;
+}
+.x {
+  top: -2.5rem;
+}
+.y {
+  z-index: 1000;
+}
+.z {
+  transform: translate3d(0px, 40px, 0px);
+}
+.ab {
+  border-top-left-radius: 0;
+}
+.ac {
+  border-top-right-radius: 0;
+}
+.ae {
+  right: auto;
+}
+.af {
+  bottom: auto;
+}
+.ag {
+  padding-top: 0.5rem;
+}
+.ah {
+  padding-right: 0.125rem;
+}
+.ai {
+  padding-bottom: 0.5rem;
+}
+.aj {
+  padding-left: 0.125rem;
+}
+.ak {
+  margin-right: 0px;
+}
+.al {
+  margin-bottom: 0px;
+}
+.am {
+  margin-left: 0px;
+}
+.an {
+  border-bottom-right-radius: 0.375rem;
+}
+.ao {
+  border-bottom-left-radius: 0.375rem;
+}
+.ap {
+  border-top-width: 1px;
+}
+.aq {
+  border-right-width: 1px;
+}
+.ar {
+  border-bottom-width: 1px;
+}
+.as {
+  border-left-width: 1px;
+}
+.at {
+  border-top-style: solid;
+}
+.au {
+  border-right-style: solid;
+}
+.av {
+  border-bottom-style: solid;
+}
+.aw {
+  border-left-style: solid;
+}
+.ax {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.ay {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.az {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ba {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.bb {
+  margin-top: -0.2rem;
+}
+.bc {
+  padding-top: 0;
+}
+.bd {
+  margin-top: 0.2rem;
+}
+.be {
+  padding-top: -0.5rem;
+}
+.bf {
+  white-space: nowrap;
+}
+.bg:empty::after {
+  margin-left: 0;
+}
+.bh::after {
+  content:;
+}
+.bi::after {
+  display: inline-block;
+}
+.bj::after {
+  margin-left: 0.255em;
+}
+.bk::after {
+  vertical-align: 0.255em;
+}
+.bl::after {
+  border-top-width: 0.3em;
+}
+.bm::after {
+  border-top-style: solid;
+}
+.bn::after {
+  border-right-width: 0.3em;
+}
+.bo::after {
+  border-right-style: solid;
+}
+.bp::after {
+  border-right-color: transparent;
+}
+.bq::after {
+  border-left-width: 0.3em;
+}
+.br::after {
+  border-left-style: solid;
+}
+.bs::after {
+  border-left-color: transparent;
+}
+.bt::after {
+  border-bottom-width: 0;
+}
+.bu {
+  font-weight: 400;
+}
+.bv {
+  color: #0d6efd;
+}
+.bw {
+  background: none;
+}
+.cf {
+  transition-property: color, background-color, border-color;
+}
+.cg {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.ch {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ci {
+  transition-timing-function: ease, ease, ease;
+}
+.cj {
+  border-top-width: 0;
+}
+.ck {
+  border-right-width: 0;
+}
+.cl {
+  border-bottom-width: 0;
+}
+.cm {
+  border-left-width: 0;
+}
+.cn {
+  text-decoration-line: none;
+}
+.co {
+  padding-right: 1rem;
+}
+.cp {
+  padding-left: 1rem;
+}
+.cq {
+  content:;
+}
+.cr {
+  display: inline-block;
+}
+.cs {
+  margin-left: calc(0.3em * 0.85);
+}
+.ct {
+  vertical-align: calc(0.3em * 0.85);
+}
+.cu {
+  border-top-width: 0.3em;
+}
+.cv {
+  border-right-width: 0.3em;
+}
+.cw {
+  border-right-color: transparent;
+}
+.cx {
+  border-left-width: 0.3em;
+}
+.cy {
+  border-left-color: transparent;
+}
+.cz {
+  top: 0;
+}
+.da {
+  width: auto;
+}
+.cb:hover {
+  color: #0a58ca;
+}
+.cc:focus {
+  color: #0a58ca;
+}
+.cd:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ce:focus-visible {
+  outline-width: 0;
+}
+@media (min-width: 768px) {
+  .f {
+    flex-direction: row;
+  }
+  .g {
+    overflow-x: visible;
+  }
+  .h {
+    overflow-y: visible;
+  }
+  .l {
+    position: absolute;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bx {
+    transition-property: none;
+  }
+  .by {
+    transition-duration: 0s;
+  }
+  .bz {
+    transition-delay: 0s;
+  }
+  .ca {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g h i j navbar-nav">
+  <li data-testid="nav-item" class="nav-item">
+    <a
+      data-testid="dropdown-toggle"
+      class="ag ai bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp p q nav-link bf bg bh bi bj bk bl bm bn bo bp bq br bs bt dropdown-toggle"
+      tabindex="0"
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      role="combobox"
+      >Dropdown
+      <div
+        class="at au aw cl cq cr cs ct cu cv cw cx cy"
+        data-testid="dropdown-toggle-caret"
+      ></div
+    ></a>
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu with a link 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.i {
+  max-height: 75vh;
+}
+.j {
+  overflow-y: auto;
+}
+.o {
+  display: block;
+}
+.p {
+  font-size: 1rem;
+}
+.q {
+  font-weight: 400;
+}
+.r {
+  color: #0d6efd;
+}
+.s {
+  background: none;
+}
+.ac {
+  transition-property: color, background-color, border-color;
+}
+.ae {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.af {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ag {
+  transition-timing-function: ease, ease, ease;
+}
+.ah {
+  border-top-width: 0;
+}
+.ai {
+  border-right-width: 0;
+}
+.aj {
+  border-bottom-width: 0;
+}
+.ak {
+  border-left-width: 0;
+}
+.al {
+  text-decoration-line: none;
+}
+.am {
+  padding-top: 0.5rem;
+}
+.an {
+  padding-right: 1rem;
+}
+.ao {
+  padding-bottom: 0.5rem;
+}
+.ap {
+  padding-left: 1rem;
+}
+.x:hover {
+  color: #0a58ca;
+}
+.y:focus {
+  color: #0a58ca;
+}
+.z:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ab:focus-visible {
+  outline-width: 0;
+}
+@media (min-width: 576px) {
+  .f {
+    flex-direction: row;
+  }
+  .g {
+    overflow-x: visible;
+  }
+  .h {
+    overflow-y: visible;
+  }
+  .k {
+    padding-right: 0.5rem;
+  }
+  .l {
+    padding-left: 0.5rem;
+  }
+  .m {
+    padding-top: 0.5rem;
+  }
+  .n {
+    padding-bottom: 0.5rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .t {
+    transition-property: none;
+  }
+  .u {
+    transition-duration: 0s;
+  }
+  .v {
+    transition-delay: 0s;
+  }
+  .w {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g h i j navbar-nav">
+  <li
+    data-testid="nav-item"
+    class="nav-item k l m n navbar-link"
+    style="padding-bottom: 1.25em"
+  >
+    <a
+      data-testid="nav-link"
+      href="#"
+      class="ab ac ae af ag ah ai aj ak al am an ao ap o p q r s t u v w x y z nav-link k l m n navbar-link"
+      type="link"
+      label="Home"
+      >Home</a
+    >
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu with className navbar-nav 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.i {
+  max-height: 75vh;
+}
+.j {
+  overflow-y: auto;
+}
+.o {
+  display: block;
+}
+.p {
+  font-size: 1rem;
+}
+.q {
+  font-weight: 400;
+}
+.r {
+  color: #0d6efd;
+}
+.s {
+  background: none;
+}
+.ac {
+  transition-property: color, background-color, border-color;
+}
+.ae {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.af {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ag {
+  transition-timing-function: ease, ease, ease;
+}
+.ah {
+  border-top-width: 0;
+}
+.ai {
+  border-right-width: 0;
+}
+.aj {
+  border-bottom-width: 0;
+}
+.ak {
+  border-left-width: 0;
+}
+.al {
+  text-decoration-line: none;
+}
+.am {
+  padding-top: 0.5rem;
+}
+.an {
+  padding-right: 1rem;
+}
+.ao {
+  padding-bottom: 0.5rem;
+}
+.ap {
+  padding-left: 1rem;
+}
+.aq {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ar {
+  pointer-events: none;
+}
+.as {
+  cursor: default;
+}
+.x:hover {
+  color: #0a58ca;
+}
+.y:focus {
+  color: #0a58ca;
+}
+.z:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ab:focus-visible {
+  outline-width: 0;
+}
+@media (min-width: 576px) {
+  .f {
+    flex-direction: row;
+  }
+  .g {
+    overflow-x: visible;
+  }
+  .h {
+    overflow-y: visible;
+  }
+  .k {
+    padding-right: 0.5rem;
+  }
+  .l {
+    padding-left: 0.5rem;
+  }
+  .m {
+    padding-top: 0.5rem;
+  }
+  .n {
+    padding-bottom: 0.5rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .t {
+    transition-property: none;
+  }
+  .u {
+    transition-duration: 0s;
+  }
+  .v {
+    transition-delay: 0s;
+  }
+  .w {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g h i j navbar-nav">
+  <li
+    data-testid="nav-item"
+    class="nav-item k l m n navbar-link"
+    style="padding-bottom: 1.25em"
+  >
+    <a
+      data-testid="nav-link"
+      href="#"
+      class="ab ac ae af ag ah ai aj ak al am an ao ap o p q r s t u v w x y z nav-link k l m n navbar-link"
+      type="link"
+      label="Home"
+      >Home</a
+    >
+  </li>
+  <li
+    data-testid="nav-item"
+    class="nav-item k l m n navbar-link"
+    style="padding-bottom: 1.25em"
+  >
+    <a
+      data-testid="nav-link"
+      href="#"
+      class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as o p q s t u v w x y z nav-link k l m n navbar-link"
+      type="link"
+      label="Disabled"
+      >Disabled</a
+    >
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu with dropdown items 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.i {
+  max-height: 75vh;
+}
+.j {
+  overflow-y: auto;
+}
+.k {
+  position: static;
+}
+.m {
+  background-clip: padding-box;
+}
+.n {
+  background-color: #fff;
+}
+.o {
+  color: #212529;
+}
+.p {
+  display: block;
+}
+.q {
+  font-size: 1rem;
+}
+.r {
+  left: 0;
+}
+.s {
+  width: 100%;
+}
+.t {
+  margin-top: calc(-1 * 1px);
+}
+.u {
+  min-width: 10rem;
+}
+.v {
+  position: absolute;
+}
+.w {
+  text-align: left;
+}
+.x {
+  top: -2.5rem;
+}
+.y {
+  z-index: 1000;
+}
+.z {
+  transform: translate3d(0px, 40px, 0px);
+}
+.ab {
+  border-top-left-radius: 0;
+}
+.ac {
+  border-top-right-radius: 0;
+}
+.ae {
+  right: auto;
+}
+.af {
+  bottom: auto;
+}
+.ag {
+  padding-top: 0.5rem;
+}
+.ah {
+  padding-right: 0.125rem;
+}
+.ai {
+  padding-bottom: 0.5rem;
+}
+.aj {
+  padding-left: 0.125rem;
+}
+.ak {
+  margin-right: 0px;
+}
+.al {
+  margin-bottom: 0px;
+}
+.am {
+  margin-left: 0px;
+}
+.an {
+  border-bottom-right-radius: 0.375rem;
+}
+.ao {
+  border-bottom-left-radius: 0.375rem;
+}
+.ap {
+  border-top-width: 1px;
+}
+.aq {
+  border-right-width: 1px;
+}
+.ar {
+  border-bottom-width: 1px;
+}
+.as {
+  border-left-width: 1px;
+}
+.at {
+  border-top-style: solid;
+}
+.au {
+  border-right-style: solid;
+}
+.av {
+  border-bottom-style: solid;
+}
+.aw {
+  border-left-style: solid;
+}
+.ax {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.ay {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.az {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ba {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.bb {
+  margin-top: -0.2rem;
+}
+.bc {
+  padding-top: 0;
+}
+.bd {
+  margin-top: 0.2rem;
+}
+.be {
+  padding-top: -0.5rem;
+}
+.bf {
+  white-space: nowrap;
+}
+.bg:empty::after {
+  margin-left: 0;
+}
+.bh::after {
+  content:;
+}
+.bi::after {
+  display: inline-block;
+}
+.bj::after {
+  margin-left: 0.255em;
+}
+.bk::after {
+  vertical-align: 0.255em;
+}
+.bl::after {
+  border-top-width: 0.3em;
+}
+.bm::after {
+  border-top-style: solid;
+}
+.bn::after {
+  border-right-width: 0.3em;
+}
+.bo::after {
+  border-right-style: solid;
+}
+.bp::after {
+  border-right-color: transparent;
+}
+.bq::after {
+  border-left-width: 0.3em;
+}
+.br::after {
+  border-left-style: solid;
+}
+.bs::after {
+  border-left-color: transparent;
+}
+.bt::after {
+  border-bottom-width: 0;
+}
+.bu {
+  font-weight: 400;
+}
+.bv {
+  color: #0d6efd;
+}
+.bw {
+  background: none;
+}
+.cf {
+  transition-property: color, background-color, border-color;
+}
+.cg {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.ch {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ci {
+  transition-timing-function: ease, ease, ease;
+}
+.cj {
+  border-top-width: 0;
+}
+.ck {
+  border-right-width: 0;
+}
+.cl {
+  border-bottom-width: 0;
+}
+.cm {
+  border-left-width: 0;
+}
+.cn {
+  text-decoration-line: none;
+}
+.co {
+  padding-right: 1rem;
+}
+.cp {
+  padding-left: 1rem;
+}
+.cq {
+  content:;
+}
+.cr {
+  display: inline-block;
+}
+.cs {
+  margin-left: calc(0.3em * 0.85);
+}
+.ct {
+  vertical-align: calc(0.3em * 0.85);
+}
+.cu {
+  border-top-width: 0.3em;
+}
+.cv {
+  border-right-width: 0.3em;
+}
+.cw {
+  border-right-color: transparent;
+}
+.cx {
+  border-left-width: 0.3em;
+}
+.cy {
+  border-left-color: transparent;
+}
+.cz {
+  top: 0;
+}
+.da {
+  width: auto;
+}
+.cb:hover {
+  color: #0a58ca;
+}
+.cc:focus {
+  color: #0a58ca;
+}
+.cd:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ce:focus-visible {
+  outline-width: 0;
+}
+@media (min-width: 768px) {
+  .f {
+    flex-direction: row;
+  }
+  .g {
+    overflow-x: visible;
+  }
+  .h {
+    overflow-y: visible;
+  }
+  .l {
+    position: absolute;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bx {
+    transition-property: none;
+  }
+  .by {
+    transition-duration: 0s;
+  }
+  .bz {
+    transition-delay: 0s;
+  }
+  .ca {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g h i j navbar-nav">
+  <li data-testid="nav-item" class="nav-item">
+    <a
+      data-testid="dropdown-toggle"
+      class="ag ai bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp p q nav-link bf bg bh bi bj bk bl bm bn bo bp bq br bs bt dropdown-toggle"
+      tabindex="0"
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      role="combobox"
+      >Dropdown
+      <div
+        class="at au aw cl cq cr cs ct cu cv cw cx cy"
+        data-testid="dropdown-toggle-caret"
+      ></div
+    ></a>
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/Navbar/Nav should render a navbar menu with multiple links 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-direction: column;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.i {
+  max-height: 75vh;
+}
+.j {
+  overflow-y: auto;
+}
+.o {
+  display: block;
+}
+.p {
+  font-size: 1rem;
+}
+.q {
+  font-weight: 400;
+}
+.r {
+  color: #0d6efd;
+}
+.s {
+  background: none;
+}
+.ac {
+  transition-property: color, background-color, border-color;
+}
+.ae {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.af {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ag {
+  transition-timing-function: ease, ease, ease;
+}
+.ah {
+  border-top-width: 0;
+}
+.ai {
+  border-right-width: 0;
+}
+.aj {
+  border-bottom-width: 0;
+}
+.ak {
+  border-left-width: 0;
+}
+.al {
+  text-decoration-line: none;
+}
+.am {
+  padding-top: 0.5rem;
+}
+.an {
+  padding-right: 1rem;
+}
+.ao {
+  padding-bottom: 0.5rem;
+}
+.ap {
+  padding-left: 1rem;
+}
+.x:hover {
+  color: #0a58ca;
+}
+.y:focus {
+  color: #0a58ca;
+}
+.z:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ab:focus-visible {
+  outline-width: 0;
+}
+@media (min-width: 576px) {
+  .f {
+    flex-direction: row;
+  }
+  .g {
+    overflow-x: visible;
+  }
+  .h {
+    overflow-y: visible;
+  }
+  .k {
+    padding-right: 0.5rem;
+  }
+  .l {
+    padding-left: 0.5rem;
+  }
+  .m {
+    padding-top: 0.5rem;
+  }
+  .n {
+    padding-bottom: 0.5rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .t {
+    transition-property: none;
+  }
+  .u {
+    transition-duration: 0s;
+  }
+  .v {
+    transition-delay: 0s;
+  }
+  .w {
+    transition-timing-function: ease;
+  }
+}
+
+
+<ul data-testid="navbar-nav" class="a b c d e f g h i j navbar-nav">
+  <li
+    data-testid="nav-item"
+    class="nav-item k l m n navbar-link"
+    style="padding-bottom: 1.25em"
+  >
+    <a
+      data-testid="nav-link"
+      href="#"
+      class="ab ac ae af ag ah ai aj ak al am an ao ap o p q r s t u v w x y z nav-link k l m n navbar-link"
+      type="link"
+      label="Home"
+      >Home</a
+    >
+  </li>
+  <li
+    data-testid="nav-item"
+    class="nav-item k l m n navbar-link"
+    style="padding-bottom: 1.25em"
+  >
+    <a
+      data-testid="nav-link"
+      href="#"
+      class="ab ac ae af ag ah ai aj ak al am an ao ap o p q r s t u v w x y z nav-link k l m n navbar-link"
+      type="link"
+      label="Profile"
+      >Profile</a
+    >
+  </li>
+</ul>
+;
+"
+`;

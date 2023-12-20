@@ -1,0 +1,2083 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Alert/Alert styles should show a dismissable alert of variant danger 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  -webkit-background-color: #f8d7da;
+  background-color: #f8d7da;
+}
+.f {
+  color: #58151c;
+}
+.g {
+  position: relative;
+}
+.h {
+  padding-top: 1rem;
+}
+.i {
+  padding-bottom: 1rem;
+}
+.j {
+  padding-left: 1rem;
+}
+.k {
+  padding-right: 1rem;
+}
+.l {
+  margin-right: 2rem;
+}
+.m {
+  width: 100%;
+}
+.n {
+  min-width: 100%;
+}
+.o {
+  z-index: 10;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: #f1aeb5;
+}
+.y {
+  border-right-color: #f1aeb5;
+}
+.z {
+  border-bottom-color: #f1aeb5;
+}
+.ab {
+  border-left-color: #f1aeb5;
+}
+.ac {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.ae {
+  -webkit-background-image: url(test-file-stub);
+  background-image: url(test-file-stub);
+}
+.af {
+  -webkit-background-position-x: center;
+  background-position-x: center;
+}
+.ag {
+  background-origin: padding-box;
+}
+.ah {
+  background-clip: border-box;
+}
+.ai {
+  -webkit-background-position-y: 1em;
+  background-position-y: 1em;
+}
+.aj {
+  background-repeat: no-repeat;
+}
+.ak {
+  background-size: auto;
+}
+.al {
+  box-sizing: content-box;
+}
+.am {
+  color: #000;
+}
+.an {
+  height: 1em;
+}
+.ao {
+  opacity: 0.5;
+}
+.ap {
+  padding-top: 1.25rem;
+}
+.aq {
+  padding-bottom: 1.25rem;
+}
+.ar {
+  width: 1em;
+}
+.av:disabled {
+  opacity: 0.25;
+}
+.aw:disabled {
+  pointer-events: none;
+}
+.ax:disabled {
+  user-select: none;
+}
+.ay {
+  position: absolute;
+}
+.az {
+  right: 0;
+}
+.ba {
+  top: 0;
+}
+.bb {
+  z-index: 2;
+}
+.bc {
+  border-top-width: 0;
+}
+.bd {
+  border-right-width: 0;
+}
+.be {
+  border-bottom-width: 0;
+}
+.bf {
+  border-left-width: 0;
+}
+.bg {
+  border-top-color: rgb(0, 0, 0);
+}
+.bh {
+  border-right-color: rgb(0, 0, 0);
+}
+.bi {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bj {
+  border-left-color: rgb(0, 0, 0);
+}
+.as:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.at:focus {
+  opacity: 1;
+}
+.au:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="alert"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  <button
+    data-testid="alert-close-btn"
+    class="a ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj c d j k close-button"
+    aria-label="Close"
+  ></button
+  >T-Rexes in the mirror may be closer than they appear.
+</div>
+;
+"
+`;
+
+exports[`components/Alert/Alert styles should show a dismissable alert of variant default 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.f {
+  color: inherit;
+}
+.g {
+  position: relative;
+}
+.h {
+  padding-top: 1rem;
+}
+.i {
+  padding-bottom: 1rem;
+}
+.j {
+  padding-left: 1rem;
+}
+.k {
+  padding-right: 1rem;
+}
+.l {
+  margin-right: 2rem;
+}
+.m {
+  width: 100%;
+}
+.n {
+  min-width: 100%;
+}
+.o {
+  z-index: 10;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: transparent;
+}
+.y {
+  border-right-color: transparent;
+}
+.z {
+  border-bottom-color: transparent;
+}
+.ab {
+  border-left-color: transparent;
+}
+.ac {
+  -webkit-background-image: url(test-file-stub);
+  background-image: url(test-file-stub);
+}
+.ae {
+  -webkit-background-position-x: center;
+  background-position-x: center;
+}
+.af {
+  background-origin: padding-box;
+}
+.ag {
+  background-clip: border-box;
+}
+.ah {
+  -webkit-background-position-y: 1em;
+  background-position-y: 1em;
+}
+.ai {
+  background-repeat: no-repeat;
+}
+.aj {
+  background-size: auto;
+}
+.ak {
+  box-sizing: content-box;
+}
+.al {
+  color: #000;
+}
+.am {
+  height: 1em;
+}
+.an {
+  opacity: 0.5;
+}
+.ao {
+  padding-top: 1.25rem;
+}
+.ap {
+  padding-bottom: 1.25rem;
+}
+.aq {
+  width: 1em;
+}
+.au:disabled {
+  opacity: 0.25;
+}
+.av:disabled {
+  pointer-events: none;
+}
+.aw:disabled {
+  user-select: none;
+}
+.ax {
+  position: absolute;
+}
+.ay {
+  right: 0;
+}
+.az {
+  top: 0;
+}
+.ba {
+  z-index: 2;
+}
+.bb {
+  border-top-width: 0;
+}
+.bc {
+  border-right-width: 0;
+}
+.bd {
+  border-bottom-width: 0;
+}
+.be {
+  border-left-width: 0;
+}
+.bf {
+  border-top-color: rgb(0, 0, 0);
+}
+.bg {
+  border-right-color: rgb(0, 0, 0);
+}
+.bh {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bi {
+  border-left-color: rgb(0, 0, 0);
+}
+.ar:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.as:focus {
+  opacity: 1;
+}
+.at:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="alert"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  <button
+    data-testid="alert-close-btn"
+    class="a ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi c d e j k close-button"
+    aria-label="Close"
+  ></button
+  >T-Rexes in the mirror may be closer than they appear.
+</div>
+;
+"
+`;
+
+exports[`components/Alert/Alert styles should show a dismissable alert of variant info 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  -webkit-background-color: #cff4fc;
+  background-color: #cff4fc;
+}
+.f {
+  color: #055160;
+}
+.g {
+  position: relative;
+}
+.h {
+  padding-top: 1rem;
+}
+.i {
+  padding-bottom: 1rem;
+}
+.j {
+  padding-left: 1rem;
+}
+.k {
+  padding-right: 1rem;
+}
+.l {
+  margin-right: 2rem;
+}
+.m {
+  width: 100%;
+}
+.n {
+  min-width: 100%;
+}
+.o {
+  z-index: 10;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: #9eeaf9;
+}
+.y {
+  border-right-color: #9eeaf9;
+}
+.z {
+  border-bottom-color: #9eeaf9;
+}
+.ab {
+  border-left-color: #9eeaf9;
+}
+.ac {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.ae {
+  -webkit-background-image: url(test-file-stub);
+  background-image: url(test-file-stub);
+}
+.af {
+  -webkit-background-position-x: center;
+  background-position-x: center;
+}
+.ag {
+  background-origin: padding-box;
+}
+.ah {
+  background-clip: border-box;
+}
+.ai {
+  -webkit-background-position-y: 1em;
+  background-position-y: 1em;
+}
+.aj {
+  background-repeat: no-repeat;
+}
+.ak {
+  background-size: auto;
+}
+.al {
+  box-sizing: content-box;
+}
+.am {
+  color: #000;
+}
+.an {
+  height: 1em;
+}
+.ao {
+  opacity: 0.5;
+}
+.ap {
+  padding-top: 1.25rem;
+}
+.aq {
+  padding-bottom: 1.25rem;
+}
+.ar {
+  width: 1em;
+}
+.av:disabled {
+  opacity: 0.25;
+}
+.aw:disabled {
+  pointer-events: none;
+}
+.ax:disabled {
+  user-select: none;
+}
+.ay {
+  position: absolute;
+}
+.az {
+  right: 0;
+}
+.ba {
+  top: 0;
+}
+.bb {
+  z-index: 2;
+}
+.bc {
+  border-top-width: 0;
+}
+.bd {
+  border-right-width: 0;
+}
+.be {
+  border-bottom-width: 0;
+}
+.bf {
+  border-left-width: 0;
+}
+.bg {
+  border-top-color: rgb(0, 0, 0);
+}
+.bh {
+  border-right-color: rgb(0, 0, 0);
+}
+.bi {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bj {
+  border-left-color: rgb(0, 0, 0);
+}
+.as:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.at:focus {
+  opacity: 1;
+}
+.au:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="alert"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  <button
+    data-testid="alert-close-btn"
+    class="a ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj c d j k close-button"
+    aria-label="Close"
+  ></button
+  >T-Rexes in the mirror may be closer than they appear.
+</div>
+;
+"
+`;
+
+exports[`components/Alert/Alert styles should show a dismissable alert of variant primary 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  -webkit-background-color: #cfe2ff;
+  background-color: #cfe2ff;
+}
+.f {
+  color: #052c65;
+}
+.g {
+  position: relative;
+}
+.h {
+  padding-top: 1rem;
+}
+.i {
+  padding-bottom: 1rem;
+}
+.j {
+  padding-left: 1rem;
+}
+.k {
+  padding-right: 1rem;
+}
+.l {
+  margin-right: 2rem;
+}
+.m {
+  width: 100%;
+}
+.n {
+  min-width: 100%;
+}
+.o {
+  z-index: 10;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: #9ec5fe;
+}
+.y {
+  border-right-color: #9ec5fe;
+}
+.z {
+  border-bottom-color: #9ec5fe;
+}
+.ab {
+  border-left-color: #9ec5fe;
+}
+.ac {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.ae {
+  -webkit-background-image: url(test-file-stub);
+  background-image: url(test-file-stub);
+}
+.af {
+  -webkit-background-position-x: center;
+  background-position-x: center;
+}
+.ag {
+  background-origin: padding-box;
+}
+.ah {
+  background-clip: border-box;
+}
+.ai {
+  -webkit-background-position-y: 1em;
+  background-position-y: 1em;
+}
+.aj {
+  background-repeat: no-repeat;
+}
+.ak {
+  background-size: auto;
+}
+.al {
+  box-sizing: content-box;
+}
+.am {
+  color: #000;
+}
+.an {
+  height: 1em;
+}
+.ao {
+  opacity: 0.5;
+}
+.ap {
+  padding-top: 1.25rem;
+}
+.aq {
+  padding-bottom: 1.25rem;
+}
+.ar {
+  width: 1em;
+}
+.av:disabled {
+  opacity: 0.25;
+}
+.aw:disabled {
+  pointer-events: none;
+}
+.ax:disabled {
+  user-select: none;
+}
+.ay {
+  position: absolute;
+}
+.az {
+  right: 0;
+}
+.ba {
+  top: 0;
+}
+.bb {
+  z-index: 2;
+}
+.bc {
+  border-top-width: 0;
+}
+.bd {
+  border-right-width: 0;
+}
+.be {
+  border-bottom-width: 0;
+}
+.bf {
+  border-left-width: 0;
+}
+.bg {
+  border-top-color: rgb(0, 0, 0);
+}
+.bh {
+  border-right-color: rgb(0, 0, 0);
+}
+.bi {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bj {
+  border-left-color: rgb(0, 0, 0);
+}
+.as:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.at:focus {
+  opacity: 1;
+}
+.au:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="alert"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  <button
+    data-testid="alert-close-btn"
+    class="a ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj c d j k close-button"
+    aria-label="Close"
+  ></button
+  >T-Rexes in the mirror may be closer than they appear.
+</div>
+;
+"
+`;
+
+exports[`components/Alert/Alert styles should show a dismissable alert of variant secondary 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  -webkit-background-color: #e2e3e5;
+  background-color: #e2e3e5;
+}
+.f {
+  color: #2b2f32;
+}
+.g {
+  position: relative;
+}
+.h {
+  padding-top: 1rem;
+}
+.i {
+  padding-bottom: 1rem;
+}
+.j {
+  padding-left: 1rem;
+}
+.k {
+  padding-right: 1rem;
+}
+.l {
+  margin-right: 2rem;
+}
+.m {
+  width: 100%;
+}
+.n {
+  min-width: 100%;
+}
+.o {
+  z-index: 10;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: #c4c8cb;
+}
+.y {
+  border-right-color: #c4c8cb;
+}
+.z {
+  border-bottom-color: #c4c8cb;
+}
+.ab {
+  border-left-color: #c4c8cb;
+}
+.ac {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.ae {
+  -webkit-background-image: url(test-file-stub);
+  background-image: url(test-file-stub);
+}
+.af {
+  -webkit-background-position-x: center;
+  background-position-x: center;
+}
+.ag {
+  background-origin: padding-box;
+}
+.ah {
+  background-clip: border-box;
+}
+.ai {
+  -webkit-background-position-y: 1em;
+  background-position-y: 1em;
+}
+.aj {
+  background-repeat: no-repeat;
+}
+.ak {
+  background-size: auto;
+}
+.al {
+  box-sizing: content-box;
+}
+.am {
+  color: #000;
+}
+.an {
+  height: 1em;
+}
+.ao {
+  opacity: 0.5;
+}
+.ap {
+  padding-top: 1.25rem;
+}
+.aq {
+  padding-bottom: 1.25rem;
+}
+.ar {
+  width: 1em;
+}
+.av:disabled {
+  opacity: 0.25;
+}
+.aw:disabled {
+  pointer-events: none;
+}
+.ax:disabled {
+  user-select: none;
+}
+.ay {
+  position: absolute;
+}
+.az {
+  right: 0;
+}
+.ba {
+  top: 0;
+}
+.bb {
+  z-index: 2;
+}
+.bc {
+  border-top-width: 0;
+}
+.bd {
+  border-right-width: 0;
+}
+.be {
+  border-bottom-width: 0;
+}
+.bf {
+  border-left-width: 0;
+}
+.bg {
+  border-top-color: rgb(0, 0, 0);
+}
+.bh {
+  border-right-color: rgb(0, 0, 0);
+}
+.bi {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bj {
+  border-left-color: rgb(0, 0, 0);
+}
+.as:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.at:focus {
+  opacity: 1;
+}
+.au:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="alert"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  <button
+    data-testid="alert-close-btn"
+    class="a ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj c d j k close-button"
+    aria-label="Close"
+  ></button
+  >T-Rexes in the mirror may be closer than they appear.
+</div>
+;
+"
+`;
+
+exports[`components/Alert/Alert styles should show a dismissable alert of variant success 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  -webkit-background-color: #d1e7dd;
+  background-color: #d1e7dd;
+}
+.f {
+  color: #0a3622;
+}
+.g {
+  position: relative;
+}
+.h {
+  padding-top: 1rem;
+}
+.i {
+  padding-bottom: 1rem;
+}
+.j {
+  padding-left: 1rem;
+}
+.k {
+  padding-right: 1rem;
+}
+.l {
+  margin-right: 2rem;
+}
+.m {
+  width: 100%;
+}
+.n {
+  min-width: 100%;
+}
+.o {
+  z-index: 10;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: #a3cfbb;
+}
+.y {
+  border-right-color: #a3cfbb;
+}
+.z {
+  border-bottom-color: #a3cfbb;
+}
+.ab {
+  border-left-color: #a3cfbb;
+}
+.ac {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.ae {
+  -webkit-background-image: url(test-file-stub);
+  background-image: url(test-file-stub);
+}
+.af {
+  -webkit-background-position-x: center;
+  background-position-x: center;
+}
+.ag {
+  background-origin: padding-box;
+}
+.ah {
+  background-clip: border-box;
+}
+.ai {
+  -webkit-background-position-y: 1em;
+  background-position-y: 1em;
+}
+.aj {
+  background-repeat: no-repeat;
+}
+.ak {
+  background-size: auto;
+}
+.al {
+  box-sizing: content-box;
+}
+.am {
+  color: #000;
+}
+.an {
+  height: 1em;
+}
+.ao {
+  opacity: 0.5;
+}
+.ap {
+  padding-top: 1.25rem;
+}
+.aq {
+  padding-bottom: 1.25rem;
+}
+.ar {
+  width: 1em;
+}
+.av:disabled {
+  opacity: 0.25;
+}
+.aw:disabled {
+  pointer-events: none;
+}
+.ax:disabled {
+  user-select: none;
+}
+.ay {
+  position: absolute;
+}
+.az {
+  right: 0;
+}
+.ba {
+  top: 0;
+}
+.bb {
+  z-index: 2;
+}
+.bc {
+  border-top-width: 0;
+}
+.bd {
+  border-right-width: 0;
+}
+.be {
+  border-bottom-width: 0;
+}
+.bf {
+  border-left-width: 0;
+}
+.bg {
+  border-top-color: rgb(0, 0, 0);
+}
+.bh {
+  border-right-color: rgb(0, 0, 0);
+}
+.bi {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bj {
+  border-left-color: rgb(0, 0, 0);
+}
+.as:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.at:focus {
+  opacity: 1;
+}
+.au:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="alert"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  <button
+    data-testid="alert-close-btn"
+    class="a ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj c d j k close-button"
+    aria-label="Close"
+  ></button
+  >T-Rexes in the mirror may be closer than they appear.
+</div>
+;
+"
+`;
+
+exports[`components/Alert/Alert styles should show a dismissable alert of variant warning 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  -webkit-background-color: #fff3cd;
+  background-color: #fff3cd;
+}
+.f {
+  color: #664d03;
+}
+.g {
+  position: relative;
+}
+.h {
+  padding-top: 1rem;
+}
+.i {
+  padding-bottom: 1rem;
+}
+.j {
+  padding-left: 1rem;
+}
+.k {
+  padding-right: 1rem;
+}
+.l {
+  margin-right: 2rem;
+}
+.m {
+  width: 100%;
+}
+.n {
+  min-width: 100%;
+}
+.o {
+  z-index: 10;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: #ffe69c;
+}
+.y {
+  border-right-color: #ffe69c;
+}
+.z {
+  border-bottom-color: #ffe69c;
+}
+.ab {
+  border-left-color: #ffe69c;
+}
+.ac {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.ae {
+  -webkit-background-image: url(test-file-stub);
+  background-image: url(test-file-stub);
+}
+.af {
+  -webkit-background-position-x: center;
+  background-position-x: center;
+}
+.ag {
+  background-origin: padding-box;
+}
+.ah {
+  background-clip: border-box;
+}
+.ai {
+  -webkit-background-position-y: 1em;
+  background-position-y: 1em;
+}
+.aj {
+  background-repeat: no-repeat;
+}
+.ak {
+  background-size: auto;
+}
+.al {
+  box-sizing: content-box;
+}
+.am {
+  color: #000;
+}
+.an {
+  height: 1em;
+}
+.ao {
+  opacity: 0.5;
+}
+.ap {
+  padding-top: 1.25rem;
+}
+.aq {
+  padding-bottom: 1.25rem;
+}
+.ar {
+  width: 1em;
+}
+.av:disabled {
+  opacity: 0.25;
+}
+.aw:disabled {
+  pointer-events: none;
+}
+.ax:disabled {
+  user-select: none;
+}
+.ay {
+  position: absolute;
+}
+.az {
+  right: 0;
+}
+.ba {
+  top: 0;
+}
+.bb {
+  z-index: 2;
+}
+.bc {
+  border-top-width: 0;
+}
+.bd {
+  border-right-width: 0;
+}
+.be {
+  border-bottom-width: 0;
+}
+.bf {
+  border-left-width: 0;
+}
+.bg {
+  border-top-color: rgb(0, 0, 0);
+}
+.bh {
+  border-right-color: rgb(0, 0, 0);
+}
+.bi {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bj {
+  border-left-color: rgb(0, 0, 0);
+}
+.as:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.at:focus {
+  opacity: 1;
+}
+.au:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="alert"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  <button
+    data-testid="alert-close-btn"
+    class="a ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj c d j k close-button"
+    aria-label="Close"
+  ></button
+  >T-Rexes in the mirror may be closer than they appear.
+</div>
+;
+"
+`;
+
+exports[`components/Alert/Alert styles should show a non dismissable alert of variant danger 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  -webkit-background-color: #f8d7da;
+  background-color: #f8d7da;
+}
+.f {
+  color: #58151c;
+}
+.g {
+  position: relative;
+}
+.h {
+  padding-top: 1rem;
+}
+.i {
+  padding-bottom: 1rem;
+}
+.j {
+  padding-left: 1rem;
+}
+.k {
+  padding-right: 1rem;
+}
+.l {
+  margin-right: 2rem;
+}
+.m {
+  width: 100%;
+}
+.n {
+  min-width: 100%;
+}
+.o {
+  z-index: 10;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: #f1aeb5;
+}
+.y {
+  border-right-color: #f1aeb5;
+}
+.z {
+  border-bottom-color: #f1aeb5;
+}
+.ab {
+  border-left-color: #f1aeb5;
+}
+
+
+<div
+  data-testid="alert"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  T-Rexes in the mirror may be closer than they appear.
+</div>
+;
+"
+`;
+
+exports[`components/Alert/Alert styles should show a non dismissable alert of variant default 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.f {
+  color: inherit;
+}
+.g {
+  position: relative;
+}
+.h {
+  padding-top: 1rem;
+}
+.i {
+  padding-bottom: 1rem;
+}
+.j {
+  padding-left: 1rem;
+}
+.k {
+  padding-right: 1rem;
+}
+.l {
+  margin-right: 2rem;
+}
+.m {
+  width: 100%;
+}
+.n {
+  min-width: 100%;
+}
+.o {
+  z-index: 10;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: transparent;
+}
+.y {
+  border-right-color: transparent;
+}
+.z {
+  border-bottom-color: transparent;
+}
+.ab {
+  border-left-color: transparent;
+}
+
+
+<div
+  data-testid="alert"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  T-Rexes in the mirror may be closer than they appear.
+</div>
+;
+"
+`;
+
+exports[`components/Alert/Alert styles should show a non dismissable alert of variant info 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  -webkit-background-color: #cff4fc;
+  background-color: #cff4fc;
+}
+.f {
+  color: #055160;
+}
+.g {
+  position: relative;
+}
+.h {
+  padding-top: 1rem;
+}
+.i {
+  padding-bottom: 1rem;
+}
+.j {
+  padding-left: 1rem;
+}
+.k {
+  padding-right: 1rem;
+}
+.l {
+  margin-right: 2rem;
+}
+.m {
+  width: 100%;
+}
+.n {
+  min-width: 100%;
+}
+.o {
+  z-index: 10;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: #9eeaf9;
+}
+.y {
+  border-right-color: #9eeaf9;
+}
+.z {
+  border-bottom-color: #9eeaf9;
+}
+.ab {
+  border-left-color: #9eeaf9;
+}
+
+
+<div
+  data-testid="alert"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  T-Rexes in the mirror may be closer than they appear.
+</div>
+;
+"
+`;
+
+exports[`components/Alert/Alert styles should show a non dismissable alert of variant primary 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  -webkit-background-color: #cfe2ff;
+  background-color: #cfe2ff;
+}
+.f {
+  color: #052c65;
+}
+.g {
+  position: relative;
+}
+.h {
+  padding-top: 1rem;
+}
+.i {
+  padding-bottom: 1rem;
+}
+.j {
+  padding-left: 1rem;
+}
+.k {
+  padding-right: 1rem;
+}
+.l {
+  margin-right: 2rem;
+}
+.m {
+  width: 100%;
+}
+.n {
+  min-width: 100%;
+}
+.o {
+  z-index: 10;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: #9ec5fe;
+}
+.y {
+  border-right-color: #9ec5fe;
+}
+.z {
+  border-bottom-color: #9ec5fe;
+}
+.ab {
+  border-left-color: #9ec5fe;
+}
+
+
+<div
+  data-testid="alert"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  T-Rexes in the mirror may be closer than they appear.
+</div>
+;
+"
+`;
+
+exports[`components/Alert/Alert styles should show a non dismissable alert of variant secondary 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  -webkit-background-color: #e2e3e5;
+  background-color: #e2e3e5;
+}
+.f {
+  color: #2b2f32;
+}
+.g {
+  position: relative;
+}
+.h {
+  padding-top: 1rem;
+}
+.i {
+  padding-bottom: 1rem;
+}
+.j {
+  padding-left: 1rem;
+}
+.k {
+  padding-right: 1rem;
+}
+.l {
+  margin-right: 2rem;
+}
+.m {
+  width: 100%;
+}
+.n {
+  min-width: 100%;
+}
+.o {
+  z-index: 10;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: #c4c8cb;
+}
+.y {
+  border-right-color: #c4c8cb;
+}
+.z {
+  border-bottom-color: #c4c8cb;
+}
+.ab {
+  border-left-color: #c4c8cb;
+}
+
+
+<div
+  data-testid="alert"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  T-Rexes in the mirror may be closer than they appear.
+</div>
+;
+"
+`;
+
+exports[`components/Alert/Alert styles should show a non dismissable alert of variant success 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  -webkit-background-color: #d1e7dd;
+  background-color: #d1e7dd;
+}
+.f {
+  color: #0a3622;
+}
+.g {
+  position: relative;
+}
+.h {
+  padding-top: 1rem;
+}
+.i {
+  padding-bottom: 1rem;
+}
+.j {
+  padding-left: 1rem;
+}
+.k {
+  padding-right: 1rem;
+}
+.l {
+  margin-right: 2rem;
+}
+.m {
+  width: 100%;
+}
+.n {
+  min-width: 100%;
+}
+.o {
+  z-index: 10;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: #a3cfbb;
+}
+.y {
+  border-right-color: #a3cfbb;
+}
+.z {
+  border-bottom-color: #a3cfbb;
+}
+.ab {
+  border-left-color: #a3cfbb;
+}
+
+
+<div
+  data-testid="alert"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  T-Rexes in the mirror may be closer than they appear.
+</div>
+;
+"
+`;
+
+exports[`components/Alert/Alert styles should show a non dismissable alert of variant warning 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  -webkit-background-color: #fff3cd;
+  background-color: #fff3cd;
+}
+.f {
+  color: #664d03;
+}
+.g {
+  position: relative;
+}
+.h {
+  padding-top: 1rem;
+}
+.i {
+  padding-bottom: 1rem;
+}
+.j {
+  padding-left: 1rem;
+}
+.k {
+  padding-right: 1rem;
+}
+.l {
+  margin-right: 2rem;
+}
+.m {
+  width: 100%;
+}
+.n {
+  min-width: 100%;
+}
+.o {
+  z-index: 10;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: #ffe69c;
+}
+.y {
+  border-right-color: #ffe69c;
+}
+.z {
+  border-bottom-color: #ffe69c;
+}
+.ab {
+  border-left-color: #ffe69c;
+}
+
+
+<div
+  data-testid="alert"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  T-Rexes in the mirror may be closer than they appear.
+</div>
+;
+"
+`;

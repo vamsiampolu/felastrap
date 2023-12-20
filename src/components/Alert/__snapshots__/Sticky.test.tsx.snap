@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Alert/Sticky renders a sticky top wrapper 1`] = `
+".a {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.b {
+  top: 56px;
+}
+.c {
+  z-index: 10;
+}
+
+
+<div data-testid="sticky" class="a b c">Hello, World!</div>
+;
+"
+`;

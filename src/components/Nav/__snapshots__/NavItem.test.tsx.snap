@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Nav/NavItem should render a NavItem 1`] = `
+"
+
+<li data-testid="nav-item" class="nav-item">Navigation Item</li>
+;
+"
+`;
+
+exports[`components/Nav/NavItem should render a NavItem for a card 1`] = `
+".a {
+  margin-left: 1rem;
+}
+
+
+<li data-testid="nav-item" class="nav-item a item">Navigation Item</li>
+;
+"
+`;
+
+exports[`components/Nav/NavItem should render a NavItem with a className  1`] = `
+"
+
+<li data-testid="nav-item" class="nav-item item">Navigation Item</li>
+;
+"
+`;
+
+exports[`components/Nav/NavItem should render a NavItem with fill prop 1`] = `
+".a {
+  text-align: center;
+}
+.b {
+  flex-grow: 1;
+}
+.c {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.d {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+
+<li data-testid="nav-item" class="nav-item a b c d item">Navigation Item</li>
+;
+"
+`;
+
+exports[`components/Nav/NavItem should render a justified NavItem 1`] = `
+".a {
+  -webkit-box-flex-basis: 0;
+  -webkit-flex-basis: 0;
+  -ms-flex-basis: 0;
+  flex-basis: 0;
+}
+.b {
+  flex-grow: 1;
+}
+.c {
+  text-align: center;
+}
+
+
+<li data-testid="nav-item" class="nav-item a b c item">Navigation Item</li>
+;
+"
+`;
+
+exports[`components/Nav/NavItem should render an active NavItem 1`] = `
+"
+
+<li data-testid="nav-item" class="nav-item item">Navigation Item</li>
+;
+"
+`;

@@ -1,0 +1,4469 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/ListGroup/ListGroupItem should render a disabled list group item of variant danger 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #58151c;
+}
+.l {
+  background-color: #f8d7da;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #f1aeb5;
+}
+.af {
+  border-right-color: #f1aeb5;
+}
+.ag {
+  border-bottom-color: #f1aeb5;
+}
+.ah {
+  border-left-color: #f1aeb5;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #f8d7da;
+}
+.s:active {
+  background-color: #58151c;
+}
+.t:active {
+  border-top-color: #58151c;
+}
+.u:active {
+  border-right-color: #58151c;
+}
+.v:active {
+  border-bottom-color: #58151c;
+}
+.w:active {
+  border-left-color: #58151c;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render a disabled list group item of variant default 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #212529;
+}
+.l {
+  background-color: #fff;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #dee2e6;
+}
+.af {
+  border-right-color: #dee2e6;
+}
+.ag {
+  border-bottom-color: #dee2e6;
+}
+.ah {
+  border-left-color: #dee2e6;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #fff;
+}
+.s:active {
+  background-color: #212529;
+}
+.t:active {
+  border-top-color: #212529;
+}
+.u:active {
+  border-right-color: #212529;
+}
+.v:active {
+  border-bottom-color: #212529;
+}
+.w:active {
+  border-left-color: #212529;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render a disabled list group item of variant info 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #055160;
+}
+.l {
+  background-color: #cff4fc;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #9eeaf9;
+}
+.af {
+  border-right-color: #9eeaf9;
+}
+.ag {
+  border-bottom-color: #9eeaf9;
+}
+.ah {
+  border-left-color: #9eeaf9;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #cff4fc;
+}
+.s:active {
+  background-color: #055160;
+}
+.t:active {
+  border-top-color: #055160;
+}
+.u:active {
+  border-right-color: #055160;
+}
+.v:active {
+  border-bottom-color: #055160;
+}
+.w:active {
+  border-left-color: #055160;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render a disabled list group item of variant primary 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #052c65;
+}
+.l {
+  background-color: #cfe2ff;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #9ec5fe;
+}
+.af {
+  border-right-color: #9ec5fe;
+}
+.ag {
+  border-bottom-color: #9ec5fe;
+}
+.ah {
+  border-left-color: #9ec5fe;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #cfe2ff;
+}
+.s:active {
+  background-color: #052c65;
+}
+.t:active {
+  border-top-color: #052c65;
+}
+.u:active {
+  border-right-color: #052c65;
+}
+.v:active {
+  border-bottom-color: #052c65;
+}
+.w:active {
+  border-left-color: #052c65;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render a disabled list group item of variant secondary 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #2b2f32;
+}
+.l {
+  background-color: #e2e3e5;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #c4c8cb;
+}
+.af {
+  border-right-color: #c4c8cb;
+}
+.ag {
+  border-bottom-color: #c4c8cb;
+}
+.ah {
+  border-left-color: #c4c8cb;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #e2e3e5;
+}
+.s:active {
+  background-color: #2b2f32;
+}
+.t:active {
+  border-top-color: #2b2f32;
+}
+.u:active {
+  border-right-color: #2b2f32;
+}
+.v:active {
+  border-bottom-color: #2b2f32;
+}
+.w:active {
+  border-left-color: #2b2f32;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render a disabled list group item of variant success 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #0a3622;
+}
+.l {
+  background-color: #d1e7dd;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #a3cfbb;
+}
+.af {
+  border-right-color: #a3cfbb;
+}
+.ag {
+  border-bottom-color: #a3cfbb;
+}
+.ah {
+  border-left-color: #a3cfbb;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #d1e7dd;
+}
+.s:active {
+  background-color: #0a3622;
+}
+.t:active {
+  border-top-color: #0a3622;
+}
+.u:active {
+  border-right-color: #0a3622;
+}
+.v:active {
+  border-bottom-color: #0a3622;
+}
+.w:active {
+  border-left-color: #0a3622;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render a disabled list group item of variant warning 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #664d03;
+}
+.l {
+  background-color: #fff3cd;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #ffe69c;
+}
+.af {
+  border-right-color: #ffe69c;
+}
+.ag {
+  border-bottom-color: #ffe69c;
+}
+.ah {
+  border-left-color: #ffe69c;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #fff3cd;
+}
+.s:active {
+  background-color: #664d03;
+}
+.t:active {
+  border-top-color: #664d03;
+}
+.u:active {
+  border-right-color: #664d03;
+}
+.v:active {
+  border-bottom-color: #664d03;
+}
+.w:active {
+  border-left-color: #664d03;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render a list group item with a badge 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #212529;
+}
+.l {
+  background-color: #fff;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #dee2e6;
+}
+.af {
+  border-right-color: #dee2e6;
+}
+.ag {
+  border-bottom-color: #dee2e6;
+}
+.ah {
+  border-left-color: #dee2e6;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.al {
+  border-top-left-radius: 50rem;
+}
+.am {
+  border-top-right-radius: 50rem;
+}
+.an {
+  border-bottom-right-radius: 50rem;
+}
+.ao {
+  border-bottom-left-radius: 50rem;
+}
+.ap {
+  color: #fff;
+}
+.aq {
+  display: inline-block;
+}
+.ar {
+  font-size: 0.75em;
+}
+.as {
+  font-weight: 700;
+}
+.at {
+  line-height: 1;
+}
+.au {
+  padding-top: 0.35em;
+}
+.av {
+  padding-bottom: 0.35em;
+}
+.aw {
+  padding-left: 0.65em;
+}
+.ax {
+  padding-right: 0.65em;
+}
+.ay {
+  text-align: center;
+}
+.az {
+  white-space: nowrap;
+}
+.ba {
+  vertical-align: baseline;
+}
+.bb:empty {
+  display: none;
+}
+.bc {
+  background-color: rgba(13, 110, 253, 1);
+}
+.r:active {
+  color: #fff;
+}
+.s:active {
+  background-color: #212529;
+}
+.t:active {
+  border-top-color: #212529;
+}
+.u:active {
+  border-right-color: #212529;
+}
+.v:active {
+  border-bottom-color: #212529;
+}
+.w:active {
+  border-left-color: #212529;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+  style="display: flex; justify-content: space-between; align-items: center"
+>
+  <div data-testid="list-group-item-text">Click Me</div>
+  <span
+    data-testid="badge"
+    class="al am an ao ap aq ar as at au av aw ax ay az ba bb bc"
+    >5</span
+  >
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render a list group item with actions 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #212529;
+}
+.l {
+  background-color: #fff;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #dee2e6;
+}
+.af {
+  border-right-color: #dee2e6;
+}
+.ag {
+  border-bottom-color: #dee2e6;
+}
+.ah {
+  border-left-color: #dee2e6;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.al {
+  color: rgba(33, 37, 41, 0.75);
+}
+.am {
+  text-align: inherit;
+}
+.at:hover {
+  z-index: 1;
+}
+.au:hover {
+  color: #000;
+}
+.av:hover {
+  background-color: #f8f9fa;
+}
+.aw:hover {
+  text-decoration-line: none;
+}
+.ap:focus {
+  z-index: 1;
+}
+.aq:focus {
+  color: #000;
+}
+.ar:focus {
+  background-color: #f8f9fa;
+}
+.as:focus {
+  text-decoration-line: none;
+}
+.r:active {
+  color: #fff;
+}
+.s:active {
+  background-color: #212529;
+}
+.t:active {
+  border-top-color: #212529;
+}
+.u:active {
+  border-right-color: #212529;
+}
+.v:active {
+  border-bottom-color: #212529;
+}
+.w:active {
+  border-left-color: #212529;
+}
+.an:active {
+  color: #212529;
+}
+.ao:active {
+  background-color: #f8f9fa;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  <button
+    data-testid="list-group-item-action"
+    class="al am an ao ap aq ar as at au av aw o list-group-item-action"
+    active=""
+  >
+    Click Me
+  </button>
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render a list group item with variant danger 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #58151c;
+}
+.l {
+  background-color: #f8d7da;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #f1aeb5;
+}
+.af {
+  border-right-color: #f1aeb5;
+}
+.ag {
+  border-bottom-color: #f1aeb5;
+}
+.ah {
+  border-left-color: #f1aeb5;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #f8d7da;
+}
+.s:active {
+  background-color: #58151c;
+}
+.t:active {
+  border-top-color: #58151c;
+}
+.u:active {
+  border-right-color: #58151c;
+}
+.v:active {
+  border-bottom-color: #58151c;
+}
+.w:active {
+  border-left-color: #58151c;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render a list group item with variant default 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #212529;
+}
+.l {
+  background-color: #fff;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #dee2e6;
+}
+.af {
+  border-right-color: #dee2e6;
+}
+.ag {
+  border-bottom-color: #dee2e6;
+}
+.ah {
+  border-left-color: #dee2e6;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #fff;
+}
+.s:active {
+  background-color: #212529;
+}
+.t:active {
+  border-top-color: #212529;
+}
+.u:active {
+  border-right-color: #212529;
+}
+.v:active {
+  border-bottom-color: #212529;
+}
+.w:active {
+  border-left-color: #212529;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render a list group item with variant info 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #055160;
+}
+.l {
+  background-color: #cff4fc;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #9eeaf9;
+}
+.af {
+  border-right-color: #9eeaf9;
+}
+.ag {
+  border-bottom-color: #9eeaf9;
+}
+.ah {
+  border-left-color: #9eeaf9;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #cff4fc;
+}
+.s:active {
+  background-color: #055160;
+}
+.t:active {
+  border-top-color: #055160;
+}
+.u:active {
+  border-right-color: #055160;
+}
+.v:active {
+  border-bottom-color: #055160;
+}
+.w:active {
+  border-left-color: #055160;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render a list group item with variant primary 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #052c65;
+}
+.l {
+  background-color: #cfe2ff;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #9ec5fe;
+}
+.af {
+  border-right-color: #9ec5fe;
+}
+.ag {
+  border-bottom-color: #9ec5fe;
+}
+.ah {
+  border-left-color: #9ec5fe;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #cfe2ff;
+}
+.s:active {
+  background-color: #052c65;
+}
+.t:active {
+  border-top-color: #052c65;
+}
+.u:active {
+  border-right-color: #052c65;
+}
+.v:active {
+  border-bottom-color: #052c65;
+}
+.w:active {
+  border-left-color: #052c65;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render a list group item with variant secondary 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #2b2f32;
+}
+.l {
+  background-color: #e2e3e5;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #c4c8cb;
+}
+.af {
+  border-right-color: #c4c8cb;
+}
+.ag {
+  border-bottom-color: #c4c8cb;
+}
+.ah {
+  border-left-color: #c4c8cb;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #e2e3e5;
+}
+.s:active {
+  background-color: #2b2f32;
+}
+.t:active {
+  border-top-color: #2b2f32;
+}
+.u:active {
+  border-right-color: #2b2f32;
+}
+.v:active {
+  border-bottom-color: #2b2f32;
+}
+.w:active {
+  border-left-color: #2b2f32;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render a list group item with variant success 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #0a3622;
+}
+.l {
+  background-color: #d1e7dd;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #a3cfbb;
+}
+.af {
+  border-right-color: #a3cfbb;
+}
+.ag {
+  border-bottom-color: #a3cfbb;
+}
+.ah {
+  border-left-color: #a3cfbb;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #d1e7dd;
+}
+.s:active {
+  background-color: #0a3622;
+}
+.t:active {
+  border-top-color: #0a3622;
+}
+.u:active {
+  border-right-color: #0a3622;
+}
+.v:active {
+  border-bottom-color: #0a3622;
+}
+.w:active {
+  border-left-color: #0a3622;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render a list group item with variant warning 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #664d03;
+}
+.l {
+  background-color: #fff3cd;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #ffe69c;
+}
+.af {
+  border-right-color: #ffe69c;
+}
+.ag {
+  border-bottom-color: #ffe69c;
+}
+.ah {
+  border-left-color: #ffe69c;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #fff3cd;
+}
+.s:active {
+  background-color: #664d03;
+}
+.t:active {
+  border-top-color: #664d03;
+}
+.u:active {
+  border-right-color: #664d03;
+}
+.v:active {
+  border-bottom-color: #664d03;
+}
+.w:active {
+  border-left-color: #664d03;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the active list group item of variant danger 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: 2;
+}
+.k {
+  color: #58151c;
+}
+.l {
+  background-color: #f8d7da;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #f1aeb5;
+}
+.af {
+  border-right-color: #f1aeb5;
+}
+.ag {
+  border-bottom-color: #f1aeb5;
+}
+.ah {
+  border-left-color: #f1aeb5;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #f8d7da;
+}
+.s:active {
+  background-color: #58151c;
+}
+.t:active {
+  border-top-color: #58151c;
+}
+.u:active {
+  border-right-color: #58151c;
+}
+.v:active {
+  border-bottom-color: #58151c;
+}
+.w:active {
+  border-left-color: #58151c;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the active list group item of variant default 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: 2;
+}
+.k {
+  color: #212529;
+}
+.l {
+  background-color: #fff;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #dee2e6;
+}
+.af {
+  border-right-color: #dee2e6;
+}
+.ag {
+  border-bottom-color: #dee2e6;
+}
+.ah {
+  border-left-color: #dee2e6;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #fff;
+}
+.s:active {
+  background-color: #212529;
+}
+.t:active {
+  border-top-color: #212529;
+}
+.u:active {
+  border-right-color: #212529;
+}
+.v:active {
+  border-bottom-color: #212529;
+}
+.w:active {
+  border-left-color: #212529;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the active list group item of variant info 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: 2;
+}
+.k {
+  color: #055160;
+}
+.l {
+  background-color: #cff4fc;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #9eeaf9;
+}
+.af {
+  border-right-color: #9eeaf9;
+}
+.ag {
+  border-bottom-color: #9eeaf9;
+}
+.ah {
+  border-left-color: #9eeaf9;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #cff4fc;
+}
+.s:active {
+  background-color: #055160;
+}
+.t:active {
+  border-top-color: #055160;
+}
+.u:active {
+  border-right-color: #055160;
+}
+.v:active {
+  border-bottom-color: #055160;
+}
+.w:active {
+  border-left-color: #055160;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the active list group item of variant primary 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: 2;
+}
+.k {
+  color: #052c65;
+}
+.l {
+  background-color: #cfe2ff;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #9ec5fe;
+}
+.af {
+  border-right-color: #9ec5fe;
+}
+.ag {
+  border-bottom-color: #9ec5fe;
+}
+.ah {
+  border-left-color: #9ec5fe;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #cfe2ff;
+}
+.s:active {
+  background-color: #052c65;
+}
+.t:active {
+  border-top-color: #052c65;
+}
+.u:active {
+  border-right-color: #052c65;
+}
+.v:active {
+  border-bottom-color: #052c65;
+}
+.w:active {
+  border-left-color: #052c65;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the active list group item of variant secondary 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: 2;
+}
+.k {
+  color: #2b2f32;
+}
+.l {
+  background-color: #e2e3e5;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #c4c8cb;
+}
+.af {
+  border-right-color: #c4c8cb;
+}
+.ag {
+  border-bottom-color: #c4c8cb;
+}
+.ah {
+  border-left-color: #c4c8cb;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #e2e3e5;
+}
+.s:active {
+  background-color: #2b2f32;
+}
+.t:active {
+  border-top-color: #2b2f32;
+}
+.u:active {
+  border-right-color: #2b2f32;
+}
+.v:active {
+  border-bottom-color: #2b2f32;
+}
+.w:active {
+  border-left-color: #2b2f32;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the active list group item of variant success 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: 2;
+}
+.k {
+  color: #0a3622;
+}
+.l {
+  background-color: #d1e7dd;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #a3cfbb;
+}
+.af {
+  border-right-color: #a3cfbb;
+}
+.ag {
+  border-bottom-color: #a3cfbb;
+}
+.ah {
+  border-left-color: #a3cfbb;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #d1e7dd;
+}
+.s:active {
+  background-color: #0a3622;
+}
+.t:active {
+  border-top-color: #0a3622;
+}
+.u:active {
+  border-right-color: #0a3622;
+}
+.v:active {
+  border-bottom-color: #0a3622;
+}
+.w:active {
+  border-left-color: #0a3622;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the active list group item of variant warning 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: 2;
+}
+.k {
+  color: #664d03;
+}
+.l {
+  background-color: #fff3cd;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #ffe69c;
+}
+.af {
+  border-right-color: #ffe69c;
+}
+.ag {
+  border-bottom-color: #ffe69c;
+}
+.ah {
+  border-left-color: #ffe69c;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #fff3cd;
+}
+.s:active {
+  background-color: #664d03;
+}
+.t:active {
+  border-top-color: #664d03;
+}
+.u:active {
+  border-right-color: #664d03;
+}
+.v:active {
+  border-bottom-color: #664d03;
+}
+.w:active {
+  border-left-color: #664d03;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the first list group item of variant danger 1`] = `
+".a {
+  border-top-width: 1px;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: inherit;
+}
+.g {
+  border-top-right-radius: inherit;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #58151c;
+}
+.l {
+  background-color: #f8d7da;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #f1aeb5;
+}
+.af {
+  border-right-color: #f1aeb5;
+}
+.ag {
+  border-bottom-color: #f1aeb5;
+}
+.ah {
+  border-left-color: #f1aeb5;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #f8d7da;
+}
+.s:active {
+  background-color: #58151c;
+}
+.t:active {
+  border-top-color: #58151c;
+}
+.u:active {
+  border-right-color: #58151c;
+}
+.v:active {
+  border-bottom-color: #58151c;
+}
+.w:active {
+  border-left-color: #58151c;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the first list group item of variant default 1`] = `
+".a {
+  border-top-width: 1px;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: inherit;
+}
+.g {
+  border-top-right-radius: inherit;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #212529;
+}
+.l {
+  background-color: #fff;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #dee2e6;
+}
+.af {
+  border-right-color: #dee2e6;
+}
+.ag {
+  border-bottom-color: #dee2e6;
+}
+.ah {
+  border-left-color: #dee2e6;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #fff;
+}
+.s:active {
+  background-color: #212529;
+}
+.t:active {
+  border-top-color: #212529;
+}
+.u:active {
+  border-right-color: #212529;
+}
+.v:active {
+  border-bottom-color: #212529;
+}
+.w:active {
+  border-left-color: #212529;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the first list group item of variant info 1`] = `
+".a {
+  border-top-width: 1px;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: inherit;
+}
+.g {
+  border-top-right-radius: inherit;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #055160;
+}
+.l {
+  background-color: #cff4fc;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #9eeaf9;
+}
+.af {
+  border-right-color: #9eeaf9;
+}
+.ag {
+  border-bottom-color: #9eeaf9;
+}
+.ah {
+  border-left-color: #9eeaf9;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #cff4fc;
+}
+.s:active {
+  background-color: #055160;
+}
+.t:active {
+  border-top-color: #055160;
+}
+.u:active {
+  border-right-color: #055160;
+}
+.v:active {
+  border-bottom-color: #055160;
+}
+.w:active {
+  border-left-color: #055160;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the first list group item of variant primary 1`] = `
+".a {
+  border-top-width: 1px;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: inherit;
+}
+.g {
+  border-top-right-radius: inherit;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #052c65;
+}
+.l {
+  background-color: #cfe2ff;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #9ec5fe;
+}
+.af {
+  border-right-color: #9ec5fe;
+}
+.ag {
+  border-bottom-color: #9ec5fe;
+}
+.ah {
+  border-left-color: #9ec5fe;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #cfe2ff;
+}
+.s:active {
+  background-color: #052c65;
+}
+.t:active {
+  border-top-color: #052c65;
+}
+.u:active {
+  border-right-color: #052c65;
+}
+.v:active {
+  border-bottom-color: #052c65;
+}
+.w:active {
+  border-left-color: #052c65;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the first list group item of variant secondary 1`] = `
+".a {
+  border-top-width: 1px;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: inherit;
+}
+.g {
+  border-top-right-radius: inherit;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #2b2f32;
+}
+.l {
+  background-color: #e2e3e5;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #c4c8cb;
+}
+.af {
+  border-right-color: #c4c8cb;
+}
+.ag {
+  border-bottom-color: #c4c8cb;
+}
+.ah {
+  border-left-color: #c4c8cb;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #e2e3e5;
+}
+.s:active {
+  background-color: #2b2f32;
+}
+.t:active {
+  border-top-color: #2b2f32;
+}
+.u:active {
+  border-right-color: #2b2f32;
+}
+.v:active {
+  border-bottom-color: #2b2f32;
+}
+.w:active {
+  border-left-color: #2b2f32;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the first list group item of variant success 1`] = `
+".a {
+  border-top-width: 1px;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: inherit;
+}
+.g {
+  border-top-right-radius: inherit;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #0a3622;
+}
+.l {
+  background-color: #d1e7dd;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #a3cfbb;
+}
+.af {
+  border-right-color: #a3cfbb;
+}
+.ag {
+  border-bottom-color: #a3cfbb;
+}
+.ah {
+  border-left-color: #a3cfbb;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #d1e7dd;
+}
+.s:active {
+  background-color: #0a3622;
+}
+.t:active {
+  border-top-color: #0a3622;
+}
+.u:active {
+  border-right-color: #0a3622;
+}
+.v:active {
+  border-bottom-color: #0a3622;
+}
+.w:active {
+  border-left-color: #0a3622;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the first list group item of variant warning 1`] = `
+".a {
+  border-top-width: 1px;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: inherit;
+}
+.g {
+  border-top-right-radius: inherit;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  border-bottom-right-radius: 0;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #664d03;
+}
+.l {
+  background-color: #fff3cd;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #ffe69c;
+}
+.af {
+  border-right-color: #ffe69c;
+}
+.ag {
+  border-bottom-color: #ffe69c;
+}
+.ah {
+  border-left-color: #ffe69c;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #fff3cd;
+}
+.s:active {
+  background-color: #664d03;
+}
+.t:active {
+  border-top-color: #664d03;
+}
+.u:active {
+  border-right-color: #664d03;
+}
+.v:active {
+  border-bottom-color: #664d03;
+}
+.w:active {
+  border-left-color: #664d03;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the last list group item of variant danger 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: inherit;
+}
+.i {
+  border-bottom-right-radius: inherit;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #58151c;
+}
+.l {
+  background-color: #f8d7da;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #f1aeb5;
+}
+.af {
+  border-right-color: #f1aeb5;
+}
+.ag {
+  border-bottom-color: #f1aeb5;
+}
+.ah {
+  border-left-color: #f1aeb5;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #f8d7da;
+}
+.s:active {
+  background-color: #58151c;
+}
+.t:active {
+  border-top-color: #58151c;
+}
+.u:active {
+  border-right-color: #58151c;
+}
+.v:active {
+  border-bottom-color: #58151c;
+}
+.w:active {
+  border-left-color: #58151c;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the last list group item of variant default 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: inherit;
+}
+.i {
+  border-bottom-right-radius: inherit;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #212529;
+}
+.l {
+  background-color: #fff;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #dee2e6;
+}
+.af {
+  border-right-color: #dee2e6;
+}
+.ag {
+  border-bottom-color: #dee2e6;
+}
+.ah {
+  border-left-color: #dee2e6;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #fff;
+}
+.s:active {
+  background-color: #212529;
+}
+.t:active {
+  border-top-color: #212529;
+}
+.u:active {
+  border-right-color: #212529;
+}
+.v:active {
+  border-bottom-color: #212529;
+}
+.w:active {
+  border-left-color: #212529;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the last list group item of variant info 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: inherit;
+}
+.i {
+  border-bottom-right-radius: inherit;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #055160;
+}
+.l {
+  background-color: #cff4fc;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #9eeaf9;
+}
+.af {
+  border-right-color: #9eeaf9;
+}
+.ag {
+  border-bottom-color: #9eeaf9;
+}
+.ah {
+  border-left-color: #9eeaf9;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #cff4fc;
+}
+.s:active {
+  background-color: #055160;
+}
+.t:active {
+  border-top-color: #055160;
+}
+.u:active {
+  border-right-color: #055160;
+}
+.v:active {
+  border-bottom-color: #055160;
+}
+.w:active {
+  border-left-color: #055160;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the last list group item of variant primary 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: inherit;
+}
+.i {
+  border-bottom-right-radius: inherit;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #052c65;
+}
+.l {
+  background-color: #cfe2ff;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #9ec5fe;
+}
+.af {
+  border-right-color: #9ec5fe;
+}
+.ag {
+  border-bottom-color: #9ec5fe;
+}
+.ah {
+  border-left-color: #9ec5fe;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #cfe2ff;
+}
+.s:active {
+  background-color: #052c65;
+}
+.t:active {
+  border-top-color: #052c65;
+}
+.u:active {
+  border-right-color: #052c65;
+}
+.v:active {
+  border-bottom-color: #052c65;
+}
+.w:active {
+  border-left-color: #052c65;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the last list group item of variant secondary 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: inherit;
+}
+.i {
+  border-bottom-right-radius: inherit;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #2b2f32;
+}
+.l {
+  background-color: #e2e3e5;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #c4c8cb;
+}
+.af {
+  border-right-color: #c4c8cb;
+}
+.ag {
+  border-bottom-color: #c4c8cb;
+}
+.ah {
+  border-left-color: #c4c8cb;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #e2e3e5;
+}
+.s:active {
+  background-color: #2b2f32;
+}
+.t:active {
+  border-top-color: #2b2f32;
+}
+.u:active {
+  border-right-color: #2b2f32;
+}
+.v:active {
+  border-bottom-color: #2b2f32;
+}
+.w:active {
+  border-left-color: #2b2f32;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the last list group item of variant success 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: inherit;
+}
+.i {
+  border-bottom-right-radius: inherit;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #0a3622;
+}
+.l {
+  background-color: #d1e7dd;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #a3cfbb;
+}
+.af {
+  border-right-color: #a3cfbb;
+}
+.ag {
+  border-bottom-color: #a3cfbb;
+}
+.ah {
+  border-left-color: #a3cfbb;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #d1e7dd;
+}
+.s:active {
+  background-color: #0a3622;
+}
+.t:active {
+  border-top-color: #0a3622;
+}
+.u:active {
+  border-right-color: #0a3622;
+}
+.v:active {
+  border-bottom-color: #0a3622;
+}
+.w:active {
+  border-left-color: #0a3622;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroupItem should render the last list group item of variant warning 1`] = `
+".a {
+  border-top-width: 0;
+}
+.b {
+  padding-top: 0.5rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-bottom: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  border-top-left-radius: 0;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-left-radius: inherit;
+}
+.i {
+  border-bottom-right-radius: inherit;
+}
+.j {
+  z-index: auto;
+}
+.k {
+  color: #664d03;
+}
+.l {
+  background-color: #fff3cd;
+}
+.m {
+  position: relative;
+}
+.n {
+  display: block;
+}
+.o {
+  width: 100%;
+}
+.p:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.q:disabled {
+  pointer-events: none;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #ffe69c;
+}
+.af {
+  border-right-color: #ffe69c;
+}
+.ag {
+  border-bottom-color: #ffe69c;
+}
+.ah {
+  border-left-color: #ffe69c;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-bottom-width: 1px;
+}
+.ak {
+  border-left-width: 1px;
+}
+.r:active {
+  color: #fff3cd;
+}
+.s:active {
+  background-color: #664d03;
+}
+.t:active {
+  border-top-color: #664d03;
+}
+.u:active {
+  border-right-color: #664d03;
+}
+.v:active {
+  border-bottom-color: #664d03;
+}
+.w:active {
+  border-left-color: #664d03;
+}
+
+
+<li
+  data-testid="list-group-item"
+  class="a ab ac ae af ag ah ai aj ak b c d e f g h i j k l m n o p q r s t u v w x y z list-group-item"
+>
+  Item
+</li>
+;
+"
+`;

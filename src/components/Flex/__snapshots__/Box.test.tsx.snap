@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Flex/Box should render a box 1`] = `
+".a {
+  background-color: rgba(112.520718, 44.062154, 249.437846, 0.15);
+}
+.b {
+  padding-top: 0.75rem;
+}
+.c {
+  padding-bottom: 0.75rem;
+}
+.d {
+  padding-left: 0.75rem;
+}
+.e {
+  padding-right: 0.75rem;
+}
+.f {
+  height: 4rem;
+}
+.g {
+  border-top-width: 1px;
+}
+.h {
+  border-right-width: 1px;
+}
+.i {
+  border-bottom-width: 1px;
+}
+.j {
+  border-left-width: 1px;
+}
+.k {
+  border-top-style: solid;
+}
+.l {
+  border-right-style: solid;
+}
+.m {
+  border-bottom-style: solid;
+}
+.n {
+  border-left-style: solid;
+}
+.o {
+  border-top-color: rgba(112.520718, 44.062154, 249.437846, 0.3);
+}
+.p {
+  border-right-color: rgba(112.520718, 44.062154, 249.437846, 0.3);
+}
+.q {
+  border-bottom-color: rgba(112.520718, 44.062154, 249.437846, 0.3);
+}
+.r {
+  border-left-color: rgba(112.520718, 44.062154, 249.437846, 0.3);
+}
+
+
+<div data-testid="box" class="a b c d e f g h i j k l m n o p q r box">Box</div>
+;
+"
+`;

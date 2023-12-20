@@ -1,0 +1,495 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/SegmentedButton/Item should render a disabled dropdown header item 1`] = `
+".a {
+  margin-top: -0.2rem;
+}
+.b {
+  padding-top: 0;
+}
+.c {
+  color: #6c757d;
+}
+.d {
+  display: block;
+}
+.e {
+  font-size: 0.875rem;
+}
+.f {
+  margin-bottom: 0;
+}
+.g {
+  white-space: nowrap;
+}
+.h {
+  padding-top: 0.5rem;
+}
+.i {
+  padding-right: 1rem;
+}
+.j {
+  padding-bottom: 0.5rem;
+}
+.k {
+  padding-left: 1rem;
+}
+.l {
+  color: inherit;
+}
+.m {
+  font-weight: 500;
+}
+.n {
+  font-size: 1rem;
+}
+.o {
+  line-height: 1.2;
+}
+.p {
+  margin-top: 0;
+}
+.q {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1200px) {
+  .r {
+    font-size: 1rem;
+  }
+}
+
+
+<li data-testid="dropdown-header-item">
+  <h6
+    class="c d e f g h i j k dropdown-header a b"
+    data-testid="dropdown-header"
+  >
+    Header
+  </h6>
+</li>
+;
+"
+`;
+
+exports[`components/SegmentedButton/Item should render a dropdown disabled item 1`] = `
+".a {
+  margin-top: -0.2rem;
+}
+.b {
+  padding-top: 0;
+}
+.c {
+  background-color: #ff;
+}
+.d {
+  clear: both;
+}
+.e {
+  color: #212529;
+}
+.f {
+  display: block;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  text-align: inherit;
+}
+.i {
+  white-space: nowrap;
+}
+.n {
+  opacity: 0.5;
+}
+.o {
+  pointer-events: none;
+}
+.p {
+  text-decoration-line: none;
+}
+.q {
+  padding-top: 0.25rem;
+}
+.r {
+  padding-right: 1rem;
+}
+.s {
+  padding-bottom: 0.25rem;
+}
+.t {
+  padding-left: 1rem;
+}
+.u {
+  border-top-left-radius: 0;
+}
+.v {
+  border-top-right-radius: 0;
+}
+.w {
+  border-bottom-right-radius: 0;
+}
+.x {
+  border-bottom-left-radius: 0;
+}
+.y {
+  border-top-width: 0;
+}
+.z {
+  border-right-width: 0;
+}
+.ab {
+  border-bottom-width: 0;
+}
+.ac {
+  border-left-width: 0;
+}
+.l:hover {
+  color: #212529;
+}
+.m:hover {
+  background-color: #f8f9fa;
+}
+.j:focus {
+  color: #212529;
+}
+.k:focus {
+  background-color: #f8f9fa;
+}
+
+
+<li
+  data-testid="dropdown-item"
+  aria-disabled="true"
+  aria-selected="false"
+  class="ab ac c d e f g h i j k l m n o p q r s t u v w x y z dropdown-item"
+  role="option"
+  tabindex="-1"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/SegmentedButton/Item should render a dropdown divider item 1`] = `
+".a {
+  margin-top: -0.2rem;
+}
+.b {
+  padding-top: 0;
+}
+.c {
+  opacity: 1;
+}
+.d {
+  border-top-width: 1px;
+}
+.e {
+  border-top-style: solid;
+}
+.f {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.g {
+  overflow-x: hidden;
+}
+.h {
+  overflow-y: hidden;
+}
+.i {
+  margin-top: 0.5rem;
+}
+.j {
+  margin-right: 0;
+}
+.k {
+  margin-bottom: 0.5rem;
+}
+.l {
+  margin-left: 0;
+}
+
+
+<li data-testid="dropdown-divider-item">
+  <hr
+    data-testid="dropdown-divider"
+    class="c d e f g h i j k l dropdown-divider"
+  />
+</li>
+;
+"
+`;
+
+exports[`components/SegmentedButton/Item should render a dropdown header as the second item 1`] = `
+".a {
+  margin-top: 0.2rem;
+}
+.b {
+  padding-top: -0.5rem;
+}
+.c {
+  color: #6c757d;
+}
+.d {
+  display: block;
+}
+.e {
+  font-size: 0.875rem;
+}
+.f {
+  margin-bottom: 0;
+}
+.g {
+  white-space: nowrap;
+}
+.h {
+  padding-top: 0.5rem;
+}
+.i {
+  padding-right: 1rem;
+}
+.j {
+  padding-bottom: 0.5rem;
+}
+.k {
+  padding-left: 1rem;
+}
+.l {
+  color: inherit;
+}
+.m {
+  font-weight: 500;
+}
+.n {
+  font-size: 1rem;
+}
+.o {
+  line-height: 1.2;
+}
+.p {
+  margin-top: 0;
+}
+.q {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1200px) {
+  .r {
+    font-size: 1rem;
+  }
+}
+
+
+<li data-testid="dropdown-header-item">
+  <h6
+    class="c d e f g h i j k dropdown-header a b"
+    data-testid="dropdown-header"
+  >
+    Header
+  </h6>
+</li>
+;
+"
+`;
+
+exports[`components/SegmentedButton/Item should render a dropdown header item 1`] = `
+".a {
+  margin-top: -0.2rem;
+}
+.b {
+  padding-top: 0;
+}
+.c {
+  color: #6c757d;
+}
+.d {
+  display: block;
+}
+.e {
+  font-size: 0.875rem;
+}
+.f {
+  margin-bottom: 0;
+}
+.g {
+  white-space: nowrap;
+}
+.h {
+  padding-top: 0.5rem;
+}
+.i {
+  padding-right: 1rem;
+}
+.j {
+  padding-bottom: 0.5rem;
+}
+.k {
+  padding-left: 1rem;
+}
+.l {
+  color: inherit;
+}
+.m {
+  font-weight: 500;
+}
+.n {
+  font-size: 1rem;
+}
+.o {
+  line-height: 1.2;
+}
+.p {
+  margin-top: 0;
+}
+.q {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1200px) {
+  .r {
+    font-size: 1rem;
+  }
+}
+
+
+<li data-testid="dropdown-header-item">
+  <h6
+    class="c d e f g h i j k dropdown-header a b"
+    data-testid="dropdown-header"
+  >
+    Header
+  </h6>
+</li>
+;
+"
+`;
+
+exports[`components/SegmentedButton/Item should render a dropdown item 1`] = `
+".a {
+  margin-top: -0.2rem;
+}
+.b {
+  padding-top: 0;
+}
+.c {
+  background-color: transparent;
+}
+.d {
+  clear: both;
+}
+.e {
+  color: #212529;
+}
+.f {
+  display: block;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  text-align: inherit;
+}
+.i {
+  white-space: nowrap;
+}
+.n {
+  text-decoration-line: none;
+}
+.o {
+  padding-top: 0.25rem;
+}
+.p {
+  padding-right: 1rem;
+}
+.q {
+  padding-bottom: 0.25rem;
+}
+.r {
+  padding-left: 1rem;
+}
+.s {
+  border-top-left-radius: 0;
+}
+.t {
+  border-top-right-radius: 0;
+}
+.u {
+  border-bottom-right-radius: 0;
+}
+.v {
+  border-bottom-left-radius: 0;
+}
+.w {
+  border-top-width: 0;
+}
+.x {
+  border-right-width: 0;
+}
+.y {
+  border-bottom-width: 0;
+}
+.z {
+  border-left-width: 0;
+}
+.l:hover {
+  color: #212529;
+}
+.m:hover {
+  background-color: #f8f9fa;
+}
+.j:focus {
+  color: #212529;
+}
+.k:focus {
+  background-color: #f8f9fa;
+}
+
+
+<li
+  data-testid="dropdown-item"
+  aria-disabled="false"
+  aria-selected="false"
+  class="c d e f g h i j k l m n o p q r s t u v w x y z dropdown-item"
+  role="option"
+  tabindex="-1"
+>
+  Item
+</li>
+;
+"
+`;
+
+exports[`components/SegmentedButton/Item should render a dropdown text item 1`] = `
+".a {
+  margin-top: -0.2rem;
+}
+.b {
+  padding-top: 0;
+}
+.c {
+  color: #212529;
+}
+.d {
+  display: block;
+}
+.e {
+  padding-top: 1rem;
+}
+.f {
+  padding-right: 0.25rem;
+}
+.g {
+  padding-bottom: 1rem;
+}
+.h {
+  padding-left: 0.25rem;
+}
+
+
+<li data-testid="dropdown-text-item">
+  <span data-testid="dropdown-text" class="c d e f g h dropdown-text"
+    >Text</span
+  >
+</li>
+;
+"
+`;

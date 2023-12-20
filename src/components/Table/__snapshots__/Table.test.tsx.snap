@@ -1,0 +1,3340 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Table/Table should render a bordered table 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  margin-bottom: 1rem;
+}
+.c {
+  vertical-align: top;
+}
+.d {
+  color: #000;
+}
+.e {
+  background-color: #fff;
+}
+.f:not(:first-child) {
+  border-top-width: 0;
+}
+.g {
+  border-top-color: #dee2e6;
+}
+.h {
+  border-right-color: #dee2e6;
+}
+.i {
+  border-bottom-color: #dee2e6;
+}
+.j {
+  border-left-color: #dee2e6;
+}
+.k {
+  vertical-align: bottom;
+}
+.l {
+  border-top-width: 1px;
+}
+.m {
+  border-right-width: 0;
+}
+.n {
+  border-bottom-width: 1px;
+}
+.o {
+  border-left-width: 0;
+}
+.p {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.q {
+  border-top-width: 0;
+}
+.r {
+  border-right-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  padding-top: 0.5rem;
+}
+.u {
+  padding-right: 0.5rem;
+}
+.v {
+  padding-bottom: 0.5rem;
+}
+.w {
+  padding-left: 0.5rem;
+}
+.x {
+  vertical-align: inherit;
+}
+
+
+<table data-testid="table" class="a b c d e f g h i j bs-table">
+  <thead data-testid="table-head" class="k l m n o table-head">
+    <tr data-testid="table-row" class="d e g h i j n p q r s t u v w table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j n p q r s t u v w table-col"
+        scope="col"
+      >
+        #
+      </th>
+      <th
+        data-testid="table-col"
+        class="d e g h i j n p q r s t u v w table-col"
+        scope="col"
+      >
+        First
+      </th>
+      <th
+        data-testid="table-col"
+        class="d e g h i j n p q r s t u v w table-col"
+        scope="col"
+      >
+        Last
+      </th>
+      <th
+        data-testid="table-col"
+        class="d e g h i j n p q r s t u v w table-col"
+        scope="col"
+      >
+        Handle
+      </th>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="l m n o x table-body">
+    <tr data-testid="table-row" class="d e g h i j n p q r s t u v w table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j n p q r s t u v w table-col col-row-1-1"
+        scope="row"
+      >
+        1
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j n p q r s t u v w table-col col-row-1-2"
+      >
+        Mark
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j n p q r s t u v w table-col col-row-1-3"
+      >
+        Otto
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j n p q r s t u v w table-col col-row-1-4"
+      >
+        @mdo
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j n p q r s t u v w table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j n p q r s t u v w table-col col-row-2-1"
+        scope="row"
+      >
+        2
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j n p q r s t u v w table-col col-row-2-2"
+      >
+        Jacob
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j n p q r s t u v w table-col col-row-2-3"
+      >
+        Thornton
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j n p q r s t u v w table-col col-row-2-4"
+      >
+        @fat
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j n p q r s t u v w table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j n p q r s t u v w table-col col-row-3-1"
+        scope="row"
+      >
+        3
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j n p q r s t u v w table-col col-row-3-2"
+        colspan="2"
+      >
+        Larry Cole Bird
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j n p q r s t u v w table-col col-row-3-3"
+      >
+        @twitter
+      </td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Table should render a borderless table 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  margin-bottom: 1rem;
+}
+.c {
+  vertical-align: top;
+}
+.d {
+  color: #000;
+}
+.e {
+  background-color: #fff;
+}
+.f:not(:first-child) {
+  border-top-width: 0;
+}
+.g {
+  border-top-color: #dee2e6;
+}
+.h {
+  border-right-color: #dee2e6;
+}
+.i {
+  border-bottom-color: #dee2e6;
+}
+.j {
+  border-left-color: #dee2e6;
+}
+.k {
+  vertical-align: bottom;
+}
+.l {
+  border-bottom-width: 0;
+}
+.m {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.n {
+  padding-top: 0.5rem;
+}
+.o {
+  padding-right: 0.5rem;
+}
+.p {
+  padding-bottom: 0.5rem;
+}
+.q {
+  padding-left: 0.5rem;
+}
+.r {
+  vertical-align: inherit;
+}
+
+
+<table data-testid="table" class="a b c d e f g h i j bs-table">
+  <thead data-testid="table-head" class="k table-head">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col"
+        scope="col"
+      >
+        #
+      </th>
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col"
+        scope="col"
+      >
+        First
+      </th>
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col"
+        scope="col"
+      >
+        Last
+      </th>
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col"
+        scope="col"
+      >
+        Handle
+      </th>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="r table-body">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-1"
+        scope="row"
+      >
+        1
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-2"
+      >
+        Mark
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-3"
+      >
+        Otto
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-4"
+      >
+        @mdo
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-1"
+        scope="row"
+      >
+        2
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-2"
+      >
+        Jacob
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-3"
+      >
+        Thornton
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-4"
+      >
+        @fat
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-1"
+        scope="row"
+      >
+        3
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-2"
+        colspan="2"
+      >
+        Larry Cole Bird
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-3"
+      >
+        @twitter
+      </td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Table should render a borderless table 2`] = `
+".a {
+  width: 100%;
+}
+.b {
+  margin-bottom: 1rem;
+}
+.c {
+  vertical-align: top;
+}
+.d {
+  color: #000;
+}
+.e {
+  background-color: #fff;
+}
+.f:not(:first-child) {
+  border-top-width: 0;
+}
+.g {
+  border-top-color: #dee2e6;
+}
+.h {
+  border-right-color: #dee2e6;
+}
+.i {
+  border-bottom-color: #dee2e6;
+}
+.j {
+  border-left-color: #dee2e6;
+}
+.k {
+  vertical-align: bottom;
+}
+.l {
+  border-bottom-width: 0;
+}
+.m {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.n {
+  padding-top: 0.5rem;
+}
+.o {
+  padding-right: 0.5rem;
+}
+.p {
+  padding-bottom: 0.5rem;
+}
+.q {
+  padding-left: 0.5rem;
+}
+.r {
+  vertical-align: inherit;
+}
+
+
+<table data-testid="table" class="a b c d e f g h i j bs-table">
+  <thead data-testid="table-head" class="k table-head">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col"
+        scope="col"
+      >
+        #
+      </th>
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col"
+        scope="col"
+      >
+        First
+      </th>
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col"
+        scope="col"
+      >
+        Last
+      </th>
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col"
+        scope="col"
+      >
+        Handle
+      </th>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="r table-body">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-1"
+        scope="row"
+      >
+        1
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-2"
+      >
+        Mark
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-3"
+      >
+        Otto
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-4"
+      >
+        @mdo
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-1"
+        scope="row"
+      >
+        2
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-2"
+      >
+        Jacob
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-3"
+      >
+        Thornton
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-4"
+      >
+        @fat
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-1"
+        scope="row"
+      >
+        3
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-2"
+        colspan="2"
+      >
+        Larry Cole Bird
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-3"
+      >
+        @twitter
+      </td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Table should render a striped table of variant danger 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  margin-bottom: 1rem;
+}
+.c {
+  vertical-align: top;
+}
+.d {
+  color: #000;
+}
+.e {
+  background-color: #f8d7da;
+}
+.f:not(:first-child) {
+  border-top-width: 0;
+}
+.g {
+  border-top-color: #c6acae;
+}
+.h {
+  border-right-color: #c6acae;
+}
+.i {
+  border-bottom-color: #c6acae;
+}
+.j {
+  border-left-color: #c6acae;
+}
+.k {
+  vertical-align: bottom;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.n {
+  padding-top: 0.5rem;
+}
+.o {
+  padding-right: 0.5rem;
+}
+.p {
+  padding-bottom: 0.5rem;
+}
+.q {
+  padding-left: 0.5rem;
+}
+.r {
+  background-color: #fff;
+}
+.s {
+  border-top-color: #dee2e6;
+}
+.t {
+  border-right-color: #dee2e6;
+}
+.u {
+  border-bottom-color: #dee2e6;
+}
+.v {
+  border-left-color: #dee2e6;
+}
+.w {
+  vertical-align: inherit;
+}
+.x {
+  background-color: rgb(236, 204, 207, 0.05);
+}
+
+
+<table data-testid="table" class="a b c d e f g h i j bs-table">
+  <thead data-testid="table-head" class="k table-head">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        #
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        First
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Last
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Handle
+      </th>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="w table-body">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-1"
+        scope="row"
+      >
+        1
+      </th>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-2"
+      >
+        Mark
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-3"
+      >
+        Otto
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-4"
+      >
+        @mdo
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-1"
+        scope="row"
+      >
+        2
+      </th>
+      <td
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-2"
+      >
+        Jacob
+      </td>
+      <td
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-3"
+      >
+        Thornton
+      </td>
+      <td
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-4"
+      >
+        @fat
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-3-1"
+        scope="row"
+      >
+        3
+      </th>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-3-2"
+        colspan="2"
+      >
+        Larry Cole Bird
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-3-3"
+      >
+        @twitter
+      </td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Table should render a striped table of variant default 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  margin-bottom: 1rem;
+}
+.c {
+  vertical-align: top;
+}
+.d {
+  color: #000;
+}
+.e {
+  background-color: #fff;
+}
+.f:not(:first-child) {
+  border-top-width: 0;
+}
+.g {
+  border-top-color: #dee2e6;
+}
+.h {
+  border-right-color: #dee2e6;
+}
+.i {
+  border-bottom-color: #dee2e6;
+}
+.j {
+  border-left-color: #dee2e6;
+}
+.k {
+  vertical-align: bottom;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.n {
+  padding-top: 0.5rem;
+}
+.o {
+  padding-right: 0.5rem;
+}
+.p {
+  padding-bottom: 0.5rem;
+}
+.q {
+  padding-left: 0.5rem;
+}
+.r {
+  vertical-align: inherit;
+}
+.s {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+<table data-testid="table" class="a b c d e f g h i j bs-table">
+  <thead data-testid="table-head" class="k table-head">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col"
+        scope="col"
+      >
+        #
+      </th>
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col"
+        scope="col"
+      >
+        First
+      </th>
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col"
+        scope="col"
+      >
+        Last
+      </th>
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col"
+        scope="col"
+      >
+        Handle
+      </th>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="r table-body">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d g h i j l m n o p q s table-col col-row-1-1"
+        scope="row"
+      >
+        1
+      </th>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q s table-col col-row-1-2"
+      >
+        Mark
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q s table-col col-row-1-3"
+      >
+        Otto
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q s table-col col-row-1-4"
+      >
+        @mdo
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-1"
+        scope="row"
+      >
+        2
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-2"
+      >
+        Jacob
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-3"
+      >
+        Thornton
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-4"
+      >
+        @fat
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d g h i j l m n o p q s table-col col-row-3-1"
+        scope="row"
+      >
+        3
+      </th>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q s table-col col-row-3-2"
+        colspan="2"
+      >
+        Larry Cole Bird
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q s table-col col-row-3-3"
+      >
+        @twitter
+      </td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Table should render a striped table of variant info 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  margin-bottom: 1rem;
+}
+.c {
+  vertical-align: top;
+}
+.d {
+  color: #000;
+}
+.e {
+  background-color: #cff4fc;
+}
+.f:not(:first-child) {
+  border-top-width: 0;
+}
+.g {
+  border-top-color: #a6c3ca;
+}
+.h {
+  border-right-color: #a6c3ca;
+}
+.i {
+  border-bottom-color: #a6c3ca;
+}
+.j {
+  border-left-color: #a6c3ca;
+}
+.k {
+  vertical-align: bottom;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.n {
+  padding-top: 0.5rem;
+}
+.o {
+  padding-right: 0.5rem;
+}
+.p {
+  padding-bottom: 0.5rem;
+}
+.q {
+  padding-left: 0.5rem;
+}
+.r {
+  background-color: #fff;
+}
+.s {
+  border-top-color: #dee2e6;
+}
+.t {
+  border-right-color: #dee2e6;
+}
+.u {
+  border-bottom-color: #dee2e6;
+}
+.v {
+  border-left-color: #dee2e6;
+}
+.w {
+  vertical-align: inherit;
+}
+.x {
+  background-color: rgba(197, 232, 239, 0.05);
+}
+
+
+<table data-testid="table" class="a b c d e f g h i j bs-table">
+  <thead data-testid="table-head" class="k table-head">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        #
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        First
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Last
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Handle
+      </th>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="w table-body">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-1"
+        scope="row"
+      >
+        1
+      </th>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-2"
+      >
+        Mark
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-3"
+      >
+        Otto
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-4"
+      >
+        @mdo
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-1"
+        scope="row"
+      >
+        2
+      </th>
+      <td
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-2"
+      >
+        Jacob
+      </td>
+      <td
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-3"
+      >
+        Thornton
+      </td>
+      <td
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-4"
+      >
+        @fat
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-3-1"
+        scope="row"
+      >
+        3
+      </th>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-3-2"
+        colspan="2"
+      >
+        Larry Cole Bird
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-3-3"
+      >
+        @twitter
+      </td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Table should render a striped table of variant primary 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  margin-bottom: 1rem;
+}
+.c {
+  vertical-align: top;
+}
+.d {
+  color: #000;
+}
+.e {
+  background-color: #cfe2ff;
+}
+.f:not(:first-child) {
+  border-top-width: 0;
+}
+.g {
+  border-top-color: #a6b5cc;
+}
+.h {
+  border-right-color: #a6b5cc;
+}
+.i {
+  border-bottom-color: #a6b5cc;
+}
+.j {
+  border-left-color: #a6b5cc;
+}
+.k {
+  vertical-align: bottom;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.n {
+  padding-top: 0.5rem;
+}
+.o {
+  padding-right: 0.5rem;
+}
+.p {
+  padding-bottom: 0.5rem;
+}
+.q {
+  padding-left: 0.5rem;
+}
+.r {
+  background-color: #fff;
+}
+.s {
+  border-top-color: #dee2e6;
+}
+.t {
+  border-right-color: #dee2e6;
+}
+.u {
+  border-bottom-color: #dee2e6;
+}
+.v {
+  border-left-color: #dee2e6;
+}
+.w {
+  vertical-align: inherit;
+}
+.x {
+  background-color: rgba(197, 215, 242, 0.05);
+}
+
+
+<table data-testid="table" class="a b c d e f g h i j bs-table">
+  <thead data-testid="table-head" class="k table-head">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        #
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        First
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Last
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Handle
+      </th>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="w table-body">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-1"
+        scope="row"
+      >
+        1
+      </th>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-2"
+      >
+        Mark
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-3"
+      >
+        Otto
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-4"
+      >
+        @mdo
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-1"
+        scope="row"
+      >
+        2
+      </th>
+      <td
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-2"
+      >
+        Jacob
+      </td>
+      <td
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-3"
+      >
+        Thornton
+      </td>
+      <td
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-4"
+      >
+        @fat
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-3-1"
+        scope="row"
+      >
+        3
+      </th>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-3-2"
+        colspan="2"
+      >
+        Larry Cole Bird
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-3-3"
+      >
+        @twitter
+      </td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Table should render a striped table of variant secondary 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  margin-bottom: 1rem;
+}
+.c {
+  vertical-align: top;
+}
+.d {
+  color: #000;
+}
+.e {
+  background-color: #e2e3e5;
+}
+.f:not(:first-child) {
+  border-top-width: 0;
+}
+.g {
+  border-top-color: #b5b6b7;
+}
+.h {
+  border-right-color: #b5b6b7;
+}
+.i {
+  border-bottom-color: #b5b6b7;
+}
+.j {
+  border-left-color: #b5b6b7;
+}
+.k {
+  vertical-align: bottom;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.n {
+  padding-top: 0.5rem;
+}
+.o {
+  padding-right: 0.5rem;
+}
+.p {
+  padding-bottom: 0.5rem;
+}
+.q {
+  padding-left: 0.5rem;
+}
+.r {
+  background-color: #fff;
+}
+.s {
+  border-top-color: #dee2e6;
+}
+.t {
+  border-right-color: #dee2e6;
+}
+.u {
+  border-bottom-color: #dee2e6;
+}
+.v {
+  border-left-color: #dee2e6;
+}
+.w {
+  vertical-align: inherit;
+}
+.x {
+  background-color: rgba(215, 216, 218, 0.05);
+}
+
+
+<table data-testid="table" class="a b c d e f g h i j bs-table">
+  <thead data-testid="table-head" class="k table-head">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        #
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        First
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Last
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Handle
+      </th>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="w table-body">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-1"
+        scope="row"
+      >
+        1
+      </th>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-2"
+      >
+        Mark
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-3"
+      >
+        Otto
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-4"
+      >
+        @mdo
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-1"
+        scope="row"
+      >
+        2
+      </th>
+      <td
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-2"
+      >
+        Jacob
+      </td>
+      <td
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-3"
+      >
+        Thornton
+      </td>
+      <td
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-4"
+      >
+        @fat
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-3-1"
+        scope="row"
+      >
+        3
+      </th>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-3-2"
+        colspan="2"
+      >
+        Larry Cole Bird
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-3-3"
+      >
+        @twitter
+      </td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Table should render a striped table of variant success 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  margin-bottom: 1rem;
+}
+.c {
+  vertical-align: top;
+}
+.d {
+  color: #000;
+}
+.e {
+  background-color: #d1e7dd;
+}
+.f:not(:first-child) {
+  border-top-width: 0;
+}
+.g {
+  border-top-color: #a7b9b1;
+}
+.h {
+  border-right-color: #a7b9b1;
+}
+.i {
+  border-bottom-color: #a7b9b1;
+}
+.j {
+  border-left-color: #a7b9b1;
+}
+.k {
+  vertical-align: bottom;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.n {
+  padding-top: 0.5rem;
+}
+.o {
+  padding-right: 0.5rem;
+}
+.p {
+  padding-bottom: 0.5rem;
+}
+.q {
+  padding-left: 0.5rem;
+}
+.r {
+  background-color: #fff;
+}
+.s {
+  border-top-color: #dee2e6;
+}
+.t {
+  border-right-color: #dee2e6;
+}
+.u {
+  border-bottom-color: #dee2e6;
+}
+.v {
+  border-left-color: #dee2e6;
+}
+.w {
+  vertical-align: inherit;
+}
+.x {
+  background-color: rgba(199, 219, 210, 0.05);
+}
+
+
+<table data-testid="table" class="a b c d e f g h i j bs-table">
+  <thead data-testid="table-head" class="k table-head">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        #
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        First
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Last
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Handle
+      </th>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="w table-body">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-1"
+        scope="row"
+      >
+        1
+      </th>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-2"
+      >
+        Mark
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-3"
+      >
+        Otto
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-4"
+      >
+        @mdo
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-1"
+        scope="row"
+      >
+        2
+      </th>
+      <td
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-2"
+      >
+        Jacob
+      </td>
+      <td
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-3"
+      >
+        Thornton
+      </td>
+      <td
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-4"
+      >
+        @fat
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-3-1"
+        scope="row"
+      >
+        3
+      </th>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-3-2"
+        colspan="2"
+      >
+        Larry Cole Bird
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-3-3"
+      >
+        @twitter
+      </td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Table should render a striped table of variant warning 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  margin-bottom: 1rem;
+}
+.c {
+  vertical-align: top;
+}
+.d {
+  color: #000;
+}
+.e {
+  background-color: #fff3cd;
+}
+.f:not(:first-child) {
+  border-top-width: 0;
+}
+.g {
+  border-top-color: #ccc2a4;
+}
+.h {
+  border-right-color: #ccc2a4;
+}
+.i {
+  border-bottom-color: #ccc2a4;
+}
+.j {
+  border-left-color: #ccc2a4;
+}
+.k {
+  vertical-align: bottom;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.n {
+  padding-top: 0.5rem;
+}
+.o {
+  padding-right: 0.5rem;
+}
+.p {
+  padding-bottom: 0.5rem;
+}
+.q {
+  padding-left: 0.5rem;
+}
+.r {
+  background-color: #fff;
+}
+.s {
+  border-top-color: #dee2e6;
+}
+.t {
+  border-right-color: #dee2e6;
+}
+.u {
+  border-bottom-color: #dee2e6;
+}
+.v {
+  border-left-color: #dee2e6;
+}
+.w {
+  vertical-align: inherit;
+}
+.x {
+  background-color: rgba(242, 231, 195, 0.05);
+}
+
+
+<table data-testid="table" class="a b c d e f g h i j bs-table">
+  <thead data-testid="table-head" class="k table-head">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        #
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        First
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Last
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Handle
+      </th>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="w table-body">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-1"
+        scope="row"
+      >
+        1
+      </th>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-2"
+      >
+        Mark
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-3"
+      >
+        Otto
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-1-4"
+      >
+        @mdo
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-1"
+        scope="row"
+      >
+        2
+      </th>
+      <td
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-2"
+      >
+        Jacob
+      </td>
+      <td
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-3"
+      >
+        Thornton
+      </td>
+      <td
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col col-row-2-4"
+      >
+        @fat
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-3-1"
+        scope="row"
+      >
+        3
+      </th>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-3-2"
+        colspan="2"
+      >
+        Larry Cole Bird
+      </td>
+      <td
+        data-testid="table-col"
+        class="d g h i j l m n o p q x table-col col-row-3-3"
+      >
+        @twitter
+      </td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Table should render a table of variant danger 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  margin-bottom: 1rem;
+}
+.c {
+  vertical-align: top;
+}
+.d {
+  color: #000;
+}
+.e {
+  background-color: #f8d7da;
+}
+.f:not(:first-child) {
+  border-top-width: 0;
+}
+.g {
+  border-top-color: #c6acae;
+}
+.h {
+  border-right-color: #c6acae;
+}
+.i {
+  border-bottom-color: #c6acae;
+}
+.j {
+  border-left-color: #c6acae;
+}
+.k {
+  vertical-align: bottom;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.n {
+  padding-top: 0.5rem;
+}
+.o {
+  padding-right: 0.5rem;
+}
+.p {
+  padding-bottom: 0.5rem;
+}
+.q {
+  padding-left: 0.5rem;
+}
+.r {
+  background-color: #fff;
+}
+.s {
+  border-top-color: #dee2e6;
+}
+.t {
+  border-right-color: #dee2e6;
+}
+.u {
+  border-bottom-color: #dee2e6;
+}
+.v {
+  border-left-color: #dee2e6;
+}
+.w {
+  vertical-align: inherit;
+}
+
+
+<table data-testid="table" class="a b c d e f g h i j bs-table">
+  <thead data-testid="table-head" class="k table-head">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        #
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        First
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Last
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Handle
+      </th>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="w table-body">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-1"
+        scope="row"
+      >
+        1
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-2"
+      >
+        Mark
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-3"
+      >
+        Otto
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-4"
+      >
+        @mdo
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-1"
+        scope="row"
+      >
+        2
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-2"
+      >
+        Jacob
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-3"
+      >
+        Thornton
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-4"
+      >
+        @fat
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-1"
+        scope="row"
+      >
+        3
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-2"
+        colspan="2"
+      >
+        Larry Cole Bird
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-3"
+      >
+        @twitter
+      </td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Table should render a table of variant default 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  margin-bottom: 1rem;
+}
+.c {
+  vertical-align: top;
+}
+.d {
+  color: #000;
+}
+.e {
+  background-color: #fff;
+}
+.f:not(:first-child) {
+  border-top-width: 0;
+}
+.g {
+  border-top-color: #dee2e6;
+}
+.h {
+  border-right-color: #dee2e6;
+}
+.i {
+  border-bottom-color: #dee2e6;
+}
+.j {
+  border-left-color: #dee2e6;
+}
+.k {
+  vertical-align: bottom;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.n {
+  padding-top: 0.5rem;
+}
+.o {
+  padding-right: 0.5rem;
+}
+.p {
+  padding-bottom: 0.5rem;
+}
+.q {
+  padding-left: 0.5rem;
+}
+.r {
+  vertical-align: inherit;
+}
+
+
+<table data-testid="table" class="a b c d e f g h i j bs-table">
+  <thead data-testid="table-head" class="k table-head">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col"
+        scope="col"
+      >
+        #
+      </th>
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col"
+        scope="col"
+      >
+        First
+      </th>
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col"
+        scope="col"
+      >
+        Last
+      </th>
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col"
+        scope="col"
+      >
+        Handle
+      </th>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="r table-body">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-1"
+        scope="row"
+      >
+        1
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-2"
+      >
+        Mark
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-3"
+      >
+        Otto
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-4"
+      >
+        @mdo
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-1"
+        scope="row"
+      >
+        2
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-2"
+      >
+        Jacob
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-3"
+      >
+        Thornton
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-4"
+      >
+        @fat
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-1"
+        scope="row"
+      >
+        3
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-2"
+        colspan="2"
+      >
+        Larry Cole Bird
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-3"
+      >
+        @twitter
+      </td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Table should render a table of variant info 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  margin-bottom: 1rem;
+}
+.c {
+  vertical-align: top;
+}
+.d {
+  color: #000;
+}
+.e {
+  background-color: #cff4fc;
+}
+.f:not(:first-child) {
+  border-top-width: 0;
+}
+.g {
+  border-top-color: #a6c3ca;
+}
+.h {
+  border-right-color: #a6c3ca;
+}
+.i {
+  border-bottom-color: #a6c3ca;
+}
+.j {
+  border-left-color: #a6c3ca;
+}
+.k {
+  vertical-align: bottom;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.n {
+  padding-top: 0.5rem;
+}
+.o {
+  padding-right: 0.5rem;
+}
+.p {
+  padding-bottom: 0.5rem;
+}
+.q {
+  padding-left: 0.5rem;
+}
+.r {
+  background-color: #fff;
+}
+.s {
+  border-top-color: #dee2e6;
+}
+.t {
+  border-right-color: #dee2e6;
+}
+.u {
+  border-bottom-color: #dee2e6;
+}
+.v {
+  border-left-color: #dee2e6;
+}
+.w {
+  vertical-align: inherit;
+}
+
+
+<table data-testid="table" class="a b c d e f g h i j bs-table">
+  <thead data-testid="table-head" class="k table-head">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        #
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        First
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Last
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Handle
+      </th>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="w table-body">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-1"
+        scope="row"
+      >
+        1
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-2"
+      >
+        Mark
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-3"
+      >
+        Otto
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-4"
+      >
+        @mdo
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-1"
+        scope="row"
+      >
+        2
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-2"
+      >
+        Jacob
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-3"
+      >
+        Thornton
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-4"
+      >
+        @fat
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-1"
+        scope="row"
+      >
+        3
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-2"
+        colspan="2"
+      >
+        Larry Cole Bird
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-3"
+      >
+        @twitter
+      </td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Table should render a table of variant primary 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  margin-bottom: 1rem;
+}
+.c {
+  vertical-align: top;
+}
+.d {
+  color: #000;
+}
+.e {
+  background-color: #cfe2ff;
+}
+.f:not(:first-child) {
+  border-top-width: 0;
+}
+.g {
+  border-top-color: #a6b5cc;
+}
+.h {
+  border-right-color: #a6b5cc;
+}
+.i {
+  border-bottom-color: #a6b5cc;
+}
+.j {
+  border-left-color: #a6b5cc;
+}
+.k {
+  vertical-align: bottom;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.n {
+  padding-top: 0.5rem;
+}
+.o {
+  padding-right: 0.5rem;
+}
+.p {
+  padding-bottom: 0.5rem;
+}
+.q {
+  padding-left: 0.5rem;
+}
+.r {
+  background-color: #fff;
+}
+.s {
+  border-top-color: #dee2e6;
+}
+.t {
+  border-right-color: #dee2e6;
+}
+.u {
+  border-bottom-color: #dee2e6;
+}
+.v {
+  border-left-color: #dee2e6;
+}
+.w {
+  vertical-align: inherit;
+}
+
+
+<table data-testid="table" class="a b c d e f g h i j bs-table">
+  <thead data-testid="table-head" class="k table-head">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        #
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        First
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Last
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Handle
+      </th>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="w table-body">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-1"
+        scope="row"
+      >
+        1
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-2"
+      >
+        Mark
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-3"
+      >
+        Otto
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-4"
+      >
+        @mdo
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-1"
+        scope="row"
+      >
+        2
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-2"
+      >
+        Jacob
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-3"
+      >
+        Thornton
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-4"
+      >
+        @fat
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-1"
+        scope="row"
+      >
+        3
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-2"
+        colspan="2"
+      >
+        Larry Cole Bird
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-3"
+      >
+        @twitter
+      </td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Table should render a table of variant secondary 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  margin-bottom: 1rem;
+}
+.c {
+  vertical-align: top;
+}
+.d {
+  color: #000;
+}
+.e {
+  background-color: #e2e3e5;
+}
+.f:not(:first-child) {
+  border-top-width: 0;
+}
+.g {
+  border-top-color: #b5b6b7;
+}
+.h {
+  border-right-color: #b5b6b7;
+}
+.i {
+  border-bottom-color: #b5b6b7;
+}
+.j {
+  border-left-color: #b5b6b7;
+}
+.k {
+  vertical-align: bottom;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.n {
+  padding-top: 0.5rem;
+}
+.o {
+  padding-right: 0.5rem;
+}
+.p {
+  padding-bottom: 0.5rem;
+}
+.q {
+  padding-left: 0.5rem;
+}
+.r {
+  background-color: #fff;
+}
+.s {
+  border-top-color: #dee2e6;
+}
+.t {
+  border-right-color: #dee2e6;
+}
+.u {
+  border-bottom-color: #dee2e6;
+}
+.v {
+  border-left-color: #dee2e6;
+}
+.w {
+  vertical-align: inherit;
+}
+
+
+<table data-testid="table" class="a b c d e f g h i j bs-table">
+  <thead data-testid="table-head" class="k table-head">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        #
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        First
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Last
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Handle
+      </th>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="w table-body">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-1"
+        scope="row"
+      >
+        1
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-2"
+      >
+        Mark
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-3"
+      >
+        Otto
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-4"
+      >
+        @mdo
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-1"
+        scope="row"
+      >
+        2
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-2"
+      >
+        Jacob
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-3"
+      >
+        Thornton
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-4"
+      >
+        @fat
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-1"
+        scope="row"
+      >
+        3
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-2"
+        colspan="2"
+      >
+        Larry Cole Bird
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-3"
+      >
+        @twitter
+      </td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Table should render a table of variant success 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  margin-bottom: 1rem;
+}
+.c {
+  vertical-align: top;
+}
+.d {
+  color: #000;
+}
+.e {
+  background-color: #d1e7dd;
+}
+.f:not(:first-child) {
+  border-top-width: 0;
+}
+.g {
+  border-top-color: #a7b9b1;
+}
+.h {
+  border-right-color: #a7b9b1;
+}
+.i {
+  border-bottom-color: #a7b9b1;
+}
+.j {
+  border-left-color: #a7b9b1;
+}
+.k {
+  vertical-align: bottom;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.n {
+  padding-top: 0.5rem;
+}
+.o {
+  padding-right: 0.5rem;
+}
+.p {
+  padding-bottom: 0.5rem;
+}
+.q {
+  padding-left: 0.5rem;
+}
+.r {
+  background-color: #fff;
+}
+.s {
+  border-top-color: #dee2e6;
+}
+.t {
+  border-right-color: #dee2e6;
+}
+.u {
+  border-bottom-color: #dee2e6;
+}
+.v {
+  border-left-color: #dee2e6;
+}
+.w {
+  vertical-align: inherit;
+}
+
+
+<table data-testid="table" class="a b c d e f g h i j bs-table">
+  <thead data-testid="table-head" class="k table-head">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        #
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        First
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Last
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Handle
+      </th>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="w table-body">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-1"
+        scope="row"
+      >
+        1
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-2"
+      >
+        Mark
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-3"
+      >
+        Otto
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-4"
+      >
+        @mdo
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-1"
+        scope="row"
+      >
+        2
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-2"
+      >
+        Jacob
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-3"
+      >
+        Thornton
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-4"
+      >
+        @fat
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-1"
+        scope="row"
+      >
+        3
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-2"
+        colspan="2"
+      >
+        Larry Cole Bird
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-3"
+      >
+        @twitter
+      </td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Table should render a table of variant warning 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  margin-bottom: 1rem;
+}
+.c {
+  vertical-align: top;
+}
+.d {
+  color: #000;
+}
+.e {
+  background-color: #fff3cd;
+}
+.f:not(:first-child) {
+  border-top-width: 0;
+}
+.g {
+  border-top-color: #ccc2a4;
+}
+.h {
+  border-right-color: #ccc2a4;
+}
+.i {
+  border-bottom-color: #ccc2a4;
+}
+.j {
+  border-left-color: #ccc2a4;
+}
+.k {
+  vertical-align: bottom;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.n {
+  padding-top: 0.5rem;
+}
+.o {
+  padding-right: 0.5rem;
+}
+.p {
+  padding-bottom: 0.5rem;
+}
+.q {
+  padding-left: 0.5rem;
+}
+.r {
+  background-color: #fff;
+}
+.s {
+  border-top-color: #dee2e6;
+}
+.t {
+  border-right-color: #dee2e6;
+}
+.u {
+  border-bottom-color: #dee2e6;
+}
+.v {
+  border-left-color: #dee2e6;
+}
+.w {
+  vertical-align: inherit;
+}
+
+
+<table data-testid="table" class="a b c d e f g h i j bs-table">
+  <thead data-testid="table-head" class="k table-head">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        #
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        First
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Last
+      </th>
+      <th
+        data-testid="table-col"
+        class="d l m n o p q r s t u v table-col"
+        scope="col"
+      >
+        Handle
+      </th>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="w table-body">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-1"
+        scope="row"
+      >
+        1
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-2"
+      >
+        Mark
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-3"
+      >
+        Otto
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-1-4"
+      >
+        @mdo
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-1"
+        scope="row"
+      >
+        2
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-2"
+      >
+        Jacob
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-3"
+      >
+        Thornton
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-4"
+      >
+        @fat
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-1"
+        scope="row"
+      >
+        3
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-2"
+        colspan="2"
+      >
+        Larry Cole Bird
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-3"
+      >
+        @twitter
+      </td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Table should render an active row in the table 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  margin-bottom: 1rem;
+}
+.c {
+  vertical-align: top;
+}
+.d {
+  color: #000;
+}
+.e {
+  background-color: #fff;
+}
+.f:not(:first-child) {
+  border-top-width: 0;
+}
+.g {
+  border-top-color: #dee2e6;
+}
+.h {
+  border-right-color: #dee2e6;
+}
+.i {
+  border-bottom-color: #dee2e6;
+}
+.j {
+  border-left-color: #dee2e6;
+}
+.k {
+  vertical-align: bottom;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.n {
+  padding-top: 0.5rem;
+}
+.o {
+  padding-right: 0.5rem;
+}
+.p {
+  padding-bottom: 0.5rem;
+}
+.q {
+  padding-left: 0.5rem;
+}
+.r {
+  vertical-align: inherit;
+}
+.s {
+  color: rgb(0, 0, 0);
+}
+.t {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+<table data-testid="table" class="a b c d e f g h i j bs-table">
+  <thead data-testid="table-head" class="k table-head">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col"
+        scope="col"
+      >
+        #
+      </th>
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col"
+        scope="col"
+      >
+        First
+      </th>
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col"
+        scope="col"
+      >
+        Last
+      </th>
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col"
+        scope="col"
+      >
+        Handle
+      </th>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="r table-body">
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="g h i j l m n o p q s t table-col col-row-1-1"
+        scope="row"
+      >
+        1
+      </th>
+      <td
+        data-testid="table-col"
+        class="g h i j l m n o p q s t table-col col-row-1-2"
+      >
+        Mark
+      </td>
+      <td
+        data-testid="table-col"
+        class="g h i j l m n o p q s t table-col col-row-1-3"
+      >
+        Otto
+      </td>
+      <td
+        data-testid="table-col"
+        class="g h i j l m n o p q s t table-col col-row-1-4"
+      >
+        @mdo
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-1"
+        scope="row"
+      >
+        2
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-2"
+      >
+        Jacob
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-3"
+      >
+        Thornton
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-2-4"
+      >
+        @fat
+      </td>
+    </tr>
+    <tr data-testid="table-row" class="d e g h i j l m n o p q table-row">
+      <th
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-1"
+        scope="row"
+      >
+        3
+      </th>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-2"
+        colspan="2"
+      >
+        Larry Cole Bird
+      </td>
+      <td
+        data-testid="table-col"
+        class="d e g h i j l m n o p q table-col col-row-3-3"
+      >
+        @twitter
+      </td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;

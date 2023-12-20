@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Carousel/Items should render Items wrapper with some text 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  width: 100%;
+}
+.c {
+  overflow-x: hidden;
+}
+.d {
+  overflow-y: hidden;
+}
+
+
+<div data-testid="carousel-items" class="a b c d carousel-inner">Items</div>
+;
+"
+`;
+
+exports[`components/Carousel/Items should render Items wrapper with some text 2`] = `
+".a {
+  position: relative;
+}
+.b {
+  width: 100%;
+}
+.c {
+  overflow-x: hidden;
+}
+.d {
+  overflow-y: hidden;
+}
+.e {
+  display: block;
+}
+.f {
+  float: left;
+}
+.g {
+  margin-right: -100%;
+}
+.h {
+  backface-visibility: hidden;
+}
+.m {
+  transition-property: transform;
+}
+.n {
+  transition-duration: 0.6s;
+}
+.o {
+  transition-delay: ease-in-out;
+}
+.p {
+  transition-timing-function: ease;
+}
+.q {
+  position: absolute;
+}
+.r {
+  right: 15%;
+}
+.s {
+  bottom: 1.25rem;
+}
+.t {
+  left: 15%;
+}
+.u {
+  padding-top: 1.25rem;
+}
+.v {
+  padding-bottom: 1.25rem;
+}
+.w {
+  color: #fff;
+}
+.x {
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .y {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .z {
+    display: block;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .i {
+    transition-property: none;
+  }
+  .j {
+    transition-duration: 0s;
+  }
+  .k {
+    transition-delay: 0s;
+  }
+  .l {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="carousel-items" class="a b c d carousel-inner">
+  <div data-testid="carousel-item" class="a b e f g h i j k l m n o p">
+    <img
+      data-testid="carousel-item-image"
+      style="width: 100%; display: block"
+      src="https://picsum.photos/seed/picsum/450/300"
+      alt="Placeholder Image 1"
+    />
+    <div
+      data-testid="carousel-caption"
+      class="q r s t u v w x y z carousel-caption"
+    >
+      <h5>Placeholder 1</h5>
+      <p>Placeholder Item Description</p>
+    </div>
+  </div>
+</div>
+;
+"
+`;

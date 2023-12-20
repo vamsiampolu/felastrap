@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/Floating/InputGroup/GroupText should display a group text 1`] = `
+".a {
+  height: calc(3.5rem + 2px);
+}
+.b {
+  min-height: calc(3.5rem + 2px);
+}
+.c {
+  display: flex;
+}
+.d {
+  align-items: center;
+}
+.e {
+  font-size: 1rem;
+}
+.f {
+  font-weight: 400;
+}
+.g {
+  line-height: 1.5;
+}
+.h {
+  color: #212529;
+}
+.i {
+  text-align: center;
+}
+.j {
+  white-space: nowrap;
+}
+.k {
+  background-color: #f8f9fa;
+}
+.l {
+  border-top-left-radius: 0.375rem;
+}
+.m {
+  border-top-right-radius: 0.375rem;
+}
+.n {
+  border-bottom-right-radius: 0.375rem;
+}
+.o {
+  border-bottom-left-radius: 0.375rem;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: #dee2e6;
+}
+.y {
+  border-right-color: #dee2e6;
+}
+.z {
+  border-bottom-color: #dee2e6;
+}
+.ab {
+  border-left-color: #dee2e6;
+}
+.ac {
+  padding-top: 0.375rem;
+}
+.ae {
+  padding-right: 0.75rem;
+}
+.af {
+  padding-bottom: 0.375rem;
+}
+.ag {
+  padding-left: 0.75rem;
+}
+
+
+<span
+  data-testid="input-group-text"
+  class="ab ac ae af ag c d e f g h i j k l m n o p q r s t u v w x y z input-group-text a b floating-input-group-text"
+  >Floating Group Text</span
+>;
+"
+`;

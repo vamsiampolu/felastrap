@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Card/Title should render a card title 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  margin-bottom: 1rem;
+}
+.c {
+  color: inherit;
+}
+.d {
+  font-weight: 500;
+}
+.e {
+  font-size: 1.25rem;
+}
+.f {
+  line-height: 1.2;
+}
+.g {
+  margin-top: 0;
+}
+.h {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1200px) {
+  .i {
+    font-size: 1.25rem;
+  }
+}
+
+
+<h5 class="a b" data-testid="card-title">Card Title</h5>
+;
+"
+`;

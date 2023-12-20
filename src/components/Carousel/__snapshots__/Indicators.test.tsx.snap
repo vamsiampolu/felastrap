@@ -1,0 +1,427 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Carousel/Indicators should render a wrapper that contains the indicators 1`] = `
+".a {
+  position: absolute;
+}
+.b {
+  right: 0;
+}
+.c {
+  bottom: 0;
+}
+.d {
+  left: 0;
+}
+.e {
+  z-index: 2;
+}
+.f {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.g {
+  justify-content: center;
+}
+.h {
+  margin-right: 15%;
+}
+.i {
+  margin-bottom: 1rem;
+}
+.j {
+  margin-left: 15%;
+}
+.k {
+  padding-top: 0;
+}
+.l {
+  padding-right: 0;
+}
+.m {
+  padding-bottom: 0;
+}
+.n {
+  padding-left: 0;
+}
+.o {
+  box-sizing: content-box;
+}
+.p {
+  width: 30px;
+}
+.q {
+  height: 3px;
+}
+.r {
+  margin-right: 3px;
+}
+.s {
+  margin-left: 3px;
+}
+.t {
+  text-indent: -999px;
+}
+.u {
+  cursor: pointer;
+}
+.v {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.w {
+  background-clip: padding-box;
+}
+.x {
+  opacity: 1;
+}
+.ae {
+  transition-property: opacity;
+}
+.af {
+  transition-duration: 0.6s;
+}
+.ag {
+  transition-delay: ease;
+}
+.ah {
+  transition-timing-function: ease;
+}
+.ai {
+  border-bottom-width: 10px;
+}
+.aj {
+  border-bottom-style: solid;
+}
+.ak {
+  border-bottom-color: transparent;
+}
+.al {
+  border-top-width: 10px;
+}
+.am {
+  border-top-style: solid;
+}
+.an {
+  border-top-color: transparent;
+}
+.ao {
+  border-right-width: 0;
+}
+.ap {
+  border-left-width: 0;
+}
+.aq {
+  flex-grow: 0;
+}
+.ar {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.as {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.at {
+  border-top-left-radius: 4px;
+}
+.au {
+  border-top-right-radius: 0;
+}
+.av {
+  border-bottom-right-radius: 0;
+}
+.aw {
+  border-bottom-left-radius: 4px;
+}
+.ax {
+  padding-top: 6px;
+}
+.ay {
+  padding-bottom: 6px;
+}
+.az {
+  padding-left: 12px;
+}
+.ba {
+  padding-right: 12px;
+}
+.bb {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.bc {
+  color: #333;
+}
+.bd {
+  display: inline-block;
+}
+.be {
+  font-size: 14px;
+}
+.bf {
+  font-weight: 400;
+}
+.bg {
+  line-height: 1.42857143;
+}
+.bh {
+  margin-bottom: 0;
+}
+.bi {
+  text-align: center;
+}
+.bj {
+  touch-action: manipulation;
+}
+.bk {
+  white-space: nowrap;
+}
+.bl {
+  vertical-align: middle;
+}
+.bm {
+  user-select: none;
+}
+.bw:disabled {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.bx:disabled {
+  color: #333;
+}
+.by:disabled {
+  box-shadow: none;
+}
+.bz:disabled {
+  cursor: not-allowed;
+}
+.ca:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.cb:disabled {
+  opacity: 0.65;
+}
+.cc:disabled {
+  pointer-events: none;
+}
+.cd:disabled {
+  border-top-color: #ccc;
+}
+.ce:disabled {
+  border-right-color: #ccc;
+}
+.cf:disabled {
+  border-bottom-color: #ccc;
+}
+.cg:disabled {
+  border-left-color: #ccc;
+}
+.cv {
+  border-top-width: 1px;
+}
+.cw {
+  border-right-width: 1px;
+}
+.cx {
+  border-bottom-width: 1px;
+}
+.cy {
+  border-left-width: 1px;
+}
+.cz {
+  border-right-style: solid;
+}
+.da {
+  border-left-style: solid;
+}
+.db {
+  border-top-color: #ccc;
+}
+.dc {
+  border-right-color: #ccc;
+}
+.dd {
+  border-bottom-color: #ccc;
+}
+.de {
+  border-left-color: #ccc;
+}
+.df {
+  opacity: 0.5;
+}
+.cp:hover {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.cq:hover {
+  color: #333;
+}
+.cr:hover {
+  border-top-color: #adadad;
+}
+.cs:hover {
+  border-right-color: #adadad;
+}
+.ct:hover {
+  border-bottom-color: #adadad;
+}
+.cu:hover {
+  border-left-color: #adadad;
+}
+.ch:focus-visible {
+  color: #333;
+}
+.ci:focus-visible {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.cj:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.ck:focus-visible {
+  outline-width: 0;
+}
+.cl:focus-visible {
+  border-top-color: #adadad;
+}
+.cm:focus-visible {
+  border-right-color: #adadad;
+}
+.cn:focus-visible {
+  border-bottom-color: #adadad;
+}
+.co:focus-visible {
+  border-left-color: #adadad;
+}
+.bn:active {
+  color: #333;
+}
+.bo:active {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.bp:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.bq:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.br:active {
+  outline-width: 0;
+}
+.bs:active {
+  border-top-color: #adadad;
+}
+.bt:active {
+  border-right-color: #adadad;
+}
+.bu:active {
+  border-bottom-color: #adadad;
+}
+.bv:active {
+  border-left-color: #adadad;
+}
+@media (prefers-reduced-motion: reduce) {
+  .y {
+    transition-property: none;
+  }
+  .z {
+    transition-duration: 0s;
+  }
+  .ab {
+    transition-delay: 0s;
+  }
+  .ac {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div
+  data-testid="carousel-indicators"
+  class="a b c d e f g h i j k l m n carousel-indicators"
+>
+  <button
+    data-testid="carousel-indicator"
+    class="aj am at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de u v ab ac ae af ag ah ai aj ak al am an ao ap aq ar as k l m n o p q r s t u v w x y z carousel-indicator"
+    type="button"
+    aria-current="true"
+    aria-label="Slide 1"
+  ></button
+  ><button
+    data-testid="carousel-indicator"
+    class="aj am at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de u v ab ac ae af ag ah ai aj ak al am an ao ap aq ar as df k l m n o p q r s t u v w y z carousel-indicator"
+    type="button"
+    aria-current="false"
+    aria-label="Slide 2"
+  ></button>
+</div>
+;
+"
+`;
+
+exports[`components/Carousel/Indicators should render the Indicators wrapper without the indicators 1`] = `
+".a {
+  position: absolute;
+}
+.b {
+  right: 0;
+}
+.c {
+  bottom: 0;
+}
+.d {
+  left: 0;
+}
+.e {
+  z-index: 2;
+}
+.f {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.g {
+  justify-content: center;
+}
+.h {
+  margin-right: 15%;
+}
+.i {
+  margin-bottom: 1rem;
+}
+.j {
+  margin-left: 15%;
+}
+.k {
+  padding-top: 0;
+}
+.l {
+  padding-right: 0;
+}
+.m {
+  padding-bottom: 0;
+}
+.n {
+  padding-left: 0;
+}
+
+
+<div
+  data-testid="carousel-indicators"
+  class="a b c d e f g h i j k l m n carousel-indicators"
+>
+  Indicators
+</div>
+;
+"
+`;

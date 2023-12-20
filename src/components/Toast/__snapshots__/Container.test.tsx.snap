@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Toast/Container should render a toast container with bottom-center 1`] = `
+".a {
+  position: absolute;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  left: 50%;
+}
+.d {
+  transform: translateX(-50%);
+}
+
+
+<div
+  data-testid="toast-container"
+  style="font-size: 0.75rem"
+  class="a b c d toast-container"
+>
+  <div>Toast Container</div>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Container should render a toast container with bottom-left 1`] = `
+".a {
+  position: absolute;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  left: 0;
+}
+
+
+<div
+  data-testid="toast-container"
+  style="font-size: 0.75rem"
+  class="a b c toast-container"
+>
+  <div>Toast Container</div>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Container should render a toast container with bottom-right 1`] = `
+".a {
+  position: absolute;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  right: 0;
+}
+
+
+<div
+  data-testid="toast-container"
+  style="font-size: 0.75rem"
+  class="a b c toast-container"
+>
+  <div>Toast Container</div>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Container should render a toast container with middle-center 1`] = `
+".a {
+  position: absolute;
+}
+.b {
+  top: 50%;
+}
+.c {
+  left: 50%;
+}
+.d {
+  transform: translate(-50%, -50%);
+}
+
+
+<div
+  data-testid="toast-container"
+  style="font-size: 0.75rem"
+  class="a b c d toast-container"
+>
+  <div>Toast Container</div>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Container should render a toast container with middle-left 1`] = `
+".a {
+  position: absolute;
+}
+.b {
+  top: 50%;
+}
+.c {
+  left: 0;
+}
+.d {
+  transform: translateY(-50%);
+}
+
+
+<div
+  data-testid="toast-container"
+  style="font-size: 0.75rem"
+  class="a b c d toast-container"
+>
+  <div>Toast Container</div>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Container should render a toast container with middle-right 1`] = `
+".a {
+  position: absolute;
+}
+.b {
+  top: 50%;
+}
+.c {
+  right: 0;
+}
+.d {
+  transform: translateY(-50%);
+}
+
+
+<div
+  data-testid="toast-container"
+  style="font-size: 0.75rem"
+  class="a b c d toast-container"
+>
+  <div>Toast Container</div>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Container should render a toast container with style and className 1`] = `
+".a {
+  position: absolute;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  right: 0;
+}
+
+
+<div
+  data-testid="toast-container"
+  style="font-size: 0.75rem"
+  class="a b c toast-container not-sandwich-wrap"
+>
+  <div>Toast Container</div>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Container should render a toast container with top-center 1`] = `
+".a {
+  position: absolute;
+}
+.b {
+  top: 0;
+}
+.c {
+  left: 50%;
+}
+.d {
+  transform: translateX(-50%);
+}
+
+
+<div
+  data-testid="toast-container"
+  style="font-size: 0.75rem"
+  class="a b c d toast-container"
+>
+  <div>Toast Container</div>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Container should render a toast container with top-left 1`] = `
+".a {
+  position: absolute;
+}
+.b {
+  top: 0;
+}
+.c {
+  left: 0;
+}
+
+
+<div
+  data-testid="toast-container"
+  style="font-size: 0.75rem"
+  class="a b c toast-container"
+>
+  <div>Toast Container</div>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Container should render a toast container with top-right 1`] = `
+".a {
+  position: absolute;
+}
+.b {
+  top: 0;
+}
+.c {
+  right: 0;
+}
+
+
+<div
+  data-testid="toast-container"
+  style="font-size: 0.75rem"
+  class="a b c toast-container"
+>
+  <div>Toast Container</div>
+</div>
+;
+"
+`;

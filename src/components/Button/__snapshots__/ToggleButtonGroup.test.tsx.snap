@@ -1,0 +1,639 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/ToggleButtonGroup should create a group of toggle buttons 1`] = `
+".g {
+  border-top-width: 0;
+}
+.h {
+  border-right-width: 0;
+}
+.i {
+  border-bottom-width: 0;
+}
+.j {
+  border-left-width: 0;
+}
+.k {
+  border-top-color: rgb(0, 0, 0);
+}
+.l {
+  border-right-color: rgb(0, 0, 0);
+}
+.m {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.n {
+  border-left-color: rgb(0, 0, 0);
+}
+.o {
+  position: absolute;
+}
+.p {
+  clip: rect(0, 0, 0, 0);
+}
+.q {
+  pointer-events: none;
+}
+.r {
+  border-top-left-radius: 4px;
+}
+.s {
+  border-top-right-radius: 0;
+}
+.t {
+  border-bottom-right-radius: 0;
+}
+.u {
+  border-bottom-left-radius: 4px;
+}
+.v {
+  padding-top: 6px;
+}
+.w {
+  padding-bottom: 6px;
+}
+.x {
+  padding-left: 12px;
+}
+.y {
+  padding-right: 12px;
+}
+.z {
+  -webkit-background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+.ab {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.ac {
+  color: #dc3545;
+}
+.ae {
+  cursor: pointer;
+}
+.af {
+  display: inline-block;
+}
+.ag {
+  font-size: 14px;
+}
+.ah {
+  font-weight: 400;
+}
+.ai {
+  line-height: 1.42857143;
+}
+.aj {
+  margin-bottom: 0;
+}
+.ak {
+  text-align: center;
+}
+.al {
+  touch-action: manipulation;
+}
+.am {
+  white-space: nowrap;
+}
+.an {
+  vertical-align: middle;
+}
+.ao {
+  user-select: none;
+}
+.ay:disabled {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.az:disabled {
+  color: #dc3545;
+}
+.ba:disabled {
+  box-shadow: none;
+}
+.bb:disabled {
+  cursor: not-allowed;
+}
+.bc:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.bd:disabled {
+  opacity: 0.65;
+}
+.be:disabled {
+  pointer-events: none;
+}
+.bf:disabled {
+  border-top-color: #dc3545;
+}
+.bg:disabled {
+  border-right-color: #dc3545;
+}
+.bh:disabled {
+  border-bottom-color: #dc3545;
+}
+.bi:disabled {
+  border-left-color: #dc3545;
+}
+.bs {
+  gradient: none;
+}
+.bu {
+  border-top-width: 1px;
+}
+.bv {
+  border-right-width: 1px;
+}
+.bw {
+  border-bottom-width: 1px;
+}
+.bx {
+  border-left-width: 1px;
+}
+.by {
+  border-top-style: solid;
+}
+.bz {
+  border-right-style: solid;
+}
+.ca {
+  border-bottom-style: solid;
+}
+.cb {
+  border-left-style: solid;
+}
+.cc {
+  border-top-color: #dc3545;
+}
+.cd {
+  border-right-color: #dc3545;
+}
+.ce {
+  border-bottom-color: #dc3545;
+}
+.cf {
+  border-left-color: #dc3545;
+}
+.cg {
+  -webkit-filter: none;
+  filter: none;
+}
+.ch {
+  opacity: 0.65;
+}
+.a:hover {
+  color: #dc3545;
+}
+.b:hover {
+  -webkit-background-color: #dc3545;
+  background-color: #dc3545;
+}
+.c:hover {
+  border-top-color: #dc3545;
+}
+.d:hover {
+  border-right-color: #dc3545;
+}
+.e:hover {
+  border-bottom-color: #dc3545;
+}
+.f:hover {
+  border-left-color: #dc3545;
+}
+.br:hover {
+  color: #fff;
+}
+.bj:focus-visible {
+  color: #fff;
+}
+.bk:focus-visible {
+  -webkit-background-color: #bb2d3b;
+  background-color: #bb2d3b;
+}
+.bl:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(225, 83, 97, 0.5);
+}
+.bm:focus-visible {
+  outline-width: 0;
+}
+.bn:focus-visible {
+  border-top-color: #b02a37;
+}
+.bo:focus-visible {
+  border-right-color: #b02a37;
+}
+.bp:focus-visible {
+  border-bottom-color: #b02a37;
+}
+.bq:focus-visible {
+  border-left-color: #b02a37;
+}
+.bt:focus {
+  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.5);
+}
+.ap:active {
+  color: #fff;
+}
+.aq:active {
+  -webkit-background-color: #dc3545;
+  background-color: #dc3545;
+}
+.ar:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.as:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.at:active {
+  outline-width: 0;
+}
+.au:active {
+  border-top-color: #dc3545;
+}
+.av:active {
+  border-right-color: #dc3545;
+}
+.aw:active {
+  border-bottom-color: #dc3545;
+}
+.ax:active {
+  border-left-color: #dc3545;
+}
+
+
+<input
+  data-testid="toggle-button-input"
+  class="o p q toggle-button-input"
+  name="checkbox-group"
+  type="checkbox"
+  autocomplete="off"
+  aria-disabled="false"
+  id="radio-1"
+  value="one"
+/><label
+  data-testid="toggle-button-label"
+  class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf d e f r s t u v w x y z a b c d e f g h i j k l m n toggle-button-label"
+  for="radio-1"
+  >Checkbox One</label
+><input
+  data-testid="toggle-button-input"
+  class="o p q toggle-button-input"
+  name="checkbox-group"
+  type="checkbox"
+  autocomplete="off"
+  aria-disabled="false"
+  id="check-2"
+  value="two"
+/><label
+  data-testid="toggle-button-label"
+  class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf d e f r s t u v w x y z a b c d e f g h i j k l m n toggle-button-label"
+  for="check-2"
+  >Checkbox Two</label
+><input
+  data-testid="toggle-button-input"
+  class="o p q toggle-button-input"
+  name="checkbox-group"
+  type="checkbox"
+  autocomplete="off"
+  disabled=""
+  aria-disabled="true"
+  id="check-3"
+  value="three"
+/><label
+  data-testid="toggle-button-label"
+  class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf d e f r s t u v w x y z a b c cg ch d e f g h i j k l m n q toggle-button-label"
+  for="check-3"
+  >Checkbox Three</label
+>;
+"
+`;
+
+exports[`components/ToggleButtonGroup should set the initial value of the group 1`] = `
+".g {
+  border-top-width: 0;
+}
+.h {
+  border-right-width: 0;
+}
+.i {
+  border-bottom-width: 0;
+}
+.j {
+  border-left-width: 0;
+}
+.k {
+  border-top-color: rgb(0, 0, 0);
+}
+.l {
+  border-right-color: rgb(0, 0, 0);
+}
+.m {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.n {
+  border-left-color: rgb(0, 0, 0);
+}
+.o {
+  position: absolute;
+}
+.p {
+  clip: rect(0, 0, 0, 0);
+}
+.q {
+  pointer-events: none;
+}
+.r {
+  border-top-left-radius: 4px;
+}
+.s {
+  border-top-right-radius: 0;
+}
+.t {
+  border-bottom-right-radius: 0;
+}
+.u {
+  border-bottom-left-radius: 4px;
+}
+.v {
+  padding-top: 6px;
+}
+.w {
+  padding-bottom: 6px;
+}
+.x {
+  padding-left: 12px;
+}
+.y {
+  padding-right: 12px;
+}
+.z {
+  background-color: #fff;
+}
+.ab {
+  background-image: none;
+}
+.ac {
+  color: #333;
+}
+.ae {
+  cursor: pointer;
+}
+.af {
+  display: inline-block;
+}
+.ag {
+  font-size: 14px;
+}
+.ah {
+  font-weight: 400;
+}
+.ai {
+  line-height: 1.42857143;
+}
+.aj {
+  margin-bottom: 0;
+}
+.ak {
+  text-align: center;
+}
+.al {
+  touch-action: manipulation;
+}
+.am {
+  white-space: nowrap;
+}
+.an {
+  vertical-align: middle;
+}
+.ao {
+  user-select: none;
+}
+.ay:disabled {
+  background-color: #fff;
+}
+.az:disabled {
+  color: #333;
+}
+.ba:disabled {
+  box-shadow: none;
+}
+.bb:disabled {
+  cursor: not-allowed;
+}
+.bc:disabled {
+  filter: alpha(opacity=65);
+}
+.bd:disabled {
+  opacity: 0.65;
+}
+.be:disabled {
+  pointer-events: none;
+}
+.bf:disabled {
+  border-top-color: #ccc;
+}
+.bg:disabled {
+  border-right-color: #ccc;
+}
+.bh:disabled {
+  border-bottom-color: #ccc;
+}
+.bi:disabled {
+  border-left-color: #ccc;
+}
+.bw {
+  border-top-width: 1px;
+}
+.bx {
+  border-right-width: 1px;
+}
+.by {
+  border-bottom-width: 1px;
+}
+.bz {
+  border-left-width: 1px;
+}
+.ca {
+  border-top-style: solid;
+}
+.cb {
+  border-right-style: solid;
+}
+.cc {
+  border-bottom-style: solid;
+}
+.cd {
+  border-left-style: solid;
+}
+.ce {
+  border-top-color: #ccc;
+}
+.cf {
+  border-right-color: #ccc;
+}
+.cg {
+  border-bottom-color: #ccc;
+}
+.ch {
+  border-left-color: #ccc;
+}
+.ci {
+  color: #333 !important;
+}
+.cj {
+  background-color: #e6e6e6;
+}
+.ck {
+  border-top-color: #adadad;
+}
+.cl {
+  border-right-color: #adadad;
+}
+.cm {
+  border-bottom-color: #adadad;
+}
+.cn {
+  border-left-color: #adadad;
+}
+.co {
+  filter: none;
+}
+.cp {
+  opacity: 0.65;
+}
+.a:hover {
+  color: #333;
+}
+.b:hover {
+  background-color: #fff;
+}
+.c:hover {
+  border-top-color: #ccc;
+}
+.d:hover {
+  border-right-color: #ccc;
+}
+.e:hover {
+  border-bottom-color: #ccc;
+}
+.f:hover {
+  border-left-color: #ccc;
+}
+.br:hover {
+  background-color: #e6e6e6;
+}
+.bs:hover {
+  border-top-color: #adadad;
+}
+.bt:hover {
+  border-right-color: #adadad;
+}
+.bu:hover {
+  border-bottom-color: #adadad;
+}
+.bv:hover {
+  border-left-color: #adadad;
+}
+.bj:focus-visible {
+  color: #333;
+}
+.bk:focus-visible {
+  background-color: #e6e6e6;
+}
+.bl:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.bm:focus-visible {
+  outline-width: 0;
+}
+.bn:focus-visible {
+  border-top-color: #adadad;
+}
+.bo:focus-visible {
+  border-right-color: #adadad;
+}
+.bp:focus-visible {
+  border-bottom-color: #adadad;
+}
+.bq:focus-visible {
+  border-left-color: #adadad;
+}
+.ap:active {
+  color: #333;
+}
+.aq:active {
+  background-color: #e6e6e6;
+}
+.ar:active {
+  background-image: none;
+}
+.as:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.at:active {
+  outline-width: 0;
+}
+.au:active {
+  border-top-color: #adadad;
+}
+.av:active {
+  border-right-color: #adadad;
+}
+.aw:active {
+  border-bottom-color: #adadad;
+}
+.ax:active {
+  border-left-color: #adadad;
+}
+
+
+<input
+  data-testid="toggle-button-input"
+  class="o p q toggle-button-input"
+  name="radio-group"
+  type="radio"
+  autocomplete="off"
+  aria-disabled="false"
+  id="radio-1"
+  value="one"
+/><label
+  data-testid="toggle-button-label"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch r s t u v w x y z a b c d e f g h i j k l m n toggle-button-label"
+  for="radio-1"
+  >Radio One</label
+><input
+  data-testid="toggle-button-input"
+  class="o p q toggle-button-input"
+  name="radio-group"
+  type="radio"
+  autocomplete="off"
+  aria-disabled="false"
+  id="radio-2"
+  checked=""
+  value="two"
+/><label
+  data-testid="toggle-button-label"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch r s t u v w x y z a b bl bw bx by bz c ci cj ck cl cm cn d e f toggle-button-label"
+  for="radio-2"
+  >Radio Two</label
+><input
+  data-testid="toggle-button-input"
+  class="o p q toggle-button-input"
+  name="radio-group"
+  type="radio"
+  autocomplete="off"
+  disabled=""
+  aria-disabled="true"
+  id="radio-3"
+  value="three"
+/><label
+  data-testid="toggle-button-label"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch r s t u v w x y z a b c co cp d e f g h i j k l m n q toggle-button-label"
+  for="radio-3"
+  >Radio Three</label
+>;
+"
+`;

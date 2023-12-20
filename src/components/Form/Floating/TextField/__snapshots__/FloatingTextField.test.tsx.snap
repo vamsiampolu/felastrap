@@ -1,0 +1,645 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/TextField/FloatingTextField should render a disabled floating text field with an input 1`] = `
+".a {
+  display: block;
+}
+.b {
+  position: relative;
+}
+.c {
+  margin-bottom: 1rem !important;
+}
+.d {
+  appearance: none;
+}
+.e {
+  background-clip: padding-box;
+}
+.f {
+  background-color: #fff;
+}
+.g {
+  color: #212529;
+}
+.h {
+  font-size: 1rem;
+}
+.i {
+  font-weight: 400;
+}
+.j {
+  height: calc(3.5rem + 2px);
+}
+.k {
+  line-height: 1.25;
+}
+.l {
+  min-height: calc(3.5rem + 2px);
+}
+.m {
+  width: 100%;
+}
+.r:disabled {
+  background-color: #e9ecef;
+}
+.s:disabled {
+  opacity: 1;
+}
+.ac::placeholder {
+  opacity: 1;
+}
+.ae::placeholder {
+  color: transparent;
+}
+.af:not(:placeholder-shown) {
+  padding-top: 1.625rem;
+}
+.ag:not(:placeholder-shown) {
+  padding-bottom: 0.625rem;
+}
+.ah:-webkit-autofill {
+  padding-top: 1.625rem;
+}
+.ai:-webkit-autofill {
+  padding-bottom: 0.625rem;
+}
+.aj::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ak::-webkit-input-placeholder {
+  color: transparent;
+}
+.al::-moz-placeholder {
+  opacity: 1;
+}
+.am::-moz-placeholder {
+  color: transparent;
+}
+.an:-ms-input-placeholder {
+  opacity: 1;
+}
+.ao:-ms-input-placeholder {
+  color: transparent;
+}
+.ap:-moz-placeholder {
+  opacity: 1;
+}
+.aq:-moz-placeholder {
+  color: transparent;
+}
+.ar {
+  transition-property: border-color, box-shadow;
+}
+.as {
+  transition-duration: 0.15s, 0.15s;
+}
+.at {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.au {
+  transition-timing-function: ease, ease;
+}
+.av {
+  padding-top: 1rem;
+}
+.aw {
+  padding-right: 0.75rem;
+}
+.ax {
+  padding-bottom: 1rem;
+}
+.ay {
+  padding-left: 0.75rem;
+}
+.az {
+  border-top-left-radius: 0.375rem;
+}
+.ba {
+  border-top-right-radius: 0.375rem;
+}
+.bb {
+  border-bottom-right-radius: 0.375rem;
+}
+.bc {
+  border-bottom-left-radius: 0.375rem;
+}
+.bd {
+  border-top-width: 1px;
+}
+.be {
+  border-right-width: 1px;
+}
+.bf {
+  border-bottom-width: 1px;
+}
+.bg {
+  border-left-width: 1px;
+}
+.bh {
+  border-top-style: solid;
+}
+.bi {
+  border-right-style: solid;
+}
+.bj {
+  border-bottom-style: solid;
+}
+.bk {
+  border-left-style: solid;
+}
+.bl {
+  border-top-color: #dee2e6;
+}
+.bm {
+  border-right-color: #dee2e6;
+}
+.bn {
+  border-bottom-color: #dee2e6;
+}
+.bo {
+  border-left-color: #dee2e6;
+}
+.t:focus {
+  background-color: #fff;
+}
+.u:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.v:focus {
+  color: #212529;
+}
+.w:focus {
+  outline-width: 0;
+}
+.x:focus {
+  border-top-color: #86b7fe;
+}
+.y:focus {
+  border-right-color: #86b7fe;
+}
+.z:focus {
+  border-bottom-color: #86b7fe;
+}
+.ab:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .n {
+    transition-property: none;
+  }
+  .o {
+    transition-duration: 0s;
+  }
+  .p {
+    transition-delay: 0s;
+  }
+  .q {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="floating-text-field" class="a b c form-floating">
+  <input
+    data-testid="floating-text-input"
+    type="text"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo d e f g h i j k l m n o p q r s t u v w x y z"
+    id="foobar-input"
+    disabled=""
+    value=""
+  />
+</div>
+;
+"
+`;
+
+exports[`components/Form/TextField/FloatingTextField should render a floating text field with an input 1`] = `
+".a {
+  display: block;
+}
+.b {
+  position: relative;
+}
+.c {
+  margin-bottom: 1rem !important;
+}
+.d {
+  appearance: none;
+}
+.e {
+  background-clip: padding-box;
+}
+.f {
+  background-color: #fff;
+}
+.g {
+  color: #212529;
+}
+.h {
+  font-size: 1rem;
+}
+.i {
+  font-weight: 400;
+}
+.j {
+  height: calc(3.5rem + 2px);
+}
+.k {
+  line-height: 1.25;
+}
+.l {
+  min-height: calc(3.5rem + 2px);
+}
+.m {
+  width: 100%;
+}
+.r:disabled {
+  background-color: #e9ecef;
+}
+.s:disabled {
+  opacity: 1;
+}
+.ac::placeholder {
+  opacity: 1;
+}
+.ae::placeholder {
+  color: transparent;
+}
+.af:not(:placeholder-shown) {
+  padding-top: 1.625rem;
+}
+.ag:not(:placeholder-shown) {
+  padding-bottom: 0.625rem;
+}
+.ah:-webkit-autofill {
+  padding-top: 1.625rem;
+}
+.ai:-webkit-autofill {
+  padding-bottom: 0.625rem;
+}
+.aj::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ak::-webkit-input-placeholder {
+  color: transparent;
+}
+.al::-moz-placeholder {
+  opacity: 1;
+}
+.am::-moz-placeholder {
+  color: transparent;
+}
+.an:-ms-input-placeholder {
+  opacity: 1;
+}
+.ao:-ms-input-placeholder {
+  color: transparent;
+}
+.ap:-moz-placeholder {
+  opacity: 1;
+}
+.aq:-moz-placeholder {
+  color: transparent;
+}
+.ar {
+  transition-property: border-color, box-shadow;
+}
+.as {
+  transition-duration: 0.15s, 0.15s;
+}
+.at {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.au {
+  transition-timing-function: ease, ease;
+}
+.av {
+  padding-top: 1rem;
+}
+.aw {
+  padding-right: 0.75rem;
+}
+.ax {
+  padding-bottom: 1rem;
+}
+.ay {
+  padding-left: 0.75rem;
+}
+.az {
+  border-top-left-radius: 0.375rem;
+}
+.ba {
+  border-top-right-radius: 0.375rem;
+}
+.bb {
+  border-bottom-right-radius: 0.375rem;
+}
+.bc {
+  border-bottom-left-radius: 0.375rem;
+}
+.bd {
+  border-top-width: 1px;
+}
+.be {
+  border-right-width: 1px;
+}
+.bf {
+  border-bottom-width: 1px;
+}
+.bg {
+  border-left-width: 1px;
+}
+.bh {
+  border-top-style: solid;
+}
+.bi {
+  border-right-style: solid;
+}
+.bj {
+  border-bottom-style: solid;
+}
+.bk {
+  border-left-style: solid;
+}
+.bl {
+  border-top-color: #dee2e6;
+}
+.bm {
+  border-right-color: #dee2e6;
+}
+.bn {
+  border-bottom-color: #dee2e6;
+}
+.bo {
+  border-left-color: #dee2e6;
+}
+.t:focus {
+  background-color: #fff;
+}
+.u:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.v:focus {
+  color: #212529;
+}
+.w:focus {
+  outline-width: 0;
+}
+.x:focus {
+  border-top-color: #86b7fe;
+}
+.y:focus {
+  border-right-color: #86b7fe;
+}
+.z:focus {
+  border-bottom-color: #86b7fe;
+}
+.ab:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .n {
+    transition-property: none;
+  }
+  .o {
+    transition-duration: 0s;
+  }
+  .p {
+    transition-delay: 0s;
+  }
+  .q {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="floating-text-field" class="a b c form-floating">
+  <input
+    data-testid="floating-text-input"
+    type="text"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo d e f g h i j k l m n o p q r s t u v w x y z"
+    id="foobar-input"
+    value=""
+  />
+</div>
+;
+"
+`;
+
+exports[`components/Form/TextField/FloatingTextField should render a readonly plaintext floating text field 1`] = `
+".a {
+  display: block;
+}
+.b {
+  position: relative;
+}
+.c {
+  margin-bottom: 1rem !important;
+}
+.d {
+  appearance: none;
+}
+.e {
+  background-clip: padding-box;
+}
+.f {
+  background-color: transparent;
+}
+.g {
+  color: #212529;
+}
+.h {
+  font-size: 1rem;
+}
+.i {
+  font-weight: 400;
+}
+.j {
+  height: calc(3.5rem + 2px);
+}
+.k {
+  line-height: 1.5;
+}
+.l {
+  min-height: calc(3.5rem + 2px);
+}
+.m {
+  width: 100%;
+}
+.r:disabled {
+  background-color: #e9ecef;
+}
+.s:disabled {
+  opacity: 1;
+}
+.ac::placeholder {
+  opacity: 1;
+}
+.ae::placeholder {
+  color: transparent;
+}
+.af:not(:placeholder-shown) {
+  padding-top: 1.625rem;
+}
+.ag:not(:placeholder-shown) {
+  padding-bottom: 0.625rem;
+}
+.ah:-webkit-autofill {
+  padding-top: 1.625rem;
+}
+.ai:-webkit-autofill {
+  padding-bottom: 0.625rem;
+}
+.aj {
+  margin-bottom: 0;
+}
+.ak::-webkit-input-placeholder {
+  opacity: 1;
+}
+.al::-webkit-input-placeholder {
+  color: transparent;
+}
+.am::-moz-placeholder {
+  opacity: 1;
+}
+.an::-moz-placeholder {
+  color: transparent;
+}
+.ao:-ms-input-placeholder {
+  opacity: 1;
+}
+.ap:-ms-input-placeholder {
+  color: transparent;
+}
+.aq:-moz-placeholder {
+  opacity: 1;
+}
+.ar:-moz-placeholder {
+  color: transparent;
+}
+.as {
+  border-top-width: 1px;
+}
+.at {
+  border-right-width: 0;
+}
+.au {
+  border-bottom-width: 1px;
+}
+.av {
+  border-left-width: 0;
+}
+.aw {
+  transition-property: border-color, box-shadow;
+}
+.ax {
+  transition-duration: 0.15s, 0.15s;
+}
+.ay {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.az {
+  transition-timing-function: ease, ease;
+}
+.ba {
+  padding-top: 0.375rem;
+}
+.bb {
+  padding-right: 0;
+}
+.bc {
+  padding-bottom: 0.375rem;
+}
+.bd {
+  padding-left: 0;
+}
+.be {
+  border-top-left-radius: 0.375rem;
+}
+.bf {
+  border-top-right-radius: 0.375rem;
+}
+.bg {
+  border-bottom-right-radius: 0.375rem;
+}
+.bh {
+  border-bottom-left-radius: 0.375rem;
+}
+.bi {
+  border-top-style: solid;
+}
+.bj {
+  border-right-style: solid;
+}
+.bk {
+  border-bottom-style: solid;
+}
+.bl {
+  border-left-style: solid;
+}
+.bm {
+  border-top-color: transparent;
+}
+.bn {
+  border-right-color: transparent;
+}
+.bo {
+  border-bottom-color: transparent;
+}
+.bp {
+  border-left-color: transparent;
+}
+.t:focus {
+  background-color: #fff;
+}
+.u:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.v:focus {
+  color: #212529;
+}
+.w:focus {
+  outline-width: 0;
+}
+.x:focus {
+  border-top-color: #86b7fe;
+}
+.y:focus {
+  border-right-color: #86b7fe;
+}
+.z:focus {
+  border-bottom-color: #86b7fe;
+}
+.ab:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .n {
+    transition-property: none;
+  }
+  .o {
+    transition-duration: 0s;
+  }
+  .p {
+    transition-delay: 0s;
+  }
+  .q {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="floating-text-field" class="a b c form-floating">
+  <input
+    data-testid="floating-text-input"
+    type="text"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp d e f g h i j k l m n o p q r s t u v w x y z"
+    id="foobar-input"
+    readonly=""
+    value=""
+  />
+</div>
+;
+"
+`;

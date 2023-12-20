@@ -1,0 +1,363 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Navbar/NavbarCollapse/Content should render a navbar collapse content component 1`] = `
+".a {
+  flex-basis: 100%;
+}
+.b {
+  flex-grow: 1;
+}
+.c {
+  align-items: center;
+}
+.h {
+  width: auto;
+}
+.i {
+  height: 0;
+}
+.n {
+  transition-property: height;
+}
+.o {
+  transition-duration: 0.35s;
+}
+.p {
+  transition-delay: ease;
+}
+.q {
+  transition-timing-function: ease;
+}
+.r {
+  overflow-x: hidden;
+}
+.s {
+  overflow-y: hidden;
+}
+@media (min-width: 768px) {
+  .d {
+    display: flex !important;
+  }
+  .e {
+    flex-basis: auto;
+  }
+  .f {
+    flex-grow: 1;
+  }
+  .g {
+    align-items: center;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .j {
+    transition-property: none;
+  }
+  .k {
+    transition-duration: 0s;
+  }
+  .l {
+    transition-delay: 0s;
+  }
+  .m {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div
+  data-testid="collapse"
+  class="h i j k l m n o p q r s collapse a b c d e f g navbar-collapse"
+>
+  <div data-testid="collapse-content" id="">
+    <div data-testid="collapse-container" class="content-container">
+      <div data-testid="hello-there">Hello, there</div>
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Navbar/NavbarCollapse/Content should render a navbar collapse content component with variant expand and size small 1`] = `
+".a {
+  flex-basis: 100%;
+}
+.b {
+  flex-grow: 1;
+}
+.c {
+  align-items: center;
+}
+.h {
+  width: auto;
+}
+.i {
+  height: 0;
+}
+.n {
+  transition-property: height;
+}
+.o {
+  transition-duration: 0.35s;
+}
+.p {
+  transition-delay: ease;
+}
+.q {
+  transition-timing-function: ease;
+}
+.r {
+  overflow-x: hidden;
+}
+.s {
+  overflow-y: hidden;
+}
+@media (min-width: 576px) {
+  .d {
+    display: flex !important;
+  }
+  .e {
+    flex-basis: auto;
+  }
+  .f {
+    flex-grow: 1;
+  }
+  .g {
+    align-items: center;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .j {
+    transition-property: none;
+  }
+  .k {
+    transition-duration: 0s;
+  }
+  .l {
+    transition-delay: 0s;
+  }
+  .m {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div
+  data-testid="collapse"
+  class="h i j k l m n o p q r s collapse a b c d e f g navbar-collapse"
+>
+  <div data-testid="collapse-content" id="">
+    <div data-testid="collapse-container" class="content-container">
+      <div data-testid="hello-there">Hello, there</div>
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Navbar/NavbarCollapse/Content should render a navbar collapse content component with variant fixed and size small 1`] = `
+".a {
+  flex-basis: 100%;
+}
+.b {
+  flex-grow: 1;
+}
+.c {
+  align-items: center;
+}
+.d {
+  width: auto;
+}
+.e {
+  height: 0;
+}
+.j {
+  transition-property: height;
+}
+.k {
+  transition-duration: 0.35s;
+}
+.l {
+  transition-delay: ease;
+}
+.m {
+  transition-timing-function: ease;
+}
+.n {
+  overflow-x: hidden;
+}
+.o {
+  overflow-y: hidden;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div
+  data-testid="collapse"
+  class="d e f g h i j k l m n o collapse a b c navbar-collapse"
+>
+  <div data-testid="collapse-content" id="">
+    <div data-testid="collapse-container" class="content-container">
+      <div data-testid="hello-there">Hello, there</div>
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Navbar/NavbarCollapse/Content should render a navbar collapse content component with variant sticky 1`] = `
+".a {
+  flex-basis: 100%;
+}
+.b {
+  flex-grow: 1;
+}
+.c {
+  align-items: center;
+}
+.d {
+  width: auto;
+}
+.e {
+  height: 0;
+}
+.j {
+  transition-property: height;
+}
+.k {
+  transition-duration: 0.35s;
+}
+.l {
+  transition-delay: ease;
+}
+.m {
+  transition-timing-function: ease;
+}
+.n {
+  overflow-x: hidden;
+}
+.o {
+  overflow-y: hidden;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div
+  data-testid="collapse"
+  class="d e f g h i j k l m n o collapse a b c navbar-collapse"
+>
+  <div data-testid="collapse-content" id="">
+    <div data-testid="collapse-container" class="content-container">
+      <div data-testid="hello-there">Hello, there</div>
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Navbar/NavbarCollapse/Content should render an open navbar collapse content component 1`] = `
+".a {
+  flex-basis: 100%;
+}
+.b {
+  flex-grow: 1;
+}
+.c {
+  align-items: center;
+}
+.h {
+  width: auto;
+}
+.i {
+  height: 0;
+}
+.n {
+  transition-property: height;
+}
+.o {
+  transition-duration: 0.35s;
+}
+.p {
+  transition-delay: ease;
+}
+.q {
+  transition-timing-function: ease;
+}
+.r {
+  overflow-x: hidden;
+}
+.s {
+  overflow-y: hidden;
+}
+@media (min-width: 768px) {
+  .d {
+    display: flex !important;
+  }
+  .e {
+    flex-basis: auto;
+  }
+  .f {
+    flex-grow: 1;
+  }
+  .g {
+    align-items: center;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .j {
+    transition-property: none;
+  }
+  .k {
+    transition-duration: 0s;
+  }
+  .l {
+    transition-delay: 0s;
+  }
+  .m {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div
+  data-testid="collapse"
+  class="h i j k l m n o p q r s collapse a b c d e f g navbar-collapse"
+>
+  <div data-testid="collapse-content" id="">
+    <div data-testid="collapse-container" class="content-container">
+      <div data-testid="hello-there">Hello, there</div>
+    </div>
+  </div>
+</div>
+;
+"
+`;

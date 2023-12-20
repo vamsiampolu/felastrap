@@ -1,0 +1,1817 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Nav/NavLink should render a NavLink 1`] = `
+".a {
+  display: block;
+}
+.b {
+  font-size: 1rem;
+}
+.c {
+  font-weight: 400;
+}
+.d {
+  color: #0d6efd;
+}
+.e {
+  background: none;
+}
+.n {
+  transition-property: color, background-color, border-color;
+}
+.o {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.p {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.q {
+  transition-timing-function: ease, ease, ease;
+}
+.r {
+  border-top-width: 0;
+}
+.s {
+  border-right-width: 0;
+}
+.t {
+  border-bottom-width: 0;
+}
+.u {
+  border-left-width: 0;
+}
+.v {
+  text-decoration-line: none;
+}
+.w {
+  padding-top: 0.5rem;
+}
+.x {
+  padding-right: 1rem;
+}
+.y {
+  padding-bottom: 0.5rem;
+}
+.z {
+  padding-left: 1rem;
+}
+.j:hover {
+  color: #0a58ca;
+}
+.k:focus {
+  color: #0a58ca;
+}
+.l:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.m:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<a
+  data-testid="nav-link"
+  href="/icons"
+  target="foobar"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x y z nav-link"
+  >Icons</a
+>;
+"
+`;
+
+exports[`components/Nav/NavLink should render a NavLink for a card of variant pills 1`] = `
+".a {
+  display: block;
+}
+.b {
+  font-size: 1rem;
+}
+.c {
+  font-weight: 400;
+}
+.d {
+  color: #0d6efd;
+}
+.e {
+  background: none;
+}
+.n {
+  margin-right: calc(-0.5 * 1rem);
+}
+.o {
+  margin-left: calc(-0.5 * 1rem);
+}
+.p {
+  border-top-left-radius: 0.375rem;
+}
+.q {
+  border-top-right-radius: 0.375rem;
+}
+.r {
+  border-bottom-right-radius: 0.375rem;
+}
+.s {
+  border-bottom-left-radius: 0.375rem;
+}
+.t {
+  transition-property: color, background-color, border-color;
+}
+.u {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.v {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.w {
+  transition-timing-function: ease, ease, ease;
+}
+.x {
+  border-top-width: 0;
+}
+.y {
+  border-right-width: 0;
+}
+.z {
+  border-bottom-width: 0;
+}
+.ab {
+  border-left-width: 0;
+}
+.ac {
+  text-decoration-line: none;
+}
+.ae {
+  padding-top: 0.5rem;
+}
+.af {
+  padding-right: 1rem;
+}
+.ag {
+  padding-bottom: 0.5rem;
+}
+.ah {
+  padding-left: 1rem;
+}
+.j:hover {
+  color: #0a58ca;
+}
+.k:focus {
+  color: #0a58ca;
+}
+.l:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.m:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<a
+  data-testid="nav-link"
+  href="/icons"
+  class="a ab ac ae af ag ah b c d e f g h i j k l m n o p q r s t u v w x y z nav-link"
+  >Icons</a
+>;
+"
+`;
+
+exports[`components/Nav/NavLink should render a NavLink for a card of variant tabs 1`] = `
+".a {
+  display: block;
+}
+.b {
+  font-size: 1rem;
+}
+.c {
+  font-weight: 400;
+}
+.d {
+  color: #0d6efd;
+}
+.e {
+  background: none;
+}
+.v {
+  margin-bottom: calc(-1 * 0.5rem);
+}
+.w {
+  border-top-left-radius: 0.375rem;
+}
+.x {
+  border-top-right-radius: 0.375rem;
+}
+.y {
+  margin-right: calc(-0.5 * 1rem);
+}
+.z {
+  margin-left: calc(-0.5 * 1rem);
+}
+.ab {
+  border-bottom-width: 0;
+}
+.ac {
+  transition-property: color, background-color, border-color;
+}
+.ae {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.af {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ag {
+  transition-timing-function: ease, ease, ease;
+}
+.ah {
+  border-top-width: 1px;
+}
+.ai {
+  border-right-width: 1px;
+}
+.aj {
+  border-left-width: 1px;
+}
+.ak {
+  border-top-style: solid;
+}
+.al {
+  border-right-style: solid;
+}
+.am {
+  border-bottom-style: solid;
+}
+.an {
+  border-left-style: solid;
+}
+.ao {
+  border-top-color: transparent;
+}
+.ap {
+  border-right-color: transparent;
+}
+.aq {
+  border-bottom-color: transparent;
+}
+.ar {
+  border-left-color: transparent;
+}
+.as {
+  text-decoration-line: none;
+}
+.at {
+  padding-top: 0.5rem;
+}
+.au {
+  padding-right: 1rem;
+}
+.av {
+  padding-bottom: 0.5rem;
+}
+.aw {
+  padding-left: 1rem;
+}
+.j:hover {
+  color: #0a58ca;
+}
+.k:hover {
+  border-top-color: #e9ecef;
+}
+.l:hover {
+  border-right-color: #e9ecef;
+}
+.m:hover {
+  border-bottom-color: #dee2e6;
+}
+.n:hover {
+  border-left-color: #e9ecef;
+}
+.o:focus {
+  color: #0a58ca;
+}
+.p:focus {
+  border-top-color: #e9ecef;
+}
+.q:focus {
+  border-right-color: #e9ecef;
+}
+.r:focus {
+  border-bottom-color: #dee2e6;
+}
+.s:focus {
+  border-left-color: #e9ecef;
+}
+.t:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.u:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<a
+  data-testid="nav-link"
+  href="/icons"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw b c d e f g h i j k l m n o p q r s t u v w x y z nav-link"
+  >Icons</a
+>;
+"
+`;
+
+exports[`components/Nav/NavLink should render a NavLink of variant fill 1`] = `
+".a {
+  display: block;
+}
+.b {
+  font-size: 1rem;
+}
+.c {
+  font-weight: 400;
+}
+.d {
+  color: #0d6efd;
+}
+.e {
+  background: none;
+}
+.n {
+  transition-property: color, background-color, border-color;
+}
+.o {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.p {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.q {
+  transition-timing-function: ease, ease, ease;
+}
+.r {
+  border-top-width: 0;
+}
+.s {
+  border-right-width: 0;
+}
+.t {
+  border-bottom-width: 0;
+}
+.u {
+  border-left-width: 0;
+}
+.v {
+  text-decoration-line: none;
+}
+.w {
+  padding-top: 0.5rem;
+}
+.x {
+  padding-right: 1rem;
+}
+.y {
+  padding-bottom: 0.5rem;
+}
+.z {
+  padding-left: 1rem;
+}
+.j:hover {
+  color: #0a58ca;
+}
+.k:focus {
+  color: #0a58ca;
+}
+.l:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.m:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<a
+  data-testid="nav-link"
+  href="/icons"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x y z nav-link"
+  >Icons</a
+>;
+"
+`;
+
+exports[`components/Nav/NavLink should render a NavLink of variant justified 1`] = `
+".a {
+  display: block;
+}
+.b {
+  font-size: 1rem;
+}
+.c {
+  font-weight: 400;
+}
+.d {
+  color: #0d6efd;
+}
+.e {
+  background: none;
+}
+.n {
+  transition-property: color, background-color, border-color;
+}
+.o {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.p {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.q {
+  transition-timing-function: ease, ease, ease;
+}
+.r {
+  border-top-width: 0;
+}
+.s {
+  border-right-width: 0;
+}
+.t {
+  border-bottom-width: 0;
+}
+.u {
+  border-left-width: 0;
+}
+.v {
+  text-decoration-line: none;
+}
+.w {
+  padding-top: 0.5rem;
+}
+.x {
+  padding-right: 1rem;
+}
+.y {
+  padding-bottom: 0.5rem;
+}
+.z {
+  padding-left: 1rem;
+}
+.j:hover {
+  color: #0a58ca;
+}
+.k:focus {
+  color: #0a58ca;
+}
+.l:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.m:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<a
+  data-testid="nav-link"
+  href="/icons"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x y z nav-link"
+  >Icons</a
+>;
+"
+`;
+
+exports[`components/Nav/NavLink should render a NavLink of variant pills 1`] = `
+".a {
+  display: block;
+}
+.b {
+  font-size: 1rem;
+}
+.c {
+  font-weight: 400;
+}
+.d {
+  color: #0d6efd;
+}
+.e {
+  background: none;
+}
+.n {
+  border-top-left-radius: 0.375rem;
+}
+.o {
+  border-top-right-radius: 0.375rem;
+}
+.p {
+  border-bottom-right-radius: 0.375rem;
+}
+.q {
+  border-bottom-left-radius: 0.375rem;
+}
+.r {
+  transition-property: color, background-color, border-color;
+}
+.s {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.t {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.u {
+  transition-timing-function: ease, ease, ease;
+}
+.v {
+  border-top-width: 0;
+}
+.w {
+  border-right-width: 0;
+}
+.x {
+  border-bottom-width: 0;
+}
+.y {
+  border-left-width: 0;
+}
+.z {
+  text-decoration-line: none;
+}
+.ab {
+  padding-top: 0.5rem;
+}
+.ac {
+  padding-right: 1rem;
+}
+.ae {
+  padding-bottom: 0.5rem;
+}
+.af {
+  padding-left: 1rem;
+}
+.j:hover {
+  color: #0a58ca;
+}
+.k:focus {
+  color: #0a58ca;
+}
+.l:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.m:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<a
+  data-testid="nav-link"
+  href="/icons"
+  class="a ab ac ae af b c d e f g h i j k l m n o p q r s t u v w x y z nav-link"
+  >Icons</a
+>;
+"
+`;
+
+exports[`components/Nav/NavLink should render a NavLink of variant tabs 1`] = `
+".a {
+  display: block;
+}
+.b {
+  font-size: 1rem;
+}
+.c {
+  font-weight: 400;
+}
+.d {
+  color: #0d6efd;
+}
+.e {
+  background: none;
+}
+.v {
+  margin-bottom: -1px;
+}
+.w {
+  border-top-left-radius: 0.375rem;
+}
+.x {
+  border-top-right-radius: 0.375rem;
+}
+.y {
+  transition-property: color, background-color, border-color;
+}
+.z {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.ab {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ac {
+  transition-timing-function: ease, ease, ease;
+}
+.ae {
+  border-top-width: 1px;
+}
+.af {
+  border-right-width: 1px;
+}
+.ag {
+  border-bottom-width: 1px;
+}
+.ah {
+  border-left-width: 1px;
+}
+.ai {
+  border-top-style: solid;
+}
+.aj {
+  border-right-style: solid;
+}
+.ak {
+  border-bottom-style: solid;
+}
+.al {
+  border-left-style: solid;
+}
+.am {
+  border-top-color: transparent;
+}
+.an {
+  border-right-color: transparent;
+}
+.ao {
+  border-bottom-color: transparent;
+}
+.ap {
+  border-left-color: transparent;
+}
+.aq {
+  text-decoration-line: none;
+}
+.ar {
+  padding-top: 0.5rem;
+}
+.as {
+  padding-right: 1rem;
+}
+.at {
+  padding-bottom: 0.5rem;
+}
+.au {
+  padding-left: 1rem;
+}
+.j:hover {
+  color: #0a58ca;
+}
+.k:hover {
+  border-top-color: #e9ecef;
+}
+.l:hover {
+  border-right-color: #e9ecef;
+}
+.m:hover {
+  border-bottom-color: #dee2e6;
+}
+.n:hover {
+  border-left-color: #e9ecef;
+}
+.o:focus {
+  color: #0a58ca;
+}
+.p:focus {
+  border-top-color: #e9ecef;
+}
+.q:focus {
+  border-right-color: #e9ecef;
+}
+.r:focus {
+  border-bottom-color: #dee2e6;
+}
+.s:focus {
+  border-left-color: #e9ecef;
+}
+.t:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.u:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<a
+  data-testid="nav-link"
+  href="/icons"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au b c d e f g h i j k l m n o p q r s t u v w x y z nav-link"
+  >Icons</a
+>;
+"
+`;
+
+exports[`components/Nav/NavLink should render a NavLink of variant underline 1`] = `
+".a {
+  display: block;
+}
+.b {
+  font-size: 1rem;
+}
+.c {
+  font-weight: 400;
+}
+.d {
+  color: #0d6efd;
+}
+.e {
+  background: none;
+}
+.p {
+  padding-right: 0;
+}
+.q {
+  padding-left: 0;
+}
+.r {
+  border-bottom-width: 0.125rem;
+}
+.s {
+  border-bottom-style: solid;
+}
+.t {
+  border-bottom-color: transparent;
+}
+.u {
+  transition-property: color, background-color, border-color;
+}
+.v {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.w {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.x {
+  transition-timing-function: ease, ease, ease;
+}
+.y {
+  border-top-width: 0;
+}
+.z {
+  border-right-width: 0;
+}
+.ab {
+  border-left-width: 0;
+}
+.ac {
+  text-decoration-line: none;
+}
+.ae {
+  padding-top: 0.5rem;
+}
+.af {
+  padding-bottom: 0.5rem;
+}
+.j:hover {
+  color: #0a58ca;
+}
+.k:hover {
+  border-bottom-color: currentcolor;
+}
+.l:focus {
+  color: #0a58ca;
+}
+.m:focus {
+  border-bottom-color: currentcolor;
+}
+.n:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.o:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<a
+  data-testid="nav-link"
+  href="/icons"
+  class="a ab ac ae af b c d e f g h i j k l m n o p q r s t u v w x y z nav-link"
+  >Icons</a
+>;
+"
+`;
+
+exports[`components/Nav/NavLink should render a NavLink of variant vertical 1`] = `
+".a {
+  display: block;
+}
+.b {
+  font-size: 1rem;
+}
+.c {
+  font-weight: 400;
+}
+.d {
+  color: #0d6efd;
+}
+.e {
+  background: none;
+}
+.n {
+  transition-property: color, background-color, border-color;
+}
+.o {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.p {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.q {
+  transition-timing-function: ease, ease, ease;
+}
+.r {
+  border-top-width: 0;
+}
+.s {
+  border-right-width: 0;
+}
+.t {
+  border-bottom-width: 0;
+}
+.u {
+  border-left-width: 0;
+}
+.v {
+  text-decoration-line: none;
+}
+.w {
+  padding-top: 0.5rem;
+}
+.x {
+  padding-right: 1rem;
+}
+.y {
+  padding-bottom: 0.5rem;
+}
+.z {
+  padding-left: 1rem;
+}
+.j:hover {
+  color: #0a58ca;
+}
+.k:focus {
+  color: #0a58ca;
+}
+.l:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.m:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<a
+  data-testid="nav-link"
+  href="/icons"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x y z nav-link"
+  >Icons</a
+>;
+"
+`;
+
+exports[`components/Nav/NavLink should render a NavLink using a div 1`] = `
+".a {
+  display: block;
+}
+.b {
+  font-size: 1rem;
+}
+.c {
+  font-weight: 400;
+}
+.d {
+  color: #0d6efd;
+}
+.e {
+  background: none;
+}
+.n {
+  transition-property: color, background-color, border-color;
+}
+.o {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.p {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.q {
+  transition-timing-function: ease, ease, ease;
+}
+.r {
+  border-top-width: 0;
+}
+.s {
+  border-right-width: 0;
+}
+.t {
+  border-bottom-width: 0;
+}
+.u {
+  border-left-width: 0;
+}
+.v {
+  text-decoration-line: none;
+}
+.w {
+  padding-top: 0.5rem;
+}
+.x {
+  padding-right: 1rem;
+}
+.y {
+  padding-bottom: 0.5rem;
+}
+.z {
+  padding-left: 1rem;
+}
+.j:hover {
+  color: #0a58ca;
+}
+.k:focus {
+  color: #0a58ca;
+}
+.l:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.m:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div
+  data-testid="nav-link"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x y z nav-link"
+>
+  Icons
+</div>
+;
+"
+`;
+
+exports[`components/Nav/NavLink should render a disabled NavLink 1`] = `
+".a {
+  display: block;
+}
+.b {
+  font-size: 1rem;
+}
+.c {
+  font-weight: 400;
+}
+.d {
+  color: rgba(33, 37, 41, 0.75);
+}
+.e {
+  background: none;
+}
+.n {
+  pointer-events: none;
+}
+.o {
+  cursor: default;
+}
+.p {
+  transition-property: color, background-color, border-color;
+}
+.q {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.r {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.s {
+  transition-timing-function: ease, ease, ease;
+}
+.t {
+  border-top-width: 0;
+}
+.u {
+  border-right-width: 0;
+}
+.v {
+  border-bottom-width: 0;
+}
+.w {
+  border-left-width: 0;
+}
+.x {
+  text-decoration-line: none;
+}
+.y {
+  padding-top: 0.5rem;
+}
+.z {
+  padding-right: 1rem;
+}
+.ab {
+  padding-bottom: 0.5rem;
+}
+.ac {
+  padding-left: 1rem;
+}
+.j:hover {
+  color: #0a58ca;
+}
+.k:focus {
+  color: #0a58ca;
+}
+.l:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.m:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<a
+  data-testid="nav-link"
+  href="/icons"
+  class="a ab ac b c d e f g h i j k l m n o p q r s t u v w x y z nav-link"
+  >Icons</a
+>;
+"
+`;
+
+exports[`components/Nav/NavLink should render an active NavLink for a card of variant pills 1`] = `
+".a {
+  display: block;
+}
+.b {
+  font-size: 1rem;
+}
+.c {
+  font-weight: 400;
+}
+.d {
+  color: #fff !important;
+}
+.e {
+  background: none;
+}
+.n {
+  background-color: #0d6efd !important;
+}
+.o {
+  margin-right: calc(-0.5 * 1rem);
+}
+.p {
+  margin-left: calc(-0.5 * 1rem);
+}
+.q {
+  border-top-left-radius: 0.375rem;
+}
+.r {
+  border-top-right-radius: 0.375rem;
+}
+.s {
+  border-bottom-right-radius: 0.375rem;
+}
+.t {
+  border-bottom-left-radius: 0.375rem;
+}
+.u {
+  transition-property: color, background-color, border-color;
+}
+.v {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.w {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.x {
+  transition-timing-function: ease, ease, ease;
+}
+.y {
+  border-top-width: 0;
+}
+.z {
+  border-right-width: 0;
+}
+.ab {
+  border-bottom-width: 0;
+}
+.ac {
+  border-left-width: 0;
+}
+.ae {
+  text-decoration-line: none;
+}
+.af {
+  padding-top: 0.5rem;
+}
+.ag {
+  padding-right: 1rem;
+}
+.ah {
+  padding-bottom: 0.5rem;
+}
+.ai {
+  padding-left: 1rem;
+}
+.j:hover {
+  color: #0a58ca;
+}
+.k:focus {
+  color: #0a58ca;
+}
+.l:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.m:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<a
+  data-testid="nav-link"
+  href="/icons"
+  class="a ab ac ae af ag ah ai b c d e f g h i j k l m n o p q r s t u v w x y z nav-link"
+  >Icons</a
+>;
+"
+`;
+
+exports[`components/Nav/NavLink should render an active NavLink for a card of variant tabs 1`] = `
+".a {
+  display: block;
+}
+.b {
+  font-size: 1rem;
+}
+.c {
+  font-weight: 400;
+}
+.d {
+  color: #000;
+}
+.e {
+  background: none;
+}
+.v {
+  margin-bottom: calc(-1 * 0.5rem);
+}
+.w {
+  border-top-left-radius: 0.375rem;
+}
+.x {
+  border-top-right-radius: 0.375rem;
+}
+.y {
+  background-color: #fff;
+}
+.z {
+  margin-right: calc(-0.5 * 1rem);
+}
+.ab {
+  margin-left: calc(-0.5 * 1rem);
+}
+.ac {
+  border-bottom-width: 0;
+}
+.ae {
+  border-top-color: #dee2e6;
+}
+.af {
+  border-right-color: #dee2e6;
+}
+.ag {
+  border-bottom-color: #fff;
+}
+.ah {
+  border-left-color: #dee2e6;
+}
+.ai {
+  transition-property: color, background-color, border-color;
+}
+.aj {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.ak {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.al {
+  transition-timing-function: ease, ease, ease;
+}
+.am {
+  border-top-width: 1px;
+}
+.an {
+  border-right-width: 1px;
+}
+.ao {
+  border-left-width: 1px;
+}
+.ap {
+  border-top-style: solid;
+}
+.aq {
+  border-right-style: solid;
+}
+.ar {
+  border-bottom-style: solid;
+}
+.as {
+  border-left-style: solid;
+}
+.at {
+  text-decoration-line: none;
+}
+.au {
+  padding-top: 0.5rem;
+}
+.av {
+  padding-right: 1rem;
+}
+.aw {
+  padding-bottom: 0.5rem;
+}
+.ax {
+  padding-left: 1rem;
+}
+.j:hover {
+  color: #0a58ca;
+}
+.k:hover {
+  border-top-color: #e9ecef;
+}
+.l:hover {
+  border-right-color: #e9ecef;
+}
+.m:hover {
+  border-bottom-color: #dee2e6;
+}
+.n:hover {
+  border-left-color: #e9ecef;
+}
+.o:focus {
+  color: #0a58ca;
+}
+.p:focus {
+  border-top-color: #e9ecef;
+}
+.q:focus {
+  border-right-color: #e9ecef;
+}
+.r:focus {
+  border-bottom-color: #dee2e6;
+}
+.s:focus {
+  border-left-color: #e9ecef;
+}
+.t:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.u:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<a
+  data-testid="nav-link"
+  href="/icons"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax b c d e f g h i j k l m n o p q r s t u v w x y z nav-link"
+  >Icons</a
+>;
+"
+`;
+
+exports[`components/Nav/NavLink should render an active NavLink of variant pills 1`] = `
+".a {
+  display: block;
+}
+.b {
+  font-size: 1rem;
+}
+.c {
+  font-weight: 400;
+}
+.d {
+  color: #fff !important;
+}
+.e {
+  background: none;
+}
+.n {
+  background-color: #0d6efd !important;
+}
+.o {
+  border-top-left-radius: 0.375rem;
+}
+.p {
+  border-top-right-radius: 0.375rem;
+}
+.q {
+  border-bottom-right-radius: 0.375rem;
+}
+.r {
+  border-bottom-left-radius: 0.375rem;
+}
+.s {
+  transition-property: color, background-color, border-color;
+}
+.t {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.u {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.v {
+  transition-timing-function: ease, ease, ease;
+}
+.w {
+  border-top-width: 0;
+}
+.x {
+  border-right-width: 0;
+}
+.y {
+  border-bottom-width: 0;
+}
+.z {
+  border-left-width: 0;
+}
+.ab {
+  text-decoration-line: none;
+}
+.ac {
+  padding-top: 0.5rem;
+}
+.ae {
+  padding-right: 1rem;
+}
+.af {
+  padding-bottom: 0.5rem;
+}
+.ag {
+  padding-left: 1rem;
+}
+.j:hover {
+  color: #0a58ca;
+}
+.k:focus {
+  color: #0a58ca;
+}
+.l:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.m:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<a
+  data-testid="nav-link"
+  href="/icons"
+  class="a ab ac ae af ag b c d e f g h i j k l m n o p q r s t u v w x y z nav-link"
+  >Icons</a
+>;
+"
+`;
+
+exports[`components/Nav/NavLink should render an active NavLink of variant tabs 1`] = `
+".a {
+  display: block;
+}
+.b {
+  font-size: 1rem;
+}
+.c {
+  font-weight: 400;
+}
+.d {
+  color: #000;
+}
+.e {
+  background: none;
+}
+.v {
+  margin-bottom: -1px;
+}
+.w {
+  border-top-left-radius: 0.375rem;
+}
+.x {
+  border-top-right-radius: 0.375rem;
+}
+.y {
+  background-color: #fff;
+}
+.z {
+  border-top-color: #dee2e6;
+}
+.ab {
+  border-right-color: #dee2e6;
+}
+.ac {
+  border-bottom-color: #fff;
+}
+.ae {
+  border-left-color: #dee2e6;
+}
+.af {
+  transition-property: color, background-color, border-color;
+}
+.ag {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.ah {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.ai {
+  transition-timing-function: ease, ease, ease;
+}
+.aj {
+  border-top-width: 1px;
+}
+.ak {
+  border-right-width: 1px;
+}
+.al {
+  border-bottom-width: 1px;
+}
+.am {
+  border-left-width: 1px;
+}
+.an {
+  border-top-style: solid;
+}
+.ao {
+  border-right-style: solid;
+}
+.ap {
+  border-bottom-style: solid;
+}
+.aq {
+  border-left-style: solid;
+}
+.ar {
+  text-decoration-line: none;
+}
+.as {
+  padding-top: 0.5rem;
+}
+.at {
+  padding-right: 1rem;
+}
+.au {
+  padding-bottom: 0.5rem;
+}
+.av {
+  padding-left: 1rem;
+}
+.j:hover {
+  color: #0a58ca;
+}
+.k:hover {
+  border-top-color: #e9ecef;
+}
+.l:hover {
+  border-right-color: #e9ecef;
+}
+.m:hover {
+  border-bottom-color: #dee2e6;
+}
+.n:hover {
+  border-left-color: #e9ecef;
+}
+.o:focus {
+  color: #0a58ca;
+}
+.p:focus {
+  border-top-color: #e9ecef;
+}
+.q:focus {
+  border-right-color: #e9ecef;
+}
+.r:focus {
+  border-bottom-color: #dee2e6;
+}
+.s:focus {
+  border-left-color: #e9ecef;
+}
+.t:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.u:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<a
+  data-testid="nav-link"
+  href="/icons"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av b c d e f g h i j k l m n o p q r s t u v w x y z nav-link"
+  >Icons</a
+>;
+"
+`;
+
+exports[`components/Nav/NavLink should render an active NavLink of variant underline 1`] = `
+".a {
+  display: block;
+}
+.b {
+  font-size: 1rem;
+}
+.c {
+  font-weight: 700;
+}
+.d {
+  color: #000;
+}
+.e {
+  background: none;
+}
+.p {
+  padding-right: 0;
+}
+.q {
+  padding-left: 0;
+}
+.r {
+  border-bottom-width: 0.125rem;
+}
+.s {
+  border-bottom-style: solid;
+}
+.t {
+  border-bottom-color: currentcolor;
+}
+.u {
+  transition-property: color, background-color, border-color;
+}
+.v {
+  transition-duration: 0.15s, 0.15s, 0.15s;
+}
+.w {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out;
+}
+.x {
+  transition-timing-function: ease, ease, ease;
+}
+.y {
+  border-top-width: 0;
+}
+.z {
+  border-right-width: 0;
+}
+.ab {
+  border-left-width: 0;
+}
+.ac {
+  text-decoration-line: none;
+}
+.ae {
+  padding-top: 0.5rem;
+}
+.af {
+  padding-bottom: 0.5rem;
+}
+.j:hover {
+  color: #0a58ca;
+}
+.k:hover {
+  border-bottom-color: currentcolor;
+}
+.l:focus {
+  color: #0a58ca;
+}
+.m:focus {
+  border-bottom-color: currentcolor;
+}
+.n:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.o:focus-visible {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<a
+  data-testid="nav-link"
+  href="/icons"
+  class="a ab ac ae af b c d e f g h i j k l m n o p q r s t u v w x y z nav-link"
+  >Icons</a
+>;
+"
+`;

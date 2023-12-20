@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Carousel/Wrapper should render a Carousel Wrapper 1`] = `
+".a {
+  position: relative;
+}
+
+
+<div data-testid="carousel" class="a carousel">Carousel</div>
+;
+"
+`;

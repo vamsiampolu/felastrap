@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Toast/Body should render a ToastBody 1`] = `
+".a {
+  word-wrap: break-word;
+}
+.b {
+  padding-top: 0.75rem;
+}
+.c {
+  padding-right: 0.75rem;
+}
+.d {
+  padding-bottom: 0.75rem;
+}
+.e {
+  padding-left: 0.75rem;
+}
+
+
+<div data-testid="toast-body" class="a b c d e toast-body">Toast Body</div>
+;
+"
+`;
+
+exports[`components/Toast/Body should render a ToastBody with a className 1`] = `
+".a {
+  word-wrap: break-word;
+}
+.b {
+  padding-top: 0.75rem;
+}
+.c {
+  padding-right: 0.75rem;
+}
+.d {
+  padding-bottom: 0.75rem;
+}
+.e {
+  padding-left: 0.75rem;
+}
+
+
+<div data-testid="toast-body" class="a b c d e toast-body chatbox-notification">
+  Toast Body
+</div>
+;
+"
+`;

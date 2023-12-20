@@ -1,0 +1,659 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Offcanvas/Wrapper should render an open Offcanvas Wrapper at position bottom 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: visible;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  right: 0;
+}
+.l {
+  left: 0;
+}
+.m {
+  height: auto;
+}
+.n {
+  max-height: 100%;
+}
+.o {
+  transform: none;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-top-style: solid;
+}
+.r {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.s {
+  transition-property: transform;
+}
+.t {
+  transition-duration: 0.3s;
+}
+.u {
+  transition-delay: ease-in-out;
+}
+.v {
+  transition-timing-function: ease;
+}
+.w {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="offcanvas-wrapper"
+  class="a b c d e f g h i j k l m n o p q r s t u v w offcanvas offcanvas-bottom"
+  tabindex="-1"
+>
+  Wrapper
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Wrapper should render an open Offcanvas Wrapper at position end 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: visible;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  top: 0;
+}
+.l {
+  right: 0;
+}
+.m {
+  width: 400px;
+}
+.n {
+  transform: none;
+}
+.o {
+  transition-property: transform;
+}
+.p {
+  transition-duration: 0.3s;
+}
+.q {
+  transition-delay: ease-in-out;
+}
+.r {
+  transition-timing-function: ease;
+}
+.s {
+  outline-width: 0;
+}
+.t {
+  border-left-width: 1px;
+}
+.u {
+  border-left-style: solid;
+}
+.v {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+
+
+<div
+  data-testid="offcanvas-wrapper"
+  class="a b c d e f g h i j k l m n o p q r s t u v offcanvas offcanvas-end"
+  tabindex="-1"
+>
+  Wrapper
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Wrapper should render an open Offcanvas Wrapper at position start 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: visible;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  top: 0;
+}
+.l {
+  left: 0;
+}
+.m {
+  width: 400px;
+}
+.n {
+  transform: none;
+}
+.o {
+  border-right-width: 1px;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.r {
+  transition-property: transform;
+}
+.s {
+  transition-duration: 0.3s;
+}
+.t {
+  transition-delay: ease-in-out;
+}
+.u {
+  transition-timing-function: ease;
+}
+.v {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="offcanvas-wrapper"
+  class="a b c d e f g h i j k l m n o p q r s t u v offcanvas offcanvas-start"
+  tabindex="-1"
+>
+  Wrapper
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Wrapper should render an open Offcanvas Wrapper at position top 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: visible;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  top: 0;
+}
+.l {
+  right: 0;
+}
+.m {
+  left: 0;
+}
+.n {
+  height: auto;
+}
+.o {
+  max-height: 100%;
+}
+.p {
+  transform: none;
+}
+.q {
+  border-bottom-width: 1px;
+}
+.r {
+  border-bottom-style: solid;
+}
+.s {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.t {
+  transition-property: transform;
+}
+.u {
+  transition-duration: 0.3s;
+}
+.v {
+  transition-delay: ease-in-out;
+}
+.w {
+  transition-timing-function: ease;
+}
+.x {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="offcanvas-wrapper"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x offcanvas offcanvas-top"
+  tabindex="-1"
+>
+  Wrapper
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Wrapper should render the Offcanvas Wrapper at position bottom 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: hidden;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  right: 0;
+}
+.l {
+  left: 0;
+}
+.m {
+  height: auto;
+}
+.n {
+  max-height: 100%;
+}
+.o {
+  transform: translateY(100%);
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-top-style: solid;
+}
+.r {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.s {
+  transition-property: transform;
+}
+.t {
+  transition-duration: 0.3s;
+}
+.u {
+  transition-delay: ease-in-out;
+}
+.v {
+  transition-timing-function: ease;
+}
+.w {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="offcanvas-wrapper"
+  class="a b c d e f g h i j k l m n o p q r s t u v w offcanvas offcanvas-bottom"
+  tabindex="-1"
+>
+  Wrapper
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Wrapper should render the Offcanvas Wrapper at position end 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: hidden;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  top: 0;
+}
+.l {
+  right: 0;
+}
+.m {
+  width: 400px;
+}
+.n {
+  transform: translateX(100%);
+}
+.o {
+  transition-property: transform;
+}
+.p {
+  transition-duration: 0.3s;
+}
+.q {
+  transition-delay: ease-in-out;
+}
+.r {
+  transition-timing-function: ease;
+}
+.s {
+  outline-width: 0;
+}
+.t {
+  border-left-width: 1px;
+}
+.u {
+  border-left-style: solid;
+}
+.v {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+
+
+<div
+  data-testid="offcanvas-wrapper"
+  class="a b c d e f g h i j k l m n o p q r s t u v offcanvas offcanvas-end"
+  tabindex="-1"
+>
+  Wrapper
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Wrapper should render the Offcanvas Wrapper at position start 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: hidden;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  top: 0;
+}
+.l {
+  left: 0;
+}
+.m {
+  width: 400px;
+}
+.n {
+  transform: translateX(-100%);
+}
+.o {
+  border-right-width: 1px;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.r {
+  transition-property: transform;
+}
+.s {
+  transition-duration: 0.3s;
+}
+.t {
+  transition-delay: ease-in-out;
+}
+.u {
+  transition-timing-function: ease;
+}
+.v {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="offcanvas-wrapper"
+  class="a b c d e f g h i j k l m n o p q r s t u v offcanvas offcanvas-start"
+  tabindex="-1"
+>
+  Wrapper
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Wrapper should render the Offcanvas Wrapper at position top 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: hidden;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  top: 0;
+}
+.l {
+  right: 0;
+}
+.m {
+  left: 0;
+}
+.n {
+  height: auto;
+}
+.o {
+  max-height: 100%;
+}
+.p {
+  transform: translateY(-100%);
+}
+.q {
+  border-bottom-width: 1px;
+}
+.r {
+  border-bottom-style: solid;
+}
+.s {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.t {
+  transition-property: transform;
+}
+.u {
+  transition-duration: 0.3s;
+}
+.v {
+  transition-delay: ease-in-out;
+}
+.w {
+  transition-timing-function: ease;
+}
+.x {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="offcanvas-wrapper"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x offcanvas offcanvas-top"
+  tabindex="-1"
+>
+  Wrapper
+</div>
+;
+"
+`;

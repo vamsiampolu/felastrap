@@ -1,0 +1,883 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/Select/Select should render a select component 1`] = `
+".a {
+  display: block;
+}
+.b {
+  width: 100%;
+}
+.c {
+  font-size: 1rem;
+}
+.d {
+  font-weight: 400;
+}
+.e {
+  line-height: 1.5;
+}
+.f {
+  color: #212529;
+}
+.g {
+  appearance: none;
+}
+.h {
+  background-color: #fff;
+}
+.i {
+  background-image: url(test-file-stub), none;
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-position: right 0.75rem center;
+}
+.l {
+  background-size: 16px 12px;
+}
+.w:disabled {
+  background-color: #e9ecef;
+}
+.x:-moz-focusring {
+  color: transparent;
+}
+.y:-moz-focusring {
+  text-shadow: 0 0 0 #212529;
+}
+.z {
+  transition-property: border-color, box-shadow;
+}
+.ab {
+  transition-duration: 0.15s, 0.15s;
+}
+.ac {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ae {
+  transition-timing-function: ease, ease;
+}
+.af {
+  border-top-left-radius: 0.375rem;
+}
+.ag {
+  border-top-right-radius: 0.375rem;
+}
+.ah {
+  border-bottom-right-radius: 0.375rem;
+}
+.ai {
+  border-bottom-left-radius: 0.375rem;
+}
+.aj {
+  border-top-width: 1px;
+}
+.ak {
+  border-right-width: 1px;
+}
+.al {
+  border-bottom-width: 1px;
+}
+.am {
+  border-left-width: 1px;
+}
+.an {
+  border-top-style: solid;
+}
+.ao {
+  border-right-style: solid;
+}
+.ap {
+  border-bottom-style: solid;
+}
+.aq {
+  border-left-style: solid;
+}
+.ar {
+  border-top-color: #dee2e6;
+}
+.as {
+  border-right-color: #dee2e6;
+}
+.at {
+  border-bottom-color: #dee2e6;
+}
+.au {
+  border-left-color: #dee2e6;
+}
+.av {
+  padding-top: 0.375rem;
+}
+.aw {
+  padding-right: 2.25rem;
+}
+.ax {
+  padding-bottom: 0.375rem;
+}
+.ay {
+  padding-left: 0.75rem;
+}
+.az {
+  margin-bottom: 1rem;
+}
+.q:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.r:focus {
+  outline-width: 0;
+}
+.s:focus {
+  border-top-color: #86b7fe;
+}
+.t:focus {
+  border-right-color: #86b7fe;
+}
+.u:focus {
+  border-bottom-color: #86b7fe;
+}
+.v:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="form-control-select" class="az">
+  <select
+    data-testid="select-control"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay b c d e f g h i j k l m n o p q r s t u v w x y z form-select"
+  >
+    <option data-testid="select-option-placeholder" value="" selected="">
+      Placeholder
+    </option>
+    <option id="foobar-0" data-testid="select-option" value="Zero">Zero</option>
+    <option id="foobar-1" data-testid="select-option" value="One">One</option>
+  </select>
+</div>
+;
+"
+`;
+
+exports[`components/Form/Select/Select should render a select component of size large 1`] = `
+".a {
+  display: block;
+}
+.b {
+  width: 100%;
+}
+.c {
+  font-size: 1.25rem;
+}
+.d {
+  font-weight: 400;
+}
+.e {
+  line-height: 1.5;
+}
+.f {
+  color: #212529;
+}
+.g {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+}
+.h {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.i {
+  -webkit-background-image: url(test-file-stub), none;
+  background-image: url(test-file-stub), none;
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-position: right 0.75rem center;
+}
+.l {
+  background-size: 16px 12px;
+}
+.w:disabled {
+  -webkit-background-color: #e9ecef;
+  background-color: #e9ecef;
+}
+.x:-moz-focusring {
+  color: transparent;
+}
+.y:-moz-focusring {
+  text-shadow: 0 0 0 #212529;
+}
+.z {
+  padding-top: 0.5rem;
+}
+.ab {
+  padding-bottom: 0.5rem;
+}
+.ac {
+  padding-left: 1rem;
+}
+.ae {
+  transition-property: border-color, box-shadow;
+}
+.af {
+  transition-duration: 0.15s, 0.15s;
+}
+.ag {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ah {
+  transition-timing-function: ease, ease;
+}
+.ai {
+  border-top-left-radius: 0.5rem;
+}
+.aj {
+  border-top-right-radius: 0.5rem;
+}
+.ak {
+  border-bottom-right-radius: 0.5rem;
+}
+.al {
+  border-bottom-left-radius: 0.5rem;
+}
+.am {
+  border-top-width: 1px;
+}
+.an {
+  border-right-width: 1px;
+}
+.ao {
+  border-bottom-width: 1px;
+}
+.ap {
+  border-left-width: 1px;
+}
+.aq {
+  border-top-style: solid;
+}
+.ar {
+  border-right-style: solid;
+}
+.as {
+  border-bottom-style: solid;
+}
+.at {
+  border-left-style: solid;
+}
+.au {
+  border-top-color: #dee2e6;
+}
+.av {
+  border-right-color: #dee2e6;
+}
+.aw {
+  border-bottom-color: #dee2e6;
+}
+.ax {
+  border-left-color: #dee2e6;
+}
+.ay {
+  padding-right: 2.25rem;
+}
+.az {
+  margin-bottom: 1rem;
+}
+.q:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.r:focus {
+  outline-width: 0;
+}
+.s:focus {
+  border-top-color: #86b7fe;
+}
+.t:focus {
+  border-right-color: #86b7fe;
+}
+.u:focus {
+  border-bottom-color: #86b7fe;
+}
+.v:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="form-control-select" class="az">
+  <select
+    data-testid="select-control"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay b c d e f g h i j k l m n o p q r s t u v w x y z form-select"
+  >
+    <option data-testid="select-option-placeholder" value="" selected="">
+      Placeholder
+    </option>
+    <option id="foobar-0" data-testid="select-option" value="Zero">Zero</option>
+    <option id="foobar-1" data-testid="select-option" value="One">One</option>
+  </select>
+</div>
+;
+"
+`;
+
+exports[`components/Form/Select/Select should render a select component of size medium 1`] = `
+".a {
+  display: block;
+}
+.b {
+  width: 100%;
+}
+.c {
+  font-size: 1rem;
+}
+.d {
+  font-weight: 400;
+}
+.e {
+  line-height: 1.5;
+}
+.f {
+  color: #212529;
+}
+.g {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+}
+.h {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.i {
+  -webkit-background-image: url(test-file-stub), none;
+  background-image: url(test-file-stub), none;
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-position: right 0.75rem center;
+}
+.l {
+  background-size: 16px 12px;
+}
+.w:disabled {
+  -webkit-background-color: #e9ecef;
+  background-color: #e9ecef;
+}
+.x:-moz-focusring {
+  color: transparent;
+}
+.y:-moz-focusring {
+  text-shadow: 0 0 0 #212529;
+}
+.z {
+  transition-property: border-color, box-shadow;
+}
+.ab {
+  transition-duration: 0.15s, 0.15s;
+}
+.ac {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ae {
+  transition-timing-function: ease, ease;
+}
+.af {
+  border-top-left-radius: 0.375rem;
+}
+.ag {
+  border-top-right-radius: 0.375rem;
+}
+.ah {
+  border-bottom-right-radius: 0.375rem;
+}
+.ai {
+  border-bottom-left-radius: 0.375rem;
+}
+.aj {
+  border-top-width: 1px;
+}
+.ak {
+  border-right-width: 1px;
+}
+.al {
+  border-bottom-width: 1px;
+}
+.am {
+  border-left-width: 1px;
+}
+.an {
+  border-top-style: solid;
+}
+.ao {
+  border-right-style: solid;
+}
+.ap {
+  border-bottom-style: solid;
+}
+.aq {
+  border-left-style: solid;
+}
+.ar {
+  border-top-color: #dee2e6;
+}
+.as {
+  border-right-color: #dee2e6;
+}
+.at {
+  border-bottom-color: #dee2e6;
+}
+.au {
+  border-left-color: #dee2e6;
+}
+.av {
+  padding-top: 0.375rem;
+}
+.aw {
+  padding-right: 2.25rem;
+}
+.ax {
+  padding-bottom: 0.375rem;
+}
+.ay {
+  padding-left: 0.75rem;
+}
+.az {
+  margin-bottom: 1rem;
+}
+.q:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.r:focus {
+  outline-width: 0;
+}
+.s:focus {
+  border-top-color: #86b7fe;
+}
+.t:focus {
+  border-right-color: #86b7fe;
+}
+.u:focus {
+  border-bottom-color: #86b7fe;
+}
+.v:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="form-control-select" class="az">
+  <select
+    data-testid="select-control"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay b c d e f g h i j k l m n o p q r s t u v w x y z form-select"
+  >
+    <option data-testid="select-option-placeholder" value="" selected="">
+      Placeholder
+    </option>
+    <option id="foobar-0" data-testid="select-option" value="Zero">Zero</option>
+    <option id="foobar-1" data-testid="select-option" value="One">One</option>
+  </select>
+</div>
+;
+"
+`;
+
+exports[`components/Form/Select/Select should render a select component of size small 1`] = `
+".a {
+  display: block;
+}
+.b {
+  width: 100%;
+}
+.c {
+  font-size: 0.875rem;
+}
+.d {
+  font-weight: 400;
+}
+.e {
+  line-height: 1.5;
+}
+.f {
+  color: #212529;
+}
+.g {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+}
+.h {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.i {
+  -webkit-background-image: url(test-file-stub), none;
+  background-image: url(test-file-stub), none;
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-position: right 0.75rem center;
+}
+.l {
+  background-size: 16px 12px;
+}
+.w:disabled {
+  -webkit-background-color: #e9ecef;
+  background-color: #e9ecef;
+}
+.x:-moz-focusring {
+  color: transparent;
+}
+.y:-moz-focusring {
+  text-shadow: 0 0 0 #212529;
+}
+.z {
+  padding-top: 0.25rem;
+}
+.ab {
+  padding-bottom: 0.25rem;
+}
+.ac {
+  padding-left: 0.5rem;
+}
+.ae {
+  transition-property: border-color, box-shadow;
+}
+.af {
+  transition-duration: 0.15s, 0.15s;
+}
+.ag {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ah {
+  transition-timing-function: ease, ease;
+}
+.ai {
+  border-top-left-radius: 0.25rem;
+}
+.aj {
+  border-top-right-radius: 0.25rem;
+}
+.ak {
+  border-bottom-right-radius: 0.25rem;
+}
+.al {
+  border-bottom-left-radius: 0.25rem;
+}
+.am {
+  border-top-width: 1px;
+}
+.an {
+  border-right-width: 1px;
+}
+.ao {
+  border-bottom-width: 1px;
+}
+.ap {
+  border-left-width: 1px;
+}
+.aq {
+  border-top-style: solid;
+}
+.ar {
+  border-right-style: solid;
+}
+.as {
+  border-bottom-style: solid;
+}
+.at {
+  border-left-style: solid;
+}
+.au {
+  border-top-color: #dee2e6;
+}
+.av {
+  border-right-color: #dee2e6;
+}
+.aw {
+  border-bottom-color: #dee2e6;
+}
+.ax {
+  border-left-color: #dee2e6;
+}
+.ay {
+  padding-right: 2.25rem;
+}
+.az {
+  margin-bottom: 1rem;
+}
+.q:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.r:focus {
+  outline-width: 0;
+}
+.s:focus {
+  border-top-color: #86b7fe;
+}
+.t:focus {
+  border-right-color: #86b7fe;
+}
+.u:focus {
+  border-bottom-color: #86b7fe;
+}
+.v:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="form-control-select" class="az">
+  <select
+    data-testid="select-control"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay b c d e f g h i j k l m n o p q r s t u v w x y z form-select"
+  >
+    <option data-testid="select-option-placeholder" value="" selected="">
+      Placeholder
+    </option>
+    <option id="foobar-0" data-testid="select-option" value="Zero">Zero</option>
+    <option id="foobar-1" data-testid="select-option" value="One">One</option>
+  </select>
+</div>
+;
+"
+`;
+
+exports[`components/Form/Select/Select should render a select component with a label 1`] = `
+".a {
+  display: block;
+}
+.b {
+  width: 100%;
+}
+.c {
+  font-size: 1rem;
+}
+.d {
+  font-weight: 400;
+}
+.e {
+  line-height: 1.5;
+}
+.f {
+  color: #212529;
+}
+.g {
+  appearance: none;
+}
+.h {
+  background-color: #fff;
+}
+.i {
+  background-image: url(test-file-stub), none;
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-position: right 0.75rem center;
+}
+.l {
+  background-size: 16px 12px;
+}
+.w:disabled {
+  background-color: #e9ecef;
+}
+.x:-moz-focusring {
+  color: transparent;
+}
+.y:-moz-focusring {
+  text-shadow: 0 0 0 #212529;
+}
+.z {
+  transition-property: border-color, box-shadow;
+}
+.ab {
+  transition-duration: 0.15s, 0.15s;
+}
+.ac {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ae {
+  transition-timing-function: ease, ease;
+}
+.af {
+  border-top-left-radius: 0.375rem;
+}
+.ag {
+  border-top-right-radius: 0.375rem;
+}
+.ah {
+  border-bottom-right-radius: 0.375rem;
+}
+.ai {
+  border-bottom-left-radius: 0.375rem;
+}
+.aj {
+  border-top-width: 1px;
+}
+.ak {
+  border-right-width: 1px;
+}
+.al {
+  border-bottom-width: 1px;
+}
+.am {
+  border-left-width: 1px;
+}
+.an {
+  border-top-style: solid;
+}
+.ao {
+  border-right-style: solid;
+}
+.ap {
+  border-bottom-style: solid;
+}
+.aq {
+  border-left-style: solid;
+}
+.ar {
+  border-top-color: #dee2e6;
+}
+.as {
+  border-right-color: #dee2e6;
+}
+.at {
+  border-bottom-color: #dee2e6;
+}
+.au {
+  border-left-color: #dee2e6;
+}
+.av {
+  padding-top: 0.375rem;
+}
+.aw {
+  padding-right: 2.25rem;
+}
+.ax {
+  padding-bottom: 0.375rem;
+}
+.ay {
+  padding-left: 0.75rem;
+}
+.az {
+  margin-bottom: 1rem;
+}
+.ba {
+  display: inline-block;
+}
+.bb {
+  margin-bottom: 0.5rem;
+}
+.q:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.r:focus {
+  outline-width: 0;
+}
+.s:focus {
+  border-top-color: #86b7fe;
+}
+.t:focus {
+  border-right-color: #86b7fe;
+}
+.u:focus {
+  border-bottom-color: #86b7fe;
+}
+.v:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="form-control-select" class="az">
+  <label data-testid="form-label" for="lame-thrower" class="ba bb form-label"
+    >Select Label</label
+  ><select
+    data-testid="select-control"
+    id="lame-thrower"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay b c d e f g h i j k l m n o p q r s t u v w x y z form-select"
+  >
+    <option data-testid="select-option-placeholder" value="" selected="">
+      Placeholder
+    </option>
+    <option id="foobar-0" data-testid="select-option" value="Zero">Zero</option>
+    <option id="foobar-1" data-testid="select-option" value="One">One</option>
+  </select>
+</div>
+;
+"
+`;

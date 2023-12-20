@@ -1,0 +1,1555 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Pagination should render a pagination component 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  list-style: none;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  position: relative;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1rem;
+}
+.g {
+  color: rgba(33, 37, 41, 0.75);
+}
+.h {
+  background-color: #e9ecef;
+}
+.y {
+  border-top-left-radius: 0.375rem;
+}
+.z {
+  border-bottom-left-radius: 0.375rem;
+}
+.ab {
+  pointer-events: none;
+}
+.ac {
+  border-top-color: #dee2e6;
+}
+.ae {
+  border-right-color: #dee2e6;
+}
+.af {
+  border-bottom-color: #dee2e6;
+}
+.ag {
+  border-left-color: #dee2e6;
+}
+.ah {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.ai {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.aj {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.ak {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.al {
+  border-top-width: 1px;
+}
+.am {
+  border-right-width: 1px;
+}
+.an {
+  border-bottom-width: 1px;
+}
+.ao {
+  border-left-width: 1px;
+}
+.ap {
+  border-top-style: solid;
+}
+.aq {
+  border-right-style: solid;
+}
+.ar {
+  border-bottom-style: solid;
+}
+.as {
+  border-left-style: solid;
+}
+.at {
+  text-decoration-line: none;
+}
+.au {
+  padding-top: 0.375rem;
+}
+.av {
+  padding-right: 0.75rem;
+}
+.aw {
+  padding-bottom: 0.375rem;
+}
+.ax {
+  padding-left: 0.75rem;
+}
+.ay {
+  color: #fff;
+}
+.az {
+  background-color: #0d6efd;
+}
+.ba {
+  margin-left: -1px;
+}
+.bb {
+  z-index: 3;
+}
+.bc {
+  border-top-color: #0d6efd;
+}
+.bd {
+  border-right-color: #0d6efd;
+}
+.be {
+  border-bottom-color: #0d6efd;
+}
+.bf {
+  border-left-color: #0d6efd;
+}
+.bg {
+  color: #6ea8fe;
+}
+.bh {
+  background-color: #fff;
+}
+.bi {
+  border-top-right-radius: 0.375rem;
+}
+.bj {
+  border-bottom-right-radius: 0.375rem;
+}
+.r:hover {
+  z-index: 2;
+}
+.s:hover {
+  color: #8bb9fe;
+}
+.t:hover {
+  background-color: #2b3035;
+}
+.u:hover {
+  border-top-color: #dee2e6;
+}
+.v:hover {
+  border-right-color: #dee2e6;
+}
+.w:hover {
+  border-bottom-color: #dee2e6;
+}
+.x:hover {
+  border-left-color: #dee2e6;
+}
+.m:focus {
+  z-index: 3;
+}
+.n:focus {
+  color: #8bb9fe;
+}
+.o:focus {
+  background-color: #e9ecef;
+}
+.p:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.q:focus {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .i {
+    transition-property: none;
+  }
+  .j {
+    transition-duration: 0s;
+  }
+  .k {
+    transition-delay: 0s;
+  }
+  .l {
+    transition-timing-function: ease;
+  }
+}
+
+
+<nav data-testid="pagination-wrapper" aria-label="Page Navigation">
+  <ul class="a b c">
+    <li aria-disabled="true" data-testid="prev" class="">
+      <a
+        aria-disabled="true"
+        data-testid="page-link"
+        class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax d e f g h i j k l m n o p q r s t u v w x y z"
+        >«</a
+      >
+    </li>
+    <li
+      aria-disabled="false"
+      aria-current="page"
+      data-testid="page-item"
+      class=""
+    >
+      <a
+        aria-disabled="false"
+        aria-current="page"
+        data-testid="page-link"
+        class="ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf d e f i j k l m n o p q r s t u v w x"
+        >1</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >2</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >3</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >4</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >5</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="next" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh bi bj d e f i j k l m n o p q r s t u v w x"
+        >»</a
+      >
+    </li>
+  </ul>
+</nav>
+;
+"
+`;
+
+exports[`components/Pagination should render a pagination component large 1`] = `
+".a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.b {
+  list-style: none;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  position: relative;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1.25rem;
+}
+.g {
+  color: rgba(33, 37, 41, 0.75);
+}
+.h {
+  -webkit-background-color: #e9ecef;
+  background-color: #e9ecef;
+}
+.y {
+  border-top-left-radius: 0.5rem;
+}
+.z {
+  border-bottom-left-radius: 0.5rem;
+}
+.ab {
+  pointer-events: none;
+}
+.ac {
+  border-top-color: #dee2e6;
+}
+.ae {
+  border-right-color: #dee2e6;
+}
+.af {
+  border-bottom-color: #dee2e6;
+}
+.ag {
+  border-left-color: #dee2e6;
+}
+.ah {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.ai {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.aj {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.ak {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.al {
+  border-top-width: 1px;
+}
+.am {
+  border-right-width: 1px;
+}
+.an {
+  border-bottom-width: 1px;
+}
+.ao {
+  border-left-width: 1px;
+}
+.ap {
+  border-top-style: solid;
+}
+.aq {
+  border-right-style: solid;
+}
+.ar {
+  border-bottom-style: solid;
+}
+.as {
+  border-left-style: solid;
+}
+.at {
+  text-decoration-line: none;
+}
+.au {
+  padding-top: 0.75rem;
+}
+.av {
+  padding-right: 1.5rem;
+}
+.aw {
+  padding-bottom: 0.75rem;
+}
+.ax {
+  padding-left: 1.5rem;
+}
+.ay {
+  color: #fff;
+}
+.az {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.ba {
+  margin-left: -1px;
+}
+.bb {
+  z-index: 3;
+}
+.bc {
+  border-top-color: #0d6efd;
+}
+.bd {
+  border-right-color: #0d6efd;
+}
+.be {
+  border-bottom-color: #0d6efd;
+}
+.bf {
+  border-left-color: #0d6efd;
+}
+.bg {
+  color: #6ea8fe;
+}
+.bh {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.bi {
+  border-top-right-radius: 0.5rem;
+}
+.bj {
+  border-bottom-right-radius: 0.5rem;
+}
+.r:hover {
+  z-index: 2;
+}
+.s:hover {
+  color: #8bb9fe;
+}
+.t:hover {
+  -webkit-background-color: #2b3035;
+  background-color: #2b3035;
+}
+.u:hover {
+  border-top-color: #dee2e6;
+}
+.v:hover {
+  border-right-color: #dee2e6;
+}
+.w:hover {
+  border-bottom-color: #dee2e6;
+}
+.x:hover {
+  border-left-color: #dee2e6;
+}
+.m:focus {
+  z-index: 3;
+}
+.n:focus {
+  color: #8bb9fe;
+}
+.o:focus {
+  -webkit-background-color: #e9ecef;
+  background-color: #e9ecef;
+}
+.p:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.q:focus {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .i {
+    transition-property: none;
+  }
+  .j {
+    transition-duration: 0s;
+  }
+  .k {
+    transition-delay: 0s;
+  }
+  .l {
+    transition-timing-function: ease;
+  }
+}
+
+
+<nav data-testid="pagination-wrapper" aria-label="Page Navigation">
+  <ul class="a b c">
+    <li aria-disabled="true" data-testid="prev" class="">
+      <a
+        aria-disabled="true"
+        data-testid="page-link"
+        class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax d e f g h i j k l m n o p q r s t u v w x y z"
+        >«</a
+      >
+    </li>
+    <li
+      aria-disabled="false"
+      aria-current="page"
+      data-testid="page-item"
+      class=""
+    >
+      <a
+        aria-disabled="false"
+        aria-current="page"
+        data-testid="page-link"
+        class="ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf d e f i j k l m n o p q r s t u v w x"
+        >1</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >2</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >3</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >4</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >5</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="next" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh bi bj d e f i j k l m n o p q r s t u v w x"
+        >»</a
+      >
+    </li>
+  </ul>
+</nav>
+;
+"
+`;
+
+exports[`components/Pagination should render a pagination component medium 1`] = `
+".a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.b {
+  list-style: none;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  position: relative;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1rem;
+}
+.g {
+  color: rgba(33, 37, 41, 0.75);
+}
+.h {
+  -webkit-background-color: #e9ecef;
+  background-color: #e9ecef;
+}
+.y {
+  border-top-left-radius: 0.375rem;
+}
+.z {
+  border-bottom-left-radius: 0.375rem;
+}
+.ab {
+  pointer-events: none;
+}
+.ac {
+  border-top-color: #dee2e6;
+}
+.ae {
+  border-right-color: #dee2e6;
+}
+.af {
+  border-bottom-color: #dee2e6;
+}
+.ag {
+  border-left-color: #dee2e6;
+}
+.ah {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.ai {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.aj {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.ak {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.al {
+  border-top-width: 1px;
+}
+.am {
+  border-right-width: 1px;
+}
+.an {
+  border-bottom-width: 1px;
+}
+.ao {
+  border-left-width: 1px;
+}
+.ap {
+  border-top-style: solid;
+}
+.aq {
+  border-right-style: solid;
+}
+.ar {
+  border-bottom-style: solid;
+}
+.as {
+  border-left-style: solid;
+}
+.at {
+  text-decoration-line: none;
+}
+.au {
+  padding-top: 0.375rem;
+}
+.av {
+  padding-right: 0.75rem;
+}
+.aw {
+  padding-bottom: 0.375rem;
+}
+.ax {
+  padding-left: 0.75rem;
+}
+.ay {
+  color: #fff;
+}
+.az {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.ba {
+  margin-left: -1px;
+}
+.bb {
+  z-index: 3;
+}
+.bc {
+  border-top-color: #0d6efd;
+}
+.bd {
+  border-right-color: #0d6efd;
+}
+.be {
+  border-bottom-color: #0d6efd;
+}
+.bf {
+  border-left-color: #0d6efd;
+}
+.bg {
+  color: #6ea8fe;
+}
+.bh {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.bi {
+  border-top-right-radius: 0.375rem;
+}
+.bj {
+  border-bottom-right-radius: 0.375rem;
+}
+.r:hover {
+  z-index: 2;
+}
+.s:hover {
+  color: #8bb9fe;
+}
+.t:hover {
+  -webkit-background-color: #2b3035;
+  background-color: #2b3035;
+}
+.u:hover {
+  border-top-color: #dee2e6;
+}
+.v:hover {
+  border-right-color: #dee2e6;
+}
+.w:hover {
+  border-bottom-color: #dee2e6;
+}
+.x:hover {
+  border-left-color: #dee2e6;
+}
+.m:focus {
+  z-index: 3;
+}
+.n:focus {
+  color: #8bb9fe;
+}
+.o:focus {
+  -webkit-background-color: #e9ecef;
+  background-color: #e9ecef;
+}
+.p:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.q:focus {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .i {
+    transition-property: none;
+  }
+  .j {
+    transition-duration: 0s;
+  }
+  .k {
+    transition-delay: 0s;
+  }
+  .l {
+    transition-timing-function: ease;
+  }
+}
+
+
+<nav data-testid="pagination-wrapper" aria-label="Page Navigation">
+  <ul class="a b c">
+    <li aria-disabled="true" data-testid="prev" class="">
+      <a
+        aria-disabled="true"
+        data-testid="page-link"
+        class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax d e f g h i j k l m n o p q r s t u v w x y z"
+        >«</a
+      >
+    </li>
+    <li
+      aria-disabled="false"
+      aria-current="page"
+      data-testid="page-item"
+      class=""
+    >
+      <a
+        aria-disabled="false"
+        aria-current="page"
+        data-testid="page-link"
+        class="ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf d e f i j k l m n o p q r s t u v w x"
+        >1</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >2</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >3</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >4</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >5</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="next" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh bi bj d e f i j k l m n o p q r s t u v w x"
+        >»</a
+      >
+    </li>
+  </ul>
+</nav>
+;
+"
+`;
+
+exports[`components/Pagination should render a pagination component small 1`] = `
+".a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.b {
+  list-style: none;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  position: relative;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 0.875rem;
+}
+.g {
+  color: rgba(33, 37, 41, 0.75);
+}
+.h {
+  -webkit-background-color: #e9ecef;
+  background-color: #e9ecef;
+}
+.y {
+  border-top-left-radius: 0.25rem;
+}
+.z {
+  border-bottom-left-radius: 0.25rem;
+}
+.ab {
+  pointer-events: none;
+}
+.ac {
+  border-top-color: #dee2e6;
+}
+.ae {
+  border-right-color: #dee2e6;
+}
+.af {
+  border-bottom-color: #dee2e6;
+}
+.ag {
+  border-left-color: #dee2e6;
+}
+.ah {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.ai {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.aj {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.ak {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.al {
+  border-top-width: 1px;
+}
+.am {
+  border-right-width: 1px;
+}
+.an {
+  border-bottom-width: 1px;
+}
+.ao {
+  border-left-width: 1px;
+}
+.ap {
+  border-top-style: solid;
+}
+.aq {
+  border-right-style: solid;
+}
+.ar {
+  border-bottom-style: solid;
+}
+.as {
+  border-left-style: solid;
+}
+.at {
+  text-decoration-line: none;
+}
+.au {
+  padding-top: 0.25rem;
+}
+.av {
+  padding-right: 0.5rem;
+}
+.aw {
+  padding-bottom: 0.25rem;
+}
+.ax {
+  padding-left: 0.5rem;
+}
+.ay {
+  color: #fff;
+}
+.az {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.ba {
+  margin-left: -1px;
+}
+.bb {
+  z-index: 3;
+}
+.bc {
+  border-top-color: #0d6efd;
+}
+.bd {
+  border-right-color: #0d6efd;
+}
+.be {
+  border-bottom-color: #0d6efd;
+}
+.bf {
+  border-left-color: #0d6efd;
+}
+.bg {
+  color: #6ea8fe;
+}
+.bh {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.bi {
+  border-top-right-radius: 0.25rem;
+}
+.bj {
+  border-bottom-right-radius: 0.25rem;
+}
+.r:hover {
+  z-index: 2;
+}
+.s:hover {
+  color: #8bb9fe;
+}
+.t:hover {
+  -webkit-background-color: #2b3035;
+  background-color: #2b3035;
+}
+.u:hover {
+  border-top-color: #dee2e6;
+}
+.v:hover {
+  border-right-color: #dee2e6;
+}
+.w:hover {
+  border-bottom-color: #dee2e6;
+}
+.x:hover {
+  border-left-color: #dee2e6;
+}
+.m:focus {
+  z-index: 3;
+}
+.n:focus {
+  color: #8bb9fe;
+}
+.o:focus {
+  -webkit-background-color: #e9ecef;
+  background-color: #e9ecef;
+}
+.p:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.q:focus {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .i {
+    transition-property: none;
+  }
+  .j {
+    transition-duration: 0s;
+  }
+  .k {
+    transition-delay: 0s;
+  }
+  .l {
+    transition-timing-function: ease;
+  }
+}
+
+
+<nav data-testid="pagination-wrapper" aria-label="Page Navigation">
+  <ul class="a b c">
+    <li aria-disabled="true" data-testid="prev" class="">
+      <a
+        aria-disabled="true"
+        data-testid="page-link"
+        class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax d e f g h i j k l m n o p q r s t u v w x y z"
+        >«</a
+      >
+    </li>
+    <li
+      aria-disabled="false"
+      aria-current="page"
+      data-testid="page-item"
+      class=""
+    >
+      <a
+        aria-disabled="false"
+        aria-current="page"
+        data-testid="page-link"
+        class="ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf d e f i j k l m n o p q r s t u v w x"
+        >1</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >2</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >3</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >4</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >5</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="next" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh bi bj d e f i j k l m n o p q r s t u v w x"
+        >»</a
+      >
+    </li>
+  </ul>
+</nav>
+;
+"
+`;
+
+exports[`components/Pagination should render a pagination component with labels 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  list-style: none;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  position: relative;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1rem;
+}
+.g {
+  color: rgba(33, 37, 41, 0.75);
+}
+.h {
+  background-color: #e9ecef;
+}
+.y {
+  border-top-left-radius: 0.375rem;
+}
+.z {
+  border-bottom-left-radius: 0.375rem;
+}
+.ab {
+  pointer-events: none;
+}
+.ac {
+  border-top-color: #dee2e6;
+}
+.ae {
+  border-right-color: #dee2e6;
+}
+.af {
+  border-bottom-color: #dee2e6;
+}
+.ag {
+  border-left-color: #dee2e6;
+}
+.ah {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.ai {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.aj {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.ak {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.al {
+  border-top-width: 1px;
+}
+.am {
+  border-right-width: 1px;
+}
+.an {
+  border-bottom-width: 1px;
+}
+.ao {
+  border-left-width: 1px;
+}
+.ap {
+  border-top-style: solid;
+}
+.aq {
+  border-right-style: solid;
+}
+.ar {
+  border-bottom-style: solid;
+}
+.as {
+  border-left-style: solid;
+}
+.at {
+  text-decoration-line: none;
+}
+.au {
+  padding-top: 0.375rem;
+}
+.av {
+  padding-right: 0.75rem;
+}
+.aw {
+  padding-bottom: 0.375rem;
+}
+.ax {
+  padding-left: 0.75rem;
+}
+.ay {
+  color: #fff;
+}
+.az {
+  background-color: #0d6efd;
+}
+.ba {
+  margin-left: -1px;
+}
+.bb {
+  z-index: 3;
+}
+.bc {
+  border-top-color: #0d6efd;
+}
+.bd {
+  border-right-color: #0d6efd;
+}
+.be {
+  border-bottom-color: #0d6efd;
+}
+.bf {
+  border-left-color: #0d6efd;
+}
+.bg {
+  color: #6ea8fe;
+}
+.bh {
+  background-color: #fff;
+}
+.bi {
+  border-top-right-radius: 0.375rem;
+}
+.bj {
+  border-bottom-right-radius: 0.375rem;
+}
+.r:hover {
+  z-index: 2;
+}
+.s:hover {
+  color: #8bb9fe;
+}
+.t:hover {
+  background-color: #2b3035;
+}
+.u:hover {
+  border-top-color: #dee2e6;
+}
+.v:hover {
+  border-right-color: #dee2e6;
+}
+.w:hover {
+  border-bottom-color: #dee2e6;
+}
+.x:hover {
+  border-left-color: #dee2e6;
+}
+.m:focus {
+  z-index: 3;
+}
+.n:focus {
+  color: #8bb9fe;
+}
+.o:focus {
+  background-color: #e9ecef;
+}
+.p:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.q:focus {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .i {
+    transition-property: none;
+  }
+  .j {
+    transition-duration: 0s;
+  }
+  .k {
+    transition-delay: 0s;
+  }
+  .l {
+    transition-timing-function: ease;
+  }
+}
+
+
+<nav data-testid="pagination-wrapper" aria-label="Page Navigation">
+  <ul class="a b c">
+    <li aria-disabled="true" data-testid="prev" class="">
+      <a
+        aria-disabled="true"
+        data-testid="page-link"
+        class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax d e f g h i j k l m n o p q r s t u v w x y z"
+        >Previous</a
+      >
+    </li>
+    <li
+      aria-disabled="false"
+      aria-current="page"
+      data-testid="page-item"
+      class=""
+    >
+      <a
+        aria-disabled="false"
+        aria-current="page"
+        data-testid="page-link"
+        class="ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf d e f i j k l m n o p q r s t u v w x"
+        >1</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >2</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >3</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >4</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >5</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="next" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh bi bj d e f i j k l m n o p q r s t u v w x"
+        >Next</a
+      >
+    </li>
+  </ul>
+</nav>
+;
+"
+`;
+
+exports[`components/Pagination should update the selected page when an item is clicked 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  list-style: none;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  position: relative;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1rem;
+}
+.g {
+  color: rgba(33, 37, 41, 0.75);
+}
+.h {
+  background-color: #e9ecef;
+}
+.y {
+  border-top-left-radius: 0.375rem;
+}
+.z {
+  border-bottom-left-radius: 0.375rem;
+}
+.ab {
+  pointer-events: none;
+}
+.ac {
+  border-top-color: #dee2e6;
+}
+.ae {
+  border-right-color: #dee2e6;
+}
+.af {
+  border-bottom-color: #dee2e6;
+}
+.ag {
+  border-left-color: #dee2e6;
+}
+.ah {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.ai {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.aj {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.ak {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.al {
+  border-top-width: 1px;
+}
+.am {
+  border-right-width: 1px;
+}
+.an {
+  border-bottom-width: 1px;
+}
+.ao {
+  border-left-width: 1px;
+}
+.ap {
+  border-top-style: solid;
+}
+.aq {
+  border-right-style: solid;
+}
+.ar {
+  border-bottom-style: solid;
+}
+.as {
+  border-left-style: solid;
+}
+.at {
+  text-decoration-line: none;
+}
+.au {
+  padding-top: 0.375rem;
+}
+.av {
+  padding-right: 0.75rem;
+}
+.aw {
+  padding-bottom: 0.375rem;
+}
+.ax {
+  padding-left: 0.75rem;
+}
+.ay {
+  color: #fff;
+}
+.az {
+  background-color: #0d6efd;
+}
+.ba {
+  margin-left: -1px;
+}
+.bb {
+  z-index: 3;
+}
+.bc {
+  border-top-color: #0d6efd;
+}
+.bd {
+  border-right-color: #0d6efd;
+}
+.be {
+  border-bottom-color: #0d6efd;
+}
+.bf {
+  border-left-color: #0d6efd;
+}
+.bg {
+  color: #6ea8fe;
+}
+.bh {
+  background-color: #fff;
+}
+.bi {
+  border-top-right-radius: 0.375rem;
+}
+.bj {
+  border-bottom-right-radius: 0.375rem;
+}
+.r:hover {
+  z-index: 2;
+}
+.s:hover {
+  color: #8bb9fe;
+}
+.t:hover {
+  background-color: #2b3035;
+}
+.u:hover {
+  border-top-color: #dee2e6;
+}
+.v:hover {
+  border-right-color: #dee2e6;
+}
+.w:hover {
+  border-bottom-color: #dee2e6;
+}
+.x:hover {
+  border-left-color: #dee2e6;
+}
+.m:focus {
+  z-index: 3;
+}
+.n:focus {
+  color: #8bb9fe;
+}
+.o:focus {
+  background-color: #e9ecef;
+}
+.p:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.q:focus {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .i {
+    transition-property: none;
+  }
+  .j {
+    transition-duration: 0s;
+  }
+  .k {
+    transition-delay: 0s;
+  }
+  .l {
+    transition-timing-function: ease;
+  }
+}
+
+
+<nav data-testid="pagination-wrapper" aria-label="Page Navigation">
+  <ul class="a b c">
+    <li aria-disabled="true" data-testid="prev" class="">
+      <a
+        aria-disabled="true"
+        data-testid="page-link"
+        class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax d e f g h i j k l m n o p q r s t u v w x y z"
+        >«</a
+      >
+    </li>
+    <li
+      aria-disabled="false"
+      aria-current="page"
+      data-testid="page-item"
+      class=""
+    >
+      <a
+        aria-disabled="false"
+        aria-current="page"
+        data-testid="page-link"
+        class="ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf d e f i j k l m n o p q r s t u v w x"
+        >1</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >2</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >3</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >4</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="page-item" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh d e f i j k l m n o p q r s t u v w x"
+        >5</a
+      >
+    </li>
+    <li aria-disabled="false" data-testid="next" class="">
+      <a
+        aria-disabled="false"
+        data-testid="page-link"
+        class="ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ba bg bh bi bj d e f i j k l m n o p q r s t u v w x"
+        >»</a
+      >
+    </li>
+  </ul>
+</nav>
+;
+"
+`;

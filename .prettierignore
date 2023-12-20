@@ -1,0 +1,10 @@
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+.yarnrc.yml
+**/.yarn
+**/.vscode
+**/node_modules
+**/coverage
+dist/

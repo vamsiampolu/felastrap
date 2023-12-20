@@ -1,0 +1,274 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Dropdown/DropdownItem should render a disabled dropdown item 1`] = `
+".a {
+  background-color: #ff;
+}
+.b {
+  clear: both;
+}
+.c {
+  color: #212529;
+}
+.d {
+  display: block;
+}
+.e {
+  font-weight: 400;
+}
+.f {
+  text-align: inherit;
+}
+.g {
+  white-space: nowrap;
+}
+.l {
+  opacity: 0.5;
+}
+.m {
+  pointer-events: none;
+}
+.n {
+  text-decoration-line: none;
+}
+.o {
+  padding-top: 0.25rem;
+}
+.p {
+  padding-right: 1rem;
+}
+.q {
+  padding-bottom: 0.25rem;
+}
+.r {
+  padding-left: 1rem;
+}
+.s {
+  border-top-left-radius: 0;
+}
+.t {
+  border-top-right-radius: 0;
+}
+.u {
+  border-bottom-right-radius: 0;
+}
+.v {
+  border-bottom-left-radius: 0;
+}
+.w {
+  border-top-width: 0;
+}
+.x {
+  border-right-width: 0;
+}
+.y {
+  border-bottom-width: 0;
+}
+.z {
+  border-left-width: 0;
+}
+.j:hover {
+  color: #212529;
+}
+.k:hover {
+  background-color: #f8f9fa;
+}
+.h:focus {
+  color: #212529;
+}
+.i:focus {
+  background-color: #f8f9fa;
+}
+
+
+<li
+  data-testid="dropdown-item"
+  aria-disabled="true"
+  aria-selected="false"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x y z dropdown-item"
+  role="option"
+  tabindex="-1"
+>
+  Dropdown Item
+</li>
+;
+"
+`;
+
+exports[`components/Dropdown/DropdownItem should render a dropdown item 1`] = `
+".a {
+  background-color: transparent;
+}
+.b {
+  clear: both;
+}
+.c {
+  color: #212529;
+}
+.d {
+  display: block;
+}
+.e {
+  font-weight: 400;
+}
+.f {
+  text-align: inherit;
+}
+.g {
+  white-space: nowrap;
+}
+.l {
+  text-decoration-line: none;
+}
+.m {
+  padding-top: 0.25rem;
+}
+.n {
+  padding-right: 1rem;
+}
+.o {
+  padding-bottom: 0.25rem;
+}
+.p {
+  padding-left: 1rem;
+}
+.q {
+  border-top-left-radius: 0;
+}
+.r {
+  border-top-right-radius: 0;
+}
+.s {
+  border-bottom-right-radius: 0;
+}
+.t {
+  border-bottom-left-radius: 0;
+}
+.u {
+  border-top-width: 0;
+}
+.v {
+  border-right-width: 0;
+}
+.w {
+  border-bottom-width: 0;
+}
+.x {
+  border-left-width: 0;
+}
+.j:hover {
+  color: #212529;
+}
+.k:hover {
+  background-color: #f8f9fa;
+}
+.h:focus {
+  color: #212529;
+}
+.i:focus {
+  background-color: #f8f9fa;
+}
+
+
+<li
+  data-testid="dropdown-item"
+  aria-disabled="false"
+  aria-selected="false"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x dropdown-item"
+  role="option"
+  tabindex="-1"
+>
+  Dropdown Item
+</li>
+;
+"
+`;
+
+exports[`components/Dropdown/DropdownItem should render a selected dropdown item 1`] = `
+".a {
+  background-color: #0d6efd;
+}
+.b {
+  clear: both;
+}
+.c {
+  color: #fff;
+}
+.d {
+  display: block;
+}
+.e {
+  font-weight: 400;
+}
+.f {
+  text-align: inherit;
+}
+.g {
+  white-space: nowrap;
+}
+.l {
+  text-decoration-line: none;
+}
+.m {
+  padding-top: 0.25rem;
+}
+.n {
+  padding-right: 1rem;
+}
+.o {
+  padding-bottom: 0.25rem;
+}
+.p {
+  padding-left: 1rem;
+}
+.q {
+  border-top-left-radius: 0;
+}
+.r {
+  border-top-right-radius: 0;
+}
+.s {
+  border-bottom-right-radius: 0;
+}
+.t {
+  border-bottom-left-radius: 0;
+}
+.u {
+  border-top-width: 0;
+}
+.v {
+  border-right-width: 0;
+}
+.w {
+  border-bottom-width: 0;
+}
+.x {
+  border-left-width: 0;
+}
+.j:hover {
+  color: #212529;
+}
+.k:hover {
+  background-color: #f8f9fa;
+}
+.h:focus {
+  color: #212529;
+}
+.i:focus {
+  background-color: #f8f9fa;
+}
+
+
+<li
+  data-testid="dropdown-item"
+  aria-disabled="false"
+  aria-selected="true"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x dropdown-item"
+  role="option"
+  tabindex="0"
+>
+  Dropdown Item
+</li>
+;
+"
+`;

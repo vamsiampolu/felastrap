@@ -1,0 +1,1375 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Table/Row should render a Table Row with the context 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #fff;
+}
+.c {
+  border-bottom-width: 1px;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-color: #dee2e6;
+}
+.f {
+  border-right-color: #dee2e6;
+}
+.g {
+  border-bottom-color: #dee2e6;
+}
+.h {
+  border-left-color: #dee2e6;
+}
+.i {
+  padding-top: 0.5rem;
+}
+.j {
+  padding-right: 0.5rem;
+}
+.k {
+  padding-bottom: 0.5rem;
+}
+.l {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a Table Row with the default context 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #fff;
+}
+.c {
+  border-bottom-width: 1px;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-color: #dee2e6;
+}
+.f {
+  border-right-color: #dee2e6;
+}
+.g {
+  border-bottom-color: #dee2e6;
+}
+.h {
+  border-left-color: #dee2e6;
+}
+.i {
+  padding-top: 0.5rem;
+}
+.j {
+  padding-right: 0.5rem;
+}
+.k {
+  padding-bottom: 0.5rem;
+}
+.l {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a bordered table row of variant danger 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #f8d7da;
+}
+.c {
+  border-bottom-width: 1px;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-width: 0;
+}
+.f {
+  border-right-width: 1px;
+}
+.g {
+  border-left-width: 1px;
+}
+.h {
+  border-top-color: #c6acae;
+}
+.i {
+  border-right-color: #c6acae;
+}
+.j {
+  border-bottom-color: #c6acae;
+}
+.k {
+  border-left-color: #c6acae;
+}
+.l {
+  padding-top: 0.5rem;
+}
+.m {
+  padding-right: 0.5rem;
+}
+.n {
+  padding-bottom: 0.5rem;
+}
+.o {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l m n o table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a bordered table row of variant default 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #fff;
+}
+.c {
+  border-bottom-width: 1px;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-width: 0;
+}
+.f {
+  border-right-width: 1px;
+}
+.g {
+  border-left-width: 1px;
+}
+.h {
+  border-top-color: #dee2e6;
+}
+.i {
+  border-right-color: #dee2e6;
+}
+.j {
+  border-bottom-color: #dee2e6;
+}
+.k {
+  border-left-color: #dee2e6;
+}
+.l {
+  padding-top: 0.5rem;
+}
+.m {
+  padding-right: 0.5rem;
+}
+.n {
+  padding-bottom: 0.5rem;
+}
+.o {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l m n o table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a bordered table row of variant info 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #cff4fc;
+}
+.c {
+  border-bottom-width: 1px;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-width: 0;
+}
+.f {
+  border-right-width: 1px;
+}
+.g {
+  border-left-width: 1px;
+}
+.h {
+  border-top-color: #a6c3ca;
+}
+.i {
+  border-right-color: #a6c3ca;
+}
+.j {
+  border-bottom-color: #a6c3ca;
+}
+.k {
+  border-left-color: #a6c3ca;
+}
+.l {
+  padding-top: 0.5rem;
+}
+.m {
+  padding-right: 0.5rem;
+}
+.n {
+  padding-bottom: 0.5rem;
+}
+.o {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l m n o table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a bordered table row of variant primary 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #cfe2ff;
+}
+.c {
+  border-bottom-width: 1px;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-width: 0;
+}
+.f {
+  border-right-width: 1px;
+}
+.g {
+  border-left-width: 1px;
+}
+.h {
+  border-top-color: #a6b5cc;
+}
+.i {
+  border-right-color: #a6b5cc;
+}
+.j {
+  border-bottom-color: #a6b5cc;
+}
+.k {
+  border-left-color: #a6b5cc;
+}
+.l {
+  padding-top: 0.5rem;
+}
+.m {
+  padding-right: 0.5rem;
+}
+.n {
+  padding-bottom: 0.5rem;
+}
+.o {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l m n o table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a bordered table row of variant secondary 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #e2e3e5;
+}
+.c {
+  border-bottom-width: 1px;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-width: 0;
+}
+.f {
+  border-right-width: 1px;
+}
+.g {
+  border-left-width: 1px;
+}
+.h {
+  border-top-color: #b5b6b7;
+}
+.i {
+  border-right-color: #b5b6b7;
+}
+.j {
+  border-bottom-color: #b5b6b7;
+}
+.k {
+  border-left-color: #b5b6b7;
+}
+.l {
+  padding-top: 0.5rem;
+}
+.m {
+  padding-right: 0.5rem;
+}
+.n {
+  padding-bottom: 0.5rem;
+}
+.o {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l m n o table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a bordered table row of variant success 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #d1e7dd;
+}
+.c {
+  border-bottom-width: 1px;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-width: 0;
+}
+.f {
+  border-right-width: 1px;
+}
+.g {
+  border-left-width: 1px;
+}
+.h {
+  border-top-color: #a7b9b1;
+}
+.i {
+  border-right-color: #a7b9b1;
+}
+.j {
+  border-bottom-color: #a7b9b1;
+}
+.k {
+  border-left-color: #a7b9b1;
+}
+.l {
+  padding-top: 0.5rem;
+}
+.m {
+  padding-right: 0.5rem;
+}
+.n {
+  padding-bottom: 0.5rem;
+}
+.o {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l m n o table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a bordered table row of variant warning 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #fff3cd;
+}
+.c {
+  border-bottom-width: 1px;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-width: 0;
+}
+.f {
+  border-right-width: 1px;
+}
+.g {
+  border-left-width: 1px;
+}
+.h {
+  border-top-color: #ccc2a4;
+}
+.i {
+  border-right-color: #ccc2a4;
+}
+.j {
+  border-bottom-color: #ccc2a4;
+}
+.k {
+  border-left-color: #ccc2a4;
+}
+.l {
+  padding-top: 0.5rem;
+}
+.m {
+  padding-right: 0.5rem;
+}
+.n {
+  padding-bottom: 0.5rem;
+}
+.o {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l m n o table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a borderless table row of variant danger 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #f8d7da;
+}
+.c {
+  border-bottom-width: 0;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-color: #c6acae;
+}
+.f {
+  border-right-color: #c6acae;
+}
+.g {
+  border-bottom-color: #c6acae;
+}
+.h {
+  border-left-color: #c6acae;
+}
+.i {
+  padding-top: 0.5rem;
+}
+.j {
+  padding-right: 0.5rem;
+}
+.k {
+  padding-bottom: 0.5rem;
+}
+.l {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a borderless table row of variant default 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #fff;
+}
+.c {
+  border-bottom-width: 0;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-color: #dee2e6;
+}
+.f {
+  border-right-color: #dee2e6;
+}
+.g {
+  border-bottom-color: #dee2e6;
+}
+.h {
+  border-left-color: #dee2e6;
+}
+.i {
+  padding-top: 0.5rem;
+}
+.j {
+  padding-right: 0.5rem;
+}
+.k {
+  padding-bottom: 0.5rem;
+}
+.l {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a borderless table row of variant info 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #cff4fc;
+}
+.c {
+  border-bottom-width: 0;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-color: #a6c3ca;
+}
+.f {
+  border-right-color: #a6c3ca;
+}
+.g {
+  border-bottom-color: #a6c3ca;
+}
+.h {
+  border-left-color: #a6c3ca;
+}
+.i {
+  padding-top: 0.5rem;
+}
+.j {
+  padding-right: 0.5rem;
+}
+.k {
+  padding-bottom: 0.5rem;
+}
+.l {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a borderless table row of variant primary 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #cfe2ff;
+}
+.c {
+  border-bottom-width: 0;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-color: #a6b5cc;
+}
+.f {
+  border-right-color: #a6b5cc;
+}
+.g {
+  border-bottom-color: #a6b5cc;
+}
+.h {
+  border-left-color: #a6b5cc;
+}
+.i {
+  padding-top: 0.5rem;
+}
+.j {
+  padding-right: 0.5rem;
+}
+.k {
+  padding-bottom: 0.5rem;
+}
+.l {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a borderless table row of variant secondary 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #e2e3e5;
+}
+.c {
+  border-bottom-width: 0;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-color: #b5b6b7;
+}
+.f {
+  border-right-color: #b5b6b7;
+}
+.g {
+  border-bottom-color: #b5b6b7;
+}
+.h {
+  border-left-color: #b5b6b7;
+}
+.i {
+  padding-top: 0.5rem;
+}
+.j {
+  padding-right: 0.5rem;
+}
+.k {
+  padding-bottom: 0.5rem;
+}
+.l {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a borderless table row of variant success 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #d1e7dd;
+}
+.c {
+  border-bottom-width: 0;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-color: #a7b9b1;
+}
+.f {
+  border-right-color: #a7b9b1;
+}
+.g {
+  border-bottom-color: #a7b9b1;
+}
+.h {
+  border-left-color: #a7b9b1;
+}
+.i {
+  padding-top: 0.5rem;
+}
+.j {
+  padding-right: 0.5rem;
+}
+.k {
+  padding-bottom: 0.5rem;
+}
+.l {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a borderless table row of variant warning 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #fff3cd;
+}
+.c {
+  border-bottom-width: 0;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-color: #ccc2a4;
+}
+.f {
+  border-right-color: #ccc2a4;
+}
+.g {
+  border-bottom-color: #ccc2a4;
+}
+.h {
+  border-left-color: #ccc2a4;
+}
+.i {
+  padding-top: 0.5rem;
+}
+.j {
+  padding-right: 0.5rem;
+}
+.k {
+  padding-bottom: 0.5rem;
+}
+.l {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a table row of variant danger 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #f8d7da;
+}
+.c {
+  border-bottom-width: 1px;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-color: #c6acae;
+}
+.f {
+  border-right-color: #c6acae;
+}
+.g {
+  border-bottom-color: #c6acae;
+}
+.h {
+  border-left-color: #c6acae;
+}
+.i {
+  padding-top: 0.5rem;
+}
+.j {
+  padding-right: 0.5rem;
+}
+.k {
+  padding-bottom: 0.5rem;
+}
+.l {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a table row of variant default 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #fff;
+}
+.c {
+  border-bottom-width: 1px;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-color: #dee2e6;
+}
+.f {
+  border-right-color: #dee2e6;
+}
+.g {
+  border-bottom-color: #dee2e6;
+}
+.h {
+  border-left-color: #dee2e6;
+}
+.i {
+  padding-top: 0.5rem;
+}
+.j {
+  padding-right: 0.5rem;
+}
+.k {
+  padding-bottom: 0.5rem;
+}
+.l {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a table row of variant info 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #cff4fc;
+}
+.c {
+  border-bottom-width: 1px;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-color: #a6c3ca;
+}
+.f {
+  border-right-color: #a6c3ca;
+}
+.g {
+  border-bottom-color: #a6c3ca;
+}
+.h {
+  border-left-color: #a6c3ca;
+}
+.i {
+  padding-top: 0.5rem;
+}
+.j {
+  padding-right: 0.5rem;
+}
+.k {
+  padding-bottom: 0.5rem;
+}
+.l {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a table row of variant primary 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #cfe2ff;
+}
+.c {
+  border-bottom-width: 1px;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-color: #a6b5cc;
+}
+.f {
+  border-right-color: #a6b5cc;
+}
+.g {
+  border-bottom-color: #a6b5cc;
+}
+.h {
+  border-left-color: #a6b5cc;
+}
+.i {
+  padding-top: 0.5rem;
+}
+.j {
+  padding-right: 0.5rem;
+}
+.k {
+  padding-bottom: 0.5rem;
+}
+.l {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a table row of variant secondary 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #e2e3e5;
+}
+.c {
+  border-bottom-width: 1px;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-color: #b5b6b7;
+}
+.f {
+  border-right-color: #b5b6b7;
+}
+.g {
+  border-bottom-color: #b5b6b7;
+}
+.h {
+  border-left-color: #b5b6b7;
+}
+.i {
+  padding-top: 0.5rem;
+}
+.j {
+  padding-right: 0.5rem;
+}
+.k {
+  padding-bottom: 0.5rem;
+}
+.l {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a table row of variant success 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #d1e7dd;
+}
+.c {
+  border-bottom-width: 1px;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-color: #a7b9b1;
+}
+.f {
+  border-right-color: #a7b9b1;
+}
+.g {
+  border-bottom-color: #a7b9b1;
+}
+.h {
+  border-left-color: #a7b9b1;
+}
+.i {
+  padding-top: 0.5rem;
+}
+.j {
+  padding-right: 0.5rem;
+}
+.k {
+  padding-bottom: 0.5rem;
+}
+.l {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Row should render a table row of variant warning 1`] = `
+".a {
+  color: #000;
+}
+.b {
+  background-color: #fff3cd;
+}
+.c {
+  border-bottom-width: 1px;
+}
+.d {
+  box-shadow: inset 0 0 0 9999px initial;
+}
+.e {
+  border-top-color: #ccc2a4;
+}
+.f {
+  border-right-color: #ccc2a4;
+}
+.g {
+  border-bottom-color: #ccc2a4;
+}
+.h {
+  border-left-color: #ccc2a4;
+}
+.i {
+  padding-top: 0.5rem;
+}
+.j {
+  padding-right: 0.5rem;
+}
+.k {
+  padding-bottom: 0.5rem;
+}
+.l {
+  padding-left: 0.5rem;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-testid="table-row" class="a b c d e f g h i j k l table-row">
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;

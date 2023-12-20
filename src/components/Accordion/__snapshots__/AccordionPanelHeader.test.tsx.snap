@@ -1,0 +1,771 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Accordion/AccordionPanelHeader should render a panel header 1`] = `
+".a {
+  margin-bottom: 0;
+}
+.b {
+  margin-top: 0;
+}
+.c {
+  color: inherit;
+}
+.d {
+  font-weight: 500;
+}
+.e {
+  font-size: calc(1.325rem + 0.9vw);
+}
+.f {
+  line-height: 1.2;
+}
+.g {
+  margin-bottom: 0.5rem;
+}
+.i {
+  position: relative;
+}
+.j {
+  display: flex !important;
+}
+.k {
+  align-items: center;
+}
+.l {
+  width: 100%;
+}
+.m {
+  font-size: 1rem;
+}
+.n {
+  color: #212529;
+}
+.o {
+  text-align: left;
+}
+.p {
+  background-color: #fff;
+}
+.q {
+  overflow-anchor: none;
+}
+.af {
+  transition-property: color, background-color, border-color, box-shadow,
+    border-radius;
+}
+.ag {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.ah {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease;
+}
+.ai {
+  transition-timing-function: ease, ease, ease, ease, ease;
+}
+.aj {
+  border-top-left-radius: 0;
+}
+.ak {
+  border-top-right-radius: 0;
+}
+.al {
+  border-bottom-right-radius: 0;
+}
+.am {
+  border-bottom-left-radius: 0;
+}
+.an {
+  border-top-width: 0;
+}
+.ao {
+  border-right-width: 0;
+}
+.ap {
+  border-bottom-width: 0;
+}
+.aq {
+  border-left-width: 0;
+}
+.ar {
+  padding-top: 1.25rem;
+}
+.as {
+  padding-right: 1rem;
+}
+.at {
+  padding-bottom: 1.25rem;
+}
+.au {
+  padding-left: 1rem;
+}
+.av {
+  border-top-left-radius: 4px;
+}
+.aw {
+  border-bottom-left-radius: 4px;
+}
+.ax {
+  padding-top: 6px;
+}
+.ay {
+  padding-bottom: 6px;
+}
+.az {
+  padding-left: 12px;
+}
+.ba {
+  padding-right: 12px;
+}
+.bb {
+  background-image: none;
+}
+.bc {
+  color: #333;
+}
+.bd {
+  cursor: pointer;
+}
+.be {
+  display: inline-block;
+}
+.bf {
+  font-size: 14px;
+}
+.bg {
+  font-weight: 400;
+}
+.bh {
+  line-height: 1.42857143;
+}
+.bi {
+  text-align: center;
+}
+.bj {
+  touch-action: manipulation;
+}
+.bk {
+  white-space: nowrap;
+}
+.bl {
+  vertical-align: middle;
+}
+.bm {
+  user-select: none;
+}
+.bw:disabled {
+  background-color: #fff;
+}
+.bx:disabled {
+  color: #333;
+}
+.by:disabled {
+  box-shadow: none;
+}
+.bz:disabled {
+  cursor: not-allowed;
+}
+.ca:disabled {
+  filter: alpha(opacity=65);
+}
+.cb:disabled {
+  opacity: 0.65;
+}
+.cc:disabled {
+  pointer-events: none;
+}
+.cd:disabled {
+  border-top-color: #ccc;
+}
+.ce:disabled {
+  border-right-color: #ccc;
+}
+.cf:disabled {
+  border-bottom-color: #ccc;
+}
+.cg:disabled {
+  border-left-color: #ccc;
+}
+.cv {
+  border-top-width: 1px;
+}
+.cw {
+  border-right-width: 1px;
+}
+.cx {
+  border-bottom-width: 1px;
+}
+.cy {
+  border-left-width: 1px;
+}
+.cz {
+  border-top-style: solid;
+}
+.da {
+  border-right-style: solid;
+}
+.db {
+  border-bottom-style: solid;
+}
+.dc {
+  border-left-style: solid;
+}
+.dd {
+  border-top-color: #ccc;
+}
+.de {
+  border-right-color: #ccc;
+}
+.df {
+  border-bottom-color: #ccc;
+}
+.dg {
+  border-left-color: #ccc;
+}
+.dh {
+  flex-shrink: 0;
+}
+.di {
+  width: 1.25rem;
+}
+.dj {
+  height: 1.25rem;
+}
+.dk {
+  margin-left: auto;
+}
+.dl {
+  background-image: url("/chevron-down.svg");
+}
+.dm {
+  background-repeat: no-repeat;
+}
+.dn {
+  background-size: 1.25rem;
+}
+.do {
+  transition-property: transform;
+}
+.dp {
+  transition-duration: 0.2s;
+}
+.dq {
+  transition-delay: ease-in-out;
+}
+.dr {
+  transition-timing-function: ease;
+}
+.ae:hover {
+  z-index: 2;
+}
+.cp:hover {
+  background-color: #e6e6e6;
+}
+.cq:hover {
+  color: #333;
+}
+.cr:hover {
+  border-top-color: #adadad;
+}
+.cs:hover {
+  border-right-color: #adadad;
+}
+.ct:hover {
+  border-bottom-color: #adadad;
+}
+.cu:hover {
+  border-left-color: #adadad;
+}
+.v:focus {
+  z-index: 3;
+}
+.w:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.x:focus {
+  outline-width: 0;
+}
+.y:focus {
+  border-top-color: #86b7fe;
+}
+.z:focus {
+  border-right-color: #86b7fe;
+}
+.ab:focus {
+  border-bottom-color: #86b7fe;
+}
+.ac:focus {
+  border-left-color: #86b7fe;
+}
+.ch:focus-visible {
+  color: #333;
+}
+.ci:focus-visible {
+  background-color: #e6e6e6;
+}
+.cj:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.ck:focus-visible {
+  outline-width: 0;
+}
+.cl:focus-visible {
+  border-top-color: #adadad;
+}
+.cm:focus-visible {
+  border-right-color: #adadad;
+}
+.cn:focus-visible {
+  border-bottom-color: #adadad;
+}
+.co:focus-visible {
+  border-left-color: #adadad;
+}
+.bn:active {
+  color: #333;
+}
+.bo:active {
+  background-color: #e6e6e6;
+}
+.bp:active {
+  background-image: none;
+}
+.bq:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.br:active {
+  outline-width: 0;
+}
+.bs:active {
+  border-top-color: #adadad;
+}
+.bt:active {
+  border-right-color: #adadad;
+}
+.bu:active {
+  border-bottom-color: #adadad;
+}
+.bv:active {
+  border-left-color: #adadad;
+}
+@media (min-width: 1200px) {
+  .h {
+    font-size: 2rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .r {
+    transition-property: none;
+  }
+  .s {
+    transition-duration: 0s;
+  }
+  .t {
+    transition-delay: 0s;
+  }
+  .u {
+    transition-timing-function: ease;
+  }
+}
+
+
+<h2 class="a b accordion-header" data-testid="accordion-panel-header">
+  <button
+    data-testid="accordion-toggle-button"
+    class="a ak al av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg p ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au i j k l m n o p q r s t u v w x y z accordion-toggle-button"
+    aria-expanded="false"
+  >
+    Panel Header
+    <div
+      data-testid="accordion-toggle-icon"
+      class="dh di dj dk dl dm dn do dp dq dr r s t u accordion-toggle-icon"
+    ></div>
+  </button>
+</h2>
+;
+"
+`;
+
+exports[`components/Accordion/AccordionPanelHeader should render a toggle button and the toggle icon 1`] = `
+".a {
+  margin-bottom: 0;
+}
+.b {
+  margin-top: 0;
+}
+.c {
+  color: inherit;
+}
+.d {
+  font-weight: 500;
+}
+.e {
+  font-size: calc(1.325rem + 0.9vw);
+}
+.f {
+  line-height: 1.2;
+}
+.g {
+  margin-bottom: 0.5rem;
+}
+.i {
+  position: relative;
+}
+.j {
+  display: flex !important;
+}
+.k {
+  align-items: center;
+}
+.l {
+  width: 100%;
+}
+.m {
+  font-size: 1rem;
+}
+.n {
+  color: #212529;
+}
+.o {
+  text-align: left;
+}
+.p {
+  background-color: #fff;
+}
+.q {
+  overflow-anchor: none;
+}
+.af {
+  transition-property: color, background-color, border-color, box-shadow,
+    border-radius;
+}
+.ag {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.ah {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease;
+}
+.ai {
+  transition-timing-function: ease, ease, ease, ease, ease;
+}
+.aj {
+  border-top-left-radius: 0;
+}
+.ak {
+  border-top-right-radius: 0;
+}
+.al {
+  border-bottom-right-radius: 0;
+}
+.am {
+  border-bottom-left-radius: 0;
+}
+.an {
+  border-top-width: 0;
+}
+.ao {
+  border-right-width: 0;
+}
+.ap {
+  border-bottom-width: 0;
+}
+.aq {
+  border-left-width: 0;
+}
+.ar {
+  padding-top: 1.25rem;
+}
+.as {
+  padding-right: 1rem;
+}
+.at {
+  padding-bottom: 1.25rem;
+}
+.au {
+  padding-left: 1rem;
+}
+.av {
+  border-top-left-radius: 4px;
+}
+.aw {
+  border-bottom-left-radius: 4px;
+}
+.ax {
+  padding-top: 6px;
+}
+.ay {
+  padding-bottom: 6px;
+}
+.az {
+  padding-left: 12px;
+}
+.ba {
+  padding-right: 12px;
+}
+.bb {
+  background-image: none;
+}
+.bc {
+  color: #333;
+}
+.bd {
+  cursor: pointer;
+}
+.be {
+  display: inline-block;
+}
+.bf {
+  font-size: 14px;
+}
+.bg {
+  font-weight: 400;
+}
+.bh {
+  line-height: 1.42857143;
+}
+.bi {
+  text-align: center;
+}
+.bj {
+  touch-action: manipulation;
+}
+.bk {
+  white-space: nowrap;
+}
+.bl {
+  vertical-align: middle;
+}
+.bm {
+  user-select: none;
+}
+.bw:disabled {
+  background-color: #fff;
+}
+.bx:disabled {
+  color: #333;
+}
+.by:disabled {
+  box-shadow: none;
+}
+.bz:disabled {
+  cursor: not-allowed;
+}
+.ca:disabled {
+  filter: alpha(opacity=65);
+}
+.cb:disabled {
+  opacity: 0.65;
+}
+.cc:disabled {
+  pointer-events: none;
+}
+.cd:disabled {
+  border-top-color: #ccc;
+}
+.ce:disabled {
+  border-right-color: #ccc;
+}
+.cf:disabled {
+  border-bottom-color: #ccc;
+}
+.cg:disabled {
+  border-left-color: #ccc;
+}
+.cv {
+  border-top-width: 1px;
+}
+.cw {
+  border-right-width: 1px;
+}
+.cx {
+  border-bottom-width: 1px;
+}
+.cy {
+  border-left-width: 1px;
+}
+.cz {
+  border-top-style: solid;
+}
+.da {
+  border-right-style: solid;
+}
+.db {
+  border-bottom-style: solid;
+}
+.dc {
+  border-left-style: solid;
+}
+.dd {
+  border-top-color: #ccc;
+}
+.de {
+  border-right-color: #ccc;
+}
+.df {
+  border-bottom-color: #ccc;
+}
+.dg {
+  border-left-color: #ccc;
+}
+.dh {
+  flex-shrink: 0;
+}
+.di {
+  width: 1.25rem;
+}
+.dj {
+  height: 1.25rem;
+}
+.dk {
+  margin-left: auto;
+}
+.dl {
+  background-image: url("/chevron-down.svg");
+}
+.dm {
+  background-repeat: no-repeat;
+}
+.dn {
+  background-size: 1.25rem;
+}
+.do {
+  transition-property: transform;
+}
+.dp {
+  transition-duration: 0.2s;
+}
+.dq {
+  transition-delay: ease-in-out;
+}
+.dr {
+  transition-timing-function: ease;
+}
+.ae:hover {
+  z-index: 2;
+}
+.cp:hover {
+  background-color: #e6e6e6;
+}
+.cq:hover {
+  color: #333;
+}
+.cr:hover {
+  border-top-color: #adadad;
+}
+.cs:hover {
+  border-right-color: #adadad;
+}
+.ct:hover {
+  border-bottom-color: #adadad;
+}
+.cu:hover {
+  border-left-color: #adadad;
+}
+.v:focus {
+  z-index: 3;
+}
+.w:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.x:focus {
+  outline-width: 0;
+}
+.y:focus {
+  border-top-color: #86b7fe;
+}
+.z:focus {
+  border-right-color: #86b7fe;
+}
+.ab:focus {
+  border-bottom-color: #86b7fe;
+}
+.ac:focus {
+  border-left-color: #86b7fe;
+}
+.ch:focus-visible {
+  color: #333;
+}
+.ci:focus-visible {
+  background-color: #e6e6e6;
+}
+.cj:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.ck:focus-visible {
+  outline-width: 0;
+}
+.cl:focus-visible {
+  border-top-color: #adadad;
+}
+.cm:focus-visible {
+  border-right-color: #adadad;
+}
+.cn:focus-visible {
+  border-bottom-color: #adadad;
+}
+.co:focus-visible {
+  border-left-color: #adadad;
+}
+.bn:active {
+  color: #333;
+}
+.bo:active {
+  background-color: #e6e6e6;
+}
+.bp:active {
+  background-image: none;
+}
+.bq:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.br:active {
+  outline-width: 0;
+}
+.bs:active {
+  border-top-color: #adadad;
+}
+.bt:active {
+  border-right-color: #adadad;
+}
+.bu:active {
+  border-bottom-color: #adadad;
+}
+.bv:active {
+  border-left-color: #adadad;
+}
+@media (min-width: 1200px) {
+  .h {
+    font-size: 2rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .r {
+    transition-property: none;
+  }
+  .s {
+    transition-duration: 0s;
+  }
+  .t {
+    transition-delay: 0s;
+  }
+  .u {
+    transition-timing-function: ease;
+  }
+}
+
+
+<h2 class="a b accordion-header" data-testid="accordion-panel-header">
+  <button
+    data-testid="accordion-toggle-button"
+    class="a ak al av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg p ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au i j k l m n o p q r s t u v w x y z accordion-toggle-button"
+    aria-expanded="false"
+  >
+    Panel Header
+    <div
+      data-testid="accordion-toggle-icon"
+      class="dh di dj dk dl dm dn do dp dq dr r s t u accordion-toggle-icon"
+    ></div>
+  </button>
+</h2>
+;
+"
+`;

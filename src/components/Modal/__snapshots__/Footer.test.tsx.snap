@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Modal/Footer should render a Modal Footer 1`] = `
+".a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.b {
+  flex-direction: row;
+}
+.c {
+  justify-content: flex-end;
+}
+.d {
+  padding-right: 0.75rem;
+}
+.e > * {
+  margin-top: 0.25rem;
+}
+.f > * {
+  margin-right: 0.25rem;
+}
+.g > * {
+  margin-bottom: 0.25rem;
+}
+.h > * {
+  margin-left: 0.25rem;
+}
+.i button + button {
+  margin-bottom: 0;
+}
+.j button + button {
+  margin-left: 5px;
+}
+.k {
+  padding-top: 0.75rem;
+}
+.l {
+  padding-bottom: 0.75rem;
+}
+.m {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="modal-footer"
+  class="a b c d e f g h i j k l m bs-modal-footer"
+>
+  Modal Footer
+</div>
+;
+"
+`;

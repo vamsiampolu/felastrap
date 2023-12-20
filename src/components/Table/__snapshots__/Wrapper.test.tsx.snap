@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Table/Wrapper should render a table 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  margin-bottom: 1rem;
+}
+.c {
+  vertical-align: top;
+}
+.d {
+  color: #000;
+}
+.e {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.f:not(:first-child) {
+  border-top-width: 0;
+}
+.g {
+  border-top-color: #dee2e6;
+}
+.h {
+  border-right-color: #dee2e6;
+}
+.i {
+  border-bottom-color: #dee2e6;
+}
+.j {
+  border-left-color: #dee2e6;
+}
+
+
+<table data-testid="table" class="a b c d e f g h i j bs-table">
+  <thead>
+    <tr>
+      <td>Col A</td>
+      <td>Col B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A table body</td>
+      <td>with two columns</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;

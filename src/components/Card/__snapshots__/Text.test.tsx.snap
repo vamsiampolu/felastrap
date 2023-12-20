@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Card/Text should render a card text 1`] = `
+".a {
+  margin-top: 0;
+}
+.b {
+  margin-bottom: 1rem;
+}
+
+
+<p data-testid="card-text" class="a b card-text">Card Text</p>
+;
+"
+`;

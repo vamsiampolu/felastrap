@@ -1,0 +1,111 @@
+import { Meta, ColorPalette, ColorItem } from "@storybook/blocks";
+
+<Meta title="Colors" />
+
+# Colors
+
+Most of the components come in six variants:
+
+- `default`: represents the base appearance of a component.
+
+- `primary`: represents the primary call to action where we want to often direct the user's attention.
+
+- `secondary`:
+
+- `info`: mildly important information, a neutral color.
+
+- `success`: useful for indicating success in alerts, can be used to indicate a contrast to `danger` below.
+
+- `danger`: useful for indicating irreversible actions that the user may take, errors that occured when the user tries to perform an action.
+
+- `warning`: useful for indicating a concerning matter that can be dealt with. For example, we can use it to indicate a `missing plugin` or a failed `api call` that might give you
+  additional info that is not mandatory.
+
+export const theme = {
+  backgroundColor: {
+    default: "#fff",
+    danger: "#dc3545",
+    info: "#0dcaf0",
+    primary: "#0d6efd",
+    secondary: "#6c757d",
+    success: "#198754",
+    warning: "#ffc107",
+  },
+  borderColor: {
+    default: "#ccc",
+    danger: "#dc3545",
+    info: "#0dcaf0",
+    primary: "#2e6da4",
+    secondary: "#6c757d",
+    success: "#198754",
+    warning: "#ffc107",
+  },
+  textColors: {
+    primary: "#052c65",
+    success: "#0a3622",
+    danger: "#58151c",
+    warning: "#664d03",
+    info: "#055160",
+    default: "#495057",
+  },
+};
+
+## Background Color
+
+<ColorPalette>
+  <ColorItem
+    title="Default"
+    colors={{ Default: theme.backgroundColor.default }}
+  />
+  <ColorItem
+    title="Primary"
+    colors={{ Primary: theme.backgroundColor.primary }}
+  />
+  <ColorItem
+    title="Secondary"
+    colors={{ Secondary: theme.backgroundColor.secondary }}
+  />
+  <ColorItem title="Info" colors={{ Info: theme.backgroundColor.info }} />
+  <ColorItem
+    title="Success"
+    colors={{ Success: theme.backgroundColor.success }}
+  />
+  <ColorItem
+    title="Warning"
+    colors={{ Warning: theme.backgroundColor.warning }}
+  />
+  <ColorItem title="Danger" colors={{ Danger: theme.backgroundColor.danger }} />
+</ColorPalette>
+
+## Border Color
+
+<ColorPalette>
+  <ColorItem title="Default" colors={{ Default: theme.borderColor.default }} />
+  <ColorItem title="Primary" colors={{ Primary: theme.borderColor.primary }} />
+  <ColorItem
+    title="Secondary"
+    colors={{ Secondary: theme.borderColor.secondary }}
+  />
+  <ColorItem title="Info" colors={{ Info: theme.borderColor.info }} />
+  <ColorItem title="Success" colors={{ Success: theme.borderColor.success }} />
+  <ColorItem title="Warning" colors={{ Warning: theme.borderColor.warning }} />
+  <ColorItem title="Danger" colors={{ Danger: theme.borderColor.danger }} />
+</ColorPalette>
+
+## Text Color
+
+<ColorPalette>
+  <ColorItem title="Default" colors={{ Default: theme.textColors.default }} />
+  <ColorItem title="Primary" colors={{ Primary: theme.textColors.primary }} />
+  <ColorItem
+    title="Secondary"
+    colors={{ Secondary: theme.textColors.secondary }}
+  />
+  <ColorItem title="Info" colors={{ Info: theme.textColors.info }} />
+  <ColorItem title="Success" colors={{ Success: theme.textColors.success }} />
+  <ColorItem title="Warning" colors={{ Warning: theme.textColors.warning }} />
+  <ColorItem title="Danger" colors={{ Danger: theme.textColors.danger }} />
+</ColorPalette>
+
+A full list of colors is provided on the [bootstrap documentation](https://getbootstrap.com/docs/5.3/customize/color/#all-colors) .
+We only provide the colors displayed above.

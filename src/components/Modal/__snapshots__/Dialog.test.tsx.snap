@@ -1,0 +1,1564 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Modal/Dialog should render a Modal Dialog 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.a {
+  transform: translate(0);
+}
+.b {
+  position: relative;
+}
+.c {
+  width: auto;
+}
+.d {
+  margin-left: auto;
+}
+.e {
+  margin-right: auto;
+}
+.f {
+  margin-top: 1.75rem;
+}
+.g {
+  margin-bottom: 1.75rem;
+}
+.h {
+  max-width: 500px;
+}
+.i {
+  animation-name: k1;
+}
+.j {
+  animation-fill-mode: both;
+}
+.k {
+  transition-property: transform;
+}
+.l {
+  transition-duration: 0.3s;
+}
+.m {
+  transition-delay: ease-out;
+}
+.n {
+  transition-timing-function: ease;
+}
+.o {
+  background-color: #fff;
+}
+.p {
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+.q {
+  background-clip: padding-box;
+}
+.r {
+  text-align: center;
+}
+.s {
+  outline-width: 0;
+}
+.t {
+  border-top-left-radius: 6px;
+}
+.u {
+  border-top-right-radius: 6px;
+}
+.v {
+  border-bottom-right-radius: 6px;
+}
+.w {
+  border-bottom-left-radius: 6px;
+}
+.x {
+  border-top-width: 1px;
+}
+.y {
+  border-right-width: 1px;
+}
+.z {
+  border-bottom-width: 1px;
+}
+.ab {
+  border-left-width: 1px;
+}
+.ac {
+  border-top-style: solid;
+}
+.ae {
+  border-right-style: solid;
+}
+.af {
+  border-bottom-style: solid;
+}
+.ag {
+  border-left-style: solid;
+}
+.ah {
+  border-top-color: rgba(0, 0, 0, 0.2);
+}
+.ai {
+  border-right-color: rgba(0, 0, 0, 0.2);
+}
+.aj {
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+.ak {
+  border-left-color: rgba(0, 0, 0, 0.2);
+}
+
+
+<div
+  data-testid="modal-dialog"
+  class="a b c d e f g h i j k l m n bs-modal-dialog"
+>
+  <div
+    data-testid="modal-dialog-inner"
+    class="ab ac ae af ag ah ai aj ak b o p q r s t u v w x y z bs-modal-content"
+  >
+    Modal Dialog
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Modal/Dialog should render a Modal Dialog of size large 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.a {
+  transform: translate(0);
+}
+.b {
+  position: relative;
+}
+.c {
+  width: auto;
+}
+.d {
+  margin-left: auto;
+}
+.e {
+  margin-right: auto;
+}
+.f {
+  margin-top: 1.75rem;
+}
+.g {
+  margin-bottom: 1.75rem;
+}
+.h {
+  max-width: 500px;
+}
+.k {
+  animation-name: k1;
+}
+.l {
+  animation-fill-mode: both;
+}
+.m {
+  transition-property: transform;
+}
+.n {
+  transition-duration: 0.3s;
+}
+.o {
+  transition-delay: ease-out;
+}
+.p {
+  transition-timing-function: ease;
+}
+.q {
+  background-color: #fff;
+}
+.r {
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+.s {
+  background-clip: padding-box;
+}
+.t {
+  text-align: center;
+}
+.u {
+  outline-width: 0;
+}
+.v {
+  border-top-left-radius: 6px;
+}
+.w {
+  border-top-right-radius: 6px;
+}
+.x {
+  border-bottom-right-radius: 6px;
+}
+.y {
+  border-bottom-left-radius: 6px;
+}
+.z {
+  border-top-width: 1px;
+}
+.ab {
+  border-right-width: 1px;
+}
+.ac {
+  border-bottom-width: 1px;
+}
+.ae {
+  border-left-width: 1px;
+}
+.af {
+  border-top-style: solid;
+}
+.ag {
+  border-right-style: solid;
+}
+.ah {
+  border-bottom-style: solid;
+}
+.ai {
+  border-left-style: solid;
+}
+.aj {
+  border-top-color: rgba(0, 0, 0, 0.2);
+}
+.ak {
+  border-right-color: rgba(0, 0, 0, 0.2);
+}
+.al {
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+.am {
+  border-left-color: rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 992px) {
+  .i {
+    max-width: 800px;
+  }
+  .j {
+    width: 800px;
+  }
+}
+
+
+<div
+  data-testid="modal-dialog"
+  class="a b c d e f g h i j k l m n o p bs-modal-dialog"
+>
+  <div
+    data-testid="modal-dialog-inner"
+    class="ab ac ae af ag ah ai aj ak al am b q r s t u v w x y z bs-modal-content"
+  >
+    Modal Dialog
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Modal/Dialog should render a Modal Dialog of size medium 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.a {
+  transform: translate(0);
+}
+.b {
+  position: relative;
+}
+.c {
+  width: auto;
+}
+.d {
+  margin-left: auto;
+}
+.e {
+  margin-right: auto;
+}
+.f {
+  margin-top: 1.75rem;
+}
+.g {
+  margin-bottom: 1.75rem;
+}
+.h {
+  max-width: 500px;
+}
+.i {
+  animation-name: k1;
+}
+.j {
+  animation-fill-mode: both;
+}
+.k {
+  transition-property: transform;
+}
+.l {
+  transition-duration: 0.3s;
+}
+.m {
+  transition-delay: ease-out;
+}
+.n {
+  transition-timing-function: ease;
+}
+.o {
+  background-color: #fff;
+}
+.p {
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+.q {
+  background-clip: padding-box;
+}
+.r {
+  text-align: center;
+}
+.s {
+  outline-width: 0;
+}
+.t {
+  border-top-left-radius: 6px;
+}
+.u {
+  border-top-right-radius: 6px;
+}
+.v {
+  border-bottom-right-radius: 6px;
+}
+.w {
+  border-bottom-left-radius: 6px;
+}
+.x {
+  border-top-width: 1px;
+}
+.y {
+  border-right-width: 1px;
+}
+.z {
+  border-bottom-width: 1px;
+}
+.ab {
+  border-left-width: 1px;
+}
+.ac {
+  border-top-style: solid;
+}
+.ae {
+  border-right-style: solid;
+}
+.af {
+  border-bottom-style: solid;
+}
+.ag {
+  border-left-style: solid;
+}
+.ah {
+  border-top-color: rgba(0, 0, 0, 0.2);
+}
+.ai {
+  border-right-color: rgba(0, 0, 0, 0.2);
+}
+.aj {
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+.ak {
+  border-left-color: rgba(0, 0, 0, 0.2);
+}
+
+
+<div
+  data-testid="modal-dialog"
+  class="a b c d e f g h i j k l m n bs-modal-dialog"
+>
+  <div
+    data-testid="modal-dialog-inner"
+    class="ab ac ae af ag ah ai aj ak b o p q r s t u v w x y z bs-modal-content"
+  >
+    Modal Dialog
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Modal/Dialog should render a Modal Dialog of size small 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.a {
+  transform: translate(0);
+}
+.b {
+  position: relative;
+}
+.c {
+  width: auto;
+}
+.d {
+  margin-left: auto;
+}
+.e {
+  margin-right: auto;
+}
+.f {
+  margin-top: 1.75rem;
+}
+.g {
+  margin-bottom: 1.75rem;
+}
+.h {
+  max-width: 500px;
+}
+.k {
+  animation-name: k1;
+}
+.l {
+  animation-fill-mode: both;
+}
+.m {
+  transition-property: transform;
+}
+.n {
+  transition-duration: 0.3s;
+}
+.o {
+  transition-delay: ease-out;
+}
+.p {
+  transition-timing-function: ease;
+}
+.q {
+  background-color: #fff;
+}
+.r {
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+.s {
+  background-clip: padding-box;
+}
+.t {
+  text-align: center;
+}
+.u {
+  outline-width: 0;
+}
+.v {
+  border-top-left-radius: 6px;
+}
+.w {
+  border-top-right-radius: 6px;
+}
+.x {
+  border-bottom-right-radius: 6px;
+}
+.y {
+  border-bottom-left-radius: 6px;
+}
+.z {
+  border-top-width: 1px;
+}
+.ab {
+  border-right-width: 1px;
+}
+.ac {
+  border-bottom-width: 1px;
+}
+.ae {
+  border-left-width: 1px;
+}
+.af {
+  border-top-style: solid;
+}
+.ag {
+  border-right-style: solid;
+}
+.ah {
+  border-bottom-style: solid;
+}
+.ai {
+  border-left-style: solid;
+}
+.aj {
+  border-top-color: rgba(0, 0, 0, 0.2);
+}
+.ak {
+  border-right-color: rgba(0, 0, 0, 0.2);
+}
+.al {
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+.am {
+  border-left-color: rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 576px) {
+  .i {
+    max-width: 300px;
+  }
+  .j {
+    width: 300px;
+  }
+}
+
+
+<div
+  data-testid="modal-dialog"
+  class="a b c d e f g h i j k l m n o p bs-modal-dialog"
+>
+  <div
+    data-testid="modal-dialog-inner"
+    class="ab ac ae af ag ah ai aj ak al am b q r s t u v w x y z bs-modal-content"
+  >
+    Modal Dialog
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Modal/Dialog should render a centered Modal Dialog of size large 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.a {
+  transform: translate(0);
+}
+.b {
+  position: relative;
+}
+.c {
+  width: auto;
+}
+.d {
+  margin-left: auto;
+}
+.e {
+  margin-right: auto;
+}
+.f {
+  margin-top: 1.75rem;
+}
+.g {
+  margin-bottom: 1.75rem;
+}
+.h {
+  max-width: 500px;
+}
+.k {
+  display: flex;
+}
+.l {
+  align-items: center;
+}
+.m {
+  min-height: calc(100% - 1.75rem * 2);
+}
+.n {
+  animation-name: k1;
+}
+.o {
+  animation-fill-mode: both;
+}
+.p {
+  transition-property: transform;
+}
+.q {
+  transition-duration: 0.3s;
+}
+.r {
+  transition-delay: ease-out;
+}
+.s {
+  transition-timing-function: ease;
+}
+.t {
+  background-color: #fff;
+}
+.u {
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+.v {
+  background-clip: padding-box;
+}
+.w {
+  text-align: center;
+}
+.x {
+  outline-width: 0;
+}
+.y {
+  border-top-left-radius: 6px;
+}
+.z {
+  border-top-right-radius: 6px;
+}
+.ab {
+  border-bottom-right-radius: 6px;
+}
+.ac {
+  border-bottom-left-radius: 6px;
+}
+.ae {
+  border-top-width: 1px;
+}
+.af {
+  border-right-width: 1px;
+}
+.ag {
+  border-bottom-width: 1px;
+}
+.ah {
+  border-left-width: 1px;
+}
+.ai {
+  border-top-style: solid;
+}
+.aj {
+  border-right-style: solid;
+}
+.ak {
+  border-bottom-style: solid;
+}
+.al {
+  border-left-style: solid;
+}
+.am {
+  border-top-color: rgba(0, 0, 0, 0.2);
+}
+.an {
+  border-right-color: rgba(0, 0, 0, 0.2);
+}
+.ao {
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+.ap {
+  border-left-color: rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 992px) {
+  .i {
+    max-width: 800px;
+  }
+  .j {
+    width: 800px;
+  }
+}
+
+
+<div
+  data-testid="modal-dialog"
+  class="a b c d e f g h i j k l m n o p q r s bs-modal-dialog"
+>
+  <div
+    data-testid="modal-dialog-inner"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap b t u v w x y z bs-modal-content"
+  >
+    Modal Dialog
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Modal/Dialog should render a centered Modal Dialog of size medium 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.a {
+  transform: translate(0);
+}
+.b {
+  position: relative;
+}
+.c {
+  width: auto;
+}
+.d {
+  margin-left: auto;
+}
+.e {
+  margin-right: auto;
+}
+.f {
+  margin-top: 1.75rem;
+}
+.g {
+  margin-bottom: 1.75rem;
+}
+.h {
+  max-width: 500px;
+}
+.i {
+  display: flex;
+}
+.j {
+  align-items: center;
+}
+.k {
+  min-height: calc(100% - 1.75rem * 2);
+}
+.l {
+  animation-name: k1;
+}
+.m {
+  animation-fill-mode: both;
+}
+.n {
+  transition-property: transform;
+}
+.o {
+  transition-duration: 0.3s;
+}
+.p {
+  transition-delay: ease-out;
+}
+.q {
+  transition-timing-function: ease;
+}
+.r {
+  background-color: #fff;
+}
+.s {
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+.t {
+  background-clip: padding-box;
+}
+.u {
+  text-align: center;
+}
+.v {
+  outline-width: 0;
+}
+.w {
+  border-top-left-radius: 6px;
+}
+.x {
+  border-top-right-radius: 6px;
+}
+.y {
+  border-bottom-right-radius: 6px;
+}
+.z {
+  border-bottom-left-radius: 6px;
+}
+.ab {
+  border-top-width: 1px;
+}
+.ac {
+  border-right-width: 1px;
+}
+.ae {
+  border-bottom-width: 1px;
+}
+.af {
+  border-left-width: 1px;
+}
+.ag {
+  border-top-style: solid;
+}
+.ah {
+  border-right-style: solid;
+}
+.ai {
+  border-bottom-style: solid;
+}
+.aj {
+  border-left-style: solid;
+}
+.ak {
+  border-top-color: rgba(0, 0, 0, 0.2);
+}
+.al {
+  border-right-color: rgba(0, 0, 0, 0.2);
+}
+.am {
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+.an {
+  border-left-color: rgba(0, 0, 0, 0.2);
+}
+
+
+<div
+  data-testid="modal-dialog"
+  class="a b c d e f g h i j k l m n o p q bs-modal-dialog"
+>
+  <div
+    data-testid="modal-dialog-inner"
+    class="ab ac ae af ag ah ai aj ak al am an b r s t u v w x y z bs-modal-content"
+  >
+    Modal Dialog
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Modal/Dialog should render a centered Modal Dialog of size small 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.a {
+  transform: translate(0);
+}
+.b {
+  position: relative;
+}
+.c {
+  width: auto;
+}
+.d {
+  margin-left: auto;
+}
+.e {
+  margin-right: auto;
+}
+.f {
+  margin-top: 1.75rem;
+}
+.g {
+  margin-bottom: 1.75rem;
+}
+.h {
+  max-width: 500px;
+}
+.k {
+  display: flex;
+}
+.l {
+  align-items: center;
+}
+.m {
+  min-height: calc(100% - 1.75rem * 2);
+}
+.n {
+  animation-name: k1;
+}
+.o {
+  animation-fill-mode: both;
+}
+.p {
+  transition-property: transform;
+}
+.q {
+  transition-duration: 0.3s;
+}
+.r {
+  transition-delay: ease-out;
+}
+.s {
+  transition-timing-function: ease;
+}
+.t {
+  background-color: #fff;
+}
+.u {
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+.v {
+  background-clip: padding-box;
+}
+.w {
+  text-align: center;
+}
+.x {
+  outline-width: 0;
+}
+.y {
+  border-top-left-radius: 6px;
+}
+.z {
+  border-top-right-radius: 6px;
+}
+.ab {
+  border-bottom-right-radius: 6px;
+}
+.ac {
+  border-bottom-left-radius: 6px;
+}
+.ae {
+  border-top-width: 1px;
+}
+.af {
+  border-right-width: 1px;
+}
+.ag {
+  border-bottom-width: 1px;
+}
+.ah {
+  border-left-width: 1px;
+}
+.ai {
+  border-top-style: solid;
+}
+.aj {
+  border-right-style: solid;
+}
+.ak {
+  border-bottom-style: solid;
+}
+.al {
+  border-left-style: solid;
+}
+.am {
+  border-top-color: rgba(0, 0, 0, 0.2);
+}
+.an {
+  border-right-color: rgba(0, 0, 0, 0.2);
+}
+.ao {
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+.ap {
+  border-left-color: rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 576px) {
+  .i {
+    max-width: 300px;
+  }
+  .j {
+    width: 300px;
+  }
+}
+
+
+<div
+  data-testid="modal-dialog"
+  class="a b c d e f g h i j k l m n o p q r s bs-modal-dialog"
+>
+  <div
+    data-testid="modal-dialog-inner"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap b t u v w x y z bs-modal-content"
+  >
+    Modal Dialog
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Modal/Dialog should render a scrollable Modal Dialog of size large 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.a {
+  transform: translate(0);
+}
+.b {
+  position: relative;
+}
+.c {
+  width: auto;
+}
+.d {
+  margin-left: auto;
+}
+.e {
+  margin-right: auto;
+}
+.f {
+  margin-top: 1.75rem;
+}
+.g {
+  margin-bottom: 1.75rem;
+}
+.h {
+  max-width: 500px;
+}
+.i {
+  height: calc(100% - 3.5rem);
+}
+.j {
+  overflow-y: auto;
+}
+.m {
+  animation-name: k1;
+}
+.n {
+  animation-fill-mode: both;
+}
+.o {
+  transition-property: transform;
+}
+.p {
+  transition-duration: 0.3s;
+}
+.q {
+  transition-delay: ease-out;
+}
+.r {
+  transition-timing-function: ease;
+}
+.s {
+  background-color: #fff;
+}
+.t {
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+.u {
+  background-clip: padding-box;
+}
+.v {
+  text-align: center;
+}
+.w {
+  outline-width: 0;
+}
+.x {
+  border-top-left-radius: 6px;
+}
+.y {
+  border-top-right-radius: 6px;
+}
+.z {
+  border-bottom-right-radius: 6px;
+}
+.ab {
+  border-bottom-left-radius: 6px;
+}
+.ac {
+  border-top-width: 1px;
+}
+.ae {
+  border-right-width: 1px;
+}
+.af {
+  border-bottom-width: 1px;
+}
+.ag {
+  border-left-width: 1px;
+}
+.ah {
+  border-top-style: solid;
+}
+.ai {
+  border-right-style: solid;
+}
+.aj {
+  border-bottom-style: solid;
+}
+.ak {
+  border-left-style: solid;
+}
+.al {
+  border-top-color: rgba(0, 0, 0, 0.2);
+}
+.am {
+  border-right-color: rgba(0, 0, 0, 0.2);
+}
+.an {
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+.ao {
+  border-left-color: rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 992px) {
+  .k {
+    max-width: 800px;
+  }
+  .l {
+    width: 800px;
+  }
+}
+
+
+<div
+  data-testid="modal-dialog"
+  class="a b c d e f g h i j k l m n o p q r bs-modal-dialog"
+>
+  <div
+    data-testid="modal-dialog-inner"
+    class="ab ac ae af ag ah ai aj ak al am an ao b i j s t u v w x y z bs-modal-content"
+  >
+    Modal Dialog
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Modal/Dialog should render a scrollable Modal Dialog of size medium 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.a {
+  transform: translate(0);
+}
+.b {
+  position: relative;
+}
+.c {
+  width: auto;
+}
+.d {
+  margin-left: auto;
+}
+.e {
+  margin-right: auto;
+}
+.f {
+  margin-top: 1.75rem;
+}
+.g {
+  margin-bottom: 1.75rem;
+}
+.h {
+  max-width: 500px;
+}
+.i {
+  height: calc(100% - 3.5rem);
+}
+.j {
+  overflow-y: auto;
+}
+.k {
+  animation-name: k1;
+}
+.l {
+  animation-fill-mode: both;
+}
+.m {
+  transition-property: transform;
+}
+.n {
+  transition-duration: 0.3s;
+}
+.o {
+  transition-delay: ease-out;
+}
+.p {
+  transition-timing-function: ease;
+}
+.q {
+  background-color: #fff;
+}
+.r {
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+.s {
+  background-clip: padding-box;
+}
+.t {
+  text-align: center;
+}
+.u {
+  outline-width: 0;
+}
+.v {
+  border-top-left-radius: 6px;
+}
+.w {
+  border-top-right-radius: 6px;
+}
+.x {
+  border-bottom-right-radius: 6px;
+}
+.y {
+  border-bottom-left-radius: 6px;
+}
+.z {
+  border-top-width: 1px;
+}
+.ab {
+  border-right-width: 1px;
+}
+.ac {
+  border-bottom-width: 1px;
+}
+.ae {
+  border-left-width: 1px;
+}
+.af {
+  border-top-style: solid;
+}
+.ag {
+  border-right-style: solid;
+}
+.ah {
+  border-bottom-style: solid;
+}
+.ai {
+  border-left-style: solid;
+}
+.aj {
+  border-top-color: rgba(0, 0, 0, 0.2);
+}
+.ak {
+  border-right-color: rgba(0, 0, 0, 0.2);
+}
+.al {
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+.am {
+  border-left-color: rgba(0, 0, 0, 0.2);
+}
+
+
+<div
+  data-testid="modal-dialog"
+  class="a b c d e f g h i j k l m n o p bs-modal-dialog"
+>
+  <div
+    data-testid="modal-dialog-inner"
+    class="ab ac ae af ag ah ai aj ak al am b i j q r s t u v w x y z bs-modal-content"
+  >
+    Modal Dialog
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Modal/Dialog should render a scrollable Modal Dialog of size small 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.a {
+  transform: translate(0);
+}
+.b {
+  position: relative;
+}
+.c {
+  width: auto;
+}
+.d {
+  margin-left: auto;
+}
+.e {
+  margin-right: auto;
+}
+.f {
+  margin-top: 1.75rem;
+}
+.g {
+  margin-bottom: 1.75rem;
+}
+.h {
+  max-width: 500px;
+}
+.i {
+  height: calc(100% - 3.5rem);
+}
+.j {
+  overflow-y: auto;
+}
+.m {
+  animation-name: k1;
+}
+.n {
+  animation-fill-mode: both;
+}
+.o {
+  transition-property: transform;
+}
+.p {
+  transition-duration: 0.3s;
+}
+.q {
+  transition-delay: ease-out;
+}
+.r {
+  transition-timing-function: ease;
+}
+.s {
+  background-color: #fff;
+}
+.t {
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+.u {
+  background-clip: padding-box;
+}
+.v {
+  text-align: center;
+}
+.w {
+  outline-width: 0;
+}
+.x {
+  border-top-left-radius: 6px;
+}
+.y {
+  border-top-right-radius: 6px;
+}
+.z {
+  border-bottom-right-radius: 6px;
+}
+.ab {
+  border-bottom-left-radius: 6px;
+}
+.ac {
+  border-top-width: 1px;
+}
+.ae {
+  border-right-width: 1px;
+}
+.af {
+  border-bottom-width: 1px;
+}
+.ag {
+  border-left-width: 1px;
+}
+.ah {
+  border-top-style: solid;
+}
+.ai {
+  border-right-style: solid;
+}
+.aj {
+  border-bottom-style: solid;
+}
+.ak {
+  border-left-style: solid;
+}
+.al {
+  border-top-color: rgba(0, 0, 0, 0.2);
+}
+.am {
+  border-right-color: rgba(0, 0, 0, 0.2);
+}
+.an {
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+.ao {
+  border-left-color: rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 576px) {
+  .k {
+    max-width: 300px;
+  }
+  .l {
+    width: 300px;
+  }
+}
+
+
+<div
+  data-testid="modal-dialog"
+  class="a b c d e f g h i j k l m n o p q r bs-modal-dialog"
+>
+  <div
+    data-testid="modal-dialog-inner"
+    class="ab ac ae af ag ah ai aj ak al am an ao b i j s t u v w x y z bs-modal-content"
+  >
+    Modal Dialog
+  </div>
+</div>
+;
+"
+`;

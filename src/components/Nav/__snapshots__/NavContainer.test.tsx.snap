@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Nav/NavContainer should render a NavContainer 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-wrap: wrap;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+
+
+<ul data-testid="nav-container" class="a b c d e nav-container">
+  <li data-testid="nav-item" class="nav-item">Hello</li>
+</ul>
+;
+"
+`;
+
+exports[`components/Nav/NavContainer should render a NavContainer as a nav 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-wrap: wrap;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+
+
+<nav data-testid="nav-container" class="a b c d e nav-container">
+  <li data-testid="nav-item" class="nav-item">Hello</li>
+</nav>
+;
+"
+`;
+
+exports[`components/Nav/NavContainer should render a NavContainer of variant default 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-wrap: wrap;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+
+
+<ul data-testid="nav-container" class="a b c d e nav-container">
+  <li data-testid="nav-item" class="nav-item">Hello</li>
+</ul>
+;
+"
+`;
+
+exports[`components/Nav/NavContainer should render a NavContainer of variant pills 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-wrap: wrap;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+
+
+<ul data-testid="nav-container" class="a b c d e nav-container">
+  <li data-testid="nav-item" class="nav-item">Hello</li>
+</ul>
+;
+"
+`;
+
+exports[`components/Nav/NavContainer should render a NavContainer of variant tabs 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-wrap: wrap;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  border-bottom-width: 1px;
+}
+.g {
+  border-bottom-style: solid;
+}
+.h {
+  border-bottom-color: #dee2e6;
+}
+
+
+<ul data-testid="nav-container" class="a b c d e f g h nav-container">
+  <li data-testid="nav-item" class="nav-item">Hello</li>
+</ul>
+;
+"
+`;
+
+exports[`components/Nav/NavContainer should render a NavContainer of variant underline 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-wrap: wrap;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  row-gap: 1rem;
+}
+.g {
+  column-gap: 1rem;
+}
+
+
+<ul data-testid="nav-container" class="a b c d e f g nav-container">
+  <li data-testid="nav-item" class="nav-item">Hello</li>
+</ul>
+;
+"
+`;
+
+exports[`components/Nav/NavContainer should render a NavContainer of variant vertical 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-wrap: wrap;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  flex-direction: column;
+}
+
+
+<ul data-testid="nav-container" class="a b c d e f nav-container">
+  <li data-testid="nav-item" class="nav-item">Hello</li>
+</ul>
+;
+"
+`;
+
+exports[`components/Nav/NavContainer should render a centered NavContainer 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  flex-wrap: wrap;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  justify-content: center;
+}
+
+
+<ul data-testid="nav-container" class="a b c d e f nav-container">
+  <li data-testid="nav-item" class="nav-item">Hello</li>
+</ul>
+;
+"
+`;
+
+exports[`components/Nav/NavContainer should render a centered NavContainer of variant default 1`] = `
+".a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.b {
+  flex-wrap: wrap;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  justify-content: center;
+}
+
+
+<ul data-testid="nav-container" class="a b c d e f nav-container">
+  <li data-testid="nav-item" class="nav-item">Hello</li>
+</ul>
+;
+"
+`;
+
+exports[`components/Nav/NavContainer should render a centered NavContainer of variant pills 1`] = `
+".a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.b {
+  flex-wrap: wrap;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  justify-content: center;
+}
+
+
+<ul data-testid="nav-container" class="a b c d e f nav-container">
+  <li data-testid="nav-item" class="nav-item">Hello</li>
+</ul>
+;
+"
+`;
+
+exports[`components/Nav/NavContainer should render a centered NavContainer of variant tabs 1`] = `
+".a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.b {
+  flex-wrap: wrap;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  justify-content: center;
+}
+.g {
+  border-bottom-width: 1px;
+}
+.h {
+  border-bottom-style: solid;
+}
+.i {
+  border-bottom-color: #dee2e6;
+}
+
+
+<ul data-testid="nav-container" class="a b c d e f g h i nav-container">
+  <li data-testid="nav-item" class="nav-item">Hello</li>
+</ul>
+;
+"
+`;
+
+exports[`components/Nav/NavContainer should render a centered NavContainer of variant underline 1`] = `
+".a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.b {
+  flex-wrap: wrap;
+}
+.c {
+  padding-left: 0;
+}
+.d {
+  margin-bottom: 0;
+}
+.e {
+  list-style: none;
+}
+.f {
+  justify-content: center;
+}
+.g {
+  row-gap: 1rem;
+}
+.h {
+  column-gap: 1rem;
+}
+
+
+<ul data-testid="nav-container" class="a b c d e f g h nav-container">
+  <li data-testid="nav-item" class="nav-item">Hello</li>
+</ul>
+;
+"
+`;

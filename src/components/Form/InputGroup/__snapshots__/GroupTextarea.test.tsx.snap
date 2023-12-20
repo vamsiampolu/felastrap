@@ -1,0 +1,819 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/InputGroup/GroupTextarea should display a group text area 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  width: 1%;
+}
+.c {
+  min-width: 0;
+}
+.e {
+  flex-grow: 1;
+}
+.f {
+  flex-shrink: 1;
+}
+.g {
+  flex-basis: auto;
+}
+.h {
+  appearance: none;
+}
+.i {
+  background-clip: padding-box;
+}
+.j {
+  background-color: #fff;
+}
+.k {
+  color: #212529;
+}
+.l {
+  display: block;
+}
+.m {
+  font-size: 1rem;
+}
+.n {
+  font-weight: 400;
+}
+.o {
+  line-height: 1.5;
+}
+.p {
+  width: 100%;
+}
+.u:disabled {
+  background-color: #e9ecef;
+}
+.v:disabled {
+  opacity: 1;
+}
+.ag::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ah::placeholder {
+  opacity: 1;
+}
+.ai::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aj::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ak::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.al::-moz-placeholder {
+  opacity: 1;
+}
+.am:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.an:-ms-input-placeholder {
+  opacity: 1;
+}
+.ao:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ap:-moz-placeholder {
+  opacity: 1;
+}
+.aq {
+  transition-property: border-color, box-shadow;
+}
+.ar {
+  transition-duration: 0.15s, 0.15s;
+}
+.as {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.at {
+  transition-timing-function: ease, ease;
+}
+.au {
+  padding-top: 0.375rem;
+}
+.av {
+  padding-right: 0.75rem;
+}
+.aw {
+  padding-bottom: 0.375rem;
+}
+.ax {
+  padding-left: 0.75rem;
+}
+.ay {
+  border-top-left-radius: 0.375rem;
+}
+.az {
+  border-top-right-radius: 0.375rem;
+}
+.ba {
+  border-bottom-right-radius: 0.375rem;
+}
+.bb {
+  border-bottom-left-radius: 0.375rem;
+}
+.bc {
+  border-top-width: 1px;
+}
+.bd {
+  border-right-width: 1px;
+}
+.be {
+  border-bottom-width: 1px;
+}
+.bf {
+  border-left-width: 1px;
+}
+.bg {
+  border-top-style: solid;
+}
+.bh {
+  border-right-style: solid;
+}
+.bi {
+  border-bottom-style: solid;
+}
+.bj {
+  border-left-style: solid;
+}
+.bk {
+  border-top-color: #dee2e6;
+}
+.bl {
+  border-right-color: #dee2e6;
+}
+.bm {
+  border-bottom-color: #dee2e6;
+}
+.bn {
+  border-left-color: #dee2e6;
+}
+.d:focus {
+  z-index: 5;
+}
+.w:focus {
+  background-color: #fff;
+}
+.x:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.y:focus {
+  color: #212529;
+}
+.z:focus {
+  outline-width: 0;
+}
+.ab:focus {
+  border-top-color: #86b7fe;
+}
+.ac:focus {
+  border-right-color: #86b7fe;
+}
+.ae:focus {
+  border-bottom-color: #86b7fe;
+}
+.af:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .q {
+    transition-property: none;
+  }
+  .r {
+    transition-duration: 0s;
+  }
+  .s {
+    transition-delay: 0s;
+  }
+  .t {
+    transition-timing-function: ease;
+  }
+}
+
+
+<textarea data-testid="form-textarea" class="a b c d e f g"></textarea>;
+"
+`;
+
+exports[`components/Form/InputGroup/GroupTextarea should display a group text area of size large 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  width: 1%;
+}
+.c {
+  min-width: 0;
+}
+.e {
+  font-size: 1.25rem;
+}
+.f {
+  border-top-left-radius: 0.5rem;
+}
+.g {
+  border-top-right-radius: 0.5rem;
+}
+.h {
+  border-bottom-right-radius: 0.5rem;
+}
+.i {
+  border-bottom-left-radius: 0.5rem;
+}
+.j {
+  padding-top: 0.5rem;
+}
+.k {
+  padding-right: 1rem;
+}
+.l {
+  padding-bottom: 0.5rem;
+}
+.m {
+  padding-left: 1rem;
+}
+.n {
+  flex-grow: 1;
+}
+.o {
+  flex-shrink: 1;
+}
+.p {
+  flex-basis: auto;
+}
+.q {
+  appearance: none;
+}
+.r {
+  background-clip: padding-box;
+}
+.s {
+  background-color: #fff;
+}
+.t {
+  color: #212529;
+}
+.u {
+  display: block;
+}
+.v {
+  font-weight: 400;
+}
+.w {
+  line-height: 1.5;
+}
+.x {
+  width: 100%;
+}
+.ae:disabled {
+  background-color: #e9ecef;
+}
+.af:disabled {
+  opacity: 1;
+}
+.ao::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ap::placeholder {
+  opacity: 1;
+}
+.aq {
+  min-height: calc(1.5em + 1rem + 2px);
+}
+.ar::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.as::-webkit-input-placeholder {
+  opacity: 1;
+}
+.at::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.au::-moz-placeholder {
+  opacity: 1;
+}
+.av:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aw:-ms-input-placeholder {
+  opacity: 1;
+}
+.ax:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ay:-moz-placeholder {
+  opacity: 1;
+}
+.az {
+  transition-property: border-color, box-shadow;
+}
+.ba {
+  transition-duration: 0.15s, 0.15s;
+}
+.bb {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.bc {
+  transition-timing-function: ease, ease;
+}
+.bd {
+  border-top-width: 1px;
+}
+.be {
+  border-right-width: 1px;
+}
+.bf {
+  border-bottom-width: 1px;
+}
+.bg {
+  border-left-width: 1px;
+}
+.bh {
+  border-top-style: solid;
+}
+.bi {
+  border-right-style: solid;
+}
+.bj {
+  border-bottom-style: solid;
+}
+.bk {
+  border-left-style: solid;
+}
+.bl {
+  border-top-color: #dee2e6;
+}
+.bm {
+  border-right-color: #dee2e6;
+}
+.bn {
+  border-bottom-color: #dee2e6;
+}
+.bo {
+  border-left-color: #dee2e6;
+}
+.d:focus {
+  z-index: 5;
+}
+.ag:focus {
+  background-color: #fff;
+}
+.ah:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ai:focus {
+  color: #212529;
+}
+.aj:focus {
+  outline-width: 0;
+}
+.ak:focus {
+  border-top-color: #86b7fe;
+}
+.al:focus {
+  border-right-color: #86b7fe;
+}
+.am:focus {
+  border-bottom-color: #86b7fe;
+}
+.an:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .y {
+    transition-property: none;
+  }
+  .z {
+    transition-duration: 0s;
+  }
+  .ab {
+    transition-delay: 0s;
+  }
+  .ac {
+    transition-timing-function: ease;
+  }
+}
+
+
+<textarea
+  data-testid="form-textarea"
+  class="a b c d e f g h i j k l m n o p"
+></textarea
+>;
+"
+`;
+
+exports[`components/Form/InputGroup/GroupTextarea should display a group text area of size medium 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  width: 1%;
+}
+.c {
+  min-width: 0;
+}
+.e {
+  flex-grow: 1;
+}
+.f {
+  flex-shrink: 1;
+}
+.g {
+  flex-basis: auto;
+}
+.h {
+  appearance: none;
+}
+.i {
+  background-clip: padding-box;
+}
+.j {
+  background-color: #fff;
+}
+.k {
+  color: #212529;
+}
+.l {
+  display: block;
+}
+.m {
+  font-size: 1rem;
+}
+.n {
+  font-weight: 400;
+}
+.o {
+  line-height: 1.5;
+}
+.p {
+  width: 100%;
+}
+.u:disabled {
+  background-color: #e9ecef;
+}
+.v:disabled {
+  opacity: 1;
+}
+.ag::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ah::placeholder {
+  opacity: 1;
+}
+.ai::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aj::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ak::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.al::-moz-placeholder {
+  opacity: 1;
+}
+.am:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.an:-ms-input-placeholder {
+  opacity: 1;
+}
+.ao:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ap:-moz-placeholder {
+  opacity: 1;
+}
+.aq {
+  transition-property: border-color, box-shadow;
+}
+.ar {
+  transition-duration: 0.15s, 0.15s;
+}
+.as {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.at {
+  transition-timing-function: ease, ease;
+}
+.au {
+  padding-top: 0.375rem;
+}
+.av {
+  padding-right: 0.75rem;
+}
+.aw {
+  padding-bottom: 0.375rem;
+}
+.ax {
+  padding-left: 0.75rem;
+}
+.ay {
+  border-top-left-radius: 0.375rem;
+}
+.az {
+  border-top-right-radius: 0.375rem;
+}
+.ba {
+  border-bottom-right-radius: 0.375rem;
+}
+.bb {
+  border-bottom-left-radius: 0.375rem;
+}
+.bc {
+  border-top-width: 1px;
+}
+.bd {
+  border-right-width: 1px;
+}
+.be {
+  border-bottom-width: 1px;
+}
+.bf {
+  border-left-width: 1px;
+}
+.bg {
+  border-top-style: solid;
+}
+.bh {
+  border-right-style: solid;
+}
+.bi {
+  border-bottom-style: solid;
+}
+.bj {
+  border-left-style: solid;
+}
+.bk {
+  border-top-color: #dee2e6;
+}
+.bl {
+  border-right-color: #dee2e6;
+}
+.bm {
+  border-bottom-color: #dee2e6;
+}
+.bn {
+  border-left-color: #dee2e6;
+}
+.d:focus {
+  z-index: 5;
+}
+.w:focus {
+  background-color: #fff;
+}
+.x:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.y:focus {
+  color: #212529;
+}
+.z:focus {
+  outline-width: 0;
+}
+.ab:focus {
+  border-top-color: #86b7fe;
+}
+.ac:focus {
+  border-right-color: #86b7fe;
+}
+.ae:focus {
+  border-bottom-color: #86b7fe;
+}
+.af:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .q {
+    transition-property: none;
+  }
+  .r {
+    transition-duration: 0s;
+  }
+  .s {
+    transition-delay: 0s;
+  }
+  .t {
+    transition-timing-function: ease;
+  }
+}
+
+
+<textarea data-testid="form-textarea" class="a b c d e f g"></textarea>;
+"
+`;
+
+exports[`components/Form/InputGroup/GroupTextarea should display a group text area of size small 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  width: 1%;
+}
+.c {
+  min-width: 0;
+}
+.e {
+  font-size: 0.875rem;
+}
+.f {
+  border-top-left-radius: 0.25rem;
+}
+.g {
+  border-top-right-radius: 0.25rem;
+}
+.h {
+  border-bottom-right-radius: 0.25rem;
+}
+.i {
+  border-bottom-left-radius: 0.25rem;
+}
+.j {
+  padding-top: 0.25rem;
+}
+.k {
+  padding-right: 0.5rem;
+}
+.l {
+  padding-bottom: 0.25rem;
+}
+.m {
+  padding-left: 0.5rem;
+}
+.n {
+  flex-grow: 1;
+}
+.o {
+  flex-shrink: 1;
+}
+.p {
+  flex-basis: auto;
+}
+.q {
+  appearance: none;
+}
+.r {
+  background-clip: padding-box;
+}
+.s {
+  background-color: #fff;
+}
+.t {
+  color: #212529;
+}
+.u {
+  display: block;
+}
+.v {
+  font-weight: 400;
+}
+.w {
+  line-height: 1.5;
+}
+.x {
+  width: 100%;
+}
+.ae:disabled {
+  background-color: #e9ecef;
+}
+.af:disabled {
+  opacity: 1;
+}
+.ao::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ap::placeholder {
+  opacity: 1;
+}
+.aq {
+  min-height: calc(1.5em + 0.5rem + calc(1px * 2));
+}
+.ar::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.as::-webkit-input-placeholder {
+  opacity: 1;
+}
+.at::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.au::-moz-placeholder {
+  opacity: 1;
+}
+.av:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aw:-ms-input-placeholder {
+  opacity: 1;
+}
+.ax:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ay:-moz-placeholder {
+  opacity: 1;
+}
+.az {
+  transition-property: border-color, box-shadow;
+}
+.ba {
+  transition-duration: 0.15s, 0.15s;
+}
+.bb {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.bc {
+  transition-timing-function: ease, ease;
+}
+.bd {
+  border-top-width: 1px;
+}
+.be {
+  border-right-width: 1px;
+}
+.bf {
+  border-bottom-width: 1px;
+}
+.bg {
+  border-left-width: 1px;
+}
+.bh {
+  border-top-style: solid;
+}
+.bi {
+  border-right-style: solid;
+}
+.bj {
+  border-bottom-style: solid;
+}
+.bk {
+  border-left-style: solid;
+}
+.bl {
+  border-top-color: #dee2e6;
+}
+.bm {
+  border-right-color: #dee2e6;
+}
+.bn {
+  border-bottom-color: #dee2e6;
+}
+.bo {
+  border-left-color: #dee2e6;
+}
+.d:focus {
+  z-index: 5;
+}
+.ag:focus {
+  background-color: #fff;
+}
+.ah:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ai:focus {
+  color: #212529;
+}
+.aj:focus {
+  outline-width: 0;
+}
+.ak:focus {
+  border-top-color: #86b7fe;
+}
+.al:focus {
+  border-right-color: #86b7fe;
+}
+.am:focus {
+  border-bottom-color: #86b7fe;
+}
+.an:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .y {
+    transition-property: none;
+  }
+  .z {
+    transition-duration: 0s;
+  }
+  .ab {
+    transition-delay: 0s;
+  }
+  .ac {
+    transition-timing-function: ease;
+  }
+}
+
+
+<textarea
+  data-testid="form-textarea"
+  class="a b c d e f g h i j k l m n o p"
+></textarea
+>;
+"
+`;

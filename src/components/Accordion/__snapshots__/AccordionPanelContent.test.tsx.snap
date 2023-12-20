@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Accordion/AccordionPanelContent should render a flush accordion panel content 1`] = `
+".a {
+  height: 0;
+}
+.b {
+  border-top-width: 0;
+}
+.c {
+  border-right-width: 0;
+}
+.d {
+  border-bottom-width: 0;
+}
+.e {
+  border-left-width: 0;
+}
+.f {
+  padding-top: 1rem;
+}
+.g {
+  padding-right: 1.25rem;
+}
+.h {
+  padding-bottom: 1rem;
+}
+.i {
+  padding-left: 1.25rem;
+}
+
+
+<div
+  data-testid="accordion-panel-content"
+  class="a b c d e f g h i accordion-body"
+  hidden=""
+>
+  Accordion Panel Content
+</div>
+;
+"
+`;
+
+exports[`components/Accordion/AccordionPanelContent should render an open accordion panel content 1`] = `
+".a {
+  height: 100%;
+}
+.b {
+  padding-top: 1rem;
+}
+.c {
+  padding-right: 1.25rem;
+}
+.d {
+  padding-bottom: 1rem;
+}
+.e {
+  padding-left: 1.25rem;
+}
+
+
+<div data-testid="accordion-panel-content" class="a b c d e accordion-body">
+  Accordion Panel Content
+</div>
+;
+"
+`;
+
+exports[`components/Accordion/AccordionPanelContent should render an open accordion panel content 2`] = `
+".a {
+  height: 100%;
+}
+.b {
+  padding-top: 1rem;
+}
+.c {
+  padding-right: 1.25rem;
+}
+.d {
+  padding-bottom: 1rem;
+}
+.e {
+  padding-left: 1.25rem;
+}
+
+
+<div data-testid="accordion-panel-content" class="a b c d e accordion-body">
+  Accordion Panel Content
+</div>
+;
+"
+`;
+
+exports[`components/Accordion/AccordionPanelContent should render the accordion panel content 1`] = `
+".a {
+  height: 0;
+}
+.b {
+  padding-top: 1rem;
+}
+.c {
+  padding-right: 1.25rem;
+}
+.d {
+  padding-bottom: 1rem;
+}
+.e {
+  padding-left: 1.25rem;
+}
+
+
+<div
+  data-testid="accordion-panel-content"
+  class="a b c d e accordion-body"
+  hidden=""
+>
+  Accordion Panel Content
+</div>
+;
+"
+`;
+
+exports[`components/Accordion/AccordionPanelContent should render the accordion panel content with default context values 1`] = `
+".a {
+  height: 0;
+}
+.b {
+  padding-top: 1rem;
+}
+.c {
+  padding-right: 1.25rem;
+}
+.d {
+  padding-bottom: 1rem;
+}
+.e {
+  padding-left: 1.25rem;
+}
+
+
+<div
+  data-testid="accordion-panel-content"
+  class="a b c d e accordion-body"
+  hidden=""
+>
+  Accordion Panel Content
+</div>
+;
+"
+`;
+
+exports[`components/Accordion/AccordionPanelContent should render the last accordion panel content 1`] = `
+".a {
+  height: 0;
+}
+.b {
+  border-bottom-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-left-radius: 0.375rem;
+}
+.d {
+  padding-top: 1rem;
+}
+.e {
+  padding-right: 1.25rem;
+}
+.f {
+  padding-bottom: 1rem;
+}
+.g {
+  padding-left: 1.25rem;
+}
+
+
+<div
+  data-testid="accordion-panel-content"
+  class="a b c d e f g accordion-body"
+  hidden=""
+>
+  Accordion Panel Content
+</div>
+;
+"
+`;
+
+exports[`components/Accordion/AccordionPanelContent should render the last flush accordion panel content when open 1`] = `
+".a {
+  height: 100%;
+}
+.b {
+  border-bottom-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-left-radius: 0.375rem;
+}
+.d {
+  border-top-width: 0;
+}
+.e {
+  border-right-width: 0;
+}
+.f {
+  border-bottom-width: 0;
+}
+.g {
+  border-left-width: 0;
+}
+.h {
+  padding-top: 1rem;
+}
+.i {
+  padding-right: 1.25rem;
+}
+.j {
+  padding-bottom: 1rem;
+}
+.k {
+  padding-left: 1.25rem;
+}
+
+
+<div
+  data-testid="accordion-panel-content"
+  class="a b c d e f g h i j k accordion-body"
+>
+  Accordion Panel Content
+</div>
+;
+"
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Dropdown/DropdownText should render a DropdownText component 1`] = `
+".a {
+  color: #212529;
+}
+.b {
+  display: block;
+}
+.c {
+  padding-top: 1rem;
+}
+.d {
+  padding-right: 0.25rem;
+}
+.e {
+  padding-bottom: 1rem;
+}
+.f {
+  padding-left: 0.25rem;
+}
+
+
+<li data-testid="dropdown-text-item">
+  <span data-testid="dropdown-text" class="a b c d e f dropdown-text"
+    >Dropdown Text</span
+  >
+</li>
+;
+"
+`;

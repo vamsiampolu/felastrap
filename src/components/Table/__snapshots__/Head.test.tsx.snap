@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Table/Head should render a bordered table head 1`] = `
+".a {
+  vertical-align: bottom;
+}
+.b {
+  border-top-width: 1px;
+}
+.c {
+  border-right-width: 0;
+}
+.d {
+  border-bottom-width: 1px;
+}
+.e {
+  border-left-width: 0;
+}
+
+
+<table>
+  <thead data-testid="table-head" class="a b c d e table-head">
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Head should render a table head with a user provided className 1`] = `
+".a {
+  vertical-align: bottom;
+}
+
+
+<table>
+  <thead data-testid="table-head" class="a table-head comfortable-head">
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Head should render a table head with the context 1`] = `
+".a {
+  vertical-align: bottom;
+}
+
+
+<table>
+  <thead data-testid="table-head" class="a table-head">
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Head should render a table head with the default context 1`] = `
+".a {
+  vertical-align: bottom;
+}
+
+
+<table>
+  <thead data-testid="table-head" class="a table-head">
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Value A</td>
+      <td>Value B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;

@@ -1,0 +1,621 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Caret/Caret should render a caret 1`] = `
+".a {
+  content:;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-left: calc(0.3em * 0.85);
+}
+.d {
+  vertical-align: calc(0.3em * 0.85);
+}
+.e {
+  border-top-width: 0.3em;
+}
+.f {
+  border-top-style: solid;
+}
+.g {
+  border-right-width: 0.3em;
+}
+.h {
+  border-right-style: solid;
+}
+.i {
+  border-right-color: transparent;
+}
+.j {
+  border-left-width: 0.3em;
+}
+.k {
+  border-left-style: solid;
+}
+.l {
+  border-left-color: transparent;
+}
+.m {
+  border-bottom-width: 0;
+}
+
+
+<div class="a b c d e f g h i j k l m"></div>
+;
+"
+`;
+
+exports[`components/Caret/Caret should render a caret with direction down 1`] = `
+".a {
+  content:;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-left: calc(0.3rem * 0.85);
+}
+.d {
+  vertical-align: calc(0.3rem * 0.85);
+}
+.e {
+  border-top-width: 0.3rem;
+}
+.f {
+  border-top-style: solid;
+}
+.g {
+  border-right-width: 0.3rem;
+}
+.h {
+  border-right-style: solid;
+}
+.i {
+  border-right-color: transparent;
+}
+.j {
+  border-left-width: 0.3rem;
+}
+.k {
+  border-left-style: solid;
+}
+.l {
+  border-left-color: transparent;
+}
+.m {
+  border-bottom-width: 0;
+}
+
+
+<div class="a b c d e f g h i j k l m"></div>
+;
+"
+`;
+
+exports[`components/Caret/Caret should render a caret with direction down and custom width 1`] = `
+".a {
+  content:;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-left: calc(0.5rem * 0.85);
+}
+.d {
+  vertical-align: calc(0.5rem * 0.85);
+}
+.e {
+  border-top-width: 0.5rem;
+}
+.f {
+  border-top-style: solid;
+}
+.g {
+  border-right-width: 0.5rem;
+}
+.h {
+  border-right-style: solid;
+}
+.i {
+  border-right-color: transparent;
+}
+.j {
+  border-left-width: 0.5rem;
+}
+.k {
+  border-left-style: solid;
+}
+.l {
+  border-left-color: transparent;
+}
+.m {
+  border-bottom-width: 0;
+}
+
+
+<div class="a b c d e f g h i j k l m"></div>
+;
+"
+`;
+
+exports[`components/Caret/Caret should render a caret with direction down and default width 1`] = `
+".a {
+  content:;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-left: calc(0.3em * 0.85);
+}
+.d {
+  vertical-align: calc(0.3em * 0.85);
+}
+.e {
+  border-top-width: 0.3em;
+}
+.f {
+  border-top-style: solid;
+}
+.g {
+  border-right-width: 0.3em;
+}
+.h {
+  border-right-style: solid;
+}
+.i {
+  border-right-color: transparent;
+}
+.j {
+  border-left-width: 0.3em;
+}
+.k {
+  border-left-style: solid;
+}
+.l {
+  border-left-color: transparent;
+}
+.m {
+  border-bottom-width: 0;
+}
+
+
+<div class="a b c d e f g h i j k l m"></div>
+;
+"
+`;
+
+exports[`components/Caret/Caret should render a caret with direction end 1`] = `
+".a {
+  content:;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-left: calc(0.3rem * 0.85);
+}
+.d {
+  vertical-align: calc(0.3rem * 0.85);
+}
+.e {
+  border-left-width: 0.3rem;
+}
+.f {
+  border-left-style: solid;
+}
+.g {
+  border-bottom-width: 0.3rem;
+}
+.h {
+  border-bottom-style: solid;
+}
+.i {
+  border-bottom-color: transparent;
+}
+.j {
+  border-right-width: 0;
+}
+.k {
+  border-top-width: 0.3rem;
+}
+.l {
+  border-top-style: solid;
+}
+.m {
+  border-top-color: transparent;
+}
+
+
+<div class="a b c d e f g h i j k l m"></div>
+;
+"
+`;
+
+exports[`components/Caret/Caret should render a caret with direction end and custom width 1`] = `
+".a {
+  content:;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-left: calc(0.5rem * 0.85);
+}
+.d {
+  vertical-align: calc(0.5rem * 0.85);
+}
+.e {
+  border-left-width: 0.5rem;
+}
+.f {
+  border-left-style: solid;
+}
+.g {
+  border-bottom-width: 0.5rem;
+}
+.h {
+  border-bottom-style: solid;
+}
+.i {
+  border-bottom-color: transparent;
+}
+.j {
+  border-right-width: 0;
+}
+.k {
+  border-top-width: 0.5rem;
+}
+.l {
+  border-top-style: solid;
+}
+.m {
+  border-top-color: transparent;
+}
+
+
+<div class="a b c d e f g h i j k l m"></div>
+;
+"
+`;
+
+exports[`components/Caret/Caret should render a caret with direction end and default width 1`] = `
+".a {
+  content:;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-left: calc(0.3em * 0.85);
+}
+.d {
+  vertical-align: calc(0.3em * 0.85);
+}
+.e {
+  border-left-width: 0.3em;
+}
+.f {
+  border-left-style: solid;
+}
+.g {
+  border-bottom-width: 0.3em;
+}
+.h {
+  border-bottom-style: solid;
+}
+.i {
+  border-bottom-color: transparent;
+}
+.j {
+  border-right-width: 0;
+}
+.k {
+  border-top-width: 0.3em;
+}
+.l {
+  border-top-style: solid;
+}
+.m {
+  border-top-color: transparent;
+}
+
+
+<div class="a b c d e f g h i j k l m"></div>
+;
+"
+`;
+
+exports[`components/Caret/Caret should render a caret with direction start 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  margin-left: calc(0.3rem * 0.85);
+}
+.c {
+  margin-right: 3px;
+}
+.d {
+  margin-bottom: -2px;
+}
+.e {
+  vertical-align: calc(0.3rem * 0.85);
+}
+.f {
+  content:;
+}
+.g {
+  border-bottom-width: 0.3rem;
+}
+.h {
+  border-bottom-style: solid;
+}
+.i {
+  border-bottom-color: transparent;
+}
+.j {
+  border-right-width: 0.3rem;
+}
+.k {
+  border-right-style: solid;
+}
+.l {
+  border-top-width: 0.3rem;
+}
+.m {
+  border-top-style: solid;
+}
+.n {
+  border-top-color: transparent;
+}
+
+
+<div class="a b c d e f g h i j k l m n"></div>
+;
+"
+`;
+
+exports[`components/Caret/Caret should render a caret with direction start and custom width 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  margin-left: calc(0.5rem * 0.85);
+}
+.c {
+  margin-right: 3px;
+}
+.d {
+  margin-bottom: -2px;
+}
+.e {
+  vertical-align: calc(0.5rem * 0.85);
+}
+.f {
+  content:;
+}
+.g {
+  border-bottom-width: 0.5rem;
+}
+.h {
+  border-bottom-style: solid;
+}
+.i {
+  border-bottom-color: transparent;
+}
+.j {
+  border-right-width: 0.5rem;
+}
+.k {
+  border-right-style: solid;
+}
+.l {
+  border-top-width: 0.5rem;
+}
+.m {
+  border-top-style: solid;
+}
+.n {
+  border-top-color: transparent;
+}
+
+
+<div class="a b c d e f g h i j k l m n"></div>
+;
+"
+`;
+
+exports[`components/Caret/Caret should render a caret with direction start and default width 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  margin-left: calc(0.3em * 0.85);
+}
+.c {
+  margin-right: 3px;
+}
+.d {
+  margin-bottom: -2px;
+}
+.e {
+  vertical-align: calc(0.3em * 0.85);
+}
+.f {
+  content:;
+}
+.g {
+  border-bottom-width: 0.3em;
+}
+.h {
+  border-bottom-style: solid;
+}
+.i {
+  border-bottom-color: transparent;
+}
+.j {
+  border-right-width: 0.3em;
+}
+.k {
+  border-right-style: solid;
+}
+.l {
+  border-top-width: 0.3em;
+}
+.m {
+  border-top-style: solid;
+}
+.n {
+  border-top-color: transparent;
+}
+
+
+<div class="a b c d e f g h i j k l m n"></div>
+;
+"
+`;
+
+exports[`components/Caret/Caret should render a caret with direction up 1`] = `
+".a {
+  content:;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-left: calc(0.3rem * 0.85);
+}
+.d {
+  vertical-align: calc(0.3rem * 0.85);
+}
+.e {
+  border-left-width: 0.3rem;
+}
+.f {
+  border-left-style: solid;
+}
+.g {
+  border-left-color: transparent;
+}
+.h {
+  border-bottom-width: 0.3rem;
+}
+.i {
+  border-bottom-style: solid;
+}
+.j {
+  border-right-width: 0.3rem;
+}
+.k {
+  border-right-style: solid;
+}
+.l {
+  border-right-color: transparent;
+}
+.m {
+  border-top-width: 0;
+}
+
+
+<div class="a b c d e f g h i j k l m"></div>
+;
+"
+`;
+
+exports[`components/Caret/Caret should render a caret with direction up and custom width 1`] = `
+".a {
+  content:;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-left: calc(0.5rem * 0.85);
+}
+.d {
+  vertical-align: calc(0.5rem * 0.85);
+}
+.e {
+  border-left-width: 0.5rem;
+}
+.f {
+  border-left-style: solid;
+}
+.g {
+  border-left-color: transparent;
+}
+.h {
+  border-bottom-width: 0.5rem;
+}
+.i {
+  border-bottom-style: solid;
+}
+.j {
+  border-right-width: 0.5rem;
+}
+.k {
+  border-right-style: solid;
+}
+.l {
+  border-right-color: transparent;
+}
+.m {
+  border-top-width: 0;
+}
+
+
+<div class="a b c d e f g h i j k l m"></div>
+;
+"
+`;
+
+exports[`components/Caret/Caret should render a caret with direction up and default width 1`] = `
+".a {
+  content:;
+}
+.b {
+  display: inline-block;
+}
+.c {
+  margin-left: calc(0.3em * 0.85);
+}
+.d {
+  vertical-align: calc(0.3em * 0.85);
+}
+.e {
+  border-left-width: 0.3em;
+}
+.f {
+  border-left-style: solid;
+}
+.g {
+  border-left-color: transparent;
+}
+.h {
+  border-bottom-width: 0.3em;
+}
+.i {
+  border-bottom-style: solid;
+}
+.j {
+  border-right-width: 0.3em;
+}
+.k {
+  border-right-style: solid;
+}
+.l {
+  border-right-color: transparent;
+}
+.m {
+  border-top-width: 0;
+}
+
+
+<div class="a b c d e f g h i j k l m"></div>
+;
+"
+`;

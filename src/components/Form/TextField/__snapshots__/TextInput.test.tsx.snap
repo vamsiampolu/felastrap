@@ -1,0 +1,1699 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/TextField/TextInput should display a plaintext readonly input of size large 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: transparent;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1.25rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  line-height: 1.5;
+}
+.i {
+  width: 100%;
+}
+.n:disabled {
+  background-color: #e9ecef;
+}
+.o:disabled {
+  opacity: 1;
+}
+.x::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.y::placeholder {
+  opacity: 1;
+}
+.z {
+  margin-bottom: 0;
+}
+.ab {
+  min-height: calc(1.5em + 1rem + 2px);
+}
+.ac {
+  padding-right: 0;
+}
+.ae {
+  padding-left: 0;
+}
+.af::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ag::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ah::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ai::-moz-placeholder {
+  opacity: 1;
+}
+.aj:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ak:-ms-input-placeholder {
+  opacity: 1;
+}
+.al:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.am:-moz-placeholder {
+  opacity: 1;
+}
+.an {
+  border-top-width: 1px;
+}
+.ao {
+  border-right-width: 0;
+}
+.ap {
+  border-bottom-width: 1px;
+}
+.aq {
+  border-left-width: 0;
+}
+.ar {
+  transition-property: border-color, box-shadow;
+}
+.as {
+  transition-duration: 0.15s, 0.15s;
+}
+.at {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.au {
+  transition-timing-function: ease, ease;
+}
+.av {
+  padding-top: 0.5rem;
+}
+.aw {
+  padding-bottom: 0.5rem;
+}
+.ax {
+  border-top-left-radius: 0.5rem;
+}
+.ay {
+  border-top-right-radius: 0.5rem;
+}
+.az {
+  border-bottom-right-radius: 0.5rem;
+}
+.ba {
+  border-bottom-left-radius: 0.5rem;
+}
+.bb {
+  border-top-style: solid;
+}
+.bc {
+  border-right-style: solid;
+}
+.bd {
+  border-bottom-style: solid;
+}
+.be {
+  border-left-style: solid;
+}
+.bf {
+  border-top-color: transparent;
+}
+.bg {
+  border-right-color: transparent;
+}
+.bh {
+  border-bottom-color: transparent;
+}
+.bi {
+  border-left-color: transparent;
+}
+.p:focus {
+  background-color: #fff;
+}
+.q:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.r:focus {
+  color: #212529;
+}
+.s:focus {
+  outline-width: 0;
+}
+.t:focus {
+  border-top-color: #86b7fe;
+}
+.u:focus {
+  border-right-color: #86b7fe;
+}
+.v:focus {
+  border-bottom-color: #86b7fe;
+}
+.w:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .j {
+    transition-property: none;
+  }
+  .k {
+    transition-duration: 0s;
+  }
+  .l {
+    transition-delay: 0s;
+  }
+  .m {
+    transition-timing-function: ease;
+  }
+}
+
+
+<input
+  data-testid="text-input"
+  type="text"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi c d e f g h i j k l m n o p q r s t u v w x y z form-control text-field form-control-large"
+  id="foobar"
+  readonly=""
+  value=""
+/>;
+"
+`;
+
+exports[`components/Form/TextField/TextInput should display a plaintext readonly input of size medium 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: transparent;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  line-height: 1.5;
+}
+.i {
+  width: 100%;
+}
+.n:disabled {
+  background-color: #e9ecef;
+}
+.o:disabled {
+  opacity: 1;
+}
+.x::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.y::placeholder {
+  opacity: 1;
+}
+.z {
+  margin-bottom: 0;
+}
+.ab::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ac::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ae::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.af::-moz-placeholder {
+  opacity: 1;
+}
+.ag:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ah:-ms-input-placeholder {
+  opacity: 1;
+}
+.ai:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aj:-moz-placeholder {
+  opacity: 1;
+}
+.ak {
+  border-top-width: 1px;
+}
+.al {
+  border-right-width: 0;
+}
+.am {
+  border-bottom-width: 1px;
+}
+.an {
+  border-left-width: 0;
+}
+.ao {
+  transition-property: border-color, box-shadow;
+}
+.ap {
+  transition-duration: 0.15s, 0.15s;
+}
+.aq {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ar {
+  transition-timing-function: ease, ease;
+}
+.as {
+  padding-top: 0.375rem;
+}
+.at {
+  padding-right: 0;
+}
+.au {
+  padding-bottom: 0.375rem;
+}
+.av {
+  padding-left: 0;
+}
+.aw {
+  border-top-left-radius: 0.375rem;
+}
+.ax {
+  border-top-right-radius: 0.375rem;
+}
+.ay {
+  border-bottom-right-radius: 0.375rem;
+}
+.az {
+  border-bottom-left-radius: 0.375rem;
+}
+.ba {
+  border-top-style: solid;
+}
+.bb {
+  border-right-style: solid;
+}
+.bc {
+  border-bottom-style: solid;
+}
+.bd {
+  border-left-style: solid;
+}
+.be {
+  border-top-color: transparent;
+}
+.bf {
+  border-right-color: transparent;
+}
+.bg {
+  border-bottom-color: transparent;
+}
+.bh {
+  border-left-color: transparent;
+}
+.p:focus {
+  background-color: #fff;
+}
+.q:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.r:focus {
+  color: #212529;
+}
+.s:focus {
+  outline-width: 0;
+}
+.t:focus {
+  border-top-color: #86b7fe;
+}
+.u:focus {
+  border-right-color: #86b7fe;
+}
+.v:focus {
+  border-bottom-color: #86b7fe;
+}
+.w:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .j {
+    transition-property: none;
+  }
+  .k {
+    transition-duration: 0s;
+  }
+  .l {
+    transition-delay: 0s;
+  }
+  .m {
+    transition-timing-function: ease;
+  }
+}
+
+
+<input
+  data-testid="text-input"
+  type="text"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh c d e f g h i j k l m n o p q r s t u v w x y z form-control text-field form-control-medium"
+  id="foobar"
+  readonly=""
+  value=""
+/>;
+"
+`;
+
+exports[`components/Form/TextField/TextInput should display a plaintext readonly input of size small 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: transparent;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 0.875rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  line-height: 1.5;
+}
+.i {
+  width: 100%;
+}
+.n:disabled {
+  background-color: #e9ecef;
+}
+.o:disabled {
+  opacity: 1;
+}
+.x::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.y::placeholder {
+  opacity: 1;
+}
+.z {
+  margin-bottom: 0;
+}
+.ab {
+  min-height: calc(1.5em + 0.5rem + calc(1px * 2));
+}
+.ac {
+  padding-right: 0;
+}
+.ae {
+  padding-left: 0;
+}
+.af::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ag::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ah::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ai::-moz-placeholder {
+  opacity: 1;
+}
+.aj:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ak:-ms-input-placeholder {
+  opacity: 1;
+}
+.al:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.am:-moz-placeholder {
+  opacity: 1;
+}
+.an {
+  border-top-width: 1px;
+}
+.ao {
+  border-right-width: 0;
+}
+.ap {
+  border-bottom-width: 1px;
+}
+.aq {
+  border-left-width: 0;
+}
+.ar {
+  transition-property: border-color, box-shadow;
+}
+.as {
+  transition-duration: 0.15s, 0.15s;
+}
+.at {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.au {
+  transition-timing-function: ease, ease;
+}
+.av {
+  padding-top: 0.25rem;
+}
+.aw {
+  padding-bottom: 0.25rem;
+}
+.ax {
+  border-top-left-radius: 0.25rem;
+}
+.ay {
+  border-top-right-radius: 0.25rem;
+}
+.az {
+  border-bottom-right-radius: 0.25rem;
+}
+.ba {
+  border-bottom-left-radius: 0.25rem;
+}
+.bb {
+  border-top-style: solid;
+}
+.bc {
+  border-right-style: solid;
+}
+.bd {
+  border-bottom-style: solid;
+}
+.be {
+  border-left-style: solid;
+}
+.bf {
+  border-top-color: transparent;
+}
+.bg {
+  border-right-color: transparent;
+}
+.bh {
+  border-bottom-color: transparent;
+}
+.bi {
+  border-left-color: transparent;
+}
+.p:focus {
+  background-color: #fff;
+}
+.q:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.r:focus {
+  color: #212529;
+}
+.s:focus {
+  outline-width: 0;
+}
+.t:focus {
+  border-top-color: #86b7fe;
+}
+.u:focus {
+  border-right-color: #86b7fe;
+}
+.v:focus {
+  border-bottom-color: #86b7fe;
+}
+.w:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .j {
+    transition-property: none;
+  }
+  .k {
+    transition-duration: 0s;
+  }
+  .l {
+    transition-delay: 0s;
+  }
+  .m {
+    transition-timing-function: ease;
+  }
+}
+
+
+<input
+  data-testid="text-input"
+  type="text"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi c d e f g h i j k l m n o p q r s t u v w x y z form-control text-field form-control-small"
+  id="foobar"
+  readonly=""
+  value=""
+/>;
+"
+`;
+
+exports[`components/Form/TextField/TextInput should display a readonly input 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: #fff;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  line-height: 1.5;
+}
+.i {
+  width: 100%;
+}
+.n:disabled {
+  background-color: #e9ecef;
+}
+.o:disabled {
+  opacity: 1;
+}
+.x::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.y::placeholder {
+  opacity: 1;
+}
+.z::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ab::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ac::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ae::-moz-placeholder {
+  opacity: 1;
+}
+.af:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ag:-ms-input-placeholder {
+  opacity: 1;
+}
+.ah:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ai:-moz-placeholder {
+  opacity: 1;
+}
+.aj {
+  transition-property: border-color, box-shadow;
+}
+.ak {
+  transition-duration: 0.15s, 0.15s;
+}
+.al {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.am {
+  transition-timing-function: ease, ease;
+}
+.an {
+  padding-top: 0.375rem;
+}
+.ao {
+  padding-right: 0.75rem;
+}
+.ap {
+  padding-bottom: 0.375rem;
+}
+.aq {
+  padding-left: 0.75rem;
+}
+.ar {
+  border-top-left-radius: 0.375rem;
+}
+.as {
+  border-top-right-radius: 0.375rem;
+}
+.at {
+  border-bottom-right-radius: 0.375rem;
+}
+.au {
+  border-bottom-left-radius: 0.375rem;
+}
+.av {
+  border-top-width: 1px;
+}
+.aw {
+  border-right-width: 1px;
+}
+.ax {
+  border-bottom-width: 1px;
+}
+.ay {
+  border-left-width: 1px;
+}
+.az {
+  border-top-style: solid;
+}
+.ba {
+  border-right-style: solid;
+}
+.bb {
+  border-bottom-style: solid;
+}
+.bc {
+  border-left-style: solid;
+}
+.bd {
+  border-top-color: #dee2e6;
+}
+.be {
+  border-right-color: #dee2e6;
+}
+.bf {
+  border-bottom-color: #dee2e6;
+}
+.bg {
+  border-left-color: #dee2e6;
+}
+.p:focus {
+  background-color: #fff;
+}
+.q:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.r:focus {
+  color: #212529;
+}
+.s:focus {
+  outline-width: 0;
+}
+.t:focus {
+  border-top-color: #86b7fe;
+}
+.u:focus {
+  border-right-color: #86b7fe;
+}
+.v:focus {
+  border-bottom-color: #86b7fe;
+}
+.w:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .j {
+    transition-property: none;
+  }
+  .k {
+    transition-duration: 0s;
+  }
+  .l {
+    transition-delay: 0s;
+  }
+  .m {
+    transition-timing-function: ease;
+  }
+}
+
+
+<input
+  data-testid="text-input"
+  type="text"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg c d e f g h i j k l m n o p q r s t u v w x y z form-control text-field form-control-medium"
+  id="foobar"
+  readonly=""
+  value=""
+/>;
+"
+`;
+
+exports[`components/Form/TextField/TextInput should display a text input 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: #fff;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  line-height: 1.5;
+}
+.i {
+  width: 100%;
+}
+.n:disabled {
+  background-color: #e9ecef;
+}
+.o:disabled {
+  opacity: 1;
+}
+.x::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.y::placeholder {
+  opacity: 1;
+}
+.z::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ab::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ac::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ae::-moz-placeholder {
+  opacity: 1;
+}
+.af:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ag:-ms-input-placeholder {
+  opacity: 1;
+}
+.ah:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ai:-moz-placeholder {
+  opacity: 1;
+}
+.aj {
+  transition-property: border-color, box-shadow;
+}
+.ak {
+  transition-duration: 0.15s, 0.15s;
+}
+.al {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.am {
+  transition-timing-function: ease, ease;
+}
+.an {
+  padding-top: 0.375rem;
+}
+.ao {
+  padding-right: 0.75rem;
+}
+.ap {
+  padding-bottom: 0.375rem;
+}
+.aq {
+  padding-left: 0.75rem;
+}
+.ar {
+  border-top-left-radius: 0.375rem;
+}
+.as {
+  border-top-right-radius: 0.375rem;
+}
+.at {
+  border-bottom-right-radius: 0.375rem;
+}
+.au {
+  border-bottom-left-radius: 0.375rem;
+}
+.av {
+  border-top-width: 1px;
+}
+.aw {
+  border-right-width: 1px;
+}
+.ax {
+  border-bottom-width: 1px;
+}
+.ay {
+  border-left-width: 1px;
+}
+.az {
+  border-top-style: solid;
+}
+.ba {
+  border-right-style: solid;
+}
+.bb {
+  border-bottom-style: solid;
+}
+.bc {
+  border-left-style: solid;
+}
+.bd {
+  border-top-color: #dee2e6;
+}
+.be {
+  border-right-color: #dee2e6;
+}
+.bf {
+  border-bottom-color: #dee2e6;
+}
+.bg {
+  border-left-color: #dee2e6;
+}
+.p:focus {
+  background-color: #fff;
+}
+.q:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.r:focus {
+  color: #212529;
+}
+.s:focus {
+  outline-width: 0;
+}
+.t:focus {
+  border-top-color: #86b7fe;
+}
+.u:focus {
+  border-right-color: #86b7fe;
+}
+.v:focus {
+  border-bottom-color: #86b7fe;
+}
+.w:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .j {
+    transition-property: none;
+  }
+  .k {
+    transition-duration: 0s;
+  }
+  .l {
+    transition-delay: 0s;
+  }
+  .m {
+    transition-timing-function: ease;
+  }
+}
+
+
+<input
+  data-testid="text-input"
+  type="text"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg c d e f g h i j k l m n o p q r s t u v w x y z form-control text-field form-control-medium"
+  value=""
+/>;
+"
+`;
+
+exports[`components/Form/TextField/TextInput should display a text input of size large 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: #fff;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1.25rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  line-height: 1.5;
+}
+.i {
+  width: 100%;
+}
+.n:disabled {
+  background-color: #e9ecef;
+}
+.o:disabled {
+  opacity: 1;
+}
+.x::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.y::placeholder {
+  opacity: 1;
+}
+.z {
+  min-height: calc(1.5em + 1rem + 2px);
+}
+.ab::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ac::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ae::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.af::-moz-placeholder {
+  opacity: 1;
+}
+.ag:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ah:-ms-input-placeholder {
+  opacity: 1;
+}
+.ai:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aj:-moz-placeholder {
+  opacity: 1;
+}
+.ak {
+  transition-property: border-color, box-shadow;
+}
+.al {
+  transition-duration: 0.15s, 0.15s;
+}
+.am {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.an {
+  transition-timing-function: ease, ease;
+}
+.ao {
+  padding-top: 0.5rem;
+}
+.ap {
+  padding-right: 1rem;
+}
+.aq {
+  padding-bottom: 0.5rem;
+}
+.ar {
+  padding-left: 1rem;
+}
+.as {
+  border-top-left-radius: 0.5rem;
+}
+.at {
+  border-top-right-radius: 0.5rem;
+}
+.au {
+  border-bottom-right-radius: 0.5rem;
+}
+.av {
+  border-bottom-left-radius: 0.5rem;
+}
+.aw {
+  border-top-width: 1px;
+}
+.ax {
+  border-right-width: 1px;
+}
+.ay {
+  border-bottom-width: 1px;
+}
+.az {
+  border-left-width: 1px;
+}
+.ba {
+  border-top-style: solid;
+}
+.bb {
+  border-right-style: solid;
+}
+.bc {
+  border-bottom-style: solid;
+}
+.bd {
+  border-left-style: solid;
+}
+.be {
+  border-top-color: #dee2e6;
+}
+.bf {
+  border-right-color: #dee2e6;
+}
+.bg {
+  border-bottom-color: #dee2e6;
+}
+.bh {
+  border-left-color: #dee2e6;
+}
+.p:focus {
+  background-color: #fff;
+}
+.q:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.r:focus {
+  color: #212529;
+}
+.s:focus {
+  outline-width: 0;
+}
+.t:focus {
+  border-top-color: #86b7fe;
+}
+.u:focus {
+  border-right-color: #86b7fe;
+}
+.v:focus {
+  border-bottom-color: #86b7fe;
+}
+.w:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .j {
+    transition-property: none;
+  }
+  .k {
+    transition-duration: 0s;
+  }
+  .l {
+    transition-delay: 0s;
+  }
+  .m {
+    transition-timing-function: ease;
+  }
+}
+
+
+<input
+  data-testid="text-input"
+  type="text"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh c d e f g h i j k l m n o p q r s t u v w x y z form-control text-field form-control-large"
+  id="foobar"
+  value=""
+/>;
+"
+`;
+
+exports[`components/Form/TextField/TextInput should display a text input of size medium 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: #fff;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  line-height: 1.5;
+}
+.i {
+  width: 100%;
+}
+.n:disabled {
+  background-color: #e9ecef;
+}
+.o:disabled {
+  opacity: 1;
+}
+.x::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.y::placeholder {
+  opacity: 1;
+}
+.z::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ab::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ac::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ae::-moz-placeholder {
+  opacity: 1;
+}
+.af:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ag:-ms-input-placeholder {
+  opacity: 1;
+}
+.ah:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ai:-moz-placeholder {
+  opacity: 1;
+}
+.aj {
+  transition-property: border-color, box-shadow;
+}
+.ak {
+  transition-duration: 0.15s, 0.15s;
+}
+.al {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.am {
+  transition-timing-function: ease, ease;
+}
+.an {
+  padding-top: 0.375rem;
+}
+.ao {
+  padding-right: 0.75rem;
+}
+.ap {
+  padding-bottom: 0.375rem;
+}
+.aq {
+  padding-left: 0.75rem;
+}
+.ar {
+  border-top-left-radius: 0.375rem;
+}
+.as {
+  border-top-right-radius: 0.375rem;
+}
+.at {
+  border-bottom-right-radius: 0.375rem;
+}
+.au {
+  border-bottom-left-radius: 0.375rem;
+}
+.av {
+  border-top-width: 1px;
+}
+.aw {
+  border-right-width: 1px;
+}
+.ax {
+  border-bottom-width: 1px;
+}
+.ay {
+  border-left-width: 1px;
+}
+.az {
+  border-top-style: solid;
+}
+.ba {
+  border-right-style: solid;
+}
+.bb {
+  border-bottom-style: solid;
+}
+.bc {
+  border-left-style: solid;
+}
+.bd {
+  border-top-color: #dee2e6;
+}
+.be {
+  border-right-color: #dee2e6;
+}
+.bf {
+  border-bottom-color: #dee2e6;
+}
+.bg {
+  border-left-color: #dee2e6;
+}
+.p:focus {
+  background-color: #fff;
+}
+.q:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.r:focus {
+  color: #212529;
+}
+.s:focus {
+  outline-width: 0;
+}
+.t:focus {
+  border-top-color: #86b7fe;
+}
+.u:focus {
+  border-right-color: #86b7fe;
+}
+.v:focus {
+  border-bottom-color: #86b7fe;
+}
+.w:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .j {
+    transition-property: none;
+  }
+  .k {
+    transition-duration: 0s;
+  }
+  .l {
+    transition-delay: 0s;
+  }
+  .m {
+    transition-timing-function: ease;
+  }
+}
+
+
+<input
+  data-testid="text-input"
+  type="text"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg c d e f g h i j k l m n o p q r s t u v w x y z form-control text-field form-control-medium"
+  id="foobar"
+  value=""
+/>;
+"
+`;
+
+exports[`components/Form/TextField/TextInput should display a text input of size small 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: #fff;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 0.875rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  line-height: 1.5;
+}
+.i {
+  width: 100%;
+}
+.n:disabled {
+  background-color: #e9ecef;
+}
+.o:disabled {
+  opacity: 1;
+}
+.x::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.y::placeholder {
+  opacity: 1;
+}
+.z {
+  min-height: calc(1.5em + 0.5rem + calc(1px * 2));
+}
+.ab::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ac::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ae::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.af::-moz-placeholder {
+  opacity: 1;
+}
+.ag:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ah:-ms-input-placeholder {
+  opacity: 1;
+}
+.ai:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aj:-moz-placeholder {
+  opacity: 1;
+}
+.ak {
+  transition-property: border-color, box-shadow;
+}
+.al {
+  transition-duration: 0.15s, 0.15s;
+}
+.am {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.an {
+  transition-timing-function: ease, ease;
+}
+.ao {
+  padding-top: 0.25rem;
+}
+.ap {
+  padding-right: 0.5rem;
+}
+.aq {
+  padding-bottom: 0.25rem;
+}
+.ar {
+  padding-left: 0.5rem;
+}
+.as {
+  border-top-left-radius: 0.25rem;
+}
+.at {
+  border-top-right-radius: 0.25rem;
+}
+.au {
+  border-bottom-right-radius: 0.25rem;
+}
+.av {
+  border-bottom-left-radius: 0.25rem;
+}
+.aw {
+  border-top-width: 1px;
+}
+.ax {
+  border-right-width: 1px;
+}
+.ay {
+  border-bottom-width: 1px;
+}
+.az {
+  border-left-width: 1px;
+}
+.ba {
+  border-top-style: solid;
+}
+.bb {
+  border-right-style: solid;
+}
+.bc {
+  border-bottom-style: solid;
+}
+.bd {
+  border-left-style: solid;
+}
+.be {
+  border-top-color: #dee2e6;
+}
+.bf {
+  border-right-color: #dee2e6;
+}
+.bg {
+  border-bottom-color: #dee2e6;
+}
+.bh {
+  border-left-color: #dee2e6;
+}
+.p:focus {
+  background-color: #fff;
+}
+.q:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.r:focus {
+  color: #212529;
+}
+.s:focus {
+  outline-width: 0;
+}
+.t:focus {
+  border-top-color: #86b7fe;
+}
+.u:focus {
+  border-right-color: #86b7fe;
+}
+.v:focus {
+  border-bottom-color: #86b7fe;
+}
+.w:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .j {
+    transition-property: none;
+  }
+  .k {
+    transition-duration: 0s;
+  }
+  .l {
+    transition-delay: 0s;
+  }
+  .m {
+    transition-timing-function: ease;
+  }
+}
+
+
+<input
+  data-testid="text-input"
+  type="text"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh c d e f g h i j k l m n o p q r s t u v w x y z form-control text-field form-control-small"
+  id="foobar"
+  value=""
+/>;
+"
+`;
+
+exports[`components/Form/TextField/TextInput should display a text input with a placeholder 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: #fff;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  line-height: 1.5;
+}
+.i {
+  width: 100%;
+}
+.n:disabled {
+  background-color: #e9ecef;
+}
+.o:disabled {
+  opacity: 1;
+}
+.x::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.y::placeholder {
+  opacity: 1;
+}
+.z::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ab::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ac::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ae::-moz-placeholder {
+  opacity: 1;
+}
+.af:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ag:-ms-input-placeholder {
+  opacity: 1;
+}
+.ah:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ai:-moz-placeholder {
+  opacity: 1;
+}
+.aj {
+  transition-property: border-color, box-shadow;
+}
+.ak {
+  transition-duration: 0.15s, 0.15s;
+}
+.al {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.am {
+  transition-timing-function: ease, ease;
+}
+.an {
+  padding-top: 0.375rem;
+}
+.ao {
+  padding-right: 0.75rem;
+}
+.ap {
+  padding-bottom: 0.375rem;
+}
+.aq {
+  padding-left: 0.75rem;
+}
+.ar {
+  border-top-left-radius: 0.375rem;
+}
+.as {
+  border-top-right-radius: 0.375rem;
+}
+.at {
+  border-bottom-right-radius: 0.375rem;
+}
+.au {
+  border-bottom-left-radius: 0.375rem;
+}
+.av {
+  border-top-width: 1px;
+}
+.aw {
+  border-right-width: 1px;
+}
+.ax {
+  border-bottom-width: 1px;
+}
+.ay {
+  border-left-width: 1px;
+}
+.az {
+  border-top-style: solid;
+}
+.ba {
+  border-right-style: solid;
+}
+.bb {
+  border-bottom-style: solid;
+}
+.bc {
+  border-left-style: solid;
+}
+.bd {
+  border-top-color: #dee2e6;
+}
+.be {
+  border-right-color: #dee2e6;
+}
+.bf {
+  border-bottom-color: #dee2e6;
+}
+.bg {
+  border-left-color: #dee2e6;
+}
+.p:focus {
+  background-color: #fff;
+}
+.q:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.r:focus {
+  color: #212529;
+}
+.s:focus {
+  outline-width: 0;
+}
+.t:focus {
+  border-top-color: #86b7fe;
+}
+.u:focus {
+  border-right-color: #86b7fe;
+}
+.v:focus {
+  border-bottom-color: #86b7fe;
+}
+.w:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .j {
+    transition-property: none;
+  }
+  .k {
+    transition-duration: 0s;
+  }
+  .l {
+    transition-delay: 0s;
+  }
+  .m {
+    transition-timing-function: ease;
+  }
+}
+
+
+<input
+  data-testid="text-input"
+  type="text"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg c d e f g h i j k l m n o p q r s t u v w x y z form-control text-field form-control-medium"
+  placeholder="Place Holder"
+  value=""
+/>;
+"
+`;

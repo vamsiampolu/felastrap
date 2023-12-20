@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Modal/CloseButton should render a Modal CloseButton 1`] = `
+".a {
+  margin-top: -2px;
+}
+.b {
+  appearance: none;
+}
+.c {
+  text-align: end;
+}
+.d {
+  cursor: pointer;
+}
+.e {
+  position: absolute;
+}
+.f {
+  right: 2rem;
+}
+.g {
+  top: 1rem;
+}
+.h {
+  background-color: transparent;
+}
+.i {
+  background-image: url(test-file-stub);
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-size: 16px;
+}
+.l {
+  background-position: center;
+}
+.m {
+  padding-top: 1rem;
+}
+.n {
+  padding-right: 1rem;
+}
+.o {
+  padding-bottom: 1rem;
+}
+.p {
+  padding-left: 1rem;
+}
+.q {
+  border-top-width: 0;
+}
+.r {
+  border-right-width: 0;
+}
+.s {
+  border-bottom-width: 0;
+}
+.t {
+  border-left-width: 0;
+}
+
+
+<button
+  data-testid="modal-close-button"
+  class="a b c d e f g h i j k l m n o p q r s t bs-close"
+  type="button"
+  aria-label="Close"
+></button
+>;
+"
+`;

@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Accordion/ToggleIcon should render a ToggleIcon 1`] = `
+".a {
+  flex-shrink: 0;
+}
+.b {
+  width: 1.25rem;
+}
+.c {
+  height: 1.25rem;
+}
+.d {
+  margin-left: auto;
+}
+.e {
+  background-image: url("/chevron-down.svg");
+}
+.f {
+  background-repeat: no-repeat;
+}
+.g {
+  background-size: 1.25rem;
+}
+.l {
+  transition-property: transform;
+}
+.m {
+  transition-duration: 0.2s;
+}
+.n {
+  transition-delay: ease-in-out;
+}
+.o {
+  transition-timing-function: ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .h {
+    transition-property: none;
+  }
+  .i {
+    transition-duration: 0s;
+  }
+  .j {
+    transition-delay: 0s;
+  }
+  .k {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div
+  data-testid="accordion-toggle-icon"
+  class="a b c d e f g h i j k l m n o accordion-toggle-icon"
+></div>
+;
+"
+`;
+
+exports[`components/Accordion/ToggleIcon should render an open ToggleIcon 1`] = `
+".a {
+  flex-shrink: 0;
+}
+.b {
+  width: 1.25rem;
+}
+.c {
+  height: 1.25rem;
+}
+.d {
+  margin-left: auto;
+}
+.e {
+  background-image: url("/chevron-down.svg");
+}
+.f {
+  background-repeat: no-repeat;
+}
+.g {
+  background-size: 1.25rem;
+}
+.l {
+  transform: rotate(-180deg);
+}
+.m {
+  transition-property: transform;
+}
+.n {
+  transition-duration: 0.2s;
+}
+.o {
+  transition-delay: ease-in-out;
+}
+.p {
+  transition-timing-function: ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .h {
+    transition-property: none;
+  }
+  .i {
+    transition-duration: 0s;
+  }
+  .j {
+    transition-delay: 0s;
+  }
+  .k {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div
+  data-testid="accordion-toggle-icon"
+  class="a b c d e f g h i j k l m n o p accordion-toggle-icon"
+></div>
+;
+"
+`;

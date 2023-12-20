@@ -1,0 +1,71 @@
+import { Meta, Canvas } from "@storybook/blocks";
+import * as ProgressStories from "./Progress.stories";
+
+<Meta name="Progress" of={ProgressStories} />
+
+# Progress
+
+Progress elements are built with two html elements, some CSS to set the width and a few
+attributes. Bootstrap does not use the HTML5 `progress` element ensuring that the progress
+bars can be stacked, animated and place labels over them.
+
+## Usage
+
+Import the `Progress` component:
+
+```tsx
+import { Progress } from "@happygloss/felastrap/Progress";
+
+export const Foobar = () => {
+  return <Progress />;
+};
+```
+
+The progress bar looks like this:
+
+<Canvas of={ProgressStories.Zero} />
+
+We use the `role="progressbar"` along with `aria-label` to label the progress bar.
+
+<Canvas of={ProgressStories.TwentyFive} />
+
+We use `aria-valuenow` to represent the current value, `aria-valuemin` and `aria-valuemax` to
+represent the minimum and maximum values of the progress bar.
+
+<Canvas of={ProgressStories.Fifty} />
+
+<Canvas of={ProgressStories.SeventyFive} />
+
+<Canvas of={ProgressStories.Hundred} />
+
+We can show a label showing the percentage over the progress bar:
+
+<Canvas of={ProgressStories.Label} />
+
+The progress bar can be displayed in multiple variants:
+
+<Canvas of={ProgressStories.Info} />
+
+<Canvas of={ProgressStories.Success} />
+
+<Canvas of={ProgressStories.Warning} />
+
+<Canvas of={ProgressStories.Danger} />
+
+A striped Progressbar can be displayed like:
+
+<Canvas of={ProgressStories.Striped} />
+
+in all its variants:
+
+<Canvas of={ProgressStories.StripedInfo} />
+
+<Canvas of={ProgressStories.StripedSuccess} />
+
+<Canvas of={ProgressStories.StripedWarning} />
+
+<Canvas of={ProgressStories.StripedDanger} />
+
+You can add an animation to the striped progress bar:
+
+<Canvas of={ProgressStories.StripedAnimated} />

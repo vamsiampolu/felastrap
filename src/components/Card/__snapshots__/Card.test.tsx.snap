@@ -1,0 +1,1472 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Card/Card styling should render a Card with a header and text 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  position: relative;
+}
+.f {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.g {
+  flex-direction: column;
+}
+.h {
+  min-width: 0;
+}
+.i {
+  height: auto;
+}
+.j {
+  text-align: left;
+}
+.k {
+  background-clip: border-box;
+}
+.l {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.m {
+  color: #212529;
+}
+.n {
+  word-wrap: break-word;
+}
+.o > a + a {
+  margin-left: 1rem;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.y {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.z {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ab {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ac {
+  -webkit-background-color: rgba(33, 37, 41, 0.03);
+  background-color: rgba(33, 37, 41, 0.03);
+}
+.ae {
+  color: rgb(33, 37, 41);
+}
+.af {
+  margin-bottom: 0;
+}
+.ag {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.ah {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.ai {
+  border-bottom-right-radius:;
+}
+.aj {
+  border-bottom-left-radius: 0;
+}
+.ak {
+  padding-top: 0.5rem;
+}
+.al {
+  padding-right: 1rem;
+}
+.am {
+  padding-bottom: 0.5rem;
+}
+.an {
+  padding-left: 1rem;
+}
+.ao {
+  padding-top: 1rem;
+}
+.ap {
+  padding-bottom: 1rem;
+}
+.aq {
+  color: #000;
+}
+.ar {
+  flex-grow: 1;
+}
+.as {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.at {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.au {
+  margin-bottom: 1rem;
+}
+.av {
+  color: inherit;
+}
+.aw {
+  font-weight: 500;
+}
+.ax {
+  font-size: 1.25rem;
+}
+.ay {
+  line-height: 1.2;
+}
+.az {
+  margin-top: 0;
+}
+.ba {
+  margin-bottom: 0.5rem;
+}
+.bc {
+  border-top-left-radius: 4px;
+}
+.bd {
+  border-top-right-radius: 0;
+}
+.be {
+  border-bottom-right-radius: 0;
+}
+.bf {
+  border-bottom-left-radius: 4px;
+}
+.bg {
+  padding-top: 6px;
+}
+.bh {
+  padding-bottom: 6px;
+}
+.bi {
+  padding-left: 12px;
+}
+.bj {
+  padding-right: 12px;
+}
+.bk {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.bl {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.bm {
+  color: #fff;
+}
+.bn {
+  cursor: pointer;
+}
+.bo {
+  display: inline-block;
+}
+.bp {
+  font-size: 14px;
+}
+.bq {
+  font-weight: 400;
+}
+.br {
+  line-height: 1.42857143;
+}
+.bs {
+  text-align: center;
+}
+.bt {
+  touch-action: manipulation;
+}
+.bu {
+  white-space: nowrap;
+}
+.bv {
+  vertical-align: middle;
+}
+.bw {
+  user-select: none;
+}
+.cg:disabled {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.ch:disabled {
+  color: #fff;
+}
+.ci:disabled {
+  box-shadow: none;
+}
+.cj:disabled {
+  cursor: not-allowed;
+}
+.ck:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.cl:disabled {
+  opacity: 0.65;
+}
+.cm:disabled {
+  pointer-events: none;
+}
+.cn:disabled {
+  border-top-color: #0d6efd;
+}
+.co:disabled {
+  border-right-color: #0d6efd;
+}
+.cp:disabled {
+  border-bottom-color: #0d6efd;
+}
+.cq:disabled {
+  border-left-color: #0d6efd;
+}
+.df {
+  border-top-color: #2e6da4;
+}
+.dg {
+  border-right-color: #2e6da4;
+}
+.dh {
+  border-bottom-color: #2e6da4;
+}
+.di {
+  border-left-color: #2e6da4;
+}
+.cz:hover {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.da:hover {
+  color: #fff;
+}
+.db:hover {
+  border-top-color: #0a58ca;
+}
+.dc:hover {
+  border-right-color: #0a58ca;
+}
+.dd:hover {
+  border-bottom-color: #0a58ca;
+}
+.de:hover {
+  border-left-color: #0a58ca;
+}
+.cr:focus-visible {
+  color: #fff;
+}
+.cs:focus-visible {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.ct:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.cu:focus-visible {
+  outline-width: 0;
+}
+.cv:focus-visible {
+  border-top-color: #0a58ca;
+}
+.cw:focus-visible {
+  border-right-color: #0a58ca;
+}
+.cx:focus-visible {
+  border-bottom-color: #0a58ca;
+}
+.cy:focus-visible {
+  border-left-color: #0a58ca;
+}
+.bx:active {
+  color: #fff;
+}
+.by:active {
+  -webkit-background-color: #0a58ca;
+  background-color: #0a58ca;
+}
+.bz:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.ca:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.cb:active {
+  outline-width: 0;
+}
+.cc:active {
+  border-top-color: #0a53be;
+}
+.cd:active {
+  border-right-color: #0a53be;
+}
+.ce:active {
+  border-bottom-color: #0a53be;
+}
+.cf:active {
+  border-left-color: #0a53be;
+}
+@media (min-width: 1200px) {
+  .bb {
+    font-size: 1.25rem;
+  }
+}
+
+
+<div
+  data-testid="card"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  <div data-testid="card-header" class="ac ae af ag ah ai aj ak al am an r v z">
+    Featured
+  </div>
+  <div data-testid="card-body" class="al an ao ap aq ar as at">
+    <h5 class="aq au" data-testid="card-title">Special Title Treatment</h5>
+    <p data-testid="card-text" class="au az">
+      With supporting text below as a natural lead-in to additional content.
+    </p>
+    <button
+      data-testid="button"
+      class="af bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di p q r s t u v w"
+    >
+      Go Somewhere
+    </button>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Card/Card styling should render a Card with a title and a subtitle: .a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  position: relative;
+}
+.f {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.g {
+  flex-direction: column;
+}
+.h {
+  min-width: 0;
+}
+.i {
+  height: auto;
+}
+.j {
+  text-align: left;
+}
+.k {
+  background-clip: border-box;
+}
+.l {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.m {
+  color: #212529;
+}
+.n {
+  word-wrap: break-word;
+}
+.o > a + a {
+  margin-left: 1rem;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.y {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.z {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ab {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ac {
+  padding-top: 1rem;
+}
+.ae {
+  padding-bottom: 1rem;
+}
+.af {
+  padding-left: 1rem;
+}
+.ag {
+  padding-right: 1rem;
+}
+.ah {
+  color: #000;
+}
+.ai {
+  flex-grow: 1;
+}
+.aj {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.ak {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.al {
+  margin-bottom: 1rem;
+}
+.am {
+  color: inherit;
+}
+.an {
+  font-weight: 500;
+}
+.ao {
+  font-size: 1.25rem;
+}
+.ap {
+  line-height: 1.2;
+}
+.aq {
+  margin-top: 0;
+}
+.ar {
+  margin-bottom: 0.5rem;
+}
+.at {
+  margin-top: calc(-0.5 * 0.5rem);
+}
+.au {
+  margin-bottom: 0;
+}
+@media (min-width: 1200px) {
+  .as {
+    font-size: 1.25rem;
+  }
+}
+
+
+<div
+  data-testid="card"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+  style="width: 18rem"
+>
+  <div data-testid="card-body" class="ac ae af ag ah ai aj ak">
+    <h5 class="ah al" data-testid="card-title">Card Title</h5>
+    <h6
+      data-testid="card-subtitle"
+      class="ah at au"
+      style="color: rgba(33, 37, 41, 0.75); opacity: 1; margin-bottom: 0.5rem"
+    >
+      Card subtitle
+    </h6>
+  </div>
+</div>
+;
+ 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  position: relative;
+}
+.f {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.g {
+  flex-direction: column;
+}
+.h {
+  min-width: 0;
+}
+.i {
+  height: auto;
+}
+.j {
+  text-align: left;
+}
+.k {
+  background-clip: border-box;
+}
+.l {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.m {
+  color: #212529;
+}
+.n {
+  word-wrap: break-word;
+}
+.o > a + a {
+  margin-left: 1rem;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.y {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.z {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ab {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ac {
+  padding-top: 1rem;
+}
+.ae {
+  padding-bottom: 1rem;
+}
+.af {
+  padding-left: 1rem;
+}
+.ag {
+  padding-right: 1rem;
+}
+.ah {
+  color: #000;
+}
+.ai {
+  flex-grow: 1;
+}
+.aj {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.ak {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.al {
+  margin-bottom: 1rem;
+}
+.am {
+  color: inherit;
+}
+.an {
+  font-weight: 500;
+}
+.ao {
+  font-size: 1.25rem;
+}
+.ap {
+  line-height: 1.2;
+}
+.aq {
+  margin-top: 0;
+}
+.ar {
+  margin-bottom: 0.5rem;
+}
+.at {
+  margin-top: calc(-0.5 * 0.5rem);
+}
+.au {
+  margin-bottom: 0;
+}
+@media (min-width: 1200px) {
+  .as {
+    font-size: 1.25rem;
+  }
+}
+
+
+<div
+  data-testid="card"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+  style="width: 18rem"
+>
+  <div data-testid="card-body" class="ac ae af ag ah ai aj ak">
+    <h5 class="ah al" data-testid="card-title">Card Title</h5>
+    <h6
+      data-testid="card-subtitle"
+      class="ah at au"
+      style="color: rgba(33, 37, 41, 0.75); opacity: 1; margin-bottom: 0.5rem"
+    >
+      Card subtitle
+    </h6>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Card/Card styling should render a Card with a title, subtitle and links 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  position: relative;
+}
+.f {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.g {
+  flex-direction: column;
+}
+.h {
+  min-width: 0;
+}
+.i {
+  height: auto;
+}
+.j {
+  text-align: left;
+}
+.k {
+  background-clip: border-box;
+}
+.l {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.m {
+  color: #212529;
+}
+.n {
+  word-wrap: break-word;
+}
+.o > a + a {
+  margin-left: 1rem;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.y {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.z {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ab {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ac {
+  padding-top: 1rem;
+}
+.ae {
+  padding-bottom: 1rem;
+}
+.af {
+  padding-left: 1rem;
+}
+.ag {
+  padding-right: 1rem;
+}
+.ah {
+  color: #000;
+}
+.ai {
+  flex-grow: 1;
+}
+.aj {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.ak {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.al {
+  margin-bottom: 1rem;
+}
+.am {
+  color: inherit;
+}
+.an {
+  font-weight: 500;
+}
+.ao {
+  font-size: 1.25rem;
+}
+.ap {
+  line-height: 1.2;
+}
+.aq {
+  margin-top: 0;
+}
+.ar {
+  margin-bottom: 0.5rem;
+}
+.at {
+  margin-top: calc(-0.5 * 0.5rem);
+}
+.au {
+  margin-bottom: 0;
+}
+.av {
+  color: #646cff;
+}
+.ax {
+  text-decoration-line: inherit;
+}
+.aw:hover {
+  color: #535bf2;
+}
+@media (min-width: 1200px) {
+  .as {
+    font-size: 1.25rem;
+  }
+}
+
+
+<div
+  data-testid="card"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+  style="width: 18rem"
+>
+  <div data-testid="card-body" class="ac ae af ag ah ai aj ak">
+    <h5 class="ah al" data-testid="card-title">Card Title</h5>
+    <h6
+      data-testid="card-subtitle"
+      class="ah at au"
+      style="color: rgba(33, 37, 41, 0.75); opacity: 1; margin-bottom: 0.5rem"
+    >
+      Card subtitle
+    </h6>
+    <p data-testid="card-text" class="al aq">
+      Some quick example text to build on the card title and make up the bulk of
+      the card&#x27;s content.
+    </p>
+    <a data-testid="link" href="#" target="" rel="" class="an av aw ax"
+      >Card Link</a
+    ><a
+      data-testid="link"
+      href="#"
+      target=""
+      rel=""
+      class="an av aw ax"
+      style="margin-left: 1rem"
+      >Another Link</a
+    >
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Card/Card styling should render a Card with a top image and text 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  position: relative;
+}
+.f {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.g {
+  flex-direction: column;
+}
+.h {
+  min-width: 0;
+}
+.i {
+  height: auto;
+}
+.j {
+  text-align: left;
+}
+.k {
+  background-clip: border-box;
+}
+.l {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.m {
+  color: #212529;
+}
+.n {
+  word-wrap: break-word;
+}
+.o > a + a {
+  margin-left: 1rem;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.y {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.z {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ab {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ac {
+  width: 100%;
+}
+.ae {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.af {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.ag {
+  padding-top: 1rem;
+}
+.ah {
+  padding-bottom: 1rem;
+}
+.ai {
+  padding-left: 1rem;
+}
+.aj {
+  padding-right: 1rem;
+}
+.ak {
+  color: #000;
+}
+.al {
+  flex-grow: 1;
+}
+.am {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.an {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.ao {
+  margin-top: 0;
+}
+.ap {
+  margin-bottom: 1rem;
+}
+
+
+<div
+  data-testid="card"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+  style="width: 10rem"
+>
+  <img
+    data-testid="card-image"
+    class="ac ae af"
+    src="https://picsum.photos/id/16/200/300"
+    width="200"
+    height="300"
+  />
+  <div data-testid="card-body" class="ag ah ai aj ak al am an">
+    <p data-testid="card-text" class="ao ap">
+      Some quick example text to build on the card title and make up the bulk of
+      the card&#x27;s content.
+    </p>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Card/Card styling should render a Card with an image at the bottom and text 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  position: relative;
+}
+.f {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.g {
+  flex-direction: column;
+}
+.h {
+  min-width: 0;
+}
+.i {
+  height: auto;
+}
+.j {
+  text-align: left;
+}
+.k {
+  background-clip: border-box;
+}
+.l {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.m {
+  color: #212529;
+}
+.n {
+  word-wrap: break-word;
+}
+.o > a + a {
+  margin-left: 1rem;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.y {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.z {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ab {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ac {
+  padding-top: 1rem;
+}
+.ae {
+  padding-bottom: 1rem;
+}
+.af {
+  padding-left: 1rem;
+}
+.ag {
+  padding-right: 1rem;
+}
+.ah {
+  color: #000;
+}
+.ai {
+  flex-grow: 1;
+}
+.aj {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.ak {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.al {
+  margin-top: 0;
+}
+.am {
+  margin-bottom: 1rem;
+}
+.an {
+  width: 100%;
+}
+.ao {
+  border-bottom-right-radius: calc(0.375rem - 1px);
+}
+.ap {
+  border-bottom-left-radius: calc(0.375rem - 1px);
+}
+
+
+<div
+  data-testid="card"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+  style="width: 18rem"
+>
+  <div data-testid="card-body" class="ac ae af ag ah ai aj ak">
+    <p data-testid="card-text" class="al am">
+      Some quick example text to build on the card title and make up the bulk of
+      the card&#x27;s content.
+    </p>
+  </div>
+  <img
+    data-testid="card-image"
+    class="an ao ap"
+    src="https://picsum.photos/id/16/200/300"
+    width="200"
+    height="300"
+  />
+</div>
+;
+"
+`;
+
+exports[`components/Card/Card styling should render a Card with some text: .a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  position: relative;
+}
+.f {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.g {
+  flex-direction: column;
+}
+.h {
+  min-width: 0;
+}
+.i {
+  height: auto;
+}
+.j {
+  text-align: left;
+}
+.k {
+  background-clip: border-box;
+}
+.l {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.m {
+  color: #212529;
+}
+.n {
+  word-wrap: break-word;
+}
+.o > a + a {
+  margin-left: 1rem;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.y {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.z {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ab {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ac {
+  padding-top: 1rem;
+}
+.ae {
+  padding-bottom: 1rem;
+}
+.af {
+  padding-left: 1rem;
+}
+.ag {
+  padding-right: 1rem;
+}
+.ah {
+  color: #000;
+}
+.ai {
+  flex-grow: 1;
+}
+.aj {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.ak {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+
+<div
+  data-testid="card"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  <div data-testid="card-body" class="ac ae af ag ah ai aj ak">
+    This is some text within a card body
+  </div>
+</div>
+;
+ 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  position: relative;
+}
+.f {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.g {
+  flex-direction: column;
+}
+.h {
+  min-width: 0;
+}
+.i {
+  height: auto;
+}
+.j {
+  text-align: left;
+}
+.k {
+  background-clip: border-box;
+}
+.l {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.m {
+  color: #212529;
+}
+.n {
+  word-wrap: break-word;
+}
+.o > a + a {
+  margin-left: 1rem;
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-right-width: 1px;
+}
+.r {
+  border-bottom-width: 1px;
+}
+.s {
+  border-left-width: 1px;
+}
+.t {
+  border-top-style: solid;
+}
+.u {
+  border-right-style: solid;
+}
+.v {
+  border-bottom-style: solid;
+}
+.w {
+  border-left-style: solid;
+}
+.x {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.y {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.z {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ab {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ac {
+  padding-top: 1rem;
+}
+.ae {
+  padding-bottom: 1rem;
+}
+.af {
+  padding-left: 1rem;
+}
+.ag {
+  padding-right: 1rem;
+}
+.ah {
+  color: #000;
+}
+.ai {
+  flex-grow: 1;
+}
+.aj {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.ak {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+
+<div
+  data-testid="card"
+  class="a ab b c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  <div data-testid="card-body" class="ac ae af ag ah ai aj ak">
+    This is some text within a card body
+  </div>
+</div>
+;
+"
+`;

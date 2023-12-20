@@ -1,0 +1,2653 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Alert/HeaderAlert should show a dismissable alert of variant danger 1`] = `
+".a {
+  left: 0;
+}
+.b {
+  top: 0;
+}
+.c {
+  right: 94%;
+}
+.d {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.e {
+  top: 56px;
+}
+.f {
+  z-index: 10;
+}
+.g {
+  border-top-left-radius: 0.375rem;
+}
+.h {
+  border-top-right-radius: 0.375rem;
+}
+.i {
+  border-bottom-right-radius: 0.375rem;
+}
+.j {
+  border-bottom-left-radius: 0.375rem;
+}
+.k {
+  -webkit-background-color: #f8d7da;
+  background-color: #f8d7da;
+}
+.l {
+  color: #58151c;
+}
+.m {
+  position: relative;
+}
+.n {
+  padding-top: 1rem;
+}
+.o {
+  padding-bottom: 1rem;
+}
+.p {
+  padding-left: 1rem;
+}
+.q {
+  padding-right: 1rem;
+}
+.r {
+  margin-right: 2rem;
+}
+.s {
+  width: 100%;
+}
+.t {
+  min-width: 100%;
+}
+.u {
+  border-top-width: 1px;
+}
+.v {
+  border-right-width: 1px;
+}
+.w {
+  border-bottom-width: 1px;
+}
+.x {
+  border-left-width: 1px;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #f1aeb5;
+}
+.af {
+  border-right-color: #f1aeb5;
+}
+.ag {
+  border-bottom-color: #f1aeb5;
+}
+.ah {
+  border-left-color: #f1aeb5;
+}
+.ai {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.aj {
+  -webkit-background-image: url(test-file-stub);
+  background-image: url(test-file-stub);
+}
+.ak {
+  -webkit-background-position-x: center;
+  background-position-x: center;
+}
+.al {
+  background-origin: padding-box;
+}
+.am {
+  background-clip: border-box;
+}
+.an {
+  -webkit-background-position-y: 1em;
+  background-position-y: 1em;
+}
+.ao {
+  background-repeat: no-repeat;
+}
+.ap {
+  background-size: auto;
+}
+.aq {
+  box-sizing: content-box;
+}
+.ar {
+  color: #000;
+}
+.as {
+  height: 1em;
+}
+.at {
+  opacity: 0.5;
+}
+.au {
+  padding-top: 1.25rem;
+}
+.av {
+  padding-bottom: 1.25rem;
+}
+.aw {
+  width: 1em;
+}
+.ba:disabled {
+  opacity: 0.25;
+}
+.bb:disabled {
+  pointer-events: none;
+}
+.bc:disabled {
+  user-select: none;
+}
+.bd {
+  position: absolute;
+}
+.be {
+  right: 0;
+}
+.bf {
+  z-index: 2;
+}
+.bg {
+  border-top-width: 0;
+}
+.bh {
+  border-right-width: 0;
+}
+.bi {
+  border-bottom-width: 0;
+}
+.bj {
+  border-left-width: 0;
+}
+.bk {
+  border-top-color: rgb(0, 0, 0);
+}
+.bl {
+  border-right-color: rgb(0, 0, 0);
+}
+.bm {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bn {
+  border-left-color: rgb(0, 0, 0);
+}
+.ax:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ay:focus {
+  opacity: 1;
+}
+.az:focus {
+  outline-width: 0;
+}
+
+
+<div
+  style="
+    width: 90%;
+    max-width: 90%;
+    display: block;
+    position: absolute;
+    top: 4px;
+    padding-top: 0.4rem;
+    margin-top: -0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  "
+  id="header-alert"
+>
+  <div data-testid="sticky" class="d e f">
+    <div
+      data-testid="header-alert"
+      class="ab ac ae af ag ah f g h i j k l m n o p q r s t u v w x y z a b c"
+    >
+      <button
+        data-testid="alert-close-btn"
+        class="ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn g h i j p q close-button"
+        aria-label="Close"
+      ></button
+      >T-Rexes in the mirror may be closer than they appear.
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Alert/HeaderAlert should show a dismissable alert of variant default 1`] = `
+".a {
+  left: 0;
+}
+.b {
+  top: 0;
+}
+.c {
+  right: 94%;
+}
+.d {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.e {
+  top: 56px;
+}
+.f {
+  z-index: 10;
+}
+.g {
+  border-top-left-radius: 0.375rem;
+}
+.h {
+  border-top-right-radius: 0.375rem;
+}
+.i {
+  border-bottom-right-radius: 0.375rem;
+}
+.j {
+  border-bottom-left-radius: 0.375rem;
+}
+.k {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.l {
+  color: inherit;
+}
+.m {
+  position: relative;
+}
+.n {
+  padding-top: 1rem;
+}
+.o {
+  padding-bottom: 1rem;
+}
+.p {
+  padding-left: 1rem;
+}
+.q {
+  padding-right: 1rem;
+}
+.r {
+  margin-right: 2rem;
+}
+.s {
+  width: 100%;
+}
+.t {
+  min-width: 100%;
+}
+.u {
+  border-top-width: 1px;
+}
+.v {
+  border-right-width: 1px;
+}
+.w {
+  border-bottom-width: 1px;
+}
+.x {
+  border-left-width: 1px;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: transparent;
+}
+.af {
+  border-right-color: transparent;
+}
+.ag {
+  border-bottom-color: transparent;
+}
+.ah {
+  border-left-color: transparent;
+}
+.ai {
+  -webkit-background-image: url(test-file-stub);
+  background-image: url(test-file-stub);
+}
+.aj {
+  -webkit-background-position-x: center;
+  background-position-x: center;
+}
+.ak {
+  background-origin: padding-box;
+}
+.al {
+  background-clip: border-box;
+}
+.am {
+  -webkit-background-position-y: 1em;
+  background-position-y: 1em;
+}
+.an {
+  background-repeat: no-repeat;
+}
+.ao {
+  background-size: auto;
+}
+.ap {
+  box-sizing: content-box;
+}
+.aq {
+  color: #000;
+}
+.ar {
+  height: 1em;
+}
+.as {
+  opacity: 0.5;
+}
+.at {
+  padding-top: 1.25rem;
+}
+.au {
+  padding-bottom: 1.25rem;
+}
+.av {
+  width: 1em;
+}
+.az:disabled {
+  opacity: 0.25;
+}
+.ba:disabled {
+  pointer-events: none;
+}
+.bb:disabled {
+  user-select: none;
+}
+.bc {
+  position: absolute;
+}
+.bd {
+  right: 0;
+}
+.be {
+  z-index: 2;
+}
+.bf {
+  border-top-width: 0;
+}
+.bg {
+  border-right-width: 0;
+}
+.bh {
+  border-bottom-width: 0;
+}
+.bi {
+  border-left-width: 0;
+}
+.bj {
+  border-top-color: rgb(0, 0, 0);
+}
+.bk {
+  border-right-color: rgb(0, 0, 0);
+}
+.bl {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bm {
+  border-left-color: rgb(0, 0, 0);
+}
+.aw:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ax:focus {
+  opacity: 1;
+}
+.ay:focus {
+  outline-width: 0;
+}
+
+
+<div
+  style="
+    width: 90%;
+    max-width: 90%;
+    display: block;
+    position: absolute;
+    top: 4px;
+    padding-top: 0.4rem;
+    margin-top: -0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  "
+  id="header-alert"
+>
+  <div data-testid="sticky" class="d e f">
+    <div
+      data-testid="header-alert"
+      class="ab ac ae af ag ah f g h i j k l m n o p q r s t u v w x y z a b c"
+    >
+      <button
+        data-testid="alert-close-btn"
+        class="ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm g h i j k p q close-button"
+        aria-label="Close"
+      ></button
+      >T-Rexes in the mirror may be closer than they appear.
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Alert/HeaderAlert should show a dismissable alert of variant info 1`] = `
+".a {
+  left: 0;
+}
+.b {
+  top: 0;
+}
+.c {
+  right: 94%;
+}
+.d {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.e {
+  top: 56px;
+}
+.f {
+  z-index: 10;
+}
+.g {
+  border-top-left-radius: 0.375rem;
+}
+.h {
+  border-top-right-radius: 0.375rem;
+}
+.i {
+  border-bottom-right-radius: 0.375rem;
+}
+.j {
+  border-bottom-left-radius: 0.375rem;
+}
+.k {
+  -webkit-background-color: #cff4fc;
+  background-color: #cff4fc;
+}
+.l {
+  color: #055160;
+}
+.m {
+  position: relative;
+}
+.n {
+  padding-top: 1rem;
+}
+.o {
+  padding-bottom: 1rem;
+}
+.p {
+  padding-left: 1rem;
+}
+.q {
+  padding-right: 1rem;
+}
+.r {
+  margin-right: 2rem;
+}
+.s {
+  width: 100%;
+}
+.t {
+  min-width: 100%;
+}
+.u {
+  border-top-width: 1px;
+}
+.v {
+  border-right-width: 1px;
+}
+.w {
+  border-bottom-width: 1px;
+}
+.x {
+  border-left-width: 1px;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #9eeaf9;
+}
+.af {
+  border-right-color: #9eeaf9;
+}
+.ag {
+  border-bottom-color: #9eeaf9;
+}
+.ah {
+  border-left-color: #9eeaf9;
+}
+.ai {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.aj {
+  -webkit-background-image: url(test-file-stub);
+  background-image: url(test-file-stub);
+}
+.ak {
+  -webkit-background-position-x: center;
+  background-position-x: center;
+}
+.al {
+  background-origin: padding-box;
+}
+.am {
+  background-clip: border-box;
+}
+.an {
+  -webkit-background-position-y: 1em;
+  background-position-y: 1em;
+}
+.ao {
+  background-repeat: no-repeat;
+}
+.ap {
+  background-size: auto;
+}
+.aq {
+  box-sizing: content-box;
+}
+.ar {
+  color: #000;
+}
+.as {
+  height: 1em;
+}
+.at {
+  opacity: 0.5;
+}
+.au {
+  padding-top: 1.25rem;
+}
+.av {
+  padding-bottom: 1.25rem;
+}
+.aw {
+  width: 1em;
+}
+.ba:disabled {
+  opacity: 0.25;
+}
+.bb:disabled {
+  pointer-events: none;
+}
+.bc:disabled {
+  user-select: none;
+}
+.bd {
+  position: absolute;
+}
+.be {
+  right: 0;
+}
+.bf {
+  z-index: 2;
+}
+.bg {
+  border-top-width: 0;
+}
+.bh {
+  border-right-width: 0;
+}
+.bi {
+  border-bottom-width: 0;
+}
+.bj {
+  border-left-width: 0;
+}
+.bk {
+  border-top-color: rgb(0, 0, 0);
+}
+.bl {
+  border-right-color: rgb(0, 0, 0);
+}
+.bm {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bn {
+  border-left-color: rgb(0, 0, 0);
+}
+.ax:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ay:focus {
+  opacity: 1;
+}
+.az:focus {
+  outline-width: 0;
+}
+
+
+<div
+  style="
+    width: 90%;
+    max-width: 90%;
+    display: block;
+    position: absolute;
+    top: 4px;
+    padding-top: 0.4rem;
+    margin-top: -0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  "
+  id="header-alert"
+>
+  <div data-testid="sticky" class="d e f">
+    <div
+      data-testid="header-alert"
+      class="ab ac ae af ag ah f g h i j k l m n o p q r s t u v w x y z a b c"
+    >
+      <button
+        data-testid="alert-close-btn"
+        class="ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn g h i j p q close-button"
+        aria-label="Close"
+      ></button
+      >T-Rexes in the mirror may be closer than they appear.
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Alert/HeaderAlert should show a dismissable alert of variant primary 1`] = `
+".a {
+  left: 0;
+}
+.b {
+  top: 0;
+}
+.c {
+  right: 94%;
+}
+.d {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.e {
+  top: 56px;
+}
+.f {
+  z-index: 10;
+}
+.g {
+  border-top-left-radius: 0.375rem;
+}
+.h {
+  border-top-right-radius: 0.375rem;
+}
+.i {
+  border-bottom-right-radius: 0.375rem;
+}
+.j {
+  border-bottom-left-radius: 0.375rem;
+}
+.k {
+  -webkit-background-color: #cfe2ff;
+  background-color: #cfe2ff;
+}
+.l {
+  color: #052c65;
+}
+.m {
+  position: relative;
+}
+.n {
+  padding-top: 1rem;
+}
+.o {
+  padding-bottom: 1rem;
+}
+.p {
+  padding-left: 1rem;
+}
+.q {
+  padding-right: 1rem;
+}
+.r {
+  margin-right: 2rem;
+}
+.s {
+  width: 100%;
+}
+.t {
+  min-width: 100%;
+}
+.u {
+  border-top-width: 1px;
+}
+.v {
+  border-right-width: 1px;
+}
+.w {
+  border-bottom-width: 1px;
+}
+.x {
+  border-left-width: 1px;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #9ec5fe;
+}
+.af {
+  border-right-color: #9ec5fe;
+}
+.ag {
+  border-bottom-color: #9ec5fe;
+}
+.ah {
+  border-left-color: #9ec5fe;
+}
+.ai {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.aj {
+  -webkit-background-image: url(test-file-stub);
+  background-image: url(test-file-stub);
+}
+.ak {
+  -webkit-background-position-x: center;
+  background-position-x: center;
+}
+.al {
+  background-origin: padding-box;
+}
+.am {
+  background-clip: border-box;
+}
+.an {
+  -webkit-background-position-y: 1em;
+  background-position-y: 1em;
+}
+.ao {
+  background-repeat: no-repeat;
+}
+.ap {
+  background-size: auto;
+}
+.aq {
+  box-sizing: content-box;
+}
+.ar {
+  color: #000;
+}
+.as {
+  height: 1em;
+}
+.at {
+  opacity: 0.5;
+}
+.au {
+  padding-top: 1.25rem;
+}
+.av {
+  padding-bottom: 1.25rem;
+}
+.aw {
+  width: 1em;
+}
+.ba:disabled {
+  opacity: 0.25;
+}
+.bb:disabled {
+  pointer-events: none;
+}
+.bc:disabled {
+  user-select: none;
+}
+.bd {
+  position: absolute;
+}
+.be {
+  right: 0;
+}
+.bf {
+  z-index: 2;
+}
+.bg {
+  border-top-width: 0;
+}
+.bh {
+  border-right-width: 0;
+}
+.bi {
+  border-bottom-width: 0;
+}
+.bj {
+  border-left-width: 0;
+}
+.bk {
+  border-top-color: rgb(0, 0, 0);
+}
+.bl {
+  border-right-color: rgb(0, 0, 0);
+}
+.bm {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bn {
+  border-left-color: rgb(0, 0, 0);
+}
+.ax:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ay:focus {
+  opacity: 1;
+}
+.az:focus {
+  outline-width: 0;
+}
+
+
+<div
+  style="
+    width: 90%;
+    max-width: 90%;
+    display: block;
+    position: absolute;
+    top: 4px;
+    padding-top: 0.4rem;
+    margin-top: -0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  "
+  id="header-alert"
+>
+  <div data-testid="sticky" class="d e f">
+    <div
+      data-testid="header-alert"
+      class="ab ac ae af ag ah f g h i j k l m n o p q r s t u v w x y z a b c"
+    >
+      <button
+        data-testid="alert-close-btn"
+        class="ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn g h i j p q close-button"
+        aria-label="Close"
+      ></button
+      >T-Rexes in the mirror may be closer than they appear.
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Alert/HeaderAlert should show a dismissable alert of variant secondary 1`] = `
+".a {
+  left: 0;
+}
+.b {
+  top: 0;
+}
+.c {
+  right: 94%;
+}
+.d {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.e {
+  top: 56px;
+}
+.f {
+  z-index: 10;
+}
+.g {
+  border-top-left-radius: 0.375rem;
+}
+.h {
+  border-top-right-radius: 0.375rem;
+}
+.i {
+  border-bottom-right-radius: 0.375rem;
+}
+.j {
+  border-bottom-left-radius: 0.375rem;
+}
+.k {
+  -webkit-background-color: #e2e3e5;
+  background-color: #e2e3e5;
+}
+.l {
+  color: #2b2f32;
+}
+.m {
+  position: relative;
+}
+.n {
+  padding-top: 1rem;
+}
+.o {
+  padding-bottom: 1rem;
+}
+.p {
+  padding-left: 1rem;
+}
+.q {
+  padding-right: 1rem;
+}
+.r {
+  margin-right: 2rem;
+}
+.s {
+  width: 100%;
+}
+.t {
+  min-width: 100%;
+}
+.u {
+  border-top-width: 1px;
+}
+.v {
+  border-right-width: 1px;
+}
+.w {
+  border-bottom-width: 1px;
+}
+.x {
+  border-left-width: 1px;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #c4c8cb;
+}
+.af {
+  border-right-color: #c4c8cb;
+}
+.ag {
+  border-bottom-color: #c4c8cb;
+}
+.ah {
+  border-left-color: #c4c8cb;
+}
+.ai {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.aj {
+  -webkit-background-image: url(test-file-stub);
+  background-image: url(test-file-stub);
+}
+.ak {
+  -webkit-background-position-x: center;
+  background-position-x: center;
+}
+.al {
+  background-origin: padding-box;
+}
+.am {
+  background-clip: border-box;
+}
+.an {
+  -webkit-background-position-y: 1em;
+  background-position-y: 1em;
+}
+.ao {
+  background-repeat: no-repeat;
+}
+.ap {
+  background-size: auto;
+}
+.aq {
+  box-sizing: content-box;
+}
+.ar {
+  color: #000;
+}
+.as {
+  height: 1em;
+}
+.at {
+  opacity: 0.5;
+}
+.au {
+  padding-top: 1.25rem;
+}
+.av {
+  padding-bottom: 1.25rem;
+}
+.aw {
+  width: 1em;
+}
+.ba:disabled {
+  opacity: 0.25;
+}
+.bb:disabled {
+  pointer-events: none;
+}
+.bc:disabled {
+  user-select: none;
+}
+.bd {
+  position: absolute;
+}
+.be {
+  right: 0;
+}
+.bf {
+  z-index: 2;
+}
+.bg {
+  border-top-width: 0;
+}
+.bh {
+  border-right-width: 0;
+}
+.bi {
+  border-bottom-width: 0;
+}
+.bj {
+  border-left-width: 0;
+}
+.bk {
+  border-top-color: rgb(0, 0, 0);
+}
+.bl {
+  border-right-color: rgb(0, 0, 0);
+}
+.bm {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bn {
+  border-left-color: rgb(0, 0, 0);
+}
+.ax:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ay:focus {
+  opacity: 1;
+}
+.az:focus {
+  outline-width: 0;
+}
+
+
+<div
+  style="
+    width: 90%;
+    max-width: 90%;
+    display: block;
+    position: absolute;
+    top: 4px;
+    padding-top: 0.4rem;
+    margin-top: -0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  "
+  id="header-alert"
+>
+  <div data-testid="sticky" class="d e f">
+    <div
+      data-testid="header-alert"
+      class="ab ac ae af ag ah f g h i j k l m n o p q r s t u v w x y z a b c"
+    >
+      <button
+        data-testid="alert-close-btn"
+        class="ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn g h i j p q close-button"
+        aria-label="Close"
+      ></button
+      >T-Rexes in the mirror may be closer than they appear.
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Alert/HeaderAlert should show a dismissable alert of variant success 1`] = `
+".a {
+  left: 0;
+}
+.b {
+  top: 0;
+}
+.c {
+  right: 94%;
+}
+.d {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.e {
+  top: 56px;
+}
+.f {
+  z-index: 10;
+}
+.g {
+  border-top-left-radius: 0.375rem;
+}
+.h {
+  border-top-right-radius: 0.375rem;
+}
+.i {
+  border-bottom-right-radius: 0.375rem;
+}
+.j {
+  border-bottom-left-radius: 0.375rem;
+}
+.k {
+  -webkit-background-color: #d1e7dd;
+  background-color: #d1e7dd;
+}
+.l {
+  color: #0a3622;
+}
+.m {
+  position: relative;
+}
+.n {
+  padding-top: 1rem;
+}
+.o {
+  padding-bottom: 1rem;
+}
+.p {
+  padding-left: 1rem;
+}
+.q {
+  padding-right: 1rem;
+}
+.r {
+  margin-right: 2rem;
+}
+.s {
+  width: 100%;
+}
+.t {
+  min-width: 100%;
+}
+.u {
+  border-top-width: 1px;
+}
+.v {
+  border-right-width: 1px;
+}
+.w {
+  border-bottom-width: 1px;
+}
+.x {
+  border-left-width: 1px;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #a3cfbb;
+}
+.af {
+  border-right-color: #a3cfbb;
+}
+.ag {
+  border-bottom-color: #a3cfbb;
+}
+.ah {
+  border-left-color: #a3cfbb;
+}
+.ai {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.aj {
+  -webkit-background-image: url(test-file-stub);
+  background-image: url(test-file-stub);
+}
+.ak {
+  -webkit-background-position-x: center;
+  background-position-x: center;
+}
+.al {
+  background-origin: padding-box;
+}
+.am {
+  background-clip: border-box;
+}
+.an {
+  -webkit-background-position-y: 1em;
+  background-position-y: 1em;
+}
+.ao {
+  background-repeat: no-repeat;
+}
+.ap {
+  background-size: auto;
+}
+.aq {
+  box-sizing: content-box;
+}
+.ar {
+  color: #000;
+}
+.as {
+  height: 1em;
+}
+.at {
+  opacity: 0.5;
+}
+.au {
+  padding-top: 1.25rem;
+}
+.av {
+  padding-bottom: 1.25rem;
+}
+.aw {
+  width: 1em;
+}
+.ba:disabled {
+  opacity: 0.25;
+}
+.bb:disabled {
+  pointer-events: none;
+}
+.bc:disabled {
+  user-select: none;
+}
+.bd {
+  position: absolute;
+}
+.be {
+  right: 0;
+}
+.bf {
+  z-index: 2;
+}
+.bg {
+  border-top-width: 0;
+}
+.bh {
+  border-right-width: 0;
+}
+.bi {
+  border-bottom-width: 0;
+}
+.bj {
+  border-left-width: 0;
+}
+.bk {
+  border-top-color: rgb(0, 0, 0);
+}
+.bl {
+  border-right-color: rgb(0, 0, 0);
+}
+.bm {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bn {
+  border-left-color: rgb(0, 0, 0);
+}
+.ax:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ay:focus {
+  opacity: 1;
+}
+.az:focus {
+  outline-width: 0;
+}
+
+
+<div
+  style="
+    width: 90%;
+    max-width: 90%;
+    display: block;
+    position: absolute;
+    top: 4px;
+    padding-top: 0.4rem;
+    margin-top: -0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  "
+  id="header-alert"
+>
+  <div data-testid="sticky" class="d e f">
+    <div
+      data-testid="header-alert"
+      class="ab ac ae af ag ah f g h i j k l m n o p q r s t u v w x y z a b c"
+    >
+      <button
+        data-testid="alert-close-btn"
+        class="ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn g h i j p q close-button"
+        aria-label="Close"
+      ></button
+      >T-Rexes in the mirror may be closer than they appear.
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Alert/HeaderAlert should show a dismissable alert of variant warning 1`] = `
+".a {
+  left: 0;
+}
+.b {
+  top: 0;
+}
+.c {
+  right: 94%;
+}
+.d {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.e {
+  top: 56px;
+}
+.f {
+  z-index: 10;
+}
+.g {
+  border-top-left-radius: 0.375rem;
+}
+.h {
+  border-top-right-radius: 0.375rem;
+}
+.i {
+  border-bottom-right-radius: 0.375rem;
+}
+.j {
+  border-bottom-left-radius: 0.375rem;
+}
+.k {
+  -webkit-background-color: #fff3cd;
+  background-color: #fff3cd;
+}
+.l {
+  color: #664d03;
+}
+.m {
+  position: relative;
+}
+.n {
+  padding-top: 1rem;
+}
+.o {
+  padding-bottom: 1rem;
+}
+.p {
+  padding-left: 1rem;
+}
+.q {
+  padding-right: 1rem;
+}
+.r {
+  margin-right: 2rem;
+}
+.s {
+  width: 100%;
+}
+.t {
+  min-width: 100%;
+}
+.u {
+  border-top-width: 1px;
+}
+.v {
+  border-right-width: 1px;
+}
+.w {
+  border-bottom-width: 1px;
+}
+.x {
+  border-left-width: 1px;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #ffe69c;
+}
+.af {
+  border-right-color: #ffe69c;
+}
+.ag {
+  border-bottom-color: #ffe69c;
+}
+.ah {
+  border-left-color: #ffe69c;
+}
+.ai {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.aj {
+  -webkit-background-image: url(test-file-stub);
+  background-image: url(test-file-stub);
+}
+.ak {
+  -webkit-background-position-x: center;
+  background-position-x: center;
+}
+.al {
+  background-origin: padding-box;
+}
+.am {
+  background-clip: border-box;
+}
+.an {
+  -webkit-background-position-y: 1em;
+  background-position-y: 1em;
+}
+.ao {
+  background-repeat: no-repeat;
+}
+.ap {
+  background-size: auto;
+}
+.aq {
+  box-sizing: content-box;
+}
+.ar {
+  color: #000;
+}
+.as {
+  height: 1em;
+}
+.at {
+  opacity: 0.5;
+}
+.au {
+  padding-top: 1.25rem;
+}
+.av {
+  padding-bottom: 1.25rem;
+}
+.aw {
+  width: 1em;
+}
+.ba:disabled {
+  opacity: 0.25;
+}
+.bb:disabled {
+  pointer-events: none;
+}
+.bc:disabled {
+  user-select: none;
+}
+.bd {
+  position: absolute;
+}
+.be {
+  right: 0;
+}
+.bf {
+  z-index: 2;
+}
+.bg {
+  border-top-width: 0;
+}
+.bh {
+  border-right-width: 0;
+}
+.bi {
+  border-bottom-width: 0;
+}
+.bj {
+  border-left-width: 0;
+}
+.bk {
+  border-top-color: rgb(0, 0, 0);
+}
+.bl {
+  border-right-color: rgb(0, 0, 0);
+}
+.bm {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bn {
+  border-left-color: rgb(0, 0, 0);
+}
+.ax:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ay:focus {
+  opacity: 1;
+}
+.az:focus {
+  outline-width: 0;
+}
+
+
+<div
+  style="
+    width: 90%;
+    max-width: 90%;
+    display: block;
+    position: absolute;
+    top: 4px;
+    padding-top: 0.4rem;
+    margin-top: -0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  "
+  id="header-alert"
+>
+  <div data-testid="sticky" class="d e f">
+    <div
+      data-testid="header-alert"
+      class="ab ac ae af ag ah f g h i j k l m n o p q r s t u v w x y z a b c"
+    >
+      <button
+        data-testid="alert-close-btn"
+        class="ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn g h i j p q close-button"
+        aria-label="Close"
+      ></button
+      >T-Rexes in the mirror may be closer than they appear.
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Alert/HeaderAlert should show a non dismissable alert of variant danger 1`] = `
+".a {
+  left: 0;
+}
+.b {
+  top: 0;
+}
+.c {
+  right: 94%;
+}
+.d {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.e {
+  top: 56px;
+}
+.f {
+  z-index: 10;
+}
+.g {
+  border-top-left-radius: 0.375rem;
+}
+.h {
+  border-top-right-radius: 0.375rem;
+}
+.i {
+  border-bottom-right-radius: 0.375rem;
+}
+.j {
+  border-bottom-left-radius: 0.375rem;
+}
+.k {
+  -webkit-background-color: #f8d7da;
+  background-color: #f8d7da;
+}
+.l {
+  color: #58151c;
+}
+.m {
+  position: relative;
+}
+.n {
+  padding-top: 1rem;
+}
+.o {
+  padding-bottom: 1rem;
+}
+.p {
+  padding-left: 1rem;
+}
+.q {
+  padding-right: 1rem;
+}
+.r {
+  margin-right: 2rem;
+}
+.s {
+  width: 100%;
+}
+.t {
+  min-width: 100%;
+}
+.u {
+  border-top-width: 1px;
+}
+.v {
+  border-right-width: 1px;
+}
+.w {
+  border-bottom-width: 1px;
+}
+.x {
+  border-left-width: 1px;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #f1aeb5;
+}
+.af {
+  border-right-color: #f1aeb5;
+}
+.ag {
+  border-bottom-color: #f1aeb5;
+}
+.ah {
+  border-left-color: #f1aeb5;
+}
+
+
+<div
+  style="
+    width: 90%;
+    max-width: 90%;
+    display: block;
+    position: absolute;
+    top: 4px;
+    padding-top: 0.4rem;
+    margin-top: -0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  "
+  id="header-alert"
+>
+  <div data-testid="sticky" class="d e f">
+    <div
+      data-testid="header-alert"
+      class="ab ac ae af ag ah f g h i j k l m n o p q r s t u v w x y z a b c"
+    >
+      T-Rexes in the mirror may be closer than they appear.
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Alert/HeaderAlert should show a non dismissable alert of variant default 1`] = `
+".a {
+  left: 0;
+}
+.b {
+  top: 0;
+}
+.c {
+  right: 94%;
+}
+.d {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.e {
+  top: 56px;
+}
+.f {
+  z-index: 10;
+}
+.g {
+  border-top-left-radius: 0.375rem;
+}
+.h {
+  border-top-right-radius: 0.375rem;
+}
+.i {
+  border-bottom-right-radius: 0.375rem;
+}
+.j {
+  border-bottom-left-radius: 0.375rem;
+}
+.k {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.l {
+  color: inherit;
+}
+.m {
+  position: relative;
+}
+.n {
+  padding-top: 1rem;
+}
+.o {
+  padding-bottom: 1rem;
+}
+.p {
+  padding-left: 1rem;
+}
+.q {
+  padding-right: 1rem;
+}
+.r {
+  margin-right: 2rem;
+}
+.s {
+  width: 100%;
+}
+.t {
+  min-width: 100%;
+}
+.u {
+  border-top-width: 1px;
+}
+.v {
+  border-right-width: 1px;
+}
+.w {
+  border-bottom-width: 1px;
+}
+.x {
+  border-left-width: 1px;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: transparent;
+}
+.af {
+  border-right-color: transparent;
+}
+.ag {
+  border-bottom-color: transparent;
+}
+.ah {
+  border-left-color: transparent;
+}
+
+
+<div
+  style="
+    width: 90%;
+    max-width: 90%;
+    display: block;
+    position: absolute;
+    top: 4px;
+    padding-top: 0.4rem;
+    margin-top: -0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  "
+  id="header-alert"
+>
+  <div data-testid="sticky" class="d e f">
+    <div
+      data-testid="header-alert"
+      class="ab ac ae af ag ah f g h i j k l m n o p q r s t u v w x y z a b c"
+    >
+      T-Rexes in the mirror may be closer than they appear.
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Alert/HeaderAlert should show a non dismissable alert of variant info 1`] = `
+".a {
+  left: 0;
+}
+.b {
+  top: 0;
+}
+.c {
+  right: 94%;
+}
+.d {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.e {
+  top: 56px;
+}
+.f {
+  z-index: 10;
+}
+.g {
+  border-top-left-radius: 0.375rem;
+}
+.h {
+  border-top-right-radius: 0.375rem;
+}
+.i {
+  border-bottom-right-radius: 0.375rem;
+}
+.j {
+  border-bottom-left-radius: 0.375rem;
+}
+.k {
+  -webkit-background-color: #cff4fc;
+  background-color: #cff4fc;
+}
+.l {
+  color: #055160;
+}
+.m {
+  position: relative;
+}
+.n {
+  padding-top: 1rem;
+}
+.o {
+  padding-bottom: 1rem;
+}
+.p {
+  padding-left: 1rem;
+}
+.q {
+  padding-right: 1rem;
+}
+.r {
+  margin-right: 2rem;
+}
+.s {
+  width: 100%;
+}
+.t {
+  min-width: 100%;
+}
+.u {
+  border-top-width: 1px;
+}
+.v {
+  border-right-width: 1px;
+}
+.w {
+  border-bottom-width: 1px;
+}
+.x {
+  border-left-width: 1px;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #9eeaf9;
+}
+.af {
+  border-right-color: #9eeaf9;
+}
+.ag {
+  border-bottom-color: #9eeaf9;
+}
+.ah {
+  border-left-color: #9eeaf9;
+}
+
+
+<div
+  style="
+    width: 90%;
+    max-width: 90%;
+    display: block;
+    position: absolute;
+    top: 4px;
+    padding-top: 0.4rem;
+    margin-top: -0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  "
+  id="header-alert"
+>
+  <div data-testid="sticky" class="d e f">
+    <div
+      data-testid="header-alert"
+      class="ab ac ae af ag ah f g h i j k l m n o p q r s t u v w x y z a b c"
+    >
+      T-Rexes in the mirror may be closer than they appear.
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Alert/HeaderAlert should show a non dismissable alert of variant primary 1`] = `
+".a {
+  left: 0;
+}
+.b {
+  top: 0;
+}
+.c {
+  right: 94%;
+}
+.d {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.e {
+  top: 56px;
+}
+.f {
+  z-index: 10;
+}
+.g {
+  border-top-left-radius: 0.375rem;
+}
+.h {
+  border-top-right-radius: 0.375rem;
+}
+.i {
+  border-bottom-right-radius: 0.375rem;
+}
+.j {
+  border-bottom-left-radius: 0.375rem;
+}
+.k {
+  -webkit-background-color: #cfe2ff;
+  background-color: #cfe2ff;
+}
+.l {
+  color: #052c65;
+}
+.m {
+  position: relative;
+}
+.n {
+  padding-top: 1rem;
+}
+.o {
+  padding-bottom: 1rem;
+}
+.p {
+  padding-left: 1rem;
+}
+.q {
+  padding-right: 1rem;
+}
+.r {
+  margin-right: 2rem;
+}
+.s {
+  width: 100%;
+}
+.t {
+  min-width: 100%;
+}
+.u {
+  border-top-width: 1px;
+}
+.v {
+  border-right-width: 1px;
+}
+.w {
+  border-bottom-width: 1px;
+}
+.x {
+  border-left-width: 1px;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #9ec5fe;
+}
+.af {
+  border-right-color: #9ec5fe;
+}
+.ag {
+  border-bottom-color: #9ec5fe;
+}
+.ah {
+  border-left-color: #9ec5fe;
+}
+
+
+<div
+  style="
+    width: 90%;
+    max-width: 90%;
+    display: block;
+    position: absolute;
+    top: 4px;
+    padding-top: 0.4rem;
+    margin-top: -0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  "
+  id="header-alert"
+>
+  <div data-testid="sticky" class="d e f">
+    <div
+      data-testid="header-alert"
+      class="ab ac ae af ag ah f g h i j k l m n o p q r s t u v w x y z a b c"
+    >
+      T-Rexes in the mirror may be closer than they appear.
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Alert/HeaderAlert should show a non dismissable alert of variant secondary 1`] = `
+".a {
+  left: 0;
+}
+.b {
+  top: 0;
+}
+.c {
+  right: 94%;
+}
+.d {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.e {
+  top: 56px;
+}
+.f {
+  z-index: 10;
+}
+.g {
+  border-top-left-radius: 0.375rem;
+}
+.h {
+  border-top-right-radius: 0.375rem;
+}
+.i {
+  border-bottom-right-radius: 0.375rem;
+}
+.j {
+  border-bottom-left-radius: 0.375rem;
+}
+.k {
+  -webkit-background-color: #e2e3e5;
+  background-color: #e2e3e5;
+}
+.l {
+  color: #2b2f32;
+}
+.m {
+  position: relative;
+}
+.n {
+  padding-top: 1rem;
+}
+.o {
+  padding-bottom: 1rem;
+}
+.p {
+  padding-left: 1rem;
+}
+.q {
+  padding-right: 1rem;
+}
+.r {
+  margin-right: 2rem;
+}
+.s {
+  width: 100%;
+}
+.t {
+  min-width: 100%;
+}
+.u {
+  border-top-width: 1px;
+}
+.v {
+  border-right-width: 1px;
+}
+.w {
+  border-bottom-width: 1px;
+}
+.x {
+  border-left-width: 1px;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #c4c8cb;
+}
+.af {
+  border-right-color: #c4c8cb;
+}
+.ag {
+  border-bottom-color: #c4c8cb;
+}
+.ah {
+  border-left-color: #c4c8cb;
+}
+
+
+<div
+  style="
+    width: 90%;
+    max-width: 90%;
+    display: block;
+    position: absolute;
+    top: 4px;
+    padding-top: 0.4rem;
+    margin-top: -0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  "
+  id="header-alert"
+>
+  <div data-testid="sticky" class="d e f">
+    <div
+      data-testid="header-alert"
+      class="ab ac ae af ag ah f g h i j k l m n o p q r s t u v w x y z a b c"
+    >
+      T-Rexes in the mirror may be closer than they appear.
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Alert/HeaderAlert should show a non dismissable alert of variant success 1`] = `
+".a {
+  left: 0;
+}
+.b {
+  top: 0;
+}
+.c {
+  right: 94%;
+}
+.d {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.e {
+  top: 56px;
+}
+.f {
+  z-index: 10;
+}
+.g {
+  border-top-left-radius: 0.375rem;
+}
+.h {
+  border-top-right-radius: 0.375rem;
+}
+.i {
+  border-bottom-right-radius: 0.375rem;
+}
+.j {
+  border-bottom-left-radius: 0.375rem;
+}
+.k {
+  -webkit-background-color: #d1e7dd;
+  background-color: #d1e7dd;
+}
+.l {
+  color: #0a3622;
+}
+.m {
+  position: relative;
+}
+.n {
+  padding-top: 1rem;
+}
+.o {
+  padding-bottom: 1rem;
+}
+.p {
+  padding-left: 1rem;
+}
+.q {
+  padding-right: 1rem;
+}
+.r {
+  margin-right: 2rem;
+}
+.s {
+  width: 100%;
+}
+.t {
+  min-width: 100%;
+}
+.u {
+  border-top-width: 1px;
+}
+.v {
+  border-right-width: 1px;
+}
+.w {
+  border-bottom-width: 1px;
+}
+.x {
+  border-left-width: 1px;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #a3cfbb;
+}
+.af {
+  border-right-color: #a3cfbb;
+}
+.ag {
+  border-bottom-color: #a3cfbb;
+}
+.ah {
+  border-left-color: #a3cfbb;
+}
+
+
+<div
+  style="
+    width: 90%;
+    max-width: 90%;
+    display: block;
+    position: absolute;
+    top: 4px;
+    padding-top: 0.4rem;
+    margin-top: -0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  "
+  id="header-alert"
+>
+  <div data-testid="sticky" class="d e f">
+    <div
+      data-testid="header-alert"
+      class="ab ac ae af ag ah f g h i j k l m n o p q r s t u v w x y z a b c"
+    >
+      T-Rexes in the mirror may be closer than they appear.
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Alert/HeaderAlert should show a non dismissable alert of variant warning 1`] = `
+".a {
+  left: 0;
+}
+.b {
+  top: 0;
+}
+.c {
+  right: 94%;
+}
+.d {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.e {
+  top: 56px;
+}
+.f {
+  z-index: 10;
+}
+.g {
+  border-top-left-radius: 0.375rem;
+}
+.h {
+  border-top-right-radius: 0.375rem;
+}
+.i {
+  border-bottom-right-radius: 0.375rem;
+}
+.j {
+  border-bottom-left-radius: 0.375rem;
+}
+.k {
+  -webkit-background-color: #fff3cd;
+  background-color: #fff3cd;
+}
+.l {
+  color: #664d03;
+}
+.m {
+  position: relative;
+}
+.n {
+  padding-top: 1rem;
+}
+.o {
+  padding-bottom: 1rem;
+}
+.p {
+  padding-left: 1rem;
+}
+.q {
+  padding-right: 1rem;
+}
+.r {
+  margin-right: 2rem;
+}
+.s {
+  width: 100%;
+}
+.t {
+  min-width: 100%;
+}
+.u {
+  border-top-width: 1px;
+}
+.v {
+  border-right-width: 1px;
+}
+.w {
+  border-bottom-width: 1px;
+}
+.x {
+  border-left-width: 1px;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: #ffe69c;
+}
+.af {
+  border-right-color: #ffe69c;
+}
+.ag {
+  border-bottom-color: #ffe69c;
+}
+.ah {
+  border-left-color: #ffe69c;
+}
+
+
+<div
+  style="
+    width: 90%;
+    max-width: 90%;
+    display: block;
+    position: absolute;
+    top: 4px;
+    padding-top: 0.4rem;
+    margin-top: -0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  "
+  id="header-alert"
+>
+  <div data-testid="sticky" class="d e f">
+    <div
+      data-testid="header-alert"
+      class="ab ac ae af ag ah f g h i j k l m n o p q r s t u v w x y z a b c"
+    >
+      T-Rexes in the mirror may be closer than they appear.
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Alert/HeaderAlert should show a sticky alert when open 1`] = `
+".a {
+  left: 0;
+}
+.b {
+  top: 0;
+}
+.c {
+  right: 94%;
+}
+.d {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.e {
+  top: 56px;
+}
+.f {
+  z-index: 10;
+}
+.g {
+  border-top-left-radius: 0.375rem;
+}
+.h {
+  border-top-right-radius: 0.375rem;
+}
+.i {
+  border-bottom-right-radius: 0.375rem;
+}
+.j {
+  border-bottom-left-radius: 0.375rem;
+}
+.k {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.l {
+  color: inherit;
+}
+.m {
+  position: relative;
+}
+.n {
+  padding-top: 1rem;
+}
+.o {
+  padding-bottom: 1rem;
+}
+.p {
+  padding-left: 1rem;
+}
+.q {
+  padding-right: 1rem;
+}
+.r {
+  margin-right: 2rem;
+}
+.s {
+  width: 100%;
+}
+.t {
+  min-width: 100%;
+}
+.u {
+  border-top-width: 1px;
+}
+.v {
+  border-right-width: 1px;
+}
+.w {
+  border-bottom-width: 1px;
+}
+.x {
+  border-left-width: 1px;
+}
+.y {
+  border-top-style: solid;
+}
+.z {
+  border-right-style: solid;
+}
+.ab {
+  border-bottom-style: solid;
+}
+.ac {
+  border-left-style: solid;
+}
+.ae {
+  border-top-color: transparent;
+}
+.af {
+  border-right-color: transparent;
+}
+.ag {
+  border-bottom-color: transparent;
+}
+.ah {
+  border-left-color: transparent;
+}
+
+
+<div
+  style="
+    width: 90%;
+    max-width: 90%;
+    display: block;
+    position: absolute;
+    top: 4px;
+    padding-top: 0.4rem;
+    margin-top: -0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  "
+  id="header-alert"
+>
+  <div data-testid="sticky" class="d e f">
+    <div
+      data-testid="header-alert"
+      class="ab ac ae af ag ah f g h i j k l m n o p q r s t u v w x y z a b c"
+    >
+      Unforeseen surprises are the rule in science, not the exception. Remember:
+      Stuff happens.
+    </div>
+  </div>
+</div>
+;
+"
+`;

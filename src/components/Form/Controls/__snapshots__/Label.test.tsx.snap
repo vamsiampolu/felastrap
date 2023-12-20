@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/Controls/Label should render a label 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  margin-bottom: 0.5rem;
+}
+
+
+<label data-testid="form-label" for="foobar" class="a b form-label">Label</label
+>;
+"
+`;

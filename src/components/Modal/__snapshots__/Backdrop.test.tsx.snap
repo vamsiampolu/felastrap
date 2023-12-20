@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Modal/Backdrop should render a Modal backdrop 1`] = `
+".a {
+  -webkit-background-color: #000;
+  background-color: #000;
+}
+.b {
+  opacity: 0;
+}
+.c {
+  height: 100vh;
+}
+.d {
+  width: 100vw;
+}
+.e {
+  left: 0;
+}
+.f {
+  position: fixed;
+}
+.g {
+  top: 0;
+}
+.h {
+  z-index: 1050;
+}
+
+
+<div
+  data-testid="modal-backdrop"
+  class="a b c d e f g h bs-modal-backdrop"
+></div>
+;
+"
+`;

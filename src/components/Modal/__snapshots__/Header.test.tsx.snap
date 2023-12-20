@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Modal/Header should render a Modal Header 1`] = `
+".a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.b {
+  flex-direction: row;
+}
+.c {
+  justify-content: space-between;
+}
+.d {
+  border-bottom-width: 1px;
+}
+.e {
+  border-bottom-style: solid;
+}
+.f {
+  border-bottom-color: #e5e5e5;
+}
+.g {
+  padding-top: 15px;
+}
+.h {
+  padding-right: 15px;
+}
+.i {
+  padding-bottom: 15px;
+}
+.j {
+  padding-left: 15px;
+}
+
+
+<div data-testid="modal-header" class="a b c d e f g h i j bs-modal-header">
+  Modal Header
+</div>
+;
+"
+`;

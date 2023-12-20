@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Figure/Figure should render a figure with an image and a figcaption 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  margin-bottom: 0.5rem;
+}
+.c {
+  line-height: 1;
+}
+.d {
+  font-size: 0.875em;
+}
+.e {
+  color: rgba(33, 37, 41, 0.75);
+}
+
+
+<figure data-testid="figure" class="a figure">
+  <img data-testid="image" class="b c" src="https://placehold.co/400x300" />
+  <figcaption data-testid="figure-caption" class="d e figure-caption">
+    Image Caption
+  </figcaption>
+</figure>
+;
+"
+`;

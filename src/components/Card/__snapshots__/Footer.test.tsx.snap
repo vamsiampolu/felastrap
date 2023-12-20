@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Card/Footer should render a card footer 1`] = `
+".a {
+  color: rgb(33, 37, 41);
+}
+.b {
+  -webkit-background-color: rgba(33, 37, 41, 0.03);
+  background-color: rgba(33, 37, 41, 0.03);
+}
+.c {
+  border-top-left-radius: 0;
+}
+.d {
+  border-top-right-radius: 0;
+}
+.e {
+  border-bottom-right-radius: calc(0.375rem - 1px);
+}
+.f {
+  border-bottom-left-radius: calc(0.375rem - 1px);
+}
+.g {
+  border-top-width: 1px;
+}
+.h {
+  border-top-style: solid;
+}
+.i {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.j {
+  padding-top: 0.5rem;
+}
+.k {
+  padding-right: 1rem;
+}
+.l {
+  padding-bottom: 0.5rem;
+}
+.m {
+  padding-left: 1rem;
+}
+
+
+<div class="a b c d e f g h i j k l m card-footer">Card Footer</div>
+;
+"
+`;

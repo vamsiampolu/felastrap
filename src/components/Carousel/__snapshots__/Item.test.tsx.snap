@@ -1,0 +1,469 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Carousel/Item should render a Carousel Item 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: none;
+}
+.c {
+  float: left;
+}
+.d {
+  width: 100%;
+}
+.e {
+  margin-right: -100%;
+}
+.f {
+  backface-visibility: hidden;
+}
+.k {
+  transition-property: transform;
+}
+.l {
+  transition-duration: 0.6s;
+}
+.m {
+  transition-delay: ease-in-out;
+}
+.n {
+  transition-timing-function: ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .g {
+    transition-property: none;
+  }
+  .h {
+    transition-duration: 0s;
+  }
+  .i {
+    transition-delay: 0s;
+  }
+  .j {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="carousel-item" class="a b c d e f g h i j k l m n">
+  <img
+    data-testid="carousel-item-image"
+    style="width: 100%; display: block"
+    src="https://picsum.photos/seed/picsum/450/300"
+    alt="Placeholder Image 1"
+  />
+</div>
+;
+"
+`;
+
+exports[`components/Carousel/Item should render a Carousel Item with crossfade enabled 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: none;
+}
+.c {
+  float: left;
+}
+.d {
+  width: 100%;
+}
+.e {
+  margin-right: -100%;
+}
+.f {
+  backface-visibility: hidden;
+}
+.k {
+  opacity: 0;
+}
+.l {
+  transition-property: opacity;
+}
+.m {
+  transition-duration: 0s;
+}
+.n {
+  transition-delay: 0.6s;
+}
+.o {
+  transition-timing-function: ease;
+}
+.p {
+  position: absolute;
+}
+.q {
+  right: 15%;
+}
+.r {
+  bottom: 1.25rem;
+}
+.s {
+  left: 15%;
+}
+.t {
+  padding-top: 1.25rem;
+}
+.u {
+  padding-bottom: 1.25rem;
+}
+.v {
+  color: #fff;
+}
+.w {
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .x {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .y {
+    display: block;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .g {
+    transition-property: none;
+  }
+  .h {
+    transition-duration: 0s;
+  }
+  .i {
+    transition-delay: 0s;
+  }
+  .j {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="carousel-item" class="a b c d e f g h i j k l m n o">
+  <img
+    data-testid="carousel-item-image"
+    style="width: 100%; display: block"
+    src="https://picsum.photos/seed/picsum/450/300"
+    alt="Placeholder Image 1"
+  />
+  <div
+    data-testid="carousel-caption"
+    class="p q r s t u v w x y carousel-caption"
+  >
+    <h5>Placeholder 1</h5>
+    <p>A placeholder image from picsum.photos</p>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Carousel/Item should render a Carousel Item with title and description 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: none;
+}
+.c {
+  float: left;
+}
+.d {
+  width: 100%;
+}
+.e {
+  margin-right: -100%;
+}
+.f {
+  backface-visibility: hidden;
+}
+.k {
+  transition-property: transform;
+}
+.l {
+  transition-duration: 0.6s;
+}
+.m {
+  transition-delay: ease-in-out;
+}
+.n {
+  transition-timing-function: ease;
+}
+.o {
+  position: absolute;
+}
+.p {
+  right: 15%;
+}
+.q {
+  bottom: 1.25rem;
+}
+.r {
+  left: 15%;
+}
+.s {
+  padding-top: 1.25rem;
+}
+.t {
+  padding-bottom: 1.25rem;
+}
+.u {
+  color: #fff;
+}
+.v {
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .w {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .x {
+    display: block;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .g {
+    transition-property: none;
+  }
+  .h {
+    transition-duration: 0s;
+  }
+  .i {
+    transition-delay: 0s;
+  }
+  .j {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="carousel-item" class="a b c d e f g h i j k l m n">
+  <img
+    data-testid="carousel-item-image"
+    style="width: 100%; display: block"
+    src="https://picsum.photos/seed/picsum/450/300"
+    alt="Placeholder Image 1"
+  />
+  <div
+    data-testid="carousel-caption"
+    class="o p q r s t u v w x carousel-caption"
+  >
+    <h5>Placeholder 1</h5>
+    <p>A placeholder image from picsum.photos</p>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Carousel/Item should render an active Carousel Item 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: block;
+}
+.c {
+  float: left;
+}
+.d {
+  width: 100%;
+}
+.e {
+  margin-right: -100%;
+}
+.f {
+  backface-visibility: hidden;
+}
+.k {
+  transition-property: transform;
+}
+.l {
+  transition-duration: 0.6s;
+}
+.m {
+  transition-delay: ease-in-out;
+}
+.n {
+  transition-timing-function: ease;
+}
+.o {
+  position: absolute;
+}
+.p {
+  right: 15%;
+}
+.q {
+  bottom: 1.25rem;
+}
+.r {
+  left: 15%;
+}
+.s {
+  padding-top: 1.25rem;
+}
+.t {
+  padding-bottom: 1.25rem;
+}
+.u {
+  color: #fff;
+}
+.v {
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .w {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .x {
+    display: block;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .g {
+    transition-property: none;
+  }
+  .h {
+    transition-duration: 0s;
+  }
+  .i {
+    transition-delay: 0s;
+  }
+  .j {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="carousel-item" class="a b c d e f g h i j k l m n">
+  <img
+    data-testid="carousel-item-image"
+    style="width: 100%; display: block"
+    src="https://picsum.photos/seed/picsum/450/300"
+    alt="Placeholder Image 1"
+  />
+  <div
+    data-testid="carousel-caption"
+    class="o p q r s t u v w x carousel-caption"
+  >
+    <h5>Placeholder 1</h5>
+    <p>A placeholder image from picsum.photos</p>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Carousel/Item should render an active Carousel Item with crossfade enabled 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: block;
+}
+.c {
+  float: left;
+}
+.d {
+  width: 100%;
+}
+.e {
+  margin-right: -100%;
+}
+.f {
+  backface-visibility: hidden;
+}
+.k {
+  opacity: 1;
+}
+.l {
+  transition-property: opacity;
+}
+.m {
+  z-index: 1;
+}
+.n {
+  transition-duration: 0s;
+}
+.o {
+  transition-delay: 0.6s;
+}
+.p {
+  transition-timing-function: ease;
+}
+.q {
+  position: absolute;
+}
+.r {
+  right: 15%;
+}
+.s {
+  bottom: 1.25rem;
+}
+.t {
+  left: 15%;
+}
+.u {
+  padding-top: 1.25rem;
+}
+.v {
+  padding-bottom: 1.25rem;
+}
+.w {
+  color: #fff;
+}
+.x {
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .y {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .z {
+    display: block;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .g {
+    transition-property: none;
+  }
+  .h {
+    transition-duration: 0s;
+  }
+  .i {
+    transition-delay: 0s;
+  }
+  .j {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="carousel-item" class="a b c d e f g h i j k l m n o p">
+  <img
+    data-testid="carousel-item-image"
+    style="width: 100%; display: block"
+    src="https://picsum.photos/seed/picsum/450/300"
+    alt="Placeholder Image 1"
+  />
+  <div
+    data-testid="carousel-caption"
+    class="q r s t u v w x y z carousel-caption"
+  >
+    <h5>Placeholder 1</h5>
+    <p>A placeholder image from picsum.photos</p>
+  </div>
+</div>
+;
+"
+`;

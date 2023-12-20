@@ -1,0 +1,688 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/Checkbox/Check should correctly render a default checkbox input 1`] = `
+".a {
+  float: left;
+}
+.b {
+  margin-left: -1.5em;
+}
+.c {
+  flex-shrink: 0;
+}
+.d {
+  width: 1em;
+}
+.e {
+  height: 1em;
+}
+.f {
+  margin-top: 0.25em;
+}
+.g {
+  vertical-align: top;
+}
+.h {
+  appearance: none;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-position: center;
+}
+.l {
+  background-size: contain;
+}
+.m {
+  color-adjust: exact;
+}
+.n {
+  print-color-adjust: exact;
+}
+.p:checked {
+  background-color: #0d6efd;
+}
+.q:checked {
+  background-image: url(test-file-stub);
+}
+.r:checked {
+  border-top-color: #0d6efd;
+}
+.s:checked {
+  border-right-color: #0d6efd;
+}
+.t:checked {
+  border-bottom-color: #0d6efd;
+}
+.u:checked {
+  border-left-color: #0d6efd;
+}
+.ac:indeterminate {
+  background-color: #0d6efd;
+}
+.ae:indeterminate {
+  background-image: url(test-file-stub);
+}
+.af:indeterminate {
+  border-top-color: #0d6efd;
+}
+.ag:indeterminate {
+  border-right-color: #0d6efd;
+}
+.ah:indeterminate {
+  border-bottom-color: #0d6efd;
+}
+.ai:indeterminate {
+  border-left-color: #0d6efd;
+}
+.aj:disabled {
+  pointer-events: none;
+}
+.ak:disabled {
+  filter: none;
+}
+.al:disabled {
+  opacity: 0.5;
+}
+.am {
+  margin-right: 0;
+}
+.an {
+  border-top-left-radius: 0.25em;
+}
+.ao {
+  border-top-right-radius: 0.25em;
+}
+.ap {
+  border-bottom-right-radius: 0.25em;
+}
+.aq {
+  border-bottom-left-radius: 0.25em;
+}
+.ar {
+  border-top-width: 1px;
+}
+.as {
+  border-right-width: 1px;
+}
+.at {
+  border-bottom-width: 1px;
+}
+.au {
+  border-left-width: 1px;
+}
+.av {
+  border-top-style: solid;
+}
+.aw {
+  border-right-style: solid;
+}
+.ax {
+  border-bottom-style: solid;
+}
+.ay {
+  border-left-style: solid;
+}
+.az {
+  border-top-color: #dee2e6;
+}
+.ba {
+  border-right-color: #dee2e6;
+}
+.bb {
+  border-bottom-color: #dee2e6;
+}
+.bc {
+  border-left-color: #dee2e6;
+}
+.v:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.w:focus {
+  outline-width: 0;
+}
+.x:focus {
+  border-top-color: #86b7fe;
+}
+.y:focus {
+  border-right-color: #86b7fe;
+}
+.z:focus {
+  border-bottom-color: #86b7fe;
+}
+.ab:focus {
+  border-left-color: #86b7fe;
+}
+.o:active {
+  filter: brightness(90%);
+}
+
+
+<input
+  data-testid="checkbox-input"
+  type="checkbox"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc c d e f g h i j k l m n o p q r s t u v w x y z form-check-input"
+  value="Empty"
+/>;
+"
+`;
+
+exports[`components/Form/Checkbox/Check should correctly render a disabled checkbox input 1`] = `
+".a {
+  float: left;
+}
+.b {
+  margin-left: -1.5em;
+}
+.c {
+  flex-shrink: 0;
+}
+.d {
+  width: 1em;
+}
+.e {
+  height: 1em;
+}
+.f {
+  margin-top: 0.25em;
+}
+.g {
+  vertical-align: top;
+}
+.h {
+  appearance: none;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-position: center;
+}
+.l {
+  background-size: contain;
+}
+.m {
+  color-adjust: exact;
+}
+.n {
+  print-color-adjust: exact;
+}
+.p:checked {
+  background-color: #0d6efd;
+}
+.q:checked {
+  background-image: url(test-file-stub);
+}
+.r:checked {
+  border-top-color: #0d6efd;
+}
+.s:checked {
+  border-right-color: #0d6efd;
+}
+.t:checked {
+  border-bottom-color: #0d6efd;
+}
+.u:checked {
+  border-left-color: #0d6efd;
+}
+.ac:indeterminate {
+  background-color: #0d6efd;
+}
+.ae:indeterminate {
+  background-image: url(test-file-stub);
+}
+.af:indeterminate {
+  border-top-color: #0d6efd;
+}
+.ag:indeterminate {
+  border-right-color: #0d6efd;
+}
+.ah:indeterminate {
+  border-bottom-color: #0d6efd;
+}
+.ai:indeterminate {
+  border-left-color: #0d6efd;
+}
+.aj:disabled {
+  pointer-events: none;
+}
+.ak:disabled {
+  filter: none;
+}
+.al:disabled {
+  opacity: 0.5;
+}
+.am {
+  margin-right: 0;
+}
+.an {
+  border-top-left-radius: 0.25em;
+}
+.ao {
+  border-top-right-radius: 0.25em;
+}
+.ap {
+  border-bottom-right-radius: 0.25em;
+}
+.aq {
+  border-bottom-left-radius: 0.25em;
+}
+.ar {
+  border-top-width: 1px;
+}
+.as {
+  border-right-width: 1px;
+}
+.at {
+  border-bottom-width: 1px;
+}
+.au {
+  border-left-width: 1px;
+}
+.av {
+  border-top-style: solid;
+}
+.aw {
+  border-right-style: solid;
+}
+.ax {
+  border-bottom-style: solid;
+}
+.ay {
+  border-left-style: solid;
+}
+.az {
+  border-top-color: #dee2e6;
+}
+.ba {
+  border-right-color: #dee2e6;
+}
+.bb {
+  border-bottom-color: #dee2e6;
+}
+.bc {
+  border-left-color: #dee2e6;
+}
+.v:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.w:focus {
+  outline-width: 0;
+}
+.x:focus {
+  border-top-color: #86b7fe;
+}
+.y:focus {
+  border-right-color: #86b7fe;
+}
+.z:focus {
+  border-bottom-color: #86b7fe;
+}
+.ab:focus {
+  border-left-color: #86b7fe;
+}
+.o:active {
+  filter: brightness(90%);
+}
+
+
+<input
+  data-testid="checkbox-input"
+  type="checkbox"
+  disabled=""
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc c d e f g h i j k l m n o p q r s t u v w x y z form-check-input"
+  value="Empty"
+/>;
+"
+`;
+
+exports[`components/Form/Checkbox/Check should render a checked checkbox input 1`] = `
+".a {
+  float: left;
+}
+.b {
+  margin-left: -1.5em;
+}
+.c {
+  flex-shrink: 0;
+}
+.d {
+  width: 1em;
+}
+.e {
+  height: 1em;
+}
+.f {
+  margin-top: 0.25em;
+}
+.g {
+  vertical-align: top;
+}
+.h {
+  appearance: none;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-position: center;
+}
+.l {
+  background-size: contain;
+}
+.m {
+  color-adjust: exact;
+}
+.n {
+  print-color-adjust: exact;
+}
+.p:checked {
+  background-color: #0d6efd;
+}
+.q:checked {
+  background-image: url(test-file-stub);
+}
+.r:checked {
+  border-top-color: #0d6efd;
+}
+.s:checked {
+  border-right-color: #0d6efd;
+}
+.t:checked {
+  border-bottom-color: #0d6efd;
+}
+.u:checked {
+  border-left-color: #0d6efd;
+}
+.ac:indeterminate {
+  background-color: #0d6efd;
+}
+.ae:indeterminate {
+  background-image: url(test-file-stub);
+}
+.af:indeterminate {
+  border-top-color: #0d6efd;
+}
+.ag:indeterminate {
+  border-right-color: #0d6efd;
+}
+.ah:indeterminate {
+  border-bottom-color: #0d6efd;
+}
+.ai:indeterminate {
+  border-left-color: #0d6efd;
+}
+.aj:disabled {
+  pointer-events: none;
+}
+.ak:disabled {
+  filter: none;
+}
+.al:disabled {
+  opacity: 0.5;
+}
+.am {
+  margin-right: 0;
+}
+.an {
+  border-top-left-radius: 0.25em;
+}
+.ao {
+  border-top-right-radius: 0.25em;
+}
+.ap {
+  border-bottom-right-radius: 0.25em;
+}
+.aq {
+  border-bottom-left-radius: 0.25em;
+}
+.ar {
+  border-top-width: 1px;
+}
+.as {
+  border-right-width: 1px;
+}
+.at {
+  border-bottom-width: 1px;
+}
+.au {
+  border-left-width: 1px;
+}
+.av {
+  border-top-style: solid;
+}
+.aw {
+  border-right-style: solid;
+}
+.ax {
+  border-bottom-style: solid;
+}
+.ay {
+  border-left-style: solid;
+}
+.az {
+  border-top-color: #dee2e6;
+}
+.ba {
+  border-right-color: #dee2e6;
+}
+.bb {
+  border-bottom-color: #dee2e6;
+}
+.bc {
+  border-left-color: #dee2e6;
+}
+.v:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.w:focus {
+  outline-width: 0;
+}
+.x:focus {
+  border-top-color: #86b7fe;
+}
+.y:focus {
+  border-right-color: #86b7fe;
+}
+.z:focus {
+  border-bottom-color: #86b7fe;
+}
+.ab:focus {
+  border-left-color: #86b7fe;
+}
+.o:active {
+  filter: brightness(90%);
+}
+
+
+<input
+  data-testid="checkbox-input"
+  type="checkbox"
+  id="form-check"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc c d e f g h i j k l m n o p q r s t u v w x y z form-check-input"
+  value="Checked"
+/>;
+"
+`;
+
+exports[`components/Form/Checkbox/Check should render an indeterminate checkbox input 1`] = `
+".a {
+  float: left;
+}
+.b {
+  margin-left: -1.5em;
+}
+.c {
+  flex-shrink: 0;
+}
+.d {
+  width: 1em;
+}
+.e {
+  height: 1em;
+}
+.f {
+  margin-top: 0.25em;
+}
+.g {
+  vertical-align: top;
+}
+.h {
+  appearance: none;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-repeat: no-repeat;
+}
+.k {
+  background-position: center;
+}
+.l {
+  background-size: contain;
+}
+.m {
+  color-adjust: exact;
+}
+.n {
+  print-color-adjust: exact;
+}
+.p:checked {
+  background-color: #0d6efd;
+}
+.q:checked {
+  background-image: url(test-file-stub);
+}
+.r:checked {
+  border-top-color: #0d6efd;
+}
+.s:checked {
+  border-right-color: #0d6efd;
+}
+.t:checked {
+  border-bottom-color: #0d6efd;
+}
+.u:checked {
+  border-left-color: #0d6efd;
+}
+.ac:indeterminate {
+  background-color: #0d6efd;
+}
+.ae:indeterminate {
+  background-image: url(test-file-stub);
+}
+.af:indeterminate {
+  border-top-color: #0d6efd;
+}
+.ag:indeterminate {
+  border-right-color: #0d6efd;
+}
+.ah:indeterminate {
+  border-bottom-color: #0d6efd;
+}
+.ai:indeterminate {
+  border-left-color: #0d6efd;
+}
+.aj:disabled {
+  pointer-events: none;
+}
+.ak:disabled {
+  filter: none;
+}
+.al:disabled {
+  opacity: 0.5;
+}
+.am {
+  margin-right: 0;
+}
+.an {
+  border-top-left-radius: 0.25em;
+}
+.ao {
+  border-top-right-radius: 0.25em;
+}
+.ap {
+  border-bottom-right-radius: 0.25em;
+}
+.aq {
+  border-bottom-left-radius: 0.25em;
+}
+.ar {
+  border-top-width: 1px;
+}
+.as {
+  border-right-width: 1px;
+}
+.at {
+  border-bottom-width: 1px;
+}
+.au {
+  border-left-width: 1px;
+}
+.av {
+  border-top-style: solid;
+}
+.aw {
+  border-right-style: solid;
+}
+.ax {
+  border-bottom-style: solid;
+}
+.ay {
+  border-left-style: solid;
+}
+.az {
+  border-top-color: #dee2e6;
+}
+.ba {
+  border-right-color: #dee2e6;
+}
+.bb {
+  border-bottom-color: #dee2e6;
+}
+.bc {
+  border-left-color: #dee2e6;
+}
+.v:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.w:focus {
+  outline-width: 0;
+}
+.x:focus {
+  border-top-color: #86b7fe;
+}
+.y:focus {
+  border-right-color: #86b7fe;
+}
+.z:focus {
+  border-bottom-color: #86b7fe;
+}
+.ab:focus {
+  border-left-color: #86b7fe;
+}
+.o:active {
+  filter: brightness(90%);
+}
+
+
+<input
+  data-testid="checkbox-input"
+  type="checkbox"
+  id="form-check"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc c d e f g h i j k l m n o p q r s t u v w x y z form-check-input"
+  value="Indeterminate"
+/>;
+"
+`;

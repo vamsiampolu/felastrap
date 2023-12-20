@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Navbar should return a navbar component 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: flex;
+}
+.c {
+  flex-wrap: wrap;
+}
+.d {
+  align-items: center;
+}
+.e {
+  justify-content: space-between;
+}
+.f {
+  background-color: rgba(248, 249, 250, 1);
+}
+.i {
+  padding-top: 0.5rem;
+}
+.j {
+  padding-right: 0;
+}
+.k {
+  padding-bottom: 0.5rem;
+}
+.l {
+  padding-left: 0;
+}
+.m {
+  flex-wrap: inherit;
+}
+.n {
+  margin-left: auto;
+}
+.o {
+  margin-right: auto;
+}
+.p {
+  padding-left: 0.75rem;
+}
+.q {
+  padding-right: 0.75rem;
+}
+.r {
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .s {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .g {
+    flex-wrap: nowrap;
+  }
+  .h {
+    justify-content: flex-start;
+  }
+  .t {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .u {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .v {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1320px) {
+  .w {
+    max-width: 1400px;
+  }
+}
+
+
+<nav data-testid="navbar" class="a b c d e f g h i j k l navbar">
+  <div
+    data-testid="container"
+    class="n o p q r s t u v w container b d e m navbar-container"
+  >
+    Navbar
+  </div>
+</nav>
+;
+"
+`;
+
+exports[`components/Navbar should return a navbar component fixed to the top 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  display: flex;
+}
+.c {
+  flex-wrap: wrap;
+}
+.d {
+  align-items: center;
+}
+.e {
+  justify-content: space-between;
+}
+.f {
+  background-color: rgba(248, 249, 250, 1);
+}
+.g {
+  right: 0;
+}
+.h {
+  left: 0;
+}
+.i {
+  z-index: 1030;
+}
+.j {
+  top: 0;
+}
+.k {
+  padding-top: 0.5rem;
+}
+.l {
+  padding-right: 0;
+}
+.m {
+  padding-bottom: 0.5rem;
+}
+.n {
+  padding-left: 0;
+}
+.o {
+  flex-wrap: inherit;
+}
+.p {
+  margin-left: auto;
+}
+.q {
+  margin-right: auto;
+}
+.r {
+  padding-left: 0.75rem;
+}
+.s {
+  padding-right: 0.75rem;
+}
+.t {
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .u {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .v {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .w {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .x {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1320px) {
+  .y {
+    max-width: 1400px;
+  }
+}
+
+
+<nav data-testid="navbar" class="a b c d e f g h i j k l m n navbar">
+  <div
+    data-testid="container"
+    class="p q r s t u v w x y container b d e o navbar-container"
+  >
+    Navbar
+  </div>
+</nav>
+;
+"
+`;
+
+exports[`components/Navbar should return a navbar component with variant: expand 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: flex;
+}
+.c {
+  flex-wrap: wrap;
+}
+.d {
+  align-items: center;
+}
+.e {
+  justify-content: space-between;
+}
+.f {
+  background-color: rgba(248, 249, 250, 1);
+}
+.i {
+  padding-top: 0.5rem;
+}
+.j {
+  padding-right: 0;
+}
+.k {
+  padding-bottom: 0.5rem;
+}
+.l {
+  padding-left: 0;
+}
+.m {
+  flex-wrap: inherit;
+}
+.n {
+  margin-left: auto;
+}
+.o {
+  margin-right: auto;
+}
+.p {
+  padding-left: 0.75rem;
+}
+.q {
+  padding-right: 0.75rem;
+}
+.r {
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .s {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .g {
+    flex-wrap: nowrap;
+  }
+  .h {
+    justify-content: flex-start;
+  }
+  .t {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .u {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .v {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1320px) {
+  .w {
+    max-width: 1400px;
+  }
+}
+
+
+<nav data-testid="navbar" class="a b c d e f g h i j k l navbar">
+  <div
+    data-testid="container"
+    class="n o p q r s t u v w container b d e m navbar-container"
+  >
+    Navbar
+  </div>
+</nav>
+;
+"
+`;

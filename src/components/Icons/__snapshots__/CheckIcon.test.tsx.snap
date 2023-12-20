@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Icons/CheckIcon should render a braces icon 1`] = `
+"
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="20"
+  height="20"
+  viewBox="0 0 20 20"
+>
+  <path
+    fill="none"
+    stroke="#fff"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="3"
+    d="m6 10 3 3 6-6"
+  ></path></svg
+>;
+"
+`;
+
+exports[`components/Icons/CheckIcon should render a braces icon with a fill 1`] = `
+"
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="20"
+  height="20"
+  viewBox="0 0 20 20"
+>
+  <path
+    fill="none"
+    stroke="#fff"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="3"
+    d="m6 10 3 3 6-6"
+  ></path></svg
+>;
+"
+`;
+
+exports[`components/Icons/CheckIcon should render a braces icon with a stroke 1`] = `
+"
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="20"
+  height="20"
+  viewBox="0 0 20 20"
+>
+  <path
+    fill="none"
+    stroke="#fff"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="3"
+    d="m6 10 3 3 6-6"
+  ></path></svg
+>;
+"
+`;
+
+exports[`components/Icons/CheckIcon should render a braces icon with a stroke and stroke width 1`] = `
+"
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="20"
+  height="20"
+  viewBox="0 0 20 20"
+>
+  <path
+    fill="none"
+    stroke="#fff"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="3"
+    d="m6 10 3 3 6-6"
+  ></path></svg
+>;
+"
+`;

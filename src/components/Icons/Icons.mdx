@@ -1,0 +1,119 @@
+import { Meta, IconGallery, IconItem } from "@storybook/blocks";
+import * as Icons from "./";
+import { createRenderer } from "fela";
+import { RendererProvider } from "react-fela";
+import expandShorthand from "fela-plugin-expand-shorthand";
+import sortClassNames from "fela-sort-classnames";
+import sortMediaQueryMobileFirst from "fela-sort-media-query-mobile-first";
+import prefixer from "fela-plugin-prefixer";
+
+export const renderer = createRenderer({
+  plugins: [prefixer(), expandShorthand(true)],
+  enhancers: [sortClassNames(), sortMediaQueryMobileFirst()],
+});
+
+export const MdxWrapper = ({ children, renderer }) => {
+  return <RendererProvider renderer={renderer}>{children}</RendererProvider>;
+};
+
+<Meta title="Icons" name="Icons" />
+
+# Icons
+
+These icons are used in the bootstrap documentation. They are included in the library.
+This is not an exhaustive list of icons, it is strongly advised to
+consider [Bootstrap Icons](https://icons.getbootstrap.com/).
+
+The `CheckIcon` is rendered here with a fill and stroke color of `black`, the default icon is transparent with a stroke color of `#fff`.
+The `SearchIcon` is off center and aligned to the left.
+
+<MdxWrapper renderer={renderer}>
+  <IconGallery>
+    <IconItem name="ArrowRightIcon">
+      <Icons.ArrowRightIcon />
+    </IconItem>
+    <IconItem name="BookHalfIcon">
+      <Icons.BookHalfIcon className="ml-auto mt-auto mb-auto" />
+    </IconItem>
+    <IconItem name="BoxSeamIcon">
+      <Icons.BoxSeamIcon />
+    </IconItem>
+    <IconItem name="BracesAsteriskIcon">
+      <Icons.BracesAsteriskIcon className="ml-auto mt-auto mb-auto" />
+    </IconItem>
+    <IconItem name="BracesIcon">
+      <Icons.BracesIcon />
+    </IconItem>
+    <IconItem name="BracesIcon">
+      <Icons.BracesIcon />
+    </IconItem>
+    <IconItem name="CheckIcon">
+      <Icons.CheckIcon fill="black" stroke="black" />
+    </IconItem>
+    <IconItem name="ChevronDownIcon">
+      <Icons.ChevronDownIcon />
+    </IconItem>
+    <IconItem name="CloseIcon">
+      <Icons.CloseIcon />
+    </IconItem>
+    <IconItem name="EarthIcon">
+      <Icons.EarthIcon />
+    </IconItem>
+    <IconItem name="GreenCheck">
+      <Icons.GreenCheck />
+    </IconItem>
+    <IconItem name="HamburgerIcon">
+      <Icons.HamburgerIcon />
+    </IconItem>
+    <IconItem name="MagicIcon">
+      <Icons.MagicIcon className="ml-auto" />
+    </IconItem>
+    <IconItem name="MagicIcon">
+      <Icons.MenuButtonWideFill />
+    </IconItem>
+    <IconItem name="OpenCollectiveIcon">
+      <Icons.OpenCollectiveIcon />
+    </IconItem>
+    <IconItem name="PaletteIcon2">
+      <Icons.PaletteIcon2 />
+    </IconItem>
+    <IconItem name="PauseIcon">
+      <Icons.PauseIcon />
+    </IconItem>
+    <IconItem name="PluginIcon">
+      <Icons.PluginIcon className="mt-auto mb-auto" />
+    </IconItem>
+    <IconItem name="PlusAsteriskIcon">
+      <Icons.PlusAsteriskIcon />
+    </IconItem>
+    <IconItem name="PlusIcon">
+      <Icons.PlusIcon />
+    </IconItem>
+    <IconItem name="PhoneIcon">
+      <Icons.PhoneIcon />
+    </IconItem>
+    <IconItem name="PlayIcon">
+      <Icons.PlayIcon />
+    </IconItem>
+    <IconItem name="RadiosIcon">
+      <Icons.RadiosIcon className="ml-auto" />
+    </IconItem>
+    <IconItem name="RichTextIcon">
+      <Icons.RichTextIcon className="ml-auto" />
+    </IconItem>
+    <IconItem name="SearchIcon">
+      <Icons.SearchIcon />
+    </IconItem>
+    <IconItem name="ToolsIcon">
+      <Icons.ToolsIcon className="ml-auto" />
+    </IconItem>
+    <IconItem name="TwitterIcon">
+      <Icons.TwitterIcon className="ml-auto" />
+    </IconItem>
+    <IconItem name="UnfoldIcon">
+      <Icons.UnfoldIcon className="ml-auto" />
+    </IconItem>
+  </IconGallery>
+</MdxWrapper>
+
+<style>{` .ml-auto { margin-left: auto;} .mt-auto {margin-top: auto; } .mb-auto { margin-bottom: auto; } .mr-auto { margin-right: auto; }`}</style>

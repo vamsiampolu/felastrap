@@ -1,0 +1,1929 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Badge renders a Badge with a variant 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  color: #fff;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  font-size: 0.75em;
+}
+.h {
+  font-weight: 700;
+}
+.i {
+  line-height: 1;
+}
+.j {
+  padding-top: 0.35em;
+}
+.k {
+  padding-bottom: 0.35em;
+}
+.l {
+  padding-left: 0.65em;
+}
+.m {
+  padding-right: 0.65em;
+}
+.n {
+  text-align: center;
+}
+.o {
+  white-space: nowrap;
+}
+.p {
+  vertical-align: baseline;
+}
+.q:empty {
+  display: none;
+}
+.r {
+  background-color: rgba(220, 53, 69, 1);
+}
+
+
+<span data-testid="badge" class="a b c d e f g h i j k l m n o p q r">2</span>;
+"
+`;
+
+exports[`components/Badge renders a Badge with a variant 2`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  color: #000;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  font-size: 0.75em;
+}
+.h {
+  font-weight: 700;
+}
+.i {
+  line-height: 1;
+}
+.j {
+  padding-top: 0.35em;
+}
+.k {
+  padding-bottom: 0.35em;
+}
+.l {
+  padding-left: 0.65em;
+}
+.m {
+  padding-right: 0.65em;
+}
+.n {
+  text-align: center;
+}
+.o {
+  white-space: nowrap;
+}
+.p {
+  vertical-align: baseline;
+}
+.q:empty {
+  display: none;
+}
+.r {
+  background-color: rgba(13, 202, 240, 1);
+}
+
+
+<span data-testid="badge" class="a b c d e f g h i j k l m n o p q r">2</span>;
+"
+`;
+
+exports[`components/Badge renders a Badge with a variant 3`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  color: #fff;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  font-size: 0.75em;
+}
+.h {
+  font-weight: 700;
+}
+.i {
+  line-height: 1;
+}
+.j {
+  padding-top: 0.35em;
+}
+.k {
+  padding-bottom: 0.35em;
+}
+.l {
+  padding-left: 0.65em;
+}
+.m {
+  padding-right: 0.65em;
+}
+.n {
+  text-align: center;
+}
+.o {
+  white-space: nowrap;
+}
+.p {
+  vertical-align: baseline;
+}
+.q:empty {
+  display: none;
+}
+.r {
+  background-color: rgba(13, 110, 253, 1);
+}
+
+
+<span data-testid="badge" class="a b c d e f g h i j k l m n o p q r">2</span>;
+"
+`;
+
+exports[`components/Badge renders a Badge with a variant 4`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  color: #fff;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  font-size: 0.75em;
+}
+.h {
+  font-weight: 700;
+}
+.i {
+  line-height: 1;
+}
+.j {
+  padding-top: 0.35em;
+}
+.k {
+  padding-bottom: 0.35em;
+}
+.l {
+  padding-left: 0.65em;
+}
+.m {
+  padding-right: 0.65em;
+}
+.n {
+  text-align: center;
+}
+.o {
+  white-space: nowrap;
+}
+.p {
+  vertical-align: baseline;
+}
+.q:empty {
+  display: none;
+}
+.r {
+  background-color: rgba(108, 117, 125, 1);
+}
+
+
+<span data-testid="badge" class="a b c d e f g h i j k l m n o p q r">2</span>;
+"
+`;
+
+exports[`components/Badge renders a Badge with a variant 5`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  color: #fff;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  font-size: 0.75em;
+}
+.h {
+  font-weight: 700;
+}
+.i {
+  line-height: 1;
+}
+.j {
+  padding-top: 0.35em;
+}
+.k {
+  padding-bottom: 0.35em;
+}
+.l {
+  padding-left: 0.65em;
+}
+.m {
+  padding-right: 0.65em;
+}
+.n {
+  text-align: center;
+}
+.o {
+  white-space: nowrap;
+}
+.p {
+  vertical-align: baseline;
+}
+.q:empty {
+  display: none;
+}
+.r {
+  background-color: rgba(25, 135, 84, 1);
+}
+
+
+<span data-testid="badge" class="a b c d e f g h i j k l m n o p q r">2</span>;
+"
+`;
+
+exports[`components/Badge renders a Badge with a variant 6`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  color: #000;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  font-size: 0.75em;
+}
+.h {
+  font-weight: 700;
+}
+.i {
+  line-height: 1;
+}
+.j {
+  padding-top: 0.35em;
+}
+.k {
+  padding-bottom: 0.35em;
+}
+.l {
+  padding-left: 0.65em;
+}
+.m {
+  padding-right: 0.65em;
+}
+.n {
+  text-align: center;
+}
+.o {
+  white-space: nowrap;
+}
+.p {
+  vertical-align: baseline;
+}
+.q:empty {
+  display: none;
+}
+.r {
+  background-color: rgba(255, 193, 7, 1);
+}
+
+
+<span data-testid="badge" class="a b c d e f g h i j k l m n o p q r">2</span>;
+"
+`;
+
+exports[`components/Badge should render a badge for a heading 1`] = `
+".a {
+  color: inherit;
+}
+.b {
+  font-weight: 500;
+}
+.c {
+  font-size: calc(1.325rem + 0.9vw);
+}
+.d {
+  line-height: 1.2;
+}
+.e {
+  margin-top: 0;
+}
+.f {
+  margin-bottom: 0.5rem;
+}
+.h {
+  border-top-left-radius: 0.375rem;
+}
+.i {
+  border-top-right-radius: 0.375rem;
+}
+.j {
+  border-bottom-right-radius: 0.375rem;
+}
+.k {
+  border-bottom-left-radius: 0.375rem;
+}
+.l {
+  color: #fff;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 0.75em;
+}
+.o {
+  font-weight: 700;
+}
+.p {
+  line-height: 1;
+}
+.q {
+  padding-top: 0.35em;
+}
+.r {
+  padding-bottom: 0.35em;
+}
+.s {
+  padding-left: 0.65em;
+}
+.t {
+  padding-right: 0.65em;
+}
+.u {
+  text-align: center;
+}
+.v {
+  white-space: nowrap;
+}
+.w {
+  vertical-align: baseline;
+}
+.x:empty {
+  display: none;
+}
+.y {
+  -webkit-background-color: rgba(108, 117, 125, 1);
+  background-color: rgba(108, 117, 125, 1);
+}
+@media (min-width: 1200px) {
+  .g {
+    font-size: 2rem;
+  }
+}
+
+
+<h2 class="a b c d e f g">
+  Hello, there!<span
+    data-testid="badge"
+    class="h i j k l m n o p q r s t u v w x y"
+    >2</span
+  >
+</h2>
+;
+"
+`;
+
+exports[`components/Badge should render a button Badge 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #333;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.ai:disabled {
+  color: #333;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #ccc;
+}
+.ap:disabled {
+  border-right-color: #ccc;
+}
+.aq:disabled {
+  border-bottom-color: #ccc;
+}
+.ar:disabled {
+  border-left-color: #ccc;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #ccc;
+}
+.bp {
+  border-right-color: #ccc;
+}
+.bq {
+  border-bottom-color: #ccc;
+}
+.br {
+  border-left-color: #ccc;
+}
+.bs {
+  border-top-left-radius: 0.375rem;
+}
+.bt {
+  border-top-right-radius: 0.375rem;
+}
+.bu {
+  border-bottom-right-radius: 0.375rem;
+}
+.bv {
+  border-bottom-left-radius: 0.375rem;
+}
+.bw {
+  color: #fff;
+}
+.bx {
+  font-size: 0.75em;
+}
+.by {
+  font-weight: 700;
+}
+.bz {
+  line-height: 1;
+}
+.ca {
+  padding-top: 0.35em;
+}
+.cb {
+  padding-bottom: 0.35em;
+}
+.cc {
+  padding-left: 0.65em;
+}
+.cd {
+  padding-right: 0.65em;
+}
+.ce {
+  vertical-align: baseline;
+}
+.cf:empty {
+  display: none;
+}
+.cg {
+  -webkit-background-color: rgba(108, 117, 125, 1);
+  background-color: rgba(108, 117, 125, 1);
+}
+.ch {
+  position: relative;
+}
+.ci {
+  top: -1px;
+}
+.ba:hover {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.bb:hover {
+  color: #333;
+}
+.bc:hover {
+  border-top-color: #adadad;
+}
+.bd:hover {
+  border-right-color: #adadad;
+}
+.be:hover {
+  border-bottom-color: #adadad;
+}
+.bf:hover {
+  border-left-color: #adadad;
+}
+.as:focus-visible {
+  color: #333;
+}
+.at:focus-visible {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #adadad;
+}
+.ax:focus-visible {
+  border-right-color: #adadad;
+}
+.ay:focus-visible {
+  border-bottom-color: #adadad;
+}
+.az:focus-visible {
+  border-left-color: #adadad;
+}
+.w:active {
+  color: #333;
+}
+.x:active {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #adadad;
+}
+.ae:active {
+  border-right-color: #adadad;
+}
+.af:active {
+  border-bottom-color: #adadad;
+}
+.ag:active {
+  border-left-color: #adadad;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Here<span
+    data-testid="badge"
+    class="bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci m r t"
+    >2</span
+  ></button
+>;
+"
+`;
+
+exports[`components/Badge should render a pill badge for a heading 1`] = `
+".a {
+  color: inherit;
+}
+.b {
+  font-weight: 500;
+}
+.c {
+  font-size: calc(1.325rem + 0.9vw);
+}
+.d {
+  line-height: 1.2;
+}
+.e {
+  margin-top: 0;
+}
+.f {
+  margin-bottom: 0.5rem;
+}
+.h {
+  border-top-left-radius: 50rem;
+}
+.i {
+  border-top-right-radius: 50rem;
+}
+.j {
+  border-bottom-right-radius: 50rem;
+}
+.k {
+  border-bottom-left-radius: 50rem;
+}
+.l {
+  color: #fff;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 0.75em;
+}
+.o {
+  font-weight: 700;
+}
+.p {
+  line-height: 1;
+}
+.q {
+  padding-top: 0.35em;
+}
+.r {
+  padding-bottom: 0.35em;
+}
+.s {
+  padding-left: 0.65em;
+}
+.t {
+  padding-right: 0.65em;
+}
+.u {
+  text-align: center;
+}
+.v {
+  white-space: nowrap;
+}
+.w {
+  vertical-align: baseline;
+}
+.x:empty {
+  display: none;
+}
+.y {
+  -webkit-background-color: rgba(108, 117, 125, 1);
+  background-color: rgba(108, 117, 125, 1);
+}
+@media (min-width: 1200px) {
+  .g {
+    font-size: 2rem;
+  }
+}
+
+
+<h2 class="a b c d e f g">
+  Hello, there!<span
+    data-testid="badge"
+    class="h i j k l m n o p q r s t u v w x y"
+    >2</span
+  >
+</h2>
+;
+"
+`;
+
+exports[`components/Badge should render a pill badge of variant danger 1`] = `
+".a {
+  border-top-left-radius: 50rem;
+}
+.b {
+  border-top-right-radius: 50rem;
+}
+.c {
+  border-bottom-right-radius: 50rem;
+}
+.d {
+  border-bottom-left-radius: 50rem;
+}
+.e {
+  color: #fff;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  font-size: 0.75em;
+}
+.h {
+  font-weight: 700;
+}
+.i {
+  line-height: 1;
+}
+.j {
+  padding-top: 0.35em;
+}
+.k {
+  padding-bottom: 0.35em;
+}
+.l {
+  padding-left: 0.65em;
+}
+.m {
+  padding-right: 0.65em;
+}
+.n {
+  text-align: center;
+}
+.o {
+  white-space: nowrap;
+}
+.p {
+  vertical-align: baseline;
+}
+.q:empty {
+  display: none;
+}
+.r {
+  -webkit-background-color: rgba(220, 53, 69, 1);
+  background-color: rgba(220, 53, 69, 1);
+}
+
+
+<span data-testid="badge" class="a b c d e f g h i j k l m n o p q r">2</span>;
+"
+`;
+
+exports[`components/Badge should render a pill badge of variant info 1`] = `
+".a {
+  border-top-left-radius: 50rem;
+}
+.b {
+  border-top-right-radius: 50rem;
+}
+.c {
+  border-bottom-right-radius: 50rem;
+}
+.d {
+  border-bottom-left-radius: 50rem;
+}
+.e {
+  color: #000;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  font-size: 0.75em;
+}
+.h {
+  font-weight: 700;
+}
+.i {
+  line-height: 1;
+}
+.j {
+  padding-top: 0.35em;
+}
+.k {
+  padding-bottom: 0.35em;
+}
+.l {
+  padding-left: 0.65em;
+}
+.m {
+  padding-right: 0.65em;
+}
+.n {
+  text-align: center;
+}
+.o {
+  white-space: nowrap;
+}
+.p {
+  vertical-align: baseline;
+}
+.q:empty {
+  display: none;
+}
+.r {
+  -webkit-background-color: rgba(13, 202, 240, 1);
+  background-color: rgba(13, 202, 240, 1);
+}
+
+
+<span data-testid="badge" class="a b c d e f g h i j k l m n o p q r">2</span>;
+"
+`;
+
+exports[`components/Badge should render a pill badge of variant primary 1`] = `
+".a {
+  border-top-left-radius: 50rem;
+}
+.b {
+  border-top-right-radius: 50rem;
+}
+.c {
+  border-bottom-right-radius: 50rem;
+}
+.d {
+  border-bottom-left-radius: 50rem;
+}
+.e {
+  color: #fff;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  font-size: 0.75em;
+}
+.h {
+  font-weight: 700;
+}
+.i {
+  line-height: 1;
+}
+.j {
+  padding-top: 0.35em;
+}
+.k {
+  padding-bottom: 0.35em;
+}
+.l {
+  padding-left: 0.65em;
+}
+.m {
+  padding-right: 0.65em;
+}
+.n {
+  text-align: center;
+}
+.o {
+  white-space: nowrap;
+}
+.p {
+  vertical-align: baseline;
+}
+.q:empty {
+  display: none;
+}
+.r {
+  -webkit-background-color: rgba(13, 110, 253, 1);
+  background-color: rgba(13, 110, 253, 1);
+}
+
+
+<span data-testid="badge" class="a b c d e f g h i j k l m n o p q r">2</span>;
+"
+`;
+
+exports[`components/Badge should render a pill badge of variant secondary 1`] = `
+".a {
+  border-top-left-radius: 50rem;
+}
+.b {
+  border-top-right-radius: 50rem;
+}
+.c {
+  border-bottom-right-radius: 50rem;
+}
+.d {
+  border-bottom-left-radius: 50rem;
+}
+.e {
+  color: #fff;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  font-size: 0.75em;
+}
+.h {
+  font-weight: 700;
+}
+.i {
+  line-height: 1;
+}
+.j {
+  padding-top: 0.35em;
+}
+.k {
+  padding-bottom: 0.35em;
+}
+.l {
+  padding-left: 0.65em;
+}
+.m {
+  padding-right: 0.65em;
+}
+.n {
+  text-align: center;
+}
+.o {
+  white-space: nowrap;
+}
+.p {
+  vertical-align: baseline;
+}
+.q:empty {
+  display: none;
+}
+.r {
+  -webkit-background-color: rgba(108, 117, 125, 1);
+  background-color: rgba(108, 117, 125, 1);
+}
+
+
+<span data-testid="badge" class="a b c d e f g h i j k l m n o p q r">2</span>;
+"
+`;
+
+exports[`components/Badge should render a pill badge of variant success 1`] = `
+".a {
+  border-top-left-radius: 50rem;
+}
+.b {
+  border-top-right-radius: 50rem;
+}
+.c {
+  border-bottom-right-radius: 50rem;
+}
+.d {
+  border-bottom-left-radius: 50rem;
+}
+.e {
+  color: #fff;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  font-size: 0.75em;
+}
+.h {
+  font-weight: 700;
+}
+.i {
+  line-height: 1;
+}
+.j {
+  padding-top: 0.35em;
+}
+.k {
+  padding-bottom: 0.35em;
+}
+.l {
+  padding-left: 0.65em;
+}
+.m {
+  padding-right: 0.65em;
+}
+.n {
+  text-align: center;
+}
+.o {
+  white-space: nowrap;
+}
+.p {
+  vertical-align: baseline;
+}
+.q:empty {
+  display: none;
+}
+.r {
+  -webkit-background-color: rgba(25, 135, 84, 1);
+  background-color: rgba(25, 135, 84, 1);
+}
+
+
+<span data-testid="badge" class="a b c d e f g h i j k l m n o p q r">2</span>;
+"
+`;
+
+exports[`components/Badge should render a pill badge of variant warning 1`] = `
+".a {
+  border-top-left-radius: 50rem;
+}
+.b {
+  border-top-right-radius: 50rem;
+}
+.c {
+  border-bottom-right-radius: 50rem;
+}
+.d {
+  border-bottom-left-radius: 50rem;
+}
+.e {
+  color: #000;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  font-size: 0.75em;
+}
+.h {
+  font-weight: 700;
+}
+.i {
+  line-height: 1;
+}
+.j {
+  padding-top: 0.35em;
+}
+.k {
+  padding-bottom: 0.35em;
+}
+.l {
+  padding-left: 0.65em;
+}
+.m {
+  padding-right: 0.65em;
+}
+.n {
+  text-align: center;
+}
+.o {
+  white-space: nowrap;
+}
+.p {
+  vertical-align: baseline;
+}
+.q:empty {
+  display: none;
+}
+.r {
+  -webkit-background-color: rgba(255, 193, 7, 1);
+  background-color: rgba(255, 193, 7, 1);
+}
+
+
+<span data-testid="badge" class="a b c d e f g h i j k l m n o p q r">2</span>;
+"
+`;
+
+exports[`components/Badge should render a positioned badge with a Button 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #333;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.ai:disabled {
+  color: #333;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #ccc;
+}
+.ap:disabled {
+  border-right-color: #ccc;
+}
+.aq:disabled {
+  border-bottom-color: #ccc;
+}
+.ar:disabled {
+  border-left-color: #ccc;
+}
+.bg {
+  position: relative;
+}
+.bh {
+  border-top-width: 1px;
+}
+.bi {
+  border-right-width: 1px;
+}
+.bj {
+  border-bottom-width: 1px;
+}
+.bk {
+  border-left-width: 1px;
+}
+.bl {
+  border-top-style: solid;
+}
+.bm {
+  border-right-style: solid;
+}
+.bn {
+  border-bottom-style: solid;
+}
+.bo {
+  border-left-style: solid;
+}
+.bp {
+  border-top-color: #ccc;
+}
+.bq {
+  border-right-color: #ccc;
+}
+.br {
+  border-bottom-color: #ccc;
+}
+.bs {
+  border-left-color: #ccc;
+}
+.bt {
+  border-top-left-radius: 50rem;
+}
+.bu {
+  border-top-right-radius: 50rem;
+}
+.bv {
+  border-bottom-right-radius: 50rem;
+}
+.bw {
+  border-bottom-left-radius: 50rem;
+}
+.bx {
+  color: #fff;
+}
+.by {
+  font-size: 0.75em;
+}
+.bz {
+  font-weight: 700;
+}
+.ca {
+  line-height: 1;
+}
+.cb {
+  padding-top: 0.35em;
+}
+.cc {
+  padding-bottom: 0.35em;
+}
+.cd {
+  padding-left: 0.65em;
+}
+.ce {
+  padding-right: 0.65em;
+}
+.cf {
+  vertical-align: baseline;
+}
+.cg:empty {
+  display: none;
+}
+.ch {
+  -webkit-background-color: rgba(220, 53, 69, 1);
+  background-color: rgba(220, 53, 69, 1);
+}
+.ci {
+  left: 100%;
+}
+.cj {
+  top: 0%;
+}
+.ck {
+  position: absolute;
+}
+.cl {
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.ba:hover {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.bb:hover {
+  color: #333;
+}
+.bc:hover {
+  border-top-color: #adadad;
+}
+.bd:hover {
+  border-right-color: #adadad;
+}
+.be:hover {
+  border-bottom-color: #adadad;
+}
+.bf:hover {
+  border-left-color: #adadad;
+}
+.as:focus-visible {
+  color: #333;
+}
+.at:focus-visible {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #adadad;
+}
+.ax:focus-visible {
+  border-right-color: #adadad;
+}
+.ay:focus-visible {
+  border-bottom-color: #adadad;
+}
+.az:focus-visible {
+  border-left-color: #adadad;
+}
+.w:active {
+  color: #333;
+}
+.x:active {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #adadad;
+}
+.ae:active {
+  border-right-color: #adadad;
+}
+.af:active {
+  border-bottom-color: #adadad;
+}
+.ag:active {
+  border-left-color: #adadad;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Here<span
+    data-testid="badge"
+    class="bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl m r t"
+    >2</span
+  ></button
+>;
+"
+`;
+
+exports[`components/Badge should render atomic styles 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  color: #fff;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  font-size: 0.75em;
+}
+.h {
+  font-weight: 700;
+}
+.i {
+  line-height: 1;
+}
+.j {
+  padding-top: 0.35em;
+}
+.k {
+  padding-bottom: 0.35em;
+}
+.l {
+  padding-left: 0.65em;
+}
+.m {
+  padding-right: 0.65em;
+}
+.n {
+  text-align: center;
+}
+.o {
+  white-space: nowrap;
+}
+.p {
+  vertical-align: baseline;
+}
+.q:empty {
+  display: none;
+}
+.r {
+  -webkit-background-color: rgba(108, 117, 125, 1);
+  background-color: rgba(108, 117, 125, 1);
+}
+
+
+<span data-testid="badge" class="a b c d e f g h i j k l m n o p q r">2</span>;
+"
+`;
+
+exports[`components/Badge should render atomic styles with a variant: danger 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  color: #fff;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  font-size: 0.75em;
+}
+.h {
+  font-weight: 700;
+}
+.i {
+  line-height: 1;
+}
+.j {
+  padding-top: 0.35em;
+}
+.k {
+  padding-bottom: 0.35em;
+}
+.l {
+  padding-left: 0.65em;
+}
+.m {
+  padding-right: 0.65em;
+}
+.n {
+  text-align: center;
+}
+.o {
+  white-space: nowrap;
+}
+.p {
+  vertical-align: baseline;
+}
+.q:empty {
+  display: none;
+}
+.r {
+  -webkit-background-color: rgba(220, 53, 69, 1);
+  background-color: rgba(220, 53, 69, 1);
+}
+
+
+<span data-testid="badge" class="a b c d e f g h i j k l m n o p q r">2</span>;
+"
+`;
+
+exports[`components/Badge should render atomic styles with a variant: info 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  color: #000;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  font-size: 0.75em;
+}
+.h {
+  font-weight: 700;
+}
+.i {
+  line-height: 1;
+}
+.j {
+  padding-top: 0.35em;
+}
+.k {
+  padding-bottom: 0.35em;
+}
+.l {
+  padding-left: 0.65em;
+}
+.m {
+  padding-right: 0.65em;
+}
+.n {
+  text-align: center;
+}
+.o {
+  white-space: nowrap;
+}
+.p {
+  vertical-align: baseline;
+}
+.q:empty {
+  display: none;
+}
+.r {
+  -webkit-background-color: rgba(13, 202, 240, 1);
+  background-color: rgba(13, 202, 240, 1);
+}
+
+
+<span data-testid="badge" class="a b c d e f g h i j k l m n o p q r">2</span>;
+"
+`;
+
+exports[`components/Badge should render atomic styles with a variant: primary 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  color: #fff;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  font-size: 0.75em;
+}
+.h {
+  font-weight: 700;
+}
+.i {
+  line-height: 1;
+}
+.j {
+  padding-top: 0.35em;
+}
+.k {
+  padding-bottom: 0.35em;
+}
+.l {
+  padding-left: 0.65em;
+}
+.m {
+  padding-right: 0.65em;
+}
+.n {
+  text-align: center;
+}
+.o {
+  white-space: nowrap;
+}
+.p {
+  vertical-align: baseline;
+}
+.q:empty {
+  display: none;
+}
+.r {
+  -webkit-background-color: rgba(13, 110, 253, 1);
+  background-color: rgba(13, 110, 253, 1);
+}
+
+
+<span data-testid="badge" class="a b c d e f g h i j k l m n o p q r">2</span>;
+"
+`;
+
+exports[`components/Badge should render atomic styles with a variant: secondary 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  color: #fff;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  font-size: 0.75em;
+}
+.h {
+  font-weight: 700;
+}
+.i {
+  line-height: 1;
+}
+.j {
+  padding-top: 0.35em;
+}
+.k {
+  padding-bottom: 0.35em;
+}
+.l {
+  padding-left: 0.65em;
+}
+.m {
+  padding-right: 0.65em;
+}
+.n {
+  text-align: center;
+}
+.o {
+  white-space: nowrap;
+}
+.p {
+  vertical-align: baseline;
+}
+.q:empty {
+  display: none;
+}
+.r {
+  -webkit-background-color: rgba(108, 117, 125, 1);
+  background-color: rgba(108, 117, 125, 1);
+}
+
+
+<span data-testid="badge" class="a b c d e f g h i j k l m n o p q r">2</span>;
+"
+`;
+
+exports[`components/Badge should render atomic styles with a variant: success 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  color: #fff;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  font-size: 0.75em;
+}
+.h {
+  font-weight: 700;
+}
+.i {
+  line-height: 1;
+}
+.j {
+  padding-top: 0.35em;
+}
+.k {
+  padding-bottom: 0.35em;
+}
+.l {
+  padding-left: 0.65em;
+}
+.m {
+  padding-right: 0.65em;
+}
+.n {
+  text-align: center;
+}
+.o {
+  white-space: nowrap;
+}
+.p {
+  vertical-align: baseline;
+}
+.q:empty {
+  display: none;
+}
+.r {
+  -webkit-background-color: rgba(25, 135, 84, 1);
+  background-color: rgba(25, 135, 84, 1);
+}
+
+
+<span data-testid="badge" class="a b c d e f g h i j k l m n o p q r">2</span>;
+"
+`;
+
+exports[`components/Badge should render atomic styles with a variant: warning 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  color: #000;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  font-size: 0.75em;
+}
+.h {
+  font-weight: 700;
+}
+.i {
+  line-height: 1;
+}
+.j {
+  padding-top: 0.35em;
+}
+.k {
+  padding-bottom: 0.35em;
+}
+.l {
+  padding-left: 0.65em;
+}
+.m {
+  padding-right: 0.65em;
+}
+.n {
+  text-align: center;
+}
+.o {
+  white-space: nowrap;
+}
+.p {
+  vertical-align: baseline;
+}
+.q:empty {
+  display: none;
+}
+.r {
+  -webkit-background-color: rgba(255, 193, 7, 1);
+  background-color: rgba(255, 193, 7, 1);
+}
+
+
+<span data-testid="badge" class="a b c d e f g h i j k l m n o p q r">2</span>;
+"
+`;

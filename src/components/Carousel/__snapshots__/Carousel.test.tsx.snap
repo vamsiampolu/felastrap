@@ -1,0 +1,3446 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Carousel/Carousel should move to previous item when its indicator is clicked 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  position: absolute;
+}
+.c {
+  right: 0;
+}
+.d {
+  bottom: 0;
+}
+.e {
+  left: 0;
+}
+.f {
+  z-index: 2;
+}
+.g {
+  display: flex;
+}
+.h {
+  justify-content: center;
+}
+.i {
+  margin-right: 15%;
+}
+.j {
+  margin-bottom: 1rem;
+}
+.k {
+  margin-left: 15%;
+}
+.l {
+  padding-top: 0;
+}
+.m {
+  padding-right: 0;
+}
+.n {
+  padding-bottom: 0;
+}
+.o {
+  padding-left: 0;
+}
+.p {
+  box-sizing: content-box;
+}
+.q {
+  width: 30px;
+}
+.r {
+  height: 3px;
+}
+.s {
+  margin-right: 3px;
+}
+.t {
+  margin-left: 3px;
+}
+.u {
+  text-indent: -999px;
+}
+.v {
+  cursor: pointer;
+}
+.w {
+  background-color: #fff;
+}
+.x {
+  background-clip: padding-box;
+}
+.y {
+  opacity: 1;
+}
+.af {
+  transition-property: opacity;
+}
+.ag {
+  transition-duration: 0.6s;
+}
+.ah {
+  transition-delay: ease;
+}
+.ai {
+  transition-timing-function: ease;
+}
+.aj {
+  border-bottom-width: 10px;
+}
+.ak {
+  border-bottom-style: solid;
+}
+.al {
+  border-bottom-color: transparent;
+}
+.am {
+  border-top-width: 10px;
+}
+.an {
+  border-top-style: solid;
+}
+.ao {
+  border-top-color: transparent;
+}
+.ap {
+  border-right-width: 0;
+}
+.aq {
+  border-left-width: 0;
+}
+.ar {
+  flex-grow: 0;
+}
+.as {
+  flex-shrink: 1;
+}
+.at {
+  flex-basis: auto;
+}
+.au {
+  border-top-left-radius: 4px;
+}
+.av {
+  border-top-right-radius: 0;
+}
+.aw {
+  border-bottom-right-radius: 0;
+}
+.ax {
+  border-bottom-left-radius: 4px;
+}
+.ay {
+  padding-top: 6px;
+}
+.az {
+  padding-bottom: 6px;
+}
+.ba {
+  padding-left: 12px;
+}
+.bb {
+  padding-right: 12px;
+}
+.bc {
+  background-image: none;
+}
+.bd {
+  color: #333;
+}
+.be {
+  display: inline-block;
+}
+.bf {
+  font-size: 14px;
+}
+.bg {
+  font-weight: 400;
+}
+.bh {
+  line-height: 1.42857143;
+}
+.bi {
+  margin-bottom: 0;
+}
+.bj {
+  text-align: center;
+}
+.bk {
+  touch-action: manipulation;
+}
+.bl {
+  white-space: nowrap;
+}
+.bm {
+  vertical-align: middle;
+}
+.bn {
+  user-select: none;
+}
+.bx:disabled {
+  background-color: #fff;
+}
+.by:disabled {
+  color: #333;
+}
+.bz:disabled {
+  box-shadow: none;
+}
+.ca:disabled {
+  cursor: not-allowed;
+}
+.cb:disabled {
+  filter: alpha(opacity=65);
+}
+.cc:disabled {
+  opacity: 0.65;
+}
+.cd:disabled {
+  pointer-events: none;
+}
+.ce:disabled {
+  border-top-color: #ccc;
+}
+.cf:disabled {
+  border-right-color: #ccc;
+}
+.cg:disabled {
+  border-bottom-color: #ccc;
+}
+.ch:disabled {
+  border-left-color: #ccc;
+}
+.cw {
+  border-top-width: 1px;
+}
+.cx {
+  border-right-width: 1px;
+}
+.cy {
+  border-bottom-width: 1px;
+}
+.cz {
+  border-left-width: 1px;
+}
+.da {
+  border-right-style: solid;
+}
+.db {
+  border-left-style: solid;
+}
+.dc {
+  border-top-color: #ccc;
+}
+.dd {
+  border-right-color: #ccc;
+}
+.de {
+  border-bottom-color: #ccc;
+}
+.df {
+  border-left-color: #ccc;
+}
+.dg {
+  opacity: 0.5;
+}
+.dh {
+  width: 100%;
+}
+.di {
+  overflow-x: hidden;
+}
+.dj {
+  overflow-y: hidden;
+}
+.dk {
+  display: block;
+}
+.dl {
+  float: left;
+}
+.dm {
+  margin-right: -100%;
+}
+.dn {
+  backface-visibility: hidden;
+}
+.do {
+  transition-property: transform;
+}
+.dp {
+  transition-delay: ease-in-out;
+}
+.dq {
+  display: none;
+}
+.dr {
+  top: 0;
+}
+.ds {
+  z-index: 1;
+}
+.dt {
+  align-items: center;
+}
+.du {
+  width: 15%;
+}
+.dv {
+  color: #fff;
+}
+.dw {
+  background: none;
+}
+.ef {
+  transition-duration: 0.15s;
+}
+.eg {
+  border-top-width: 0;
+}
+.eh {
+  border-bottom-width: 0;
+}
+.ei {
+  width: 2rem;
+}
+.ej {
+  height: 2rem;
+}
+.ek {
+  background-repeat: no-repeat;
+}
+.el {
+  background-position: 50%;
+}
+.em {
+  background-size: 100% 100%;
+}
+.en {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.eo {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+.cq:hover {
+  background-color: #e6e6e6;
+}
+.cr:hover {
+  color: #333;
+}
+.cs:hover {
+  border-top-color: #adadad;
+}
+.ct:hover {
+  border-right-color: #adadad;
+}
+.cu:hover {
+  border-bottom-color: #adadad;
+}
+.cv:hover {
+  border-left-color: #adadad;
+}
+.dx:hover {
+  color: #fff;
+}
+.dy:hover {
+  opacity: 0.9;
+}
+.dz:hover {
+  outline-width: 0;
+}
+.ea:hover {
+  text-decoration-line: none;
+}
+.ci:focus-visible {
+  color: #333;
+}
+.cj:focus-visible {
+  background-color: #e6e6e6;
+}
+.ck:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.cl:focus-visible {
+  outline-width: 0;
+}
+.cm:focus-visible {
+  border-top-color: #adadad;
+}
+.cn:focus-visible {
+  border-right-color: #adadad;
+}
+.co:focus-visible {
+  border-bottom-color: #adadad;
+}
+.cp:focus-visible {
+  border-left-color: #adadad;
+}
+.eb:focus {
+  color: #fff;
+}
+.ec:focus {
+  opacity: 0.9;
+}
+.ed:focus {
+  outline-width: 0;
+}
+.ee:focus {
+  text-decoration-line: none;
+}
+.bo:active {
+  color: #333;
+}
+.bp:active {
+  background-color: #e6e6e6;
+}
+.bq:active {
+  background-image: none;
+}
+.br:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.bs:active {
+  outline-width: 0;
+}
+.bt:active {
+  border-top-color: #adadad;
+}
+.bu:active {
+  border-right-color: #adadad;
+}
+.bv:active {
+  border-bottom-color: #adadad;
+}
+.bw:active {
+  border-left-color: #adadad;
+}
+@media (prefers-reduced-motion: reduce) {
+  .z {
+    transition-property: none;
+  }
+  .ab {
+    transition-duration: 0s;
+  }
+  .ac {
+    transition-delay: 0s;
+  }
+  .ae {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="carousel" class="a carousel">
+  <div
+    data-testid="carousel-indicators"
+    class="b c d e f g h i j k l m n o carousel-indicators"
+  >
+    <button
+      data-testid="carousel-indicator"
+      class="ak an au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df v w ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at l m n o p q r s t u v w x y z carousel-indicator"
+      type="button"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button
+    ><button
+      data-testid="carousel-indicator"
+      class="ak an au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df v w ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at dg l m n o p q r s t u v w x z carousel-indicator"
+      type="button"
+      aria-current="false"
+      aria-label="Slide 2"
+    ></button
+    ><button
+      data-testid="carousel-indicator"
+      class="ak an au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df v w ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at dg l m n o p q r s t u v w x z carousel-indicator"
+      type="button"
+      aria-current="false"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+  <div data-testid="carousel-items" class="a dh di dj carousel-inner">
+    <div
+      data-testid="carousel-item"
+      class="a ab ac ae ag ai dh dk dl dm dn do dp z"
+    >
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/picsum/450/300"
+        alt="Placeholder Image 1"
+      />
+    </div>
+    <div
+      data-testid="carousel-item"
+      class="a ab ac ae ag ai dh dl dm dn do dp dq z"
+    >
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/charmed/450/300"
+        alt="Placeholder Image 2"
+      />
+    </div>
+    <div
+      data-testid="carousel-item"
+      class="a ab ac ae ag ai dh dl dm dn do dp dq z"
+    >
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/crazed/450/300"
+        alt="Placeholder Image 3"
+      />
+    </div>
+  </div>
+  <button
+    data-testid="carousel-control"
+    class="ak an au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df v w ab ac ae af ah ai ap aq b bj c d dg dr ds dt du dv dw dx dy dz ea eb ec ed ee ef eg eh g h l m n o z carousel-control-next"
+  >
+    <span
+      data-testid="carousel-icon"
+      class="be ei ej ek el em en carousel-control-next-icon"
+      aria-hidden="true"
+    ></span
+    ><span style="visibility: hidden" class="visually-hidden"
+      >Next</span
+    ></button
+  ><button
+    data-testid="carousel-control"
+    class="ak an au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df v w ab ac ae af ah ai ap aq b bj d dg dr ds dt du dv dw dx dy dz e ea eb ec ed ee ef eg eh g h l m n o z carousel-control-prev"
+    disabled=""
+  >
+    <span
+      data-testid="carousel-icon"
+      class="be ei ej ek el em eo carousel-control-prev-icon"
+      aria-hidden="true"
+    ></span
+    ><span style="visibility: hidden" class="visually-hidden">Previous</span>
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Carousel/Carousel should render a Carousel 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  width: 100%;
+}
+.c {
+  overflow-x: hidden;
+}
+.d {
+  overflow-y: hidden;
+}
+.e {
+  display: block;
+}
+.f {
+  float: left;
+}
+.g {
+  margin-right: -100%;
+}
+.h {
+  backface-visibility: hidden;
+}
+.m {
+  transition-property: transform;
+}
+.n {
+  transition-duration: 0.6s;
+}
+.o {
+  transition-delay: ease-in-out;
+}
+.p {
+  transition-timing-function: ease;
+}
+.q {
+  display: none;
+}
+.r {
+  position: absolute;
+}
+.s {
+  top: 0;
+}
+.t {
+  bottom: 0;
+}
+.u {
+  z-index: 1;
+}
+.v {
+  display: flex;
+}
+.w {
+  align-items: center;
+}
+.x {
+  justify-content: center;
+}
+.y {
+  width: 15%;
+}
+.z {
+  color: #fff;
+}
+.ab {
+  text-align: center;
+}
+.ac {
+  background: none;
+}
+.ae {
+  opacity: 0.5;
+}
+.an {
+  right: 0;
+}
+.ao {
+  transition-property: opacity;
+}
+.ap {
+  transition-duration: 0.15s;
+}
+.aq {
+  transition-delay: ease;
+}
+.ar {
+  border-top-width: 0;
+}
+.as {
+  border-right-width: 0;
+}
+.at {
+  border-bottom-width: 0;
+}
+.au {
+  border-left-width: 0;
+}
+.av {
+  padding-top: 0;
+}
+.aw {
+  padding-right: 0;
+}
+.ax {
+  padding-bottom: 0;
+}
+.ay {
+  padding-left: 0;
+}
+.az {
+  border-top-left-radius: 4px;
+}
+.ba {
+  border-top-right-radius: 0;
+}
+.bb {
+  border-bottom-right-radius: 0;
+}
+.bc {
+  border-bottom-left-radius: 4px;
+}
+.bd {
+  padding-top: 6px;
+}
+.be {
+  padding-bottom: 6px;
+}
+.bf {
+  padding-left: 12px;
+}
+.bg {
+  padding-right: 12px;
+}
+.bh {
+  background-color: #fff;
+}
+.bi {
+  background-image: none;
+}
+.bj {
+  color: #333;
+}
+.bk {
+  cursor: pointer;
+}
+.bl {
+  display: inline-block;
+}
+.bm {
+  font-size: 14px;
+}
+.bn {
+  font-weight: 400;
+}
+.bo {
+  line-height: 1.42857143;
+}
+.bp {
+  margin-bottom: 0;
+}
+.bq {
+  touch-action: manipulation;
+}
+.br {
+  white-space: nowrap;
+}
+.bs {
+  vertical-align: middle;
+}
+.bt {
+  user-select: none;
+}
+.cd:disabled {
+  background-color: #fff;
+}
+.ce:disabled {
+  color: #333;
+}
+.cf:disabled {
+  box-shadow: none;
+}
+.cg:disabled {
+  cursor: not-allowed;
+}
+.ch:disabled {
+  filter: alpha(opacity=65);
+}
+.ci:disabled {
+  opacity: 0.65;
+}
+.cj:disabled {
+  pointer-events: none;
+}
+.ck:disabled {
+  border-top-color: #ccc;
+}
+.cl:disabled {
+  border-right-color: #ccc;
+}
+.cm:disabled {
+  border-bottom-color: #ccc;
+}
+.cn:disabled {
+  border-left-color: #ccc;
+}
+.dc {
+  border-top-width: 1px;
+}
+.dd {
+  border-right-width: 1px;
+}
+.de {
+  border-bottom-width: 1px;
+}
+.df {
+  border-left-width: 1px;
+}
+.dg {
+  border-top-style: solid;
+}
+.dh {
+  border-right-style: solid;
+}
+.di {
+  border-bottom-style: solid;
+}
+.dj {
+  border-left-style: solid;
+}
+.dk {
+  border-top-color: #ccc;
+}
+.dl {
+  border-right-color: #ccc;
+}
+.dm {
+  border-bottom-color: #ccc;
+}
+.dn {
+  border-left-color: #ccc;
+}
+.do {
+  width: 2rem;
+}
+.dp {
+  height: 2rem;
+}
+.dq {
+  background-repeat: no-repeat;
+}
+.dr {
+  background-position: 50%;
+}
+.ds {
+  background-size: 100% 100%;
+}
+.dt {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.du {
+  left: 0;
+}
+.dv {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+.af:hover {
+  color: #fff;
+}
+.ag:hover {
+  opacity: 0.9;
+}
+.ah:hover {
+  outline-width: 0;
+}
+.ai:hover {
+  text-decoration-line: none;
+}
+.cw:hover {
+  background-color: #e6e6e6;
+}
+.cx:hover {
+  color: #333;
+}
+.cy:hover {
+  border-top-color: #adadad;
+}
+.cz:hover {
+  border-right-color: #adadad;
+}
+.da:hover {
+  border-bottom-color: #adadad;
+}
+.db:hover {
+  border-left-color: #adadad;
+}
+.aj:focus {
+  color: #fff;
+}
+.ak:focus {
+  opacity: 0.9;
+}
+.al:focus {
+  outline-width: 0;
+}
+.am:focus {
+  text-decoration-line: none;
+}
+.co:focus-visible {
+  color: #333;
+}
+.cp:focus-visible {
+  background-color: #e6e6e6;
+}
+.cq:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.cr:focus-visible {
+  outline-width: 0;
+}
+.cs:focus-visible {
+  border-top-color: #adadad;
+}
+.ct:focus-visible {
+  border-right-color: #adadad;
+}
+.cu:focus-visible {
+  border-bottom-color: #adadad;
+}
+.cv:focus-visible {
+  border-left-color: #adadad;
+}
+.bu:active {
+  color: #333;
+}
+.bv:active {
+  background-color: #e6e6e6;
+}
+.bw:active {
+  background-image: none;
+}
+.bx:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.by:active {
+  outline-width: 0;
+}
+.bz:active {
+  border-top-color: #adadad;
+}
+.ca:active {
+  border-right-color: #adadad;
+}
+.cb:active {
+  border-bottom-color: #adadad;
+}
+.cc:active {
+  border-left-color: #adadad;
+}
+@media (prefers-reduced-motion: reduce) {
+  .i {
+    transition-property: none;
+  }
+  .j {
+    transition-duration: 0s;
+  }
+  .k {
+    transition-delay: 0s;
+  }
+  .l {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="carousel" class="a carousel">
+  <div data-testid="carousel-items" class="a b c d carousel-inner">
+    <div data-testid="carousel-item" class="a b e f g h i j k l m n o p">
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/picsum/450/300"
+        alt="Placeholder Image 1"
+      />
+    </div>
+    <div data-testid="carousel-item" class="a b f g h i j k l m n o p q">
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/charmed/450/300"
+        alt="Placeholder Image 2"
+      />
+    </div>
+    <div data-testid="carousel-item" class="a b f g h i j k l m n o p q">
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/crazed/450/300"
+        alt="Placeholder Image 3"
+      />
+    </div>
+  </div>
+  <button
+    data-testid="carousel-control"
+    class="ab az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di dj dk dl dm dn ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay i j k l p r s t u v w x y z carousel-control-next"
+  >
+    <span
+      data-testid="carousel-icon"
+      class="bl do dp dq dr ds dt carousel-control-next-icon"
+      aria-hidden="true"
+    ></span
+    ><span style="visibility: hidden" class="visually-hidden"
+      >Next</span
+    ></button
+  ><button
+    data-testid="carousel-control"
+    class="ab az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di dj dk dl dm dn ab ac ae af ag ah ai aj ak al am ao ap aq ar as at au av aw ax ay du i j k l p r s t u v w x y z carousel-control-prev"
+    disabled=""
+  >
+    <span
+      data-testid="carousel-icon"
+      class="bl do dp dq dr ds dv carousel-control-prev-icon"
+      aria-hidden="true"
+    ></span
+    ><span style="visibility: hidden" class="visually-hidden">Previous</span>
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Carousel/Carousel should render a Carousel with captions 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  position: absolute;
+}
+.c {
+  right: 0;
+}
+.d {
+  bottom: 0;
+}
+.e {
+  left: 0;
+}
+.f {
+  z-index: 2;
+}
+.g {
+  display: flex;
+}
+.h {
+  justify-content: center;
+}
+.i {
+  margin-right: 15%;
+}
+.j {
+  margin-bottom: 1rem;
+}
+.k {
+  margin-left: 15%;
+}
+.l {
+  padding-top: 0;
+}
+.m {
+  padding-right: 0;
+}
+.n {
+  padding-bottom: 0;
+}
+.o {
+  padding-left: 0;
+}
+.p {
+  box-sizing: content-box;
+}
+.q {
+  width: 30px;
+}
+.r {
+  height: 3px;
+}
+.s {
+  margin-right: 3px;
+}
+.t {
+  margin-left: 3px;
+}
+.u {
+  text-indent: -999px;
+}
+.v {
+  cursor: pointer;
+}
+.w {
+  background-color: #fff;
+}
+.x {
+  background-clip: padding-box;
+}
+.y {
+  opacity: 1;
+}
+.af {
+  transition-property: opacity;
+}
+.ag {
+  transition-duration: 0.6s;
+}
+.ah {
+  transition-delay: ease;
+}
+.ai {
+  transition-timing-function: ease;
+}
+.aj {
+  border-bottom-width: 10px;
+}
+.ak {
+  border-bottom-style: solid;
+}
+.al {
+  border-bottom-color: transparent;
+}
+.am {
+  border-top-width: 10px;
+}
+.an {
+  border-top-style: solid;
+}
+.ao {
+  border-top-color: transparent;
+}
+.ap {
+  border-right-width: 0;
+}
+.aq {
+  border-left-width: 0;
+}
+.ar {
+  flex-grow: 0;
+}
+.as {
+  flex-shrink: 1;
+}
+.at {
+  flex-basis: auto;
+}
+.au {
+  border-top-left-radius: 4px;
+}
+.av {
+  border-top-right-radius: 0;
+}
+.aw {
+  border-bottom-right-radius: 0;
+}
+.ax {
+  border-bottom-left-radius: 4px;
+}
+.ay {
+  padding-top: 6px;
+}
+.az {
+  padding-bottom: 6px;
+}
+.ba {
+  padding-left: 12px;
+}
+.bb {
+  padding-right: 12px;
+}
+.bc {
+  background-image: none;
+}
+.bd {
+  color: #333;
+}
+.be {
+  display: inline-block;
+}
+.bf {
+  font-size: 14px;
+}
+.bg {
+  font-weight: 400;
+}
+.bh {
+  line-height: 1.42857143;
+}
+.bi {
+  margin-bottom: 0;
+}
+.bj {
+  text-align: center;
+}
+.bk {
+  touch-action: manipulation;
+}
+.bl {
+  white-space: nowrap;
+}
+.bm {
+  vertical-align: middle;
+}
+.bn {
+  user-select: none;
+}
+.bx:disabled {
+  background-color: #fff;
+}
+.by:disabled {
+  color: #333;
+}
+.bz:disabled {
+  box-shadow: none;
+}
+.ca:disabled {
+  cursor: not-allowed;
+}
+.cb:disabled {
+  filter: alpha(opacity=65);
+}
+.cc:disabled {
+  opacity: 0.65;
+}
+.cd:disabled {
+  pointer-events: none;
+}
+.ce:disabled {
+  border-top-color: #ccc;
+}
+.cf:disabled {
+  border-right-color: #ccc;
+}
+.cg:disabled {
+  border-bottom-color: #ccc;
+}
+.ch:disabled {
+  border-left-color: #ccc;
+}
+.cw {
+  border-top-width: 1px;
+}
+.cx {
+  border-right-width: 1px;
+}
+.cy {
+  border-bottom-width: 1px;
+}
+.cz {
+  border-left-width: 1px;
+}
+.da {
+  border-right-style: solid;
+}
+.db {
+  border-left-style: solid;
+}
+.dc {
+  border-top-color: #ccc;
+}
+.dd {
+  border-right-color: #ccc;
+}
+.de {
+  border-bottom-color: #ccc;
+}
+.df {
+  border-left-color: #ccc;
+}
+.dg {
+  opacity: 0.5;
+}
+.dh {
+  width: 100%;
+}
+.di {
+  overflow-x: hidden;
+}
+.dj {
+  overflow-y: hidden;
+}
+.dk {
+  display: block;
+}
+.dl {
+  float: left;
+}
+.dm {
+  margin-right: -100%;
+}
+.dn {
+  backface-visibility: hidden;
+}
+.do {
+  transition-property: transform;
+}
+.dp {
+  transition-delay: ease-in-out;
+}
+.dq {
+  right: 15%;
+}
+.dr {
+  bottom: 1.25rem;
+}
+.ds {
+  left: 15%;
+}
+.dt {
+  padding-top: 1.25rem;
+}
+.du {
+  padding-bottom: 1.25rem;
+}
+.dv {
+  color: #fff;
+}
+.dy {
+  display: none;
+}
+.dz {
+  top: 0;
+}
+.ea {
+  z-index: 1;
+}
+.eb {
+  align-items: center;
+}
+.ec {
+  width: 15%;
+}
+.ed {
+  background: none;
+}
+.em {
+  transition-duration: 0.15s;
+}
+.en {
+  border-top-width: 0;
+}
+.eo {
+  border-bottom-width: 0;
+}
+.ep {
+  width: 2rem;
+}
+.eq {
+  height: 2rem;
+}
+.er {
+  background-repeat: no-repeat;
+}
+.es {
+  background-position: 50%;
+}
+.et {
+  background-size: 100% 100%;
+}
+.eu {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.ev {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+.cq:hover {
+  background-color: #e6e6e6;
+}
+.cr:hover {
+  color: #333;
+}
+.cs:hover {
+  border-top-color: #adadad;
+}
+.ct:hover {
+  border-right-color: #adadad;
+}
+.cu:hover {
+  border-bottom-color: #adadad;
+}
+.cv:hover {
+  border-left-color: #adadad;
+}
+.ee:hover {
+  color: #fff;
+}
+.ef:hover {
+  opacity: 0.9;
+}
+.eg:hover {
+  outline-width: 0;
+}
+.eh:hover {
+  text-decoration-line: none;
+}
+.ci:focus-visible {
+  color: #333;
+}
+.cj:focus-visible {
+  background-color: #e6e6e6;
+}
+.ck:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.cl:focus-visible {
+  outline-width: 0;
+}
+.cm:focus-visible {
+  border-top-color: #adadad;
+}
+.cn:focus-visible {
+  border-right-color: #adadad;
+}
+.co:focus-visible {
+  border-bottom-color: #adadad;
+}
+.cp:focus-visible {
+  border-left-color: #adadad;
+}
+.ei:focus {
+  color: #fff;
+}
+.ej:focus {
+  opacity: 0.9;
+}
+.ek:focus {
+  outline-width: 0;
+}
+.el:focus {
+  text-decoration-line: none;
+}
+.bo:active {
+  color: #333;
+}
+.bp:active {
+  background-color: #e6e6e6;
+}
+.bq:active {
+  background-image: none;
+}
+.br:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.bs:active {
+  outline-width: 0;
+}
+.bt:active {
+  border-top-color: #adadad;
+}
+.bu:active {
+  border-right-color: #adadad;
+}
+.bv:active {
+  border-bottom-color: #adadad;
+}
+.bw:active {
+  border-left-color: #adadad;
+}
+@media (min-width: 576px) {
+  .dw {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .dx {
+    display: block;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .z {
+    transition-property: none;
+  }
+  .ab {
+    transition-duration: 0s;
+  }
+  .ac {
+    transition-delay: 0s;
+  }
+  .ae {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="carousel" class="a carousel">
+  <div
+    data-testid="carousel-indicators"
+    class="b c d e f g h i j k l m n o carousel-indicators"
+  >
+    <button
+      data-testid="carousel-indicator"
+      class="ak an au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df v w ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at l m n o p q r s t u v w x y z carousel-indicator"
+      type="button"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button
+    ><button
+      data-testid="carousel-indicator"
+      class="ak an au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df v w ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at dg l m n o p q r s t u v w x z carousel-indicator"
+      type="button"
+      aria-current="false"
+      aria-label="Slide 2"
+    ></button
+    ><button
+      data-testid="carousel-indicator"
+      class="ak an au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df v w ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at dg l m n o p q r s t u v w x z carousel-indicator"
+      type="button"
+      aria-current="false"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+  <div data-testid="carousel-items" class="a dh di dj carousel-inner">
+    <div
+      data-testid="carousel-item"
+      class="a ab ac ae ag ai dh dk dl dm dn do dp z"
+    >
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/picsum/450/300"
+        alt="Placeholder Image 1"
+      />
+      <div
+        data-testid="carousel-caption"
+        class="b bj dq dr ds dt du dv dw dx carousel-caption"
+      >
+        <h5>First Image</h5>
+        <p>The first image in the carousel</p>
+      </div>
+    </div>
+    <div
+      data-testid="carousel-item"
+      class="a ab ac ae ag ai dh dl dm dn do dp dy z"
+    >
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/charmed/450/300"
+        alt="Placeholder Image 2"
+      />
+      <div
+        data-testid="carousel-caption"
+        class="b bj dq dr ds dt du dv dw dx carousel-caption"
+      >
+        <h5>Second Image</h5>
+        <p>The second image in the carousel</p>
+      </div>
+    </div>
+    <div
+      data-testid="carousel-item"
+      class="a ab ac ae ag ai dh dl dm dn do dp dy z"
+    >
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/crazed/450/300"
+        alt="Placeholder Image 3"
+      />
+      <div
+        data-testid="carousel-caption"
+        class="b bj dq dr ds dt du dv dw dx carousel-caption"
+      >
+        <h5>Third Image</h5>
+        <p>The third image in the carousel</p>
+      </div>
+    </div>
+  </div>
+  <button
+    data-testid="carousel-control"
+    class="ak an au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df v w ab ac ae af ah ai ap aq b bj c d dg dv dz ea eb ec ed ee ef eg eh ei ej ek el em en eo g h l m n o z carousel-control-next"
+  >
+    <span
+      data-testid="carousel-icon"
+      class="be ep eq er es et eu carousel-control-next-icon"
+      aria-hidden="true"
+    ></span
+    ><span style="visibility: hidden" class="visually-hidden"
+      >Next</span
+    ></button
+  ><button
+    data-testid="carousel-control"
+    class="ak an au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df v w ab ac ae af ah ai ap aq b bj d dg dv dz e ea eb ec ed ee ef eg eh ei ej ek el em en eo g h l m n o z carousel-control-prev"
+    disabled=""
+  >
+    <span
+      data-testid="carousel-icon"
+      class="be ep eq er es et ev carousel-control-prev-icon"
+      aria-hidden="true"
+    ></span
+    ><span style="visibility: hidden" class="visually-hidden">Previous</span>
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Carousel/Carousel should render a Carousel with indicators 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  position: absolute;
+}
+.c {
+  right: 0;
+}
+.d {
+  bottom: 0;
+}
+.e {
+  left: 0;
+}
+.f {
+  z-index: 2;
+}
+.g {
+  display: flex;
+}
+.h {
+  justify-content: center;
+}
+.i {
+  margin-right: 15%;
+}
+.j {
+  margin-bottom: 1rem;
+}
+.k {
+  margin-left: 15%;
+}
+.l {
+  padding-top: 0;
+}
+.m {
+  padding-right: 0;
+}
+.n {
+  padding-bottom: 0;
+}
+.o {
+  padding-left: 0;
+}
+.p {
+  box-sizing: content-box;
+}
+.q {
+  width: 30px;
+}
+.r {
+  height: 3px;
+}
+.s {
+  margin-right: 3px;
+}
+.t {
+  margin-left: 3px;
+}
+.u {
+  text-indent: -999px;
+}
+.v {
+  cursor: pointer;
+}
+.w {
+  background-color: #fff;
+}
+.x {
+  background-clip: padding-box;
+}
+.y {
+  opacity: 1;
+}
+.af {
+  transition-property: opacity;
+}
+.ag {
+  transition-duration: 0.6s;
+}
+.ah {
+  transition-delay: ease;
+}
+.ai {
+  transition-timing-function: ease;
+}
+.aj {
+  border-bottom-width: 10px;
+}
+.ak {
+  border-bottom-style: solid;
+}
+.al {
+  border-bottom-color: transparent;
+}
+.am {
+  border-top-width: 10px;
+}
+.an {
+  border-top-style: solid;
+}
+.ao {
+  border-top-color: transparent;
+}
+.ap {
+  border-right-width: 0;
+}
+.aq {
+  border-left-width: 0;
+}
+.ar {
+  flex-grow: 0;
+}
+.as {
+  flex-shrink: 1;
+}
+.at {
+  flex-basis: auto;
+}
+.au {
+  border-top-left-radius: 4px;
+}
+.av {
+  border-top-right-radius: 0;
+}
+.aw {
+  border-bottom-right-radius: 0;
+}
+.ax {
+  border-bottom-left-radius: 4px;
+}
+.ay {
+  padding-top: 6px;
+}
+.az {
+  padding-bottom: 6px;
+}
+.ba {
+  padding-left: 12px;
+}
+.bb {
+  padding-right: 12px;
+}
+.bc {
+  background-image: none;
+}
+.bd {
+  color: #333;
+}
+.be {
+  display: inline-block;
+}
+.bf {
+  font-size: 14px;
+}
+.bg {
+  font-weight: 400;
+}
+.bh {
+  line-height: 1.42857143;
+}
+.bi {
+  margin-bottom: 0;
+}
+.bj {
+  text-align: center;
+}
+.bk {
+  touch-action: manipulation;
+}
+.bl {
+  white-space: nowrap;
+}
+.bm {
+  vertical-align: middle;
+}
+.bn {
+  user-select: none;
+}
+.bx:disabled {
+  background-color: #fff;
+}
+.by:disabled {
+  color: #333;
+}
+.bz:disabled {
+  box-shadow: none;
+}
+.ca:disabled {
+  cursor: not-allowed;
+}
+.cb:disabled {
+  filter: alpha(opacity=65);
+}
+.cc:disabled {
+  opacity: 0.65;
+}
+.cd:disabled {
+  pointer-events: none;
+}
+.ce:disabled {
+  border-top-color: #ccc;
+}
+.cf:disabled {
+  border-right-color: #ccc;
+}
+.cg:disabled {
+  border-bottom-color: #ccc;
+}
+.ch:disabled {
+  border-left-color: #ccc;
+}
+.cw {
+  border-top-width: 1px;
+}
+.cx {
+  border-right-width: 1px;
+}
+.cy {
+  border-bottom-width: 1px;
+}
+.cz {
+  border-left-width: 1px;
+}
+.da {
+  border-right-style: solid;
+}
+.db {
+  border-left-style: solid;
+}
+.dc {
+  border-top-color: #ccc;
+}
+.dd {
+  border-right-color: #ccc;
+}
+.de {
+  border-bottom-color: #ccc;
+}
+.df {
+  border-left-color: #ccc;
+}
+.dg {
+  opacity: 0.5;
+}
+.dh {
+  width: 100%;
+}
+.di {
+  overflow-x: hidden;
+}
+.dj {
+  overflow-y: hidden;
+}
+.dk {
+  display: block;
+}
+.dl {
+  float: left;
+}
+.dm {
+  margin-right: -100%;
+}
+.dn {
+  backface-visibility: hidden;
+}
+.do {
+  transition-property: transform;
+}
+.dp {
+  transition-delay: ease-in-out;
+}
+.dq {
+  display: none;
+}
+.dr {
+  top: 0;
+}
+.ds {
+  z-index: 1;
+}
+.dt {
+  align-items: center;
+}
+.du {
+  width: 15%;
+}
+.dv {
+  color: #fff;
+}
+.dw {
+  background: none;
+}
+.ef {
+  transition-duration: 0.15s;
+}
+.eg {
+  border-top-width: 0;
+}
+.eh {
+  border-bottom-width: 0;
+}
+.ei {
+  width: 2rem;
+}
+.ej {
+  height: 2rem;
+}
+.ek {
+  background-repeat: no-repeat;
+}
+.el {
+  background-position: 50%;
+}
+.em {
+  background-size: 100% 100%;
+}
+.en {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.eo {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+.cq:hover {
+  background-color: #e6e6e6;
+}
+.cr:hover {
+  color: #333;
+}
+.cs:hover {
+  border-top-color: #adadad;
+}
+.ct:hover {
+  border-right-color: #adadad;
+}
+.cu:hover {
+  border-bottom-color: #adadad;
+}
+.cv:hover {
+  border-left-color: #adadad;
+}
+.dx:hover {
+  color: #fff;
+}
+.dy:hover {
+  opacity: 0.9;
+}
+.dz:hover {
+  outline-width: 0;
+}
+.ea:hover {
+  text-decoration-line: none;
+}
+.ci:focus-visible {
+  color: #333;
+}
+.cj:focus-visible {
+  background-color: #e6e6e6;
+}
+.ck:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.cl:focus-visible {
+  outline-width: 0;
+}
+.cm:focus-visible {
+  border-top-color: #adadad;
+}
+.cn:focus-visible {
+  border-right-color: #adadad;
+}
+.co:focus-visible {
+  border-bottom-color: #adadad;
+}
+.cp:focus-visible {
+  border-left-color: #adadad;
+}
+.eb:focus {
+  color: #fff;
+}
+.ec:focus {
+  opacity: 0.9;
+}
+.ed:focus {
+  outline-width: 0;
+}
+.ee:focus {
+  text-decoration-line: none;
+}
+.bo:active {
+  color: #333;
+}
+.bp:active {
+  background-color: #e6e6e6;
+}
+.bq:active {
+  background-image: none;
+}
+.br:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.bs:active {
+  outline-width: 0;
+}
+.bt:active {
+  border-top-color: #adadad;
+}
+.bu:active {
+  border-right-color: #adadad;
+}
+.bv:active {
+  border-bottom-color: #adadad;
+}
+.bw:active {
+  border-left-color: #adadad;
+}
+@media (prefers-reduced-motion: reduce) {
+  .z {
+    transition-property: none;
+  }
+  .ab {
+    transition-duration: 0s;
+  }
+  .ac {
+    transition-delay: 0s;
+  }
+  .ae {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="carousel" class="a carousel">
+  <div
+    data-testid="carousel-indicators"
+    class="b c d e f g h i j k l m n o carousel-indicators"
+  >
+    <button
+      data-testid="carousel-indicator"
+      class="ak an au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df v w ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at l m n o p q r s t u v w x y z carousel-indicator"
+      type="button"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button
+    ><button
+      data-testid="carousel-indicator"
+      class="ak an au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df v w ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at dg l m n o p q r s t u v w x z carousel-indicator"
+      type="button"
+      aria-current="false"
+      aria-label="Slide 2"
+    ></button
+    ><button
+      data-testid="carousel-indicator"
+      class="ak an au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df v w ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at dg l m n o p q r s t u v w x z carousel-indicator"
+      type="button"
+      aria-current="false"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+  <div data-testid="carousel-items" class="a dh di dj carousel-inner">
+    <div
+      data-testid="carousel-item"
+      class="a ab ac ae ag ai dh dk dl dm dn do dp z"
+    >
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/picsum/450/300"
+        alt="Placeholder Image 1"
+      />
+    </div>
+    <div
+      data-testid="carousel-item"
+      class="a ab ac ae ag ai dh dl dm dn do dp dq z"
+    >
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/charmed/450/300"
+        alt="Placeholder Image 2"
+      />
+    </div>
+    <div
+      data-testid="carousel-item"
+      class="a ab ac ae ag ai dh dl dm dn do dp dq z"
+    >
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/crazed/450/300"
+        alt="Placeholder Image 3"
+      />
+    </div>
+  </div>
+  <button
+    data-testid="carousel-control"
+    class="ak an au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df v w ab ac ae af ah ai ap aq b bj c d dg dr ds dt du dv dw dx dy dz ea eb ec ed ee ef eg eh g h l m n o z carousel-control-next"
+  >
+    <span
+      data-testid="carousel-icon"
+      class="be ei ej ek el em en carousel-control-next-icon"
+      aria-hidden="true"
+    ></span
+    ><span style="visibility: hidden" class="visually-hidden"
+      >Next</span
+    ></button
+  ><button
+    data-testid="carousel-control"
+    class="ak an au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df v w ab ac ae af ah ai ap aq b bj d dg dr ds dt du dv dw dx dy dz e ea eb ec ed ee ef eg eh g h l m n o z carousel-control-prev"
+    disabled=""
+  >
+    <span
+      data-testid="carousel-icon"
+      class="be ei ej ek el em eo carousel-control-prev-icon"
+      aria-hidden="true"
+    ></span
+    ><span style="visibility: hidden" class="visually-hidden">Previous</span>
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Carousel/Carousel should show the next item when next control is clicked 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  width: 100%;
+}
+.c {
+  overflow-x: hidden;
+}
+.d {
+  overflow-y: hidden;
+}
+.e {
+  display: block;
+}
+.f {
+  float: left;
+}
+.g {
+  margin-right: -100%;
+}
+.h {
+  backface-visibility: hidden;
+}
+.m {
+  transition-property: transform;
+}
+.n {
+  transition-duration: 0.6s;
+}
+.o {
+  transition-delay: ease-in-out;
+}
+.p {
+  transition-timing-function: ease;
+}
+.q {
+  display: none;
+}
+.r {
+  position: absolute;
+}
+.s {
+  top: 0;
+}
+.t {
+  bottom: 0;
+}
+.u {
+  z-index: 1;
+}
+.v {
+  display: flex;
+}
+.w {
+  align-items: center;
+}
+.x {
+  justify-content: center;
+}
+.y {
+  width: 15%;
+}
+.z {
+  color: #fff;
+}
+.ab {
+  text-align: center;
+}
+.ac {
+  background: none;
+}
+.ae {
+  opacity: 0.5;
+}
+.an {
+  right: 0;
+}
+.ao {
+  transition-property: opacity;
+}
+.ap {
+  transition-duration: 0.15s;
+}
+.aq {
+  transition-delay: ease;
+}
+.ar {
+  border-top-width: 0;
+}
+.as {
+  border-right-width: 0;
+}
+.at {
+  border-bottom-width: 0;
+}
+.au {
+  border-left-width: 0;
+}
+.av {
+  padding-top: 0;
+}
+.aw {
+  padding-right: 0;
+}
+.ax {
+  padding-bottom: 0;
+}
+.ay {
+  padding-left: 0;
+}
+.az {
+  border-top-left-radius: 4px;
+}
+.ba {
+  border-top-right-radius: 0;
+}
+.bb {
+  border-bottom-right-radius: 0;
+}
+.bc {
+  border-bottom-left-radius: 4px;
+}
+.bd {
+  padding-top: 6px;
+}
+.be {
+  padding-bottom: 6px;
+}
+.bf {
+  padding-left: 12px;
+}
+.bg {
+  padding-right: 12px;
+}
+.bh {
+  background-color: #fff;
+}
+.bi {
+  background-image: none;
+}
+.bj {
+  color: #333;
+}
+.bk {
+  cursor: pointer;
+}
+.bl {
+  display: inline-block;
+}
+.bm {
+  font-size: 14px;
+}
+.bn {
+  font-weight: 400;
+}
+.bo {
+  line-height: 1.42857143;
+}
+.bp {
+  margin-bottom: 0;
+}
+.bq {
+  touch-action: manipulation;
+}
+.br {
+  white-space: nowrap;
+}
+.bs {
+  vertical-align: middle;
+}
+.bt {
+  user-select: none;
+}
+.cd:disabled {
+  background-color: #fff;
+}
+.ce:disabled {
+  color: #333;
+}
+.cf:disabled {
+  box-shadow: none;
+}
+.cg:disabled {
+  cursor: not-allowed;
+}
+.ch:disabled {
+  filter: alpha(opacity=65);
+}
+.ci:disabled {
+  opacity: 0.65;
+}
+.cj:disabled {
+  pointer-events: none;
+}
+.ck:disabled {
+  border-top-color: #ccc;
+}
+.cl:disabled {
+  border-right-color: #ccc;
+}
+.cm:disabled {
+  border-bottom-color: #ccc;
+}
+.cn:disabled {
+  border-left-color: #ccc;
+}
+.dc {
+  border-top-width: 1px;
+}
+.dd {
+  border-right-width: 1px;
+}
+.de {
+  border-bottom-width: 1px;
+}
+.df {
+  border-left-width: 1px;
+}
+.dg {
+  border-top-style: solid;
+}
+.dh {
+  border-right-style: solid;
+}
+.di {
+  border-bottom-style: solid;
+}
+.dj {
+  border-left-style: solid;
+}
+.dk {
+  border-top-color: #ccc;
+}
+.dl {
+  border-right-color: #ccc;
+}
+.dm {
+  border-bottom-color: #ccc;
+}
+.dn {
+  border-left-color: #ccc;
+}
+.do {
+  width: 2rem;
+}
+.dp {
+  height: 2rem;
+}
+.dq {
+  background-repeat: no-repeat;
+}
+.dr {
+  background-position: 50%;
+}
+.ds {
+  background-size: 100% 100%;
+}
+.dt {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.du {
+  left: 0;
+}
+.dv {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+.af:hover {
+  color: #fff;
+}
+.ag:hover {
+  opacity: 0.9;
+}
+.ah:hover {
+  outline-width: 0;
+}
+.ai:hover {
+  text-decoration-line: none;
+}
+.cw:hover {
+  background-color: #e6e6e6;
+}
+.cx:hover {
+  color: #333;
+}
+.cy:hover {
+  border-top-color: #adadad;
+}
+.cz:hover {
+  border-right-color: #adadad;
+}
+.da:hover {
+  border-bottom-color: #adadad;
+}
+.db:hover {
+  border-left-color: #adadad;
+}
+.aj:focus {
+  color: #fff;
+}
+.ak:focus {
+  opacity: 0.9;
+}
+.al:focus {
+  outline-width: 0;
+}
+.am:focus {
+  text-decoration-line: none;
+}
+.co:focus-visible {
+  color: #333;
+}
+.cp:focus-visible {
+  background-color: #e6e6e6;
+}
+.cq:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.cr:focus-visible {
+  outline-width: 0;
+}
+.cs:focus-visible {
+  border-top-color: #adadad;
+}
+.ct:focus-visible {
+  border-right-color: #adadad;
+}
+.cu:focus-visible {
+  border-bottom-color: #adadad;
+}
+.cv:focus-visible {
+  border-left-color: #adadad;
+}
+.bu:active {
+  color: #333;
+}
+.bv:active {
+  background-color: #e6e6e6;
+}
+.bw:active {
+  background-image: none;
+}
+.bx:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.by:active {
+  outline-width: 0;
+}
+.bz:active {
+  border-top-color: #adadad;
+}
+.ca:active {
+  border-right-color: #adadad;
+}
+.cb:active {
+  border-bottom-color: #adadad;
+}
+.cc:active {
+  border-left-color: #adadad;
+}
+@media (prefers-reduced-motion: reduce) {
+  .i {
+    transition-property: none;
+  }
+  .j {
+    transition-duration: 0s;
+  }
+  .k {
+    transition-delay: 0s;
+  }
+  .l {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="carousel" class="a carousel">
+  <div data-testid="carousel-items" class="a b c d carousel-inner">
+    <div data-testid="carousel-item" class="a b e f g h i j k l m n o p">
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/picsum/450/300"
+        alt="Placeholder Image 1"
+      />
+    </div>
+    <div data-testid="carousel-item" class="a b f g h i j k l m n o p q">
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/charmed/450/300"
+        alt="Placeholder Image 2"
+      />
+    </div>
+    <div data-testid="carousel-item" class="a b f g h i j k l m n o p q">
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/crazed/450/300"
+        alt="Placeholder Image 3"
+      />
+    </div>
+  </div>
+  <button
+    data-testid="carousel-control"
+    class="ab az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di dj dk dl dm dn ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay i j k l p r s t u v w x y z carousel-control-next"
+  >
+    <span
+      data-testid="carousel-icon"
+      class="bl do dp dq dr ds dt carousel-control-next-icon"
+      aria-hidden="true"
+    ></span
+    ><span style="visibility: hidden" class="visually-hidden"
+      >Next</span
+    ></button
+  ><button
+    data-testid="carousel-control"
+    class="ab az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di dj dk dl dm dn ab ac ae af ag ah ai aj ak al am ao ap aq ar as at au av aw ax ay du i j k l p r s t u v w x y z carousel-control-prev"
+    disabled=""
+  >
+    <span
+      data-testid="carousel-icon"
+      class="bl do dp dq dr ds dv carousel-control-prev-icon"
+      aria-hidden="true"
+    ></span
+    ><span style="visibility: hidden" class="visually-hidden">Previous</span>
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Carousel/Carousel should show the prev item when prev control is clicked 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  width: 100%;
+}
+.c {
+  overflow-x: hidden;
+}
+.d {
+  overflow-y: hidden;
+}
+.e {
+  display: block;
+}
+.f {
+  float: left;
+}
+.g {
+  margin-right: -100%;
+}
+.h {
+  backface-visibility: hidden;
+}
+.m {
+  transition-property: transform;
+}
+.n {
+  transition-duration: 0.6s;
+}
+.o {
+  transition-delay: ease-in-out;
+}
+.p {
+  transition-timing-function: ease;
+}
+.q {
+  display: none;
+}
+.r {
+  position: absolute;
+}
+.s {
+  top: 0;
+}
+.t {
+  bottom: 0;
+}
+.u {
+  z-index: 1;
+}
+.v {
+  display: flex;
+}
+.w {
+  align-items: center;
+}
+.x {
+  justify-content: center;
+}
+.y {
+  width: 15%;
+}
+.z {
+  color: #fff;
+}
+.ab {
+  text-align: center;
+}
+.ac {
+  background: none;
+}
+.ae {
+  opacity: 0.5;
+}
+.an {
+  right: 0;
+}
+.ao {
+  transition-property: opacity;
+}
+.ap {
+  transition-duration: 0.15s;
+}
+.aq {
+  transition-delay: ease;
+}
+.ar {
+  border-top-width: 0;
+}
+.as {
+  border-right-width: 0;
+}
+.at {
+  border-bottom-width: 0;
+}
+.au {
+  border-left-width: 0;
+}
+.av {
+  padding-top: 0;
+}
+.aw {
+  padding-right: 0;
+}
+.ax {
+  padding-bottom: 0;
+}
+.ay {
+  padding-left: 0;
+}
+.az {
+  border-top-left-radius: 4px;
+}
+.ba {
+  border-top-right-radius: 0;
+}
+.bb {
+  border-bottom-right-radius: 0;
+}
+.bc {
+  border-bottom-left-radius: 4px;
+}
+.bd {
+  padding-top: 6px;
+}
+.be {
+  padding-bottom: 6px;
+}
+.bf {
+  padding-left: 12px;
+}
+.bg {
+  padding-right: 12px;
+}
+.bh {
+  background-color: #fff;
+}
+.bi {
+  background-image: none;
+}
+.bj {
+  color: #333;
+}
+.bk {
+  cursor: pointer;
+}
+.bl {
+  display: inline-block;
+}
+.bm {
+  font-size: 14px;
+}
+.bn {
+  font-weight: 400;
+}
+.bo {
+  line-height: 1.42857143;
+}
+.bp {
+  margin-bottom: 0;
+}
+.bq {
+  touch-action: manipulation;
+}
+.br {
+  white-space: nowrap;
+}
+.bs {
+  vertical-align: middle;
+}
+.bt {
+  user-select: none;
+}
+.cd:disabled {
+  background-color: #fff;
+}
+.ce:disabled {
+  color: #333;
+}
+.cf:disabled {
+  box-shadow: none;
+}
+.cg:disabled {
+  cursor: not-allowed;
+}
+.ch:disabled {
+  filter: alpha(opacity=65);
+}
+.ci:disabled {
+  opacity: 0.65;
+}
+.cj:disabled {
+  pointer-events: none;
+}
+.ck:disabled {
+  border-top-color: #ccc;
+}
+.cl:disabled {
+  border-right-color: #ccc;
+}
+.cm:disabled {
+  border-bottom-color: #ccc;
+}
+.cn:disabled {
+  border-left-color: #ccc;
+}
+.dc {
+  border-top-width: 1px;
+}
+.dd {
+  border-right-width: 1px;
+}
+.de {
+  border-bottom-width: 1px;
+}
+.df {
+  border-left-width: 1px;
+}
+.dg {
+  border-top-style: solid;
+}
+.dh {
+  border-right-style: solid;
+}
+.di {
+  border-bottom-style: solid;
+}
+.dj {
+  border-left-style: solid;
+}
+.dk {
+  border-top-color: #ccc;
+}
+.dl {
+  border-right-color: #ccc;
+}
+.dm {
+  border-bottom-color: #ccc;
+}
+.dn {
+  border-left-color: #ccc;
+}
+.do {
+  width: 2rem;
+}
+.dp {
+  height: 2rem;
+}
+.dq {
+  background-repeat: no-repeat;
+}
+.dr {
+  background-position: 50%;
+}
+.ds {
+  background-size: 100% 100%;
+}
+.dt {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.du {
+  left: 0;
+}
+.dv {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+.af:hover {
+  color: #fff;
+}
+.ag:hover {
+  opacity: 0.9;
+}
+.ah:hover {
+  outline-width: 0;
+}
+.ai:hover {
+  text-decoration-line: none;
+}
+.cw:hover {
+  background-color: #e6e6e6;
+}
+.cx:hover {
+  color: #333;
+}
+.cy:hover {
+  border-top-color: #adadad;
+}
+.cz:hover {
+  border-right-color: #adadad;
+}
+.da:hover {
+  border-bottom-color: #adadad;
+}
+.db:hover {
+  border-left-color: #adadad;
+}
+.aj:focus {
+  color: #fff;
+}
+.ak:focus {
+  opacity: 0.9;
+}
+.al:focus {
+  outline-width: 0;
+}
+.am:focus {
+  text-decoration-line: none;
+}
+.co:focus-visible {
+  color: #333;
+}
+.cp:focus-visible {
+  background-color: #e6e6e6;
+}
+.cq:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.cr:focus-visible {
+  outline-width: 0;
+}
+.cs:focus-visible {
+  border-top-color: #adadad;
+}
+.ct:focus-visible {
+  border-right-color: #adadad;
+}
+.cu:focus-visible {
+  border-bottom-color: #adadad;
+}
+.cv:focus-visible {
+  border-left-color: #adadad;
+}
+.bu:active {
+  color: #333;
+}
+.bv:active {
+  background-color: #e6e6e6;
+}
+.bw:active {
+  background-image: none;
+}
+.bx:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.by:active {
+  outline-width: 0;
+}
+.bz:active {
+  border-top-color: #adadad;
+}
+.ca:active {
+  border-right-color: #adadad;
+}
+.cb:active {
+  border-bottom-color: #adadad;
+}
+.cc:active {
+  border-left-color: #adadad;
+}
+@media (prefers-reduced-motion: reduce) {
+  .i {
+    transition-property: none;
+  }
+  .j {
+    transition-duration: 0s;
+  }
+  .k {
+    transition-delay: 0s;
+  }
+  .l {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="carousel" class="a carousel">
+  <div data-testid="carousel-items" class="a b c d carousel-inner">
+    <div data-testid="carousel-item" class="a b e f g h i j k l m n o p">
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/picsum/450/300"
+        alt="Placeholder Image 1"
+      />
+    </div>
+    <div data-testid="carousel-item" class="a b f g h i j k l m n o p q">
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/charmed/450/300"
+        alt="Placeholder Image 2"
+      />
+    </div>
+    <div data-testid="carousel-item" class="a b f g h i j k l m n o p q">
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/crazed/450/300"
+        alt="Placeholder Image 3"
+      />
+    </div>
+  </div>
+  <button
+    data-testid="carousel-control"
+    class="ab az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di dj dk dl dm dn ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay i j k l p r s t u v w x y z carousel-control-next"
+  >
+    <span
+      data-testid="carousel-icon"
+      class="bl do dp dq dr ds dt carousel-control-next-icon"
+      aria-hidden="true"
+    ></span
+    ><span style="visibility: hidden" class="visually-hidden"
+      >Next</span
+    ></button
+  ><button
+    data-testid="carousel-control"
+    class="ab az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di dj dk dl dm dn ab ac ae af ag ah ai aj ak al am ao ap aq ar as at au av aw ax ay du i j k l p r s t u v w x y z carousel-control-prev"
+    disabled=""
+  >
+    <span
+      data-testid="carousel-icon"
+      class="bl do dp dq dr ds dv carousel-control-prev-icon"
+      aria-hidden="true"
+    ></span
+    ><span style="visibility: hidden" class="visually-hidden">Previous</span>
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Carousel/Carousel should update the active item when an indicator is clicked 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  position: absolute;
+}
+.c {
+  right: 0;
+}
+.d {
+  bottom: 0;
+}
+.e {
+  left: 0;
+}
+.f {
+  z-index: 2;
+}
+.g {
+  display: flex;
+}
+.h {
+  justify-content: center;
+}
+.i {
+  margin-right: 15%;
+}
+.j {
+  margin-bottom: 1rem;
+}
+.k {
+  margin-left: 15%;
+}
+.l {
+  padding-top: 0;
+}
+.m {
+  padding-right: 0;
+}
+.n {
+  padding-bottom: 0;
+}
+.o {
+  padding-left: 0;
+}
+.p {
+  box-sizing: content-box;
+}
+.q {
+  width: 30px;
+}
+.r {
+  height: 3px;
+}
+.s {
+  margin-right: 3px;
+}
+.t {
+  margin-left: 3px;
+}
+.u {
+  text-indent: -999px;
+}
+.v {
+  cursor: pointer;
+}
+.w {
+  background-color: #fff;
+}
+.x {
+  background-clip: padding-box;
+}
+.y {
+  opacity: 1;
+}
+.af {
+  transition-property: opacity;
+}
+.ag {
+  transition-duration: 0.6s;
+}
+.ah {
+  transition-delay: ease;
+}
+.ai {
+  transition-timing-function: ease;
+}
+.aj {
+  border-bottom-width: 10px;
+}
+.ak {
+  border-bottom-style: solid;
+}
+.al {
+  border-bottom-color: transparent;
+}
+.am {
+  border-top-width: 10px;
+}
+.an {
+  border-top-style: solid;
+}
+.ao {
+  border-top-color: transparent;
+}
+.ap {
+  border-right-width: 0;
+}
+.aq {
+  border-left-width: 0;
+}
+.ar {
+  flex-grow: 0;
+}
+.as {
+  flex-shrink: 1;
+}
+.at {
+  flex-basis: auto;
+}
+.au {
+  border-top-left-radius: 4px;
+}
+.av {
+  border-top-right-radius: 0;
+}
+.aw {
+  border-bottom-right-radius: 0;
+}
+.ax {
+  border-bottom-left-radius: 4px;
+}
+.ay {
+  padding-top: 6px;
+}
+.az {
+  padding-bottom: 6px;
+}
+.ba {
+  padding-left: 12px;
+}
+.bb {
+  padding-right: 12px;
+}
+.bc {
+  background-image: none;
+}
+.bd {
+  color: #333;
+}
+.be {
+  display: inline-block;
+}
+.bf {
+  font-size: 14px;
+}
+.bg {
+  font-weight: 400;
+}
+.bh {
+  line-height: 1.42857143;
+}
+.bi {
+  margin-bottom: 0;
+}
+.bj {
+  text-align: center;
+}
+.bk {
+  touch-action: manipulation;
+}
+.bl {
+  white-space: nowrap;
+}
+.bm {
+  vertical-align: middle;
+}
+.bn {
+  user-select: none;
+}
+.bx:disabled {
+  background-color: #fff;
+}
+.by:disabled {
+  color: #333;
+}
+.bz:disabled {
+  box-shadow: none;
+}
+.ca:disabled {
+  cursor: not-allowed;
+}
+.cb:disabled {
+  filter: alpha(opacity=65);
+}
+.cc:disabled {
+  opacity: 0.65;
+}
+.cd:disabled {
+  pointer-events: none;
+}
+.ce:disabled {
+  border-top-color: #ccc;
+}
+.cf:disabled {
+  border-right-color: #ccc;
+}
+.cg:disabled {
+  border-bottom-color: #ccc;
+}
+.ch:disabled {
+  border-left-color: #ccc;
+}
+.cw {
+  border-top-width: 1px;
+}
+.cx {
+  border-right-width: 1px;
+}
+.cy {
+  border-bottom-width: 1px;
+}
+.cz {
+  border-left-width: 1px;
+}
+.da {
+  border-right-style: solid;
+}
+.db {
+  border-left-style: solid;
+}
+.dc {
+  border-top-color: #ccc;
+}
+.dd {
+  border-right-color: #ccc;
+}
+.de {
+  border-bottom-color: #ccc;
+}
+.df {
+  border-left-color: #ccc;
+}
+.dg {
+  opacity: 0.5;
+}
+.dh {
+  width: 100%;
+}
+.di {
+  overflow-x: hidden;
+}
+.dj {
+  overflow-y: hidden;
+}
+.dk {
+  display: block;
+}
+.dl {
+  float: left;
+}
+.dm {
+  margin-right: -100%;
+}
+.dn {
+  backface-visibility: hidden;
+}
+.do {
+  transition-property: transform;
+}
+.dp {
+  transition-delay: ease-in-out;
+}
+.dq {
+  display: none;
+}
+.dr {
+  top: 0;
+}
+.ds {
+  z-index: 1;
+}
+.dt {
+  align-items: center;
+}
+.du {
+  width: 15%;
+}
+.dv {
+  color: #fff;
+}
+.dw {
+  background: none;
+}
+.ef {
+  transition-duration: 0.15s;
+}
+.eg {
+  border-top-width: 0;
+}
+.eh {
+  border-bottom-width: 0;
+}
+.ei {
+  width: 2rem;
+}
+.ej {
+  height: 2rem;
+}
+.ek {
+  background-repeat: no-repeat;
+}
+.el {
+  background-position: 50%;
+}
+.em {
+  background-size: 100% 100%;
+}
+.en {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.eo {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+.cq:hover {
+  background-color: #e6e6e6;
+}
+.cr:hover {
+  color: #333;
+}
+.cs:hover {
+  border-top-color: #adadad;
+}
+.ct:hover {
+  border-right-color: #adadad;
+}
+.cu:hover {
+  border-bottom-color: #adadad;
+}
+.cv:hover {
+  border-left-color: #adadad;
+}
+.dx:hover {
+  color: #fff;
+}
+.dy:hover {
+  opacity: 0.9;
+}
+.dz:hover {
+  outline-width: 0;
+}
+.ea:hover {
+  text-decoration-line: none;
+}
+.ci:focus-visible {
+  color: #333;
+}
+.cj:focus-visible {
+  background-color: #e6e6e6;
+}
+.ck:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.cl:focus-visible {
+  outline-width: 0;
+}
+.cm:focus-visible {
+  border-top-color: #adadad;
+}
+.cn:focus-visible {
+  border-right-color: #adadad;
+}
+.co:focus-visible {
+  border-bottom-color: #adadad;
+}
+.cp:focus-visible {
+  border-left-color: #adadad;
+}
+.eb:focus {
+  color: #fff;
+}
+.ec:focus {
+  opacity: 0.9;
+}
+.ed:focus {
+  outline-width: 0;
+}
+.ee:focus {
+  text-decoration-line: none;
+}
+.bo:active {
+  color: #333;
+}
+.bp:active {
+  background-color: #e6e6e6;
+}
+.bq:active {
+  background-image: none;
+}
+.br:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.bs:active {
+  outline-width: 0;
+}
+.bt:active {
+  border-top-color: #adadad;
+}
+.bu:active {
+  border-right-color: #adadad;
+}
+.bv:active {
+  border-bottom-color: #adadad;
+}
+.bw:active {
+  border-left-color: #adadad;
+}
+@media (prefers-reduced-motion: reduce) {
+  .z {
+    transition-property: none;
+  }
+  .ab {
+    transition-duration: 0s;
+  }
+  .ac {
+    transition-delay: 0s;
+  }
+  .ae {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="carousel" class="a carousel">
+  <div
+    data-testid="carousel-indicators"
+    class="b c d e f g h i j k l m n o carousel-indicators"
+  >
+    <button
+      data-testid="carousel-indicator"
+      class="ak an au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df v w ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at l m n o p q r s t u v w x y z carousel-indicator"
+      type="button"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button
+    ><button
+      data-testid="carousel-indicator"
+      class="ak an au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df v w ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at dg l m n o p q r s t u v w x z carousel-indicator"
+      type="button"
+      aria-current="false"
+      aria-label="Slide 2"
+    ></button
+    ><button
+      data-testid="carousel-indicator"
+      class="ak an au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df v w ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at dg l m n o p q r s t u v w x z carousel-indicator"
+      type="button"
+      aria-current="false"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+  <div data-testid="carousel-items" class="a dh di dj carousel-inner">
+    <div
+      data-testid="carousel-item"
+      class="a ab ac ae ag ai dh dk dl dm dn do dp z"
+    >
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/picsum/450/300"
+        alt="Placeholder Image 1"
+      />
+    </div>
+    <div
+      data-testid="carousel-item"
+      class="a ab ac ae ag ai dh dl dm dn do dp dq z"
+    >
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/charmed/450/300"
+        alt="Placeholder Image 2"
+      />
+    </div>
+    <div
+      data-testid="carousel-item"
+      class="a ab ac ae ag ai dh dl dm dn do dp dq z"
+    >
+      <img
+        data-testid="carousel-item-image"
+        style="width: 100%; display: block"
+        src="https://picsum.photos/seed/crazed/450/300"
+        alt="Placeholder Image 3"
+      />
+    </div>
+  </div>
+  <button
+    data-testid="carousel-control"
+    class="ak an au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df v w ab ac ae af ah ai ap aq b bj c d dg dr ds dt du dv dw dx dy dz ea eb ec ed ee ef eg eh g h l m n o z carousel-control-next"
+  >
+    <span
+      data-testid="carousel-icon"
+      class="be ei ej ek el em en carousel-control-next-icon"
+      aria-hidden="true"
+    ></span
+    ><span style="visibility: hidden" class="visually-hidden"
+      >Next</span
+    ></button
+  ><button
+    data-testid="carousel-control"
+    class="ak an au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df v w ab ac ae af ah ai ap aq b bj d dg dr ds dt du dv dw dx dy dz e ea eb ec ed ee ef eg eh g h l m n o z carousel-control-prev"
+    disabled=""
+  >
+    <span
+      data-testid="carousel-icon"
+      class="be ei ej ek el em eo carousel-control-prev-icon"
+      aria-hidden="true"
+    ></span
+    ><span style="visibility: hidden" class="visually-hidden">Previous</span>
+  </button>
+</div>
+;
+"
+`;

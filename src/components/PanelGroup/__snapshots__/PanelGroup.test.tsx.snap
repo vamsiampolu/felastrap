@@ -1,0 +1,1621 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/PanelGroup/PanelGroup should display a panel group with panels 1`] = `
+".a {
+  color: #212529;
+}
+.b {
+  background-color: #fff;
+}
+.c {
+  border-top-width: 1px;
+}
+.d {
+  border-top-left-radius: 0.375rem;
+}
+.e {
+  border-top-right-radius: 0.375rem;
+}
+.f {
+  border-right-width: 1px;
+}
+.g {
+  border-bottom-width: 1px;
+}
+.h {
+  border-left-width: 1px;
+}
+.i {
+  border-top-style: solid;
+}
+.j {
+  border-right-style: solid;
+}
+.k {
+  border-bottom-style: solid;
+}
+.l {
+  border-left-style: solid;
+}
+.m {
+  border-top-color: #dee2e6;
+}
+.n {
+  border-right-color: #dee2e6;
+}
+.o {
+  border-bottom-color: #dee2e6;
+}
+.p {
+  border-left-color: #dee2e6;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  margin-top: 0;
+}
+.s {
+  color: inherit;
+}
+.t {
+  font-weight: 500;
+}
+.u {
+  font-size: calc(1.325rem + 0.9vw);
+}
+.v {
+  line-height: 1.2;
+}
+.w {
+  margin-bottom: 0.5rem;
+}
+.y {
+  position: relative;
+}
+.z {
+  display: flex !important;
+}
+.ab {
+  align-items: center;
+}
+.ac {
+  width: 100%;
+}
+.ae {
+  font-size: 1rem;
+}
+.af {
+  color: #052c65;
+}
+.ag {
+  text-align: left;
+}
+.ah {
+  background-color: #cfe2ff;
+}
+.ai {
+  overflow-anchor: none;
+}
+.av {
+  box-shadow: inset 0 calc(-1 * -1px) 0 #dee2e6;
+}
+.aw {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.ax {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.ay {
+  transition-property: color, background-color, border-color, box-shadow,
+    border-radius;
+}
+.az {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.ba {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease;
+}
+.bb {
+  transition-timing-function: ease, ease, ease, ease, ease;
+}
+.bc {
+  border-bottom-right-radius: 0;
+}
+.bd {
+  border-bottom-left-radius: 0;
+}
+.be {
+  border-top-width: 0;
+}
+.bf {
+  border-right-width: 0;
+}
+.bg {
+  border-bottom-width: 0;
+}
+.bh {
+  border-left-width: 0;
+}
+.bi {
+  padding-top: 1.25rem;
+}
+.bj {
+  padding-right: 1rem;
+}
+.bk {
+  padding-bottom: 1.25rem;
+}
+.bl {
+  padding-left: 1rem;
+}
+.bm {
+  border-top-left-radius: 4px;
+}
+.bn {
+  border-top-right-radius: 0;
+}
+.bo {
+  border-bottom-left-radius: 4px;
+}
+.bp {
+  padding-top: 6px;
+}
+.bq {
+  padding-bottom: 6px;
+}
+.br {
+  padding-left: 12px;
+}
+.bs {
+  padding-right: 12px;
+}
+.bt {
+  background-image: none;
+}
+.bu {
+  color: #333;
+}
+.bv {
+  cursor: pointer;
+}
+.bw {
+  display: inline-block;
+}
+.bx {
+  font-size: 14px;
+}
+.by {
+  font-weight: 400;
+}
+.bz {
+  line-height: 1.42857143;
+}
+.ca {
+  text-align: center;
+}
+.cb {
+  touch-action: manipulation;
+}
+.cc {
+  white-space: nowrap;
+}
+.cd {
+  vertical-align: middle;
+}
+.ce {
+  user-select: none;
+}
+.co:disabled {
+  background-color: #fff;
+}
+.cp:disabled {
+  color: #333;
+}
+.cq:disabled {
+  box-shadow: none;
+}
+.cr:disabled {
+  cursor: not-allowed;
+}
+.cs:disabled {
+  filter: alpha(opacity=65);
+}
+.ct:disabled {
+  opacity: 0.65;
+}
+.cu:disabled {
+  pointer-events: none;
+}
+.cv:disabled {
+  border-top-color: #ccc;
+}
+.cw:disabled {
+  border-right-color: #ccc;
+}
+.cx:disabled {
+  border-bottom-color: #ccc;
+}
+.cy:disabled {
+  border-left-color: #ccc;
+}
+.dn {
+  border-top-color: #ccc;
+}
+.do {
+  border-right-color: #ccc;
+}
+.dp {
+  border-bottom-color: #ccc;
+}
+.dq {
+  border-left-color: #ccc;
+}
+.dr {
+  flex-shrink: 0;
+}
+.ds {
+  width: 1.25rem;
+}
+.dt {
+  height: 1.25rem;
+}
+.du {
+  margin-left: auto;
+}
+.dv {
+  background-image: url("/chevron-down.svg");
+}
+.dw {
+  background-repeat: no-repeat;
+}
+.dx {
+  background-size: 1.25rem;
+}
+.dy {
+  transform: rotate(-180deg);
+}
+.dz {
+  transition-property: transform;
+}
+.ea {
+  transition-duration: 0.2s;
+}
+.eb {
+  transition-delay: ease-in-out;
+}
+.ec {
+  transition-timing-function: ease;
+}
+.ed {
+  width: auto;
+}
+.ee {
+  height: 0;
+}
+.ef {
+  transition-property: height;
+}
+.eg {
+  transition-duration: 0.35s;
+}
+.eh {
+  transition-delay: ease;
+}
+.ei {
+  overflow-x: hidden;
+}
+.ej {
+  overflow-y: hidden;
+}
+.ek {
+  padding-top: 1rem;
+}
+.el {
+  padding-right: 1.25rem;
+}
+.em {
+  padding-bottom: 1rem;
+}
+.en {
+  padding-left: 1.25rem;
+}
+.eo {
+  border-top-left-radius: 0;
+}
+.ep {
+  border-bottom-right-radius: 0.375rem;
+}
+.eq {
+  border-bottom-left-radius: 0.375rem;
+}
+.er {
+  border-bottom-right-radius: calc(0.375rem - 1px);
+}
+.es {
+  border-bottom-left-radius: calc(0.375rem - 1px);
+}
+.au:hover {
+  z-index: 2;
+}
+.dh:hover {
+  background-color: #e6e6e6;
+}
+.di:hover {
+  color: #333;
+}
+.dj:hover {
+  border-top-color: #adadad;
+}
+.dk:hover {
+  border-right-color: #adadad;
+}
+.dl:hover {
+  border-bottom-color: #adadad;
+}
+.dm:hover {
+  border-left-color: #adadad;
+}
+.an:focus {
+  z-index: 3;
+}
+.ao:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ap:focus {
+  outline-width: 0;
+}
+.aq:focus {
+  border-top-color: #86b7fe;
+}
+.ar:focus {
+  border-right-color: #86b7fe;
+}
+.as:focus {
+  border-bottom-color: #86b7fe;
+}
+.at:focus {
+  border-left-color: #86b7fe;
+}
+.cz:focus-visible {
+  color: #333;
+}
+.da:focus-visible {
+  background-color: #e6e6e6;
+}
+.db:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.dc:focus-visible {
+  outline-width: 0;
+}
+.dd:focus-visible {
+  border-top-color: #adadad;
+}
+.de:focus-visible {
+  border-right-color: #adadad;
+}
+.df:focus-visible {
+  border-bottom-color: #adadad;
+}
+.dg:focus-visible {
+  border-left-color: #adadad;
+}
+.cf:active {
+  color: #333;
+}
+.cg:active {
+  background-color: #e6e6e6;
+}
+.ch:active {
+  background-image: none;
+}
+.ci:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.cj:active {
+  outline-width: 0;
+}
+.ck:active {
+  border-top-color: #adadad;
+}
+.cl:active {
+  border-right-color: #adadad;
+}
+.cm:active {
+  border-bottom-color: #adadad;
+}
+.cn:active {
+  border-left-color: #adadad;
+}
+@media (min-width: 1200px) {
+  .x {
+    font-size: 2rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .aj {
+    transition-property: none;
+  }
+  .ak {
+    transition-duration: 0s;
+  }
+  .al {
+    transition-delay: 0s;
+  }
+  .am {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="panel-group" class="panel-group">
+  <div
+    data-testid="panel-group-panel"
+    class="a b c d e f g h i j k l m n o p panel"
+  >
+    <h2 class="q r panel-group-header" data-testid="panel-group-text-header">
+      <button
+        data-testid="panel-group-toggle-button"
+        class="b bc bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di dj dk dl dm dn do dp dq f g h i j k l q ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl y z"
+        aria-expanded="true"
+      >
+        Panel Group Item #1
+        <div
+          data-testid="panel-group-toggle-icon"
+          class="aj ak al am dr ds dt du dv dw dx dy dz ea eb ec"
+        ></div>
+      </button>
+    </h2>
+    <div
+      data-testid="collapse"
+      class="aj ak al am ec ed ee ef eg eh ei ej collapse"
+    >
+      <div data-testid="collapse-content" id="">
+        <div data-testid="collapse-container" class="content-container">
+          <div
+            data-testid="panel-group-body"
+            class="ek el em en panel-group-body"
+          >
+            <strong>This is the first item&#x27;s panel group body.</strong> It
+            is shown by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It&#x27;s also worth noting that
+            just about any HTML can go within the
+            <code>.panel group-body</code>, though the transition does limit
+            overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    data-testid="panel-group-panel"
+    class="a b c f g h i j k l m n o p panel"
+  >
+    <h2 class="q r panel-group-header" data-testid="panel-group-text-header">
+      <button
+        data-testid="panel-group-toggle-button"
+        class="b bc bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di dj dk dl dm dn do dp dq f g h i j k l q a ab ac ae ag ai aj ak al am an ao ap aq ar as at au ay az b ba bb bc bd be bf bg bh bi bj bk bl bn eo y z"
+        aria-expanded="false"
+      >
+        Panel Group Item #2
+        <div
+          data-testid="panel-group-toggle-icon"
+          class="aj ak al am dr ds dt du dv dw dx dz ea eb ec"
+        ></div>
+      </button>
+    </h2>
+    <div
+      data-testid="collapse"
+      class="aj ak al am ec ed ef eg eh ei ej collapse"
+    >
+      <div data-testid="collapse-content" id="">
+        <div data-testid="collapse-container" class="content-container">
+          <div
+            data-testid="panel-group-body"
+            class="ek el em en panel-group-body"
+          >
+            <strong>This is the second item&#x27;s panel group body.</strong> It
+            is hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It&#x27;s also worth noting that
+            just about any HTML can go within the
+            <code>.panel group-body</code>, though the transition does limit
+            overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    data-testid="panel-group-panel"
+    class="a b c d e f g h i j k l m n o p panel"
+  >
+    <h2 class="q r panel-group-header" data-testid="panel-group-text-header">
+      <button
+        data-testid="panel-group-toggle-button"
+        class="b bc bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di dj dk dl dm dn do dp dq f g h i j k l q a ab ac ae ag ai aj ak al am an ao ap aq ar as at au ay az b ba bb be bf bg bh bi bj bk bl bn eo er es y z"
+        aria-expanded="false"
+      >
+        Panel Group Item #3
+        <div
+          data-testid="panel-group-toggle-icon"
+          class="aj ak al am dr ds dt du dv dw dx dz ea eb ec"
+        ></div>
+      </button>
+    </h2>
+    <div
+      data-testid="collapse"
+      class="aj ak al am ec ed ef eg eh ei ej collapse"
+    >
+      <div data-testid="collapse-content" id="">
+        <div data-testid="collapse-container" class="content-container">
+          <div
+            data-testid="panel-group-body"
+            class="ek el em en panel-group-body ep eq"
+          >
+            <strong>This is the third item&#x27;s panel group body.</strong> It
+            is hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It&#x27;s also worth noting that
+            just about any HTML can go within the
+            <code>.panel group-body</code>, though the transition does limit
+            overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/PanelGroup/PanelGroup should render a flush panel group 1`] = `
+".a {
+  color: #212529;
+}
+.b {
+  background-color: #fff;
+}
+.c {
+  border-top-width: 1px;
+}
+.d {
+  border-top-left-radius: 0.375rem;
+}
+.e {
+  border-top-right-radius: 0.375rem;
+}
+.f {
+  border-right-width: 1px;
+}
+.g {
+  border-bottom-width: 1px;
+}
+.h {
+  border-left-width: 1px;
+}
+.i {
+  border-top-style: solid;
+}
+.j {
+  border-right-style: solid;
+}
+.k {
+  border-bottom-style: solid;
+}
+.l {
+  border-left-style: solid;
+}
+.m {
+  border-top-color: #dee2e6;
+}
+.n {
+  border-right-color: #dee2e6;
+}
+.o {
+  border-bottom-color: #dee2e6;
+}
+.p {
+  border-left-color: #dee2e6;
+}
+.q {
+  border-top-left-radius: 0;
+}
+.r {
+  border-top-right-radius: 0;
+}
+.s {
+  border-bottom-right-radius: 0;
+}
+.t {
+  border-bottom-left-radius: 0;
+}
+.u {
+  border-top-width: 0;
+}
+.v {
+  border-right-width: 0;
+}
+.w {
+  border-left-width: 0;
+}
+.x {
+  margin-bottom: 0;
+}
+.y {
+  margin-top: 0;
+}
+.z {
+  color: inherit;
+}
+.ab {
+  font-weight: 500;
+}
+.ac {
+  font-size: calc(1.325rem + 0.9vw);
+}
+.ae {
+  line-height: 1.2;
+}
+.af {
+  margin-bottom: 0.5rem;
+}
+.ah {
+  position: relative;
+}
+.ai {
+  display: flex !important;
+}
+.aj {
+  align-items: center;
+}
+.ak {
+  width: 100%;
+}
+.al {
+  font-size: 1rem;
+}
+.am {
+  color: #052c65;
+}
+.an {
+  text-align: left;
+}
+.ao {
+  background-color: #cfe2ff;
+}
+.ap {
+  overflow-anchor: none;
+}
+.bc {
+  box-shadow: inset 0 calc(-1 * -1px) 0 #dee2e6;
+}
+.bd {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.be {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.bf {
+  transition-property: color, background-color, border-color, box-shadow,
+    border-radius;
+}
+.bg {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.bh {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease;
+}
+.bi {
+  transition-timing-function: ease, ease, ease, ease, ease;
+}
+.bj {
+  border-bottom-width: 0;
+}
+.bk {
+  padding-top: 1.25rem;
+}
+.bl {
+  padding-right: 1rem;
+}
+.bm {
+  padding-bottom: 1.25rem;
+}
+.bn {
+  padding-left: 1rem;
+}
+.bo {
+  border-top-left-radius: 4px;
+}
+.bp {
+  border-bottom-left-radius: 4px;
+}
+.bq {
+  padding-top: 6px;
+}
+.br {
+  padding-bottom: 6px;
+}
+.bs {
+  padding-left: 12px;
+}
+.bt {
+  padding-right: 12px;
+}
+.bu {
+  background-image: none;
+}
+.bv {
+  color: #333;
+}
+.bw {
+  cursor: pointer;
+}
+.bx {
+  display: inline-block;
+}
+.by {
+  font-size: 14px;
+}
+.bz {
+  font-weight: 400;
+}
+.ca {
+  line-height: 1.42857143;
+}
+.cb {
+  text-align: center;
+}
+.cc {
+  touch-action: manipulation;
+}
+.cd {
+  white-space: nowrap;
+}
+.ce {
+  vertical-align: middle;
+}
+.cf {
+  user-select: none;
+}
+.cp:disabled {
+  background-color: #fff;
+}
+.cq:disabled {
+  color: #333;
+}
+.cr:disabled {
+  box-shadow: none;
+}
+.cs:disabled {
+  cursor: not-allowed;
+}
+.ct:disabled {
+  filter: alpha(opacity=65);
+}
+.cu:disabled {
+  opacity: 0.65;
+}
+.cv:disabled {
+  pointer-events: none;
+}
+.cw:disabled {
+  border-top-color: #ccc;
+}
+.cx:disabled {
+  border-right-color: #ccc;
+}
+.cy:disabled {
+  border-bottom-color: #ccc;
+}
+.cz:disabled {
+  border-left-color: #ccc;
+}
+.do {
+  border-top-color: #ccc;
+}
+.dp {
+  border-right-color: #ccc;
+}
+.dq {
+  border-bottom-color: #ccc;
+}
+.dr {
+  border-left-color: #ccc;
+}
+.ds {
+  flex-shrink: 0;
+}
+.dt {
+  width: 1.25rem;
+}
+.du {
+  height: 1.25rem;
+}
+.dv {
+  margin-left: auto;
+}
+.dw {
+  background-image: url("/chevron-down.svg");
+}
+.dx {
+  background-repeat: no-repeat;
+}
+.dy {
+  background-size: 1.25rem;
+}
+.dz {
+  transform: rotate(-180deg);
+}
+.ea {
+  transition-property: transform;
+}
+.eb {
+  transition-duration: 0.2s;
+}
+.ec {
+  transition-delay: ease-in-out;
+}
+.ed {
+  transition-timing-function: ease;
+}
+.ee {
+  width: auto;
+}
+.ef {
+  height: 0;
+}
+.eg {
+  transition-property: height;
+}
+.eh {
+  transition-duration: 0.35s;
+}
+.ei {
+  transition-delay: ease;
+}
+.ej {
+  overflow-x: hidden;
+}
+.ek {
+  overflow-y: hidden;
+}
+.el {
+  padding-top: 1rem;
+}
+.em {
+  padding-right: 1.25rem;
+}
+.en {
+  padding-bottom: 1rem;
+}
+.eo {
+  padding-left: 1.25rem;
+}
+.ep {
+  border-bottom-right-radius: 0.375rem;
+}
+.eq {
+  border-bottom-left-radius: 0.375rem;
+}
+.er {
+  border-bottom-right-radius: calc(0.375rem - 1px);
+}
+.es {
+  border-bottom-left-radius: calc(0.375rem - 1px);
+}
+.bb:hover {
+  z-index: 2;
+}
+.di:hover {
+  background-color: #e6e6e6;
+}
+.dj:hover {
+  color: #333;
+}
+.dk:hover {
+  border-top-color: #adadad;
+}
+.dl:hover {
+  border-right-color: #adadad;
+}
+.dm:hover {
+  border-bottom-color: #adadad;
+}
+.dn:hover {
+  border-left-color: #adadad;
+}
+.au:focus {
+  z-index: 3;
+}
+.av:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.aw:focus {
+  outline-width: 0;
+}
+.ax:focus {
+  border-top-color: #86b7fe;
+}
+.ay:focus {
+  border-right-color: #86b7fe;
+}
+.az:focus {
+  border-bottom-color: #86b7fe;
+}
+.ba:focus {
+  border-left-color: #86b7fe;
+}
+.da:focus-visible {
+  color: #333;
+}
+.db:focus-visible {
+  background-color: #e6e6e6;
+}
+.dc:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.dd:focus-visible {
+  outline-width: 0;
+}
+.de:focus-visible {
+  border-top-color: #adadad;
+}
+.df:focus-visible {
+  border-right-color: #adadad;
+}
+.dg:focus-visible {
+  border-bottom-color: #adadad;
+}
+.dh:focus-visible {
+  border-left-color: #adadad;
+}
+.cg:active {
+  color: #333;
+}
+.ch:active {
+  background-color: #e6e6e6;
+}
+.ci:active {
+  background-image: none;
+}
+.cj:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ck:active {
+  outline-width: 0;
+}
+.cl:active {
+  border-top-color: #adadad;
+}
+.cm:active {
+  border-right-color: #adadad;
+}
+.cn:active {
+  border-bottom-color: #adadad;
+}
+.co:active {
+  border-left-color: #adadad;
+}
+@media (min-width: 1200px) {
+  .ag {
+    font-size: 2rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .aq {
+    transition-property: none;
+  }
+  .ar {
+    transition-duration: 0s;
+  }
+  .as {
+    transition-delay: 0s;
+  }
+  .at {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="panel-group" class="panel-group">
+  <div
+    data-testid="panel-group-panel"
+    class="a b c d e f g h i j k l m n o p panel"
+  >
+    <h2 class="x y panel-group-header" data-testid="panel-group-text-header">
+      <button
+        data-testid="panel-group-toggle-button"
+        class="b bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di dj dk dl dm dn do dp dq dr f g h i j k l r s x ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn s t u v w"
+        aria-expanded="true"
+      >
+        Panel Group Item #1
+        <div
+          data-testid="panel-group-toggle-icon"
+          class="aq ar as at ds dt du dv dw dx dy dz ea eb ec ed"
+        ></div>
+      </button>
+    </h2>
+    <div
+      data-testid="collapse"
+      class="aq ar as at ed ee ef eg eh ei ej ek collapse"
+    >
+      <div data-testid="collapse-content" id="">
+        <div data-testid="collapse-container" class="content-container">
+          <div
+            data-testid="panel-group-body"
+            class="el em en eo panel-group-body q r s t u v w"
+          >
+            First Item
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    data-testid="panel-group-panel"
+    class="a b c d e f g h i j k l m n o p panel"
+  >
+    <h2 class="x y panel-group-header" data-testid="panel-group-text-header">
+      <button
+        data-testid="panel-group-toggle-button"
+        class="b bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di dj dk dl dm dn do dp dq dr f g h i j k l r s x a ah ai aj ak al an ap aq ar as at au av aw ax ay az b ba bb bf bg bh bi bj bk bl bm bn er es q r u v w"
+        aria-expanded="false"
+      >
+        Panel Group Item #2
+        <div
+          data-testid="panel-group-toggle-icon"
+          class="aq ar as at ds dt du dv dw dx dy ea eb ec ed"
+        ></div>
+      </button>
+    </h2>
+    <div
+      data-testid="collapse"
+      class="aq ar as at ed ee eg eh ei ej ek collapse"
+    >
+      <div data-testid="collapse-content" id="">
+        <div data-testid="collapse-container" class="content-container">
+          <div
+            data-testid="panel-group-body"
+            class="el em en eo panel-group-body bj ep eq q r v w"
+          >
+            Second Item
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/PanelGroup/PanelGroup should verify panel contents 1`] = `
+".a {
+  color: #212529;
+}
+.b {
+  background-color: #fff;
+}
+.c {
+  border-top-width: 1px;
+}
+.d {
+  border-top-left-radius: 0.375rem;
+}
+.e {
+  border-top-right-radius: 0.375rem;
+}
+.f {
+  border-right-width: 1px;
+}
+.g {
+  border-bottom-width: 1px;
+}
+.h {
+  border-left-width: 1px;
+}
+.i {
+  border-top-style: solid;
+}
+.j {
+  border-right-style: solid;
+}
+.k {
+  border-bottom-style: solid;
+}
+.l {
+  border-left-style: solid;
+}
+.m {
+  border-top-color: #dee2e6;
+}
+.n {
+  border-right-color: #dee2e6;
+}
+.o {
+  border-bottom-color: #dee2e6;
+}
+.p {
+  border-left-color: #dee2e6;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  margin-top: 0;
+}
+.s {
+  color: inherit;
+}
+.t {
+  font-weight: 500;
+}
+.u {
+  font-size: calc(1.325rem + 0.9vw);
+}
+.v {
+  line-height: 1.2;
+}
+.w {
+  margin-bottom: 0.5rem;
+}
+.y {
+  position: relative;
+}
+.z {
+  display: flex !important;
+}
+.ab {
+  align-items: center;
+}
+.ac {
+  width: 100%;
+}
+.ae {
+  font-size: 1rem;
+}
+.af {
+  color: #052c65;
+}
+.ag {
+  text-align: left;
+}
+.ah {
+  background-color: #cfe2ff;
+}
+.ai {
+  overflow-anchor: none;
+}
+.av {
+  box-shadow: inset 0 calc(-1 * -1px) 0 #dee2e6;
+}
+.aw {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.ax {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.ay {
+  transition-property: color, background-color, border-color, box-shadow,
+    border-radius;
+}
+.az {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.ba {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease;
+}
+.bb {
+  transition-timing-function: ease, ease, ease, ease, ease;
+}
+.bc {
+  border-bottom-right-radius: 0;
+}
+.bd {
+  border-bottom-left-radius: 0;
+}
+.be {
+  border-top-width: 0;
+}
+.bf {
+  border-right-width: 0;
+}
+.bg {
+  border-bottom-width: 0;
+}
+.bh {
+  border-left-width: 0;
+}
+.bi {
+  padding-top: 1.25rem;
+}
+.bj {
+  padding-right: 1rem;
+}
+.bk {
+  padding-bottom: 1.25rem;
+}
+.bl {
+  padding-left: 1rem;
+}
+.bm {
+  border-top-left-radius: 4px;
+}
+.bn {
+  border-top-right-radius: 0;
+}
+.bo {
+  border-bottom-left-radius: 4px;
+}
+.bp {
+  padding-top: 6px;
+}
+.bq {
+  padding-bottom: 6px;
+}
+.br {
+  padding-left: 12px;
+}
+.bs {
+  padding-right: 12px;
+}
+.bt {
+  background-image: none;
+}
+.bu {
+  color: #333;
+}
+.bv {
+  cursor: pointer;
+}
+.bw {
+  display: inline-block;
+}
+.bx {
+  font-size: 14px;
+}
+.by {
+  font-weight: 400;
+}
+.bz {
+  line-height: 1.42857143;
+}
+.ca {
+  text-align: center;
+}
+.cb {
+  touch-action: manipulation;
+}
+.cc {
+  white-space: nowrap;
+}
+.cd {
+  vertical-align: middle;
+}
+.ce {
+  user-select: none;
+}
+.co:disabled {
+  background-color: #fff;
+}
+.cp:disabled {
+  color: #333;
+}
+.cq:disabled {
+  box-shadow: none;
+}
+.cr:disabled {
+  cursor: not-allowed;
+}
+.cs:disabled {
+  filter: alpha(opacity=65);
+}
+.ct:disabled {
+  opacity: 0.65;
+}
+.cu:disabled {
+  pointer-events: none;
+}
+.cv:disabled {
+  border-top-color: #ccc;
+}
+.cw:disabled {
+  border-right-color: #ccc;
+}
+.cx:disabled {
+  border-bottom-color: #ccc;
+}
+.cy:disabled {
+  border-left-color: #ccc;
+}
+.dn {
+  border-top-color: #ccc;
+}
+.do {
+  border-right-color: #ccc;
+}
+.dp {
+  border-bottom-color: #ccc;
+}
+.dq {
+  border-left-color: #ccc;
+}
+.dr {
+  flex-shrink: 0;
+}
+.ds {
+  width: 1.25rem;
+}
+.dt {
+  height: 1.25rem;
+}
+.du {
+  margin-left: auto;
+}
+.dv {
+  background-image: url("/chevron-down.svg");
+}
+.dw {
+  background-repeat: no-repeat;
+}
+.dx {
+  background-size: 1.25rem;
+}
+.dy {
+  transform: rotate(-180deg);
+}
+.dz {
+  transition-property: transform;
+}
+.ea {
+  transition-duration: 0.2s;
+}
+.eb {
+  transition-delay: ease-in-out;
+}
+.ec {
+  transition-timing-function: ease;
+}
+.ed {
+  width: auto;
+}
+.ee {
+  height: 0;
+}
+.ef {
+  transition-property: height;
+}
+.eg {
+  transition-duration: 0.35s;
+}
+.eh {
+  transition-delay: ease;
+}
+.ei {
+  overflow-x: hidden;
+}
+.ej {
+  overflow-y: hidden;
+}
+.ek {
+  padding-top: 1rem;
+}
+.el {
+  padding-right: 1.25rem;
+}
+.em {
+  padding-bottom: 1rem;
+}
+.en {
+  padding-left: 1.25rem;
+}
+.eo {
+  border-bottom-right-radius: 0.375rem;
+}
+.ep {
+  border-bottom-left-radius: 0.375rem;
+}
+.eq {
+  border-bottom-right-radius: calc(0.375rem - 1px);
+}
+.er {
+  border-bottom-left-radius: calc(0.375rem - 1px);
+}
+.es {
+  border-top-left-radius: 0;
+}
+.au:hover {
+  z-index: 2;
+}
+.dh:hover {
+  background-color: #e6e6e6;
+}
+.di:hover {
+  color: #333;
+}
+.dj:hover {
+  border-top-color: #adadad;
+}
+.dk:hover {
+  border-right-color: #adadad;
+}
+.dl:hover {
+  border-bottom-color: #adadad;
+}
+.dm:hover {
+  border-left-color: #adadad;
+}
+.an:focus {
+  z-index: 3;
+}
+.ao:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ap:focus {
+  outline-width: 0;
+}
+.aq:focus {
+  border-top-color: #86b7fe;
+}
+.ar:focus {
+  border-right-color: #86b7fe;
+}
+.as:focus {
+  border-bottom-color: #86b7fe;
+}
+.at:focus {
+  border-left-color: #86b7fe;
+}
+.cz:focus-visible {
+  color: #333;
+}
+.da:focus-visible {
+  background-color: #e6e6e6;
+}
+.db:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.dc:focus-visible {
+  outline-width: 0;
+}
+.dd:focus-visible {
+  border-top-color: #adadad;
+}
+.de:focus-visible {
+  border-right-color: #adadad;
+}
+.df:focus-visible {
+  border-bottom-color: #adadad;
+}
+.dg:focus-visible {
+  border-left-color: #adadad;
+}
+.cf:active {
+  color: #333;
+}
+.cg:active {
+  background-color: #e6e6e6;
+}
+.ch:active {
+  background-image: none;
+}
+.ci:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.cj:active {
+  outline-width: 0;
+}
+.ck:active {
+  border-top-color: #adadad;
+}
+.cl:active {
+  border-right-color: #adadad;
+}
+.cm:active {
+  border-bottom-color: #adadad;
+}
+.cn:active {
+  border-left-color: #adadad;
+}
+@media (min-width: 1200px) {
+  .x {
+    font-size: 2rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .aj {
+    transition-property: none;
+  }
+  .ak {
+    transition-duration: 0s;
+  }
+  .al {
+    transition-delay: 0s;
+  }
+  .am {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="panel-group" class="panel-group">
+  <div
+    data-testid="panel-group-panel"
+    class="a b c d e f g h i j k l m n o p panel"
+  >
+    <h2 class="q r panel-group-header" data-testid="panel-group-text-header">
+      <button
+        data-testid="panel-group-toggle-button"
+        class="b bc bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di dj dk dl dm dn do dp dq f g h i j k l q ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl y z"
+        aria-expanded="true"
+      >
+        Panel Group Item #1
+        <div
+          data-testid="panel-group-toggle-icon"
+          class="aj ak al am dr ds dt du dv dw dx dy dz ea eb ec"
+        ></div>
+      </button>
+    </h2>
+    <div
+      data-testid="collapse"
+      class="aj ak al am ec ed ee ef eg eh ei ej collapse"
+    >
+      <div data-testid="collapse-content" id="">
+        <div data-testid="collapse-container" class="content-container">
+          <div
+            data-testid="panel-group-body"
+            class="ek el em en panel-group-body"
+          >
+            First Item
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    data-testid="panel-group-panel"
+    class="a b c d e f g h i j k l m n o p panel"
+  >
+    <h2 class="q r panel-group-header" data-testid="panel-group-text-header">
+      <button
+        data-testid="panel-group-toggle-button"
+        class="b bc bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di dj dk dl dm dn do dp dq f g h i j k l q a ab ac ae ag ai aj ak al am an ao ap aq ar as at au ay az b ba bb be bf bg bh bi bj bk bl bn eq er es y z"
+        aria-expanded="false"
+      >
+        Panel Group Item #2
+        <div
+          data-testid="panel-group-toggle-icon"
+          class="aj ak al am dr ds dt du dv dw dx dz ea eb ec"
+        ></div>
+      </button>
+    </h2>
+    <div
+      data-testid="collapse"
+      class="aj ak al am ec ed ef eg eh ei ej collapse"
+    >
+      <div data-testid="collapse-content" id="">
+        <div data-testid="collapse-container" class="content-container">
+          <div
+            data-testid="panel-group-body"
+            class="ek el em en panel-group-body eo ep"
+          >
+            Second Item
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+;
+"
+`;

@@ -1,0 +1,838 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/ListGroup/ListGroup should render a ListGroup with three list items 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  display: flex;
+}
+.f {
+  flex-direction: column;
+}
+.g {
+  padding-left: 0;
+}
+.h {
+  margin-bottom: 0;
+}
+.i {
+  border-top-width: 1px;
+}
+.j {
+  padding-top: 0.5rem;
+}
+.k {
+  padding-left: 1rem;
+}
+.l {
+  padding-bottom: 0.5rem;
+}
+.m {
+  padding-right: 1rem;
+}
+.n {
+  border-top-left-radius: inherit;
+}
+.o {
+  border-top-right-radius: inherit;
+}
+.p {
+  border-bottom-left-radius: 0;
+}
+.q {
+  border-bottom-right-radius: 0;
+}
+.r {
+  z-index: auto;
+}
+.s {
+  color: #212529;
+}
+.t {
+  background-color: #fff;
+}
+.u {
+  position: relative;
+}
+.v {
+  display: block;
+}
+.w {
+  width: 100%;
+}
+.x:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.y:disabled {
+  pointer-events: none;
+}
+.ah {
+  text-decoration-line: none;
+}
+.ai {
+  border-top-style: solid;
+}
+.aj {
+  border-right-style: solid;
+}
+.ak {
+  border-bottom-style: solid;
+}
+.al {
+  border-left-style: solid;
+}
+.am {
+  border-top-color: #dee2e6;
+}
+.an {
+  border-right-color: #dee2e6;
+}
+.ao {
+  border-bottom-color: #dee2e6;
+}
+.ap {
+  border-left-color: #dee2e6;
+}
+.aq {
+  border-right-width: 1px;
+}
+.ar {
+  border-bottom-width: 1px;
+}
+.as {
+  border-left-width: 1px;
+}
+.at {
+  border-top-width: 0;
+}
+.au {
+  border-top-left-radius: 0;
+}
+.av {
+  border-top-right-radius: 0;
+}
+.aw {
+  border-bottom-left-radius: inherit;
+}
+.ax {
+  border-bottom-right-radius: inherit;
+}
+.z:active {
+  color: #fff;
+}
+.ab:active {
+  background-color: #212529;
+}
+.ac:active {
+  border-top-color: #212529;
+}
+.ae:active {
+  border-right-color: #212529;
+}
+.af:active {
+  border-bottom-color: #212529;
+}
+.ag:active {
+  border-left-color: #212529;
+}
+
+
+<ul data-testid="list-group" class="a b c d e f g h list-group">
+  <li
+    data-testid="list-group-item"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as i j k l m n o p q r s t u v w x y z list-group-item"
+  >
+    First List Item
+  </li>
+  <li
+    data-testid="list-group-item"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av j k l m p q r s t u v w x y z list-group-item"
+  >
+    Second List Item
+  </li>
+  <li
+    data-testid="list-group-item"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax j k l m r s t u v w x y z list-group-item"
+  >
+    Third List Item
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroup should render a flush ListGroup with three items 1`] = `
+".a {
+  border-top-left-radius: 0;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 0;
+}
+.e {
+  display: flex;
+}
+.f {
+  flex-direction: column;
+}
+.g {
+  padding-left: 0;
+}
+.h {
+  margin-bottom: 0;
+}
+.i {
+  border-top-width: 1px;
+}
+.j {
+  padding-top: 0.5rem;
+}
+.k {
+  padding-left: 1rem;
+}
+.l {
+  padding-bottom: 0.5rem;
+}
+.m {
+  padding-right: 1rem;
+}
+.n {
+  border-bottom-right-radius: 1px;
+}
+.o {
+  z-index: auto;
+}
+.p {
+  color: #212529;
+}
+.q {
+  background-color: #fff;
+}
+.r {
+  position: relative;
+}
+.s {
+  display: block;
+}
+.t {
+  width: 100%;
+}
+.u:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.v:disabled {
+  pointer-events: none;
+}
+.ae {
+  text-decoration-line: none;
+}
+.af {
+  border-top-style: solid;
+}
+.ag {
+  border-right-style: solid;
+}
+.ah {
+  border-bottom-style: solid;
+}
+.ai {
+  border-left-style: solid;
+}
+.aj {
+  border-top-color: #dee2e6;
+}
+.ak {
+  border-right-color: #dee2e6;
+}
+.al {
+  border-bottom-color: #dee2e6;
+}
+.am {
+  border-left-color: #dee2e6;
+}
+.an {
+  border-right-width: 1px;
+}
+.ao {
+  border-bottom-width: 1px;
+}
+.ap {
+  border-left-width: 1px;
+}
+.aq {
+  border-top-width: 0;
+}
+.ar {
+  border-bottom-width: 0;
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  background-color: #212529;
+}
+.y:active {
+  border-top-color: #212529;
+}
+.z:active {
+  border-right-color: #212529;
+}
+.ab:active {
+  border-bottom-color: #212529;
+}
+.ac:active {
+  border-left-color: #212529;
+}
+
+
+<ul data-testid="list-group" class="a b c d e f g h list-group">
+  <li
+    data-testid="list-group-item"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap b d i j k l m n o p q r s t u v w x y z list-group-item"
+  >
+    First List Item
+  </li>
+  <li
+    data-testid="list-group-item"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq b d j k l m n o p q r s t u v w x y z list-group-item"
+  >
+    Second List Item
+  </li>
+  <li
+    data-testid="list-group-item"
+    class="a ab ac ae af ag ah ai aj ak al am an ap aq ar b d j k l m n o p q r s t u v w x y z list-group-item"
+  >
+    Third List Item
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroup should render a flush ListGroup with three items for a card 1`] = `
+".a {
+  border-top-left-radius: 0;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 0;
+}
+.e {
+  display: flex;
+}
+.f {
+  flex-direction: column;
+}
+.g {
+  padding-left: 0;
+}
+.h {
+  margin-bottom: 0;
+}
+.i {
+  border-top-width: 0;
+}
+.j {
+  padding-top: 0.5rem;
+}
+.k {
+  padding-left: 1rem;
+}
+.l {
+  padding-bottom: 0.5rem;
+}
+.m {
+  padding-right: 1rem;
+}
+.n {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.o {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.p {
+  border-bottom-right-radius: 1px;
+}
+.q {
+  z-index: auto;
+}
+.r {
+  color: #212529;
+}
+.s {
+  background-color: #fff;
+}
+.t {
+  position: relative;
+}
+.u {
+  display: block;
+}
+.v {
+  width: 100%;
+}
+.w:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.x:disabled {
+  pointer-events: none;
+}
+.ag {
+  text-decoration-line: none;
+}
+.ah {
+  border-top-style: solid;
+}
+.ai {
+  border-right-style: solid;
+}
+.aj {
+  border-bottom-style: solid;
+}
+.ak {
+  border-left-style: solid;
+}
+.al {
+  border-top-color: #dee2e6;
+}
+.am {
+  border-right-color: #dee2e6;
+}
+.an {
+  border-bottom-color: #dee2e6;
+}
+.ao {
+  border-left-color: #dee2e6;
+}
+.ap {
+  border-right-width: 1px;
+}
+.aq {
+  border-bottom-width: 1px;
+}
+.ar {
+  border-left-width: 1px;
+}
+.as {
+  border-bottom-left-radius: calc(0.375rem - 1px);
+}
+.at {
+  border-bottom-right-radius: calc(0.375rem - 1px);
+}
+.au {
+  border-bottom-width: 0;
+}
+.y:active {
+  color: #fff;
+}
+.z:active {
+  background-color: #212529;
+}
+.ab:active {
+  border-top-color: #212529;
+}
+.ac:active {
+  border-right-color: #212529;
+}
+.ae:active {
+  border-bottom-color: #212529;
+}
+.af:active {
+  border-left-color: #212529;
+}
+
+
+<ul data-testid="list-group" class="a b c d e f g h list-group">
+  <li
+    data-testid="list-group-item"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar d i j k l m n o p q r s t u v w x y z list-group-item"
+  >
+    First List Item
+  </li>
+  <li
+    data-testid="list-group-item"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar b d i j k l m p q r s t u v w x y z list-group-item"
+  >
+    Second List Item
+  </li>
+  <li
+    data-testid="list-group-item"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap ar as at au b i j k l m q r s t u v w x y z list-group-item"
+  >
+    Third List Item
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroup should render a horizontal ListGroup with three items 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  display: flex;
+}
+.f {
+  flex-direction: row;
+}
+.g {
+  padding-left: 0;
+}
+.h {
+  margin-bottom: 0;
+}
+.i {
+  border-top-width: 1px;
+}
+.j {
+  padding-top: 0.5rem;
+}
+.k {
+  padding-left: 1rem;
+}
+.l {
+  padding-bottom: 0.5rem;
+}
+.m {
+  padding-right: 1rem;
+}
+.n {
+  border-top-left-radius: inherit;
+}
+.o {
+  border-top-right-radius: 0;
+}
+.p {
+  border-bottom-right-radius: 0;
+}
+.q {
+  z-index: auto;
+}
+.r {
+  color: #212529;
+}
+.s {
+  background-color: #fff;
+}
+.t {
+  position: relative;
+}
+.u {
+  display: block;
+}
+.v {
+  width: 100%;
+}
+.w:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.x:disabled {
+  pointer-events: none;
+}
+.ag {
+  text-decoration-line: none;
+}
+.ah {
+  border-top-style: solid;
+}
+.ai {
+  border-right-style: solid;
+}
+.aj {
+  border-bottom-style: solid;
+}
+.ak {
+  border-left-style: solid;
+}
+.al {
+  border-top-color: #dee2e6;
+}
+.am {
+  border-right-color: #dee2e6;
+}
+.an {
+  border-bottom-color: #dee2e6;
+}
+.ao {
+  border-left-color: #dee2e6;
+}
+.ap {
+  border-right-width: 1px;
+}
+.aq {
+  border-bottom-width: 1px;
+}
+.ar {
+  border-left-width: 1px;
+}
+.as {
+  border-top-left-radius: 0;
+}
+.at {
+  border-bottom-left-radius: 0;
+}
+.au {
+  border-left-width: 0;
+}
+.av {
+  border-top-width: 0;
+}
+.aw {
+  border-bottom-right-radius: inherit;
+}
+.y:active {
+  color: #fff;
+}
+.z:active {
+  background-color: #212529;
+}
+.ab:active {
+  border-top-color: #212529;
+}
+.ac:active {
+  border-right-color: #212529;
+}
+.ae:active {
+  border-bottom-color: #212529;
+}
+.af:active {
+  border-left-color: #212529;
+}
+
+
+<ul data-testid="list-group" class="a b c d e f g h list-group">
+  <li
+    data-testid="list-group-item"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar d i j k l m n o p q r s t u v w x y z list-group-item"
+  >
+    First List Item
+  </li>
+  <li
+    data-testid="list-group-item"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq as at au i j k l m o p q r s t u v w x y z list-group-item"
+  >
+    Second List Item
+  </li>
+  <li
+    data-testid="list-group-item"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at av aw b j k l m q r s t u v w x y z list-group-item"
+  >
+    Third List Item
+  </li>
+</ul>
+;
+"
+`;
+
+exports[`components/ListGroup/ListGroup should render a numbered ListGroup with three items 1`] = `
+".a {
+  border-top-left-radius: 0.375rem;
+}
+.b {
+  border-top-right-radius: 0.375rem;
+}
+.c {
+  border-bottom-right-radius: 0.375rem;
+}
+.d {
+  border-bottom-left-radius: 0.375rem;
+}
+.e {
+  display: flex;
+}
+.f {
+  flex-direction: column;
+}
+.g {
+  padding-left: 0;
+}
+.h {
+  margin-bottom: 0;
+}
+.i {
+  list-style-type: none;
+}
+.j {
+  counter-reset: section;
+}
+.k {
+  border-top-width: 1px;
+}
+.l {
+  padding-top: 0.5rem;
+}
+.m {
+  padding-left: 1rem;
+}
+.n {
+  padding-bottom: 0.5rem;
+}
+.o {
+  padding-right: 1rem;
+}
+.p {
+  border-top-left-radius: inherit;
+}
+.q {
+  border-top-right-radius: inherit;
+}
+.r {
+  border-bottom-left-radius: 0;
+}
+.s {
+  border-bottom-right-radius: 0;
+}
+.t {
+  z-index: auto;
+}
+.u {
+  color: #212529;
+}
+.v {
+  background-color: #fff;
+}
+.w {
+  position: relative;
+}
+.x {
+  display: block;
+}
+.y {
+  width: 100%;
+}
+.z::before {
+  content: counters(section, ".") ". ";
+}
+.ab::before {
+  counter-increment: section;
+}
+.ac:disabled {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ae:disabled {
+  pointer-events: none;
+}
+.al {
+  text-decoration-line: none;
+}
+.am {
+  border-top-style: solid;
+}
+.an {
+  border-right-style: solid;
+}
+.ao {
+  border-bottom-style: solid;
+}
+.ap {
+  border-left-style: solid;
+}
+.aq {
+  border-top-color: #dee2e6;
+}
+.ar {
+  border-right-color: #dee2e6;
+}
+.as {
+  border-bottom-color: #dee2e6;
+}
+.at {
+  border-left-color: #dee2e6;
+}
+.au {
+  border-right-width: 1px;
+}
+.av {
+  border-bottom-width: 1px;
+}
+.aw {
+  border-left-width: 1px;
+}
+.ax {
+  border-top-width: 0;
+}
+.ay {
+  border-top-left-radius: 0;
+}
+.az {
+  border-top-right-radius: 0;
+}
+.ba {
+  border-bottom-left-radius: inherit;
+}
+.bb {
+  border-bottom-right-radius: inherit;
+}
+.af:active {
+  color: #fff;
+}
+.ag:active {
+  background-color: #212529;
+}
+.ah:active {
+  border-top-color: #212529;
+}
+.ai:active {
+  border-right-color: #212529;
+}
+.aj:active {
+  border-bottom-color: #212529;
+}
+.ak:active {
+  border-left-color: #212529;
+}
+
+
+<ol data-testid="list-group" class="a b c d e f g h i j list-group">
+  <li
+    data-testid="list-group-item"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw k l m n o p q r s t u v w x y z list-group-item"
+  >
+    First List Item
+  </li>
+  <li
+    data-testid="list-group-item"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az l m n o r s t u v w x y z list-group-item"
+  >
+    Second List Item
+  </li>
+  <li
+    data-testid="list-group-item"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb l m n o t u v w x y z list-group-item"
+  >
+    Third List Item
+  </li>
+</ol>
+;
+"
+`;

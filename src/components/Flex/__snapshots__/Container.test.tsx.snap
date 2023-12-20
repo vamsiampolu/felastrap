@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Flex/Container should have max-width based on min breakpoint lg 1`] = `
+".a {
+  margin-left: auto;
+}
+.b {
+  margin-right: auto;
+}
+.c {
+  padding-left: 0.75rem;
+}
+.d {
+  padding-right: 0.75rem;
+}
+.e {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .f {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .g {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1320px) {
+  .h {
+    max-width: 1400px;
+  }
+}
+
+
+<div
+  data-testid="container"
+  class="a b c d e f g h container test-container"
+  id="test-page"
+>
+  <div>Hello</div>
+</div>
+;
+"
+`;
+
+exports[`components/Flex/Container should have max-width based on min breakpoint md 1`] = `
+".a {
+  margin-left: auto;
+}
+.b {
+  margin-right: auto;
+}
+.c {
+  padding-left: 0.75rem;
+}
+.d {
+  padding-right: 0.75rem;
+}
+.e {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .f {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .g {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .h {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1320px) {
+  .i {
+    max-width: 1400px;
+  }
+}
+
+
+<div
+  data-testid="container"
+  class="a b c d e f g h i container test-container"
+  id="test-page"
+>
+  <div>Hello</div>
+</div>
+;
+"
+`;
+
+exports[`components/Flex/Container should have max-width based on min breakpoint sm 1`] = `
+".a {
+  margin-left: auto;
+}
+.b {
+  margin-right: auto;
+}
+.c {
+  padding-left: 0.75rem;
+}
+.d {
+  padding-right: 0.75rem;
+}
+.e {
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .f {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .g {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .h {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .i {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1320px) {
+  .j {
+    max-width: 1400px;
+  }
+}
+
+
+<div
+  data-testid="container"
+  class="a b c d e f g h i j container test-container"
+  id="test-page"
+>
+  <div>Hello</div>
+</div>
+;
+"
+`;
+
+exports[`components/Flex/Container should have max-width based on min breakpoint xl 1`] = `
+".a {
+  margin-left: auto;
+}
+.b {
+  margin-right: auto;
+}
+.c {
+  padding-left: 0.75rem;
+}
+.d {
+  padding-right: 0.75rem;
+}
+.e {
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  .f {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1320px) {
+  .g {
+    max-width: 1400px;
+  }
+}
+
+
+<div
+  data-testid="container"
+  class="a b c d e f g container test-container"
+  id="test-page"
+>
+  <div>Hello</div>
+</div>
+;
+"
+`;
+
+exports[`components/Flex/Container should have max-width based on min breakpoint xxl 1`] = `
+".a {
+  margin-left: auto;
+}
+.b {
+  margin-right: auto;
+}
+.c {
+  padding-left: 0.75rem;
+}
+.d {
+  padding-right: 0.75rem;
+}
+.e {
+  width: 100%;
+}
+@media (min-width: 1320px) {
+  .f {
+    max-width: 1400px;
+  }
+}
+
+
+<div
+  data-testid="container"
+  class="a b c d e f container test-container"
+  id="test-page"
+>
+  <div>Hello</div>
+</div>
+;
+"
+`;
+
+exports[`components/Flex/Container should render a container 1`] = `
+".a {
+  margin-left: auto;
+}
+.b {
+  margin-right: auto;
+}
+.c {
+  padding-left: 0.75rem;
+}
+.d {
+  padding-right: 0.75rem;
+}
+.e {
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .f {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .g {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .h {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .i {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1320px) {
+  .j {
+    max-width: 1400px;
+  }
+}
+
+
+<div data-testid="container" class="a b c d e f g h i j container">
+  <div>Hello</div>
+</div>
+;
+"
+`;
+
+exports[`components/Flex/Container should render a container with a className and id 1`] = `
+".a {
+  margin-left: auto;
+}
+.b {
+  margin-right: auto;
+}
+.c {
+  padding-left: 0.75rem;
+}
+.d {
+  padding-right: 0.75rem;
+}
+.e {
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .f {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .g {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .h {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .i {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1320px) {
+  .j {
+    max-width: 1400px;
+  }
+}
+
+
+<div
+  data-testid="container"
+  class="a b c d e f g h i j container test-container"
+  id="test-page"
+>
+  <div>Hello</div>
+</div>
+;
+"
+`;

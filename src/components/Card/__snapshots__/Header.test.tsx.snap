@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Card/Header should render a card header 1`] = `
+".a {
+  -webkit-background-color: rgba(33, 37, 41, 0.03);
+  background-color: rgba(33, 37, 41, 0.03);
+}
+.b {
+  color: rgb(33, 37, 41);
+}
+.c {
+  margin-bottom: 0;
+}
+.d {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.e {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.f {
+  border-bottom-right-radius:;
+}
+.g {
+  border-bottom-left-radius: 0;
+}
+.h {
+  padding-top: 0.5rem;
+}
+.i {
+  padding-right: 1rem;
+}
+.j {
+  padding-bottom: 0.5rem;
+}
+.k {
+  padding-left: 1rem;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  border-bottom-style: solid;
+}
+.n {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+
+
+<div data-testid="card-header" class="a b c d e f g h i j k l m n">
+  Card header
+</div>
+;
+"
+`;
+
+exports[`components/Card/Header should render a card header when body has a top image 1`] = `
+".a {
+  -webkit-background-color: rgba(33, 37, 41, 0.03);
+  background-color: rgba(33, 37, 41, 0.03);
+}
+.b {
+  color: rgb(33, 37, 41);
+}
+.c {
+  margin-bottom: 0;
+}
+.d {
+  padding-top: 0.5rem;
+}
+.e {
+  padding-right: 1rem;
+}
+.f {
+  padding-bottom: 0.5rem;
+}
+.g {
+  padding-left: 1rem;
+}
+.h {
+  border-bottom-width: 1px;
+}
+.i {
+  border-bottom-style: solid;
+}
+.j {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+
+
+<div data-testid="card-header" class="a b c d e f g h i j">Card header</div>
+;
+"
+`;

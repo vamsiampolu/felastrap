@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Carousel/Caption should render a carousel caption 1`] = `
+".a {
+  position: absolute;
+}
+.b {
+  right: 15%;
+}
+.c {
+  bottom: 1.25rem;
+}
+.d {
+  left: 15%;
+}
+.e {
+  padding-top: 1.25rem;
+}
+.f {
+  padding-bottom: 1.25rem;
+}
+.g {
+  color: #fff;
+}
+.h {
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .i {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .j {
+    display: block;
+  }
+}
+
+
+<div
+  data-testid="carousel-caption"
+  class="a b c d e f g h i j carousel-caption"
+>
+  <h5>Title</h5>
+  <p>Description</p>
+</div>
+;
+"
+`;

@@ -1,0 +1,389 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Navbar/NavbarCollapse should render a navbar collapse component containing a toggle and content 1`] = `
+".a {
+  font-size: 1.25rem;
+}
+.b {
+  line-height: 1;
+}
+.c {
+  color: rgba(0, 0, 0, 0.65);
+}
+.d {
+  background-color: transparent;
+}
+.n {
+  transition-property: box-shadow;
+}
+.o {
+  transition-duration: 0.15s;
+}
+.p {
+  transition-delay: ease-in-out;
+}
+.q {
+  transition-timing-function: ease;
+}
+.r {
+  border-top-left-radius: 0.375rem;
+}
+.s {
+  border-top-right-radius: 0.375rem;
+}
+.t {
+  border-bottom-right-radius: 0.375rem;
+}
+.u {
+  border-bottom-left-radius: 0.375rem;
+}
+.v {
+  border-top-width: 1px;
+}
+.w {
+  border-right-width: 1px;
+}
+.x {
+  border-bottom-width: 1px;
+}
+.y {
+  border-left-width: 1px;
+}
+.z {
+  border-top-style: solid;
+}
+.ab {
+  border-right-style: solid;
+}
+.ac {
+  border-bottom-style: solid;
+}
+.ae {
+  border-left-style: solid;
+}
+.af {
+  border-top-color: rgba(0, 0, 0, 0.15);
+}
+.ag {
+  border-right-color: rgba(0, 0, 0, 0.15);
+}
+.ah {
+  border-bottom-color: rgba(0, 0, 0, 0.15);
+}
+.ai {
+  border-left-color: rgba(0, 0, 0, 0.15);
+}
+.aj {
+  padding-top: 0.25rem;
+}
+.ak {
+  padding-right: 0.75rem;
+}
+.al {
+  padding-bottom: 0.25rem;
+}
+.am {
+  padding-left: 0.75rem;
+}
+.an {
+  border-top-left-radius: 4px;
+}
+.ao {
+  border-top-right-radius: 0;
+}
+.ap {
+  border-bottom-right-radius: 0;
+}
+.aq {
+  border-bottom-left-radius: 4px;
+}
+.ar {
+  padding-top: 6px;
+}
+.as {
+  padding-bottom: 6px;
+}
+.at {
+  padding-left: 12px;
+}
+.au {
+  padding-right: 12px;
+}
+.av {
+  background-color: #fff;
+}
+.aw {
+  background-image: none;
+}
+.ax {
+  color: #333;
+}
+.ay {
+  cursor: pointer;
+}
+.az {
+  display: inline-block;
+}
+.ba {
+  font-size: 14px;
+}
+.bb {
+  font-weight: 400;
+}
+.bc {
+  line-height: 1.42857143;
+}
+.bd {
+  margin-bottom: 0;
+}
+.be {
+  text-align: center;
+}
+.bf {
+  touch-action: manipulation;
+}
+.bg {
+  white-space: nowrap;
+}
+.bh {
+  vertical-align: middle;
+}
+.bi {
+  user-select: none;
+}
+.bs:disabled {
+  background-color: #fff;
+}
+.bt:disabled {
+  color: #333;
+}
+.bu:disabled {
+  box-shadow: none;
+}
+.bv:disabled {
+  cursor: not-allowed;
+}
+.bw:disabled {
+  filter: alpha(opacity=65);
+}
+.bx:disabled {
+  opacity: 0.65;
+}
+.by:disabled {
+  pointer-events: none;
+}
+.bz:disabled {
+  border-top-color: #ccc;
+}
+.ca:disabled {
+  border-right-color: #ccc;
+}
+.cb:disabled {
+  border-bottom-color: #ccc;
+}
+.cc:disabled {
+  border-left-color: #ccc;
+}
+.cr {
+  border-top-color: #ccc;
+}
+.cs {
+  border-right-color: #ccc;
+}
+.ct {
+  border-bottom-color: #ccc;
+}
+.cu {
+  border-left-color: #ccc;
+}
+.cv {
+  width: 1.5em;
+}
+.cw {
+  height: 1.5em;
+}
+.cx {
+  background-image: url(test-file-stub);
+}
+.cy {
+  background-repeat: no-repeat;
+}
+.cz {
+  background-position: center;
+}
+.da {
+  background-size: 100%;
+}
+.dc {
+  flex-basis: 100%;
+}
+.dd {
+  flex-grow: 1;
+}
+.de {
+  align-items: center;
+}
+.dj {
+  width: auto;
+}
+.dk {
+  height: 0;
+}
+.dl {
+  transition-property: height;
+}
+.dm {
+  transition-duration: 0.35s;
+}
+.dn {
+  transition-delay: ease;
+}
+.do {
+  overflow-x: hidden;
+}
+.dp {
+  overflow-y: hidden;
+}
+.i:hover {
+  text-decoration-line: none;
+}
+.cl:hover {
+  background-color: #e6e6e6;
+}
+.cm:hover {
+  color: #333;
+}
+.cn:hover {
+  border-top-color: #adadad;
+}
+.co:hover {
+  border-right-color: #adadad;
+}
+.cp:hover {
+  border-bottom-color: #adadad;
+}
+.cq:hover {
+  border-left-color: #adadad;
+}
+.j:focus {
+  box-shadow: 0 0 0 0.25rem;
+}
+.k:focus {
+  outline-width: 0;
+}
+.l:focus {
+  text-decoration-line: none;
+}
+.cd:focus-visible {
+  color: #333;
+}
+.ce:focus-visible {
+  background-color: #e6e6e6;
+}
+.cf:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.cg:focus-visible {
+  outline-width: 0;
+}
+.ch:focus-visible {
+  border-top-color: #adadad;
+}
+.ci:focus-visible {
+  border-right-color: #adadad;
+}
+.cj:focus-visible {
+  border-bottom-color: #adadad;
+}
+.ck:focus-visible {
+  border-left-color: #adadad;
+}
+.bj:active {
+  color: #333;
+}
+.bk:active {
+  background-color: #e6e6e6;
+}
+.bl:active {
+  background-image: none;
+}
+.bm:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.bn:active {
+  outline-width: 0;
+}
+.bo:active {
+  border-top-color: #adadad;
+}
+.bp:active {
+  border-right-color: #adadad;
+}
+.bq:active {
+  border-bottom-color: #adadad;
+}
+.br:active {
+  border-left-color: #adadad;
+}
+@media (min-width: 768px) {
+  .m {
+    display: none !important;
+  }
+  .db {
+    display: none;
+  }
+  .df {
+    display: flex !important;
+  }
+  .dg {
+    flex-basis: auto;
+  }
+  .dh {
+    flex-grow: 1;
+  }
+  .di {
+    align-items: center;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .e {
+    transition-property: none;
+  }
+  .f {
+    transition-duration: 0s;
+  }
+  .g {
+    transition-delay: 0s;
+  }
+  .h {
+    transition-timing-function: ease;
+  }
+}
+
+
+<button
+  data-testid="navbar-toggle"
+  class="ab ac ae an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu v w x y z a ab ac ae af ag ah ai aj ak al am b c d e f g h i j k l m n o p q r s t u v w x y z navbar-toggler"
+  type="button"
+  aria-controls="navbarScroll"
+  aria-expanded="true"
+  aria-label="Toggle Navigation"
+>
+  <span
+    data-testid="navbar-toggle-icon"
+    class="az bh cv cw cx cy cz da db navbar-toggle-icon"
+  ></span>
+</button>
+<div
+  data-testid="collapse"
+  class="dj dk dl dm dn do dp e f g h q collapse dc dd de df dg dh di navbar-collapse"
+>
+  <div data-testid="collapse-content" id="navbar-collapse-content">
+    <div data-testid="collapse-container" class="content-container">
+      Navbar Collapse
+    </div>
+  </div>
+</div>
+;
+"
+`;

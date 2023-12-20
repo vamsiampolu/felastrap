@@ -1,0 +1,501 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Carousel/AutoplayControls should render a pause button when autoplaying 1`] = `
+".a {
+  position: absolute;
+}
+.b {
+  bottom: 10px;
+}
+.c {
+  left: 50%;
+}
+.d {
+  transform: translateX(-50%);
+}
+.e {
+  z-index: 5;
+}
+.f {
+  border-top-left-radius: 4px;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-right-radius: 0;
+}
+.i {
+  border-bottom-left-radius: 4px;
+}
+.j {
+  padding-top: 6px;
+}
+.k {
+  padding-bottom: 6px;
+}
+.l {
+  padding-left: 12px;
+}
+.m {
+  padding-right: 12px;
+}
+.n {
+  background-color: #fff;
+}
+.o {
+  background-image: none;
+}
+.p {
+  color: #333;
+}
+.q {
+  cursor: pointer;
+}
+.r {
+  display: inline-block;
+}
+.s {
+  font-size: 14px;
+}
+.t {
+  font-weight: 400;
+}
+.u {
+  line-height: 1.42857143;
+}
+.v {
+  margin-bottom: 0;
+}
+.w {
+  text-align: center;
+}
+.x {
+  touch-action: manipulation;
+}
+.y {
+  white-space: nowrap;
+}
+.z {
+  vertical-align: middle;
+}
+.ab {
+  user-select: none;
+}
+.am:disabled {
+  background-color: #fff;
+}
+.an:disabled {
+  color: #333;
+}
+.ao:disabled {
+  box-shadow: none;
+}
+.ap:disabled {
+  cursor: not-allowed;
+}
+.aq:disabled {
+  filter: alpha(opacity=65);
+}
+.ar:disabled {
+  opacity: 0.65;
+}
+.as:disabled {
+  pointer-events: none;
+}
+.at:disabled {
+  border-top-color: #ccc;
+}
+.au:disabled {
+  border-right-color: #ccc;
+}
+.av:disabled {
+  border-bottom-color: #ccc;
+}
+.aw:disabled {
+  border-left-color: #ccc;
+}
+.bl {
+  border-top-width: 1px;
+}
+.bm {
+  border-right-width: 1px;
+}
+.bn {
+  border-bottom-width: 1px;
+}
+.bo {
+  border-left-width: 1px;
+}
+.bp {
+  border-top-style: solid;
+}
+.bq {
+  border-right-style: solid;
+}
+.br {
+  border-bottom-style: solid;
+}
+.bs {
+  border-left-style: solid;
+}
+.bt {
+  border-top-color: #ccc;
+}
+.bu {
+  border-right-color: #ccc;
+}
+.bv {
+  border-bottom-color: #ccc;
+}
+.bw {
+  border-left-color: #ccc;
+}
+.bf:hover {
+  background-color: #e6e6e6;
+}
+.bg:hover {
+  color: #333;
+}
+.bh:hover {
+  border-top-color: #adadad;
+}
+.bi:hover {
+  border-right-color: #adadad;
+}
+.bj:hover {
+  border-bottom-color: #adadad;
+}
+.bk:hover {
+  border-left-color: #adadad;
+}
+.ax:focus-visible {
+  color: #333;
+}
+.ay:focus-visible {
+  background-color: #e6e6e6;
+}
+.az:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.ba:focus-visible {
+  outline-width: 0;
+}
+.bb:focus-visible {
+  border-top-color: #adadad;
+}
+.bc:focus-visible {
+  border-right-color: #adadad;
+}
+.bd:focus-visible {
+  border-bottom-color: #adadad;
+}
+.be:focus-visible {
+  border-left-color: #adadad;
+}
+.ac:active {
+  color: #333;
+}
+.ae:active {
+  background-color: #e6e6e6;
+}
+.af:active {
+  background-image: none;
+}
+.ag:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ah:active {
+  outline-width: 0;
+}
+.ai:active {
+  border-top-color: #adadad;
+}
+.aj:active {
+  border-right-color: #adadad;
+}
+.ak:active {
+  border-bottom-color: #adadad;
+}
+.al:active {
+  border-left-color: #adadad;
+}
+
+
+<div
+  data-testid="autoplay-controls-wrapper"
+  class="a b c d e autoplay-controls"
+>
+  <button
+    data-testid="carousel-pause-btn"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw f g h i j k l m n o p q r s t u v w x y z"
+    style="background-color: unset"
+  >
+    <svg
+      data-testid="carousel-pause-icon"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 16 16"
+      width="16"
+      height="16"
+    >
+      <path
+        fill="#000"
+        d="M5.5 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5z"
+      ></path>
+    </svg>
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/Carousel/AutoplayControls should render a play button 1`] = `
+".a {
+  position: absolute;
+}
+.b {
+  bottom: 10px;
+}
+.c {
+  left: 50%;
+}
+.d {
+  transform: translateX(-50%);
+}
+.e {
+  z-index: 5;
+}
+.f {
+  border-top-left-radius: 4px;
+}
+.g {
+  border-top-right-radius: 0;
+}
+.h {
+  border-bottom-right-radius: 0;
+}
+.i {
+  border-bottom-left-radius: 4px;
+}
+.j {
+  padding-top: 6px;
+}
+.k {
+  padding-bottom: 6px;
+}
+.l {
+  padding-left: 12px;
+}
+.m {
+  padding-right: 12px;
+}
+.n {
+  background-color: #fff;
+}
+.o {
+  background-image: none;
+}
+.p {
+  color: #333;
+}
+.q {
+  cursor: pointer;
+}
+.r {
+  display: inline-block;
+}
+.s {
+  font-size: 14px;
+}
+.t {
+  font-weight: 400;
+}
+.u {
+  line-height: 1.42857143;
+}
+.v {
+  margin-bottom: 0;
+}
+.w {
+  text-align: center;
+}
+.x {
+  touch-action: manipulation;
+}
+.y {
+  white-space: nowrap;
+}
+.z {
+  vertical-align: middle;
+}
+.ab {
+  user-select: none;
+}
+.am:disabled {
+  background-color: #fff;
+}
+.an:disabled {
+  color: #333;
+}
+.ao:disabled {
+  box-shadow: none;
+}
+.ap:disabled {
+  cursor: not-allowed;
+}
+.aq:disabled {
+  filter: alpha(opacity=65);
+}
+.ar:disabled {
+  opacity: 0.65;
+}
+.as:disabled {
+  pointer-events: none;
+}
+.at:disabled {
+  border-top-color: #ccc;
+}
+.au:disabled {
+  border-right-color: #ccc;
+}
+.av:disabled {
+  border-bottom-color: #ccc;
+}
+.aw:disabled {
+  border-left-color: #ccc;
+}
+.bl {
+  border-top-width: 1px;
+}
+.bm {
+  border-right-width: 1px;
+}
+.bn {
+  border-bottom-width: 1px;
+}
+.bo {
+  border-left-width: 1px;
+}
+.bp {
+  border-top-style: solid;
+}
+.bq {
+  border-right-style: solid;
+}
+.br {
+  border-bottom-style: solid;
+}
+.bs {
+  border-left-style: solid;
+}
+.bt {
+  border-top-color: #ccc;
+}
+.bu {
+  border-right-color: #ccc;
+}
+.bv {
+  border-bottom-color: #ccc;
+}
+.bw {
+  border-left-color: #ccc;
+}
+.bf:hover {
+  background-color: #e6e6e6;
+}
+.bg:hover {
+  color: #333;
+}
+.bh:hover {
+  border-top-color: #adadad;
+}
+.bi:hover {
+  border-right-color: #adadad;
+}
+.bj:hover {
+  border-bottom-color: #adadad;
+}
+.bk:hover {
+  border-left-color: #adadad;
+}
+.ax:focus-visible {
+  color: #333;
+}
+.ay:focus-visible {
+  background-color: #e6e6e6;
+}
+.az:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.ba:focus-visible {
+  outline-width: 0;
+}
+.bb:focus-visible {
+  border-top-color: #adadad;
+}
+.bc:focus-visible {
+  border-right-color: #adadad;
+}
+.bd:focus-visible {
+  border-bottom-color: #adadad;
+}
+.be:focus-visible {
+  border-left-color: #adadad;
+}
+.ac:active {
+  color: #333;
+}
+.ae:active {
+  background-color: #e6e6e6;
+}
+.af:active {
+  background-image: none;
+}
+.ag:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ah:active {
+  outline-width: 0;
+}
+.ai:active {
+  border-top-color: #adadad;
+}
+.aj:active {
+  border-right-color: #adadad;
+}
+.ak:active {
+  border-bottom-color: #adadad;
+}
+.al:active {
+  border-left-color: #adadad;
+}
+
+
+<div
+  data-testid="autoplay-controls-wrapper"
+  class="a b c d e autoplay-controls"
+>
+  <button
+    data-testid="carousel-play-btn"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw f g h i j k l m n o p q r s t u v w x y z"
+    style="background-color: unset"
+  >
+    <svg
+      data-testid="carousel-play-icon"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 16 16"
+      fill="currentcolor"
+      width="16"
+      height="16"
+    >
+      <path
+        fill="#000"
+        stroke="#000"
+        d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"
+      ></path>
+    </svg>
+  </button>
+</div>
+;
+"
+`;

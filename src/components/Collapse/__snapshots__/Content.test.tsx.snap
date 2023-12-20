@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Collapse/Content should render collapsible content with a className 1`] = `
+".a {
+  width: auto;
+}
+.b {
+  height: 0;
+}
+.g {
+  transition-property: height;
+}
+.h {
+  transition-duration: 0.35s;
+}
+.i {
+  transition-delay: ease;
+}
+.j {
+  transition-timing-function: ease;
+}
+.k {
+  overflow-x: hidden;
+}
+.l {
+  overflow-y: hidden;
+}
+@media (prefers-reduced-motion: reduce) {
+  .c {
+    transition-property: none;
+  }
+  .d {
+    transition-duration: 0s;
+  }
+  .e {
+    transition-delay: 0s;
+  }
+  .f {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div
+  data-testid="collapse"
+  class="a b c d e f g h i j k l collapse collapse-content-wrapper"
+>
+  <div data-testid="collapse-content" id="">
+    <div data-testid="collapse-container" class="content-container">
+      Collapse Content
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Collapse/Content should render detached collapsible Content 1`] = `
+".a {
+  width: auto;
+}
+.b {
+  height: 0;
+}
+.g {
+  transition-property: height;
+}
+.h {
+  transition-duration: 0.35s;
+}
+.i {
+  transition-delay: ease;
+}
+.j {
+  transition-timing-function: ease;
+}
+.k {
+  overflow-x: hidden;
+}
+.l {
+  overflow-y: hidden;
+}
+@media (prefers-reduced-motion: reduce) {
+  .c {
+    transition-property: none;
+  }
+  .d {
+    transition-duration: 0s;
+  }
+  .e {
+    transition-delay: 0s;
+  }
+  .f {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="portal" id="wrapper-collapse-content-collapse-content">
+  <div data-testid="collapse" class="a b c d e f g h i j k l collapse">
+    <div data-testid="collapse-content" id="collapse-content">
+      <div data-testid="collapse-container" class="content-container">
+        Collapse Content
+      </div>
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Collapse/Content should render the collapsible Content with an id 1`] = `
+".a {
+  width: auto;
+}
+.b {
+  height: 0;
+}
+.g {
+  transition-property: height;
+}
+.h {
+  transition-duration: 0.35s;
+}
+.i {
+  transition-delay: ease;
+}
+.j {
+  transition-timing-function: ease;
+}
+.k {
+  overflow-x: hidden;
+}
+.l {
+  overflow-y: hidden;
+}
+@media (prefers-reduced-motion: reduce) {
+  .c {
+    transition-property: none;
+  }
+  .d {
+    transition-duration: 0s;
+  }
+  .e {
+    transition-delay: 0s;
+  }
+  .f {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="collapse" class="a b c d e f g h i j k l collapse">
+  <div data-testid="collapse-content" id="collapse-content">
+    <div data-testid="collapse-container" class="content-container">
+      Collapse Content
+    </div>
+  </div>
+</div>
+;
+"
+`;

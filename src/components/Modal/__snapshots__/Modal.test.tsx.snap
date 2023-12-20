@@ -1,0 +1,3813 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Modal/Modal should render a Modal 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.a {
+  display: flex;
+}
+.b {
+  flex-direction: row;
+}
+.c {
+  flex-wrap: wrap;
+}
+.d {
+  margin-left: calc(-0.5 * 0.25rem);
+}
+.e {
+  margin-right: calc(-0.5 * 0.25rem);
+}
+.f {
+  padding-left: 0.75rem;
+}
+.g {
+  padding-right: 0.75rem;
+}
+.h {
+  margin-top: calc(-1 * 0.25rem);
+}
+.i {
+  width: 100%;
+}
+.y {
+  flex-shrink: 0;
+}
+.z {
+  flex-grow: 0;
+}
+.ab {
+  flex-basis: auto;
+}
+.ac {
+  width: 16.666666666666668% !important;
+}
+.ae {
+  margin-left: 25%;
+}
+.af {
+  padding-left: calc(0.5 * 0.25rem);
+}
+.ag {
+  padding-right: calc(0.5 * 0.25rem);
+}
+.ah {
+  margin-top: 0.25rem;
+}
+.ai {
+  border-top-left-radius: 4px;
+}
+.aj {
+  border-top-right-radius: 0;
+}
+.ak {
+  border-bottom-right-radius: 0;
+}
+.al {
+  border-bottom-left-radius: 4px;
+}
+.am {
+  padding-top: 6px;
+}
+.an {
+  padding-bottom: 6px;
+}
+.ao {
+  padding-left: 12px;
+}
+.ap {
+  padding-right: 12px;
+}
+.aq {
+  background-color: #0d6efd;
+}
+.ar {
+  background-image: none;
+}
+.as {
+  color: #fff;
+}
+.at {
+  cursor: pointer;
+}
+.au {
+  display: inline-block;
+}
+.av {
+  font-size: 14px;
+}
+.aw {
+  font-weight: 400;
+}
+.ax {
+  line-height: 1.42857143;
+}
+.ay {
+  margin-bottom: 0;
+}
+.az {
+  text-align: center;
+}
+.ba {
+  touch-action: manipulation;
+}
+.bb {
+  white-space: nowrap;
+}
+.bc {
+  vertical-align: middle;
+}
+.bd {
+  user-select: none;
+}
+.bn:disabled {
+  background-color: #0d6efd;
+}
+.bo:disabled {
+  color: #fff;
+}
+.bp:disabled {
+  box-shadow: none;
+}
+.bq:disabled {
+  cursor: not-allowed;
+}
+.br:disabled {
+  filter: alpha(opacity=65);
+}
+.bs:disabled {
+  opacity: 0.65;
+}
+.bt:disabled {
+  pointer-events: none;
+}
+.bu:disabled {
+  border-top-color: #0d6efd;
+}
+.bv:disabled {
+  border-right-color: #0d6efd;
+}
+.bw:disabled {
+  border-bottom-color: #0d6efd;
+}
+.bx:disabled {
+  border-left-color: #0d6efd;
+}
+.cm {
+  border-top-width: 1px;
+}
+.cn {
+  border-right-width: 1px;
+}
+.co {
+  border-bottom-width: 1px;
+}
+.cp {
+  border-left-width: 1px;
+}
+.cq {
+  border-top-style: solid;
+}
+.cr {
+  border-right-style: solid;
+}
+.cs {
+  border-bottom-style: solid;
+}
+.ct {
+  border-left-style: solid;
+}
+.cu {
+  border-top-color: #2e6da4;
+}
+.cv {
+  border-right-color: #2e6da4;
+}
+.cw {
+  border-bottom-color: #2e6da4;
+}
+.cx {
+  border-left-color: #2e6da4;
+}
+.cy {
+  background-color: #000;
+}
+.cz {
+  opacity: 0;
+}
+.da {
+  height: 100vh;
+}
+.db {
+  width: 100vw;
+}
+.dc {
+  left: 0;
+}
+.dd {
+  position: fixed;
+}
+.de {
+  top: 0;
+}
+.df {
+  z-index: 1050;
+}
+.dg {
+  height: 100%;
+}
+.dh {
+  margin-left: auto;
+}
+.di {
+  margin-right: auto;
+}
+.dj {
+  display: block;
+}
+.dk {
+  right: 0;
+}
+.dl {
+  bottom: 0;
+}
+.dm {
+  opacity: 1;
+}
+.dn {
+  overflow-x: hidden;
+}
+.do {
+  overflow-y: auto;
+}
+.dp {
+  transition-property: opacity;
+}
+.dq {
+  transition-duration: 0.15s;
+}
+.dr {
+  transition-delay: linear;
+}
+.ds {
+  transition-timing-function: ease;
+}
+.dt {
+  outline-width: 0;
+}
+.du {
+  transform: translate(0);
+}
+.dv {
+  position: relative;
+}
+.dw {
+  width: auto;
+}
+.dx {
+  margin-top: 1.75rem;
+}
+.dy {
+  margin-bottom: 1.75rem;
+}
+.dz {
+  max-width: 500px;
+}
+.ea {
+  animation-name: k1;
+}
+.eb {
+  animation-fill-mode: both;
+}
+.ec {
+  transition-property: transform;
+}
+.ed {
+  transition-duration: 0.3s;
+}
+.ee {
+  transition-delay: ease-out;
+}
+.ef {
+  background-color: #fff;
+}
+.eg {
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+.eh {
+  background-clip: padding-box;
+}
+.ei {
+  border-top-left-radius: 6px;
+}
+.ej {
+  border-top-right-radius: 6px;
+}
+.ek {
+  border-bottom-right-radius: 6px;
+}
+.el {
+  border-bottom-left-radius: 6px;
+}
+.em {
+  border-top-color: rgba(0, 0, 0, 0.2);
+}
+.en {
+  border-right-color: rgba(0, 0, 0, 0.2);
+}
+.eo {
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+.ep {
+  border-left-color: rgba(0, 0, 0, 0.2);
+}
+.eq {
+  justify-content: space-between;
+}
+.er {
+  border-bottom-color: #e5e5e5;
+}
+.es {
+  padding-top: 15px;
+}
+.et {
+  padding-right: 15px;
+}
+.eu {
+  padding-bottom: 15px;
+}
+.ev {
+  padding-left: 15px;
+}
+.ew {
+  margin-top: 0;
+}
+.ex {
+  margin-right: 0;
+}
+.ey {
+  margin-left: 0;
+}
+.ez {
+  margin-top: -2px;
+}
+.fa {
+  appearance: none;
+}
+.fb {
+  text-align: end;
+}
+.fc {
+  position: absolute;
+}
+.fd {
+  right: 2rem;
+}
+.fe {
+  top: 1rem;
+}
+.ff {
+  background-color: transparent;
+}
+.fg {
+  background-image: url(test-file-stub);
+}
+.fh {
+  background-repeat: no-repeat;
+}
+.fi {
+  background-size: 16px;
+}
+.fj {
+  background-position: center;
+}
+.fk {
+  padding-top: 1rem;
+}
+.fl {
+  padding-right: 1rem;
+}
+.fm {
+  padding-bottom: 1rem;
+}
+.fn {
+  padding-left: 1rem;
+}
+.fo {
+  border-top-width: 0;
+}
+.fp {
+  border-right-width: 0;
+}
+.fq {
+  border-bottom-width: 0;
+}
+.fr {
+  border-left-width: 0;
+}
+.fs {
+  border-bottom-color: #dee2e6;
+}
+.ft {
+  justify-content: flex-end;
+}
+.fu > * {
+  margin-top: 0.25rem;
+}
+.fv > * {
+  margin-right: 0.25rem;
+}
+.fw > * {
+  margin-bottom: 0.25rem;
+}
+.fx > * {
+  margin-left: 0.25rem;
+}
+.fy button + button {
+  margin-bottom: 0;
+}
+.fz button + button {
+  margin-left: 5px;
+}
+.ga {
+  padding-top: 0.75rem;
+}
+.gb {
+  padding-bottom: 0.75rem;
+}
+.gc {
+  padding-left: !important;
+}
+.gd {
+  background-color: #6c757d;
+}
+.gj:disabled {
+  background-color: #6c757d;
+}
+.gk:disabled {
+  border-top-color: #6c757d;
+}
+.gl:disabled {
+  border-right-color: #6c757d;
+}
+.gm:disabled {
+  border-bottom-color: #6c757d;
+}
+.gn:disabled {
+  border-left-color: #6c757d;
+}
+.gz {
+  border-top-color: #6c757d;
+}
+.ha {
+  border-right-color: #6c757d;
+}
+.hb {
+  border-bottom-color: #6c757d;
+}
+.hc {
+  border-left-color: #6c757d;
+}
+.cg:hover {
+  background-color: #0b5ed7;
+}
+.ch:hover {
+  color: #fff;
+}
+.ci:hover {
+  border-top-color: #0a58ca;
+}
+.cj:hover {
+  border-right-color: #0a58ca;
+}
+.ck:hover {
+  border-bottom-color: #0a58ca;
+}
+.cl:hover {
+  border-left-color: #0a58ca;
+}
+.gu:hover {
+  background-color: #5c636a;
+}
+.gv:hover {
+  border-top-color: #565e64;
+}
+.gw:hover {
+  border-right-color: #565e64;
+}
+.gx:hover {
+  border-bottom-color: #565e64;
+}
+.gy:hover {
+  border-left-color: #565e64;
+}
+.by:focus-visible {
+  color: #fff;
+}
+.bz:focus-visible {
+  background-color: #0b5ed7;
+}
+.ca:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.cb:focus-visible {
+  outline-width: 0;
+}
+.cc:focus-visible {
+  border-top-color: #0a58ca;
+}
+.cd:focus-visible {
+  border-right-color: #0a58ca;
+}
+.ce:focus-visible {
+  border-bottom-color: #0a58ca;
+}
+.cf:focus-visible {
+  border-left-color: #0a58ca;
+}
+.go:focus-visible {
+  background-color: #5c636a;
+}
+.gp:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+}
+.gq:focus-visible {
+  border-top-color: #565e64;
+}
+.gr:focus-visible {
+  border-right-color: #565e64;
+}
+.gs:focus-visible {
+  border-bottom-color: #565e64;
+}
+.gt:focus-visible {
+  border-left-color: #565e64;
+}
+.be:active {
+  color: #fff;
+}
+.bf:active {
+  background-color: #0a58ca;
+}
+.bg:active {
+  background-image: none;
+}
+.bh:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.bi:active {
+  outline-width: 0;
+}
+.bj:active {
+  border-top-color: #0a53be;
+}
+.bk:active {
+  border-right-color: #0a53be;
+}
+.bl:active {
+  border-bottom-color: #0a53be;
+}
+.bm:active {
+  border-left-color: #0a53be;
+}
+.ge:active {
+  background-color: #565e64;
+}
+.gf:active {
+  border-top-color: #51585e;
+}
+.gg:active {
+  border-right-color: #51585e;
+}
+.gh:active {
+  border-bottom-color: #51585e;
+}
+.gi:active {
+  border-left-color: #51585e;
+}
+@media (min-width: 576px) {
+  .j {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .k {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .l {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+@media (min-width: 768px) {
+  .m {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .n {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .o {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+@media (min-width: 992px) {
+  .p {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .q {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .r {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+@media (min-width: 1200px) {
+  .s {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .t {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .u {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+@media (min-width: 1320px) {
+  .v {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .w {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .x {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+
+
+<div class="a b c d e f g h i j k l m n o p q r s t u v w x">
+  <div class="ab ac ae af ag ah y z">
+    <button
+      data-testid="open-modal-btn"
+      class="ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx"
+    >
+      Open Modal
+    </button>
+  </div>
+  <div
+    data-testid="portal"
+    style="width: 100%"
+    id="bootstrap-modal-dialog-container"
+  >
+    <div
+      data-testid="modal-backdrop"
+      style="
+        transition: opacity display 300ms ease-in-out;
+        opacity: 0;
+        display: none;
+      "
+      class="cy cz da db dc dd de df bs-modal-backdrop"
+    ></div>
+    <div
+      data-testid="modal-overlay"
+      class="dc dd de df dg dh di dj dk dl dm dn do dp dq dr ds dt i modal bootstrap-modal-overlay"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="Basic Modal"
+      style="
+        transition: opacity display 300ms ease-in-out;
+        opacity: 0;
+        display: none;
+      "
+    >
+      <div
+        data-testid="modal-dialog"
+        class="dh di ds du dv dw dx dy dz ea eb ec ed ee bs-modal-dialog bootstrap-modal-dialog"
+        style="
+          transition: opacity display 300ms ease-in-out;
+          opacity: 0;
+          display: none;
+        "
+      >
+        <div
+          data-testid="modal-dialog-inner"
+          class="az cm cn co cp cq cr cs ct dt dv ef eg eh ei ej ek el em en eo ep bs-modal-content bootstrap-modal-dialog"
+        >
+          <div
+            data-testid="modal-header"
+            class="a b co cs eq er es et eu ev bs-modal-header"
+          >
+            <h4
+              data-testid="modal-title"
+              class="ax ay az ew ex ey bs-modal-title"
+            >
+              Basic Modal
+            </h4>
+            <button
+              data-testid="modal-close-button"
+              class="at ez fa fb fc fd fe ff fg fh fi fj fk fl fm fn fo fp fq fr bs-close"
+              type="button"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div
+            data-testid="modal-body"
+            class="co cs dv es et eu ev fs bs-modal-body"
+          >
+            <p>Basic Modal Body.</p>
+          </div>
+          <div
+            data-testid="modal-footer"
+            class="a b ft fu fv fw fx fy fz g ga gb gc bs-modal-footer"
+          >
+            <button
+              data-testid="close-modal-btn"
+              class="ai aj ak al am an ao ap ar as at au av aw ax ay az ba bb bc bd be bg bh bi bo bp bq br bs bt by cb ch cm cn co cp cq cr cs ct gd ge gf gg gh gi gj gk gl gm gn go gp gq gr gs gt gu gv gw gx gy gz ha hb hc"
+            >
+              Close</button
+            ><button
+              data-testid="button"
+              class="ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx"
+            >
+              Save Changes
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+;;
+"
+`;
+
+exports[`components/Modal/Modal should render a Modal of size large 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.a {
+  display: flex;
+}
+.b {
+  flex-direction: row;
+}
+.c {
+  flex-wrap: wrap;
+}
+.d {
+  margin-left: calc(-0.5 * 0.25rem);
+}
+.e {
+  margin-right: calc(-0.5 * 0.25rem);
+}
+.f {
+  padding-left: 0.75rem;
+}
+.g {
+  padding-right: 0.75rem;
+}
+.h {
+  margin-top: calc(-1 * 0.25rem);
+}
+.i {
+  width: 100%;
+}
+.y {
+  flex-shrink: 0;
+}
+.z {
+  flex-grow: 0;
+}
+.ab {
+  flex-basis: auto;
+}
+.ac {
+  width: 16.666666666666668% !important;
+}
+.ae {
+  margin-left: 25%;
+}
+.af {
+  padding-left: calc(0.5 * 0.25rem);
+}
+.ag {
+  padding-right: calc(0.5 * 0.25rem);
+}
+.ah {
+  margin-top: 0.25rem;
+}
+.ai {
+  border-top-left-radius: 4px;
+}
+.aj {
+  border-top-right-radius: 0;
+}
+.ak {
+  border-bottom-right-radius: 0;
+}
+.al {
+  border-bottom-left-radius: 4px;
+}
+.am {
+  padding-top: 6px;
+}
+.an {
+  padding-bottom: 6px;
+}
+.ao {
+  padding-left: 12px;
+}
+.ap {
+  padding-right: 12px;
+}
+.aq {
+  background-color: #0d6efd;
+}
+.ar {
+  background-image: none;
+}
+.as {
+  color: #fff;
+}
+.at {
+  cursor: pointer;
+}
+.au {
+  display: inline-block;
+}
+.av {
+  font-size: 14px;
+}
+.aw {
+  font-weight: 400;
+}
+.ax {
+  line-height: 1.42857143;
+}
+.ay {
+  margin-bottom: 0;
+}
+.az {
+  text-align: center;
+}
+.ba {
+  touch-action: manipulation;
+}
+.bb {
+  white-space: nowrap;
+}
+.bc {
+  vertical-align: middle;
+}
+.bd {
+  user-select: none;
+}
+.bn:disabled {
+  background-color: #0d6efd;
+}
+.bo:disabled {
+  color: #fff;
+}
+.bp:disabled {
+  box-shadow: none;
+}
+.bq:disabled {
+  cursor: not-allowed;
+}
+.br:disabled {
+  filter: alpha(opacity=65);
+}
+.bs:disabled {
+  opacity: 0.65;
+}
+.bt:disabled {
+  pointer-events: none;
+}
+.bu:disabled {
+  border-top-color: #0d6efd;
+}
+.bv:disabled {
+  border-right-color: #0d6efd;
+}
+.bw:disabled {
+  border-bottom-color: #0d6efd;
+}
+.bx:disabled {
+  border-left-color: #0d6efd;
+}
+.cm {
+  border-top-width: 1px;
+}
+.cn {
+  border-right-width: 1px;
+}
+.co {
+  border-bottom-width: 1px;
+}
+.cp {
+  border-left-width: 1px;
+}
+.cq {
+  border-top-style: solid;
+}
+.cr {
+  border-right-style: solid;
+}
+.cs {
+  border-bottom-style: solid;
+}
+.ct {
+  border-left-style: solid;
+}
+.cu {
+  border-top-color: #2e6da4;
+}
+.cv {
+  border-right-color: #2e6da4;
+}
+.cw {
+  border-bottom-color: #2e6da4;
+}
+.cx {
+  border-left-color: #2e6da4;
+}
+.cy {
+  background-color: #000;
+}
+.cz {
+  opacity: 0;
+}
+.da {
+  height: 100vh;
+}
+.db {
+  width: 100vw;
+}
+.dc {
+  left: 0;
+}
+.dd {
+  position: fixed;
+}
+.de {
+  top: 0;
+}
+.df {
+  z-index: 1050;
+}
+.dg {
+  height: 100%;
+}
+.dh {
+  margin-left: auto;
+}
+.di {
+  margin-right: auto;
+}
+.dj {
+  display: block;
+}
+.dk {
+  right: 0;
+}
+.dl {
+  bottom: 0;
+}
+.dm {
+  opacity: 1;
+}
+.dn {
+  overflow-x: hidden;
+}
+.do {
+  overflow-y: auto;
+}
+.dp {
+  transition-property: opacity;
+}
+.dq {
+  transition-duration: 0.15s;
+}
+.dr {
+  transition-delay: linear;
+}
+.ds {
+  transition-timing-function: ease;
+}
+.dt {
+  outline-width: 0;
+}
+.du {
+  transform: translate(0);
+}
+.dv {
+  position: relative;
+}
+.dw {
+  width: auto;
+}
+.dx {
+  margin-top: 1.75rem;
+}
+.dy {
+  margin-bottom: 1.75rem;
+}
+.dz {
+  max-width: 500px;
+}
+.ec {
+  animation-name: k1;
+}
+.ed {
+  animation-fill-mode: both;
+}
+.ee {
+  transition-property: transform;
+}
+.ef {
+  transition-duration: 0.3s;
+}
+.eg {
+  transition-delay: ease-out;
+}
+.eh {
+  background-color: #fff;
+}
+.ei {
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+.ej {
+  background-clip: padding-box;
+}
+.ek {
+  border-top-left-radius: 6px;
+}
+.el {
+  border-top-right-radius: 6px;
+}
+.em {
+  border-bottom-right-radius: 6px;
+}
+.en {
+  border-bottom-left-radius: 6px;
+}
+.eo {
+  border-top-color: rgba(0, 0, 0, 0.2);
+}
+.ep {
+  border-right-color: rgba(0, 0, 0, 0.2);
+}
+.eq {
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+.er {
+  border-left-color: rgba(0, 0, 0, 0.2);
+}
+.es {
+  justify-content: space-between;
+}
+.et {
+  border-bottom-color: #e5e5e5;
+}
+.eu {
+  padding-top: 15px;
+}
+.ev {
+  padding-right: 15px;
+}
+.ew {
+  padding-bottom: 15px;
+}
+.ex {
+  padding-left: 15px;
+}
+.ey {
+  margin-top: 0;
+}
+.ez {
+  margin-right: 0;
+}
+.fa {
+  margin-left: 0;
+}
+.fb {
+  margin-top: -2px;
+}
+.fc {
+  appearance: none;
+}
+.fd {
+  text-align: end;
+}
+.fe {
+  position: absolute;
+}
+.ff {
+  right: 2rem;
+}
+.fg {
+  top: 1rem;
+}
+.fh {
+  background-color: transparent;
+}
+.fi {
+  background-image: url(test-file-stub);
+}
+.fj {
+  background-repeat: no-repeat;
+}
+.fk {
+  background-size: 16px;
+}
+.fl {
+  background-position: center;
+}
+.fm {
+  padding-top: 1rem;
+}
+.fn {
+  padding-right: 1rem;
+}
+.fo {
+  padding-bottom: 1rem;
+}
+.fp {
+  padding-left: 1rem;
+}
+.fq {
+  border-top-width: 0;
+}
+.fr {
+  border-right-width: 0;
+}
+.fs {
+  border-bottom-width: 0;
+}
+.ft {
+  border-left-width: 0;
+}
+.fu {
+  border-bottom-color: #dee2e6;
+}
+.fv {
+  justify-content: flex-end;
+}
+.fw > * {
+  margin-top: 0.25rem;
+}
+.fx > * {
+  margin-right: 0.25rem;
+}
+.fy > * {
+  margin-bottom: 0.25rem;
+}
+.fz > * {
+  margin-left: 0.25rem;
+}
+.ga button + button {
+  margin-bottom: 0;
+}
+.gb button + button {
+  margin-left: 5px;
+}
+.gc {
+  padding-top: 0.75rem;
+}
+.gd {
+  padding-bottom: 0.75rem;
+}
+.ge {
+  padding-left: !important;
+}
+.gf {
+  background-color: #6c757d;
+}
+.gl:disabled {
+  background-color: #6c757d;
+}
+.gm:disabled {
+  border-top-color: #6c757d;
+}
+.gn:disabled {
+  border-right-color: #6c757d;
+}
+.go:disabled {
+  border-bottom-color: #6c757d;
+}
+.gp:disabled {
+  border-left-color: #6c757d;
+}
+.hb {
+  border-top-color: #6c757d;
+}
+.hc {
+  border-right-color: #6c757d;
+}
+.hd {
+  border-bottom-color: #6c757d;
+}
+.he {
+  border-left-color: #6c757d;
+}
+.cg:hover {
+  background-color: #0b5ed7;
+}
+.ch:hover {
+  color: #fff;
+}
+.ci:hover {
+  border-top-color: #0a58ca;
+}
+.cj:hover {
+  border-right-color: #0a58ca;
+}
+.ck:hover {
+  border-bottom-color: #0a58ca;
+}
+.cl:hover {
+  border-left-color: #0a58ca;
+}
+.gw:hover {
+  background-color: #5c636a;
+}
+.gx:hover {
+  border-top-color: #565e64;
+}
+.gy:hover {
+  border-right-color: #565e64;
+}
+.gz:hover {
+  border-bottom-color: #565e64;
+}
+.ha:hover {
+  border-left-color: #565e64;
+}
+.by:focus-visible {
+  color: #fff;
+}
+.bz:focus-visible {
+  background-color: #0b5ed7;
+}
+.ca:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.cb:focus-visible {
+  outline-width: 0;
+}
+.cc:focus-visible {
+  border-top-color: #0a58ca;
+}
+.cd:focus-visible {
+  border-right-color: #0a58ca;
+}
+.ce:focus-visible {
+  border-bottom-color: #0a58ca;
+}
+.cf:focus-visible {
+  border-left-color: #0a58ca;
+}
+.gq:focus-visible {
+  background-color: #5c636a;
+}
+.gr:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+}
+.gs:focus-visible {
+  border-top-color: #565e64;
+}
+.gt:focus-visible {
+  border-right-color: #565e64;
+}
+.gu:focus-visible {
+  border-bottom-color: #565e64;
+}
+.gv:focus-visible {
+  border-left-color: #565e64;
+}
+.be:active {
+  color: #fff;
+}
+.bf:active {
+  background-color: #0a58ca;
+}
+.bg:active {
+  background-image: none;
+}
+.bh:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.bi:active {
+  outline-width: 0;
+}
+.bj:active {
+  border-top-color: #0a53be;
+}
+.bk:active {
+  border-right-color: #0a53be;
+}
+.bl:active {
+  border-bottom-color: #0a53be;
+}
+.bm:active {
+  border-left-color: #0a53be;
+}
+.gg:active {
+  background-color: #565e64;
+}
+.gh:active {
+  border-top-color: #51585e;
+}
+.gi:active {
+  border-right-color: #51585e;
+}
+.gj:active {
+  border-bottom-color: #51585e;
+}
+.gk:active {
+  border-left-color: #51585e;
+}
+@media (min-width: 576px) {
+  .j {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .k {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .l {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+@media (min-width: 768px) {
+  .m {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .n {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .o {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+@media (min-width: 992px) {
+  .p {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .q {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .r {
+    margin-top: calc(-1 * 0.25rem);
+  }
+  .ea {
+    max-width: 800px;
+  }
+  .eb {
+    width: 800px;
+  }
+}
+@media (min-width: 1200px) {
+  .s {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .t {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .u {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+@media (min-width: 1320px) {
+  .v {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .w {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .x {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+
+
+<div class="a b c d e f g h i j k l m n o p q r s t u v w x">
+  <div class="ab ac ae af ag ah y z">
+    <button
+      data-testid="open-modal-btn"
+      class="ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx"
+    >
+      Open Modal
+    </button>
+  </div>
+  <div
+    data-testid="portal"
+    style="width: 100%"
+    id="bootstrap-modal-dialog-container"
+  >
+    <div
+      data-testid="modal-backdrop"
+      style="
+        transition: opacity display 300ms ease-in-out;
+        opacity: 0;
+        display: none;
+      "
+      class="cy cz da db dc dd de df bs-modal-backdrop"
+    ></div>
+    <div
+      data-testid="modal-overlay"
+      class="dc dd de df dg dh di dj dk dl dm dn do dp dq dr ds dt i modal bootstrap-modal-overlay"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="Basic Modal"
+      style="
+        transition: opacity display 300ms ease-in-out;
+        opacity: 0;
+        display: none;
+      "
+    >
+      <div
+        data-testid="modal-dialog"
+        class="dh di ds du dv dw dx dy dz ea eb ec ed ee ef eg bs-modal-dialog bootstrap-modal-dialog"
+        style="
+          transition: opacity display 300ms ease-in-out;
+          opacity: 0;
+          display: none;
+        "
+      >
+        <div
+          data-testid="modal-dialog-inner"
+          class="az cm cn co cp cq cr cs ct dt dv eh ei ej ek el em en eo ep eq er bs-modal-content bootstrap-modal-dialog"
+        >
+          <div
+            data-testid="modal-header"
+            class="a b co cs es et eu ev ew ex bs-modal-header"
+          >
+            <h4
+              data-testid="modal-title"
+              class="ax ay az ey ez fa bs-modal-title"
+            >
+              Basic Modal
+            </h4>
+            <button
+              data-testid="modal-close-button"
+              class="at fb fc fd fe ff fg fh fi fj fk fl fm fn fo fp fq fr fs ft bs-close"
+              type="button"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div
+            data-testid="modal-body"
+            class="co cs dv eu ev ew ex fu bs-modal-body"
+          >
+            <p>Basic Modal Body.</p>
+          </div>
+          <div
+            data-testid="modal-footer"
+            class="a b fv fw fx fy fz g ga gb gc gd ge bs-modal-footer"
+          >
+            <button
+              data-testid="close-modal-btn"
+              class="ai aj ak al am an ao ap ar as at au av aw ax ay az ba bb bc bd be bg bh bi bo bp bq br bs bt by cb ch cm cn co cp cq cr cs ct gf gg gh gi gj gk gl gm gn go gp gq gr gs gt gu gv gw gx gy gz ha hb hc hd he"
+            >
+              Close</button
+            ><button
+              data-testid="button"
+              class="ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx"
+            >
+              Save Changes
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+;;
+"
+`;
+
+exports[`components/Modal/Modal should render a Modal of size medium 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.a {
+  display: flex;
+}
+.b {
+  flex-direction: row;
+}
+.c {
+  flex-wrap: wrap;
+}
+.d {
+  margin-left: calc(-0.5 * 0.25rem);
+}
+.e {
+  margin-right: calc(-0.5 * 0.25rem);
+}
+.f {
+  padding-left: 0.75rem;
+}
+.g {
+  padding-right: 0.75rem;
+}
+.h {
+  margin-top: calc(-1 * 0.25rem);
+}
+.i {
+  width: 100%;
+}
+.y {
+  flex-shrink: 0;
+}
+.z {
+  flex-grow: 0;
+}
+.ab {
+  flex-basis: auto;
+}
+.ac {
+  width: 16.666666666666668% !important;
+}
+.ae {
+  margin-left: 25%;
+}
+.af {
+  padding-left: calc(0.5 * 0.25rem);
+}
+.ag {
+  padding-right: calc(0.5 * 0.25rem);
+}
+.ah {
+  margin-top: 0.25rem;
+}
+.ai {
+  border-top-left-radius: 4px;
+}
+.aj {
+  border-top-right-radius: 0;
+}
+.ak {
+  border-bottom-right-radius: 0;
+}
+.al {
+  border-bottom-left-radius: 4px;
+}
+.am {
+  padding-top: 6px;
+}
+.an {
+  padding-bottom: 6px;
+}
+.ao {
+  padding-left: 12px;
+}
+.ap {
+  padding-right: 12px;
+}
+.aq {
+  background-color: #0d6efd;
+}
+.ar {
+  background-image: none;
+}
+.as {
+  color: #fff;
+}
+.at {
+  cursor: pointer;
+}
+.au {
+  display: inline-block;
+}
+.av {
+  font-size: 14px;
+}
+.aw {
+  font-weight: 400;
+}
+.ax {
+  line-height: 1.42857143;
+}
+.ay {
+  margin-bottom: 0;
+}
+.az {
+  text-align: center;
+}
+.ba {
+  touch-action: manipulation;
+}
+.bb {
+  white-space: nowrap;
+}
+.bc {
+  vertical-align: middle;
+}
+.bd {
+  user-select: none;
+}
+.bn:disabled {
+  background-color: #0d6efd;
+}
+.bo:disabled {
+  color: #fff;
+}
+.bp:disabled {
+  box-shadow: none;
+}
+.bq:disabled {
+  cursor: not-allowed;
+}
+.br:disabled {
+  filter: alpha(opacity=65);
+}
+.bs:disabled {
+  opacity: 0.65;
+}
+.bt:disabled {
+  pointer-events: none;
+}
+.bu:disabled {
+  border-top-color: #0d6efd;
+}
+.bv:disabled {
+  border-right-color: #0d6efd;
+}
+.bw:disabled {
+  border-bottom-color: #0d6efd;
+}
+.bx:disabled {
+  border-left-color: #0d6efd;
+}
+.cm {
+  border-top-width: 1px;
+}
+.cn {
+  border-right-width: 1px;
+}
+.co {
+  border-bottom-width: 1px;
+}
+.cp {
+  border-left-width: 1px;
+}
+.cq {
+  border-top-style: solid;
+}
+.cr {
+  border-right-style: solid;
+}
+.cs {
+  border-bottom-style: solid;
+}
+.ct {
+  border-left-style: solid;
+}
+.cu {
+  border-top-color: #2e6da4;
+}
+.cv {
+  border-right-color: #2e6da4;
+}
+.cw {
+  border-bottom-color: #2e6da4;
+}
+.cx {
+  border-left-color: #2e6da4;
+}
+.cy {
+  background-color: #000;
+}
+.cz {
+  opacity: 0;
+}
+.da {
+  height: 100vh;
+}
+.db {
+  width: 100vw;
+}
+.dc {
+  left: 0;
+}
+.dd {
+  position: fixed;
+}
+.de {
+  top: 0;
+}
+.df {
+  z-index: 1050;
+}
+.dg {
+  height: 100%;
+}
+.dh {
+  margin-left: auto;
+}
+.di {
+  margin-right: auto;
+}
+.dj {
+  display: block;
+}
+.dk {
+  right: 0;
+}
+.dl {
+  bottom: 0;
+}
+.dm {
+  opacity: 1;
+}
+.dn {
+  overflow-x: hidden;
+}
+.do {
+  overflow-y: auto;
+}
+.dp {
+  transition-property: opacity;
+}
+.dq {
+  transition-duration: 0.15s;
+}
+.dr {
+  transition-delay: linear;
+}
+.ds {
+  transition-timing-function: ease;
+}
+.dt {
+  outline-width: 0;
+}
+.du {
+  transform: translate(0);
+}
+.dv {
+  position: relative;
+}
+.dw {
+  width: auto;
+}
+.dx {
+  margin-top: 1.75rem;
+}
+.dy {
+  margin-bottom: 1.75rem;
+}
+.dz {
+  max-width: 500px;
+}
+.ea {
+  animation-name: k1;
+}
+.eb {
+  animation-fill-mode: both;
+}
+.ec {
+  transition-property: transform;
+}
+.ed {
+  transition-duration: 0.3s;
+}
+.ee {
+  transition-delay: ease-out;
+}
+.ef {
+  background-color: #fff;
+}
+.eg {
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+.eh {
+  background-clip: padding-box;
+}
+.ei {
+  border-top-left-radius: 6px;
+}
+.ej {
+  border-top-right-radius: 6px;
+}
+.ek {
+  border-bottom-right-radius: 6px;
+}
+.el {
+  border-bottom-left-radius: 6px;
+}
+.em {
+  border-top-color: rgba(0, 0, 0, 0.2);
+}
+.en {
+  border-right-color: rgba(0, 0, 0, 0.2);
+}
+.eo {
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+.ep {
+  border-left-color: rgba(0, 0, 0, 0.2);
+}
+.eq {
+  justify-content: space-between;
+}
+.er {
+  border-bottom-color: #e5e5e5;
+}
+.es {
+  padding-top: 15px;
+}
+.et {
+  padding-right: 15px;
+}
+.eu {
+  padding-bottom: 15px;
+}
+.ev {
+  padding-left: 15px;
+}
+.ew {
+  margin-top: 0;
+}
+.ex {
+  margin-right: 0;
+}
+.ey {
+  margin-left: 0;
+}
+.ez {
+  margin-top: -2px;
+}
+.fa {
+  appearance: none;
+}
+.fb {
+  text-align: end;
+}
+.fc {
+  position: absolute;
+}
+.fd {
+  right: 2rem;
+}
+.fe {
+  top: 1rem;
+}
+.ff {
+  background-color: transparent;
+}
+.fg {
+  background-image: url(test-file-stub);
+}
+.fh {
+  background-repeat: no-repeat;
+}
+.fi {
+  background-size: 16px;
+}
+.fj {
+  background-position: center;
+}
+.fk {
+  padding-top: 1rem;
+}
+.fl {
+  padding-right: 1rem;
+}
+.fm {
+  padding-bottom: 1rem;
+}
+.fn {
+  padding-left: 1rem;
+}
+.fo {
+  border-top-width: 0;
+}
+.fp {
+  border-right-width: 0;
+}
+.fq {
+  border-bottom-width: 0;
+}
+.fr {
+  border-left-width: 0;
+}
+.fs {
+  border-bottom-color: #dee2e6;
+}
+.ft {
+  justify-content: flex-end;
+}
+.fu > * {
+  margin-top: 0.25rem;
+}
+.fv > * {
+  margin-right: 0.25rem;
+}
+.fw > * {
+  margin-bottom: 0.25rem;
+}
+.fx > * {
+  margin-left: 0.25rem;
+}
+.fy button + button {
+  margin-bottom: 0;
+}
+.fz button + button {
+  margin-left: 5px;
+}
+.ga {
+  padding-top: 0.75rem;
+}
+.gb {
+  padding-bottom: 0.75rem;
+}
+.gc {
+  padding-left: !important;
+}
+.gd {
+  background-color: #6c757d;
+}
+.gj:disabled {
+  background-color: #6c757d;
+}
+.gk:disabled {
+  border-top-color: #6c757d;
+}
+.gl:disabled {
+  border-right-color: #6c757d;
+}
+.gm:disabled {
+  border-bottom-color: #6c757d;
+}
+.gn:disabled {
+  border-left-color: #6c757d;
+}
+.gz {
+  border-top-color: #6c757d;
+}
+.ha {
+  border-right-color: #6c757d;
+}
+.hb {
+  border-bottom-color: #6c757d;
+}
+.hc {
+  border-left-color: #6c757d;
+}
+.cg:hover {
+  background-color: #0b5ed7;
+}
+.ch:hover {
+  color: #fff;
+}
+.ci:hover {
+  border-top-color: #0a58ca;
+}
+.cj:hover {
+  border-right-color: #0a58ca;
+}
+.ck:hover {
+  border-bottom-color: #0a58ca;
+}
+.cl:hover {
+  border-left-color: #0a58ca;
+}
+.gu:hover {
+  background-color: #5c636a;
+}
+.gv:hover {
+  border-top-color: #565e64;
+}
+.gw:hover {
+  border-right-color: #565e64;
+}
+.gx:hover {
+  border-bottom-color: #565e64;
+}
+.gy:hover {
+  border-left-color: #565e64;
+}
+.by:focus-visible {
+  color: #fff;
+}
+.bz:focus-visible {
+  background-color: #0b5ed7;
+}
+.ca:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.cb:focus-visible {
+  outline-width: 0;
+}
+.cc:focus-visible {
+  border-top-color: #0a58ca;
+}
+.cd:focus-visible {
+  border-right-color: #0a58ca;
+}
+.ce:focus-visible {
+  border-bottom-color: #0a58ca;
+}
+.cf:focus-visible {
+  border-left-color: #0a58ca;
+}
+.go:focus-visible {
+  background-color: #5c636a;
+}
+.gp:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+}
+.gq:focus-visible {
+  border-top-color: #565e64;
+}
+.gr:focus-visible {
+  border-right-color: #565e64;
+}
+.gs:focus-visible {
+  border-bottom-color: #565e64;
+}
+.gt:focus-visible {
+  border-left-color: #565e64;
+}
+.be:active {
+  color: #fff;
+}
+.bf:active {
+  background-color: #0a58ca;
+}
+.bg:active {
+  background-image: none;
+}
+.bh:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.bi:active {
+  outline-width: 0;
+}
+.bj:active {
+  border-top-color: #0a53be;
+}
+.bk:active {
+  border-right-color: #0a53be;
+}
+.bl:active {
+  border-bottom-color: #0a53be;
+}
+.bm:active {
+  border-left-color: #0a53be;
+}
+.ge:active {
+  background-color: #565e64;
+}
+.gf:active {
+  border-top-color: #51585e;
+}
+.gg:active {
+  border-right-color: #51585e;
+}
+.gh:active {
+  border-bottom-color: #51585e;
+}
+.gi:active {
+  border-left-color: #51585e;
+}
+@media (min-width: 576px) {
+  .j {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .k {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .l {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+@media (min-width: 768px) {
+  .m {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .n {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .o {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+@media (min-width: 992px) {
+  .p {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .q {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .r {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+@media (min-width: 1200px) {
+  .s {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .t {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .u {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+@media (min-width: 1320px) {
+  .v {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .w {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .x {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+
+
+<div class="a b c d e f g h i j k l m n o p q r s t u v w x">
+  <div class="ab ac ae af ag ah y z">
+    <button
+      data-testid="open-modal-btn"
+      class="ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx"
+    >
+      Open Modal
+    </button>
+  </div>
+  <div
+    data-testid="portal"
+    style="width: 100%"
+    id="bootstrap-modal-dialog-container"
+  >
+    <div
+      data-testid="modal-backdrop"
+      style="
+        transition: opacity display 300ms ease-in-out;
+        opacity: 0;
+        display: none;
+      "
+      class="cy cz da db dc dd de df bs-modal-backdrop"
+    ></div>
+    <div
+      data-testid="modal-overlay"
+      class="dc dd de df dg dh di dj dk dl dm dn do dp dq dr ds dt i modal bootstrap-modal-overlay"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="Basic Modal"
+      style="
+        transition: opacity display 300ms ease-in-out;
+        opacity: 0;
+        display: none;
+      "
+    >
+      <div
+        data-testid="modal-dialog"
+        class="dh di ds du dv dw dx dy dz ea eb ec ed ee bs-modal-dialog bootstrap-modal-dialog"
+        style="
+          transition: opacity display 300ms ease-in-out;
+          opacity: 0;
+          display: none;
+        "
+      >
+        <div
+          data-testid="modal-dialog-inner"
+          class="az cm cn co cp cq cr cs ct dt dv ef eg eh ei ej ek el em en eo ep bs-modal-content bootstrap-modal-dialog"
+        >
+          <div
+            data-testid="modal-header"
+            class="a b co cs eq er es et eu ev bs-modal-header"
+          >
+            <h4
+              data-testid="modal-title"
+              class="ax ay az ew ex ey bs-modal-title"
+            >
+              Basic Modal
+            </h4>
+            <button
+              data-testid="modal-close-button"
+              class="at ez fa fb fc fd fe ff fg fh fi fj fk fl fm fn fo fp fq fr bs-close"
+              type="button"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div
+            data-testid="modal-body"
+            class="co cs dv es et eu ev fs bs-modal-body"
+          >
+            <p>Basic Modal Body.</p>
+          </div>
+          <div
+            data-testid="modal-footer"
+            class="a b ft fu fv fw fx fy fz g ga gb gc bs-modal-footer"
+          >
+            <button
+              data-testid="close-modal-btn"
+              class="ai aj ak al am an ao ap ar as at au av aw ax ay az ba bb bc bd be bg bh bi bo bp bq br bs bt by cb ch cm cn co cp cq cr cs ct gd ge gf gg gh gi gj gk gl gm gn go gp gq gr gs gt gu gv gw gx gy gz ha hb hc"
+            >
+              Close</button
+            ><button
+              data-testid="button"
+              class="ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx"
+            >
+              Save Changes
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+;;
+"
+`;
+
+exports[`components/Modal/Modal should render a Modal of size small 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.a {
+  display: flex;
+}
+.b {
+  flex-direction: row;
+}
+.c {
+  flex-wrap: wrap;
+}
+.d {
+  margin-left: calc(-0.5 * 0.25rem);
+}
+.e {
+  margin-right: calc(-0.5 * 0.25rem);
+}
+.f {
+  padding-left: 0.75rem;
+}
+.g {
+  padding-right: 0.75rem;
+}
+.h {
+  margin-top: calc(-1 * 0.25rem);
+}
+.i {
+  width: 100%;
+}
+.y {
+  flex-shrink: 0;
+}
+.z {
+  flex-grow: 0;
+}
+.ab {
+  flex-basis: auto;
+}
+.ac {
+  width: 16.666666666666668% !important;
+}
+.ae {
+  margin-left: 25%;
+}
+.af {
+  padding-left: calc(0.5 * 0.25rem);
+}
+.ag {
+  padding-right: calc(0.5 * 0.25rem);
+}
+.ah {
+  margin-top: 0.25rem;
+}
+.ai {
+  border-top-left-radius: 4px;
+}
+.aj {
+  border-top-right-radius: 0;
+}
+.ak {
+  border-bottom-right-radius: 0;
+}
+.al {
+  border-bottom-left-radius: 4px;
+}
+.am {
+  padding-top: 6px;
+}
+.an {
+  padding-bottom: 6px;
+}
+.ao {
+  padding-left: 12px;
+}
+.ap {
+  padding-right: 12px;
+}
+.aq {
+  background-color: #0d6efd;
+}
+.ar {
+  background-image: none;
+}
+.as {
+  color: #fff;
+}
+.at {
+  cursor: pointer;
+}
+.au {
+  display: inline-block;
+}
+.av {
+  font-size: 14px;
+}
+.aw {
+  font-weight: 400;
+}
+.ax {
+  line-height: 1.42857143;
+}
+.ay {
+  margin-bottom: 0;
+}
+.az {
+  text-align: center;
+}
+.ba {
+  touch-action: manipulation;
+}
+.bb {
+  white-space: nowrap;
+}
+.bc {
+  vertical-align: middle;
+}
+.bd {
+  user-select: none;
+}
+.bn:disabled {
+  background-color: #0d6efd;
+}
+.bo:disabled {
+  color: #fff;
+}
+.bp:disabled {
+  box-shadow: none;
+}
+.bq:disabled {
+  cursor: not-allowed;
+}
+.br:disabled {
+  filter: alpha(opacity=65);
+}
+.bs:disabled {
+  opacity: 0.65;
+}
+.bt:disabled {
+  pointer-events: none;
+}
+.bu:disabled {
+  border-top-color: #0d6efd;
+}
+.bv:disabled {
+  border-right-color: #0d6efd;
+}
+.bw:disabled {
+  border-bottom-color: #0d6efd;
+}
+.bx:disabled {
+  border-left-color: #0d6efd;
+}
+.cm {
+  border-top-width: 1px;
+}
+.cn {
+  border-right-width: 1px;
+}
+.co {
+  border-bottom-width: 1px;
+}
+.cp {
+  border-left-width: 1px;
+}
+.cq {
+  border-top-style: solid;
+}
+.cr {
+  border-right-style: solid;
+}
+.cs {
+  border-bottom-style: solid;
+}
+.ct {
+  border-left-style: solid;
+}
+.cu {
+  border-top-color: #2e6da4;
+}
+.cv {
+  border-right-color: #2e6da4;
+}
+.cw {
+  border-bottom-color: #2e6da4;
+}
+.cx {
+  border-left-color: #2e6da4;
+}
+.cy {
+  background-color: #000;
+}
+.cz {
+  opacity: 0;
+}
+.da {
+  height: 100vh;
+}
+.db {
+  width: 100vw;
+}
+.dc {
+  left: 0;
+}
+.dd {
+  position: fixed;
+}
+.de {
+  top: 0;
+}
+.df {
+  z-index: 1050;
+}
+.dg {
+  height: 100%;
+}
+.dh {
+  margin-left: auto;
+}
+.di {
+  margin-right: auto;
+}
+.dj {
+  display: block;
+}
+.dk {
+  right: 0;
+}
+.dl {
+  bottom: 0;
+}
+.dm {
+  opacity: 1;
+}
+.dn {
+  overflow-x: hidden;
+}
+.do {
+  overflow-y: auto;
+}
+.dp {
+  transition-property: opacity;
+}
+.dq {
+  transition-duration: 0.15s;
+}
+.dr {
+  transition-delay: linear;
+}
+.ds {
+  transition-timing-function: ease;
+}
+.dt {
+  outline-width: 0;
+}
+.du {
+  transform: translate(0);
+}
+.dv {
+  position: relative;
+}
+.dw {
+  width: auto;
+}
+.dx {
+  margin-top: 1.75rem;
+}
+.dy {
+  margin-bottom: 1.75rem;
+}
+.dz {
+  max-width: 500px;
+}
+.ec {
+  animation-name: k1;
+}
+.ed {
+  animation-fill-mode: both;
+}
+.ee {
+  transition-property: transform;
+}
+.ef {
+  transition-duration: 0.3s;
+}
+.eg {
+  transition-delay: ease-out;
+}
+.eh {
+  background-color: #fff;
+}
+.ei {
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+.ej {
+  background-clip: padding-box;
+}
+.ek {
+  border-top-left-radius: 6px;
+}
+.el {
+  border-top-right-radius: 6px;
+}
+.em {
+  border-bottom-right-radius: 6px;
+}
+.en {
+  border-bottom-left-radius: 6px;
+}
+.eo {
+  border-top-color: rgba(0, 0, 0, 0.2);
+}
+.ep {
+  border-right-color: rgba(0, 0, 0, 0.2);
+}
+.eq {
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+.er {
+  border-left-color: rgba(0, 0, 0, 0.2);
+}
+.es {
+  justify-content: space-between;
+}
+.et {
+  border-bottom-color: #e5e5e5;
+}
+.eu {
+  padding-top: 15px;
+}
+.ev {
+  padding-right: 15px;
+}
+.ew {
+  padding-bottom: 15px;
+}
+.ex {
+  padding-left: 15px;
+}
+.ey {
+  margin-top: 0;
+}
+.ez {
+  margin-right: 0;
+}
+.fa {
+  margin-left: 0;
+}
+.fb {
+  margin-top: -2px;
+}
+.fc {
+  appearance: none;
+}
+.fd {
+  text-align: end;
+}
+.fe {
+  position: absolute;
+}
+.ff {
+  right: 2rem;
+}
+.fg {
+  top: 1rem;
+}
+.fh {
+  background-color: transparent;
+}
+.fi {
+  background-image: url(test-file-stub);
+}
+.fj {
+  background-repeat: no-repeat;
+}
+.fk {
+  background-size: 16px;
+}
+.fl {
+  background-position: center;
+}
+.fm {
+  padding-top: 1rem;
+}
+.fn {
+  padding-right: 1rem;
+}
+.fo {
+  padding-bottom: 1rem;
+}
+.fp {
+  padding-left: 1rem;
+}
+.fq {
+  border-top-width: 0;
+}
+.fr {
+  border-right-width: 0;
+}
+.fs {
+  border-bottom-width: 0;
+}
+.ft {
+  border-left-width: 0;
+}
+.fu {
+  border-bottom-color: #dee2e6;
+}
+.fv {
+  justify-content: flex-end;
+}
+.fw > * {
+  margin-top: 0.25rem;
+}
+.fx > * {
+  margin-right: 0.25rem;
+}
+.fy > * {
+  margin-bottom: 0.25rem;
+}
+.fz > * {
+  margin-left: 0.25rem;
+}
+.ga button + button {
+  margin-bottom: 0;
+}
+.gb button + button {
+  margin-left: 5px;
+}
+.gc {
+  padding-top: 0.75rem;
+}
+.gd {
+  padding-bottom: 0.75rem;
+}
+.ge {
+  padding-left: !important;
+}
+.gf {
+  background-color: #6c757d;
+}
+.gl:disabled {
+  background-color: #6c757d;
+}
+.gm:disabled {
+  border-top-color: #6c757d;
+}
+.gn:disabled {
+  border-right-color: #6c757d;
+}
+.go:disabled {
+  border-bottom-color: #6c757d;
+}
+.gp:disabled {
+  border-left-color: #6c757d;
+}
+.hb {
+  border-top-color: #6c757d;
+}
+.hc {
+  border-right-color: #6c757d;
+}
+.hd {
+  border-bottom-color: #6c757d;
+}
+.he {
+  border-left-color: #6c757d;
+}
+.cg:hover {
+  background-color: #0b5ed7;
+}
+.ch:hover {
+  color: #fff;
+}
+.ci:hover {
+  border-top-color: #0a58ca;
+}
+.cj:hover {
+  border-right-color: #0a58ca;
+}
+.ck:hover {
+  border-bottom-color: #0a58ca;
+}
+.cl:hover {
+  border-left-color: #0a58ca;
+}
+.gw:hover {
+  background-color: #5c636a;
+}
+.gx:hover {
+  border-top-color: #565e64;
+}
+.gy:hover {
+  border-right-color: #565e64;
+}
+.gz:hover {
+  border-bottom-color: #565e64;
+}
+.ha:hover {
+  border-left-color: #565e64;
+}
+.by:focus-visible {
+  color: #fff;
+}
+.bz:focus-visible {
+  background-color: #0b5ed7;
+}
+.ca:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.cb:focus-visible {
+  outline-width: 0;
+}
+.cc:focus-visible {
+  border-top-color: #0a58ca;
+}
+.cd:focus-visible {
+  border-right-color: #0a58ca;
+}
+.ce:focus-visible {
+  border-bottom-color: #0a58ca;
+}
+.cf:focus-visible {
+  border-left-color: #0a58ca;
+}
+.gq:focus-visible {
+  background-color: #5c636a;
+}
+.gr:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+}
+.gs:focus-visible {
+  border-top-color: #565e64;
+}
+.gt:focus-visible {
+  border-right-color: #565e64;
+}
+.gu:focus-visible {
+  border-bottom-color: #565e64;
+}
+.gv:focus-visible {
+  border-left-color: #565e64;
+}
+.be:active {
+  color: #fff;
+}
+.bf:active {
+  background-color: #0a58ca;
+}
+.bg:active {
+  background-image: none;
+}
+.bh:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.bi:active {
+  outline-width: 0;
+}
+.bj:active {
+  border-top-color: #0a53be;
+}
+.bk:active {
+  border-right-color: #0a53be;
+}
+.bl:active {
+  border-bottom-color: #0a53be;
+}
+.bm:active {
+  border-left-color: #0a53be;
+}
+.gg:active {
+  background-color: #565e64;
+}
+.gh:active {
+  border-top-color: #51585e;
+}
+.gi:active {
+  border-right-color: #51585e;
+}
+.gj:active {
+  border-bottom-color: #51585e;
+}
+.gk:active {
+  border-left-color: #51585e;
+}
+@media (min-width: 576px) {
+  .j {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .k {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .l {
+    margin-top: calc(-1 * 0.25rem);
+  }
+  .ea {
+    max-width: 300px;
+  }
+  .eb {
+    width: 300px;
+  }
+}
+@media (min-width: 768px) {
+  .m {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .n {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .o {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+@media (min-width: 992px) {
+  .p {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .q {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .r {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+@media (min-width: 1200px) {
+  .s {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .t {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .u {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+@media (min-width: 1320px) {
+  .v {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .w {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .x {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+
+
+<div class="a b c d e f g h i j k l m n o p q r s t u v w x">
+  <div class="ab ac ae af ag ah y z">
+    <button
+      data-testid="open-modal-btn"
+      class="ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx"
+    >
+      Open Modal
+    </button>
+  </div>
+  <div
+    data-testid="portal"
+    style="width: 100%"
+    id="bootstrap-modal-dialog-container"
+  >
+    <div
+      data-testid="modal-backdrop"
+      style="
+        transition: opacity display 300ms ease-in-out;
+        opacity: 0;
+        display: none;
+      "
+      class="cy cz da db dc dd de df bs-modal-backdrop"
+    ></div>
+    <div
+      data-testid="modal-overlay"
+      class="dc dd de df dg dh di dj dk dl dm dn do dp dq dr ds dt i modal bootstrap-modal-overlay"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="Basic Modal"
+      style="
+        transition: opacity display 300ms ease-in-out;
+        opacity: 0;
+        display: none;
+      "
+    >
+      <div
+        data-testid="modal-dialog"
+        class="dh di ds du dv dw dx dy dz ea eb ec ed ee ef eg bs-modal-dialog bootstrap-modal-dialog"
+        style="
+          transition: opacity display 300ms ease-in-out;
+          opacity: 0;
+          display: none;
+        "
+      >
+        <div
+          data-testid="modal-dialog-inner"
+          class="az cm cn co cp cq cr cs ct dt dv eh ei ej ek el em en eo ep eq er bs-modal-content bootstrap-modal-dialog"
+        >
+          <div
+            data-testid="modal-header"
+            class="a b co cs es et eu ev ew ex bs-modal-header"
+          >
+            <h4
+              data-testid="modal-title"
+              class="ax ay az ey ez fa bs-modal-title"
+            >
+              Basic Modal
+            </h4>
+            <button
+              data-testid="modal-close-button"
+              class="at fb fc fd fe ff fg fh fi fj fk fl fm fn fo fp fq fr fs ft bs-close"
+              type="button"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div
+            data-testid="modal-body"
+            class="co cs dv eu ev ew ex fu bs-modal-body"
+          >
+            <p>Basic Modal Body.</p>
+          </div>
+          <div
+            data-testid="modal-footer"
+            class="a b fv fw fx fy fz g ga gb gc gd ge bs-modal-footer"
+          >
+            <button
+              data-testid="close-modal-btn"
+              class="ai aj ak al am an ao ap ar as at au av aw ax ay az ba bb bc bd be bg bh bi bo bp bq br bs bt by cb ch cm cn co cp cq cr cs ct gf gg gh gi gj gk gl gm gn go gp gq gr gs gt gu gv gw gx gy gz ha hb hc hd he"
+            >
+              Close</button
+            ><button
+              data-testid="button"
+              class="ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx"
+            >
+              Save Changes
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+;;
+"
+`;
+
+exports[`components/Modal/Modal should render a vertically centered modal 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes k1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.a {
+  display: flex;
+}
+.b {
+  flex-direction: row;
+}
+.c {
+  flex-wrap: wrap;
+}
+.d {
+  margin-left: calc(-0.5 * 0.25rem);
+}
+.e {
+  margin-right: calc(-0.5 * 0.25rem);
+}
+.f {
+  padding-left: 0.75rem;
+}
+.g {
+  padding-right: 0.75rem;
+}
+.h {
+  margin-top: calc(-1 * 0.25rem);
+}
+.i {
+  width: 100%;
+}
+.y {
+  flex-shrink: 0;
+}
+.z {
+  flex-grow: 0;
+}
+.ab {
+  flex-basis: auto;
+}
+.ac {
+  width: 16.666666666666668% !important;
+}
+.ae {
+  margin-left: 25%;
+}
+.af {
+  padding-left: calc(0.5 * 0.25rem);
+}
+.ag {
+  padding-right: calc(0.5 * 0.25rem);
+}
+.ah {
+  margin-top: 0.25rem;
+}
+.ai {
+  border-top-left-radius: 4px;
+}
+.aj {
+  border-top-right-radius: 0;
+}
+.ak {
+  border-bottom-right-radius: 0;
+}
+.al {
+  border-bottom-left-radius: 4px;
+}
+.am {
+  padding-top: 6px;
+}
+.an {
+  padding-bottom: 6px;
+}
+.ao {
+  padding-left: 12px;
+}
+.ap {
+  padding-right: 12px;
+}
+.aq {
+  background-color: #0d6efd;
+}
+.ar {
+  background-image: none;
+}
+.as {
+  color: #fff;
+}
+.at {
+  cursor: pointer;
+}
+.au {
+  display: inline-block;
+}
+.av {
+  font-size: 14px;
+}
+.aw {
+  font-weight: 400;
+}
+.ax {
+  line-height: 1.42857143;
+}
+.ay {
+  margin-bottom: 0;
+}
+.az {
+  text-align: center;
+}
+.ba {
+  touch-action: manipulation;
+}
+.bb {
+  white-space: nowrap;
+}
+.bc {
+  vertical-align: middle;
+}
+.bd {
+  user-select: none;
+}
+.bn:disabled {
+  background-color: #0d6efd;
+}
+.bo:disabled {
+  color: #fff;
+}
+.bp:disabled {
+  box-shadow: none;
+}
+.bq:disabled {
+  cursor: not-allowed;
+}
+.br:disabled {
+  filter: alpha(opacity=65);
+}
+.bs:disabled {
+  opacity: 0.65;
+}
+.bt:disabled {
+  pointer-events: none;
+}
+.bu:disabled {
+  border-top-color: #0d6efd;
+}
+.bv:disabled {
+  border-right-color: #0d6efd;
+}
+.bw:disabled {
+  border-bottom-color: #0d6efd;
+}
+.bx:disabled {
+  border-left-color: #0d6efd;
+}
+.cm {
+  border-top-width: 1px;
+}
+.cn {
+  border-right-width: 1px;
+}
+.co {
+  border-bottom-width: 1px;
+}
+.cp {
+  border-left-width: 1px;
+}
+.cq {
+  border-top-style: solid;
+}
+.cr {
+  border-right-style: solid;
+}
+.cs {
+  border-bottom-style: solid;
+}
+.ct {
+  border-left-style: solid;
+}
+.cu {
+  border-top-color: #2e6da4;
+}
+.cv {
+  border-right-color: #2e6da4;
+}
+.cw {
+  border-bottom-color: #2e6da4;
+}
+.cx {
+  border-left-color: #2e6da4;
+}
+.cy {
+  background-color: #000;
+}
+.cz {
+  opacity: 0;
+}
+.da {
+  height: 100vh;
+}
+.db {
+  width: 100vw;
+}
+.dc {
+  left: 0;
+}
+.dd {
+  position: fixed;
+}
+.de {
+  top: 0;
+}
+.df {
+  z-index: 1050;
+}
+.dg {
+  height: 100%;
+}
+.dh {
+  margin-left: auto;
+}
+.di {
+  margin-right: auto;
+}
+.dj {
+  display: block;
+}
+.dk {
+  right: 0;
+}
+.dl {
+  bottom: 0;
+}
+.dm {
+  opacity: 1;
+}
+.dn {
+  overflow-x: hidden;
+}
+.do {
+  overflow-y: auto;
+}
+.dp {
+  transition-property: opacity;
+}
+.dq {
+  transition-duration: 0.15s;
+}
+.dr {
+  transition-delay: linear;
+}
+.ds {
+  transition-timing-function: ease;
+}
+.dt {
+  outline-width: 0;
+}
+.du {
+  transform: translate(0);
+}
+.dv {
+  position: relative;
+}
+.dw {
+  width: auto;
+}
+.dx {
+  margin-top: 1.75rem;
+}
+.dy {
+  margin-bottom: 1.75rem;
+}
+.dz {
+  max-width: 500px;
+}
+.ea {
+  animation-name: k1;
+}
+.eb {
+  animation-fill-mode: both;
+}
+.ec {
+  transition-property: transform;
+}
+.ed {
+  transition-duration: 0.3s;
+}
+.ee {
+  transition-delay: ease-out;
+}
+.ef {
+  background-color: #fff;
+}
+.eg {
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+.eh {
+  background-clip: padding-box;
+}
+.ei {
+  border-top-left-radius: 6px;
+}
+.ej {
+  border-top-right-radius: 6px;
+}
+.ek {
+  border-bottom-right-radius: 6px;
+}
+.el {
+  border-bottom-left-radius: 6px;
+}
+.em {
+  border-top-color: rgba(0, 0, 0, 0.2);
+}
+.en {
+  border-right-color: rgba(0, 0, 0, 0.2);
+}
+.eo {
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+.ep {
+  border-left-color: rgba(0, 0, 0, 0.2);
+}
+.eq {
+  justify-content: space-between;
+}
+.er {
+  border-bottom-color: #e5e5e5;
+}
+.es {
+  padding-top: 15px;
+}
+.et {
+  padding-right: 15px;
+}
+.eu {
+  padding-bottom: 15px;
+}
+.ev {
+  padding-left: 15px;
+}
+.ew {
+  margin-top: 0;
+}
+.ex {
+  margin-right: 0;
+}
+.ey {
+  margin-left: 0;
+}
+.ez {
+  margin-top: -2px;
+}
+.fa {
+  appearance: none;
+}
+.fb {
+  text-align: end;
+}
+.fc {
+  position: absolute;
+}
+.fd {
+  right: 2rem;
+}
+.fe {
+  top: 1rem;
+}
+.ff {
+  background-color: transparent;
+}
+.fg {
+  background-image: url(test-file-stub);
+}
+.fh {
+  background-repeat: no-repeat;
+}
+.fi {
+  background-size: 16px;
+}
+.fj {
+  background-position: center;
+}
+.fk {
+  padding-top: 1rem;
+}
+.fl {
+  padding-right: 1rem;
+}
+.fm {
+  padding-bottom: 1rem;
+}
+.fn {
+  padding-left: 1rem;
+}
+.fo {
+  border-top-width: 0;
+}
+.fp {
+  border-right-width: 0;
+}
+.fq {
+  border-bottom-width: 0;
+}
+.fr {
+  border-left-width: 0;
+}
+.fs {
+  border-bottom-color: #dee2e6;
+}
+.ft {
+  justify-content: flex-end;
+}
+.fu > * {
+  margin-top: 0.25rem;
+}
+.fv > * {
+  margin-right: 0.25rem;
+}
+.fw > * {
+  margin-bottom: 0.25rem;
+}
+.fx > * {
+  margin-left: 0.25rem;
+}
+.fy button + button {
+  margin-bottom: 0;
+}
+.fz button + button {
+  margin-left: 5px;
+}
+.ga {
+  padding-top: 0.75rem;
+}
+.gb {
+  padding-bottom: 0.75rem;
+}
+.gc {
+  padding-left: !important;
+}
+.gd {
+  background-color: #6c757d;
+}
+.gj:disabled {
+  background-color: #6c757d;
+}
+.gk:disabled {
+  border-top-color: #6c757d;
+}
+.gl:disabled {
+  border-right-color: #6c757d;
+}
+.gm:disabled {
+  border-bottom-color: #6c757d;
+}
+.gn:disabled {
+  border-left-color: #6c757d;
+}
+.gz {
+  border-top-color: #6c757d;
+}
+.ha {
+  border-right-color: #6c757d;
+}
+.hb {
+  border-bottom-color: #6c757d;
+}
+.hc {
+  border-left-color: #6c757d;
+}
+.cg:hover {
+  background-color: #0b5ed7;
+}
+.ch:hover {
+  color: #fff;
+}
+.ci:hover {
+  border-top-color: #0a58ca;
+}
+.cj:hover {
+  border-right-color: #0a58ca;
+}
+.ck:hover {
+  border-bottom-color: #0a58ca;
+}
+.cl:hover {
+  border-left-color: #0a58ca;
+}
+.gu:hover {
+  background-color: #5c636a;
+}
+.gv:hover {
+  border-top-color: #565e64;
+}
+.gw:hover {
+  border-right-color: #565e64;
+}
+.gx:hover {
+  border-bottom-color: #565e64;
+}
+.gy:hover {
+  border-left-color: #565e64;
+}
+.by:focus-visible {
+  color: #fff;
+}
+.bz:focus-visible {
+  background-color: #0b5ed7;
+}
+.ca:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.cb:focus-visible {
+  outline-width: 0;
+}
+.cc:focus-visible {
+  border-top-color: #0a58ca;
+}
+.cd:focus-visible {
+  border-right-color: #0a58ca;
+}
+.ce:focus-visible {
+  border-bottom-color: #0a58ca;
+}
+.cf:focus-visible {
+  border-left-color: #0a58ca;
+}
+.go:focus-visible {
+  background-color: #5c636a;
+}
+.gp:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+}
+.gq:focus-visible {
+  border-top-color: #565e64;
+}
+.gr:focus-visible {
+  border-right-color: #565e64;
+}
+.gs:focus-visible {
+  border-bottom-color: #565e64;
+}
+.gt:focus-visible {
+  border-left-color: #565e64;
+}
+.be:active {
+  color: #fff;
+}
+.bf:active {
+  background-color: #0a58ca;
+}
+.bg:active {
+  background-image: none;
+}
+.bh:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.bi:active {
+  outline-width: 0;
+}
+.bj:active {
+  border-top-color: #0a53be;
+}
+.bk:active {
+  border-right-color: #0a53be;
+}
+.bl:active {
+  border-bottom-color: #0a53be;
+}
+.bm:active {
+  border-left-color: #0a53be;
+}
+.ge:active {
+  background-color: #565e64;
+}
+.gf:active {
+  border-top-color: #51585e;
+}
+.gg:active {
+  border-right-color: #51585e;
+}
+.gh:active {
+  border-bottom-color: #51585e;
+}
+.gi:active {
+  border-left-color: #51585e;
+}
+@media (min-width: 576px) {
+  .j {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .k {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .l {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+@media (min-width: 768px) {
+  .m {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .n {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .o {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+@media (min-width: 992px) {
+  .p {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .q {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .r {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+@media (min-width: 1200px) {
+  .s {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .t {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .u {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+@media (min-width: 1320px) {
+  .v {
+    margin-right: calc(-0.5 * 0.25rem);
+  }
+  .w {
+    margin-left: calc(-0.5 * 0.25rem);
+  }
+  .x {
+    margin-top: calc(-1 * 0.25rem);
+  }
+}
+
+
+<div class="a b c d e f g h i j k l m n o p q r s t u v w x">
+  <div class="ab ac ae af ag ah y z">
+    <button
+      data-testid="open-modal-btn"
+      class="ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx"
+    >
+      Open Modal
+    </button>
+  </div>
+  <div
+    data-testid="portal"
+    style="width: 100%"
+    id="bootstrap-modal-dialog-container"
+  >
+    <div
+      data-testid="modal-backdrop"
+      style="
+        transition: opacity display 300ms ease-in-out;
+        opacity: 0;
+        display: none;
+      "
+      class="cy cz da db dc dd de df bs-modal-backdrop"
+    ></div>
+    <div
+      data-testid="modal-overlay"
+      class="dc dd de df dg dh di dj dk dl dm dn do dp dq dr ds dt i modal bootstrap-modal-overlay"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="Centered Modal"
+      style="
+        transition: opacity display 300ms ease-in-out;
+        opacity: 0;
+        display: none;
+      "
+    >
+      <div
+        data-testid="modal-dialog"
+        class="dh di ds du dv dw dx dy dz ea eb ec ed ee bs-modal-dialog bootstrap-modal-dialog"
+        style="
+          transition: opacity display 300ms ease-in-out;
+          opacity: 0;
+          display: none;
+        "
+      >
+        <div
+          data-testid="modal-dialog-inner"
+          class="az cm cn co cp cq cr cs ct dt dv ef eg eh ei ej ek el em en eo ep bs-modal-content bootstrap-modal-dialog"
+        >
+          <div
+            data-testid="modal-header"
+            class="a b co cs eq er es et eu ev bs-modal-header"
+          >
+            <h4
+              data-testid="modal-title"
+              class="ax ay az ew ex ey bs-modal-title"
+            >
+              Centered Modal
+            </h4>
+            <button
+              data-testid="modal-close-button"
+              class="at ez fa fb fc fd fe ff fg fh fi fj fk fl fm fn fo fp fq fr bs-close"
+              type="button"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div
+            data-testid="modal-body"
+            class="co cs dv es et eu ev fs bs-modal-body"
+          >
+            <p>Vertically Centered Modal.</p>
+          </div>
+          <div
+            data-testid="modal-footer"
+            class="a b ft fu fv fw fx fy fz g ga gb gc bs-modal-footer"
+          >
+            <button
+              data-testid="close-modal-btn"
+              class="ai aj ak al am an ao ap ar as at au av aw ax ay az ba bb bc bd be bg bh bi bo bp bq br bs bt by cb ch cm cn co cp cq cr cs ct gd ge gf gg gh gi gj gk gl gm gn go gp gq gr gs gt gu gv gw gx gy gz ha hb hc"
+            >
+              Close</button
+            ><button
+              data-testid="button"
+              class="ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx"
+            >
+              Save Changes
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+;;
+"
+`;

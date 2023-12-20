@@ -1,0 +1,347 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/Floating/Select/Label should display a disabled floating select label 1`] = `
+".a {
+  position: absolute;
+}
+.b {
+  top: 0;
+}
+.c {
+  left: 0;
+}
+.d {
+  z-index: 2;
+}
+.e {
+  height: 100%;
+}
+.f {
+  text-align: start;
+}
+.g {
+  text-overflow: ellipsis;
+}
+.h {
+  white-space: nowrap;
+}
+.i {
+  pointer-events: none;
+}
+.j {
+  transform-origin: 0 0;
+}
+.k {
+  color: #6c757d;
+}
+.l {
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+.q::after {
+  position: absolute;
+}
+.r::after {
+  z-index: -1;
+}
+.s::after {
+  height: 1.5em;
+}
+.t::after {
+  content:;
+}
+.u::after {
+  background-color: #fff;
+}
+.v::after {
+  border-top-left-radius: 0.375rem;
+}
+.w::after {
+  border-top-right-radius: 0.375rem;
+}
+.x::after {
+  border-bottom-right-radius: 0.375rem;
+}
+.y::after {
+  border-bottom-left-radius: 0.375rem;
+}
+.z::after {
+  top: 1rem;
+}
+.ab::after {
+  right: 0.375rem;
+}
+.ac::after {
+  bottom: 1rem;
+}
+.ae::after {
+  left: 0.375rem;
+}
+.af {
+  transition-property: opacity, transform;
+}
+.ag {
+  transition-duration: 0.1s, 0.1s;
+}
+.ah {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ai {
+  transition-timing-function: ease, ease;
+}
+.aj {
+  border-top-width: 1px;
+}
+.ak {
+  border-right-width: 1px;
+}
+.al {
+  border-bottom-width: 1px;
+}
+.am {
+  border-left-width: 1px;
+}
+.an {
+  border-top-style: solid;
+}
+.ao {
+  border-right-style: solid;
+}
+.ap {
+  border-bottom-style: solid;
+}
+.aq {
+  border-left-style: solid;
+}
+.ar {
+  border-top-color: transparent;
+}
+.as {
+  border-right-color: transparent;
+}
+.at {
+  border-bottom-color: transparent;
+}
+.au {
+  border-left-color: transparent;
+}
+.av {
+  overflow-x: hidden;
+}
+.aw {
+  overflow-y: hidden;
+}
+.ax {
+  padding-top: 1rem;
+}
+.ay {
+  padding-right: 0.75rem;
+}
+.az {
+  padding-bottom: 1rem;
+}
+.ba {
+  padding-left: 0.75rem;
+}
+.bb {
+  display: inline-block;
+}
+.bc {
+  margin-bottom: 0.5rem;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<label
+  data-testid="form-label"
+  for="foobar"
+  class="bb bc form-label a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba c d e f g h i j k l m n o p q r s t u v w x y z floating-select-label"
+  >Floating Select Label</label
+>;
+"
+`;
+
+exports[`components/Form/Floating/Select/Label should display a floating select label 1`] = `
+".a {
+  position: absolute;
+}
+.b {
+  top: 0;
+}
+.c {
+  left: 0;
+}
+.d {
+  z-index: 2;
+}
+.e {
+  height: 100%;
+}
+.f {
+  text-align: start;
+}
+.g {
+  text-overflow: ellipsis;
+}
+.h {
+  white-space: nowrap;
+}
+.i {
+  pointer-events: none;
+}
+.j {
+  transform-origin: 0 0;
+}
+.k {
+  color: rgba(33, 37, 41, 0.65);
+}
+.l {
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+.q::after {
+  position: absolute;
+}
+.r::after {
+  z-index: -1;
+}
+.s::after {
+  height: 1.5em;
+}
+.t::after {
+  content:;
+}
+.u::after {
+  background-color: #fff;
+}
+.v::after {
+  border-top-left-radius: 0.375rem;
+}
+.w::after {
+  border-top-right-radius: 0.375rem;
+}
+.x::after {
+  border-bottom-right-radius: 0.375rem;
+}
+.y::after {
+  border-bottom-left-radius: 0.375rem;
+}
+.z::after {
+  top: 1rem;
+}
+.ab::after {
+  right: 0.375rem;
+}
+.ac::after {
+  bottom: 1rem;
+}
+.ae::after {
+  left: 0.375rem;
+}
+.af {
+  transition-property: opacity, transform;
+}
+.ag {
+  transition-duration: 0.1s, 0.1s;
+}
+.ah {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ai {
+  transition-timing-function: ease, ease;
+}
+.aj {
+  border-top-width: 1px;
+}
+.ak {
+  border-right-width: 1px;
+}
+.al {
+  border-bottom-width: 1px;
+}
+.am {
+  border-left-width: 1px;
+}
+.an {
+  border-top-style: solid;
+}
+.ao {
+  border-right-style: solid;
+}
+.ap {
+  border-bottom-style: solid;
+}
+.aq {
+  border-left-style: solid;
+}
+.ar {
+  border-top-color: transparent;
+}
+.as {
+  border-right-color: transparent;
+}
+.at {
+  border-bottom-color: transparent;
+}
+.au {
+  border-left-color: transparent;
+}
+.av {
+  overflow-x: hidden;
+}
+.aw {
+  overflow-y: hidden;
+}
+.ax {
+  padding-top: 1rem;
+}
+.ay {
+  padding-right: 0.75rem;
+}
+.az {
+  padding-bottom: 1rem;
+}
+.ba {
+  padding-left: 0.75rem;
+}
+.bb {
+  display: inline-block;
+}
+.bc {
+  margin-bottom: 0.5rem;
+}
+@media (prefers-reduced-motion: reduce) {
+  .m {
+    transition-property: none;
+  }
+  .n {
+    transition-duration: 0s;
+  }
+  .o {
+    transition-delay: 0s;
+  }
+  .p {
+    transition-timing-function: ease;
+  }
+}
+
+
+<label
+  data-testid="form-label"
+  for="foobar"
+  class="bb bc form-label a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba c d e f g h i j k l m n o p q r s t u v w x y z floating-select-label"
+  >Floating Select Label</label
+>;
+"
+`;

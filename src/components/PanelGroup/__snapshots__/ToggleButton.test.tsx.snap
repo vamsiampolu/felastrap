@@ -1,0 +1,1629 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/PanelGroup/ToggleButton should render a toggle button when panel is closed 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: flex !important;
+}
+.c {
+  align-items: center;
+}
+.d {
+  width: 100%;
+}
+.e {
+  font-size: 1rem;
+}
+.f {
+  color: #212529;
+}
+.g {
+  text-align: left;
+}
+.h {
+  background-color: #fff;
+}
+.i {
+  overflow-anchor: none;
+}
+.v {
+  transition-property: color, background-color, border-color, box-shadow,
+    border-radius;
+}
+.w {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.x {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease;
+}
+.y {
+  transition-timing-function: ease, ease, ease, ease, ease;
+}
+.z {
+  border-top-left-radius: 0;
+}
+.ab {
+  border-top-right-radius: 0;
+}
+.ac {
+  border-bottom-right-radius: 0;
+}
+.ae {
+  border-bottom-left-radius: 0;
+}
+.af {
+  border-top-width: 0;
+}
+.ag {
+  border-right-width: 0;
+}
+.ah {
+  border-bottom-width: 0;
+}
+.ai {
+  border-left-width: 0;
+}
+.aj {
+  padding-top: 1.25rem;
+}
+.ak {
+  padding-right: 1rem;
+}
+.al {
+  padding-bottom: 1.25rem;
+}
+.am {
+  padding-left: 1rem;
+}
+.an {
+  border-top-left-radius: 4px;
+}
+.ao {
+  border-bottom-left-radius: 4px;
+}
+.ap {
+  padding-top: 6px;
+}
+.aq {
+  padding-bottom: 6px;
+}
+.ar {
+  padding-left: 12px;
+}
+.as {
+  padding-right: 12px;
+}
+.at {
+  background-image: none;
+}
+.au {
+  color: #333;
+}
+.av {
+  cursor: pointer;
+}
+.aw {
+  display: inline-block;
+}
+.ax {
+  font-size: 14px;
+}
+.ay {
+  font-weight: 400;
+}
+.az {
+  line-height: 1.42857143;
+}
+.ba {
+  margin-bottom: 0;
+}
+.bb {
+  text-align: center;
+}
+.bc {
+  touch-action: manipulation;
+}
+.bd {
+  white-space: nowrap;
+}
+.be {
+  vertical-align: middle;
+}
+.bf {
+  user-select: none;
+}
+.bp:disabled {
+  background-color: #fff;
+}
+.bq:disabled {
+  color: #333;
+}
+.br:disabled {
+  box-shadow: none;
+}
+.bs:disabled {
+  cursor: not-allowed;
+}
+.bt:disabled {
+  filter: alpha(opacity=65);
+}
+.bu:disabled {
+  opacity: 0.65;
+}
+.bv:disabled {
+  pointer-events: none;
+}
+.bw:disabled {
+  border-top-color: #ccc;
+}
+.bx:disabled {
+  border-right-color: #ccc;
+}
+.by:disabled {
+  border-bottom-color: #ccc;
+}
+.bz:disabled {
+  border-left-color: #ccc;
+}
+.co {
+  border-top-width: 1px;
+}
+.cp {
+  border-right-width: 1px;
+}
+.cq {
+  border-bottom-width: 1px;
+}
+.cr {
+  border-left-width: 1px;
+}
+.cs {
+  border-top-style: solid;
+}
+.ct {
+  border-right-style: solid;
+}
+.cu {
+  border-bottom-style: solid;
+}
+.cv {
+  border-left-style: solid;
+}
+.cw {
+  border-top-color: #ccc;
+}
+.cx {
+  border-right-color: #ccc;
+}
+.cy {
+  border-bottom-color: #ccc;
+}
+.cz {
+  border-left-color: #ccc;
+}
+.u:hover {
+  z-index: 2;
+}
+.ci:hover {
+  background-color: #e6e6e6;
+}
+.cj:hover {
+  color: #333;
+}
+.ck:hover {
+  border-top-color: #adadad;
+}
+.cl:hover {
+  border-right-color: #adadad;
+}
+.cm:hover {
+  border-bottom-color: #adadad;
+}
+.cn:hover {
+  border-left-color: #adadad;
+}
+.n:focus {
+  z-index: 3;
+}
+.o:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.p:focus {
+  outline-width: 0;
+}
+.q:focus {
+  border-top-color: #86b7fe;
+}
+.r:focus {
+  border-right-color: #86b7fe;
+}
+.s:focus {
+  border-bottom-color: #86b7fe;
+}
+.t:focus {
+  border-left-color: #86b7fe;
+}
+.ca:focus-visible {
+  color: #333;
+}
+.cb:focus-visible {
+  background-color: #e6e6e6;
+}
+.cc:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.cd:focus-visible {
+  outline-width: 0;
+}
+.ce:focus-visible {
+  border-top-color: #adadad;
+}
+.cf:focus-visible {
+  border-right-color: #adadad;
+}
+.cg:focus-visible {
+  border-bottom-color: #adadad;
+}
+.ch:focus-visible {
+  border-left-color: #adadad;
+}
+.bg:active {
+  color: #333;
+}
+.bh:active {
+  background-color: #e6e6e6;
+}
+.bi:active {
+  background-image: none;
+}
+.bj:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.bk:active {
+  outline-width: 0;
+}
+.bl:active {
+  border-top-color: #adadad;
+}
+.bm:active {
+  border-right-color: #adadad;
+}
+.bn:active {
+  border-bottom-color: #adadad;
+}
+.bo:active {
+  border-left-color: #adadad;
+}
+@media (prefers-reduced-motion: reduce) {
+  .j {
+    transition-property: none;
+  }
+  .k {
+    transition-duration: 0s;
+  }
+  .l {
+    transition-delay: 0s;
+  }
+  .m {
+    transition-timing-function: ease;
+  }
+}
+
+
+<button
+  data-testid="panel-group-toggle-button"
+  class="ab ac an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz h a ab ac ae af ag ah ai aj ak al am b c d e f g h i j k l m n o p q r s t u v w x y z"
+  aria-expanded="false"
+>
+  Toggle Button</button
+>;
+"
+`;
+
+exports[`components/PanelGroup/ToggleButton should render a toggle button when panel is open 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: flex !important;
+}
+.c {
+  align-items: center;
+}
+.d {
+  width: 100%;
+}
+.e {
+  font-size: 1rem;
+}
+.f {
+  color: #052c65;
+}
+.g {
+  text-align: left;
+}
+.h {
+  background-color: #cfe2ff;
+}
+.i {
+  overflow-anchor: none;
+}
+.v {
+  box-shadow: inset 0 calc(-1 * -1px) 0 #dee2e6;
+}
+.w {
+  transition-property: color, background-color, border-color, box-shadow,
+    border-radius;
+}
+.x {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.y {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease;
+}
+.z {
+  transition-timing-function: ease, ease, ease, ease, ease;
+}
+.ab {
+  border-top-left-radius: 0;
+}
+.ac {
+  border-top-right-radius: 0;
+}
+.ae {
+  border-bottom-right-radius: 0;
+}
+.af {
+  border-bottom-left-radius: 0;
+}
+.ag {
+  border-top-width: 0;
+}
+.ah {
+  border-right-width: 0;
+}
+.ai {
+  border-bottom-width: 0;
+}
+.aj {
+  border-left-width: 0;
+}
+.ak {
+  padding-top: 1.25rem;
+}
+.al {
+  padding-right: 1rem;
+}
+.am {
+  padding-bottom: 1.25rem;
+}
+.an {
+  padding-left: 1rem;
+}
+.ao {
+  border-top-left-radius: 4px;
+}
+.ap {
+  border-bottom-left-radius: 4px;
+}
+.aq {
+  padding-top: 6px;
+}
+.ar {
+  padding-bottom: 6px;
+}
+.as {
+  padding-left: 12px;
+}
+.at {
+  padding-right: 12px;
+}
+.au {
+  background-color: #fff;
+}
+.av {
+  background-image: none;
+}
+.aw {
+  color: #333;
+}
+.ax {
+  cursor: pointer;
+}
+.ay {
+  display: inline-block;
+}
+.az {
+  font-size: 14px;
+}
+.ba {
+  font-weight: 400;
+}
+.bb {
+  line-height: 1.42857143;
+}
+.bc {
+  margin-bottom: 0;
+}
+.bd {
+  text-align: center;
+}
+.be {
+  touch-action: manipulation;
+}
+.bf {
+  white-space: nowrap;
+}
+.bg {
+  vertical-align: middle;
+}
+.bh {
+  user-select: none;
+}
+.br:disabled {
+  background-color: #fff;
+}
+.bs:disabled {
+  color: #333;
+}
+.bt:disabled {
+  box-shadow: none;
+}
+.bu:disabled {
+  cursor: not-allowed;
+}
+.bv:disabled {
+  filter: alpha(opacity=65);
+}
+.bw:disabled {
+  opacity: 0.65;
+}
+.bx:disabled {
+  pointer-events: none;
+}
+.by:disabled {
+  border-top-color: #ccc;
+}
+.bz:disabled {
+  border-right-color: #ccc;
+}
+.ca:disabled {
+  border-bottom-color: #ccc;
+}
+.cb:disabled {
+  border-left-color: #ccc;
+}
+.cq {
+  border-top-width: 1px;
+}
+.cr {
+  border-right-width: 1px;
+}
+.cs {
+  border-bottom-width: 1px;
+}
+.ct {
+  border-left-width: 1px;
+}
+.cu {
+  border-top-style: solid;
+}
+.cv {
+  border-right-style: solid;
+}
+.cw {
+  border-bottom-style: solid;
+}
+.cx {
+  border-left-style: solid;
+}
+.cy {
+  border-top-color: #ccc;
+}
+.cz {
+  border-right-color: #ccc;
+}
+.da {
+  border-bottom-color: #ccc;
+}
+.db {
+  border-left-color: #ccc;
+}
+.u:hover {
+  z-index: 2;
+}
+.ck:hover {
+  background-color: #e6e6e6;
+}
+.cl:hover {
+  color: #333;
+}
+.cm:hover {
+  border-top-color: #adadad;
+}
+.cn:hover {
+  border-right-color: #adadad;
+}
+.co:hover {
+  border-bottom-color: #adadad;
+}
+.cp:hover {
+  border-left-color: #adadad;
+}
+.n:focus {
+  z-index: 3;
+}
+.o:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.p:focus {
+  outline-width: 0;
+}
+.q:focus {
+  border-top-color: #86b7fe;
+}
+.r:focus {
+  border-right-color: #86b7fe;
+}
+.s:focus {
+  border-bottom-color: #86b7fe;
+}
+.t:focus {
+  border-left-color: #86b7fe;
+}
+.cc:focus-visible {
+  color: #333;
+}
+.cd:focus-visible {
+  background-color: #e6e6e6;
+}
+.ce:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.cf:focus-visible {
+  outline-width: 0;
+}
+.cg:focus-visible {
+  border-top-color: #adadad;
+}
+.ch:focus-visible {
+  border-right-color: #adadad;
+}
+.ci:focus-visible {
+  border-bottom-color: #adadad;
+}
+.cj:focus-visible {
+  border-left-color: #adadad;
+}
+.bi:active {
+  color: #333;
+}
+.bj:active {
+  background-color: #e6e6e6;
+}
+.bk:active {
+  background-image: none;
+}
+.bl:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.bm:active {
+  outline-width: 0;
+}
+.bn:active {
+  border-top-color: #adadad;
+}
+.bo:active {
+  border-right-color: #adadad;
+}
+.bp:active {
+  border-bottom-color: #adadad;
+}
+.bq:active {
+  border-left-color: #adadad;
+}
+@media (prefers-reduced-motion: reduce) {
+  .j {
+    transition-property: none;
+  }
+  .k {
+    transition-duration: 0s;
+  }
+  .l {
+    transition-delay: 0s;
+  }
+  .m {
+    transition-timing-function: ease;
+  }
+}
+
+
+<button
+  data-testid="panel-group-toggle-button"
+  class="ac ae ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db a ab ac ae af ag ah ai aj ak al am an b c d e f g h i j k l m n o p q r s t u v w x y z"
+  aria-expanded="true"
+>
+  Toggle Button</button
+>;
+"
+`;
+
+exports[`components/PanelGroup/ToggleButton should render the first toggle button 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: flex !important;
+}
+.c {
+  align-items: center;
+}
+.d {
+  width: 100%;
+}
+.e {
+  font-size: 1rem;
+}
+.f {
+  color: #212529;
+}
+.g {
+  text-align: left;
+}
+.h {
+  background-color: #fff;
+}
+.i {
+  overflow-anchor: none;
+}
+.v {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.w {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.x {
+  transition-property: color, background-color, border-color, box-shadow,
+    border-radius;
+}
+.y {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.z {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease;
+}
+.ab {
+  transition-timing-function: ease, ease, ease, ease, ease;
+}
+.ac {
+  border-bottom-right-radius: 0;
+}
+.ae {
+  border-bottom-left-radius: 0;
+}
+.af {
+  border-top-width: 0;
+}
+.ag {
+  border-right-width: 0;
+}
+.ah {
+  border-bottom-width: 0;
+}
+.ai {
+  border-left-width: 0;
+}
+.aj {
+  padding-top: 1.25rem;
+}
+.ak {
+  padding-right: 1rem;
+}
+.al {
+  padding-bottom: 1.25rem;
+}
+.am {
+  padding-left: 1rem;
+}
+.an {
+  border-top-left-radius: 4px;
+}
+.ao {
+  border-top-right-radius: 0;
+}
+.ap {
+  border-bottom-left-radius: 4px;
+}
+.aq {
+  padding-top: 6px;
+}
+.ar {
+  padding-bottom: 6px;
+}
+.as {
+  padding-left: 12px;
+}
+.at {
+  padding-right: 12px;
+}
+.au {
+  background-image: none;
+}
+.av {
+  color: #333;
+}
+.aw {
+  cursor: pointer;
+}
+.ax {
+  display: inline-block;
+}
+.ay {
+  font-size: 14px;
+}
+.az {
+  font-weight: 400;
+}
+.ba {
+  line-height: 1.42857143;
+}
+.bb {
+  margin-bottom: 0;
+}
+.bc {
+  text-align: center;
+}
+.bd {
+  touch-action: manipulation;
+}
+.be {
+  white-space: nowrap;
+}
+.bf {
+  vertical-align: middle;
+}
+.bg {
+  user-select: none;
+}
+.bq:disabled {
+  background-color: #fff;
+}
+.br:disabled {
+  color: #333;
+}
+.bs:disabled {
+  box-shadow: none;
+}
+.bt:disabled {
+  cursor: not-allowed;
+}
+.bu:disabled {
+  filter: alpha(opacity=65);
+}
+.bv:disabled {
+  opacity: 0.65;
+}
+.bw:disabled {
+  pointer-events: none;
+}
+.bx:disabled {
+  border-top-color: #ccc;
+}
+.by:disabled {
+  border-right-color: #ccc;
+}
+.bz:disabled {
+  border-bottom-color: #ccc;
+}
+.ca:disabled {
+  border-left-color: #ccc;
+}
+.cp {
+  border-top-width: 1px;
+}
+.cq {
+  border-right-width: 1px;
+}
+.cr {
+  border-bottom-width: 1px;
+}
+.cs {
+  border-left-width: 1px;
+}
+.ct {
+  border-top-style: solid;
+}
+.cu {
+  border-right-style: solid;
+}
+.cv {
+  border-bottom-style: solid;
+}
+.cw {
+  border-left-style: solid;
+}
+.cx {
+  border-top-color: #ccc;
+}
+.cy {
+  border-right-color: #ccc;
+}
+.cz {
+  border-bottom-color: #ccc;
+}
+.da {
+  border-left-color: #ccc;
+}
+.u:hover {
+  z-index: 2;
+}
+.cj:hover {
+  background-color: #e6e6e6;
+}
+.ck:hover {
+  color: #333;
+}
+.cl:hover {
+  border-top-color: #adadad;
+}
+.cm:hover {
+  border-right-color: #adadad;
+}
+.cn:hover {
+  border-bottom-color: #adadad;
+}
+.co:hover {
+  border-left-color: #adadad;
+}
+.n:focus {
+  z-index: 3;
+}
+.o:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.p:focus {
+  outline-width: 0;
+}
+.q:focus {
+  border-top-color: #86b7fe;
+}
+.r:focus {
+  border-right-color: #86b7fe;
+}
+.s:focus {
+  border-bottom-color: #86b7fe;
+}
+.t:focus {
+  border-left-color: #86b7fe;
+}
+.cb:focus-visible {
+  color: #333;
+}
+.cc:focus-visible {
+  background-color: #e6e6e6;
+}
+.cd:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.ce:focus-visible {
+  outline-width: 0;
+}
+.cf:focus-visible {
+  border-top-color: #adadad;
+}
+.cg:focus-visible {
+  border-right-color: #adadad;
+}
+.ch:focus-visible {
+  border-bottom-color: #adadad;
+}
+.ci:focus-visible {
+  border-left-color: #adadad;
+}
+.bh:active {
+  color: #333;
+}
+.bi:active {
+  background-color: #e6e6e6;
+}
+.bj:active {
+  background-image: none;
+}
+.bk:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.bl:active {
+  outline-width: 0;
+}
+.bm:active {
+  border-top-color: #adadad;
+}
+.bn:active {
+  border-right-color: #adadad;
+}
+.bo:active {
+  border-bottom-color: #adadad;
+}
+.bp:active {
+  border-left-color: #adadad;
+}
+@media (prefers-reduced-motion: reduce) {
+  .j {
+    transition-property: none;
+  }
+  .k {
+    transition-duration: 0s;
+  }
+  .l {
+    transition-delay: 0s;
+  }
+  .m {
+    transition-timing-function: ease;
+  }
+}
+
+
+<button
+  data-testid="panel-group-toggle-button"
+  class="ac an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da h a ab ac ae af ag ah ai aj ak al am b c d e f g h i j k l m n o p q r s t u v w x y z"
+  aria-expanded="false"
+>
+  Toggle Button</button
+>;
+"
+`;
+
+exports[`components/PanelGroup/ToggleButton should render the last toggle button when closed 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: flex !important;
+}
+.c {
+  align-items: center;
+}
+.d {
+  width: 100%;
+}
+.e {
+  font-size: 1rem;
+}
+.f {
+  color: #212529;
+}
+.g {
+  text-align: left;
+}
+.h {
+  background-color: #fff;
+}
+.i {
+  overflow-anchor: none;
+}
+.v {
+  border-bottom-right-radius: calc(0.375rem - 1px);
+}
+.w {
+  border-bottom-left-radius: calc(0.375rem - 1px);
+}
+.x {
+  transition-property: color, background-color, border-color, box-shadow,
+    border-radius;
+}
+.y {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.z {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease;
+}
+.ab {
+  transition-timing-function: ease, ease, ease, ease, ease;
+}
+.ac {
+  border-top-left-radius: 0;
+}
+.ae {
+  border-top-right-radius: 0;
+}
+.af {
+  border-top-width: 0;
+}
+.ag {
+  border-right-width: 0;
+}
+.ah {
+  border-bottom-width: 0;
+}
+.ai {
+  border-left-width: 0;
+}
+.aj {
+  padding-top: 1.25rem;
+}
+.ak {
+  padding-right: 1rem;
+}
+.al {
+  padding-bottom: 1.25rem;
+}
+.am {
+  padding-left: 1rem;
+}
+.an {
+  border-top-left-radius: 4px;
+}
+.ao {
+  border-bottom-right-radius: 0;
+}
+.ap {
+  border-bottom-left-radius: 4px;
+}
+.aq {
+  padding-top: 6px;
+}
+.ar {
+  padding-bottom: 6px;
+}
+.as {
+  padding-left: 12px;
+}
+.at {
+  padding-right: 12px;
+}
+.au {
+  background-image: none;
+}
+.av {
+  color: #333;
+}
+.aw {
+  cursor: pointer;
+}
+.ax {
+  display: inline-block;
+}
+.ay {
+  font-size: 14px;
+}
+.az {
+  font-weight: 400;
+}
+.ba {
+  line-height: 1.42857143;
+}
+.bb {
+  margin-bottom: 0;
+}
+.bc {
+  text-align: center;
+}
+.bd {
+  touch-action: manipulation;
+}
+.be {
+  white-space: nowrap;
+}
+.bf {
+  vertical-align: middle;
+}
+.bg {
+  user-select: none;
+}
+.bq:disabled {
+  background-color: #fff;
+}
+.br:disabled {
+  color: #333;
+}
+.bs:disabled {
+  box-shadow: none;
+}
+.bt:disabled {
+  cursor: not-allowed;
+}
+.bu:disabled {
+  filter: alpha(opacity=65);
+}
+.bv:disabled {
+  opacity: 0.65;
+}
+.bw:disabled {
+  pointer-events: none;
+}
+.bx:disabled {
+  border-top-color: #ccc;
+}
+.by:disabled {
+  border-right-color: #ccc;
+}
+.bz:disabled {
+  border-bottom-color: #ccc;
+}
+.ca:disabled {
+  border-left-color: #ccc;
+}
+.cp {
+  border-top-width: 1px;
+}
+.cq {
+  border-right-width: 1px;
+}
+.cr {
+  border-bottom-width: 1px;
+}
+.cs {
+  border-left-width: 1px;
+}
+.ct {
+  border-top-style: solid;
+}
+.cu {
+  border-right-style: solid;
+}
+.cv {
+  border-bottom-style: solid;
+}
+.cw {
+  border-left-style: solid;
+}
+.cx {
+  border-top-color: #ccc;
+}
+.cy {
+  border-right-color: #ccc;
+}
+.cz {
+  border-bottom-color: #ccc;
+}
+.da {
+  border-left-color: #ccc;
+}
+.u:hover {
+  z-index: 2;
+}
+.cj:hover {
+  background-color: #e6e6e6;
+}
+.ck:hover {
+  color: #333;
+}
+.cl:hover {
+  border-top-color: #adadad;
+}
+.cm:hover {
+  border-right-color: #adadad;
+}
+.cn:hover {
+  border-bottom-color: #adadad;
+}
+.co:hover {
+  border-left-color: #adadad;
+}
+.n:focus {
+  z-index: 3;
+}
+.o:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.p:focus {
+  outline-width: 0;
+}
+.q:focus {
+  border-top-color: #86b7fe;
+}
+.r:focus {
+  border-right-color: #86b7fe;
+}
+.s:focus {
+  border-bottom-color: #86b7fe;
+}
+.t:focus {
+  border-left-color: #86b7fe;
+}
+.cb:focus-visible {
+  color: #333;
+}
+.cc:focus-visible {
+  background-color: #e6e6e6;
+}
+.cd:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.ce:focus-visible {
+  outline-width: 0;
+}
+.cf:focus-visible {
+  border-top-color: #adadad;
+}
+.cg:focus-visible {
+  border-right-color: #adadad;
+}
+.ch:focus-visible {
+  border-bottom-color: #adadad;
+}
+.ci:focus-visible {
+  border-left-color: #adadad;
+}
+.bh:active {
+  color: #333;
+}
+.bi:active {
+  background-color: #e6e6e6;
+}
+.bj:active {
+  background-image: none;
+}
+.bk:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.bl:active {
+  outline-width: 0;
+}
+.bm:active {
+  border-top-color: #adadad;
+}
+.bn:active {
+  border-right-color: #adadad;
+}
+.bo:active {
+  border-bottom-color: #adadad;
+}
+.bp:active {
+  border-left-color: #adadad;
+}
+@media (prefers-reduced-motion: reduce) {
+  .j {
+    transition-property: none;
+  }
+  .k {
+    transition-duration: 0s;
+  }
+  .l {
+    transition-delay: 0s;
+  }
+  .m {
+    transition-timing-function: ease;
+  }
+}
+
+
+<button
+  data-testid="panel-group-toggle-button"
+  class="ae an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da h a ab ac ae af ag ah ai aj ak al am b c d e f g h i j k l m n o p q r s t u v w x y z"
+  aria-expanded="false"
+>
+  Toggle Button</button
+>;
+"
+`;
+
+exports[`components/PanelGroup/ToggleButton should render the last toggle button when open 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: flex !important;
+}
+.c {
+  align-items: center;
+}
+.d {
+  width: 100%;
+}
+.e {
+  font-size: 1rem;
+}
+.f {
+  color: #052c65;
+}
+.g {
+  text-align: left;
+}
+.h {
+  background-color: #cfe2ff;
+}
+.i {
+  overflow-anchor: none;
+}
+.v {
+  box-shadow: inset 0 calc(-1 * -1px) 0 #dee2e6;
+}
+.w {
+  transition-property: color, background-color, border-color, box-shadow,
+    border-radius;
+}
+.x {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.y {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease;
+}
+.z {
+  transition-timing-function: ease, ease, ease, ease, ease;
+}
+.ab {
+  border-top-left-radius: 0;
+}
+.ac {
+  border-top-right-radius: 0;
+}
+.ae {
+  border-bottom-right-radius: 0;
+}
+.af {
+  border-bottom-left-radius: 0;
+}
+.ag {
+  border-top-width: 0;
+}
+.ah {
+  border-right-width: 0;
+}
+.ai {
+  border-bottom-width: 0;
+}
+.aj {
+  border-left-width: 0;
+}
+.ak {
+  padding-top: 1.25rem;
+}
+.al {
+  padding-right: 1rem;
+}
+.am {
+  padding-bottom: 1.25rem;
+}
+.an {
+  padding-left: 1rem;
+}
+.ao {
+  border-top-left-radius: 4px;
+}
+.ap {
+  border-bottom-left-radius: 4px;
+}
+.aq {
+  padding-top: 6px;
+}
+.ar {
+  padding-bottom: 6px;
+}
+.as {
+  padding-left: 12px;
+}
+.at {
+  padding-right: 12px;
+}
+.au {
+  background-color: #fff;
+}
+.av {
+  background-image: none;
+}
+.aw {
+  color: #333;
+}
+.ax {
+  cursor: pointer;
+}
+.ay {
+  display: inline-block;
+}
+.az {
+  font-size: 14px;
+}
+.ba {
+  font-weight: 400;
+}
+.bb {
+  line-height: 1.42857143;
+}
+.bc {
+  margin-bottom: 0;
+}
+.bd {
+  text-align: center;
+}
+.be {
+  touch-action: manipulation;
+}
+.bf {
+  white-space: nowrap;
+}
+.bg {
+  vertical-align: middle;
+}
+.bh {
+  user-select: none;
+}
+.br:disabled {
+  background-color: #fff;
+}
+.bs:disabled {
+  color: #333;
+}
+.bt:disabled {
+  box-shadow: none;
+}
+.bu:disabled {
+  cursor: not-allowed;
+}
+.bv:disabled {
+  filter: alpha(opacity=65);
+}
+.bw:disabled {
+  opacity: 0.65;
+}
+.bx:disabled {
+  pointer-events: none;
+}
+.by:disabled {
+  border-top-color: #ccc;
+}
+.bz:disabled {
+  border-right-color: #ccc;
+}
+.ca:disabled {
+  border-bottom-color: #ccc;
+}
+.cb:disabled {
+  border-left-color: #ccc;
+}
+.cq {
+  border-top-width: 1px;
+}
+.cr {
+  border-right-width: 1px;
+}
+.cs {
+  border-bottom-width: 1px;
+}
+.ct {
+  border-left-width: 1px;
+}
+.cu {
+  border-top-style: solid;
+}
+.cv {
+  border-right-style: solid;
+}
+.cw {
+  border-bottom-style: solid;
+}
+.cx {
+  border-left-style: solid;
+}
+.cy {
+  border-top-color: #ccc;
+}
+.cz {
+  border-right-color: #ccc;
+}
+.da {
+  border-bottom-color: #ccc;
+}
+.db {
+  border-left-color: #ccc;
+}
+.u:hover {
+  z-index: 2;
+}
+.ck:hover {
+  background-color: #e6e6e6;
+}
+.cl:hover {
+  color: #333;
+}
+.cm:hover {
+  border-top-color: #adadad;
+}
+.cn:hover {
+  border-right-color: #adadad;
+}
+.co:hover {
+  border-bottom-color: #adadad;
+}
+.cp:hover {
+  border-left-color: #adadad;
+}
+.n:focus {
+  z-index: 3;
+}
+.o:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.p:focus {
+  outline-width: 0;
+}
+.q:focus {
+  border-top-color: #86b7fe;
+}
+.r:focus {
+  border-right-color: #86b7fe;
+}
+.s:focus {
+  border-bottom-color: #86b7fe;
+}
+.t:focus {
+  border-left-color: #86b7fe;
+}
+.cc:focus-visible {
+  color: #333;
+}
+.cd:focus-visible {
+  background-color: #e6e6e6;
+}
+.ce:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.cf:focus-visible {
+  outline-width: 0;
+}
+.cg:focus-visible {
+  border-top-color: #adadad;
+}
+.ch:focus-visible {
+  border-right-color: #adadad;
+}
+.ci:focus-visible {
+  border-bottom-color: #adadad;
+}
+.cj:focus-visible {
+  border-left-color: #adadad;
+}
+.bi:active {
+  color: #333;
+}
+.bj:active {
+  background-color: #e6e6e6;
+}
+.bk:active {
+  background-image: none;
+}
+.bl:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.bm:active {
+  outline-width: 0;
+}
+.bn:active {
+  border-top-color: #adadad;
+}
+.bo:active {
+  border-right-color: #adadad;
+}
+.bp:active {
+  border-bottom-color: #adadad;
+}
+.bq:active {
+  border-left-color: #adadad;
+}
+@media (prefers-reduced-motion: reduce) {
+  .j {
+    transition-property: none;
+  }
+  .k {
+    transition-duration: 0s;
+  }
+  .l {
+    transition-delay: 0s;
+  }
+  .m {
+    transition-timing-function: ease;
+  }
+}
+
+
+<button
+  data-testid="panel-group-toggle-button"
+  class="ac ae ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db a ab ac ae af ag ah ai aj ak al am an b c d e f g h i j k l m n o p q r s t u v w x y z"
+  aria-expanded="true"
+>
+  Toggle Button</button
+>;
+"
+`;

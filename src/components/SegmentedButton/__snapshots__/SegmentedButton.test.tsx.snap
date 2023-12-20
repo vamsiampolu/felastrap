@@ -1,0 +1,936 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/SegmentedButton/SegmentedButton should render a segmented button with placement right 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: flex;
+}
+.c {
+  flex-wrap: wrap;
+}
+.d {
+  align-items: stretch;
+}
+.e {
+  width: 100%;
+}
+.f {
+  margin-bottom: 1rem;
+}
+.g {
+  z-index: 2;
+}
+.i {
+  border-top-right-radius: 0;
+}
+.j {
+  border-bottom-right-radius: 0;
+}
+.k {
+  border-top-left-radius: 4px;
+}
+.l {
+  border-bottom-left-radius: 4px;
+}
+.m {
+  padding-top: 6px;
+}
+.n {
+  padding-bottom: 6px;
+}
+.o {
+  padding-left: 12px;
+}
+.p {
+  padding-right: 12px;
+}
+.q {
+  background-color: rgba(0, 0, 0, 0);
+}
+.r {
+  background-image: none;
+}
+.s {
+  color: #6c757d;
+}
+.t {
+  cursor: pointer;
+}
+.u {
+  display: inline-block;
+}
+.v {
+  font-size: 14px;
+}
+.w {
+  font-weight: 400;
+}
+.x {
+  line-height: 1.42857143;
+}
+.y {
+  margin-bottom: 0;
+}
+.z {
+  text-align: center;
+}
+.ab {
+  touch-action: manipulation;
+}
+.ac {
+  white-space: nowrap;
+}
+.ae {
+  vertical-align: middle;
+}
+.af {
+  user-select: none;
+}
+.ap:disabled {
+  background-color: transparent;
+}
+.aq:disabled {
+  color: #6c757d;
+}
+.ar:disabled {
+  box-shadow: none;
+}
+.as:disabled {
+  cursor: not-allowed;
+}
+.at:disabled {
+  filter: alpha(opacity=65);
+}
+.au:disabled {
+  opacity: 0.65;
+}
+.av:disabled {
+  pointer-events: none;
+}
+.aw:disabled {
+  border-top-color: #6c757d;
+}
+.ax:disabled {
+  border-right-color: #6c757d;
+}
+.ay:disabled {
+  border-bottom-color: #6c757d;
+}
+.az:disabled {
+  border-left-color: #6c757d;
+}
+.bo {
+  gradient: none;
+}
+.bq {
+  border-top-width: 1px;
+}
+.br {
+  border-right-width: 1px;
+}
+.bs {
+  border-bottom-width: 1px;
+}
+.bt {
+  border-left-width: 1px;
+}
+.bu {
+  border-top-style: solid;
+}
+.bv {
+  border-right-style: solid;
+}
+.bw {
+  border-bottom-style: solid;
+}
+.bx {
+  border-left-style: solid;
+}
+.by {
+  border-top-color: #6c757d;
+}
+.bz {
+  border-right-color: #6c757d;
+}
+.ca {
+  border-bottom-color: #6c757d;
+}
+.cb {
+  border-left-color: #6c757d;
+}
+.cc {
+  border-top-left-radius: 0;
+}
+.cd {
+  border-bottom-left-radius: 0;
+}
+.ce {
+  margin-left: -1px;
+}
+.cf {
+  padding-right: 0.5625rem;
+}
+.cg {
+  padding-left: 0.5625rem;
+}
+.ch {
+  width: 1px !important;
+}
+.ci {
+  height: 1px !important;
+}
+.cj {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.ck {
+  white-space: nowrap !important;
+}
+.cl {
+  position: absolute !important;
+}
+.cm {
+  border-top-width: 0;
+}
+.cn {
+  border-right-width: 0;
+}
+.co {
+  border-bottom-width: 0;
+}
+.cp {
+  border-left-width: 0;
+}
+.cq {
+  border-top-color: !important;
+}
+.cr {
+  border-right-color: !important;
+}
+.cs {
+  border-bottom-color: !important;
+}
+.ct {
+  border-left-color: !important;
+}
+.cu {
+  overflow-x: hidden;
+}
+.cv {
+  overflow-y: !important;
+}
+.cw {
+  margin-top: -1px;
+}
+.cx {
+  margin-right: !important;
+}
+.cy {
+  margin-bottom: -1px;
+}
+.cz {
+  margin-left: !important;
+}
+.da {
+  padding-top: 0;
+}
+.db {
+  padding-right: !important;
+}
+.dc {
+  padding-bottom: 0;
+}
+.dd {
+  padding-left: !important;
+}
+.de {
+  margin-left: 0;
+}
+.df {
+  vertical-align: 0.255em;
+}
+.dg {
+  border-left-width: 0.3em;
+}
+.dh {
+  border-left-color: transparent;
+}
+.di {
+  border-right-width: 0.3em;
+}
+.dj {
+  border-right-color: transparent;
+}
+.dk {
+  border-top-width: 0.3em;
+}
+.dl {
+  background-clip: padding-box;
+}
+.dm {
+  background-color: #fff;
+}
+.dn {
+  color: #212529;
+}
+.do {
+  display: block;
+}
+.dp {
+  font-size: 1rem;
+}
+.dq {
+  left: 0;
+}
+.dr {
+  list-style: none;
+}
+.ds {
+  margin-top: 0.125rem;
+}
+.dt {
+  min-width: 10rem;
+}
+.du {
+  position: absolute;
+}
+.dv {
+  text-align: left;
+}
+.dw {
+  top: 0;
+}
+.dx {
+  width: auto;
+}
+.dy {
+  z-index: 1000;
+}
+.dz {
+  transform: translate3d(0px, 40px, 0px);
+}
+.ea {
+  right: auto;
+}
+.eb {
+  bottom: auto;
+}
+.ec {
+  padding-top: 0.5rem;
+}
+.ed {
+  padding-right: 0.125rem;
+}
+.ee {
+  padding-bottom: 0.5rem;
+}
+.ef {
+  padding-left: 0.125rem;
+}
+.eg {
+  margin-right: 0px;
+}
+.eh {
+  margin-bottom: 0px;
+}
+.ei {
+  margin-left: 0px;
+}
+.ej {
+  border-top-left-radius: 0.375rem;
+}
+.ek {
+  border-top-right-radius: 0.375rem;
+}
+.el {
+  border-bottom-right-radius: 0.375rem;
+}
+.em {
+  border-bottom-left-radius: 0.375rem;
+}
+.en {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.eo {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.ep {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.eq {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.bi:hover {
+  background-color: #6c757d;
+}
+.bj:hover {
+  color: #fff;
+}
+.bk:hover {
+  border-top-color: #6c757d;
+}
+.bl:hover {
+  border-right-color: #6c757d;
+}
+.bm:hover {
+  border-bottom-color: #6c757d;
+}
+.bn:hover {
+  border-left-color: #6c757d;
+}
+.h:focus {
+  z-index: 5;
+}
+.ba:focus-visible {
+  color: #fff;
+}
+.bb:focus-visible {
+  background-color: #5c636a;
+}
+.bc:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+}
+.bd:focus-visible {
+  outline-width: 0;
+}
+.be:focus-visible {
+  border-top-color: #565e64;
+}
+.bf:focus-visible {
+  border-right-color: #565e64;
+}
+.bg:focus-visible {
+  border-bottom-color: #565e64;
+}
+.bh:focus-visible {
+  border-left-color: #565e64;
+}
+.bp:focus {
+  box-shadow: 0 0 0 0.25rem rgba(108, 117, 125, 0.5);
+}
+.ag:active {
+  color: #fff;
+}
+.ah:active {
+  background-color: #6c757d;
+}
+.ai:active {
+  background-image: none;
+}
+.aj:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ak:active {
+  outline-width: 0;
+}
+.al:active {
+  border-top-color: #6c757d;
+}
+.am:active {
+  border-right-color: #6c757d;
+}
+.an:active {
+  border-bottom-color: #6c757d;
+}
+.ao:active {
+  border-left-color: #6c757d;
+}
+
+
+<div data-testid="segmented-button" class="a b c d e f segmented-btn-wrapper">
+  <span data-testid="segmented-button-child">Segmented Button Child</span
+  ><button
+    data-testid="segmented-button-action"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb i j k l m n o p q r s t u v w x y z a g h i j segmented-button-action"
+    tabindex="0"
+  >
+    Action</button
+  ><button
+    data-testid="segment"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb i j k l m n o p q r s t u v w x y z a ac cc cd ce cf cg g h i j segment"
+    tabindex="1"
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    role="combobox"
+  >
+    <span
+      data-testid="segment-visually-hidden"
+      class="ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd visually-hidden"
+      >Toggle Dropdown</span
+    ><span
+      data-testid="segment-after"
+      class="bu bv bx co de df dg dh di dj dk u segment-after"
+    ></span>
+  </button>
+</div>
+;
+"
+`;
+
+exports[`components/SegmentedButton/SegmentedButton should render an action and a dropdown menu 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: flex;
+}
+.c {
+  flex-wrap: wrap;
+}
+.d {
+  align-items: stretch;
+}
+.e {
+  width: 100%;
+}
+.f {
+  margin-bottom: 1rem;
+}
+.g {
+  z-index: 2;
+}
+.i {
+  border-top-right-radius: 0;
+}
+.j {
+  border-bottom-right-radius: 0;
+}
+.k {
+  border-top-left-radius: 4px;
+}
+.l {
+  border-bottom-left-radius: 4px;
+}
+.m {
+  padding-top: 6px;
+}
+.n {
+  padding-bottom: 6px;
+}
+.o {
+  padding-left: 12px;
+}
+.p {
+  padding-right: 12px;
+}
+.q {
+  background-color: rgba(0, 0, 0, 0);
+}
+.r {
+  background-image: none;
+}
+.s {
+  color: #6c757d;
+}
+.t {
+  cursor: pointer;
+}
+.u {
+  display: inline-block;
+}
+.v {
+  font-size: 14px;
+}
+.w {
+  font-weight: 400;
+}
+.x {
+  line-height: 1.42857143;
+}
+.y {
+  margin-bottom: 0;
+}
+.z {
+  text-align: center;
+}
+.ab {
+  touch-action: manipulation;
+}
+.ac {
+  white-space: nowrap;
+}
+.ae {
+  vertical-align: middle;
+}
+.af {
+  user-select: none;
+}
+.ap:disabled {
+  background-color: transparent;
+}
+.aq:disabled {
+  color: #6c757d;
+}
+.ar:disabled {
+  box-shadow: none;
+}
+.as:disabled {
+  cursor: not-allowed;
+}
+.at:disabled {
+  filter: alpha(opacity=65);
+}
+.au:disabled {
+  opacity: 0.65;
+}
+.av:disabled {
+  pointer-events: none;
+}
+.aw:disabled {
+  border-top-color: #6c757d;
+}
+.ax:disabled {
+  border-right-color: #6c757d;
+}
+.ay:disabled {
+  border-bottom-color: #6c757d;
+}
+.az:disabled {
+  border-left-color: #6c757d;
+}
+.bo {
+  gradient: none;
+}
+.bq {
+  border-top-width: 1px;
+}
+.br {
+  border-right-width: 1px;
+}
+.bs {
+  border-bottom-width: 1px;
+}
+.bt {
+  border-left-width: 1px;
+}
+.bu {
+  border-top-style: solid;
+}
+.bv {
+  border-right-style: solid;
+}
+.bw {
+  border-bottom-style: solid;
+}
+.bx {
+  border-left-style: solid;
+}
+.by {
+  border-top-color: #6c757d;
+}
+.bz {
+  border-right-color: #6c757d;
+}
+.ca {
+  border-bottom-color: #6c757d;
+}
+.cb {
+  border-left-color: #6c757d;
+}
+.cc {
+  border-top-left-radius: 0;
+}
+.cd {
+  border-bottom-left-radius: 0;
+}
+.ce {
+  margin-left: -1px;
+}
+.cf {
+  padding-right: 0.5625rem;
+}
+.cg {
+  padding-left: 0.5625rem;
+}
+.ch {
+  width: 1px !important;
+}
+.ci {
+  height: 1px !important;
+}
+.cj {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.ck {
+  white-space: nowrap !important;
+}
+.cl {
+  position: absolute !important;
+}
+.cm {
+  border-top-width: 0;
+}
+.cn {
+  border-right-width: 0;
+}
+.co {
+  border-bottom-width: 0;
+}
+.cp {
+  border-left-width: 0;
+}
+.cq {
+  border-top-color: !important;
+}
+.cr {
+  border-right-color: !important;
+}
+.cs {
+  border-bottom-color: !important;
+}
+.ct {
+  border-left-color: !important;
+}
+.cu {
+  overflow-x: hidden;
+}
+.cv {
+  overflow-y: !important;
+}
+.cw {
+  margin-top: -1px;
+}
+.cx {
+  margin-right: !important;
+}
+.cy {
+  margin-bottom: -1px;
+}
+.cz {
+  margin-left: !important;
+}
+.da {
+  padding-top: 0;
+}
+.db {
+  padding-right: !important;
+}
+.dc {
+  padding-bottom: 0;
+}
+.dd {
+  padding-left: !important;
+}
+.de {
+  margin-left: 0;
+}
+.df {
+  vertical-align: 0.255em;
+}
+.dg {
+  border-left-width: 0.3em;
+}
+.dh {
+  border-left-color: transparent;
+}
+.di {
+  border-right-width: 0.3em;
+}
+.dj {
+  border-right-color: transparent;
+}
+.dk {
+  border-top-width: 0.3em;
+}
+.dl {
+  background-clip: padding-box;
+}
+.dm {
+  background-color: #fff;
+}
+.dn {
+  color: #212529;
+}
+.do {
+  display: block;
+}
+.dp {
+  font-size: 1rem;
+}
+.dq {
+  left: 0;
+}
+.dr {
+  list-style: none;
+}
+.ds {
+  margin-top: 0.125rem;
+}
+.dt {
+  min-width: 10rem;
+}
+.du {
+  position: absolute;
+}
+.dv {
+  text-align: left;
+}
+.dw {
+  top: 0;
+}
+.dx {
+  width: auto;
+}
+.dy {
+  z-index: 1000;
+}
+.dz {
+  transform: translate3d(0px, 40px, 0px);
+}
+.ea {
+  right: auto;
+}
+.eb {
+  bottom: auto;
+}
+.ec {
+  padding-top: 0.5rem;
+}
+.ed {
+  padding-right: 0.125rem;
+}
+.ee {
+  padding-bottom: 0.5rem;
+}
+.ef {
+  padding-left: 0.125rem;
+}
+.eg {
+  margin-right: 0px;
+}
+.eh {
+  margin-bottom: 0px;
+}
+.ei {
+  margin-left: 0px;
+}
+.ej {
+  border-top-left-radius: 0.375rem;
+}
+.ek {
+  border-top-right-radius: 0.375rem;
+}
+.el {
+  border-bottom-right-radius: 0.375rem;
+}
+.em {
+  border-bottom-left-radius: 0.375rem;
+}
+.en {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.eo {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.ep {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.eq {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.bi:hover {
+  background-color: #6c757d;
+}
+.bj:hover {
+  color: #fff;
+}
+.bk:hover {
+  border-top-color: #6c757d;
+}
+.bl:hover {
+  border-right-color: #6c757d;
+}
+.bm:hover {
+  border-bottom-color: #6c757d;
+}
+.bn:hover {
+  border-left-color: #6c757d;
+}
+.h:focus {
+  z-index: 5;
+}
+.ba:focus-visible {
+  color: #fff;
+}
+.bb:focus-visible {
+  background-color: #5c636a;
+}
+.bc:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+}
+.bd:focus-visible {
+  outline-width: 0;
+}
+.be:focus-visible {
+  border-top-color: #565e64;
+}
+.bf:focus-visible {
+  border-right-color: #565e64;
+}
+.bg:focus-visible {
+  border-bottom-color: #565e64;
+}
+.bh:focus-visible {
+  border-left-color: #565e64;
+}
+.bp:focus {
+  box-shadow: 0 0 0 0.25rem rgba(108, 117, 125, 0.5);
+}
+.ag:active {
+  color: #fff;
+}
+.ah:active {
+  background-color: #6c757d;
+}
+.ai:active {
+  background-image: none;
+}
+.aj:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ak:active {
+  outline-width: 0;
+}
+.al:active {
+  border-top-color: #6c757d;
+}
+.am:active {
+  border-right-color: #6c757d;
+}
+.an:active {
+  border-bottom-color: #6c757d;
+}
+.ao:active {
+  border-left-color: #6c757d;
+}
+
+
+<div data-testid="segmented-button" class="a b c d e f segmented-btn-wrapper">
+  <button
+    data-testid="segmented-button-action"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb i j k l m n o p q r s t u v w x y z a g h i j segmented-button-action"
+    tabindex="0"
+  >
+    Action</button
+  ><button
+    data-testid="segment"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb i j k l m n o p q r s t u v w x y z a ac cc cd ce cf cg g h i j segment"
+    tabindex="1"
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    role="combobox"
+  >
+    <span
+      data-testid="segment-visually-hidden"
+      class="ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd visually-hidden"
+      >Toggle Dropdown</span
+    ><span
+      data-testid="segment-after"
+      class="bu bv bx co de df dg dh di dj dk u segment-after"
+    ></span></button
+  ><span data-testid="segmented-button-child">Segmented Button Child</span>
+</div>
+;
+"
+`;

@@ -1,0 +1,1104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Toast/Header should render a ToastHeader 1`] = `
+".a {
+  align-items: center;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.d {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.e {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.f {
+  color: rgba(33, 37, 41, 0.75);
+}
+.g {
+  display: flex !important;
+}
+.h {
+  padding-top: 0.5rem;
+}
+.i {
+  padding-right: 0.75rem;
+}
+.j {
+  padding-bottom: 0.5rem;
+}
+.k {
+  padding-left: 0.75rem;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  border-bottom-style: solid;
+}
+.n {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.o {
+  margin-right: 0.5rem;
+}
+.p {
+  border-top-left-radius: 0.375rem;
+}
+.q {
+  border-top-right-radius: 0.375rem;
+}
+.r {
+  border-bottom-right-radius: 0.375rem;
+}
+.s {
+  border-bottom-left-radius: 0.375rem;
+}
+.t {
+  margin-right: calc(-0.5 * 0.75rem);
+}
+.u {
+  margin-left: 0.75rem;
+}
+.v {
+  padding-top: 10px !important;
+}
+.w {
+  padding-bottom: 10px !important;
+}
+.x {
+  background-color: transparent;
+}
+.y {
+  background-image: url(test-file-stub);
+}
+.z {
+  background-position-x: center;
+}
+.ab {
+  background-origin: padding-box;
+}
+.ac {
+  background-clip: border-box;
+}
+.ae {
+  background-position-y: 1em;
+}
+.af {
+  background-repeat: no-repeat;
+}
+.ag {
+  background-size: auto;
+}
+.ah {
+  box-sizing: content-box;
+}
+.ai {
+  color: #000;
+}
+.aj {
+  height: 1em;
+}
+.ak {
+  opacity: 0.5;
+}
+.al {
+  width: 1em;
+}
+.ap:disabled {
+  opacity: 0.25;
+}
+.aq:disabled {
+  pointer-events: none;
+}
+.ar:disabled {
+  user-select: none;
+}
+.as {
+  border-top-width: 0;
+}
+.at {
+  border-right-width: 0;
+}
+.au {
+  border-bottom-width: 0;
+}
+.av {
+  border-left-width: 0;
+}
+.aw {
+  border-top-color: rgb(0, 0, 0);
+}
+.ax {
+  border-right-color: rgb(0, 0, 0);
+}
+.ay {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.az {
+  border-left-color: rgb(0, 0, 0);
+}
+.am:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.an:focus {
+  opacity: 1;
+}
+.ao:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="toast-header"
+  class="a b c d e f g h i j k l m n toast-header"
+>
+  <svg
+    data-testid="toast-icon"
+    class="o p q r s toast-icon"
+    width="20"
+    height="20"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+    preserveAspectRatio="xMidYMid slice"
+    focusable="false"
+  >
+    <rect width="100%" height="100%" fill="#007aff"></rect></svg
+  ><button
+    data-testid="toast-close-button"
+    type="button"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az p q r s t u v w x y z toast-btn-close"
+    aria-label="Close"
+  ></button>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Header should render a toast header with a className 1`] = `
+".a {
+  align-items: center;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.d {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.e {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.f {
+  color: rgba(33, 37, 41, 0.75);
+}
+.g {
+  display: flex !important;
+}
+.h {
+  padding-top: 0.5rem;
+}
+.i {
+  padding-right: 0.75rem;
+}
+.j {
+  padding-bottom: 0.5rem;
+}
+.k {
+  padding-left: 0.75rem;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  border-bottom-style: solid;
+}
+.n {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.o {
+  margin-right: 0.5rem;
+}
+.p {
+  border-top-left-radius: 0.375rem;
+}
+.q {
+  border-top-right-radius: 0.375rem;
+}
+.r {
+  border-bottom-right-radius: 0.375rem;
+}
+.s {
+  border-bottom-left-radius: 0.375rem;
+}
+.t {
+  margin-right: calc(-0.5 * 0.75rem);
+}
+.u {
+  margin-left: 0.75rem;
+}
+.v {
+  padding-top: 10px !important;
+}
+.w {
+  padding-bottom: 10px !important;
+}
+.x {
+  background-color: transparent;
+}
+.y {
+  background-image: url(test-file-stub);
+}
+.z {
+  background-position-x: center;
+}
+.ab {
+  background-origin: padding-box;
+}
+.ac {
+  background-clip: border-box;
+}
+.ae {
+  background-position-y: 1em;
+}
+.af {
+  background-repeat: no-repeat;
+}
+.ag {
+  background-size: auto;
+}
+.ah {
+  box-sizing: content-box;
+}
+.ai {
+  color: #000;
+}
+.aj {
+  height: 1em;
+}
+.ak {
+  opacity: 0.5;
+}
+.al {
+  width: 1em;
+}
+.ap:disabled {
+  opacity: 0.25;
+}
+.aq:disabled {
+  pointer-events: none;
+}
+.ar:disabled {
+  user-select: none;
+}
+.as {
+  border-top-width: 0;
+}
+.at {
+  border-right-width: 0;
+}
+.au {
+  border-bottom-width: 0;
+}
+.av {
+  border-left-width: 0;
+}
+.aw {
+  border-top-color: rgb(0, 0, 0);
+}
+.ax {
+  border-right-color: rgb(0, 0, 0);
+}
+.ay {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.az {
+  border-left-color: rgb(0, 0, 0);
+}
+.am:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.an:focus {
+  opacity: 1;
+}
+.ao:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="toast-header"
+  class="a b c d e f g h i j k l m n toast-header warm-popup-header"
+>
+  <svg
+    data-testid="toast-icon"
+    class="o p q r s toast-icon"
+    width="20"
+    height="20"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+    preserveAspectRatio="xMidYMid slice"
+    focusable="false"
+  >
+    <rect width="100%" height="100%" fill="#007aff"></rect></svg
+  ><button
+    data-testid="toast-close-button"
+    type="button"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az p q r s t u v w x y z toast-btn-close"
+    aria-label="Close"
+  ></button>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Header should render a toast header with a title 1`] = `
+".a {
+  align-items: center;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.d {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.e {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.f {
+  color: rgba(33, 37, 41, 0.75);
+}
+.g {
+  display: flex !important;
+}
+.h {
+  padding-top: 0.5rem;
+}
+.i {
+  padding-right: 0.75rem;
+}
+.j {
+  padding-bottom: 0.5rem;
+}
+.k {
+  padding-left: 0.75rem;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  border-bottom-style: solid;
+}
+.n {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.o {
+  margin-right: auto;
+}
+.p {
+  margin-top: 0.5rem;
+}
+.q {
+  margin-right: 0.5rem;
+}
+.r {
+  border-top-left-radius: 0.375rem;
+}
+.s {
+  border-top-right-radius: 0.375rem;
+}
+.t {
+  border-bottom-right-radius: 0.375rem;
+}
+.u {
+  border-bottom-left-radius: 0.375rem;
+}
+.v {
+  margin-right: calc(-0.5 * 0.75rem);
+}
+.w {
+  margin-left: 0.75rem;
+}
+.x {
+  padding-top: 10px !important;
+}
+.y {
+  padding-bottom: 10px !important;
+}
+.z {
+  background-color: transparent;
+}
+.ab {
+  background-image: url(test-file-stub);
+}
+.ac {
+  background-position-x: center;
+}
+.ae {
+  background-origin: padding-box;
+}
+.af {
+  background-clip: border-box;
+}
+.ag {
+  background-position-y: 1em;
+}
+.ah {
+  background-repeat: no-repeat;
+}
+.ai {
+  background-size: auto;
+}
+.aj {
+  box-sizing: content-box;
+}
+.ak {
+  color: #000;
+}
+.al {
+  height: 1em;
+}
+.am {
+  opacity: 0.5;
+}
+.an {
+  width: 1em;
+}
+.ar:disabled {
+  opacity: 0.25;
+}
+.as:disabled {
+  pointer-events: none;
+}
+.at:disabled {
+  user-select: none;
+}
+.au {
+  border-top-width: 0;
+}
+.av {
+  border-right-width: 0;
+}
+.aw {
+  border-bottom-width: 0;
+}
+.ax {
+  border-left-width: 0;
+}
+.ay {
+  border-top-color: rgb(0, 0, 0);
+}
+.az {
+  border-right-color: rgb(0, 0, 0);
+}
+.ba {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bb {
+  border-left-color: rgb(0, 0, 0);
+}
+.ao:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ap:focus {
+  opacity: 1;
+}
+.aq:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="toast-header"
+  class="a b c d e f g h i j k l m n toast-header warm-popup-header"
+>
+  <svg
+    data-testid="toast-icon"
+    class="q r s t u toast-icon"
+    width="20"
+    height="20"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+    preserveAspectRatio="xMidYMid slice"
+    focusable="false"
+  >
+    <rect width="100%" height="100%" fill="#007aff"></rect></svg
+  ><strong data-testid="toast-title" class="o p toast-title"
+    >Chat with us</strong
+  ><button
+    data-testid="toast-close-button"
+    type="button"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb r s t u v w x y z toast-btn-close"
+    aria-label="Close"
+  ></button>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Header should render a toast header with a title and right text 1`] = `
+".a {
+  align-items: center;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.d {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.e {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.f {
+  color: rgba(33, 37, 41, 0.75);
+}
+.g {
+  display: flex !important;
+}
+.h {
+  padding-top: 0.5rem;
+}
+.i {
+  padding-right: 0.75rem;
+}
+.j {
+  padding-bottom: 0.5rem;
+}
+.k {
+  padding-left: 0.75rem;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  border-bottom-style: solid;
+}
+.n {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.o {
+  margin-right: auto;
+}
+.p {
+  margin-top: 0.5rem;
+}
+.q {
+  margin-right: 0.5rem;
+}
+.r {
+  border-top-left-radius: 0.375rem;
+}
+.s {
+  border-top-right-radius: 0.375rem;
+}
+.t {
+  border-bottom-right-radius: 0.375rem;
+}
+.u {
+  border-bottom-left-radius: 0.375rem;
+}
+.v {
+  margin-right: calc(-0.5 * 0.75rem);
+}
+.w {
+  margin-left: 0.75rem;
+}
+.x {
+  padding-top: 10px !important;
+}
+.y {
+  padding-bottom: 10px !important;
+}
+.z {
+  background-color: transparent;
+}
+.ab {
+  background-image: url(test-file-stub);
+}
+.ac {
+  background-position-x: center;
+}
+.ae {
+  background-origin: padding-box;
+}
+.af {
+  background-clip: border-box;
+}
+.ag {
+  background-position-y: 1em;
+}
+.ah {
+  background-repeat: no-repeat;
+}
+.ai {
+  background-size: auto;
+}
+.aj {
+  box-sizing: content-box;
+}
+.ak {
+  color: #000;
+}
+.al {
+  height: 1em;
+}
+.am {
+  opacity: 0.5;
+}
+.an {
+  width: 1em;
+}
+.ar:disabled {
+  opacity: 0.25;
+}
+.as:disabled {
+  pointer-events: none;
+}
+.at:disabled {
+  user-select: none;
+}
+.au {
+  border-top-width: 0;
+}
+.av {
+  border-right-width: 0;
+}
+.aw {
+  border-bottom-width: 0;
+}
+.ax {
+  border-left-width: 0;
+}
+.ay {
+  border-top-color: rgb(0, 0, 0);
+}
+.az {
+  border-right-color: rgb(0, 0, 0);
+}
+.ba {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bb {
+  border-left-color: rgb(0, 0, 0);
+}
+.ao:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ap:focus {
+  opacity: 1;
+}
+.aq:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="toast-header"
+  class="a b c d e f g h i j k l m n toast-header warm-popup-header"
+>
+  <svg
+    data-testid="toast-icon"
+    class="q r s t u toast-icon"
+    width="20"
+    height="20"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+    preserveAspectRatio="xMidYMid slice"
+    focusable="false"
+  >
+    <rect width="100%" height="100%" fill="#007aff"></rect></svg
+  ><strong data-testid="toast-title" class="o p toast-title"
+    >Chat with us</strong
+  ><small class="toast-header-right" data-testid="toast-header-right">💬</small
+  ><button
+    data-testid="toast-close-button"
+    type="button"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb r s t u v w x y z toast-btn-close"
+    aria-label="Close"
+  ></button>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Header should render a toast header with custom icon 1`] = `
+".a {
+  align-items: center;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.d {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.e {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.f {
+  color: rgba(33, 37, 41, 0.75);
+}
+.g {
+  display: flex !important;
+}
+.h {
+  padding-top: 0.5rem;
+}
+.i {
+  padding-right: 0.75rem;
+}
+.j {
+  padding-bottom: 0.5rem;
+}
+.k {
+  padding-left: 0.75rem;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  border-bottom-style: solid;
+}
+.n {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.o {
+  margin-right: auto;
+}
+.p {
+  margin-top: 0.5rem;
+}
+.q {
+  width: 1em;
+}
+.r {
+  height: 1em;
+}
+.s {
+  vertical-align: -0.3em;
+}
+.t {
+  fill: currentcolor;
+}
+.u {
+  margin-right: 0.5rem !important;
+}
+.v {
+  border-top-left-radius: 0.375rem;
+}
+.w {
+  border-top-right-radius: 0.375rem;
+}
+.x {
+  border-bottom-right-radius: 0.375rem;
+}
+.y {
+  border-bottom-left-radius: 0.375rem;
+}
+.z {
+  margin-right: calc(-0.5 * 0.75rem);
+}
+.ab {
+  margin-left: 0.75rem;
+}
+.ac {
+  padding-top: 10px !important;
+}
+.ae {
+  padding-bottom: 10px !important;
+}
+.af {
+  background-color: transparent;
+}
+.ag {
+  background-image: url(test-file-stub);
+}
+.ah {
+  background-position-x: center;
+}
+.ai {
+  background-origin: padding-box;
+}
+.aj {
+  background-clip: border-box;
+}
+.ak {
+  background-position-y: 1em;
+}
+.al {
+  background-repeat: no-repeat;
+}
+.am {
+  background-size: auto;
+}
+.an {
+  box-sizing: content-box;
+}
+.ao {
+  color: #000;
+}
+.ap {
+  opacity: 0.5;
+}
+.at:disabled {
+  opacity: 0.25;
+}
+.au:disabled {
+  pointer-events: none;
+}
+.av:disabled {
+  user-select: none;
+}
+.aw {
+  border-top-width: 0;
+}
+.ax {
+  border-right-width: 0;
+}
+.ay {
+  border-bottom-width: 0;
+}
+.az {
+  border-left-width: 0;
+}
+.ba {
+  border-top-color: rgb(0, 0, 0);
+}
+.bb {
+  border-right-color: rgb(0, 0, 0);
+}
+.bc {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bd {
+  border-left-color: rgb(0, 0, 0);
+}
+.aq:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ar:focus {
+  opacity: 1;
+}
+.as:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="toast-header"
+  class="a b c d e f g h i j k l m n toast-header warm-popup-header"
+>
+  <svg
+    data-testid="braces-asterisk-icon"
+    class="q r s t u braces-asterisk-icon"
+    aria-hidden="true"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M1.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C2.25 2 1.49 2.759 1.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6ZM14.886 7.9v.164c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456v-1.3c-1.114 0-1.49-.362-1.49-1.456V4.352C14.51 2.759 13.75 2 12.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6ZM7.5 11.5V9.207l-1.621 1.621-.707-.707L6.792 8.5H4.5v-1h2.293L5.172 5.879l.707-.707L7.5 6.792V4.5h1v2.293l1.621-1.621.707.707L9.208 7.5H11.5v1H9.207l1.621 1.621-.707.707L8.5 9.208V11.5h-1Z"
+    ></path></svg
+  ><strong data-testid="toast-title" class="o p toast-title"
+    >Chat with us</strong
+  ><button
+    data-testid="toast-close-button"
+    type="button"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd q r v w x y z toast-btn-close"
+    aria-label="Close"
+  ></button>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Header should render an icon by default in a ToastHeader 1`] = `
+".a {
+  align-items: center;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.d {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.e {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.f {
+  color: rgba(33, 37, 41, 0.75);
+}
+.g {
+  display: flex !important;
+}
+.h {
+  padding-top: 0.5rem;
+}
+.i {
+  padding-right: 0.75rem;
+}
+.j {
+  padding-bottom: 0.5rem;
+}
+.k {
+  padding-left: 0.75rem;
+}
+.l {
+  border-bottom-width: 1px;
+}
+.m {
+  border-bottom-style: solid;
+}
+.n {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.o {
+  margin-right: 0.5rem;
+}
+.p {
+  border-top-left-radius: 0.375rem;
+}
+.q {
+  border-top-right-radius: 0.375rem;
+}
+.r {
+  border-bottom-right-radius: 0.375rem;
+}
+.s {
+  border-bottom-left-radius: 0.375rem;
+}
+.t {
+  margin-right: calc(-0.5 * 0.75rem);
+}
+.u {
+  margin-left: 0.75rem;
+}
+.v {
+  padding-top: 10px !important;
+}
+.w {
+  padding-bottom: 10px !important;
+}
+.x {
+  background-color: transparent;
+}
+.y {
+  background-image: url(test-file-stub);
+}
+.z {
+  background-position-x: center;
+}
+.ab {
+  background-origin: padding-box;
+}
+.ac {
+  background-clip: border-box;
+}
+.ae {
+  background-position-y: 1em;
+}
+.af {
+  background-repeat: no-repeat;
+}
+.ag {
+  background-size: auto;
+}
+.ah {
+  box-sizing: content-box;
+}
+.ai {
+  color: #000;
+}
+.aj {
+  height: 1em;
+}
+.ak {
+  opacity: 0.5;
+}
+.al {
+  width: 1em;
+}
+.ap:disabled {
+  opacity: 0.25;
+}
+.aq:disabled {
+  pointer-events: none;
+}
+.ar:disabled {
+  user-select: none;
+}
+.as {
+  border-top-width: 0;
+}
+.at {
+  border-right-width: 0;
+}
+.au {
+  border-bottom-width: 0;
+}
+.av {
+  border-left-width: 0;
+}
+.aw {
+  border-top-color: rgb(0, 0, 0);
+}
+.ax {
+  border-right-color: rgb(0, 0, 0);
+}
+.ay {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.az {
+  border-left-color: rgb(0, 0, 0);
+}
+.am:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.an:focus {
+  opacity: 1;
+}
+.ao:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="toast-header"
+  class="a b c d e f g h i j k l m n toast-header"
+>
+  <svg
+    data-testid="toast-icon"
+    class="o p q r s toast-icon"
+    width="20"
+    height="20"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+    preserveAspectRatio="xMidYMid slice"
+    focusable="false"
+  >
+    <rect width="100%" height="100%" fill="#007aff"></rect></svg
+  ><button
+    data-testid="toast-close-button"
+    type="button"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az p q r s t u v w x y z toast-btn-close"
+    aria-label="Close"
+  ></button>
+</div>
+;
+"
+`;

@@ -1,0 +1,4729 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Spinner should render a growing spinner of variant danger 1`] = `
+"@-webkit-keyframes k1 {
+}
+@-moz-keyframes k1 {
+}
+@keyframes k1 {
+}
+@-webkit-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@-moz-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+.a {
+  color: rgb(220, 53, 69);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 2rem;
+}
+.d {
+  height: 2rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.g {
+  opacity: 0;
+}
+.h {
+  animation-duration: 0.75s;
+}
+.i {
+  animation-iteration-count: infinite;
+}
+.j {
+  animation-timing-function: linear;
+}
+.k {
+  animation-name: k2;
+}
+.l {
+  border-top-left-radius: 50%;
+}
+.m {
+  border-top-right-radius: 50%;
+}
+.n {
+  border-bottom-right-radius: 50%;
+}
+.o {
+  border-bottom-left-radius: 50%;
+}
+.p {
+  width: 1px !important;
+}
+.q {
+  height: 1px !important;
+}
+.r {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.s {
+  white-space: nowrap !important;
+}
+.t:not(caption) {
+  position: absolute !important;
+}
+.u {
+  border-top-width: 0;
+}
+.v {
+  border-right-width: 0;
+}
+.w {
+  border-bottom-width: 0;
+}
+.x {
+  border-left-width: 0;
+}
+.y {
+  border-top-color: !important;
+}
+.z {
+  border-right-color: !important;
+}
+.ab {
+  border-bottom-color: !important;
+}
+.ac {
+  border-left-color: !important;
+}
+.ae {
+  overflow-x: hidden;
+}
+.af {
+  overflow-y: !important;
+}
+.ag {
+  margin-top: -1px;
+}
+.ah {
+  margin-right: !important;
+}
+.ai {
+  margin-bottom: -1px;
+}
+.aj {
+  margin-left: !important;
+}
+.ak {
+  padding-top: 0;
+}
+.al {
+  padding-right: !important;
+}
+.am {
+  padding-bottom: 0;
+}
+.an {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o spinner-grow-danger"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an p q r s t u v w x y z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a growing spinner of variant info 1`] = `
+"@-webkit-keyframes k1 {
+}
+@-moz-keyframes k1 {
+}
+@keyframes k1 {
+}
+@-webkit-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@-moz-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+.a {
+  color: rgb(13, 202, 240);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 2rem;
+}
+.d {
+  height: 2rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.g {
+  opacity: 0;
+}
+.h {
+  animation-duration: 0.75s;
+}
+.i {
+  animation-iteration-count: infinite;
+}
+.j {
+  animation-timing-function: linear;
+}
+.k {
+  animation-name: k2;
+}
+.l {
+  border-top-left-radius: 50%;
+}
+.m {
+  border-top-right-radius: 50%;
+}
+.n {
+  border-bottom-right-radius: 50%;
+}
+.o {
+  border-bottom-left-radius: 50%;
+}
+.p {
+  width: 1px !important;
+}
+.q {
+  height: 1px !important;
+}
+.r {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.s {
+  white-space: nowrap !important;
+}
+.t:not(caption) {
+  position: absolute !important;
+}
+.u {
+  border-top-width: 0;
+}
+.v {
+  border-right-width: 0;
+}
+.w {
+  border-bottom-width: 0;
+}
+.x {
+  border-left-width: 0;
+}
+.y {
+  border-top-color: !important;
+}
+.z {
+  border-right-color: !important;
+}
+.ab {
+  border-bottom-color: !important;
+}
+.ac {
+  border-left-color: !important;
+}
+.ae {
+  overflow-x: hidden;
+}
+.af {
+  overflow-y: !important;
+}
+.ag {
+  margin-top: -1px;
+}
+.ah {
+  margin-right: !important;
+}
+.ai {
+  margin-bottom: -1px;
+}
+.aj {
+  margin-left: !important;
+}
+.ak {
+  padding-top: 0;
+}
+.al {
+  padding-right: !important;
+}
+.am {
+  padding-bottom: 0;
+}
+.an {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o spinner-grow-info"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an p q r s t u v w x y z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a growing spinner of variant primary 1`] = `
+"@-webkit-keyframes k1 {
+}
+@-moz-keyframes k1 {
+}
+@keyframes k1 {
+}
+@-webkit-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@-moz-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+.a {
+  color: rgb(13, 110, 253);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 2rem;
+}
+.d {
+  height: 2rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.g {
+  opacity: 0;
+}
+.h {
+  animation-duration: 0.75s;
+}
+.i {
+  animation-iteration-count: infinite;
+}
+.j {
+  animation-timing-function: linear;
+}
+.k {
+  animation-name: k2;
+}
+.l {
+  border-top-left-radius: 50%;
+}
+.m {
+  border-top-right-radius: 50%;
+}
+.n {
+  border-bottom-right-radius: 50%;
+}
+.o {
+  border-bottom-left-radius: 50%;
+}
+.p {
+  width: 1px !important;
+}
+.q {
+  height: 1px !important;
+}
+.r {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.s {
+  white-space: nowrap !important;
+}
+.t:not(caption) {
+  position: absolute !important;
+}
+.u {
+  border-top-width: 0;
+}
+.v {
+  border-right-width: 0;
+}
+.w {
+  border-bottom-width: 0;
+}
+.x {
+  border-left-width: 0;
+}
+.y {
+  border-top-color: !important;
+}
+.z {
+  border-right-color: !important;
+}
+.ab {
+  border-bottom-color: !important;
+}
+.ac {
+  border-left-color: !important;
+}
+.ae {
+  overflow-x: hidden;
+}
+.af {
+  overflow-y: !important;
+}
+.ag {
+  margin-top: -1px;
+}
+.ah {
+  margin-right: !important;
+}
+.ai {
+  margin-bottom: -1px;
+}
+.aj {
+  margin-left: !important;
+}
+.ak {
+  padding-top: 0;
+}
+.al {
+  padding-right: !important;
+}
+.am {
+  padding-bottom: 0;
+}
+.an {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o spinner-grow-primary"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an p q r s t u v w x y z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a growing spinner of variant secondary 1`] = `
+"@-webkit-keyframes k1 {
+}
+@-moz-keyframes k1 {
+}
+@keyframes k1 {
+}
+@-webkit-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@-moz-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+.a {
+  color: rgb(108, 117, 125);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 2rem;
+}
+.d {
+  height: 2rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.g {
+  opacity: 0;
+}
+.h {
+  animation-duration: 0.75s;
+}
+.i {
+  animation-iteration-count: infinite;
+}
+.j {
+  animation-timing-function: linear;
+}
+.k {
+  animation-name: k2;
+}
+.l {
+  border-top-left-radius: 50%;
+}
+.m {
+  border-top-right-radius: 50%;
+}
+.n {
+  border-bottom-right-radius: 50%;
+}
+.o {
+  border-bottom-left-radius: 50%;
+}
+.p {
+  width: 1px !important;
+}
+.q {
+  height: 1px !important;
+}
+.r {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.s {
+  white-space: nowrap !important;
+}
+.t:not(caption) {
+  position: absolute !important;
+}
+.u {
+  border-top-width: 0;
+}
+.v {
+  border-right-width: 0;
+}
+.w {
+  border-bottom-width: 0;
+}
+.x {
+  border-left-width: 0;
+}
+.y {
+  border-top-color: !important;
+}
+.z {
+  border-right-color: !important;
+}
+.ab {
+  border-bottom-color: !important;
+}
+.ac {
+  border-left-color: !important;
+}
+.ae {
+  overflow-x: hidden;
+}
+.af {
+  overflow-y: !important;
+}
+.ag {
+  margin-top: -1px;
+}
+.ah {
+  margin-right: !important;
+}
+.ai {
+  margin-bottom: -1px;
+}
+.aj {
+  margin-left: !important;
+}
+.ak {
+  padding-top: 0;
+}
+.al {
+  padding-right: !important;
+}
+.am {
+  padding-bottom: 0;
+}
+.an {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o spinner-grow-secondary"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an p q r s t u v w x y z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a growing spinner of variant success 1`] = `
+"@-webkit-keyframes k1 {
+}
+@-moz-keyframes k1 {
+}
+@keyframes k1 {
+}
+@-webkit-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@-moz-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+.a {
+  color: rgb(25, 135, 84);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 2rem;
+}
+.d {
+  height: 2rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.g {
+  opacity: 0;
+}
+.h {
+  animation-duration: 0.75s;
+}
+.i {
+  animation-iteration-count: infinite;
+}
+.j {
+  animation-timing-function: linear;
+}
+.k {
+  animation-name: k2;
+}
+.l {
+  border-top-left-radius: 50%;
+}
+.m {
+  border-top-right-radius: 50%;
+}
+.n {
+  border-bottom-right-radius: 50%;
+}
+.o {
+  border-bottom-left-radius: 50%;
+}
+.p {
+  width: 1px !important;
+}
+.q {
+  height: 1px !important;
+}
+.r {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.s {
+  white-space: nowrap !important;
+}
+.t:not(caption) {
+  position: absolute !important;
+}
+.u {
+  border-top-width: 0;
+}
+.v {
+  border-right-width: 0;
+}
+.w {
+  border-bottom-width: 0;
+}
+.x {
+  border-left-width: 0;
+}
+.y {
+  border-top-color: !important;
+}
+.z {
+  border-right-color: !important;
+}
+.ab {
+  border-bottom-color: !important;
+}
+.ac {
+  border-left-color: !important;
+}
+.ae {
+  overflow-x: hidden;
+}
+.af {
+  overflow-y: !important;
+}
+.ag {
+  margin-top: -1px;
+}
+.ah {
+  margin-right: !important;
+}
+.ai {
+  margin-bottom: -1px;
+}
+.aj {
+  margin-left: !important;
+}
+.ak {
+  padding-top: 0;
+}
+.al {
+  padding-right: !important;
+}
+.am {
+  padding-bottom: 0;
+}
+.an {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o spinner-grow-success"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an p q r s t u v w x y z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a growing spinner of variant warning 1`] = `
+"@-webkit-keyframes k1 {
+}
+@-moz-keyframes k1 {
+}
+@keyframes k1 {
+}
+@-webkit-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@-moz-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+.a {
+  color: rgb(255, 193, 7);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 2rem;
+}
+.d {
+  height: 2rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.g {
+  opacity: 0;
+}
+.h {
+  animation-duration: 0.75s;
+}
+.i {
+  animation-iteration-count: infinite;
+}
+.j {
+  animation-timing-function: linear;
+}
+.k {
+  animation-name: k2;
+}
+.l {
+  border-top-left-radius: 50%;
+}
+.m {
+  border-top-right-radius: 50%;
+}
+.n {
+  border-bottom-right-radius: 50%;
+}
+.o {
+  border-bottom-left-radius: 50%;
+}
+.p {
+  width: 1px !important;
+}
+.q {
+  height: 1px !important;
+}
+.r {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.s {
+  white-space: nowrap !important;
+}
+.t:not(caption) {
+  position: absolute !important;
+}
+.u {
+  border-top-width: 0;
+}
+.v {
+  border-right-width: 0;
+}
+.w {
+  border-bottom-width: 0;
+}
+.x {
+  border-left-width: 0;
+}
+.y {
+  border-top-color: !important;
+}
+.z {
+  border-right-color: !important;
+}
+.ab {
+  border-bottom-color: !important;
+}
+.ac {
+  border-left-color: !important;
+}
+.ae {
+  overflow-x: hidden;
+}
+.af {
+  overflow-y: !important;
+}
+.ag {
+  margin-top: -1px;
+}
+.ah {
+  margin-right: !important;
+}
+.ai {
+  margin-bottom: -1px;
+}
+.aj {
+  margin-left: !important;
+}
+.ak {
+  padding-top: 0;
+}
+.al {
+  padding-right: !important;
+}
+.am {
+  padding-bottom: 0;
+}
+.an {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o spinner-grow-warning"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an p q r s t u v w x y z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a small growing spinner of variant danger 1`] = `
+"@-webkit-keyframes k1 {
+}
+@-moz-keyframes k1 {
+}
+@keyframes k1 {
+}
+@-webkit-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@-moz-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+.a {
+  color: rgb(220, 53, 69);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 1rem;
+}
+.d {
+  height: 1rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.g {
+  opacity: 0;
+}
+.h {
+  animation-duration: 0.75s;
+}
+.i {
+  animation-iteration-count: infinite;
+}
+.j {
+  animation-timing-function: linear;
+}
+.k {
+  animation-name: k2;
+}
+.l {
+  border-top-left-radius: 50%;
+}
+.m {
+  border-top-right-radius: 50%;
+}
+.n {
+  border-bottom-right-radius: 50%;
+}
+.o {
+  border-bottom-left-radius: 50%;
+}
+.p {
+  width: 1px !important;
+}
+.q {
+  height: 1px !important;
+}
+.r {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.s {
+  white-space: nowrap !important;
+}
+.t:not(caption) {
+  position: absolute !important;
+}
+.u {
+  border-top-width: 0;
+}
+.v {
+  border-right-width: 0;
+}
+.w {
+  border-bottom-width: 0;
+}
+.x {
+  border-left-width: 0;
+}
+.y {
+  border-top-color: !important;
+}
+.z {
+  border-right-color: !important;
+}
+.ab {
+  border-bottom-color: !important;
+}
+.ac {
+  border-left-color: !important;
+}
+.ae {
+  overflow-x: hidden;
+}
+.af {
+  overflow-y: !important;
+}
+.ag {
+  margin-top: -1px;
+}
+.ah {
+  margin-right: !important;
+}
+.ai {
+  margin-bottom: -1px;
+}
+.aj {
+  margin-left: !important;
+}
+.ak {
+  padding-top: 0;
+}
+.al {
+  padding-right: !important;
+}
+.am {
+  padding-bottom: 0;
+}
+.an {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o spinner-grow-danger"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an p q r s t u v w x y z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a small growing spinner of variant info 1`] = `
+"@-webkit-keyframes k1 {
+}
+@-moz-keyframes k1 {
+}
+@keyframes k1 {
+}
+@-webkit-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@-moz-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+.a {
+  color: rgb(13, 202, 240);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 1rem;
+}
+.d {
+  height: 1rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.g {
+  opacity: 0;
+}
+.h {
+  animation-duration: 0.75s;
+}
+.i {
+  animation-iteration-count: infinite;
+}
+.j {
+  animation-timing-function: linear;
+}
+.k {
+  animation-name: k2;
+}
+.l {
+  border-top-left-radius: 50%;
+}
+.m {
+  border-top-right-radius: 50%;
+}
+.n {
+  border-bottom-right-radius: 50%;
+}
+.o {
+  border-bottom-left-radius: 50%;
+}
+.p {
+  width: 1px !important;
+}
+.q {
+  height: 1px !important;
+}
+.r {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.s {
+  white-space: nowrap !important;
+}
+.t:not(caption) {
+  position: absolute !important;
+}
+.u {
+  border-top-width: 0;
+}
+.v {
+  border-right-width: 0;
+}
+.w {
+  border-bottom-width: 0;
+}
+.x {
+  border-left-width: 0;
+}
+.y {
+  border-top-color: !important;
+}
+.z {
+  border-right-color: !important;
+}
+.ab {
+  border-bottom-color: !important;
+}
+.ac {
+  border-left-color: !important;
+}
+.ae {
+  overflow-x: hidden;
+}
+.af {
+  overflow-y: !important;
+}
+.ag {
+  margin-top: -1px;
+}
+.ah {
+  margin-right: !important;
+}
+.ai {
+  margin-bottom: -1px;
+}
+.aj {
+  margin-left: !important;
+}
+.ak {
+  padding-top: 0;
+}
+.al {
+  padding-right: !important;
+}
+.am {
+  padding-bottom: 0;
+}
+.an {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o spinner-grow-info"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an p q r s t u v w x y z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a small growing spinner of variant primary 1`] = `
+"@-webkit-keyframes k1 {
+}
+@-moz-keyframes k1 {
+}
+@keyframes k1 {
+}
+@-webkit-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@-moz-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+.a {
+  color: rgb(13, 110, 253);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 1rem;
+}
+.d {
+  height: 1rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.g {
+  opacity: 0;
+}
+.h {
+  animation-duration: 0.75s;
+}
+.i {
+  animation-iteration-count: infinite;
+}
+.j {
+  animation-timing-function: linear;
+}
+.k {
+  animation-name: k2;
+}
+.l {
+  border-top-left-radius: 50%;
+}
+.m {
+  border-top-right-radius: 50%;
+}
+.n {
+  border-bottom-right-radius: 50%;
+}
+.o {
+  border-bottom-left-radius: 50%;
+}
+.p {
+  width: 1px !important;
+}
+.q {
+  height: 1px !important;
+}
+.r {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.s {
+  white-space: nowrap !important;
+}
+.t:not(caption) {
+  position: absolute !important;
+}
+.u {
+  border-top-width: 0;
+}
+.v {
+  border-right-width: 0;
+}
+.w {
+  border-bottom-width: 0;
+}
+.x {
+  border-left-width: 0;
+}
+.y {
+  border-top-color: !important;
+}
+.z {
+  border-right-color: !important;
+}
+.ab {
+  border-bottom-color: !important;
+}
+.ac {
+  border-left-color: !important;
+}
+.ae {
+  overflow-x: hidden;
+}
+.af {
+  overflow-y: !important;
+}
+.ag {
+  margin-top: -1px;
+}
+.ah {
+  margin-right: !important;
+}
+.ai {
+  margin-bottom: -1px;
+}
+.aj {
+  margin-left: !important;
+}
+.ak {
+  padding-top: 0;
+}
+.al {
+  padding-right: !important;
+}
+.am {
+  padding-bottom: 0;
+}
+.an {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o spinner-grow-primary"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an p q r s t u v w x y z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a small growing spinner of variant secondary 1`] = `
+"@-webkit-keyframes k1 {
+}
+@-moz-keyframes k1 {
+}
+@keyframes k1 {
+}
+@-webkit-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@-moz-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+.a {
+  color: rgb(108, 117, 125);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 1rem;
+}
+.d {
+  height: 1rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.g {
+  opacity: 0;
+}
+.h {
+  animation-duration: 0.75s;
+}
+.i {
+  animation-iteration-count: infinite;
+}
+.j {
+  animation-timing-function: linear;
+}
+.k {
+  animation-name: k2;
+}
+.l {
+  border-top-left-radius: 50%;
+}
+.m {
+  border-top-right-radius: 50%;
+}
+.n {
+  border-bottom-right-radius: 50%;
+}
+.o {
+  border-bottom-left-radius: 50%;
+}
+.p {
+  width: 1px !important;
+}
+.q {
+  height: 1px !important;
+}
+.r {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.s {
+  white-space: nowrap !important;
+}
+.t:not(caption) {
+  position: absolute !important;
+}
+.u {
+  border-top-width: 0;
+}
+.v {
+  border-right-width: 0;
+}
+.w {
+  border-bottom-width: 0;
+}
+.x {
+  border-left-width: 0;
+}
+.y {
+  border-top-color: !important;
+}
+.z {
+  border-right-color: !important;
+}
+.ab {
+  border-bottom-color: !important;
+}
+.ac {
+  border-left-color: !important;
+}
+.ae {
+  overflow-x: hidden;
+}
+.af {
+  overflow-y: !important;
+}
+.ag {
+  margin-top: -1px;
+}
+.ah {
+  margin-right: !important;
+}
+.ai {
+  margin-bottom: -1px;
+}
+.aj {
+  margin-left: !important;
+}
+.ak {
+  padding-top: 0;
+}
+.al {
+  padding-right: !important;
+}
+.am {
+  padding-bottom: 0;
+}
+.an {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o spinner-grow-secondary"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an p q r s t u v w x y z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a small growing spinner of variant success 1`] = `
+"@-webkit-keyframes k1 {
+}
+@-moz-keyframes k1 {
+}
+@keyframes k1 {
+}
+@-webkit-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@-moz-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+.a {
+  color: rgb(25, 135, 84);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 1rem;
+}
+.d {
+  height: 1rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.g {
+  opacity: 0;
+}
+.h {
+  animation-duration: 0.75s;
+}
+.i {
+  animation-iteration-count: infinite;
+}
+.j {
+  animation-timing-function: linear;
+}
+.k {
+  animation-name: k2;
+}
+.l {
+  border-top-left-radius: 50%;
+}
+.m {
+  border-top-right-radius: 50%;
+}
+.n {
+  border-bottom-right-radius: 50%;
+}
+.o {
+  border-bottom-left-radius: 50%;
+}
+.p {
+  width: 1px !important;
+}
+.q {
+  height: 1px !important;
+}
+.r {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.s {
+  white-space: nowrap !important;
+}
+.t:not(caption) {
+  position: absolute !important;
+}
+.u {
+  border-top-width: 0;
+}
+.v {
+  border-right-width: 0;
+}
+.w {
+  border-bottom-width: 0;
+}
+.x {
+  border-left-width: 0;
+}
+.y {
+  border-top-color: !important;
+}
+.z {
+  border-right-color: !important;
+}
+.ab {
+  border-bottom-color: !important;
+}
+.ac {
+  border-left-color: !important;
+}
+.ae {
+  overflow-x: hidden;
+}
+.af {
+  overflow-y: !important;
+}
+.ag {
+  margin-top: -1px;
+}
+.ah {
+  margin-right: !important;
+}
+.ai {
+  margin-bottom: -1px;
+}
+.aj {
+  margin-left: !important;
+}
+.ak {
+  padding-top: 0;
+}
+.al {
+  padding-right: !important;
+}
+.am {
+  padding-bottom: 0;
+}
+.an {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o spinner-grow-success"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an p q r s t u v w x y z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a small growing spinner of variant warning 1`] = `
+"@-webkit-keyframes k1 {
+}
+@-moz-keyframes k1 {
+}
+@keyframes k1 {
+}
+@-webkit-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@-moz-keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+@keyframes k2 {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+.a {
+  color: rgb(255, 193, 7);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 1rem;
+}
+.d {
+  height: 1rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.g {
+  opacity: 0;
+}
+.h {
+  animation-duration: 0.75s;
+}
+.i {
+  animation-iteration-count: infinite;
+}
+.j {
+  animation-timing-function: linear;
+}
+.k {
+  animation-name: k2;
+}
+.l {
+  border-top-left-radius: 50%;
+}
+.m {
+  border-top-right-radius: 50%;
+}
+.n {
+  border-bottom-right-radius: 50%;
+}
+.o {
+  border-bottom-left-radius: 50%;
+}
+.p {
+  width: 1px !important;
+}
+.q {
+  height: 1px !important;
+}
+.r {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.s {
+  white-space: nowrap !important;
+}
+.t:not(caption) {
+  position: absolute !important;
+}
+.u {
+  border-top-width: 0;
+}
+.v {
+  border-right-width: 0;
+}
+.w {
+  border-bottom-width: 0;
+}
+.x {
+  border-left-width: 0;
+}
+.y {
+  border-top-color: !important;
+}
+.z {
+  border-right-color: !important;
+}
+.ab {
+  border-bottom-color: !important;
+}
+.ac {
+  border-left-color: !important;
+}
+.ae {
+  overflow-x: hidden;
+}
+.af {
+  overflow-y: !important;
+}
+.ag {
+  margin-top: -1px;
+}
+.ah {
+  margin-right: !important;
+}
+.ai {
+  margin-bottom: -1px;
+}
+.aj {
+  margin-left: !important;
+}
+.ak {
+  padding-top: 0;
+}
+.al {
+  padding-right: !important;
+}
+.am {
+  padding-bottom: 0;
+}
+.an {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o spinner-grow-warning"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an p q r s t u v w x y z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a small spinner of variant danger 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes k2 {
+}
+@-moz-keyframes k2 {
+}
+@keyframes k2 {
+}
+.a {
+  color: rgb(220, 53, 69);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 1rem;
+}
+.d {
+  height: 1rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  border-right-color: transparent;
+}
+.g {
+  animation-duration: 0.75s;
+}
+.h {
+  animation-iteration-count: infinite;
+}
+.i {
+  animation-timing-function: linear;
+}
+.j {
+  animation-name: k1;
+}
+.k {
+  border-top-width: 0.25em;
+}
+.l {
+  border-right-width: 0.25em;
+}
+.m {
+  border-bottom-width: 0.25em;
+}
+.n {
+  border-left-width: 0.25em;
+}
+.o {
+  border-top-style: solid;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-bottom-style: solid;
+}
+.r {
+  border-left-style: solid;
+}
+.s {
+  border-top-color: currentcolor;
+}
+.t {
+  border-bottom-color: currentcolor;
+}
+.u {
+  border-left-color: currentcolor;
+}
+.v {
+  border-top-left-radius: 50%;
+}
+.w {
+  border-top-right-radius: 50%;
+}
+.x {
+  border-bottom-right-radius: 50%;
+}
+.y {
+  border-bottom-left-radius: 50%;
+}
+.z {
+  width: 1px !important;
+}
+.ab {
+  height: 1px !important;
+}
+.ac {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.ae {
+  white-space: nowrap !important;
+}
+.af:not(caption) {
+  position: absolute !important;
+}
+.ag {
+  border-top-width: 0;
+}
+.ah {
+  border-right-width: 0;
+}
+.ai {
+  border-bottom-width: 0;
+}
+.aj {
+  border-left-width: 0;
+}
+.ak {
+  border-top-color: !important;
+}
+.al {
+  border-right-color: !important;
+}
+.am {
+  border-bottom-color: !important;
+}
+.an {
+  border-left-color: !important;
+}
+.ao {
+  overflow-x: hidden;
+}
+.ap {
+  overflow-y: !important;
+}
+.aq {
+  margin-top: -1px;
+}
+.ar {
+  margin-right: !important;
+}
+.as {
+  margin-bottom: -1px;
+}
+.at {
+  margin-left: !important;
+}
+.au {
+  padding-top: 0;
+}
+.av {
+  padding-right: !important;
+}
+.aw {
+  padding-bottom: 0;
+}
+.ax {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x y spinner-border-danger"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a small spinner of variant info 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes k2 {
+}
+@-moz-keyframes k2 {
+}
+@keyframes k2 {
+}
+.a {
+  color: rgb(13, 202, 240);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 1rem;
+}
+.d {
+  height: 1rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  border-right-color: transparent;
+}
+.g {
+  animation-duration: 0.75s;
+}
+.h {
+  animation-iteration-count: infinite;
+}
+.i {
+  animation-timing-function: linear;
+}
+.j {
+  animation-name: k1;
+}
+.k {
+  border-top-width: 0.25em;
+}
+.l {
+  border-right-width: 0.25em;
+}
+.m {
+  border-bottom-width: 0.25em;
+}
+.n {
+  border-left-width: 0.25em;
+}
+.o {
+  border-top-style: solid;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-bottom-style: solid;
+}
+.r {
+  border-left-style: solid;
+}
+.s {
+  border-top-color: currentcolor;
+}
+.t {
+  border-bottom-color: currentcolor;
+}
+.u {
+  border-left-color: currentcolor;
+}
+.v {
+  border-top-left-radius: 50%;
+}
+.w {
+  border-top-right-radius: 50%;
+}
+.x {
+  border-bottom-right-radius: 50%;
+}
+.y {
+  border-bottom-left-radius: 50%;
+}
+.z {
+  width: 1px !important;
+}
+.ab {
+  height: 1px !important;
+}
+.ac {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.ae {
+  white-space: nowrap !important;
+}
+.af:not(caption) {
+  position: absolute !important;
+}
+.ag {
+  border-top-width: 0;
+}
+.ah {
+  border-right-width: 0;
+}
+.ai {
+  border-bottom-width: 0;
+}
+.aj {
+  border-left-width: 0;
+}
+.ak {
+  border-top-color: !important;
+}
+.al {
+  border-right-color: !important;
+}
+.am {
+  border-bottom-color: !important;
+}
+.an {
+  border-left-color: !important;
+}
+.ao {
+  overflow-x: hidden;
+}
+.ap {
+  overflow-y: !important;
+}
+.aq {
+  margin-top: -1px;
+}
+.ar {
+  margin-right: !important;
+}
+.as {
+  margin-bottom: -1px;
+}
+.at {
+  margin-left: !important;
+}
+.au {
+  padding-top: 0;
+}
+.av {
+  padding-right: !important;
+}
+.aw {
+  padding-bottom: 0;
+}
+.ax {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x y spinner-border-info"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a small spinner of variant primary 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes k2 {
+}
+@-moz-keyframes k2 {
+}
+@keyframes k2 {
+}
+.a {
+  color: rgb(13, 110, 253);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 1rem;
+}
+.d {
+  height: 1rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  border-right-color: transparent;
+}
+.g {
+  animation-duration: 0.75s;
+}
+.h {
+  animation-iteration-count: infinite;
+}
+.i {
+  animation-timing-function: linear;
+}
+.j {
+  animation-name: k1;
+}
+.k {
+  border-top-width: 0.25em;
+}
+.l {
+  border-right-width: 0.25em;
+}
+.m {
+  border-bottom-width: 0.25em;
+}
+.n {
+  border-left-width: 0.25em;
+}
+.o {
+  border-top-style: solid;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-bottom-style: solid;
+}
+.r {
+  border-left-style: solid;
+}
+.s {
+  border-top-color: currentcolor;
+}
+.t {
+  border-bottom-color: currentcolor;
+}
+.u {
+  border-left-color: currentcolor;
+}
+.v {
+  border-top-left-radius: 50%;
+}
+.w {
+  border-top-right-radius: 50%;
+}
+.x {
+  border-bottom-right-radius: 50%;
+}
+.y {
+  border-bottom-left-radius: 50%;
+}
+.z {
+  width: 1px !important;
+}
+.ab {
+  height: 1px !important;
+}
+.ac {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.ae {
+  white-space: nowrap !important;
+}
+.af:not(caption) {
+  position: absolute !important;
+}
+.ag {
+  border-top-width: 0;
+}
+.ah {
+  border-right-width: 0;
+}
+.ai {
+  border-bottom-width: 0;
+}
+.aj {
+  border-left-width: 0;
+}
+.ak {
+  border-top-color: !important;
+}
+.al {
+  border-right-color: !important;
+}
+.am {
+  border-bottom-color: !important;
+}
+.an {
+  border-left-color: !important;
+}
+.ao {
+  overflow-x: hidden;
+}
+.ap {
+  overflow-y: !important;
+}
+.aq {
+  margin-top: -1px;
+}
+.ar {
+  margin-right: !important;
+}
+.as {
+  margin-bottom: -1px;
+}
+.at {
+  margin-left: !important;
+}
+.au {
+  padding-top: 0;
+}
+.av {
+  padding-right: !important;
+}
+.aw {
+  padding-bottom: 0;
+}
+.ax {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x y spinner-border-primary"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a small spinner of variant secondary 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes k2 {
+}
+@-moz-keyframes k2 {
+}
+@keyframes k2 {
+}
+.a {
+  color: rgb(108, 117, 125);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 1rem;
+}
+.d {
+  height: 1rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  border-right-color: transparent;
+}
+.g {
+  animation-duration: 0.75s;
+}
+.h {
+  animation-iteration-count: infinite;
+}
+.i {
+  animation-timing-function: linear;
+}
+.j {
+  animation-name: k1;
+}
+.k {
+  border-top-width: 0.25em;
+}
+.l {
+  border-right-width: 0.25em;
+}
+.m {
+  border-bottom-width: 0.25em;
+}
+.n {
+  border-left-width: 0.25em;
+}
+.o {
+  border-top-style: solid;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-bottom-style: solid;
+}
+.r {
+  border-left-style: solid;
+}
+.s {
+  border-top-color: currentcolor;
+}
+.t {
+  border-bottom-color: currentcolor;
+}
+.u {
+  border-left-color: currentcolor;
+}
+.v {
+  border-top-left-radius: 50%;
+}
+.w {
+  border-top-right-radius: 50%;
+}
+.x {
+  border-bottom-right-radius: 50%;
+}
+.y {
+  border-bottom-left-radius: 50%;
+}
+.z {
+  width: 1px !important;
+}
+.ab {
+  height: 1px !important;
+}
+.ac {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.ae {
+  white-space: nowrap !important;
+}
+.af:not(caption) {
+  position: absolute !important;
+}
+.ag {
+  border-top-width: 0;
+}
+.ah {
+  border-right-width: 0;
+}
+.ai {
+  border-bottom-width: 0;
+}
+.aj {
+  border-left-width: 0;
+}
+.ak {
+  border-top-color: !important;
+}
+.al {
+  border-right-color: !important;
+}
+.am {
+  border-bottom-color: !important;
+}
+.an {
+  border-left-color: !important;
+}
+.ao {
+  overflow-x: hidden;
+}
+.ap {
+  overflow-y: !important;
+}
+.aq {
+  margin-top: -1px;
+}
+.ar {
+  margin-right: !important;
+}
+.as {
+  margin-bottom: -1px;
+}
+.at {
+  margin-left: !important;
+}
+.au {
+  padding-top: 0;
+}
+.av {
+  padding-right: !important;
+}
+.aw {
+  padding-bottom: 0;
+}
+.ax {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x y spinner-border-secondary"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a small spinner of variant success 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes k2 {
+}
+@-moz-keyframes k2 {
+}
+@keyframes k2 {
+}
+.a {
+  color: rgb(25, 135, 84);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 1rem;
+}
+.d {
+  height: 1rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  border-right-color: transparent;
+}
+.g {
+  animation-duration: 0.75s;
+}
+.h {
+  animation-iteration-count: infinite;
+}
+.i {
+  animation-timing-function: linear;
+}
+.j {
+  animation-name: k1;
+}
+.k {
+  border-top-width: 0.25em;
+}
+.l {
+  border-right-width: 0.25em;
+}
+.m {
+  border-bottom-width: 0.25em;
+}
+.n {
+  border-left-width: 0.25em;
+}
+.o {
+  border-top-style: solid;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-bottom-style: solid;
+}
+.r {
+  border-left-style: solid;
+}
+.s {
+  border-top-color: currentcolor;
+}
+.t {
+  border-bottom-color: currentcolor;
+}
+.u {
+  border-left-color: currentcolor;
+}
+.v {
+  border-top-left-radius: 50%;
+}
+.w {
+  border-top-right-radius: 50%;
+}
+.x {
+  border-bottom-right-radius: 50%;
+}
+.y {
+  border-bottom-left-radius: 50%;
+}
+.z {
+  width: 1px !important;
+}
+.ab {
+  height: 1px !important;
+}
+.ac {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.ae {
+  white-space: nowrap !important;
+}
+.af:not(caption) {
+  position: absolute !important;
+}
+.ag {
+  border-top-width: 0;
+}
+.ah {
+  border-right-width: 0;
+}
+.ai {
+  border-bottom-width: 0;
+}
+.aj {
+  border-left-width: 0;
+}
+.ak {
+  border-top-color: !important;
+}
+.al {
+  border-right-color: !important;
+}
+.am {
+  border-bottom-color: !important;
+}
+.an {
+  border-left-color: !important;
+}
+.ao {
+  overflow-x: hidden;
+}
+.ap {
+  overflow-y: !important;
+}
+.aq {
+  margin-top: -1px;
+}
+.ar {
+  margin-right: !important;
+}
+.as {
+  margin-bottom: -1px;
+}
+.at {
+  margin-left: !important;
+}
+.au {
+  padding-top: 0;
+}
+.av {
+  padding-right: !important;
+}
+.aw {
+  padding-bottom: 0;
+}
+.ax {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x y spinner-border-success"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a small spinner of variant warning 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes k2 {
+}
+@-moz-keyframes k2 {
+}
+@keyframes k2 {
+}
+.a {
+  color: rgb(255, 193, 7);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 1rem;
+}
+.d {
+  height: 1rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  border-right-color: transparent;
+}
+.g {
+  animation-duration: 0.75s;
+}
+.h {
+  animation-iteration-count: infinite;
+}
+.i {
+  animation-timing-function: linear;
+}
+.j {
+  animation-name: k1;
+}
+.k {
+  border-top-width: 0.25em;
+}
+.l {
+  border-right-width: 0.25em;
+}
+.m {
+  border-bottom-width: 0.25em;
+}
+.n {
+  border-left-width: 0.25em;
+}
+.o {
+  border-top-style: solid;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-bottom-style: solid;
+}
+.r {
+  border-left-style: solid;
+}
+.s {
+  border-top-color: currentcolor;
+}
+.t {
+  border-bottom-color: currentcolor;
+}
+.u {
+  border-left-color: currentcolor;
+}
+.v {
+  border-top-left-radius: 50%;
+}
+.w {
+  border-top-right-radius: 50%;
+}
+.x {
+  border-bottom-right-radius: 50%;
+}
+.y {
+  border-bottom-left-radius: 50%;
+}
+.z {
+  width: 1px !important;
+}
+.ab {
+  height: 1px !important;
+}
+.ac {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.ae {
+  white-space: nowrap !important;
+}
+.af:not(caption) {
+  position: absolute !important;
+}
+.ag {
+  border-top-width: 0;
+}
+.ah {
+  border-right-width: 0;
+}
+.ai {
+  border-bottom-width: 0;
+}
+.aj {
+  border-left-width: 0;
+}
+.ak {
+  border-top-color: !important;
+}
+.al {
+  border-right-color: !important;
+}
+.am {
+  border-bottom-color: !important;
+}
+.an {
+  border-left-color: !important;
+}
+.ao {
+  overflow-x: hidden;
+}
+.ap {
+  overflow-y: !important;
+}
+.aq {
+  margin-top: -1px;
+}
+.ar {
+  margin-right: !important;
+}
+.as {
+  margin-bottom: -1px;
+}
+.at {
+  margin-left: !important;
+}
+.au {
+  padding-top: 0;
+}
+.av {
+  padding-right: !important;
+}
+.aw {
+  padding-bottom: 0;
+}
+.ax {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x y spinner-border-warning"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a spinner of variant danger 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes k2 {
+}
+@-moz-keyframes k2 {
+}
+@keyframes k2 {
+}
+.a {
+  color: rgb(220, 53, 69);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 2rem;
+}
+.d {
+  height: 2rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  border-right-color: transparent;
+}
+.g {
+  animation-duration: 0.75s;
+}
+.h {
+  animation-iteration-count: infinite;
+}
+.i {
+  animation-timing-function: linear;
+}
+.j {
+  animation-name: k1;
+}
+.k {
+  border-top-width: 0.25em;
+}
+.l {
+  border-right-width: 0.25em;
+}
+.m {
+  border-bottom-width: 0.25em;
+}
+.n {
+  border-left-width: 0.25em;
+}
+.o {
+  border-top-style: solid;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-bottom-style: solid;
+}
+.r {
+  border-left-style: solid;
+}
+.s {
+  border-top-color: currentcolor;
+}
+.t {
+  border-bottom-color: currentcolor;
+}
+.u {
+  border-left-color: currentcolor;
+}
+.v {
+  border-top-left-radius: 50%;
+}
+.w {
+  border-top-right-radius: 50%;
+}
+.x {
+  border-bottom-right-radius: 50%;
+}
+.y {
+  border-bottom-left-radius: 50%;
+}
+.z {
+  width: 1px !important;
+}
+.ab {
+  height: 1px !important;
+}
+.ac {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.ae {
+  white-space: nowrap !important;
+}
+.af:not(caption) {
+  position: absolute !important;
+}
+.ag {
+  border-top-width: 0;
+}
+.ah {
+  border-right-width: 0;
+}
+.ai {
+  border-bottom-width: 0;
+}
+.aj {
+  border-left-width: 0;
+}
+.ak {
+  border-top-color: !important;
+}
+.al {
+  border-right-color: !important;
+}
+.am {
+  border-bottom-color: !important;
+}
+.an {
+  border-left-color: !important;
+}
+.ao {
+  overflow-x: hidden;
+}
+.ap {
+  overflow-y: !important;
+}
+.aq {
+  margin-top: -1px;
+}
+.ar {
+  margin-right: !important;
+}
+.as {
+  margin-bottom: -1px;
+}
+.at {
+  margin-left: !important;
+}
+.au {
+  padding-top: 0;
+}
+.av {
+  padding-right: !important;
+}
+.aw {
+  padding-bottom: 0;
+}
+.ax {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x y spinner-border-danger"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a spinner of variant info 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes k2 {
+}
+@-moz-keyframes k2 {
+}
+@keyframes k2 {
+}
+.a {
+  color: rgb(13, 202, 240);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 2rem;
+}
+.d {
+  height: 2rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  border-right-color: transparent;
+}
+.g {
+  animation-duration: 0.75s;
+}
+.h {
+  animation-iteration-count: infinite;
+}
+.i {
+  animation-timing-function: linear;
+}
+.j {
+  animation-name: k1;
+}
+.k {
+  border-top-width: 0.25em;
+}
+.l {
+  border-right-width: 0.25em;
+}
+.m {
+  border-bottom-width: 0.25em;
+}
+.n {
+  border-left-width: 0.25em;
+}
+.o {
+  border-top-style: solid;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-bottom-style: solid;
+}
+.r {
+  border-left-style: solid;
+}
+.s {
+  border-top-color: currentcolor;
+}
+.t {
+  border-bottom-color: currentcolor;
+}
+.u {
+  border-left-color: currentcolor;
+}
+.v {
+  border-top-left-radius: 50%;
+}
+.w {
+  border-top-right-radius: 50%;
+}
+.x {
+  border-bottom-right-radius: 50%;
+}
+.y {
+  border-bottom-left-radius: 50%;
+}
+.z {
+  width: 1px !important;
+}
+.ab {
+  height: 1px !important;
+}
+.ac {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.ae {
+  white-space: nowrap !important;
+}
+.af:not(caption) {
+  position: absolute !important;
+}
+.ag {
+  border-top-width: 0;
+}
+.ah {
+  border-right-width: 0;
+}
+.ai {
+  border-bottom-width: 0;
+}
+.aj {
+  border-left-width: 0;
+}
+.ak {
+  border-top-color: !important;
+}
+.al {
+  border-right-color: !important;
+}
+.am {
+  border-bottom-color: !important;
+}
+.an {
+  border-left-color: !important;
+}
+.ao {
+  overflow-x: hidden;
+}
+.ap {
+  overflow-y: !important;
+}
+.aq {
+  margin-top: -1px;
+}
+.ar {
+  margin-right: !important;
+}
+.as {
+  margin-bottom: -1px;
+}
+.at {
+  margin-left: !important;
+}
+.au {
+  padding-top: 0;
+}
+.av {
+  padding-right: !important;
+}
+.aw {
+  padding-bottom: 0;
+}
+.ax {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x y spinner-border-info"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a spinner of variant primary 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes k2 {
+}
+@-moz-keyframes k2 {
+}
+@keyframes k2 {
+}
+.a {
+  color: rgb(13, 110, 253);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 2rem;
+}
+.d {
+  height: 2rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  border-right-color: transparent;
+}
+.g {
+  animation-duration: 0.75s;
+}
+.h {
+  animation-iteration-count: infinite;
+}
+.i {
+  animation-timing-function: linear;
+}
+.j {
+  animation-name: k1;
+}
+.k {
+  border-top-width: 0.25em;
+}
+.l {
+  border-right-width: 0.25em;
+}
+.m {
+  border-bottom-width: 0.25em;
+}
+.n {
+  border-left-width: 0.25em;
+}
+.o {
+  border-top-style: solid;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-bottom-style: solid;
+}
+.r {
+  border-left-style: solid;
+}
+.s {
+  border-top-color: currentcolor;
+}
+.t {
+  border-bottom-color: currentcolor;
+}
+.u {
+  border-left-color: currentcolor;
+}
+.v {
+  border-top-left-radius: 50%;
+}
+.w {
+  border-top-right-radius: 50%;
+}
+.x {
+  border-bottom-right-radius: 50%;
+}
+.y {
+  border-bottom-left-radius: 50%;
+}
+.z {
+  width: 1px !important;
+}
+.ab {
+  height: 1px !important;
+}
+.ac {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.ae {
+  white-space: nowrap !important;
+}
+.af:not(caption) {
+  position: absolute !important;
+}
+.ag {
+  border-top-width: 0;
+}
+.ah {
+  border-right-width: 0;
+}
+.ai {
+  border-bottom-width: 0;
+}
+.aj {
+  border-left-width: 0;
+}
+.ak {
+  border-top-color: !important;
+}
+.al {
+  border-right-color: !important;
+}
+.am {
+  border-bottom-color: !important;
+}
+.an {
+  border-left-color: !important;
+}
+.ao {
+  overflow-x: hidden;
+}
+.ap {
+  overflow-y: !important;
+}
+.aq {
+  margin-top: -1px;
+}
+.ar {
+  margin-right: !important;
+}
+.as {
+  margin-bottom: -1px;
+}
+.at {
+  margin-left: !important;
+}
+.au {
+  padding-top: 0;
+}
+.av {
+  padding-right: !important;
+}
+.aw {
+  padding-bottom: 0;
+}
+.ax {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x y spinner-border-primary"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a spinner of variant secondary 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes k2 {
+}
+@-moz-keyframes k2 {
+}
+@keyframes k2 {
+}
+.a {
+  color: rgb(108, 117, 125);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 2rem;
+}
+.d {
+  height: 2rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  border-right-color: transparent;
+}
+.g {
+  animation-duration: 0.75s;
+}
+.h {
+  animation-iteration-count: infinite;
+}
+.i {
+  animation-timing-function: linear;
+}
+.j {
+  animation-name: k1;
+}
+.k {
+  border-top-width: 0.25em;
+}
+.l {
+  border-right-width: 0.25em;
+}
+.m {
+  border-bottom-width: 0.25em;
+}
+.n {
+  border-left-width: 0.25em;
+}
+.o {
+  border-top-style: solid;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-bottom-style: solid;
+}
+.r {
+  border-left-style: solid;
+}
+.s {
+  border-top-color: currentcolor;
+}
+.t {
+  border-bottom-color: currentcolor;
+}
+.u {
+  border-left-color: currentcolor;
+}
+.v {
+  border-top-left-radius: 50%;
+}
+.w {
+  border-top-right-radius: 50%;
+}
+.x {
+  border-bottom-right-radius: 50%;
+}
+.y {
+  border-bottom-left-radius: 50%;
+}
+.z {
+  width: 1px !important;
+}
+.ab {
+  height: 1px !important;
+}
+.ac {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.ae {
+  white-space: nowrap !important;
+}
+.af:not(caption) {
+  position: absolute !important;
+}
+.ag {
+  border-top-width: 0;
+}
+.ah {
+  border-right-width: 0;
+}
+.ai {
+  border-bottom-width: 0;
+}
+.aj {
+  border-left-width: 0;
+}
+.ak {
+  border-top-color: !important;
+}
+.al {
+  border-right-color: !important;
+}
+.am {
+  border-bottom-color: !important;
+}
+.an {
+  border-left-color: !important;
+}
+.ao {
+  overflow-x: hidden;
+}
+.ap {
+  overflow-y: !important;
+}
+.aq {
+  margin-top: -1px;
+}
+.ar {
+  margin-right: !important;
+}
+.as {
+  margin-bottom: -1px;
+}
+.at {
+  margin-left: !important;
+}
+.au {
+  padding-top: 0;
+}
+.av {
+  padding-right: !important;
+}
+.aw {
+  padding-bottom: 0;
+}
+.ax {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x y spinner-border-secondary"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a spinner of variant success 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes k2 {
+}
+@-moz-keyframes k2 {
+}
+@keyframes k2 {
+}
+.a {
+  color: rgb(25, 135, 84);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 2rem;
+}
+.d {
+  height: 2rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  border-right-color: transparent;
+}
+.g {
+  animation-duration: 0.75s;
+}
+.h {
+  animation-iteration-count: infinite;
+}
+.i {
+  animation-timing-function: linear;
+}
+.j {
+  animation-name: k1;
+}
+.k {
+  border-top-width: 0.25em;
+}
+.l {
+  border-right-width: 0.25em;
+}
+.m {
+  border-bottom-width: 0.25em;
+}
+.n {
+  border-left-width: 0.25em;
+}
+.o {
+  border-top-style: solid;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-bottom-style: solid;
+}
+.r {
+  border-left-style: solid;
+}
+.s {
+  border-top-color: currentcolor;
+}
+.t {
+  border-bottom-color: currentcolor;
+}
+.u {
+  border-left-color: currentcolor;
+}
+.v {
+  border-top-left-radius: 50%;
+}
+.w {
+  border-top-right-radius: 50%;
+}
+.x {
+  border-bottom-right-radius: 50%;
+}
+.y {
+  border-bottom-left-radius: 50%;
+}
+.z {
+  width: 1px !important;
+}
+.ab {
+  height: 1px !important;
+}
+.ac {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.ae {
+  white-space: nowrap !important;
+}
+.af:not(caption) {
+  position: absolute !important;
+}
+.ag {
+  border-top-width: 0;
+}
+.ah {
+  border-right-width: 0;
+}
+.ai {
+  border-bottom-width: 0;
+}
+.aj {
+  border-left-width: 0;
+}
+.ak {
+  border-top-color: !important;
+}
+.al {
+  border-right-color: !important;
+}
+.am {
+  border-bottom-color: !important;
+}
+.an {
+  border-left-color: !important;
+}
+.ao {
+  overflow-x: hidden;
+}
+.ap {
+  overflow-y: !important;
+}
+.aq {
+  margin-top: -1px;
+}
+.ar {
+  margin-right: !important;
+}
+.as {
+  margin-bottom: -1px;
+}
+.at {
+  margin-left: !important;
+}
+.au {
+  padding-top: 0;
+}
+.av {
+  padding-right: !important;
+}
+.aw {
+  padding-bottom: 0;
+}
+.ax {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x y spinner-border-success"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;
+
+exports[`components/Spinner should render a spinner of variant warning 1`] = `
+"@-webkit-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes k1 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes k2 {
+}
+@-moz-keyframes k2 {
+}
+@keyframes k2 {
+}
+.a {
+  color: rgb(255, 193, 7);
+}
+.b {
+  display: inline-block;
+}
+.c {
+  width: 2rem;
+}
+.d {
+  height: 2rem;
+}
+.e {
+  vertical-align: -0.125em;
+}
+.f {
+  border-right-color: transparent;
+}
+.g {
+  animation-duration: 0.75s;
+}
+.h {
+  animation-iteration-count: infinite;
+}
+.i {
+  animation-timing-function: linear;
+}
+.j {
+  animation-name: k1;
+}
+.k {
+  border-top-width: 0.25em;
+}
+.l {
+  border-right-width: 0.25em;
+}
+.m {
+  border-bottom-width: 0.25em;
+}
+.n {
+  border-left-width: 0.25em;
+}
+.o {
+  border-top-style: solid;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-bottom-style: solid;
+}
+.r {
+  border-left-style: solid;
+}
+.s {
+  border-top-color: currentcolor;
+}
+.t {
+  border-bottom-color: currentcolor;
+}
+.u {
+  border-left-color: currentcolor;
+}
+.v {
+  border-top-left-radius: 50%;
+}
+.w {
+  border-top-right-radius: 50%;
+}
+.x {
+  border-bottom-right-radius: 50%;
+}
+.y {
+  border-bottom-left-radius: 50%;
+}
+.z {
+  width: 1px !important;
+}
+.ab {
+  height: 1px !important;
+}
+.ac {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.ae {
+  white-space: nowrap !important;
+}
+.af:not(caption) {
+  position: absolute !important;
+}
+.ag {
+  border-top-width: 0;
+}
+.ah {
+  border-right-width: 0;
+}
+.ai {
+  border-bottom-width: 0;
+}
+.aj {
+  border-left-width: 0;
+}
+.ak {
+  border-top-color: !important;
+}
+.al {
+  border-right-color: !important;
+}
+.am {
+  border-bottom-color: !important;
+}
+.an {
+  border-left-color: !important;
+}
+.ao {
+  overflow-x: hidden;
+}
+.ap {
+  overflow-y: !important;
+}
+.aq {
+  margin-top: -1px;
+}
+.ar {
+  margin-right: !important;
+}
+.as {
+  margin-bottom: -1px;
+}
+.at {
+  margin-left: !important;
+}
+.au {
+  padding-top: 0;
+}
+.av {
+  padding-right: !important;
+}
+.aw {
+  padding-bottom: 0;
+}
+.ax {
+  padding-left: !important;
+}
+
+
+<div
+  data-testid="spinner"
+  class="a b c d e f g h i j k l m n o p q r s t u v w x y spinner-border-warning"
+  role="status"
+>
+  <span
+    data-testid="spinner-hidden-text"
+    class="ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax z"
+    >Loading...</span
+  >
+</div>
+;
+"
+`;

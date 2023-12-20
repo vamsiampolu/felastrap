@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/Checkbox/Label should render a label 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  margin-bottom: 0.5rem;
+}
+
+
+<label
+  data-testid="form-label"
+  for="cb-label"
+  class="a b form-label form-check-label"
+  >Checkbox Label</label
+>;
+"
+`;
+
+exports[`components/Form/Checkbox/Label should render a label for a disabled checkbox 1`] = `
+".a {
+  cursor: default;
+}
+.b {
+  opacity: 0.5;
+}
+.c {
+  display: inline-block;
+}
+.d {
+  margin-bottom: 0.5rem;
+}
+
+
+<label
+  data-testid="form-label"
+  for="cb-label"
+  class="c d form-label a b form-check-label"
+  >Checkbox Label</label
+>;
+"
+`;

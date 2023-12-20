@@ -1,0 +1,464 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/PauseButton should render a PauseButton 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-image: none;
+}
+.k {
+  color: #333;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  background-color: #fff;
+}
+.ai:disabled {
+  color: #333;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #ccc;
+}
+.ap:disabled {
+  border-right-color: #ccc;
+}
+.aq:disabled {
+  border-bottom-color: #ccc;
+}
+.ar:disabled {
+  border-left-color: #ccc;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #ccc;
+}
+.bp {
+  border-right-color: #ccc;
+}
+.bq {
+  border-bottom-color: #ccc;
+}
+.br {
+  border-left-color: #ccc;
+}
+.ba:hover {
+  background-color: #e6e6e6;
+}
+.bb:hover {
+  color: #333;
+}
+.bc:hover {
+  border-top-color: #adadad;
+}
+.bd:hover {
+  border-right-color: #adadad;
+}
+.be:hover {
+  border-bottom-color: #adadad;
+}
+.bf:hover {
+  border-left-color: #adadad;
+}
+.as:focus-visible {
+  color: #333;
+}
+.at:focus-visible {
+  background-color: #e6e6e6;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #adadad;
+}
+.ax:focus-visible {
+  border-right-color: #adadad;
+}
+.ay:focus-visible {
+  border-bottom-color: #adadad;
+}
+.az:focus-visible {
+  border-left-color: #adadad;
+}
+.w:active {
+  color: #333;
+}
+.x:active {
+  background-color: #e6e6e6;
+}
+.y:active {
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #adadad;
+}
+.ae:active {
+  border-right-color: #adadad;
+}
+.af:active {
+  border-bottom-color: #adadad;
+}
+.ag:active {
+  border-left-color: #adadad;
+}
+
+
+<div style="background-color: #ff4500">
+  <button
+    data-testid="carousel-pause-btn"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+    style="background-color: unset"
+  >
+    <svg
+      data-testid="carousel-pause-icon"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 16 16"
+      width="16"
+      height="16"
+    >
+      <path
+        fill="#000"
+        d="M5.5 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5z"
+      ></path>
+    </svg></button
+  >;
+</div>
+;
+"
+`;
+
+exports[`components/PauseButton should render a disabled PauseButton 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-image: none;
+}
+.k {
+  color: #333;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  background-color: #fff;
+}
+.ai:disabled {
+  color: #333;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #ccc;
+}
+.ap:disabled {
+  border-right-color: #ccc;
+}
+.aq:disabled {
+  border-bottom-color: #ccc;
+}
+.ar:disabled {
+  border-left-color: #ccc;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #ccc;
+}
+.bp {
+  border-right-color: #ccc;
+}
+.bq {
+  border-bottom-color: #ccc;
+}
+.br {
+  border-left-color: #ccc;
+}
+.ba:hover {
+  background-color: #e6e6e6;
+}
+.bb:hover {
+  color: #333;
+}
+.bc:hover {
+  border-top-color: #adadad;
+}
+.bd:hover {
+  border-right-color: #adadad;
+}
+.be:hover {
+  border-bottom-color: #adadad;
+}
+.bf:hover {
+  border-left-color: #adadad;
+}
+.as:focus-visible {
+  color: #333;
+}
+.at:focus-visible {
+  background-color: #e6e6e6;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #adadad;
+}
+.ax:focus-visible {
+  border-right-color: #adadad;
+}
+.ay:focus-visible {
+  border-bottom-color: #adadad;
+}
+.az:focus-visible {
+  border-left-color: #adadad;
+}
+.w:active {
+  color: #333;
+}
+.x:active {
+  background-color: #e6e6e6;
+}
+.y:active {
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #adadad;
+}
+.ae:active {
+  border-right-color: #adadad;
+}
+.af:active {
+  border-bottom-color: #adadad;
+}
+.ag:active {
+  border-left-color: #adadad;
+}
+
+
+<div style="background-color: transparent">
+  <button
+    data-testid="carousel-pause-btn"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+    disabled=""
+    style="background-color: unset"
+  >
+    <svg
+      data-testid="carousel-pause-icon"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 16 16"
+      width="16"
+      height="16"
+    >
+      <path
+        fill="#000"
+        d="M5.5 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5z"
+      ></path>
+    </svg></button
+  >;
+</div>
+;
+"
+`;

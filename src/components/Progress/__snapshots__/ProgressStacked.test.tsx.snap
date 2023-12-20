@@ -1,0 +1,442 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Progress/ProgressStacked should render a stacked group of progress bars 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  height: 1rem;
+}
+.c {
+  font-size: 0.75rem;
+}
+.d {
+  background-color: #e9ecef;
+}
+.e {
+  border-top-left-radius: 0.375rem;
+}
+.f {
+  border-top-right-radius: 0.375rem;
+}
+.g {
+  border-bottom-right-radius: 0.375rem;
+}
+.h {
+  border-bottom-left-radius: 0.375rem;
+}
+.i {
+  overflow-x: hidden;
+}
+.j {
+  overflow-y: hidden;
+}
+.k {
+  width: 15%;
+}
+.l {
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+}
+.m {
+  flex-direction: column;
+}
+.n {
+  justify-content: center;
+}
+.o {
+  color: #fff;
+}
+.p {
+  text-align: center;
+}
+.q {
+  white-space: nowrap;
+}
+.r {
+  background-color: #0d6efd;
+}
+.s {
+  width: 100%;
+}
+.x {
+  transition-property: width;
+}
+.y {
+  transition-duration: 0.6s;
+}
+.z {
+  transition-delay: ease;
+}
+.ab {
+  transition-timing-function: ease;
+}
+.ac {
+  width: 30%;
+}
+.ae {
+  width: 20%;
+}
+@media (prefers-reduced-motion: reduce) {
+  .t {
+    transition-property: none;
+  }
+  .u {
+    transition-duration: 0s;
+  }
+  .v {
+    transition-delay: 0s;
+  }
+  .w {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div
+  data-testid="progress-stacked"
+  class="a b c d e f g h i j progress-stacked"
+>
+  <div
+    data-testid="progressbar"
+    class="a b c d e f g h i j k l"
+    role="progressbar"
+    aria-label="Segment 1"
+    aria-valuenow="15"
+    aria-valuemin="0"
+    aria-valuemax="100"
+  >
+    <div
+      data-testid="progressbar-label"
+      class="a ab b c e f g h i j m n o p q r s t u v w x y z"
+    ></div>
+  </div>
+  <div
+    data-testid="progressbar"
+    class="a ac b c d e f g h i j l"
+    role="progressbar"
+    aria-label="Segment 2"
+    aria-valuenow="30"
+    aria-valuemin="0"
+    aria-valuemax="100"
+  >
+    <div
+      data-testid="progressbar-label"
+      class="a ab b c e f g h i j m n o p q r s t u v w x y z"
+    ></div>
+  </div>
+  <div
+    data-testid="progressbar"
+    class="a ae b c d e f g h i j l"
+    role="progressbar"
+    aria-label="Segment 3"
+    aria-valuenow="20"
+    aria-valuemin="0"
+    aria-valuemax="100"
+  >
+    <div
+      data-testid="progressbar-label"
+      class="a ab b c e f g h i j m n o p q r s t u v w x y z"
+    ></div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Progress/ProgressStacked should render a stacked group of progress bars with an added className 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  height: 1rem;
+}
+.c {
+  font-size: 0.75rem;
+}
+.d {
+  background-color: #e9ecef;
+}
+.e {
+  border-top-left-radius: 0.375rem;
+}
+.f {
+  border-top-right-radius: 0.375rem;
+}
+.g {
+  border-bottom-right-radius: 0.375rem;
+}
+.h {
+  border-bottom-left-radius: 0.375rem;
+}
+.i {
+  overflow-x: hidden;
+}
+.j {
+  overflow-y: hidden;
+}
+.k {
+  width: 15%;
+}
+.l {
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+}
+.m {
+  flex-direction: column;
+}
+.n {
+  justify-content: center;
+}
+.o {
+  color: #fff;
+}
+.p {
+  text-align: center;
+}
+.q {
+  white-space: nowrap;
+}
+.r {
+  background-color: rgba(25, 135, 84, 1);
+}
+.s {
+  width: 100%;
+}
+.x {
+  transition-property: width;
+}
+.y {
+  transition-duration: 0.6s;
+}
+.z {
+  transition-delay: ease;
+}
+.ab {
+  transition-timing-function: ease;
+}
+.ac {
+  width: 30%;
+}
+.ae {
+  background-color: rgba(13, 202, 240, 1);
+}
+.af {
+  width: 20%;
+}
+.ag {
+  background-color: rgba(220, 53, 69, 1);
+}
+@media (prefers-reduced-motion: reduce) {
+  .t {
+    transition-property: none;
+  }
+  .u {
+    transition-duration: 0s;
+  }
+  .v {
+    transition-delay: 0s;
+  }
+  .w {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div
+  data-testid="progress-stacked"
+  class="a b c d e f g h i j progress-stacked install-progress-bar"
+>
+  <div
+    data-testid="progressbar"
+    class="a b c d e f g h i j k l"
+    role="progressbar"
+    aria-label="Segment 1"
+    aria-valuenow="15"
+    aria-valuemin="0"
+    aria-valuemax="100"
+  >
+    <div
+      data-testid="progressbar-label"
+      class="a ab b c e f g h i j m n o p q r s t u v w x y z"
+    ></div>
+  </div>
+  <div
+    data-testid="progressbar"
+    class="a ac b c d e f g h i j l"
+    role="progressbar"
+    aria-label="Segment 2"
+    aria-valuenow="30"
+    aria-valuemin="0"
+    aria-valuemax="100"
+  >
+    <div
+      data-testid="progressbar-label"
+      class="a ab ae b c e f g h i j m n o p q s t u v w x y z"
+    ></div>
+  </div>
+  <div
+    data-testid="progressbar"
+    class="a af b c d e f g h i j l"
+    role="progressbar"
+    aria-label="Segment 3"
+    aria-valuenow="20"
+    aria-valuemin="0"
+    aria-valuemax="100"
+  >
+    <div
+      data-testid="progressbar-label"
+      class="a ab ag b c e f g h i j m n o p q s t u v w x y z"
+    ></div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Progress/ProgressStacked should render a stacked group of progress bars with different varients 1`] = `
+".a {
+  display: flex;
+}
+.b {
+  height: 1rem;
+}
+.c {
+  font-size: 0.75rem;
+}
+.d {
+  background-color: #e9ecef;
+}
+.e {
+  border-top-left-radius: 0.375rem;
+}
+.f {
+  border-top-right-radius: 0.375rem;
+}
+.g {
+  border-bottom-right-radius: 0.375rem;
+}
+.h {
+  border-bottom-left-radius: 0.375rem;
+}
+.i {
+  overflow-x: hidden;
+}
+.j {
+  overflow-y: hidden;
+}
+.k {
+  width: 15%;
+}
+.l {
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+}
+.m {
+  flex-direction: column;
+}
+.n {
+  justify-content: center;
+}
+.o {
+  color: #fff;
+}
+.p {
+  text-align: center;
+}
+.q {
+  white-space: nowrap;
+}
+.r {
+  background-color: rgba(25, 135, 84, 1);
+}
+.s {
+  width: 100%;
+}
+.x {
+  transition-property: width;
+}
+.y {
+  transition-duration: 0.6s;
+}
+.z {
+  transition-delay: ease;
+}
+.ab {
+  transition-timing-function: ease;
+}
+.ac {
+  width: 30%;
+}
+.ae {
+  background-color: rgba(13, 202, 240, 1);
+}
+.af {
+  width: 20%;
+}
+.ag {
+  background-color: rgba(220, 53, 69, 1);
+}
+@media (prefers-reduced-motion: reduce) {
+  .t {
+    transition-property: none;
+  }
+  .u {
+    transition-duration: 0s;
+  }
+  .v {
+    transition-delay: 0s;
+  }
+  .w {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div
+  data-testid="progress-stacked"
+  class="a b c d e f g h i j progress-stacked"
+>
+  <div
+    data-testid="progressbar"
+    class="a b c d e f g h i j k l"
+    role="progressbar"
+    aria-label="Segment 1"
+    aria-valuenow="15"
+    aria-valuemin="0"
+    aria-valuemax="100"
+  >
+    <div
+      data-testid="progressbar-label"
+      class="a ab b c e f g h i j m n o p q r s t u v w x y z"
+    ></div>
+  </div>
+  <div
+    data-testid="progressbar"
+    class="a ac b c d e f g h i j l"
+    role="progressbar"
+    aria-label="Segment 2"
+    aria-valuenow="30"
+    aria-valuemin="0"
+    aria-valuemax="100"
+  >
+    <div
+      data-testid="progressbar-label"
+      class="a ab ae b c e f g h i j m n o p q s t u v w x y z"
+    ></div>
+  </div>
+  <div
+    data-testid="progressbar"
+    class="a af b c d e f g h i j l"
+    role="progressbar"
+    aria-label="Segment 3"
+    aria-valuenow="20"
+    aria-valuemin="0"
+    aria-valuemax="100"
+  >
+    <div
+      data-testid="progressbar-label"
+      class="a ab ag b c e f g h i j m n o p q s t u v w x y z"
+    ></div>
+  </div>
+</div>
+;
+"
+`;

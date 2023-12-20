@@ -1,0 +1,2502 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Floating/TextField/FloatingTextarea should display a floating text area 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: #fff;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  height: calc(3.5rem + 2px);
+}
+.i {
+  line-height: 1.25;
+}
+.j {
+  min-height: calc(3.5rem + 2px);
+}
+.k {
+  width: 100%;
+}
+.p:disabled {
+  background-color: #e9ecef;
+}
+.q:disabled {
+  opacity: 1;
+}
+.z::placeholder {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: transparent;
+}
+.ac:not(:placeholder-shown) {
+  padding-top: 1.625rem;
+}
+.ae:not(:placeholder-shown) {
+  padding-bottom: 0.625rem;
+}
+.af:-webkit-autofill {
+  padding-top: 1.625rem;
+}
+.ag:-webkit-autofill {
+  padding-bottom: 0.625rem;
+}
+.ah::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ai::-webkit-input-placeholder {
+  color: transparent;
+}
+.aj::-moz-placeholder {
+  opacity: 1;
+}
+.ak::-moz-placeholder {
+  color: transparent;
+}
+.al:-ms-input-placeholder {
+  opacity: 1;
+}
+.am:-ms-input-placeholder {
+  color: transparent;
+}
+.an:-moz-placeholder {
+  opacity: 1;
+}
+.ao:-moz-placeholder {
+  color: transparent;
+}
+.ap {
+  transition-property: border-color, box-shadow;
+}
+.aq {
+  transition-duration: 0.15s, 0.15s;
+}
+.ar {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.as {
+  transition-timing-function: ease, ease;
+}
+.at {
+  padding-top: 1rem;
+}
+.au {
+  padding-right: 0.75rem;
+}
+.av {
+  padding-bottom: 1rem;
+}
+.aw {
+  padding-left: 0.75rem;
+}
+.ax {
+  border-top-left-radius: 0.375rem;
+}
+.ay {
+  border-top-right-radius: 0.375rem;
+}
+.az {
+  border-bottom-right-radius: 0.375rem;
+}
+.ba {
+  border-bottom-left-radius: 0.375rem;
+}
+.bb {
+  border-top-width: 1px;
+}
+.bc {
+  border-right-width: 1px;
+}
+.bd {
+  border-bottom-width: 1px;
+}
+.be {
+  border-left-width: 1px;
+}
+.bf {
+  border-top-style: solid;
+}
+.bg {
+  border-right-style: solid;
+}
+.bh {
+  border-bottom-style: solid;
+}
+.bi {
+  border-left-style: solid;
+}
+.bj {
+  border-top-color: #dee2e6;
+}
+.bk {
+  border-right-color: #dee2e6;
+}
+.bl {
+  border-bottom-color: #dee2e6;
+}
+.bm {
+  border-left-color: #dee2e6;
+}
+.r:focus {
+  background-color: #fff;
+}
+.s:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus {
+  color: #212529;
+}
+.u:focus {
+  outline-width: 0;
+}
+.v:focus {
+  border-top-color: #86b7fe;
+}
+.w:focus {
+  border-right-color: #86b7fe;
+}
+.x:focus {
+  border-bottom-color: #86b7fe;
+}
+.y:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .l {
+    transition-property: none;
+  }
+  .m {
+    transition-duration: 0s;
+  }
+  .n {
+    transition-delay: 0s;
+  }
+  .o {
+    transition-timing-function: ease;
+  }
+}
+
+
+<textarea
+  data-testid="floating-textarea"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm c d e f g h i j k l m n o p q r s t u v w x y z"
+></textarea
+>;
+"
+`;
+
+exports[`components/Floating/TextField/FloatingTextarea should display a floating text area with id and className 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: #fff;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  height: calc(3.5rem + 2px);
+}
+.i {
+  line-height: 1.25;
+}
+.j {
+  min-height: calc(3.5rem + 2px);
+}
+.k {
+  width: 100%;
+}
+.p:disabled {
+  background-color: #e9ecef;
+}
+.q:disabled {
+  opacity: 1;
+}
+.z::placeholder {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: transparent;
+}
+.ac:not(:placeholder-shown) {
+  padding-top: 1.625rem;
+}
+.ae:not(:placeholder-shown) {
+  padding-bottom: 0.625rem;
+}
+.af:-webkit-autofill {
+  padding-top: 1.625rem;
+}
+.ag:-webkit-autofill {
+  padding-bottom: 0.625rem;
+}
+.ah::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ai::-webkit-input-placeholder {
+  color: transparent;
+}
+.aj::-moz-placeholder {
+  opacity: 1;
+}
+.ak::-moz-placeholder {
+  color: transparent;
+}
+.al:-ms-input-placeholder {
+  opacity: 1;
+}
+.am:-ms-input-placeholder {
+  color: transparent;
+}
+.an:-moz-placeholder {
+  opacity: 1;
+}
+.ao:-moz-placeholder {
+  color: transparent;
+}
+.ap {
+  transition-property: border-color, box-shadow;
+}
+.aq {
+  transition-duration: 0.15s, 0.15s;
+}
+.ar {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.as {
+  transition-timing-function: ease, ease;
+}
+.at {
+  padding-top: 1rem;
+}
+.au {
+  padding-right: 0.75rem;
+}
+.av {
+  padding-bottom: 1rem;
+}
+.aw {
+  padding-left: 0.75rem;
+}
+.ax {
+  border-top-left-radius: 0.375rem;
+}
+.ay {
+  border-top-right-radius: 0.375rem;
+}
+.az {
+  border-bottom-right-radius: 0.375rem;
+}
+.ba {
+  border-bottom-left-radius: 0.375rem;
+}
+.bb {
+  border-top-width: 1px;
+}
+.bc {
+  border-right-width: 1px;
+}
+.bd {
+  border-bottom-width: 1px;
+}
+.be {
+  border-left-width: 1px;
+}
+.bf {
+  border-top-style: solid;
+}
+.bg {
+  border-right-style: solid;
+}
+.bh {
+  border-bottom-style: solid;
+}
+.bi {
+  border-left-style: solid;
+}
+.bj {
+  border-top-color: #dee2e6;
+}
+.bk {
+  border-right-color: #dee2e6;
+}
+.bl {
+  border-bottom-color: #dee2e6;
+}
+.bm {
+  border-left-color: #dee2e6;
+}
+.r:focus {
+  background-color: #fff;
+}
+.s:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus {
+  color: #212529;
+}
+.u:focus {
+  outline-width: 0;
+}
+.v:focus {
+  border-top-color: #86b7fe;
+}
+.w:focus {
+  border-right-color: #86b7fe;
+}
+.x:focus {
+  border-bottom-color: #86b7fe;
+}
+.y:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .l {
+    transition-property: none;
+  }
+  .m {
+    transition-duration: 0s;
+  }
+  .n {
+    transition-delay: 0s;
+  }
+  .o {
+    transition-timing-function: ease;
+  }
+}
+
+
+<textarea
+  data-testid="floating-textarea"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm c d e f g h i j k l m n o p q r s t u v w x y z float-class"
+  id="float-id"
+></textarea
+>;
+"
+`;
+
+exports[`components/Floating/TextField/FloatingTextarea should display a floating text field with uncontrolled value 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: #fff;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  height: calc(3.5rem + 2px);
+}
+.i {
+  line-height: 1.25;
+}
+.j {
+  min-height: calc(3.5rem + 2px);
+}
+.k {
+  width: 100%;
+}
+.p:disabled {
+  background-color: #e9ecef;
+}
+.q:disabled {
+  opacity: 1;
+}
+.z::placeholder {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: transparent;
+}
+.ac:not(:placeholder-shown) {
+  padding-top: 1.625rem;
+}
+.ae:not(:placeholder-shown) {
+  padding-bottom: 0.625rem;
+}
+.af:-webkit-autofill {
+  padding-top: 1.625rem;
+}
+.ag:-webkit-autofill {
+  padding-bottom: 0.625rem;
+}
+.ah::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ai::-webkit-input-placeholder {
+  color: transparent;
+}
+.aj::-moz-placeholder {
+  opacity: 1;
+}
+.ak::-moz-placeholder {
+  color: transparent;
+}
+.al:-ms-input-placeholder {
+  opacity: 1;
+}
+.am:-ms-input-placeholder {
+  color: transparent;
+}
+.an:-moz-placeholder {
+  opacity: 1;
+}
+.ao:-moz-placeholder {
+  color: transparent;
+}
+.ap {
+  transition-property: border-color, box-shadow;
+}
+.aq {
+  transition-duration: 0.15s, 0.15s;
+}
+.ar {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.as {
+  transition-timing-function: ease, ease;
+}
+.at {
+  padding-top: 1rem;
+}
+.au {
+  padding-right: 0.75rem;
+}
+.av {
+  padding-bottom: 1rem;
+}
+.aw {
+  padding-left: 0.75rem;
+}
+.ax {
+  border-top-left-radius: 0.375rem;
+}
+.ay {
+  border-top-right-radius: 0.375rem;
+}
+.az {
+  border-bottom-right-radius: 0.375rem;
+}
+.ba {
+  border-bottom-left-radius: 0.375rem;
+}
+.bb {
+  border-top-width: 1px;
+}
+.bc {
+  border-right-width: 1px;
+}
+.bd {
+  border-bottom-width: 1px;
+}
+.be {
+  border-left-width: 1px;
+}
+.bf {
+  border-top-style: solid;
+}
+.bg {
+  border-right-style: solid;
+}
+.bh {
+  border-bottom-style: solid;
+}
+.bi {
+  border-left-style: solid;
+}
+.bj {
+  border-top-color: #dee2e6;
+}
+.bk {
+  border-right-color: #dee2e6;
+}
+.bl {
+  border-bottom-color: #dee2e6;
+}
+.bm {
+  border-left-color: #dee2e6;
+}
+.r:focus {
+  background-color: #fff;
+}
+.s:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus {
+  color: #212529;
+}
+.u:focus {
+  outline-width: 0;
+}
+.v:focus {
+  border-top-color: #86b7fe;
+}
+.w:focus {
+  border-right-color: #86b7fe;
+}
+.x:focus {
+  border-bottom-color: #86b7fe;
+}
+.y:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .l {
+    transition-property: none;
+  }
+  .m {
+    transition-duration: 0s;
+  }
+  .n {
+    transition-delay: 0s;
+  }
+  .o {
+    transition-timing-function: ease;
+  }
+}
+
+
+<textarea
+  data-testid="floating-textarea"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+fickle</textarea
+>;
+"
+`;
+
+exports[`components/Floating/TextField/FloatingTextarea should display a floating textarea of size large 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: #fff;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1.25rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  height: calc(3.5rem + 2px);
+}
+.i {
+  line-height: 1.25;
+}
+.j {
+  min-height: calc(1.5em + 1rem + 2px);
+}
+.k {
+  width: 100%;
+}
+.p:disabled {
+  background-color: #e9ecef;
+}
+.q:disabled {
+  opacity: 1;
+}
+.z::placeholder {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: transparent;
+}
+.ac:not(:placeholder-shown) {
+  padding-top: 1.625rem;
+}
+.ae:not(:placeholder-shown) {
+  padding-bottom: 0.625rem;
+}
+.af:-webkit-autofill {
+  padding-top: 1.625rem;
+}
+.ag:-webkit-autofill {
+  padding-bottom: 0.625rem;
+}
+.ah::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ai::-webkit-input-placeholder {
+  color: transparent;
+}
+.aj::-moz-placeholder {
+  opacity: 1;
+}
+.ak::-moz-placeholder {
+  color: transparent;
+}
+.al:-ms-input-placeholder {
+  opacity: 1;
+}
+.am:-ms-input-placeholder {
+  color: transparent;
+}
+.an:-moz-placeholder {
+  opacity: 1;
+}
+.ao:-moz-placeholder {
+  color: transparent;
+}
+.ap {
+  transition-property: border-color, box-shadow;
+}
+.aq {
+  transition-duration: 0.15s, 0.15s;
+}
+.ar {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.as {
+  transition-timing-function: ease, ease;
+}
+.at {
+  padding-top: 0.5rem;
+}
+.au {
+  padding-right: 1rem;
+}
+.av {
+  padding-bottom: 0.5rem;
+}
+.aw {
+  padding-left: 1rem;
+}
+.ax {
+  border-top-left-radius: 0.5rem;
+}
+.ay {
+  border-top-right-radius: 0.5rem;
+}
+.az {
+  border-bottom-right-radius: 0.5rem;
+}
+.ba {
+  border-bottom-left-radius: 0.5rem;
+}
+.bb {
+  border-top-width: 1px;
+}
+.bc {
+  border-right-width: 1px;
+}
+.bd {
+  border-bottom-width: 1px;
+}
+.be {
+  border-left-width: 1px;
+}
+.bf {
+  border-top-style: solid;
+}
+.bg {
+  border-right-style: solid;
+}
+.bh {
+  border-bottom-style: solid;
+}
+.bi {
+  border-left-style: solid;
+}
+.bj {
+  border-top-color: #dee2e6;
+}
+.bk {
+  border-right-color: #dee2e6;
+}
+.bl {
+  border-bottom-color: #dee2e6;
+}
+.bm {
+  border-left-color: #dee2e6;
+}
+.r:focus {
+  background-color: #fff;
+}
+.s:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus {
+  color: #212529;
+}
+.u:focus {
+  outline-width: 0;
+}
+.v:focus {
+  border-top-color: #86b7fe;
+}
+.w:focus {
+  border-right-color: #86b7fe;
+}
+.x:focus {
+  border-bottom-color: #86b7fe;
+}
+.y:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .l {
+    transition-property: none;
+  }
+  .m {
+    transition-duration: 0s;
+  }
+  .n {
+    transition-delay: 0s;
+  }
+  .o {
+    transition-timing-function: ease;
+  }
+}
+
+
+<textarea
+  data-testid="floating-textarea"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+fickle</textarea
+>;
+"
+`;
+
+exports[`components/Floating/TextField/FloatingTextarea should display a floating textarea of size medium 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: #fff;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  height: calc(3.5rem + 2px);
+}
+.i {
+  line-height: 1.25;
+}
+.j {
+  min-height: calc(3.5rem + 2px);
+}
+.k {
+  width: 100%;
+}
+.p:disabled {
+  background-color: #e9ecef;
+}
+.q:disabled {
+  opacity: 1;
+}
+.z::placeholder {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: transparent;
+}
+.ac:not(:placeholder-shown) {
+  padding-top: 1.625rem;
+}
+.ae:not(:placeholder-shown) {
+  padding-bottom: 0.625rem;
+}
+.af:-webkit-autofill {
+  padding-top: 1.625rem;
+}
+.ag:-webkit-autofill {
+  padding-bottom: 0.625rem;
+}
+.ah::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ai::-webkit-input-placeholder {
+  color: transparent;
+}
+.aj::-moz-placeholder {
+  opacity: 1;
+}
+.ak::-moz-placeholder {
+  color: transparent;
+}
+.al:-ms-input-placeholder {
+  opacity: 1;
+}
+.am:-ms-input-placeholder {
+  color: transparent;
+}
+.an:-moz-placeholder {
+  opacity: 1;
+}
+.ao:-moz-placeholder {
+  color: transparent;
+}
+.ap {
+  transition-property: border-color, box-shadow;
+}
+.aq {
+  transition-duration: 0.15s, 0.15s;
+}
+.ar {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.as {
+  transition-timing-function: ease, ease;
+}
+.at {
+  padding-top: 1rem;
+}
+.au {
+  padding-right: 0.75rem;
+}
+.av {
+  padding-bottom: 1rem;
+}
+.aw {
+  padding-left: 0.75rem;
+}
+.ax {
+  border-top-left-radius: 0.375rem;
+}
+.ay {
+  border-top-right-radius: 0.375rem;
+}
+.az {
+  border-bottom-right-radius: 0.375rem;
+}
+.ba {
+  border-bottom-left-radius: 0.375rem;
+}
+.bb {
+  border-top-width: 1px;
+}
+.bc {
+  border-right-width: 1px;
+}
+.bd {
+  border-bottom-width: 1px;
+}
+.be {
+  border-left-width: 1px;
+}
+.bf {
+  border-top-style: solid;
+}
+.bg {
+  border-right-style: solid;
+}
+.bh {
+  border-bottom-style: solid;
+}
+.bi {
+  border-left-style: solid;
+}
+.bj {
+  border-top-color: #dee2e6;
+}
+.bk {
+  border-right-color: #dee2e6;
+}
+.bl {
+  border-bottom-color: #dee2e6;
+}
+.bm {
+  border-left-color: #dee2e6;
+}
+.r:focus {
+  background-color: #fff;
+}
+.s:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus {
+  color: #212529;
+}
+.u:focus {
+  outline-width: 0;
+}
+.v:focus {
+  border-top-color: #86b7fe;
+}
+.w:focus {
+  border-right-color: #86b7fe;
+}
+.x:focus {
+  border-bottom-color: #86b7fe;
+}
+.y:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .l {
+    transition-property: none;
+  }
+  .m {
+    transition-duration: 0s;
+  }
+  .n {
+    transition-delay: 0s;
+  }
+  .o {
+    transition-timing-function: ease;
+  }
+}
+
+
+<textarea
+  data-testid="floating-textarea"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+fickle</textarea
+>;
+"
+`;
+
+exports[`components/Floating/TextField/FloatingTextarea should display a floating textarea of size small 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: #fff;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 0.875rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  height: calc(3.5rem + 2px);
+}
+.i {
+  line-height: 1.25;
+}
+.j {
+  min-height: calc(1.5em + 0.5rem + calc(1px * 2));
+}
+.k {
+  width: 100%;
+}
+.p:disabled {
+  background-color: #e9ecef;
+}
+.q:disabled {
+  opacity: 1;
+}
+.z::placeholder {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: transparent;
+}
+.ac:not(:placeholder-shown) {
+  padding-top: 1.625rem;
+}
+.ae:not(:placeholder-shown) {
+  padding-bottom: 0.625rem;
+}
+.af:-webkit-autofill {
+  padding-top: 1.625rem;
+}
+.ag:-webkit-autofill {
+  padding-bottom: 0.625rem;
+}
+.ah::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ai::-webkit-input-placeholder {
+  color: transparent;
+}
+.aj::-moz-placeholder {
+  opacity: 1;
+}
+.ak::-moz-placeholder {
+  color: transparent;
+}
+.al:-ms-input-placeholder {
+  opacity: 1;
+}
+.am:-ms-input-placeholder {
+  color: transparent;
+}
+.an:-moz-placeholder {
+  opacity: 1;
+}
+.ao:-moz-placeholder {
+  color: transparent;
+}
+.ap {
+  transition-property: border-color, box-shadow;
+}
+.aq {
+  transition-duration: 0.15s, 0.15s;
+}
+.ar {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.as {
+  transition-timing-function: ease, ease;
+}
+.at {
+  padding-top: 0.25rem;
+}
+.au {
+  padding-right: 0.5rem;
+}
+.av {
+  padding-bottom: 0.25rem;
+}
+.aw {
+  padding-left: 0.5rem;
+}
+.ax {
+  border-top-left-radius: 0.25rem;
+}
+.ay {
+  border-top-right-radius: 0.25rem;
+}
+.az {
+  border-bottom-right-radius: 0.25rem;
+}
+.ba {
+  border-bottom-left-radius: 0.25rem;
+}
+.bb {
+  border-top-width: 1px;
+}
+.bc {
+  border-right-width: 1px;
+}
+.bd {
+  border-bottom-width: 1px;
+}
+.be {
+  border-left-width: 1px;
+}
+.bf {
+  border-top-style: solid;
+}
+.bg {
+  border-right-style: solid;
+}
+.bh {
+  border-bottom-style: solid;
+}
+.bi {
+  border-left-style: solid;
+}
+.bj {
+  border-top-color: #dee2e6;
+}
+.bk {
+  border-right-color: #dee2e6;
+}
+.bl {
+  border-bottom-color: #dee2e6;
+}
+.bm {
+  border-left-color: #dee2e6;
+}
+.r:focus {
+  background-color: #fff;
+}
+.s:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus {
+  color: #212529;
+}
+.u:focus {
+  outline-width: 0;
+}
+.v:focus {
+  border-top-color: #86b7fe;
+}
+.w:focus {
+  border-right-color: #86b7fe;
+}
+.x:focus {
+  border-bottom-color: #86b7fe;
+}
+.y:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .l {
+    transition-property: none;
+  }
+  .m {
+    transition-duration: 0s;
+  }
+  .n {
+    transition-delay: 0s;
+  }
+  .o {
+    transition-timing-function: ease;
+  }
+}
+
+
+<textarea
+  data-testid="floating-textarea"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+fickle</textarea
+>;
+"
+`;
+
+exports[`components/Floating/TextField/FloatingTextarea should display a readonly plaintext textarea of size large 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: transparent;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1.25rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  height: calc(3.5rem + 2px);
+}
+.i {
+  line-height: 1.5;
+}
+.j {
+  min-height: calc(1.5em + 1rem + 2px);
+}
+.k {
+  width: 100%;
+}
+.p:disabled {
+  background-color: #e9ecef;
+}
+.q:disabled {
+  opacity: 1;
+}
+.z::placeholder {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: transparent;
+}
+.ac:not(:placeholder-shown) {
+  padding-top: 1.625rem;
+}
+.ae:not(:placeholder-shown) {
+  padding-bottom: 0.625rem;
+}
+.af:-webkit-autofill {
+  padding-top: 1.625rem;
+}
+.ag:-webkit-autofill {
+  padding-bottom: 0.625rem;
+}
+.ah {
+  margin-bottom: 0;
+}
+.ai {
+  padding-right: 0;
+}
+.aj {
+  padding-left: 0;
+}
+.ak::-webkit-input-placeholder {
+  opacity: 1;
+}
+.al::-webkit-input-placeholder {
+  color: transparent;
+}
+.am::-moz-placeholder {
+  opacity: 1;
+}
+.an::-moz-placeholder {
+  color: transparent;
+}
+.ao:-ms-input-placeholder {
+  opacity: 1;
+}
+.ap:-ms-input-placeholder {
+  color: transparent;
+}
+.aq:-moz-placeholder {
+  opacity: 1;
+}
+.ar:-moz-placeholder {
+  color: transparent;
+}
+.as {
+  border-top-width: 1px;
+}
+.at {
+  border-right-width: 0;
+}
+.au {
+  border-bottom-width: 1px;
+}
+.av {
+  border-left-width: 0;
+}
+.aw {
+  transition-property: border-color, box-shadow;
+}
+.ax {
+  transition-duration: 0.15s, 0.15s;
+}
+.ay {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.az {
+  transition-timing-function: ease, ease;
+}
+.ba {
+  padding-top: 0.375rem;
+}
+.bb {
+  padding-bottom: 0.375rem;
+}
+.bc {
+  border-top-left-radius: 0.5rem;
+}
+.bd {
+  border-top-right-radius: 0.5rem;
+}
+.be {
+  border-bottom-right-radius: 0.5rem;
+}
+.bf {
+  border-bottom-left-radius: 0.5rem;
+}
+.bg {
+  border-top-style: solid;
+}
+.bh {
+  border-right-style: solid;
+}
+.bi {
+  border-bottom-style: solid;
+}
+.bj {
+  border-left-style: solid;
+}
+.bk {
+  border-top-color: transparent;
+}
+.bl {
+  border-right-color: transparent;
+}
+.bm {
+  border-bottom-color: transparent;
+}
+.bn {
+  border-left-color: transparent;
+}
+.r:focus {
+  background-color: #fff;
+}
+.s:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus {
+  color: #212529;
+}
+.u:focus {
+  outline-width: 0;
+}
+.v:focus {
+  border-top-color: #86b7fe;
+}
+.w:focus {
+  border-right-color: #86b7fe;
+}
+.x:focus {
+  border-bottom-color: #86b7fe;
+}
+.y:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .l {
+    transition-property: none;
+  }
+  .m {
+    transition-duration: 0s;
+  }
+  .n {
+    transition-delay: 0s;
+  }
+  .o {
+    transition-timing-function: ease;
+  }
+}
+
+
+<textarea
+  data-testid="floating-textarea"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn c d e f g h i j k l m n o p q r s t u v w x y z"
+  readonly=""
+>
+fickle</textarea
+>;
+"
+`;
+
+exports[`components/Floating/TextField/FloatingTextarea should display a readonly plaintext textarea of size medium 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: transparent;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  height: calc(3.5rem + 2px);
+}
+.i {
+  line-height: 1.5;
+}
+.j {
+  min-height: calc(3.5rem + 2px);
+}
+.k {
+  width: 100%;
+}
+.p:disabled {
+  background-color: #e9ecef;
+}
+.q:disabled {
+  opacity: 1;
+}
+.z::placeholder {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: transparent;
+}
+.ac:not(:placeholder-shown) {
+  padding-top: 1.625rem;
+}
+.ae:not(:placeholder-shown) {
+  padding-bottom: 0.625rem;
+}
+.af:-webkit-autofill {
+  padding-top: 1.625rem;
+}
+.ag:-webkit-autofill {
+  padding-bottom: 0.625rem;
+}
+.ah {
+  margin-bottom: 0;
+}
+.ai::-webkit-input-placeholder {
+  opacity: 1;
+}
+.aj::-webkit-input-placeholder {
+  color: transparent;
+}
+.ak::-moz-placeholder {
+  opacity: 1;
+}
+.al::-moz-placeholder {
+  color: transparent;
+}
+.am:-ms-input-placeholder {
+  opacity: 1;
+}
+.an:-ms-input-placeholder {
+  color: transparent;
+}
+.ao:-moz-placeholder {
+  opacity: 1;
+}
+.ap:-moz-placeholder {
+  color: transparent;
+}
+.aq {
+  border-top-width: 1px;
+}
+.ar {
+  border-right-width: 0;
+}
+.as {
+  border-bottom-width: 1px;
+}
+.at {
+  border-left-width: 0;
+}
+.au {
+  transition-property: border-color, box-shadow;
+}
+.av {
+  transition-duration: 0.15s, 0.15s;
+}
+.aw {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ax {
+  transition-timing-function: ease, ease;
+}
+.ay {
+  padding-top: 0.375rem;
+}
+.az {
+  padding-right: 0;
+}
+.ba {
+  padding-bottom: 0.375rem;
+}
+.bb {
+  padding-left: 0;
+}
+.bc {
+  border-top-left-radius: 0.375rem;
+}
+.bd {
+  border-top-right-radius: 0.375rem;
+}
+.be {
+  border-bottom-right-radius: 0.375rem;
+}
+.bf {
+  border-bottom-left-radius: 0.375rem;
+}
+.bg {
+  border-top-style: solid;
+}
+.bh {
+  border-right-style: solid;
+}
+.bi {
+  border-bottom-style: solid;
+}
+.bj {
+  border-left-style: solid;
+}
+.bk {
+  border-top-color: transparent;
+}
+.bl {
+  border-right-color: transparent;
+}
+.bm {
+  border-bottom-color: transparent;
+}
+.bn {
+  border-left-color: transparent;
+}
+.r:focus {
+  background-color: #fff;
+}
+.s:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus {
+  color: #212529;
+}
+.u:focus {
+  outline-width: 0;
+}
+.v:focus {
+  border-top-color: #86b7fe;
+}
+.w:focus {
+  border-right-color: #86b7fe;
+}
+.x:focus {
+  border-bottom-color: #86b7fe;
+}
+.y:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .l {
+    transition-property: none;
+  }
+  .m {
+    transition-duration: 0s;
+  }
+  .n {
+    transition-delay: 0s;
+  }
+  .o {
+    transition-timing-function: ease;
+  }
+}
+
+
+<textarea
+  data-testid="floating-textarea"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn c d e f g h i j k l m n o p q r s t u v w x y z"
+  readonly=""
+>
+fickle</textarea
+>;
+"
+`;
+
+exports[`components/Floating/TextField/FloatingTextarea should display a readonly plaintext textarea of size small 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: transparent;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 0.875rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  height: calc(3.5rem + 2px);
+}
+.i {
+  line-height: 1.5;
+}
+.j {
+  min-height: calc(1.5em + 0.5rem + calc(1px * 2));
+}
+.k {
+  width: 100%;
+}
+.p:disabled {
+  background-color: #e9ecef;
+}
+.q:disabled {
+  opacity: 1;
+}
+.z::placeholder {
+  opacity: 1;
+}
+.ab::placeholder {
+  color: transparent;
+}
+.ac:not(:placeholder-shown) {
+  padding-top: 1.625rem;
+}
+.ae:not(:placeholder-shown) {
+  padding-bottom: 0.625rem;
+}
+.af:-webkit-autofill {
+  padding-top: 1.625rem;
+}
+.ag:-webkit-autofill {
+  padding-bottom: 0.625rem;
+}
+.ah {
+  margin-bottom: 0;
+}
+.ai {
+  padding-right: 0;
+}
+.aj {
+  padding-left: 0;
+}
+.ak::-webkit-input-placeholder {
+  opacity: 1;
+}
+.al::-webkit-input-placeholder {
+  color: transparent;
+}
+.am::-moz-placeholder {
+  opacity: 1;
+}
+.an::-moz-placeholder {
+  color: transparent;
+}
+.ao:-ms-input-placeholder {
+  opacity: 1;
+}
+.ap:-ms-input-placeholder {
+  color: transparent;
+}
+.aq:-moz-placeholder {
+  opacity: 1;
+}
+.ar:-moz-placeholder {
+  color: transparent;
+}
+.as {
+  border-top-width: 1px;
+}
+.at {
+  border-right-width: 0;
+}
+.au {
+  border-bottom-width: 1px;
+}
+.av {
+  border-left-width: 0;
+}
+.aw {
+  transition-property: border-color, box-shadow;
+}
+.ax {
+  transition-duration: 0.15s, 0.15s;
+}
+.ay {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.az {
+  transition-timing-function: ease, ease;
+}
+.ba {
+  padding-top: 0.375rem;
+}
+.bb {
+  padding-bottom: 0.375rem;
+}
+.bc {
+  border-top-left-radius: 0.25rem;
+}
+.bd {
+  border-top-right-radius: 0.25rem;
+}
+.be {
+  border-bottom-right-radius: 0.25rem;
+}
+.bf {
+  border-bottom-left-radius: 0.25rem;
+}
+.bg {
+  border-top-style: solid;
+}
+.bh {
+  border-right-style: solid;
+}
+.bi {
+  border-bottom-style: solid;
+}
+.bj {
+  border-left-style: solid;
+}
+.bk {
+  border-top-color: transparent;
+}
+.bl {
+  border-right-color: transparent;
+}
+.bm {
+  border-bottom-color: transparent;
+}
+.bn {
+  border-left-color: transparent;
+}
+.r:focus {
+  background-color: #fff;
+}
+.s:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus {
+  color: #212529;
+}
+.u:focus {
+  outline-width: 0;
+}
+.v:focus {
+  border-top-color: #86b7fe;
+}
+.w:focus {
+  border-right-color: #86b7fe;
+}
+.x:focus {
+  border-bottom-color: #86b7fe;
+}
+.y:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .l {
+    transition-property: none;
+  }
+  .m {
+    transition-duration: 0s;
+  }
+  .n {
+    transition-delay: 0s;
+  }
+  .o {
+    transition-timing-function: ease;
+  }
+}
+
+
+<textarea
+  data-testid="floating-textarea"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn c d e f g h i j k l m n o p q r s t u v w x y z"
+  readonly=""
+>
+fickle</textarea
+>;
+"
+`;
+
+exports[`components/Floating/TextField/FloatingTextarea should display a textarea within a group of size large 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: #fff;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1.25rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  height: calc(3.5rem + 2px);
+}
+.i {
+  line-height: 1.25;
+}
+.j {
+  min-height: calc(1.5em + 1rem + 2px);
+}
+.k {
+  width: 100%;
+}
+.p:disabled {
+  background-color: #e9ecef;
+}
+.q:disabled {
+  opacity: 1;
+}
+.ab::placeholder {
+  opacity: 1;
+}
+.ac::placeholder {
+  color: transparent;
+}
+.ae:not(:placeholder-shown) {
+  padding-top: 1.625rem;
+}
+.af:not(:placeholder-shown) {
+  padding-bottom: 0.625rem;
+}
+.ag:-webkit-autofill {
+  padding-top: 1.625rem;
+}
+.ah:-webkit-autofill {
+  padding-bottom: 0.625rem;
+}
+.ai {
+  position: relative;
+}
+.aj {
+  min-width: 0;
+}
+.ak::-webkit-input-placeholder {
+  opacity: 1;
+}
+.al::-webkit-input-placeholder {
+  color: transparent;
+}
+.am::-moz-placeholder {
+  opacity: 1;
+}
+.an::-moz-placeholder {
+  color: transparent;
+}
+.ao:-ms-input-placeholder {
+  opacity: 1;
+}
+.ap:-ms-input-placeholder {
+  color: transparent;
+}
+.aq:-moz-placeholder {
+  opacity: 1;
+}
+.ar:-moz-placeholder {
+  color: transparent;
+}
+.as {
+  flex-grow: 1;
+}
+.at {
+  flex-shrink: 1;
+}
+.au {
+  flex-basis: auto;
+}
+.av {
+  transition-property: border-color, box-shadow;
+}
+.aw {
+  transition-duration: 0.15s, 0.15s;
+}
+.ax {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ay {
+  transition-timing-function: ease, ease;
+}
+.az {
+  padding-top: 0.5rem;
+}
+.ba {
+  padding-right: 1rem;
+}
+.bb {
+  padding-bottom: 0.5rem;
+}
+.bc {
+  padding-left: 1rem;
+}
+.bd {
+  border-top-left-radius: 0.5rem;
+}
+.be {
+  border-top-right-radius: 0.5rem;
+}
+.bf {
+  border-bottom-right-radius: 0.5rem;
+}
+.bg {
+  border-bottom-left-radius: 0.5rem;
+}
+.bh {
+  border-top-width: 1px;
+}
+.bi {
+  border-right-width: 1px;
+}
+.bj {
+  border-bottom-width: 1px;
+}
+.bk {
+  border-left-width: 1px;
+}
+.bl {
+  border-top-style: solid;
+}
+.bm {
+  border-right-style: solid;
+}
+.bn {
+  border-bottom-style: solid;
+}
+.bo {
+  border-left-style: solid;
+}
+.bp {
+  border-top-color: #dee2e6;
+}
+.bq {
+  border-right-color: #dee2e6;
+}
+.br {
+  border-bottom-color: #dee2e6;
+}
+.bs {
+  border-left-color: #dee2e6;
+}
+.r:focus {
+  background-color: #fff;
+}
+.s:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus {
+  color: #212529;
+}
+.u:focus {
+  z-index: 5;
+}
+.v:focus {
+  outline-width: 0;
+}
+.w:focus {
+  border-top-color: #86b7fe;
+}
+.x:focus {
+  border-right-color: #86b7fe;
+}
+.y:focus {
+  border-bottom-color: #86b7fe;
+}
+.z:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .l {
+    transition-property: none;
+  }
+  .m {
+    transition-duration: 0s;
+  }
+  .n {
+    transition-delay: 0s;
+  }
+  .o {
+    transition-timing-function: ease;
+  }
+}
+
+
+<textarea
+  data-testid="floating-textarea"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+fickle</textarea
+>;
+"
+`;
+
+exports[`components/Floating/TextField/FloatingTextarea should display a textarea within a group of size medium 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: #fff;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 1rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  height: calc(3.5rem + 2px);
+}
+.i {
+  line-height: 1.25;
+}
+.j {
+  min-height: calc(3.5rem + 2px);
+}
+.k {
+  width: 100%;
+}
+.p:disabled {
+  background-color: #e9ecef;
+}
+.q:disabled {
+  opacity: 1;
+}
+.ab::placeholder {
+  opacity: 1;
+}
+.ac::placeholder {
+  color: transparent;
+}
+.ae:not(:placeholder-shown) {
+  padding-top: 1.625rem;
+}
+.af:not(:placeholder-shown) {
+  padding-bottom: 0.625rem;
+}
+.ag:-webkit-autofill {
+  padding-top: 1.625rem;
+}
+.ah:-webkit-autofill {
+  padding-bottom: 0.625rem;
+}
+.ai {
+  position: relative;
+}
+.aj {
+  min-width: 0;
+}
+.ak::-webkit-input-placeholder {
+  opacity: 1;
+}
+.al::-webkit-input-placeholder {
+  color: transparent;
+}
+.am::-moz-placeholder {
+  opacity: 1;
+}
+.an::-moz-placeholder {
+  color: transparent;
+}
+.ao:-ms-input-placeholder {
+  opacity: 1;
+}
+.ap:-ms-input-placeholder {
+  color: transparent;
+}
+.aq:-moz-placeholder {
+  opacity: 1;
+}
+.ar:-moz-placeholder {
+  color: transparent;
+}
+.as {
+  flex-grow: 1;
+}
+.at {
+  flex-shrink: 1;
+}
+.au {
+  flex-basis: auto;
+}
+.av {
+  transition-property: border-color, box-shadow;
+}
+.aw {
+  transition-duration: 0.15s, 0.15s;
+}
+.ax {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ay {
+  transition-timing-function: ease, ease;
+}
+.az {
+  padding-top: 1rem;
+}
+.ba {
+  padding-right: 0.75rem;
+}
+.bb {
+  padding-bottom: 1rem;
+}
+.bc {
+  padding-left: 0.75rem;
+}
+.bd {
+  border-top-left-radius: 0.375rem;
+}
+.be {
+  border-top-right-radius: 0.375rem;
+}
+.bf {
+  border-bottom-right-radius: 0.375rem;
+}
+.bg {
+  border-bottom-left-radius: 0.375rem;
+}
+.bh {
+  border-top-width: 1px;
+}
+.bi {
+  border-right-width: 1px;
+}
+.bj {
+  border-bottom-width: 1px;
+}
+.bk {
+  border-left-width: 1px;
+}
+.bl {
+  border-top-style: solid;
+}
+.bm {
+  border-right-style: solid;
+}
+.bn {
+  border-bottom-style: solid;
+}
+.bo {
+  border-left-style: solid;
+}
+.bp {
+  border-top-color: #dee2e6;
+}
+.bq {
+  border-right-color: #dee2e6;
+}
+.br {
+  border-bottom-color: #dee2e6;
+}
+.bs {
+  border-left-color: #dee2e6;
+}
+.r:focus {
+  background-color: #fff;
+}
+.s:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus {
+  color: #212529;
+}
+.u:focus {
+  z-index: 5;
+}
+.v:focus {
+  outline-width: 0;
+}
+.w:focus {
+  border-top-color: #86b7fe;
+}
+.x:focus {
+  border-right-color: #86b7fe;
+}
+.y:focus {
+  border-bottom-color: #86b7fe;
+}
+.z:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .l {
+    transition-property: none;
+  }
+  .m {
+    transition-duration: 0s;
+  }
+  .n {
+    transition-delay: 0s;
+  }
+  .o {
+    transition-timing-function: ease;
+  }
+}
+
+
+<textarea
+  data-testid="floating-textarea"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+fickle</textarea
+>;
+"
+`;
+
+exports[`components/Floating/TextField/FloatingTextarea should display a textarea within a group of size small 1`] = `
+".a {
+  appearance: none;
+}
+.b {
+  background-clip: padding-box;
+}
+.c {
+  background-color: #fff;
+}
+.d {
+  color: #212529;
+}
+.e {
+  display: block;
+}
+.f {
+  font-size: 0.875rem;
+}
+.g {
+  font-weight: 400;
+}
+.h {
+  height: calc(3.5rem + 2px);
+}
+.i {
+  line-height: 1.25;
+}
+.j {
+  min-height: calc(1.5em + 0.5rem + calc(1px * 2));
+}
+.k {
+  width: 100%;
+}
+.p:disabled {
+  background-color: #e9ecef;
+}
+.q:disabled {
+  opacity: 1;
+}
+.ab::placeholder {
+  opacity: 1;
+}
+.ac::placeholder {
+  color: transparent;
+}
+.ae:not(:placeholder-shown) {
+  padding-top: 1.625rem;
+}
+.af:not(:placeholder-shown) {
+  padding-bottom: 0.625rem;
+}
+.ag:-webkit-autofill {
+  padding-top: 1.625rem;
+}
+.ah:-webkit-autofill {
+  padding-bottom: 0.625rem;
+}
+.ai {
+  position: relative;
+}
+.aj {
+  min-width: 0;
+}
+.ak::-webkit-input-placeholder {
+  opacity: 1;
+}
+.al::-webkit-input-placeholder {
+  color: transparent;
+}
+.am::-moz-placeholder {
+  opacity: 1;
+}
+.an::-moz-placeholder {
+  color: transparent;
+}
+.ao:-ms-input-placeholder {
+  opacity: 1;
+}
+.ap:-ms-input-placeholder {
+  color: transparent;
+}
+.aq:-moz-placeholder {
+  opacity: 1;
+}
+.ar:-moz-placeholder {
+  color: transparent;
+}
+.as {
+  flex-grow: 1;
+}
+.at {
+  flex-shrink: 1;
+}
+.au {
+  flex-basis: auto;
+}
+.av {
+  transition-property: border-color, box-shadow;
+}
+.aw {
+  transition-duration: 0.15s, 0.15s;
+}
+.ax {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.ay {
+  transition-timing-function: ease, ease;
+}
+.az {
+  padding-top: 0.25rem;
+}
+.ba {
+  padding-right: 0.5rem;
+}
+.bb {
+  padding-bottom: 0.25rem;
+}
+.bc {
+  padding-left: 0.5rem;
+}
+.bd {
+  border-top-left-radius: 0.25rem;
+}
+.be {
+  border-top-right-radius: 0.25rem;
+}
+.bf {
+  border-bottom-right-radius: 0.25rem;
+}
+.bg {
+  border-bottom-left-radius: 0.25rem;
+}
+.bh {
+  border-top-width: 1px;
+}
+.bi {
+  border-right-width: 1px;
+}
+.bj {
+  border-bottom-width: 1px;
+}
+.bk {
+  border-left-width: 1px;
+}
+.bl {
+  border-top-style: solid;
+}
+.bm {
+  border-right-style: solid;
+}
+.bn {
+  border-bottom-style: solid;
+}
+.bo {
+  border-left-style: solid;
+}
+.bp {
+  border-top-color: #dee2e6;
+}
+.bq {
+  border-right-color: #dee2e6;
+}
+.br {
+  border-bottom-color: #dee2e6;
+}
+.bs {
+  border-left-color: #dee2e6;
+}
+.r:focus {
+  background-color: #fff;
+}
+.s:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.t:focus {
+  color: #212529;
+}
+.u:focus {
+  z-index: 5;
+}
+.v:focus {
+  outline-width: 0;
+}
+.w:focus {
+  border-top-color: #86b7fe;
+}
+.x:focus {
+  border-right-color: #86b7fe;
+}
+.y:focus {
+  border-bottom-color: #86b7fe;
+}
+.z:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .l {
+    transition-property: none;
+  }
+  .m {
+    transition-duration: 0s;
+  }
+  .n {
+    transition-delay: 0s;
+  }
+  .o {
+    transition-timing-function: ease;
+  }
+}
+
+
+<textarea
+  data-testid="floating-textarea"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+fickle</textarea
+>;
+"
+`;

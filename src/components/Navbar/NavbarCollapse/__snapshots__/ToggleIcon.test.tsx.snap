@@ -1,0 +1,641 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Navbar/NavbarCollapse/ToggleIcon should render a toggle icon 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  width: 1.5em;
+}
+.c {
+  height: 1.5em;
+}
+.d {
+  vertical-align: middle;
+}
+.e {
+  background-image: url(test-file-stub);
+}
+.f {
+  background-repeat: no-repeat;
+}
+.g {
+  background-position: center;
+}
+.h {
+  background-size: 100%;
+}
+@media (min-width: 768px) {
+  .i {
+    display: none;
+  }
+}
+
+
+<span
+  data-testid="navbar-toggle-icon"
+  class="a b c d e f g h i navbar-toggle-icon"
+></span
+>;
+"
+`;
+
+exports[`components/Navbar/NavbarCollapse/ToggleIcon should render a toggle icon of size large with no variant 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  width: 1.5em;
+}
+.c {
+  height: 1.5em;
+}
+.d {
+  vertical-align: middle;
+}
+.e {
+  background-image: url(test-file-stub);
+}
+.f {
+  background-repeat: no-repeat;
+}
+.g {
+  background-position: center;
+}
+.h {
+  background-size: 100%;
+}
+@media (min-width: 992px) {
+  .i {
+    display: none;
+  }
+}
+
+
+<span
+  data-testid="navbar-toggle-icon"
+  class="a b c d e f g h i navbar-toggle-icon"
+></span
+>;
+"
+`;
+
+exports[`components/Navbar/NavbarCollapse/ToggleIcon should render a toggle icon of size large with variant expand 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  width: 1.5em;
+}
+.c {
+  height: 1.5em;
+}
+.d {
+  vertical-align: middle;
+}
+.e {
+  background-image: url(test-file-stub);
+}
+.f {
+  background-repeat: no-repeat;
+}
+.g {
+  background-position: center;
+}
+.h {
+  background-size: 100%;
+}
+@media (min-width: 992px) {
+  .i {
+    display: none;
+  }
+}
+
+
+<span
+  data-testid="navbar-toggle-icon"
+  class="a b c d e f g h i navbar-toggle-icon"
+></span
+>;
+"
+`;
+
+exports[`components/Navbar/NavbarCollapse/ToggleIcon should render a toggle icon of size large with variant fixed 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  width: 1.5em;
+}
+.c {
+  height: 1.5em;
+}
+.d {
+  vertical-align: middle;
+}
+.e {
+  background-image: url(test-file-stub);
+}
+.f {
+  background-repeat: no-repeat;
+}
+.g {
+  background-position: center;
+}
+.h {
+  background-size: 100%;
+}
+
+
+<span
+  data-testid="navbar-toggle-icon"
+  class="a b c d e f g h navbar-toggle-icon"
+></span
+>;
+"
+`;
+
+exports[`components/Navbar/NavbarCollapse/ToggleIcon should render a toggle icon of size large with variant sticky 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  width: 1.5em;
+}
+.c {
+  height: 1.5em;
+}
+.d {
+  vertical-align: middle;
+}
+.e {
+  background-image: url(test-file-stub);
+}
+.f {
+  background-repeat: no-repeat;
+}
+.g {
+  background-position: center;
+}
+.h {
+  background-size: 100%;
+}
+
+
+<span
+  data-testid="navbar-toggle-icon"
+  class="a b c d e f g h navbar-toggle-icon"
+></span
+>;
+"
+`;
+
+exports[`components/Navbar/NavbarCollapse/ToggleIcon should render a toggle icon of size medium with no variant 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  width: 1.5em;
+}
+.c {
+  height: 1.5em;
+}
+.d {
+  vertical-align: middle;
+}
+.e {
+  background-image: url(test-file-stub);
+}
+.f {
+  background-repeat: no-repeat;
+}
+.g {
+  background-position: center;
+}
+.h {
+  background-size: 100%;
+}
+@media (min-width: 768px) {
+  .i {
+    display: none;
+  }
+}
+
+
+<span
+  data-testid="navbar-toggle-icon"
+  class="a b c d e f g h i navbar-toggle-icon"
+></span
+>;
+"
+`;
+
+exports[`components/Navbar/NavbarCollapse/ToggleIcon should render a toggle icon of size medium with variant expand 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  width: 1.5em;
+}
+.c {
+  height: 1.5em;
+}
+.d {
+  vertical-align: middle;
+}
+.e {
+  background-image: url(test-file-stub);
+}
+.f {
+  background-repeat: no-repeat;
+}
+.g {
+  background-position: center;
+}
+.h {
+  background-size: 100%;
+}
+@media (min-width: 768px) {
+  .i {
+    display: none;
+  }
+}
+
+
+<span
+  data-testid="navbar-toggle-icon"
+  class="a b c d e f g h i navbar-toggle-icon"
+></span
+>;
+"
+`;
+
+exports[`components/Navbar/NavbarCollapse/ToggleIcon should render a toggle icon of size medium with variant fixed 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  width: 1.5em;
+}
+.c {
+  height: 1.5em;
+}
+.d {
+  vertical-align: middle;
+}
+.e {
+  background-image: url(test-file-stub);
+}
+.f {
+  background-repeat: no-repeat;
+}
+.g {
+  background-position: center;
+}
+.h {
+  background-size: 100%;
+}
+
+
+<span
+  data-testid="navbar-toggle-icon"
+  class="a b c d e f g h navbar-toggle-icon"
+></span
+>;
+"
+`;
+
+exports[`components/Navbar/NavbarCollapse/ToggleIcon should render a toggle icon of size medium with variant sticky 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  width: 1.5em;
+}
+.c {
+  height: 1.5em;
+}
+.d {
+  vertical-align: middle;
+}
+.e {
+  background-image: url(test-file-stub);
+}
+.f {
+  background-repeat: no-repeat;
+}
+.g {
+  background-position: center;
+}
+.h {
+  background-size: 100%;
+}
+
+
+<span
+  data-testid="navbar-toggle-icon"
+  class="a b c d e f g h navbar-toggle-icon"
+></span
+>;
+"
+`;
+
+exports[`components/Navbar/NavbarCollapse/ToggleIcon should render a toggle icon of size small with no variant 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  width: 1.5em;
+}
+.c {
+  height: 1.5em;
+}
+.d {
+  vertical-align: middle;
+}
+.e {
+  background-image: url(test-file-stub);
+}
+.f {
+  background-repeat: no-repeat;
+}
+.g {
+  background-position: center;
+}
+.h {
+  background-size: 100%;
+}
+@media (min-width: 576px) {
+  .i {
+    display: none;
+  }
+}
+
+
+<span
+  data-testid="navbar-toggle-icon"
+  class="a b c d e f g h i navbar-toggle-icon"
+></span
+>;
+"
+`;
+
+exports[`components/Navbar/NavbarCollapse/ToggleIcon should render a toggle icon of size small with variant expand 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  width: 1.5em;
+}
+.c {
+  height: 1.5em;
+}
+.d {
+  vertical-align: middle;
+}
+.e {
+  background-image: url(test-file-stub);
+}
+.f {
+  background-repeat: no-repeat;
+}
+.g {
+  background-position: center;
+}
+.h {
+  background-size: 100%;
+}
+@media (min-width: 576px) {
+  .i {
+    display: none;
+  }
+}
+
+
+<span
+  data-testid="navbar-toggle-icon"
+  class="a b c d e f g h i navbar-toggle-icon"
+></span
+>;
+"
+`;
+
+exports[`components/Navbar/NavbarCollapse/ToggleIcon should render a toggle icon of size small with variant fixed 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  width: 1.5em;
+}
+.c {
+  height: 1.5em;
+}
+.d {
+  vertical-align: middle;
+}
+.e {
+  background-image: url(test-file-stub);
+}
+.f {
+  background-repeat: no-repeat;
+}
+.g {
+  background-position: center;
+}
+.h {
+  background-size: 100%;
+}
+
+
+<span
+  data-testid="navbar-toggle-icon"
+  class="a b c d e f g h navbar-toggle-icon"
+></span
+>;
+"
+`;
+
+exports[`components/Navbar/NavbarCollapse/ToggleIcon should render a toggle icon of size small with variant sticky 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  width: 1.5em;
+}
+.c {
+  height: 1.5em;
+}
+.d {
+  vertical-align: middle;
+}
+.e {
+  background-image: url(test-file-stub);
+}
+.f {
+  background-repeat: no-repeat;
+}
+.g {
+  background-position: center;
+}
+.h {
+  background-size: 100%;
+}
+
+
+<span
+  data-testid="navbar-toggle-icon"
+  class="a b c d e f g h navbar-toggle-icon"
+></span
+>;
+"
+`;
+
+exports[`components/Navbar/NavbarCollapse/ToggleIcon should render a toggle icon of size x-large with no variant 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  width: 1.5em;
+}
+.c {
+  height: 1.5em;
+}
+.d {
+  vertical-align: middle;
+}
+.e {
+  background-image: url(test-file-stub);
+}
+.f {
+  background-repeat: no-repeat;
+}
+.g {
+  background-position: center;
+}
+.h {
+  background-size: 100%;
+}
+@media (min-width: 1200px) {
+  .i {
+    display: none;
+  }
+}
+
+
+<span
+  data-testid="navbar-toggle-icon"
+  class="a b c d e f g h i navbar-toggle-icon"
+></span
+>;
+"
+`;
+
+exports[`components/Navbar/NavbarCollapse/ToggleIcon should render a toggle icon of size x-large with variant expand 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  width: 1.5em;
+}
+.c {
+  height: 1.5em;
+}
+.d {
+  vertical-align: middle;
+}
+.e {
+  background-image: url(test-file-stub);
+}
+.f {
+  background-repeat: no-repeat;
+}
+.g {
+  background-position: center;
+}
+.h {
+  background-size: 100%;
+}
+@media (min-width: 1200px) {
+  .i {
+    display: none;
+  }
+}
+
+
+<span
+  data-testid="navbar-toggle-icon"
+  class="a b c d e f g h i navbar-toggle-icon"
+></span
+>;
+"
+`;
+
+exports[`components/Navbar/NavbarCollapse/ToggleIcon should render a toggle icon of size x-large with variant fixed 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  width: 1.5em;
+}
+.c {
+  height: 1.5em;
+}
+.d {
+  vertical-align: middle;
+}
+.e {
+  background-image: url(test-file-stub);
+}
+.f {
+  background-repeat: no-repeat;
+}
+.g {
+  background-position: center;
+}
+.h {
+  background-size: 100%;
+}
+
+
+<span
+  data-testid="navbar-toggle-icon"
+  class="a b c d e f g h navbar-toggle-icon"
+></span
+>;
+"
+`;
+
+exports[`components/Navbar/NavbarCollapse/ToggleIcon should render a toggle icon of size x-large with variant sticky 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  width: 1.5em;
+}
+.c {
+  height: 1.5em;
+}
+.d {
+  vertical-align: middle;
+}
+.e {
+  background-image: url(test-file-stub);
+}
+.f {
+  background-repeat: no-repeat;
+}
+.g {
+  background-position: center;
+}
+.h {
+  background-size: 100%;
+}
+
+
+<span
+  data-testid="navbar-toggle-icon"
+  class="a b c d e f g h navbar-toggle-icon"
+></span
+>;
+"
+`;

@@ -1,0 +1,79 @@
+import { Meta, Typeset } from "@storybook/blocks";
+
+<Meta title="Typography" />
+
+# Typography
+
+export const typography = {
+  fontFamily:
+    'system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
+  weight: {
+    lighter: "lighter",
+    light: 300,
+    normal: 400,
+    medium: 500,
+    semibold: 600,
+    bold: 700,
+    bolder: "bolder",
+  },
+  sizes: {
+    small: 14,
+    normal: 16,
+    large: 20,
+    h4: 24,
+    h3: 28,
+    h2: 32,
+    h1: 40,
+    displayH1: 80,
+    displayH2: 72,
+    displayH3: 64,
+    displayH4: 56,
+    displayH5: 48,
+    displayH6: 40,
+  },
+};
+
+## Text
+
+<Typeset
+  fontFamily={typography.fontFamily}
+  fontWeight={typography.weight.normal}
+  fontSizes={[
+    typography.sizes.small,
+    typography.sizes.normal,
+    typography.sizes.large,
+  ]}
+  sampleText="The spectacle before us was indeed sublime."
+/>
+
+## Headers
+
+<Typeset
+  fontFamily={typography.fontFamily}
+  fontWeight={typography.weight.medium}
+  fontSizes={[
+    typography.sizes.normal,
+    typography.sizes.large,
+    typography.sizes.h4,
+    typography.sizes.h3,
+    typography.sizes.h2,
+    typography.sizes.h1,
+  ]}
+  sampleText="The spectacle before us was indeed sublime."
+/>
+
+## Display Headers
+
+<Typeset
+  fontFamily={typography.fontFamily}
+  fontWeight={typography.weight.light}
+  fontSizes={[
+    typography.sizes.displayH6,
+    typography.sizes.displayH5,
+    typography.sizes.displayH4,
+    typography.sizes.displayH3,
+    typography.sizes.displayH2,
+    typography.sizes.displayH1,
+  ]}
+  sampleText="The spectacle before us was indeed sublime."
+/>

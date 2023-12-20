@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/RadioButtons/Label should render a disabled radio button label 1`] = `
+".a {
+  cursor: default;
+}
+.b {
+  opacity: 0.5;
+}
+.c {
+  display: inline-block;
+}
+.d {
+  margin-bottom: 0.5rem;
+}
+
+
+<label
+  data-testid="form-label"
+  for="radio-label"
+  class="c d form-label a b form-check-label"
+  >Radio Label</label
+>;
+"
+`;
+
+exports[`components/Form/RadioButtons/Label should render a radio button label 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  margin-bottom: 0.5rem;
+}
+
+
+<label
+  data-testid="form-label"
+  for="radio-label"
+  class="a b form-label form-check-label"
+  >Radio Label</label
+>;
+"
+`;

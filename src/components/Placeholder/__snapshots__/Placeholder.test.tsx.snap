@@ -1,0 +1,2391 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Placeholder should display a glowing placeholder of size large 1`] = `
+"@-webkit-keyframes k1 {
+  50% {
+    opacity: 0.5;
+  }
+}
+@-moz-keyframes k1 {
+  50% {
+    opacity: 0.5;
+  }
+}
+@keyframes k1 {
+  50% {
+    opacity: 0.5;
+  }
+}
+.a {
+  color: #212529;
+}
+.b {
+  animation-name: k1;
+}
+.c {
+  animation-duration: 2s;
+}
+.d {
+  animation-iteration-count: infinite;
+}
+.e {
+  animation-timing-function: linear;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  min-height: 1.2em;
+}
+.h {
+  vertical-align: middle;
+}
+.i {
+  cursor: wait;
+}
+.j {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.k {
+  width: 50%;
+}
+.l {
+  opacity: 0.5;
+}
+.m::before {
+  display: inline-block;
+}
+.n::before {
+  content:;
+}
+.o {
+  flex-grow: 0;
+}
+.p {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.q {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+
+<p data-testid="placeholder-text" class="a b c d e" aria-hidden="true">
+  <span class="f g h i j k l m n o p q"></span>
+</p>
+;;
+"
+`;
+
+exports[`components/Placeholder should display a glowing placeholder of size medium 1`] = `
+"@-webkit-keyframes k1 {
+  50% {
+    opacity: 0.5;
+  }
+}
+@-moz-keyframes k1 {
+  50% {
+    opacity: 0.5;
+  }
+}
+@keyframes k1 {
+  50% {
+    opacity: 0.5;
+  }
+}
+.a {
+  color: #212529;
+}
+.b {
+  animation-name: k1;
+}
+.c {
+  animation-duration: 2s;
+}
+.d {
+  animation-iteration-count: infinite;
+}
+.e {
+  animation-timing-function: linear;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  min-height: 1em;
+}
+.h {
+  vertical-align: middle;
+}
+.i {
+  cursor: wait;
+}
+.j {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.k {
+  width: 50%;
+}
+.l {
+  opacity: 0.5;
+}
+.m::before {
+  display: inline-block;
+}
+.n::before {
+  content:;
+}
+.o {
+  flex-grow: 0;
+}
+.p {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.q {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+
+<p data-testid="placeholder-text" class="a b c d e" aria-hidden="true">
+  <span class="f g h i j k l m n o p q"></span>
+</p>
+;;
+"
+`;
+
+exports[`components/Placeholder should display a glowing placeholder of size small 1`] = `
+"@-webkit-keyframes k1 {
+  50% {
+    opacity: 0.5;
+  }
+}
+@-moz-keyframes k1 {
+  50% {
+    opacity: 0.5;
+  }
+}
+@keyframes k1 {
+  50% {
+    opacity: 0.5;
+  }
+}
+.a {
+  color: #212529;
+}
+.b {
+  animation-name: k1;
+}
+.c {
+  animation-duration: 2s;
+}
+.d {
+  animation-iteration-count: infinite;
+}
+.e {
+  animation-timing-function: linear;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  min-height: 0.8em;
+}
+.h {
+  vertical-align: middle;
+}
+.i {
+  cursor: wait;
+}
+.j {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.k {
+  width: 50%;
+}
+.l {
+  opacity: 0.5;
+}
+.m::before {
+  display: inline-block;
+}
+.n::before {
+  content:;
+}
+.o {
+  flex-grow: 0;
+}
+.p {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.q {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+
+<p data-testid="placeholder-text" class="a b c d e" aria-hidden="true">
+  <span class="f g h i j k l m n o p q"></span>
+</p>
+;;
+"
+`;
+
+exports[`components/Placeholder should display a glowing placeholder of size xsmall 1`] = `
+"@-webkit-keyframes k1 {
+  50% {
+    opacity: 0.5;
+  }
+}
+@-moz-keyframes k1 {
+  50% {
+    opacity: 0.5;
+  }
+}
+@keyframes k1 {
+  50% {
+    opacity: 0.5;
+  }
+}
+.a {
+  color: #212529;
+}
+.b {
+  animation-name: k1;
+}
+.c {
+  animation-duration: 2s;
+}
+.d {
+  animation-iteration-count: infinite;
+}
+.e {
+  animation-timing-function: linear;
+}
+.f {
+  display: inline-block;
+}
+.g {
+  min-height: 0.6em;
+}
+.h {
+  vertical-align: middle;
+}
+.i {
+  cursor: wait;
+}
+.j {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.k {
+  width: 50%;
+}
+.l {
+  opacity: 0.5;
+}
+.m::before {
+  display: inline-block;
+}
+.n::before {
+  content:;
+}
+.o {
+  flex-grow: 0;
+}
+.p {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.q {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+
+<p data-testid="placeholder-text" class="a b c d e" aria-hidden="true">
+  <span class="f g h i j k l m n o p q"></span>
+</p>
+;;
+"
+`;
+
+exports[`components/Placeholder should display a placeholder button of size large 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  min-height: 1.2em;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  cursor: wait;
+}
+.e {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.f {
+  width: 50%;
+}
+.g {
+  opacity: 0.5;
+}
+.h::before {
+  display: inline-block;
+}
+.i::before {
+  content:;
+}
+.j {
+  flex-grow: 0;
+}
+.k {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.l {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.m {
+  border-top-left-radius: 4px;
+}
+.n {
+  border-top-right-radius: 0;
+}
+.o {
+  border-bottom-right-radius: 0;
+}
+.p {
+  border-bottom-left-radius: 4px;
+}
+.q {
+  padding-top: 6px;
+}
+.r {
+  padding-bottom: 6px;
+}
+.s {
+  padding-left: 12px;
+}
+.t {
+  padding-right: 12px;
+}
+.u {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.v {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.w {
+  color: #fff;
+}
+.x {
+  cursor: pointer;
+}
+.y {
+  font-size: 14px;
+}
+.z {
+  font-weight: 400;
+}
+.ab {
+  line-height: 1.42857143;
+}
+.ac {
+  margin-bottom: 0;
+}
+.ae {
+  text-align: center;
+}
+.af {
+  touch-action: manipulation;
+}
+.ag {
+  white-space: nowrap;
+}
+.ah {
+  user-select: none;
+}
+.ar:disabled {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.as:disabled {
+  color: #fff;
+}
+.at:disabled {
+  box-shadow: none;
+}
+.au:disabled {
+  cursor: not-allowed;
+}
+.av:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.aw:disabled {
+  opacity: 0.65;
+}
+.ax:disabled {
+  pointer-events: none;
+}
+.ay:disabled {
+  border-top-color: #0d6efd;
+}
+.az:disabled {
+  border-right-color: #0d6efd;
+}
+.ba:disabled {
+  border-bottom-color: #0d6efd;
+}
+.bb:disabled {
+  border-left-color: #0d6efd;
+}
+.bq {
+  border-top-width: 1px;
+}
+.br {
+  border-right-width: 1px;
+}
+.bs {
+  border-bottom-width: 1px;
+}
+.bt {
+  border-left-width: 1px;
+}
+.bu {
+  border-top-style: solid;
+}
+.bv {
+  border-right-style: solid;
+}
+.bw {
+  border-bottom-style: solid;
+}
+.bx {
+  border-left-style: solid;
+}
+.by {
+  border-top-color: #2e6da4;
+}
+.bz {
+  border-right-color: #2e6da4;
+}
+.ca {
+  border-bottom-color: #2e6da4;
+}
+.cb {
+  border-left-color: #2e6da4;
+}
+.bk:hover {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.bl:hover {
+  color: #fff;
+}
+.bm:hover {
+  border-top-color: #0a58ca;
+}
+.bn:hover {
+  border-right-color: #0a58ca;
+}
+.bo:hover {
+  border-bottom-color: #0a58ca;
+}
+.bp:hover {
+  border-left-color: #0a58ca;
+}
+.bc:focus-visible {
+  color: #fff;
+}
+.bd:focus-visible {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.be:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.bf:focus-visible {
+  outline-width: 0;
+}
+.bg:focus-visible {
+  border-top-color: #0a58ca;
+}
+.bh:focus-visible {
+  border-right-color: #0a58ca;
+}
+.bi:focus-visible {
+  border-bottom-color: #0a58ca;
+}
+.bj:focus-visible {
+  border-left-color: #0a58ca;
+}
+.ai:active {
+  color: #fff;
+}
+.aj:active {
+  -webkit-background-color: #0a58ca;
+  background-color: #0a58ca;
+}
+.ak:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.al:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.am:active {
+  outline-width: 0;
+}
+.an:active {
+  border-top-color: #0a53be;
+}
+.ao:active {
+  border-right-color: #0a53be;
+}
+.ap:active {
+  border-bottom-color: #0a53be;
+}
+.aq:active {
+  border-left-color: #0a53be;
+}
+
+
+<button
+  data-testid="placeholder-button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb m n o p q r s t u v w x y z a b c d e f g h i j k l"
+  disabled=""
+  aria-disabled="true"
+></button
+>;;
+"
+`;
+
+exports[`components/Placeholder should display a placeholder button of size medium 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  min-height: 1em;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  cursor: wait;
+}
+.e {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.f {
+  width: 50%;
+}
+.g {
+  opacity: 0.5;
+}
+.h::before {
+  display: inline-block;
+}
+.i::before {
+  content:;
+}
+.j {
+  flex-grow: 0;
+}
+.k {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.l {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.m {
+  border-top-left-radius: 4px;
+}
+.n {
+  border-top-right-radius: 0;
+}
+.o {
+  border-bottom-right-radius: 0;
+}
+.p {
+  border-bottom-left-radius: 4px;
+}
+.q {
+  padding-top: 6px;
+}
+.r {
+  padding-bottom: 6px;
+}
+.s {
+  padding-left: 12px;
+}
+.t {
+  padding-right: 12px;
+}
+.u {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.v {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.w {
+  color: #fff;
+}
+.x {
+  cursor: pointer;
+}
+.y {
+  font-size: 14px;
+}
+.z {
+  font-weight: 400;
+}
+.ab {
+  line-height: 1.42857143;
+}
+.ac {
+  margin-bottom: 0;
+}
+.ae {
+  text-align: center;
+}
+.af {
+  touch-action: manipulation;
+}
+.ag {
+  white-space: nowrap;
+}
+.ah {
+  user-select: none;
+}
+.ar:disabled {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.as:disabled {
+  color: #fff;
+}
+.at:disabled {
+  box-shadow: none;
+}
+.au:disabled {
+  cursor: not-allowed;
+}
+.av:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.aw:disabled {
+  opacity: 0.65;
+}
+.ax:disabled {
+  pointer-events: none;
+}
+.ay:disabled {
+  border-top-color: #0d6efd;
+}
+.az:disabled {
+  border-right-color: #0d6efd;
+}
+.ba:disabled {
+  border-bottom-color: #0d6efd;
+}
+.bb:disabled {
+  border-left-color: #0d6efd;
+}
+.bq {
+  border-top-width: 1px;
+}
+.br {
+  border-right-width: 1px;
+}
+.bs {
+  border-bottom-width: 1px;
+}
+.bt {
+  border-left-width: 1px;
+}
+.bu {
+  border-top-style: solid;
+}
+.bv {
+  border-right-style: solid;
+}
+.bw {
+  border-bottom-style: solid;
+}
+.bx {
+  border-left-style: solid;
+}
+.by {
+  border-top-color: #2e6da4;
+}
+.bz {
+  border-right-color: #2e6da4;
+}
+.ca {
+  border-bottom-color: #2e6da4;
+}
+.cb {
+  border-left-color: #2e6da4;
+}
+.bk:hover {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.bl:hover {
+  color: #fff;
+}
+.bm:hover {
+  border-top-color: #0a58ca;
+}
+.bn:hover {
+  border-right-color: #0a58ca;
+}
+.bo:hover {
+  border-bottom-color: #0a58ca;
+}
+.bp:hover {
+  border-left-color: #0a58ca;
+}
+.bc:focus-visible {
+  color: #fff;
+}
+.bd:focus-visible {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.be:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.bf:focus-visible {
+  outline-width: 0;
+}
+.bg:focus-visible {
+  border-top-color: #0a58ca;
+}
+.bh:focus-visible {
+  border-right-color: #0a58ca;
+}
+.bi:focus-visible {
+  border-bottom-color: #0a58ca;
+}
+.bj:focus-visible {
+  border-left-color: #0a58ca;
+}
+.ai:active {
+  color: #fff;
+}
+.aj:active {
+  -webkit-background-color: #0a58ca;
+  background-color: #0a58ca;
+}
+.ak:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.al:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.am:active {
+  outline-width: 0;
+}
+.an:active {
+  border-top-color: #0a53be;
+}
+.ao:active {
+  border-right-color: #0a53be;
+}
+.ap:active {
+  border-bottom-color: #0a53be;
+}
+.aq:active {
+  border-left-color: #0a53be;
+}
+
+
+<button
+  data-testid="placeholder-button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb m n o p q r s t u v w x y z a b c d e f g h i j k l"
+  disabled=""
+  aria-disabled="true"
+></button
+>;;
+"
+`;
+
+exports[`components/Placeholder should display a placeholder button of size small 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  min-height: 0.8em;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  cursor: wait;
+}
+.e {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.f {
+  width: 50%;
+}
+.g {
+  opacity: 0.5;
+}
+.h::before {
+  display: inline-block;
+}
+.i::before {
+  content:;
+}
+.j {
+  flex-grow: 0;
+}
+.k {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.l {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.m {
+  border-top-left-radius: 4px;
+}
+.n {
+  border-top-right-radius: 0;
+}
+.o {
+  border-bottom-right-radius: 0;
+}
+.p {
+  border-bottom-left-radius: 4px;
+}
+.q {
+  padding-top: 6px;
+}
+.r {
+  padding-bottom: 6px;
+}
+.s {
+  padding-left: 12px;
+}
+.t {
+  padding-right: 12px;
+}
+.u {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.v {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.w {
+  color: #fff;
+}
+.x {
+  cursor: pointer;
+}
+.y {
+  font-size: 14px;
+}
+.z {
+  font-weight: 400;
+}
+.ab {
+  line-height: 1.42857143;
+}
+.ac {
+  margin-bottom: 0;
+}
+.ae {
+  text-align: center;
+}
+.af {
+  touch-action: manipulation;
+}
+.ag {
+  white-space: nowrap;
+}
+.ah {
+  user-select: none;
+}
+.ar:disabled {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.as:disabled {
+  color: #fff;
+}
+.at:disabled {
+  box-shadow: none;
+}
+.au:disabled {
+  cursor: not-allowed;
+}
+.av:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.aw:disabled {
+  opacity: 0.65;
+}
+.ax:disabled {
+  pointer-events: none;
+}
+.ay:disabled {
+  border-top-color: #0d6efd;
+}
+.az:disabled {
+  border-right-color: #0d6efd;
+}
+.ba:disabled {
+  border-bottom-color: #0d6efd;
+}
+.bb:disabled {
+  border-left-color: #0d6efd;
+}
+.bq {
+  border-top-width: 1px;
+}
+.br {
+  border-right-width: 1px;
+}
+.bs {
+  border-bottom-width: 1px;
+}
+.bt {
+  border-left-width: 1px;
+}
+.bu {
+  border-top-style: solid;
+}
+.bv {
+  border-right-style: solid;
+}
+.bw {
+  border-bottom-style: solid;
+}
+.bx {
+  border-left-style: solid;
+}
+.by {
+  border-top-color: #2e6da4;
+}
+.bz {
+  border-right-color: #2e6da4;
+}
+.ca {
+  border-bottom-color: #2e6da4;
+}
+.cb {
+  border-left-color: #2e6da4;
+}
+.bk:hover {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.bl:hover {
+  color: #fff;
+}
+.bm:hover {
+  border-top-color: #0a58ca;
+}
+.bn:hover {
+  border-right-color: #0a58ca;
+}
+.bo:hover {
+  border-bottom-color: #0a58ca;
+}
+.bp:hover {
+  border-left-color: #0a58ca;
+}
+.bc:focus-visible {
+  color: #fff;
+}
+.bd:focus-visible {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.be:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.bf:focus-visible {
+  outline-width: 0;
+}
+.bg:focus-visible {
+  border-top-color: #0a58ca;
+}
+.bh:focus-visible {
+  border-right-color: #0a58ca;
+}
+.bi:focus-visible {
+  border-bottom-color: #0a58ca;
+}
+.bj:focus-visible {
+  border-left-color: #0a58ca;
+}
+.ai:active {
+  color: #fff;
+}
+.aj:active {
+  -webkit-background-color: #0a58ca;
+  background-color: #0a58ca;
+}
+.ak:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.al:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.am:active {
+  outline-width: 0;
+}
+.an:active {
+  border-top-color: #0a53be;
+}
+.ao:active {
+  border-right-color: #0a53be;
+}
+.ap:active {
+  border-bottom-color: #0a53be;
+}
+.aq:active {
+  border-left-color: #0a53be;
+}
+
+
+<button
+  data-testid="placeholder-button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb m n o p q r s t u v w x y z a b c d e f g h i j k l"
+  disabled=""
+  aria-disabled="true"
+></button
+>;;
+"
+`;
+
+exports[`components/Placeholder should display a placeholder button of size xsmall 1`] = `
+".a {
+  display: inline-block;
+}
+.b {
+  min-height: 0.6em;
+}
+.c {
+  vertical-align: middle;
+}
+.d {
+  cursor: wait;
+}
+.e {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.f {
+  width: 50%;
+}
+.g {
+  opacity: 0.5;
+}
+.h::before {
+  display: inline-block;
+}
+.i::before {
+  content:;
+}
+.j {
+  flex-grow: 0;
+}
+.k {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.l {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+.m {
+  border-top-left-radius: 4px;
+}
+.n {
+  border-top-right-radius: 0;
+}
+.o {
+  border-bottom-right-radius: 0;
+}
+.p {
+  border-bottom-left-radius: 4px;
+}
+.q {
+  padding-top: 6px;
+}
+.r {
+  padding-bottom: 6px;
+}
+.s {
+  padding-left: 12px;
+}
+.t {
+  padding-right: 12px;
+}
+.u {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.v {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.w {
+  color: #fff;
+}
+.x {
+  cursor: pointer;
+}
+.y {
+  font-size: 14px;
+}
+.z {
+  font-weight: 400;
+}
+.ab {
+  line-height: 1.42857143;
+}
+.ac {
+  margin-bottom: 0;
+}
+.ae {
+  text-align: center;
+}
+.af {
+  touch-action: manipulation;
+}
+.ag {
+  white-space: nowrap;
+}
+.ah {
+  user-select: none;
+}
+.ar:disabled {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.as:disabled {
+  color: #fff;
+}
+.at:disabled {
+  box-shadow: none;
+}
+.au:disabled {
+  cursor: not-allowed;
+}
+.av:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.aw:disabled {
+  opacity: 0.65;
+}
+.ax:disabled {
+  pointer-events: none;
+}
+.ay:disabled {
+  border-top-color: #0d6efd;
+}
+.az:disabled {
+  border-right-color: #0d6efd;
+}
+.ba:disabled {
+  border-bottom-color: #0d6efd;
+}
+.bb:disabled {
+  border-left-color: #0d6efd;
+}
+.bq {
+  border-top-width: 1px;
+}
+.br {
+  border-right-width: 1px;
+}
+.bs {
+  border-bottom-width: 1px;
+}
+.bt {
+  border-left-width: 1px;
+}
+.bu {
+  border-top-style: solid;
+}
+.bv {
+  border-right-style: solid;
+}
+.bw {
+  border-bottom-style: solid;
+}
+.bx {
+  border-left-style: solid;
+}
+.by {
+  border-top-color: #2e6da4;
+}
+.bz {
+  border-right-color: #2e6da4;
+}
+.ca {
+  border-bottom-color: #2e6da4;
+}
+.cb {
+  border-left-color: #2e6da4;
+}
+.bk:hover {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.bl:hover {
+  color: #fff;
+}
+.bm:hover {
+  border-top-color: #0a58ca;
+}
+.bn:hover {
+  border-right-color: #0a58ca;
+}
+.bo:hover {
+  border-bottom-color: #0a58ca;
+}
+.bp:hover {
+  border-left-color: #0a58ca;
+}
+.bc:focus-visible {
+  color: #fff;
+}
+.bd:focus-visible {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.be:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.bf:focus-visible {
+  outline-width: 0;
+}
+.bg:focus-visible {
+  border-top-color: #0a58ca;
+}
+.bh:focus-visible {
+  border-right-color: #0a58ca;
+}
+.bi:focus-visible {
+  border-bottom-color: #0a58ca;
+}
+.bj:focus-visible {
+  border-left-color: #0a58ca;
+}
+.ai:active {
+  color: #fff;
+}
+.aj:active {
+  -webkit-background-color: #0a58ca;
+  background-color: #0a58ca;
+}
+.ak:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.al:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.am:active {
+  outline-width: 0;
+}
+.an:active {
+  border-top-color: #0a53be;
+}
+.ao:active {
+  border-right-color: #0a53be;
+}
+.ap:active {
+  border-bottom-color: #0a53be;
+}
+.aq:active {
+  border-left-color: #0a53be;
+}
+
+
+<button
+  data-testid="placeholder-button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz c ca cb m n o p q r s t u v w x y z a b c d e f g h i j k l"
+  disabled=""
+  aria-disabled="true"
+></button
+>;;
+"
+`;
+
+exports[`components/Placeholder should display a placeholder of fixed width 1`] = `
+"@-webkit-keyframes k1 {
+  100% {
+    -webkit-mask-position: -200% 0%;
+    mask-position: -200% 0%;
+  }
+}
+@-moz-keyframes k1 {
+  100% {
+    -webkit-mask-position: -200% 0%;
+    mask-position: -200% 0%;
+  }
+}
+@keyframes k1 {
+  100% {
+    -webkit-mask-position: -200% 0%;
+    mask-position: -200% 0%;
+  }
+}
+.a {
+  color: #212529;
+}
+.b {
+  webkit-mask-size: 200% 100%;
+}
+.c {
+  -webkit-mask-size: 200% 100%;
+  mask-size: 200% 100%;
+}
+.d {
+  webkit-mask-image: linear-gradient(
+    130deg,
+    #000 55%,
+    rgba(0, 0, 0, 0.8) 75%,
+    #000 95%
+  );
+}
+.e {
+  -webkit-mask-image: linear-gradient(
+    130deg,
+    #000 55%,
+    rgba(0, 0, 0, 0.8) 75%,
+    #000 95%
+  );
+  mask-image: linear-gradient(
+    130deg,
+    #000 55%,
+    rgba(0, 0, 0, 0.8) 75%,
+    #000 95%
+  );
+}
+.f {
+  animation-name: k1;
+}
+.g {
+  animation-duration: 2s;
+}
+.h {
+  animation-iteration-count: infinite;
+}
+.i {
+  animation-timing-function: linear;
+}
+.j {
+  display: inline-block;
+}
+.k {
+  min-height: 1em;
+}
+.l {
+  vertical-align: middle;
+}
+.m {
+  cursor: wait;
+}
+.n {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.o {
+  width: 66.67%;
+}
+.p {
+  opacity: 0.5;
+}
+.q::before {
+  display: inline-block;
+}
+.r::before {
+  content:;
+}
+.s {
+  flex-grow: 0;
+}
+.t {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.u {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+
+<p data-testid="placeholder-text" class="a b c d e f g h i" aria-hidden="true">
+  <span class="j k l m n o p q r s t u"></span>
+</p>
+;;
+"
+`;
+
+exports[`components/Placeholder should display a placeholder of size large 1`] = `
+".a {
+  color: #212529;
+}
+.b {
+  animation-duration: 2s;
+}
+.c {
+  animation-iteration-count: infinite;
+}
+.d {
+  animation-timing-function: linear;
+}
+.e {
+  display: inline-block;
+}
+.f {
+  min-height: 1.2em;
+}
+.g {
+  vertical-align: middle;
+}
+.h {
+  cursor: wait;
+}
+.i {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.j {
+  width: 50%;
+}
+.k {
+  opacity: 0.5;
+}
+.l::before {
+  display: inline-block;
+}
+.m::before {
+  content:;
+}
+.n {
+  flex-grow: 0;
+}
+.o {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.p {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+
+<p data-testid="placeholder-text" class="a b c d" aria-hidden="true">
+  <span class="e f g h i j k l m n o p"></span>
+</p>
+;;
+"
+`;
+
+exports[`components/Placeholder should display a placeholder of size medium 1`] = `
+".a {
+  color: #212529;
+}
+.b {
+  animation-duration: 2s;
+}
+.c {
+  animation-iteration-count: infinite;
+}
+.d {
+  animation-timing-function: linear;
+}
+.e {
+  display: inline-block;
+}
+.f {
+  min-height: 1em;
+}
+.g {
+  vertical-align: middle;
+}
+.h {
+  cursor: wait;
+}
+.i {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.j {
+  width: 50%;
+}
+.k {
+  opacity: 0.5;
+}
+.l::before {
+  display: inline-block;
+}
+.m::before {
+  content:;
+}
+.n {
+  flex-grow: 0;
+}
+.o {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.p {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+
+<p data-testid="placeholder-text" class="a b c d" aria-hidden="true">
+  <span class="e f g h i j k l m n o p"></span>
+</p>
+;;
+"
+`;
+
+exports[`components/Placeholder should display a placeholder of size small 1`] = `
+".a {
+  color: #212529;
+}
+.b {
+  animation-duration: 2s;
+}
+.c {
+  animation-iteration-count: infinite;
+}
+.d {
+  animation-timing-function: linear;
+}
+.e {
+  display: inline-block;
+}
+.f {
+  min-height: 0.8em;
+}
+.g {
+  vertical-align: middle;
+}
+.h {
+  cursor: wait;
+}
+.i {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.j {
+  width: 50%;
+}
+.k {
+  opacity: 0.5;
+}
+.l::before {
+  display: inline-block;
+}
+.m::before {
+  content:;
+}
+.n {
+  flex-grow: 0;
+}
+.o {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.p {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+
+<p data-testid="placeholder-text" class="a b c d" aria-hidden="true">
+  <span class="e f g h i j k l m n o p"></span>
+</p>
+;;
+"
+`;
+
+exports[`components/Placeholder should display a placeholder of size xsmall 1`] = `
+".a {
+  color: #212529;
+}
+.b {
+  animation-duration: 2s;
+}
+.c {
+  animation-iteration-count: infinite;
+}
+.d {
+  animation-timing-function: linear;
+}
+.e {
+  display: inline-block;
+}
+.f {
+  min-height: 0.6em;
+}
+.g {
+  vertical-align: middle;
+}
+.h {
+  cursor: wait;
+}
+.i {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.j {
+  width: 50%;
+}
+.k {
+  opacity: 0.5;
+}
+.l::before {
+  display: inline-block;
+}
+.m::before {
+  content:;
+}
+.n {
+  flex-grow: 0;
+}
+.o {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.p {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+
+<p data-testid="placeholder-text" class="a b c d" aria-hidden="true">
+  <span class="e f g h i j k l m n o p"></span>
+</p>
+;;
+"
+`;
+
+exports[`components/Placeholder should display a waving placeholder of size large 1`] = `
+"@-webkit-keyframes k1 {
+  100% {
+    -webkit-mask-position: -200% 0%;
+    mask-position: -200% 0%;
+  }
+}
+@-moz-keyframes k1 {
+  100% {
+    -webkit-mask-position: -200% 0%;
+    mask-position: -200% 0%;
+  }
+}
+@keyframes k1 {
+  100% {
+    -webkit-mask-position: -200% 0%;
+    mask-position: -200% 0%;
+  }
+}
+.a {
+  color: #212529;
+}
+.b {
+  webkit-mask-size: 200% 100%;
+}
+.c {
+  -webkit-mask-size: 200% 100%;
+  mask-size: 200% 100%;
+}
+.d {
+  webkit-mask-image: linear-gradient(
+    130deg,
+    #000 55%,
+    rgba(0, 0, 0, 0.8) 75%,
+    #000 95%
+  );
+}
+.e {
+  -webkit-mask-image: linear-gradient(
+    130deg,
+    #000 55%,
+    rgba(0, 0, 0, 0.8) 75%,
+    #000 95%
+  );
+  mask-image: linear-gradient(
+    130deg,
+    #000 55%,
+    rgba(0, 0, 0, 0.8) 75%,
+    #000 95%
+  );
+}
+.f {
+  animation-name: k1;
+}
+.g {
+  animation-duration: 2s;
+}
+.h {
+  animation-iteration-count: infinite;
+}
+.i {
+  animation-timing-function: linear;
+}
+.j {
+  display: inline-block;
+}
+.k {
+  min-height: 1.2em;
+}
+.l {
+  vertical-align: middle;
+}
+.m {
+  cursor: wait;
+}
+.n {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.o {
+  width: 50%;
+}
+.p {
+  opacity: 0.5;
+}
+.q::before {
+  display: inline-block;
+}
+.r::before {
+  content:;
+}
+.s {
+  flex-grow: 0;
+}
+.t {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.u {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+
+<p data-testid="placeholder-text" class="a b c d e f g h i" aria-hidden="true">
+  <span class="j k l m n o p q r s t u"></span>
+</p>
+;;
+"
+`;
+
+exports[`components/Placeholder should display a waving placeholder of size medium 1`] = `
+"@-webkit-keyframes k1 {
+  100% {
+    -webkit-mask-position: -200% 0%;
+    mask-position: -200% 0%;
+  }
+}
+@-moz-keyframes k1 {
+  100% {
+    -webkit-mask-position: -200% 0%;
+    mask-position: -200% 0%;
+  }
+}
+@keyframes k1 {
+  100% {
+    -webkit-mask-position: -200% 0%;
+    mask-position: -200% 0%;
+  }
+}
+.a {
+  color: #212529;
+}
+.b {
+  webkit-mask-size: 200% 100%;
+}
+.c {
+  -webkit-mask-size: 200% 100%;
+  mask-size: 200% 100%;
+}
+.d {
+  webkit-mask-image: linear-gradient(
+    130deg,
+    #000 55%,
+    rgba(0, 0, 0, 0.8) 75%,
+    #000 95%
+  );
+}
+.e {
+  -webkit-mask-image: linear-gradient(
+    130deg,
+    #000 55%,
+    rgba(0, 0, 0, 0.8) 75%,
+    #000 95%
+  );
+  mask-image: linear-gradient(
+    130deg,
+    #000 55%,
+    rgba(0, 0, 0, 0.8) 75%,
+    #000 95%
+  );
+}
+.f {
+  animation-name: k1;
+}
+.g {
+  animation-duration: 2s;
+}
+.h {
+  animation-iteration-count: infinite;
+}
+.i {
+  animation-timing-function: linear;
+}
+.j {
+  display: inline-block;
+}
+.k {
+  min-height: 1em;
+}
+.l {
+  vertical-align: middle;
+}
+.m {
+  cursor: wait;
+}
+.n {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.o {
+  width: 50%;
+}
+.p {
+  opacity: 0.5;
+}
+.q::before {
+  display: inline-block;
+}
+.r::before {
+  content:;
+}
+.s {
+  flex-grow: 0;
+}
+.t {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.u {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+
+<p data-testid="placeholder-text" class="a b c d e f g h i" aria-hidden="true">
+  <span class="j k l m n o p q r s t u"></span>
+</p>
+;;
+"
+`;
+
+exports[`components/Placeholder should display a waving placeholder of size small 1`] = `
+"@-webkit-keyframes k1 {
+  100% {
+    -webkit-mask-position: -200% 0%;
+    mask-position: -200% 0%;
+  }
+}
+@-moz-keyframes k1 {
+  100% {
+    -webkit-mask-position: -200% 0%;
+    mask-position: -200% 0%;
+  }
+}
+@keyframes k1 {
+  100% {
+    -webkit-mask-position: -200% 0%;
+    mask-position: -200% 0%;
+  }
+}
+.a {
+  color: #212529;
+}
+.b {
+  webkit-mask-size: 200% 100%;
+}
+.c {
+  -webkit-mask-size: 200% 100%;
+  mask-size: 200% 100%;
+}
+.d {
+  webkit-mask-image: linear-gradient(
+    130deg,
+    #000 55%,
+    rgba(0, 0, 0, 0.8) 75%,
+    #000 95%
+  );
+}
+.e {
+  -webkit-mask-image: linear-gradient(
+    130deg,
+    #000 55%,
+    rgba(0, 0, 0, 0.8) 75%,
+    #000 95%
+  );
+  mask-image: linear-gradient(
+    130deg,
+    #000 55%,
+    rgba(0, 0, 0, 0.8) 75%,
+    #000 95%
+  );
+}
+.f {
+  animation-name: k1;
+}
+.g {
+  animation-duration: 2s;
+}
+.h {
+  animation-iteration-count: infinite;
+}
+.i {
+  animation-timing-function: linear;
+}
+.j {
+  display: inline-block;
+}
+.k {
+  min-height: 0.8em;
+}
+.l {
+  vertical-align: middle;
+}
+.m {
+  cursor: wait;
+}
+.n {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.o {
+  width: 50%;
+}
+.p {
+  opacity: 0.5;
+}
+.q::before {
+  display: inline-block;
+}
+.r::before {
+  content:;
+}
+.s {
+  flex-grow: 0;
+}
+.t {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.u {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+
+<p data-testid="placeholder-text" class="a b c d e f g h i" aria-hidden="true">
+  <span class="j k l m n o p q r s t u"></span>
+</p>
+;;
+"
+`;
+
+exports[`components/Placeholder should display a waving placeholder of size xsmall 1`] = `
+"@-webkit-keyframes k1 {
+  100% {
+    -webkit-mask-position: -200% 0%;
+    mask-position: -200% 0%;
+  }
+}
+@-moz-keyframes k1 {
+  100% {
+    -webkit-mask-position: -200% 0%;
+    mask-position: -200% 0%;
+  }
+}
+@keyframes k1 {
+  100% {
+    -webkit-mask-position: -200% 0%;
+    mask-position: -200% 0%;
+  }
+}
+.a {
+  color: #212529;
+}
+.b {
+  webkit-mask-size: 200% 100%;
+}
+.c {
+  -webkit-mask-size: 200% 100%;
+  mask-size: 200% 100%;
+}
+.d {
+  webkit-mask-image: linear-gradient(
+    130deg,
+    #000 55%,
+    rgba(0, 0, 0, 0.8) 75%,
+    #000 95%
+  );
+}
+.e {
+  -webkit-mask-image: linear-gradient(
+    130deg,
+    #000 55%,
+    rgba(0, 0, 0, 0.8) 75%,
+    #000 95%
+  );
+  mask-image: linear-gradient(
+    130deg,
+    #000 55%,
+    rgba(0, 0, 0, 0.8) 75%,
+    #000 95%
+  );
+}
+.f {
+  animation-name: k1;
+}
+.g {
+  animation-duration: 2s;
+}
+.h {
+  animation-iteration-count: infinite;
+}
+.i {
+  animation-timing-function: linear;
+}
+.j {
+  display: inline-block;
+}
+.k {
+  min-height: 0.6em;
+}
+.l {
+  vertical-align: middle;
+}
+.m {
+  cursor: wait;
+}
+.n {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.o {
+  width: 50%;
+}
+.p {
+  opacity: 0.5;
+}
+.q::before {
+  display: inline-block;
+}
+.r::before {
+  content:;
+}
+.s {
+  flex-grow: 0;
+}
+.t {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.u {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+
+<p data-testid="placeholder-text" class="a b c d e f g h i" aria-hidden="true">
+  <span class="j k l m n o p q r s t u"></span>
+</p>
+;;
+"
+`;
+
+exports[`components/Placeholder should render a placeholder 1`] = `
+".a {
+  color: #212529;
+}
+.b {
+  animation-duration: 2s;
+}
+.c {
+  animation-iteration-count: infinite;
+}
+.d {
+  animation-timing-function: linear;
+}
+.e {
+  display: inline-block;
+}
+.f {
+  min-height: 1em;
+}
+.g {
+  vertical-align: middle;
+}
+.h {
+  cursor: wait;
+}
+.i {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.j {
+  width: 50%;
+}
+.k {
+  opacity: 0.5;
+}
+.l::before {
+  display: inline-block;
+}
+.m::before {
+  content:;
+}
+.n {
+  flex-grow: 0;
+}
+.o {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.p {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+
+<p data-testid="placeholder-text" class="a b c d" aria-hidden="true">
+  <span class="e f g h i j k l m n o p"></span>
+</p>
+;
+"
+`;
+
+exports[`components/Placeholder should render a placeholder of variant default 1`] = `
+".a {
+  color: #212529;
+}
+.b {
+  animation-duration: 2s;
+}
+.c {
+  animation-iteration-count: infinite;
+}
+.d {
+  animation-timing-function: linear;
+}
+.e {
+  display: inline-block;
+}
+.f {
+  min-height: 1em;
+}
+.g {
+  vertical-align: middle;
+}
+.h {
+  cursor: wait;
+}
+.i {
+  -webkit-background-color: currentcolor;
+  background-color: currentcolor;
+}
+.j {
+  width: 50%;
+}
+.k {
+  opacity: 0.5;
+}
+.l::before {
+  display: inline-block;
+}
+.m::before {
+  content:;
+}
+.n {
+  flex-grow: 0;
+}
+.o {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.p {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+
+<p data-testid="placeholder-text" class="a b c d" aria-hidden="true">
+  <span class="e f g h i j k l m n o p"></span>
+</p>
+;
+"
+`;
+
+exports[`components/Placeholder should render a placeholder of variant primary 1`] = `
+".a {
+  color: #212529;
+}
+.b {
+  animation-duration: 2s;
+}
+.c {
+  animation-iteration-count: infinite;
+}
+.d {
+  animation-timing-function: linear;
+}
+.e {
+  display: inline-block;
+}
+.f {
+  min-height: 1em;
+}
+.g {
+  vertical-align: middle;
+}
+.h {
+  cursor: wait;
+}
+.i {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.j {
+  width: 50%;
+}
+.k {
+  opacity: 0.5;
+}
+.l::before {
+  display: inline-block;
+}
+.m::before {
+  content:;
+}
+.n {
+  flex-grow: 0;
+}
+.o {
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.p {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+
+<p data-testid="placeholder-text" class="a b c d" aria-hidden="true">
+  <span class="e f g h i j k l m n o p"></span>
+</p>
+;
+"
+`;

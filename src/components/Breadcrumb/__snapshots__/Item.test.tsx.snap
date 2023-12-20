@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Breadcrumb/Item should render an Item 1`] = `
+".a {
+  padding-left: 0.5rem;
+}
+.b {
+  float: left;
+}
+.c {
+  padding-right: 0.5rem;
+}
+.d {
+  color: rgba(33, 37, 41, 0.75);
+}
+.e {
+  font-weight: 500;
+}
+.f {
+  color: #646cff;
+}
+.h {
+  text-decoration-line: inherit;
+}
+.g:hover {
+  color: #535bf2;
+}
+
+
+<li data-testid="breadcrumb-item" class="a">
+  <span data-testid="breadcrumb-divider" aria-hidden="true" class="b c d"
+    >/</span
+  ><a data-testid="link" href="/home" target="" rel="" class="e f g h" title=""
+    >Home</a
+  >
+</li>
+;
+"
+`;
+
+exports[`components/Breadcrumb/Item should render an active item 1`] = `
+".a {
+  padding-left: 0.5rem;
+}
+.b {
+  color: rgba(33, 37, 41, 0.75);
+}
+.c {
+  float: left;
+}
+.d {
+  padding-right: 0.5rem;
+}
+
+
+<li
+  class="a b breadcrumb-active-item"
+  data-testid="breadcrumb-active-item"
+  aria-current="page"
+>
+  <span data-testid="breadcrumb-divider" aria-hidden="true" class="b c d"
+    >/</span
+  >Home
+</li>
+;
+"
+`;
+
+exports[`components/Breadcrumb/Item should render the first item 1`] = `
+".a {
+  padding-left: 0.5rem;
+}
+.b {
+  font-weight: 500;
+}
+.c {
+  color: #646cff;
+}
+.e {
+  text-decoration-line: inherit;
+}
+.d:hover {
+  color: #535bf2;
+}
+
+
+<li class="breadcrumb-first-item" data-testid="breadcrumb-first-item">
+  <a data-testid="link" href="/home" target="" rel="" class="b c d e">Home</a>
+</li>
+;
+"
+`;

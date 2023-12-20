@@ -1,0 +1,4912 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Offcanvas/Offcanvas should render an offcanvas 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: hidden;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  top: 0;
+}
+.l {
+  left: 0;
+}
+.m {
+  width: 400px;
+}
+.n {
+  transform: translateX(-100%);
+}
+.o {
+  border-right-width: 1px;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.r {
+  transition-property: transform;
+}
+.s {
+  transition-duration: 0.3s;
+}
+.t {
+  transition-delay: ease-in-out;
+}
+.u {
+  transition-timing-function: ease;
+}
+.v {
+  outline-width: 0;
+}
+.w {
+  display: none;
+}
+.x {
+  align-items: center;
+}
+.y {
+  justify-content: space-between;
+}
+.z {
+  padding-top: 1rem;
+}
+.ab {
+  padding-right: 1rem;
+}
+.ac {
+  padding-bottom: 1rem;
+}
+.ae {
+  padding-left: 1rem;
+}
+.af {
+  margin-bottom: 0;
+}
+.ag {
+  line-height: 1.5;
+}
+.ah {
+  border-top-left-radius: 0.375rem;
+}
+.ai {
+  border-top-right-radius: 0.375rem;
+}
+.aj {
+  border-bottom-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-left-radius: 0.375rem;
+}
+.al {
+  background-color: transparent;
+}
+.am {
+  background-image: url(test-file-stub);
+}
+.an {
+  background-position-x: center;
+}
+.ao {
+  background-origin: padding-box;
+}
+.ap {
+  background-clip: border-box;
+}
+.aq {
+  background-position-y: 1em;
+}
+.ar {
+  background-repeat: no-repeat;
+}
+.as {
+  background-size: auto;
+}
+.at {
+  box-sizing: content-box;
+}
+.au {
+  color: #000;
+}
+.av {
+  height: 1em;
+}
+.aw {
+  opacity: 0.5;
+}
+.ax {
+  padding-top: 10px;
+}
+.ay {
+  padding-bottom: 10px;
+}
+.az {
+  padding-left: 0.25em;
+}
+.ba {
+  padding-right: 0.25em;
+}
+.bb {
+  width: 1em;
+}
+.bf:disabled {
+  opacity: 0.25;
+}
+.bg:disabled {
+  pointer-events: none;
+}
+.bh:disabled {
+  user-select: none;
+}
+.bi {
+  margin-top: calc(-0.5 * 1rem);
+}
+.bj {
+  margin-right: calc(-0.5 * 1rem);
+}
+.bk {
+  margin-bottom: calc(-0.5 * 1rem);
+}
+.bl {
+  border-top-width: 0;
+}
+.bm {
+  border-right-width: 0;
+}
+.bn {
+  border-bottom-width: 0;
+}
+.bo {
+  border-left-width: 0;
+}
+.bp {
+  border-top-color: rgb(0, 0, 0);
+}
+.bq {
+  border-right-color: rgb(0, 0, 0);
+}
+.br {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bs {
+  border-left-color: rgb(0, 0, 0);
+}
+.bt {
+  flex-grow: 1;
+}
+.bu {
+  overflow-y: auto;
+}
+.bc:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bd:focus {
+  opacity: 1;
+}
+.be:focus {
+  outline-width: 0;
+}
+
+
+<div id="example-offcanvas-wrapper">
+  <div
+    data-testid="offcanvas-wrapper"
+    class="a b c d e f g h i j k l m n o p q r s t u v offcanvas offcanvas-start"
+    tabindex="-1"
+    id="example-offcanvas"
+    aria-labelledby="example-offcanvas-title"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateX(-100%);
+      visibility: hidden;
+    "
+  >
+    <div
+      data-testid="offcanvas-header"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateX(-100%);
+        visibility: hidden;
+      "
+      class="ab ac ae w x y z offcanvas-header"
+    >
+      <h5
+        data-testid="offcanvas-title"
+        class="af ag offcanvas-title"
+        id="example-offcanvas-title"
+      >
+        Offcanvas
+      </h5>
+      <button
+        data-testid="offcanvas-close-button"
+        type="button"
+        class="ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs offcanvas-btn-close"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div
+      data-testid="offcanvas-body"
+      class="ab ac ae bt bu z offcanvas-body"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateX(-100%);
+        visibility: hidden;
+      "
+    >
+      Offcanvas Example Body
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Offcanvas should render an offcanvas at placement bottom 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: hidden;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  right: 0;
+}
+.l {
+  left: 0;
+}
+.m {
+  height: auto;
+}
+.n {
+  max-height: 100%;
+}
+.o {
+  transform: translateY(100%);
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-top-style: solid;
+}
+.r {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.s {
+  transition-property: transform;
+}
+.t {
+  transition-duration: 0.3s;
+}
+.u {
+  transition-delay: ease-in-out;
+}
+.v {
+  transition-timing-function: ease;
+}
+.w {
+  outline-width: 0;
+}
+.x {
+  display: none;
+}
+.y {
+  align-items: center;
+}
+.z {
+  justify-content: space-between;
+}
+.ab {
+  padding-top: 1rem;
+}
+.ac {
+  padding-right: 1rem;
+}
+.ae {
+  padding-bottom: 1rem;
+}
+.af {
+  padding-left: 1rem;
+}
+.ag {
+  margin-bottom: 0;
+}
+.ah {
+  line-height: 1.5;
+}
+.ai {
+  border-top-left-radius: 0.375rem;
+}
+.aj {
+  border-top-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-right-radius: 0.375rem;
+}
+.al {
+  border-bottom-left-radius: 0.375rem;
+}
+.am {
+  background-color: transparent;
+}
+.an {
+  background-image: url(test-file-stub);
+}
+.ao {
+  background-position-x: center;
+}
+.ap {
+  background-origin: padding-box;
+}
+.aq {
+  background-clip: border-box;
+}
+.ar {
+  background-position-y: 1em;
+}
+.as {
+  background-repeat: no-repeat;
+}
+.at {
+  background-size: auto;
+}
+.au {
+  box-sizing: content-box;
+}
+.av {
+  color: #000;
+}
+.aw {
+  height: 1em;
+}
+.ax {
+  opacity: 0.5;
+}
+.ay {
+  padding-top: 10px;
+}
+.az {
+  padding-bottom: 10px;
+}
+.ba {
+  padding-left: 0.25em;
+}
+.bb {
+  padding-right: 0.25em;
+}
+.bc {
+  width: 1em;
+}
+.bg:disabled {
+  opacity: 0.25;
+}
+.bh:disabled {
+  pointer-events: none;
+}
+.bi:disabled {
+  user-select: none;
+}
+.bj {
+  margin-top: calc(-0.5 * 1rem);
+}
+.bk {
+  margin-right: calc(-0.5 * 1rem);
+}
+.bl {
+  margin-bottom: calc(-0.5 * 1rem);
+}
+.bm {
+  border-top-width: 0;
+}
+.bn {
+  border-right-width: 0;
+}
+.bo {
+  border-bottom-width: 0;
+}
+.bp {
+  border-left-width: 0;
+}
+.bq {
+  border-top-color: rgb(0, 0, 0);
+}
+.br {
+  border-right-color: rgb(0, 0, 0);
+}
+.bs {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bt {
+  border-left-color: rgb(0, 0, 0);
+}
+.bu {
+  flex-grow: 1;
+}
+.bv {
+  overflow-y: auto;
+}
+.bd:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.be:focus {
+  opacity: 1;
+}
+.bf:focus {
+  outline-width: 0;
+}
+
+
+<div id="example-offcanvas-wrapper">
+  <div
+    data-testid="offcanvas-wrapper"
+    class="a b c d e f g h i j k l m n o p q r s t u v w offcanvas offcanvas-bottom"
+    tabindex="-1"
+    id="example-offcanvas"
+    aria-labelledby="example-offcanvas-title"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateY(100%);
+      visibility: hidden;
+    "
+  >
+    <div
+      data-testid="offcanvas-header"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateY(100%);
+        visibility: hidden;
+      "
+      class="ab ac ae af x y z offcanvas-header"
+    >
+      <h5
+        data-testid="offcanvas-title"
+        class="ag ah offcanvas-title"
+        id="example-offcanvas-title"
+      >
+        Offcanvas
+      </h5>
+      <button
+        data-testid="offcanvas-close-button"
+        type="button"
+        class="ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt offcanvas-btn-close"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div
+      data-testid="offcanvas-body"
+      class="ab ac ae af bu bv offcanvas-body"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateY(100%);
+        visibility: hidden;
+      "
+    >
+      Offcanvas Example Body
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Offcanvas should render an offcanvas at placement end 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: hidden;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  top: 0;
+}
+.l {
+  right: 0;
+}
+.m {
+  width: 400px;
+}
+.n {
+  transform: translateX(100%);
+}
+.o {
+  transition-property: transform;
+}
+.p {
+  transition-duration: 0.3s;
+}
+.q {
+  transition-delay: ease-in-out;
+}
+.r {
+  transition-timing-function: ease;
+}
+.s {
+  outline-width: 0;
+}
+.t {
+  border-left-width: 1px;
+}
+.u {
+  border-left-style: solid;
+}
+.v {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.w {
+  display: none;
+}
+.x {
+  align-items: center;
+}
+.y {
+  justify-content: space-between;
+}
+.z {
+  padding-top: 1rem;
+}
+.ab {
+  padding-right: 1rem;
+}
+.ac {
+  padding-bottom: 1rem;
+}
+.ae {
+  padding-left: 1rem;
+}
+.af {
+  margin-bottom: 0;
+}
+.ag {
+  line-height: 1.5;
+}
+.ah {
+  border-top-left-radius: 0.375rem;
+}
+.ai {
+  border-top-right-radius: 0.375rem;
+}
+.aj {
+  border-bottom-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-left-radius: 0.375rem;
+}
+.al {
+  background-color: transparent;
+}
+.am {
+  background-image: url(test-file-stub);
+}
+.an {
+  background-position-x: center;
+}
+.ao {
+  background-origin: padding-box;
+}
+.ap {
+  background-clip: border-box;
+}
+.aq {
+  background-position-y: 1em;
+}
+.ar {
+  background-repeat: no-repeat;
+}
+.as {
+  background-size: auto;
+}
+.at {
+  box-sizing: content-box;
+}
+.au {
+  color: #000;
+}
+.av {
+  height: 1em;
+}
+.aw {
+  opacity: 0.5;
+}
+.ax {
+  padding-top: 10px;
+}
+.ay {
+  padding-bottom: 10px;
+}
+.az {
+  padding-left: 0.25em;
+}
+.ba {
+  padding-right: 0.25em;
+}
+.bb {
+  width: 1em;
+}
+.bf:disabled {
+  opacity: 0.25;
+}
+.bg:disabled {
+  pointer-events: none;
+}
+.bh:disabled {
+  user-select: none;
+}
+.bi {
+  margin-top: calc(-0.5 * 1rem);
+}
+.bj {
+  margin-right: calc(-0.5 * 1rem);
+}
+.bk {
+  margin-bottom: calc(-0.5 * 1rem);
+}
+.bl {
+  border-top-width: 0;
+}
+.bm {
+  border-right-width: 0;
+}
+.bn {
+  border-bottom-width: 0;
+}
+.bo {
+  border-left-width: 0;
+}
+.bp {
+  border-top-color: rgb(0, 0, 0);
+}
+.bq {
+  border-right-color: rgb(0, 0, 0);
+}
+.br {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bs {
+  border-left-color: rgb(0, 0, 0);
+}
+.bt {
+  flex-grow: 1;
+}
+.bu {
+  overflow-y: auto;
+}
+.bc:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bd:focus {
+  opacity: 1;
+}
+.be:focus {
+  outline-width: 0;
+}
+
+
+<div id="example-offcanvas-wrapper">
+  <div
+    data-testid="offcanvas-wrapper"
+    class="a b c d e f g h i j k l m n o p q r s t u v offcanvas offcanvas-end"
+    tabindex="-1"
+    id="example-offcanvas"
+    aria-labelledby="example-offcanvas-title"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateX(100%);
+      visibility: hidden;
+    "
+  >
+    <div
+      data-testid="offcanvas-header"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateX(100%);
+        visibility: hidden;
+      "
+      class="ab ac ae w x y z offcanvas-header"
+    >
+      <h5
+        data-testid="offcanvas-title"
+        class="af ag offcanvas-title"
+        id="example-offcanvas-title"
+      >
+        Offcanvas
+      </h5>
+      <button
+        data-testid="offcanvas-close-button"
+        type="button"
+        class="ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs offcanvas-btn-close"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div
+      data-testid="offcanvas-body"
+      class="ab ac ae bt bu z offcanvas-body"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateX(100%);
+        visibility: hidden;
+      "
+    >
+      Offcanvas Example Body
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Offcanvas should render an offcanvas at placement start 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: hidden;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  top: 0;
+}
+.l {
+  left: 0;
+}
+.m {
+  width: 400px;
+}
+.n {
+  transform: translateX(-100%);
+}
+.o {
+  border-right-width: 1px;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.r {
+  transition-property: transform;
+}
+.s {
+  transition-duration: 0.3s;
+}
+.t {
+  transition-delay: ease-in-out;
+}
+.u {
+  transition-timing-function: ease;
+}
+.v {
+  outline-width: 0;
+}
+.w {
+  display: none;
+}
+.x {
+  align-items: center;
+}
+.y {
+  justify-content: space-between;
+}
+.z {
+  padding-top: 1rem;
+}
+.ab {
+  padding-right: 1rem;
+}
+.ac {
+  padding-bottom: 1rem;
+}
+.ae {
+  padding-left: 1rem;
+}
+.af {
+  margin-bottom: 0;
+}
+.ag {
+  line-height: 1.5;
+}
+.ah {
+  border-top-left-radius: 0.375rem;
+}
+.ai {
+  border-top-right-radius: 0.375rem;
+}
+.aj {
+  border-bottom-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-left-radius: 0.375rem;
+}
+.al {
+  background-color: transparent;
+}
+.am {
+  background-image: url(test-file-stub);
+}
+.an {
+  background-position-x: center;
+}
+.ao {
+  background-origin: padding-box;
+}
+.ap {
+  background-clip: border-box;
+}
+.aq {
+  background-position-y: 1em;
+}
+.ar {
+  background-repeat: no-repeat;
+}
+.as {
+  background-size: auto;
+}
+.at {
+  box-sizing: content-box;
+}
+.au {
+  color: #000;
+}
+.av {
+  height: 1em;
+}
+.aw {
+  opacity: 0.5;
+}
+.ax {
+  padding-top: 10px;
+}
+.ay {
+  padding-bottom: 10px;
+}
+.az {
+  padding-left: 0.25em;
+}
+.ba {
+  padding-right: 0.25em;
+}
+.bb {
+  width: 1em;
+}
+.bf:disabled {
+  opacity: 0.25;
+}
+.bg:disabled {
+  pointer-events: none;
+}
+.bh:disabled {
+  user-select: none;
+}
+.bi {
+  margin-top: calc(-0.5 * 1rem);
+}
+.bj {
+  margin-right: calc(-0.5 * 1rem);
+}
+.bk {
+  margin-bottom: calc(-0.5 * 1rem);
+}
+.bl {
+  border-top-width: 0;
+}
+.bm {
+  border-right-width: 0;
+}
+.bn {
+  border-bottom-width: 0;
+}
+.bo {
+  border-left-width: 0;
+}
+.bp {
+  border-top-color: rgb(0, 0, 0);
+}
+.bq {
+  border-right-color: rgb(0, 0, 0);
+}
+.br {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bs {
+  border-left-color: rgb(0, 0, 0);
+}
+.bt {
+  flex-grow: 1;
+}
+.bu {
+  overflow-y: auto;
+}
+.bc:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bd:focus {
+  opacity: 1;
+}
+.be:focus {
+  outline-width: 0;
+}
+
+
+<div id="example-offcanvas-wrapper">
+  <div
+    data-testid="offcanvas-wrapper"
+    class="a b c d e f g h i j k l m n o p q r s t u v offcanvas offcanvas-start"
+    tabindex="-1"
+    id="example-offcanvas"
+    aria-labelledby="example-offcanvas-title"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateX(-100%);
+      visibility: hidden;
+    "
+  >
+    <div
+      data-testid="offcanvas-header"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateX(-100%);
+        visibility: hidden;
+      "
+      class="ab ac ae w x y z offcanvas-header"
+    >
+      <h5
+        data-testid="offcanvas-title"
+        class="af ag offcanvas-title"
+        id="example-offcanvas-title"
+      >
+        Offcanvas
+      </h5>
+      <button
+        data-testid="offcanvas-close-button"
+        type="button"
+        class="ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs offcanvas-btn-close"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div
+      data-testid="offcanvas-body"
+      class="ab ac ae bt bu z offcanvas-body"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateX(-100%);
+        visibility: hidden;
+      "
+    >
+      Offcanvas Example Body
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Offcanvas should render an offcanvas at placement top 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: hidden;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  top: 0;
+}
+.l {
+  right: 0;
+}
+.m {
+  left: 0;
+}
+.n {
+  height: auto;
+}
+.o {
+  max-height: 100%;
+}
+.p {
+  transform: translateY(-100%);
+}
+.q {
+  border-bottom-width: 1px;
+}
+.r {
+  border-bottom-style: solid;
+}
+.s {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.t {
+  transition-property: transform;
+}
+.u {
+  transition-duration: 0.3s;
+}
+.v {
+  transition-delay: ease-in-out;
+}
+.w {
+  transition-timing-function: ease;
+}
+.x {
+  outline-width: 0;
+}
+.y {
+  display: none;
+}
+.z {
+  align-items: center;
+}
+.ab {
+  justify-content: space-between;
+}
+.ac {
+  padding-top: 1rem;
+}
+.ae {
+  padding-right: 1rem;
+}
+.af {
+  padding-bottom: 1rem;
+}
+.ag {
+  padding-left: 1rem;
+}
+.ah {
+  margin-bottom: 0;
+}
+.ai {
+  line-height: 1.5;
+}
+.aj {
+  border-top-left-radius: 0.375rem;
+}
+.ak {
+  border-top-right-radius: 0.375rem;
+}
+.al {
+  border-bottom-right-radius: 0.375rem;
+}
+.am {
+  border-bottom-left-radius: 0.375rem;
+}
+.an {
+  background-color: transparent;
+}
+.ao {
+  background-image: url(test-file-stub);
+}
+.ap {
+  background-position-x: center;
+}
+.aq {
+  background-origin: padding-box;
+}
+.ar {
+  background-clip: border-box;
+}
+.as {
+  background-position-y: 1em;
+}
+.at {
+  background-repeat: no-repeat;
+}
+.au {
+  background-size: auto;
+}
+.av {
+  box-sizing: content-box;
+}
+.aw {
+  color: #000;
+}
+.ax {
+  height: 1em;
+}
+.ay {
+  opacity: 0.5;
+}
+.az {
+  padding-top: 10px;
+}
+.ba {
+  padding-bottom: 10px;
+}
+.bb {
+  padding-left: 0.25em;
+}
+.bc {
+  padding-right: 0.25em;
+}
+.bd {
+  width: 1em;
+}
+.bh:disabled {
+  opacity: 0.25;
+}
+.bi:disabled {
+  pointer-events: none;
+}
+.bj:disabled {
+  user-select: none;
+}
+.bk {
+  margin-top: calc(-0.5 * 1rem);
+}
+.bl {
+  margin-right: calc(-0.5 * 1rem);
+}
+.bm {
+  margin-bottom: calc(-0.5 * 1rem);
+}
+.bn {
+  border-top-width: 0;
+}
+.bo {
+  border-right-width: 0;
+}
+.bp {
+  border-bottom-width: 0;
+}
+.bq {
+  border-left-width: 0;
+}
+.br {
+  border-top-color: rgb(0, 0, 0);
+}
+.bs {
+  border-right-color: rgb(0, 0, 0);
+}
+.bt {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bu {
+  border-left-color: rgb(0, 0, 0);
+}
+.bv {
+  flex-grow: 1;
+}
+.bw {
+  overflow-y: auto;
+}
+.be:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bf:focus {
+  opacity: 1;
+}
+.bg:focus {
+  outline-width: 0;
+}
+
+
+<div id="example-offcanvas-wrapper">
+  <div
+    data-testid="offcanvas-wrapper"
+    class="a b c d e f g h i j k l m n o p q r s t u v w x offcanvas offcanvas-top"
+    tabindex="-1"
+    id="example-offcanvas"
+    aria-labelledby="example-offcanvas-title"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateY(-100%);
+      visibility: hidden;
+    "
+  >
+    <div
+      data-testid="offcanvas-header"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateY(-100%);
+        visibility: hidden;
+      "
+      class="ab ac ae af ag y z offcanvas-header"
+    >
+      <h5
+        data-testid="offcanvas-title"
+        class="ah ai offcanvas-title"
+        id="example-offcanvas-title"
+      >
+        Offcanvas
+      </h5>
+      <button
+        data-testid="offcanvas-close-button"
+        type="button"
+        class="aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu offcanvas-btn-close"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div
+      data-testid="offcanvas-body"
+      class="ac ae af ag bv bw offcanvas-body"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateY(-100%);
+        visibility: hidden;
+      "
+    >
+      Offcanvas Example Body
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Offcanvas should render an offcanvas with a backdrop 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: hidden;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  top: 0;
+}
+.l {
+  left: 0;
+}
+.m {
+  width: 400px;
+}
+.n {
+  transform: translateX(-100%);
+}
+.o {
+  border-right-width: 1px;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.r {
+  transition-property: transform;
+}
+.s {
+  transition-duration: 0.3s;
+}
+.t {
+  transition-delay: ease-in-out;
+}
+.u {
+  transition-timing-function: ease;
+}
+.v {
+  outline-width: 0;
+}
+.w {
+  display: none;
+}
+.x {
+  align-items: center;
+}
+.y {
+  justify-content: space-between;
+}
+.z {
+  padding-top: 1rem;
+}
+.ab {
+  padding-right: 1rem;
+}
+.ac {
+  padding-bottom: 1rem;
+}
+.ae {
+  padding-left: 1rem;
+}
+.af {
+  margin-bottom: 0;
+}
+.ag {
+  line-height: 1.5;
+}
+.ah {
+  border-top-left-radius: 0.375rem;
+}
+.ai {
+  border-top-right-radius: 0.375rem;
+}
+.aj {
+  border-bottom-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-left-radius: 0.375rem;
+}
+.al {
+  background-color: transparent;
+}
+.am {
+  background-image: url(test-file-stub);
+}
+.an {
+  background-position-x: center;
+}
+.ao {
+  background-origin: padding-box;
+}
+.ap {
+  background-clip: border-box;
+}
+.aq {
+  background-position-y: 1em;
+}
+.ar {
+  background-repeat: no-repeat;
+}
+.as {
+  background-size: auto;
+}
+.at {
+  box-sizing: content-box;
+}
+.au {
+  color: #000;
+}
+.av {
+  height: 1em;
+}
+.aw {
+  opacity: 0.5;
+}
+.ax {
+  padding-top: 10px;
+}
+.ay {
+  padding-bottom: 10px;
+}
+.az {
+  padding-left: 0.25em;
+}
+.ba {
+  padding-right: 0.25em;
+}
+.bb {
+  width: 1em;
+}
+.bf:disabled {
+  opacity: 0.25;
+}
+.bg:disabled {
+  pointer-events: none;
+}
+.bh:disabled {
+  user-select: none;
+}
+.bi {
+  margin-top: calc(-0.5 * 1rem);
+}
+.bj {
+  margin-right: calc(-0.5 * 1rem);
+}
+.bk {
+  margin-bottom: calc(-0.5 * 1rem);
+}
+.bl {
+  border-top-width: 0;
+}
+.bm {
+  border-right-width: 0;
+}
+.bn {
+  border-bottom-width: 0;
+}
+.bo {
+  border-left-width: 0;
+}
+.bp {
+  border-top-color: rgb(0, 0, 0);
+}
+.bq {
+  border-right-color: rgb(0, 0, 0);
+}
+.br {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bs {
+  border-left-color: rgb(0, 0, 0);
+}
+.bt {
+  flex-grow: 1;
+}
+.bu {
+  overflow-y: auto;
+}
+.bv {
+  opacity: 0;
+}
+.bw {
+  z-index: 1040;
+}
+.bx {
+  width: 100vw;
+}
+.by {
+  height: 100vh;
+}
+.bz {
+  background-color: #000;
+}
+.bc:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bd:focus {
+  opacity: 1;
+}
+.be:focus {
+  outline-width: 0;
+}
+
+
+<div id="example-offcanvas-wrapper-with-backdrop">
+  <div
+    data-testid="offcanvas-wrapper"
+    class="a b c d e f g h i j k l m n o p q r s t u v offcanvas offcanvas-start"
+    tabindex="-1"
+    id="example-offcanvas"
+    aria-labelledby="example-offcanvas-title"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateX(-100%);
+      visibility: hidden;
+      display: block;
+    "
+  >
+    <div
+      data-testid="offcanvas-header"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateX(-100%);
+        visibility: hidden;
+        display: block;
+      "
+      class="ab ac ae w x y z offcanvas-header"
+    >
+      <h5
+        data-testid="offcanvas-title"
+        class="af ag offcanvas-title"
+        id="example-offcanvas-title"
+      >
+        Offcanvas
+      </h5>
+      <button
+        data-testid="offcanvas-close-button"
+        type="button"
+        class="ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs offcanvas-btn-close"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div
+      data-testid="offcanvas-body"
+      class="ab ac ae bt bu z offcanvas-body"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateX(-100%);
+        visibility: hidden;
+        display: block;
+      "
+    >
+      Offcanvas Example Body
+    </div>
+  </div>
+  <div
+    data-testid="offcanvas-backdrop"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateX(-100%);
+      visibility: hidden;
+      display: block;
+    "
+    class="a bv bw bx by bz k l offcanvas-backdrop"
+  ></div>
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Offcanvas should render an offcanvas with a backdrop at placement bottom 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: hidden;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  right: 0;
+}
+.l {
+  left: 0;
+}
+.m {
+  height: auto;
+}
+.n {
+  max-height: 100%;
+}
+.o {
+  transform: translateY(100%);
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-top-style: solid;
+}
+.r {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.s {
+  transition-property: transform;
+}
+.t {
+  transition-duration: 0.3s;
+}
+.u {
+  transition-delay: ease-in-out;
+}
+.v {
+  transition-timing-function: ease;
+}
+.w {
+  outline-width: 0;
+}
+.x {
+  display: none;
+}
+.y {
+  align-items: center;
+}
+.z {
+  justify-content: space-between;
+}
+.ab {
+  padding-top: 1rem;
+}
+.ac {
+  padding-right: 1rem;
+}
+.ae {
+  padding-bottom: 1rem;
+}
+.af {
+  padding-left: 1rem;
+}
+.ag {
+  margin-bottom: 0;
+}
+.ah {
+  line-height: 1.5;
+}
+.ai {
+  border-top-left-radius: 0.375rem;
+}
+.aj {
+  border-top-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-right-radius: 0.375rem;
+}
+.al {
+  border-bottom-left-radius: 0.375rem;
+}
+.am {
+  background-color: transparent;
+}
+.an {
+  background-image: url(test-file-stub);
+}
+.ao {
+  background-position-x: center;
+}
+.ap {
+  background-origin: padding-box;
+}
+.aq {
+  background-clip: border-box;
+}
+.ar {
+  background-position-y: 1em;
+}
+.as {
+  background-repeat: no-repeat;
+}
+.at {
+  background-size: auto;
+}
+.au {
+  box-sizing: content-box;
+}
+.av {
+  color: #000;
+}
+.aw {
+  height: 1em;
+}
+.ax {
+  opacity: 0.5;
+}
+.ay {
+  padding-top: 10px;
+}
+.az {
+  padding-bottom: 10px;
+}
+.ba {
+  padding-left: 0.25em;
+}
+.bb {
+  padding-right: 0.25em;
+}
+.bc {
+  width: 1em;
+}
+.bg:disabled {
+  opacity: 0.25;
+}
+.bh:disabled {
+  pointer-events: none;
+}
+.bi:disabled {
+  user-select: none;
+}
+.bj {
+  margin-top: calc(-0.5 * 1rem);
+}
+.bk {
+  margin-right: calc(-0.5 * 1rem);
+}
+.bl {
+  margin-bottom: calc(-0.5 * 1rem);
+}
+.bm {
+  border-top-width: 0;
+}
+.bn {
+  border-right-width: 0;
+}
+.bo {
+  border-bottom-width: 0;
+}
+.bp {
+  border-left-width: 0;
+}
+.bq {
+  border-top-color: rgb(0, 0, 0);
+}
+.br {
+  border-right-color: rgb(0, 0, 0);
+}
+.bs {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bt {
+  border-left-color: rgb(0, 0, 0);
+}
+.bu {
+  flex-grow: 1;
+}
+.bv {
+  overflow-y: auto;
+}
+.bw {
+  opacity: 0;
+}
+.bx {
+  top: 0;
+}
+.by {
+  z-index: 1040;
+}
+.bz {
+  width: 100vw;
+}
+.ca {
+  height: 100vh;
+}
+.cb {
+  background-color: #000;
+}
+.bd:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.be:focus {
+  opacity: 1;
+}
+.bf:focus {
+  outline-width: 0;
+}
+
+
+<div id="example-offcanvas-wrapper-with-backdrop">
+  <div
+    data-testid="offcanvas-wrapper"
+    class="a b c d e f g h i j k l m n o p q r s t u v w offcanvas offcanvas-bottom"
+    tabindex="-1"
+    id="example-offcanvas"
+    aria-labelledby="example-offcanvas-title"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateY(100%);
+      visibility: hidden;
+      display: block;
+    "
+  >
+    <div
+      data-testid="offcanvas-header"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateY(100%);
+        visibility: hidden;
+        display: block;
+      "
+      class="ab ac ae af x y z offcanvas-header"
+    >
+      <h5
+        data-testid="offcanvas-title"
+        class="ag ah offcanvas-title"
+        id="example-offcanvas-title"
+      >
+        Offcanvas
+      </h5>
+      <button
+        data-testid="offcanvas-close-button"
+        type="button"
+        class="ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt offcanvas-btn-close"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div
+      data-testid="offcanvas-body"
+      class="ab ac ae af bu bv offcanvas-body"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateY(100%);
+        visibility: hidden;
+        display: block;
+      "
+    >
+      Offcanvas Example Body
+    </div>
+  </div>
+  <div
+    data-testid="offcanvas-backdrop"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateY(100%);
+      visibility: hidden;
+      display: block;
+    "
+    class="a bw bx by bz ca cb l offcanvas-backdrop"
+  ></div>
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Offcanvas should render an offcanvas with a backdrop at placement end 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: hidden;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  top: 0;
+}
+.l {
+  right: 0;
+}
+.m {
+  width: 400px;
+}
+.n {
+  transform: translateX(100%);
+}
+.o {
+  transition-property: transform;
+}
+.p {
+  transition-duration: 0.3s;
+}
+.q {
+  transition-delay: ease-in-out;
+}
+.r {
+  transition-timing-function: ease;
+}
+.s {
+  outline-width: 0;
+}
+.t {
+  border-left-width: 1px;
+}
+.u {
+  border-left-style: solid;
+}
+.v {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.w {
+  display: none;
+}
+.x {
+  align-items: center;
+}
+.y {
+  justify-content: space-between;
+}
+.z {
+  padding-top: 1rem;
+}
+.ab {
+  padding-right: 1rem;
+}
+.ac {
+  padding-bottom: 1rem;
+}
+.ae {
+  padding-left: 1rem;
+}
+.af {
+  margin-bottom: 0;
+}
+.ag {
+  line-height: 1.5;
+}
+.ah {
+  border-top-left-radius: 0.375rem;
+}
+.ai {
+  border-top-right-radius: 0.375rem;
+}
+.aj {
+  border-bottom-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-left-radius: 0.375rem;
+}
+.al {
+  background-color: transparent;
+}
+.am {
+  background-image: url(test-file-stub);
+}
+.an {
+  background-position-x: center;
+}
+.ao {
+  background-origin: padding-box;
+}
+.ap {
+  background-clip: border-box;
+}
+.aq {
+  background-position-y: 1em;
+}
+.ar {
+  background-repeat: no-repeat;
+}
+.as {
+  background-size: auto;
+}
+.at {
+  box-sizing: content-box;
+}
+.au {
+  color: #000;
+}
+.av {
+  height: 1em;
+}
+.aw {
+  opacity: 0.5;
+}
+.ax {
+  padding-top: 10px;
+}
+.ay {
+  padding-bottom: 10px;
+}
+.az {
+  padding-left: 0.25em;
+}
+.ba {
+  padding-right: 0.25em;
+}
+.bb {
+  width: 1em;
+}
+.bf:disabled {
+  opacity: 0.25;
+}
+.bg:disabled {
+  pointer-events: none;
+}
+.bh:disabled {
+  user-select: none;
+}
+.bi {
+  margin-top: calc(-0.5 * 1rem);
+}
+.bj {
+  margin-right: calc(-0.5 * 1rem);
+}
+.bk {
+  margin-bottom: calc(-0.5 * 1rem);
+}
+.bl {
+  border-top-width: 0;
+}
+.bm {
+  border-right-width: 0;
+}
+.bn {
+  border-bottom-width: 0;
+}
+.bo {
+  border-left-width: 0;
+}
+.bp {
+  border-top-color: rgb(0, 0, 0);
+}
+.bq {
+  border-right-color: rgb(0, 0, 0);
+}
+.br {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bs {
+  border-left-color: rgb(0, 0, 0);
+}
+.bt {
+  flex-grow: 1;
+}
+.bu {
+  overflow-y: auto;
+}
+.bv {
+  opacity: 0;
+}
+.bw {
+  left: 0;
+}
+.bx {
+  z-index: 1040;
+}
+.by {
+  width: 100vw;
+}
+.bz {
+  height: 100vh;
+}
+.ca {
+  background-color: #000;
+}
+.bc:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bd:focus {
+  opacity: 1;
+}
+.be:focus {
+  outline-width: 0;
+}
+
+
+<div id="example-offcanvas-wrapper-with-backdrop">
+  <div
+    data-testid="offcanvas-wrapper"
+    class="a b c d e f g h i j k l m n o p q r s t u v offcanvas offcanvas-end"
+    tabindex="-1"
+    id="example-offcanvas"
+    aria-labelledby="example-offcanvas-title"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateX(100%);
+      visibility: hidden;
+      display: block;
+    "
+  >
+    <div
+      data-testid="offcanvas-header"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateX(100%);
+        visibility: hidden;
+        display: block;
+      "
+      class="ab ac ae w x y z offcanvas-header"
+    >
+      <h5
+        data-testid="offcanvas-title"
+        class="af ag offcanvas-title"
+        id="example-offcanvas-title"
+      >
+        Offcanvas
+      </h5>
+      <button
+        data-testid="offcanvas-close-button"
+        type="button"
+        class="ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs offcanvas-btn-close"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div
+      data-testid="offcanvas-body"
+      class="ab ac ae bt bu z offcanvas-body"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateX(100%);
+        visibility: hidden;
+        display: block;
+      "
+    >
+      Offcanvas Example Body
+    </div>
+  </div>
+  <div
+    data-testid="offcanvas-backdrop"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateX(100%);
+      visibility: hidden;
+      display: block;
+    "
+    class="a bv bw bx by bz ca k offcanvas-backdrop"
+  ></div>
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Offcanvas should render an offcanvas with a backdrop at placement start 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: hidden;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  top: 0;
+}
+.l {
+  left: 0;
+}
+.m {
+  width: 400px;
+}
+.n {
+  transform: translateX(-100%);
+}
+.o {
+  border-right-width: 1px;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.r {
+  transition-property: transform;
+}
+.s {
+  transition-duration: 0.3s;
+}
+.t {
+  transition-delay: ease-in-out;
+}
+.u {
+  transition-timing-function: ease;
+}
+.v {
+  outline-width: 0;
+}
+.w {
+  display: none;
+}
+.x {
+  align-items: center;
+}
+.y {
+  justify-content: space-between;
+}
+.z {
+  padding-top: 1rem;
+}
+.ab {
+  padding-right: 1rem;
+}
+.ac {
+  padding-bottom: 1rem;
+}
+.ae {
+  padding-left: 1rem;
+}
+.af {
+  margin-bottom: 0;
+}
+.ag {
+  line-height: 1.5;
+}
+.ah {
+  border-top-left-radius: 0.375rem;
+}
+.ai {
+  border-top-right-radius: 0.375rem;
+}
+.aj {
+  border-bottom-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-left-radius: 0.375rem;
+}
+.al {
+  background-color: transparent;
+}
+.am {
+  background-image: url(test-file-stub);
+}
+.an {
+  background-position-x: center;
+}
+.ao {
+  background-origin: padding-box;
+}
+.ap {
+  background-clip: border-box;
+}
+.aq {
+  background-position-y: 1em;
+}
+.ar {
+  background-repeat: no-repeat;
+}
+.as {
+  background-size: auto;
+}
+.at {
+  box-sizing: content-box;
+}
+.au {
+  color: #000;
+}
+.av {
+  height: 1em;
+}
+.aw {
+  opacity: 0.5;
+}
+.ax {
+  padding-top: 10px;
+}
+.ay {
+  padding-bottom: 10px;
+}
+.az {
+  padding-left: 0.25em;
+}
+.ba {
+  padding-right: 0.25em;
+}
+.bb {
+  width: 1em;
+}
+.bf:disabled {
+  opacity: 0.25;
+}
+.bg:disabled {
+  pointer-events: none;
+}
+.bh:disabled {
+  user-select: none;
+}
+.bi {
+  margin-top: calc(-0.5 * 1rem);
+}
+.bj {
+  margin-right: calc(-0.5 * 1rem);
+}
+.bk {
+  margin-bottom: calc(-0.5 * 1rem);
+}
+.bl {
+  border-top-width: 0;
+}
+.bm {
+  border-right-width: 0;
+}
+.bn {
+  border-bottom-width: 0;
+}
+.bo {
+  border-left-width: 0;
+}
+.bp {
+  border-top-color: rgb(0, 0, 0);
+}
+.bq {
+  border-right-color: rgb(0, 0, 0);
+}
+.br {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bs {
+  border-left-color: rgb(0, 0, 0);
+}
+.bt {
+  flex-grow: 1;
+}
+.bu {
+  overflow-y: auto;
+}
+.bv {
+  opacity: 0;
+}
+.bw {
+  z-index: 1040;
+}
+.bx {
+  width: 100vw;
+}
+.by {
+  height: 100vh;
+}
+.bz {
+  background-color: #000;
+}
+.bc:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bd:focus {
+  opacity: 1;
+}
+.be:focus {
+  outline-width: 0;
+}
+
+
+<div id="example-offcanvas-wrapper-with-backdrop">
+  <div
+    data-testid="offcanvas-wrapper"
+    class="a b c d e f g h i j k l m n o p q r s t u v offcanvas offcanvas-start"
+    tabindex="-1"
+    id="example-offcanvas"
+    aria-labelledby="example-offcanvas-title"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateX(-100%);
+      visibility: hidden;
+      display: block;
+    "
+  >
+    <div
+      data-testid="offcanvas-header"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateX(-100%);
+        visibility: hidden;
+        display: block;
+      "
+      class="ab ac ae w x y z offcanvas-header"
+    >
+      <h5
+        data-testid="offcanvas-title"
+        class="af ag offcanvas-title"
+        id="example-offcanvas-title"
+      >
+        Offcanvas
+      </h5>
+      <button
+        data-testid="offcanvas-close-button"
+        type="button"
+        class="ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs offcanvas-btn-close"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div
+      data-testid="offcanvas-body"
+      class="ab ac ae bt bu z offcanvas-body"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateX(-100%);
+        visibility: hidden;
+        display: block;
+      "
+    >
+      Offcanvas Example Body
+    </div>
+  </div>
+  <div
+    data-testid="offcanvas-backdrop"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateX(-100%);
+      visibility: hidden;
+      display: block;
+    "
+    class="a bv bw bx by bz k l offcanvas-backdrop"
+  ></div>
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Offcanvas should render an offcanvas with a backdrop at placement top 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: hidden;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  top: 0;
+}
+.l {
+  right: 0;
+}
+.m {
+  left: 0;
+}
+.n {
+  height: auto;
+}
+.o {
+  max-height: 100%;
+}
+.p {
+  transform: translateY(-100%);
+}
+.q {
+  border-bottom-width: 1px;
+}
+.r {
+  border-bottom-style: solid;
+}
+.s {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.t {
+  transition-property: transform;
+}
+.u {
+  transition-duration: 0.3s;
+}
+.v {
+  transition-delay: ease-in-out;
+}
+.w {
+  transition-timing-function: ease;
+}
+.x {
+  outline-width: 0;
+}
+.y {
+  display: none;
+}
+.z {
+  align-items: center;
+}
+.ab {
+  justify-content: space-between;
+}
+.ac {
+  padding-top: 1rem;
+}
+.ae {
+  padding-right: 1rem;
+}
+.af {
+  padding-bottom: 1rem;
+}
+.ag {
+  padding-left: 1rem;
+}
+.ah {
+  margin-bottom: 0;
+}
+.ai {
+  line-height: 1.5;
+}
+.aj {
+  border-top-left-radius: 0.375rem;
+}
+.ak {
+  border-top-right-radius: 0.375rem;
+}
+.al {
+  border-bottom-right-radius: 0.375rem;
+}
+.am {
+  border-bottom-left-radius: 0.375rem;
+}
+.an {
+  background-color: transparent;
+}
+.ao {
+  background-image: url(test-file-stub);
+}
+.ap {
+  background-position-x: center;
+}
+.aq {
+  background-origin: padding-box;
+}
+.ar {
+  background-clip: border-box;
+}
+.as {
+  background-position-y: 1em;
+}
+.at {
+  background-repeat: no-repeat;
+}
+.au {
+  background-size: auto;
+}
+.av {
+  box-sizing: content-box;
+}
+.aw {
+  color: #000;
+}
+.ax {
+  height: 1em;
+}
+.ay {
+  opacity: 0.5;
+}
+.az {
+  padding-top: 10px;
+}
+.ba {
+  padding-bottom: 10px;
+}
+.bb {
+  padding-left: 0.25em;
+}
+.bc {
+  padding-right: 0.25em;
+}
+.bd {
+  width: 1em;
+}
+.bh:disabled {
+  opacity: 0.25;
+}
+.bi:disabled {
+  pointer-events: none;
+}
+.bj:disabled {
+  user-select: none;
+}
+.bk {
+  margin-top: calc(-0.5 * 1rem);
+}
+.bl {
+  margin-right: calc(-0.5 * 1rem);
+}
+.bm {
+  margin-bottom: calc(-0.5 * 1rem);
+}
+.bn {
+  border-top-width: 0;
+}
+.bo {
+  border-right-width: 0;
+}
+.bp {
+  border-bottom-width: 0;
+}
+.bq {
+  border-left-width: 0;
+}
+.br {
+  border-top-color: rgb(0, 0, 0);
+}
+.bs {
+  border-right-color: rgb(0, 0, 0);
+}
+.bt {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bu {
+  border-left-color: rgb(0, 0, 0);
+}
+.bv {
+  flex-grow: 1;
+}
+.bw {
+  overflow-y: auto;
+}
+.bx {
+  opacity: 0;
+}
+.by {
+  z-index: 1040;
+}
+.bz {
+  width: 100vw;
+}
+.ca {
+  height: 100vh;
+}
+.cb {
+  background-color: #000;
+}
+.be:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bf:focus {
+  opacity: 1;
+}
+.bg:focus {
+  outline-width: 0;
+}
+
+
+<div id="example-offcanvas-wrapper-with-backdrop">
+  <div
+    data-testid="offcanvas-wrapper"
+    class="a b c d e f g h i j k l m n o p q r s t u v w x offcanvas offcanvas-top"
+    tabindex="-1"
+    id="example-offcanvas"
+    aria-labelledby="example-offcanvas-title"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateY(-100%);
+      visibility: hidden;
+      display: block;
+    "
+  >
+    <div
+      data-testid="offcanvas-header"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateY(-100%);
+        visibility: hidden;
+        display: block;
+      "
+      class="ab ac ae af ag y z offcanvas-header"
+    >
+      <h5
+        data-testid="offcanvas-title"
+        class="ah ai offcanvas-title"
+        id="example-offcanvas-title"
+      >
+        Offcanvas
+      </h5>
+      <button
+        data-testid="offcanvas-close-button"
+        type="button"
+        class="aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu offcanvas-btn-close"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div
+      data-testid="offcanvas-body"
+      class="ac ae af ag bv bw offcanvas-body"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateY(-100%);
+        visibility: hidden;
+        display: block;
+      "
+    >
+      Offcanvas Example Body
+    </div>
+  </div>
+  <div
+    data-testid="offcanvas-backdrop"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateY(-100%);
+      visibility: hidden;
+      display: block;
+    "
+    class="a bx by bz ca cb k m offcanvas-backdrop"
+  ></div>
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Offcanvas should render an offcanvas with a static backdrop 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: hidden;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  top: 0;
+}
+.l {
+  left: 0;
+}
+.m {
+  width: 400px;
+}
+.n {
+  transform: translateX(-100%);
+}
+.o {
+  border-right-width: 1px;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.r {
+  transition-property: transform;
+}
+.s {
+  transition-duration: 0.3s;
+}
+.t {
+  transition-delay: ease-in-out;
+}
+.u {
+  transition-timing-function: ease;
+}
+.v {
+  outline-width: 0;
+}
+.w {
+  display: none;
+}
+.x {
+  align-items: center;
+}
+.y {
+  justify-content: space-between;
+}
+.z {
+  padding-top: 1rem;
+}
+.ab {
+  padding-right: 1rem;
+}
+.ac {
+  padding-bottom: 1rem;
+}
+.ae {
+  padding-left: 1rem;
+}
+.af {
+  margin-bottom: 0;
+}
+.ag {
+  line-height: 1.5;
+}
+.ah {
+  border-top-left-radius: 0.375rem;
+}
+.ai {
+  border-top-right-radius: 0.375rem;
+}
+.aj {
+  border-bottom-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-left-radius: 0.375rem;
+}
+.al {
+  background-color: transparent;
+}
+.am {
+  background-image: url(test-file-stub);
+}
+.an {
+  background-position-x: center;
+}
+.ao {
+  background-origin: padding-box;
+}
+.ap {
+  background-clip: border-box;
+}
+.aq {
+  background-position-y: 1em;
+}
+.ar {
+  background-repeat: no-repeat;
+}
+.as {
+  background-size: auto;
+}
+.at {
+  box-sizing: content-box;
+}
+.au {
+  color: #000;
+}
+.av {
+  height: 1em;
+}
+.aw {
+  opacity: 0.5;
+}
+.ax {
+  padding-top: 10px;
+}
+.ay {
+  padding-bottom: 10px;
+}
+.az {
+  padding-left: 0.25em;
+}
+.ba {
+  padding-right: 0.25em;
+}
+.bb {
+  width: 1em;
+}
+.bf:disabled {
+  opacity: 0.25;
+}
+.bg:disabled {
+  pointer-events: none;
+}
+.bh:disabled {
+  user-select: none;
+}
+.bi {
+  margin-top: calc(-0.5 * 1rem);
+}
+.bj {
+  margin-right: calc(-0.5 * 1rem);
+}
+.bk {
+  margin-bottom: calc(-0.5 * 1rem);
+}
+.bl {
+  border-top-width: 0;
+}
+.bm {
+  border-right-width: 0;
+}
+.bn {
+  border-bottom-width: 0;
+}
+.bo {
+  border-left-width: 0;
+}
+.bp {
+  border-top-color: rgb(0, 0, 0);
+}
+.bq {
+  border-right-color: rgb(0, 0, 0);
+}
+.br {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bs {
+  border-left-color: rgb(0, 0, 0);
+}
+.bt {
+  flex-grow: 1;
+}
+.bu {
+  overflow-y: auto;
+}
+.bv {
+  opacity: 0;
+}
+.bw {
+  z-index: 1040;
+}
+.bx {
+  width: 100vw;
+}
+.by {
+  height: 100vh;
+}
+.bz {
+  background-color: #000;
+}
+.bc:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bd:focus {
+  opacity: 1;
+}
+.be:focus {
+  outline-width: 0;
+}
+
+
+<div id="example-offcanvas-wrapper-with-backdrop">
+  <div
+    data-testid="offcanvas-wrapper"
+    class="a b c d e f g h i j k l m n o p q r s t u v offcanvas offcanvas-start"
+    tabindex="-1"
+    id="example-offcanvas"
+    aria-labelledby="example-offcanvas-title"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateX(-100%);
+      visibility: hidden;
+      display: block;
+    "
+  >
+    <div
+      data-testid="offcanvas-header"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateX(-100%);
+        visibility: hidden;
+        display: block;
+      "
+      class="ab ac ae w x y z offcanvas-header"
+    >
+      <h5
+        data-testid="offcanvas-title"
+        class="af ag offcanvas-title"
+        id="example-offcanvas-title"
+      >
+        Offcanvas
+      </h5>
+      <button
+        data-testid="offcanvas-close-button"
+        type="button"
+        class="ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs offcanvas-btn-close"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div
+      data-testid="offcanvas-body"
+      class="ab ac ae bt bu z offcanvas-body"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateX(-100%);
+        visibility: hidden;
+        display: block;
+      "
+    >
+      Offcanvas Example Body
+    </div>
+  </div>
+  <div
+    data-testid="offcanvas-backdrop"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateX(-100%);
+      visibility: hidden;
+      display: block;
+    "
+    class="a bv bw bx by bz k l offcanvas-backdrop"
+  ></div>
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Offcanvas should render an offcanvas with a static backdrop at placement bottom 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: hidden;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  right: 0;
+}
+.l {
+  left: 0;
+}
+.m {
+  height: auto;
+}
+.n {
+  max-height: 100%;
+}
+.o {
+  transform: translateY(100%);
+}
+.p {
+  border-top-width: 1px;
+}
+.q {
+  border-top-style: solid;
+}
+.r {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.s {
+  transition-property: transform;
+}
+.t {
+  transition-duration: 0.3s;
+}
+.u {
+  transition-delay: ease-in-out;
+}
+.v {
+  transition-timing-function: ease;
+}
+.w {
+  outline-width: 0;
+}
+.x {
+  display: none;
+}
+.y {
+  align-items: center;
+}
+.z {
+  justify-content: space-between;
+}
+.ab {
+  padding-top: 1rem;
+}
+.ac {
+  padding-right: 1rem;
+}
+.ae {
+  padding-bottom: 1rem;
+}
+.af {
+  padding-left: 1rem;
+}
+.ag {
+  margin-bottom: 0;
+}
+.ah {
+  line-height: 1.5;
+}
+.ai {
+  border-top-left-radius: 0.375rem;
+}
+.aj {
+  border-top-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-right-radius: 0.375rem;
+}
+.al {
+  border-bottom-left-radius: 0.375rem;
+}
+.am {
+  background-color: transparent;
+}
+.an {
+  background-image: url(test-file-stub);
+}
+.ao {
+  background-position-x: center;
+}
+.ap {
+  background-origin: padding-box;
+}
+.aq {
+  background-clip: border-box;
+}
+.ar {
+  background-position-y: 1em;
+}
+.as {
+  background-repeat: no-repeat;
+}
+.at {
+  background-size: auto;
+}
+.au {
+  box-sizing: content-box;
+}
+.av {
+  color: #000;
+}
+.aw {
+  height: 1em;
+}
+.ax {
+  opacity: 0.5;
+}
+.ay {
+  padding-top: 10px;
+}
+.az {
+  padding-bottom: 10px;
+}
+.ba {
+  padding-left: 0.25em;
+}
+.bb {
+  padding-right: 0.25em;
+}
+.bc {
+  width: 1em;
+}
+.bg:disabled {
+  opacity: 0.25;
+}
+.bh:disabled {
+  pointer-events: none;
+}
+.bi:disabled {
+  user-select: none;
+}
+.bj {
+  margin-top: calc(-0.5 * 1rem);
+}
+.bk {
+  margin-right: calc(-0.5 * 1rem);
+}
+.bl {
+  margin-bottom: calc(-0.5 * 1rem);
+}
+.bm {
+  border-top-width: 0;
+}
+.bn {
+  border-right-width: 0;
+}
+.bo {
+  border-bottom-width: 0;
+}
+.bp {
+  border-left-width: 0;
+}
+.bq {
+  border-top-color: rgb(0, 0, 0);
+}
+.br {
+  border-right-color: rgb(0, 0, 0);
+}
+.bs {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bt {
+  border-left-color: rgb(0, 0, 0);
+}
+.bu {
+  flex-grow: 1;
+}
+.bv {
+  overflow-y: auto;
+}
+.bw {
+  opacity: 0;
+}
+.bx {
+  top: 0;
+}
+.by {
+  z-index: 1040;
+}
+.bz {
+  width: 100vw;
+}
+.ca {
+  height: 100vh;
+}
+.cb {
+  background-color: #000;
+}
+.bd:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.be:focus {
+  opacity: 1;
+}
+.bf:focus {
+  outline-width: 0;
+}
+
+
+<div id="example-offcanvas-wrapper-with-backdrop">
+  <div
+    data-testid="offcanvas-wrapper"
+    class="a b c d e f g h i j k l m n o p q r s t u v w offcanvas offcanvas-bottom"
+    tabindex="-1"
+    id="example-offcanvas"
+    aria-labelledby="example-offcanvas-title"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateY(100%);
+      visibility: hidden;
+      display: block;
+    "
+  >
+    <div
+      data-testid="offcanvas-header"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateY(100%);
+        visibility: hidden;
+        display: block;
+      "
+      class="ab ac ae af x y z offcanvas-header"
+    >
+      <h5
+        data-testid="offcanvas-title"
+        class="ag ah offcanvas-title"
+        id="example-offcanvas-title"
+      >
+        Offcanvas
+      </h5>
+      <button
+        data-testid="offcanvas-close-button"
+        type="button"
+        class="ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt offcanvas-btn-close"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div
+      data-testid="offcanvas-body"
+      class="ab ac ae af bu bv offcanvas-body"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateY(100%);
+        visibility: hidden;
+        display: block;
+      "
+    >
+      Offcanvas Example Body
+    </div>
+  </div>
+  <div
+    data-testid="offcanvas-backdrop"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateY(100%);
+      visibility: hidden;
+      display: block;
+    "
+    class="a bw bx by bz ca cb l offcanvas-backdrop"
+  ></div>
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Offcanvas should render an offcanvas with a static backdrop at placement end 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: hidden;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  top: 0;
+}
+.l {
+  right: 0;
+}
+.m {
+  width: 400px;
+}
+.n {
+  transform: translateX(100%);
+}
+.o {
+  transition-property: transform;
+}
+.p {
+  transition-duration: 0.3s;
+}
+.q {
+  transition-delay: ease-in-out;
+}
+.r {
+  transition-timing-function: ease;
+}
+.s {
+  outline-width: 0;
+}
+.t {
+  border-left-width: 1px;
+}
+.u {
+  border-left-style: solid;
+}
+.v {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.w {
+  display: none;
+}
+.x {
+  align-items: center;
+}
+.y {
+  justify-content: space-between;
+}
+.z {
+  padding-top: 1rem;
+}
+.ab {
+  padding-right: 1rem;
+}
+.ac {
+  padding-bottom: 1rem;
+}
+.ae {
+  padding-left: 1rem;
+}
+.af {
+  margin-bottom: 0;
+}
+.ag {
+  line-height: 1.5;
+}
+.ah {
+  border-top-left-radius: 0.375rem;
+}
+.ai {
+  border-top-right-radius: 0.375rem;
+}
+.aj {
+  border-bottom-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-left-radius: 0.375rem;
+}
+.al {
+  background-color: transparent;
+}
+.am {
+  background-image: url(test-file-stub);
+}
+.an {
+  background-position-x: center;
+}
+.ao {
+  background-origin: padding-box;
+}
+.ap {
+  background-clip: border-box;
+}
+.aq {
+  background-position-y: 1em;
+}
+.ar {
+  background-repeat: no-repeat;
+}
+.as {
+  background-size: auto;
+}
+.at {
+  box-sizing: content-box;
+}
+.au {
+  color: #000;
+}
+.av {
+  height: 1em;
+}
+.aw {
+  opacity: 0.5;
+}
+.ax {
+  padding-top: 10px;
+}
+.ay {
+  padding-bottom: 10px;
+}
+.az {
+  padding-left: 0.25em;
+}
+.ba {
+  padding-right: 0.25em;
+}
+.bb {
+  width: 1em;
+}
+.bf:disabled {
+  opacity: 0.25;
+}
+.bg:disabled {
+  pointer-events: none;
+}
+.bh:disabled {
+  user-select: none;
+}
+.bi {
+  margin-top: calc(-0.5 * 1rem);
+}
+.bj {
+  margin-right: calc(-0.5 * 1rem);
+}
+.bk {
+  margin-bottom: calc(-0.5 * 1rem);
+}
+.bl {
+  border-top-width: 0;
+}
+.bm {
+  border-right-width: 0;
+}
+.bn {
+  border-bottom-width: 0;
+}
+.bo {
+  border-left-width: 0;
+}
+.bp {
+  border-top-color: rgb(0, 0, 0);
+}
+.bq {
+  border-right-color: rgb(0, 0, 0);
+}
+.br {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bs {
+  border-left-color: rgb(0, 0, 0);
+}
+.bt {
+  flex-grow: 1;
+}
+.bu {
+  overflow-y: auto;
+}
+.bv {
+  opacity: 0;
+}
+.bw {
+  left: 0;
+}
+.bx {
+  z-index: 1040;
+}
+.by {
+  width: 100vw;
+}
+.bz {
+  height: 100vh;
+}
+.ca {
+  background-color: #000;
+}
+.bc:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bd:focus {
+  opacity: 1;
+}
+.be:focus {
+  outline-width: 0;
+}
+
+
+<div id="example-offcanvas-wrapper-with-backdrop">
+  <div
+    data-testid="offcanvas-wrapper"
+    class="a b c d e f g h i j k l m n o p q r s t u v offcanvas offcanvas-end"
+    tabindex="-1"
+    id="example-offcanvas"
+    aria-labelledby="example-offcanvas-title"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateX(100%);
+      visibility: hidden;
+      display: block;
+    "
+  >
+    <div
+      data-testid="offcanvas-header"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateX(100%);
+        visibility: hidden;
+        display: block;
+      "
+      class="ab ac ae w x y z offcanvas-header"
+    >
+      <h5
+        data-testid="offcanvas-title"
+        class="af ag offcanvas-title"
+        id="example-offcanvas-title"
+      >
+        Offcanvas
+      </h5>
+      <button
+        data-testid="offcanvas-close-button"
+        type="button"
+        class="ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs offcanvas-btn-close"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div
+      data-testid="offcanvas-body"
+      class="ab ac ae bt bu z offcanvas-body"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateX(100%);
+        visibility: hidden;
+        display: block;
+      "
+    >
+      Offcanvas Example Body
+    </div>
+  </div>
+  <div
+    data-testid="offcanvas-backdrop"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateX(100%);
+      visibility: hidden;
+      display: block;
+    "
+    class="a bv bw bx by bz ca k offcanvas-backdrop"
+  ></div>
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Offcanvas should render an offcanvas with a static backdrop at placement start 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: hidden;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  top: 0;
+}
+.l {
+  left: 0;
+}
+.m {
+  width: 400px;
+}
+.n {
+  transform: translateX(-100%);
+}
+.o {
+  border-right-width: 1px;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.r {
+  transition-property: transform;
+}
+.s {
+  transition-duration: 0.3s;
+}
+.t {
+  transition-delay: ease-in-out;
+}
+.u {
+  transition-timing-function: ease;
+}
+.v {
+  outline-width: 0;
+}
+.w {
+  display: none;
+}
+.x {
+  align-items: center;
+}
+.y {
+  justify-content: space-between;
+}
+.z {
+  padding-top: 1rem;
+}
+.ab {
+  padding-right: 1rem;
+}
+.ac {
+  padding-bottom: 1rem;
+}
+.ae {
+  padding-left: 1rem;
+}
+.af {
+  margin-bottom: 0;
+}
+.ag {
+  line-height: 1.5;
+}
+.ah {
+  border-top-left-radius: 0.375rem;
+}
+.ai {
+  border-top-right-radius: 0.375rem;
+}
+.aj {
+  border-bottom-right-radius: 0.375rem;
+}
+.ak {
+  border-bottom-left-radius: 0.375rem;
+}
+.al {
+  background-color: transparent;
+}
+.am {
+  background-image: url(test-file-stub);
+}
+.an {
+  background-position-x: center;
+}
+.ao {
+  background-origin: padding-box;
+}
+.ap {
+  background-clip: border-box;
+}
+.aq {
+  background-position-y: 1em;
+}
+.ar {
+  background-repeat: no-repeat;
+}
+.as {
+  background-size: auto;
+}
+.at {
+  box-sizing: content-box;
+}
+.au {
+  color: #000;
+}
+.av {
+  height: 1em;
+}
+.aw {
+  opacity: 0.5;
+}
+.ax {
+  padding-top: 10px;
+}
+.ay {
+  padding-bottom: 10px;
+}
+.az {
+  padding-left: 0.25em;
+}
+.ba {
+  padding-right: 0.25em;
+}
+.bb {
+  width: 1em;
+}
+.bf:disabled {
+  opacity: 0.25;
+}
+.bg:disabled {
+  pointer-events: none;
+}
+.bh:disabled {
+  user-select: none;
+}
+.bi {
+  margin-top: calc(-0.5 * 1rem);
+}
+.bj {
+  margin-right: calc(-0.5 * 1rem);
+}
+.bk {
+  margin-bottom: calc(-0.5 * 1rem);
+}
+.bl {
+  border-top-width: 0;
+}
+.bm {
+  border-right-width: 0;
+}
+.bn {
+  border-bottom-width: 0;
+}
+.bo {
+  border-left-width: 0;
+}
+.bp {
+  border-top-color: rgb(0, 0, 0);
+}
+.bq {
+  border-right-color: rgb(0, 0, 0);
+}
+.br {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bs {
+  border-left-color: rgb(0, 0, 0);
+}
+.bt {
+  flex-grow: 1;
+}
+.bu {
+  overflow-y: auto;
+}
+.bv {
+  opacity: 0;
+}
+.bw {
+  z-index: 1040;
+}
+.bx {
+  width: 100vw;
+}
+.by {
+  height: 100vh;
+}
+.bz {
+  background-color: #000;
+}
+.bc:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bd:focus {
+  opacity: 1;
+}
+.be:focus {
+  outline-width: 0;
+}
+
+
+<div id="example-offcanvas-wrapper-with-backdrop">
+  <div
+    data-testid="offcanvas-wrapper"
+    class="a b c d e f g h i j k l m n o p q r s t u v offcanvas offcanvas-start"
+    tabindex="-1"
+    id="example-offcanvas"
+    aria-labelledby="example-offcanvas-title"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateX(-100%);
+      visibility: hidden;
+      display: block;
+    "
+  >
+    <div
+      data-testid="offcanvas-header"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateX(-100%);
+        visibility: hidden;
+        display: block;
+      "
+      class="ab ac ae w x y z offcanvas-header"
+    >
+      <h5
+        data-testid="offcanvas-title"
+        class="af ag offcanvas-title"
+        id="example-offcanvas-title"
+      >
+        Offcanvas
+      </h5>
+      <button
+        data-testid="offcanvas-close-button"
+        type="button"
+        class="ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs offcanvas-btn-close"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div
+      data-testid="offcanvas-body"
+      class="ab ac ae bt bu z offcanvas-body"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateX(-100%);
+        visibility: hidden;
+        display: block;
+      "
+    >
+      Offcanvas Example Body
+    </div>
+  </div>
+  <div
+    data-testid="offcanvas-backdrop"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateX(-100%);
+      visibility: hidden;
+      display: block;
+    "
+    class="a bv bw bx by bz k l offcanvas-backdrop"
+  ></div>
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Offcanvas should render an offcanvas with a static backdrop at placement top 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: hidden;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  top: 0;
+}
+.l {
+  right: 0;
+}
+.m {
+  left: 0;
+}
+.n {
+  height: auto;
+}
+.o {
+  max-height: 100%;
+}
+.p {
+  transform: translateY(-100%);
+}
+.q {
+  border-bottom-width: 1px;
+}
+.r {
+  border-bottom-style: solid;
+}
+.s {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.t {
+  transition-property: transform;
+}
+.u {
+  transition-duration: 0.3s;
+}
+.v {
+  transition-delay: ease-in-out;
+}
+.w {
+  transition-timing-function: ease;
+}
+.x {
+  outline-width: 0;
+}
+.y {
+  display: none;
+}
+.z {
+  align-items: center;
+}
+.ab {
+  justify-content: space-between;
+}
+.ac {
+  padding-top: 1rem;
+}
+.ae {
+  padding-right: 1rem;
+}
+.af {
+  padding-bottom: 1rem;
+}
+.ag {
+  padding-left: 1rem;
+}
+.ah {
+  margin-bottom: 0;
+}
+.ai {
+  line-height: 1.5;
+}
+.aj {
+  border-top-left-radius: 0.375rem;
+}
+.ak {
+  border-top-right-radius: 0.375rem;
+}
+.al {
+  border-bottom-right-radius: 0.375rem;
+}
+.am {
+  border-bottom-left-radius: 0.375rem;
+}
+.an {
+  background-color: transparent;
+}
+.ao {
+  background-image: url(test-file-stub);
+}
+.ap {
+  background-position-x: center;
+}
+.aq {
+  background-origin: padding-box;
+}
+.ar {
+  background-clip: border-box;
+}
+.as {
+  background-position-y: 1em;
+}
+.at {
+  background-repeat: no-repeat;
+}
+.au {
+  background-size: auto;
+}
+.av {
+  box-sizing: content-box;
+}
+.aw {
+  color: #000;
+}
+.ax {
+  height: 1em;
+}
+.ay {
+  opacity: 0.5;
+}
+.az {
+  padding-top: 10px;
+}
+.ba {
+  padding-bottom: 10px;
+}
+.bb {
+  padding-left: 0.25em;
+}
+.bc {
+  padding-right: 0.25em;
+}
+.bd {
+  width: 1em;
+}
+.bh:disabled {
+  opacity: 0.25;
+}
+.bi:disabled {
+  pointer-events: none;
+}
+.bj:disabled {
+  user-select: none;
+}
+.bk {
+  margin-top: calc(-0.5 * 1rem);
+}
+.bl {
+  margin-right: calc(-0.5 * 1rem);
+}
+.bm {
+  margin-bottom: calc(-0.5 * 1rem);
+}
+.bn {
+  border-top-width: 0;
+}
+.bo {
+  border-right-width: 0;
+}
+.bp {
+  border-bottom-width: 0;
+}
+.bq {
+  border-left-width: 0;
+}
+.br {
+  border-top-color: rgb(0, 0, 0);
+}
+.bs {
+  border-right-color: rgb(0, 0, 0);
+}
+.bt {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bu {
+  border-left-color: rgb(0, 0, 0);
+}
+.bv {
+  flex-grow: 1;
+}
+.bw {
+  overflow-y: auto;
+}
+.bx {
+  opacity: 0;
+}
+.by {
+  z-index: 1040;
+}
+.bz {
+  width: 100vw;
+}
+.ca {
+  height: 100vh;
+}
+.cb {
+  background-color: #000;
+}
+.be:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bf:focus {
+  opacity: 1;
+}
+.bg:focus {
+  outline-width: 0;
+}
+
+
+<div id="example-offcanvas-wrapper-with-backdrop">
+  <div
+    data-testid="offcanvas-wrapper"
+    class="a b c d e f g h i j k l m n o p q r s t u v w x offcanvas offcanvas-top"
+    tabindex="-1"
+    id="example-offcanvas"
+    aria-labelledby="example-offcanvas-title"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateY(-100%);
+      visibility: hidden;
+      display: block;
+    "
+  >
+    <div
+      data-testid="offcanvas-header"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateY(-100%);
+        visibility: hidden;
+        display: block;
+      "
+      class="ab ac ae af ag y z offcanvas-header"
+    >
+      <h5
+        data-testid="offcanvas-title"
+        class="ah ai offcanvas-title"
+        id="example-offcanvas-title"
+      >
+        Offcanvas
+      </h5>
+      <button
+        data-testid="offcanvas-close-button"
+        type="button"
+        class="aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu offcanvas-btn-close"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div
+      data-testid="offcanvas-body"
+      class="ac ae af ag bv bw offcanvas-body"
+      style="
+        transition: transform, ease-in-out;
+        transform: translateY(-100%);
+        visibility: hidden;
+        display: block;
+      "
+    >
+      Offcanvas Example Body
+    </div>
+  </div>
+  <div
+    data-testid="offcanvas-backdrop"
+    style="
+      transition: transform, ease-in-out;
+      transform: translateY(-100%);
+      visibility: hidden;
+      display: block;
+    "
+    class="a bx by bz ca cb k m offcanvas-backdrop"
+  ></div>
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Offcanvas should render an open offcanvas 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: visible;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  top: 0;
+}
+.l {
+  left: 0;
+}
+.m {
+  width: 400px;
+}
+.n {
+  transform: none;
+}
+.o {
+  border-right-width: 1px;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.r {
+  transition-property: transform;
+}
+.s {
+  transition-duration: 0.3s;
+}
+.t {
+  transition-delay: ease-in-out;
+}
+.u {
+  transition-timing-function: ease;
+}
+.v {
+  outline-width: 0;
+}
+.w {
+  align-items: center;
+}
+.x {
+  justify-content: space-between;
+}
+.y {
+  padding-top: 1rem;
+}
+.z {
+  padding-right: 1rem;
+}
+.ab {
+  padding-bottom: 1rem;
+}
+.ac {
+  padding-left: 1rem;
+}
+.ae {
+  margin-bottom: 0;
+}
+.af {
+  line-height: 1.5;
+}
+.ag {
+  border-top-left-radius: 0.375rem;
+}
+.ah {
+  border-top-right-radius: 0.375rem;
+}
+.ai {
+  border-bottom-right-radius: 0.375rem;
+}
+.aj {
+  border-bottom-left-radius: 0.375rem;
+}
+.ak {
+  background-color: transparent;
+}
+.al {
+  background-image: url(test-file-stub);
+}
+.am {
+  background-position-x: center;
+}
+.an {
+  background-origin: padding-box;
+}
+.ao {
+  background-clip: border-box;
+}
+.ap {
+  background-position-y: 1em;
+}
+.aq {
+  background-repeat: no-repeat;
+}
+.ar {
+  background-size: auto;
+}
+.as {
+  box-sizing: content-box;
+}
+.at {
+  color: #000;
+}
+.au {
+  height: 1em;
+}
+.av {
+  opacity: 0.5;
+}
+.aw {
+  padding-top: 10px;
+}
+.ax {
+  padding-bottom: 10px;
+}
+.ay {
+  padding-left: 0.25em;
+}
+.az {
+  padding-right: 0.25em;
+}
+.ba {
+  width: 1em;
+}
+.be:disabled {
+  opacity: 0.25;
+}
+.bf:disabled {
+  pointer-events: none;
+}
+.bg:disabled {
+  user-select: none;
+}
+.bh {
+  margin-top: calc(-0.5 * 1rem);
+}
+.bi {
+  margin-right: calc(-0.5 * 1rem);
+}
+.bj {
+  margin-bottom: calc(-0.5 * 1rem);
+}
+.bk {
+  border-top-width: 0;
+}
+.bl {
+  border-right-width: 0;
+}
+.bm {
+  border-bottom-width: 0;
+}
+.bn {
+  border-left-width: 0;
+}
+.bo {
+  border-top-color: rgb(0, 0, 0);
+}
+.bp {
+  border-right-color: rgb(0, 0, 0);
+}
+.bq {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.br {
+  border-left-color: rgb(0, 0, 0);
+}
+.bs {
+  flex-grow: 1;
+}
+.bt {
+  overflow-y: auto;
+}
+.bb:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bc:focus {
+  opacity: 1;
+}
+.bd:focus {
+  outline-width: 0;
+}
+
+
+<div id="example-offcanvas-wrapper">
+  <div
+    data-testid="offcanvas-wrapper"
+    class="a b c d e f g h i j k l m n o p q r s t u v offcanvas offcanvas-start"
+    tabindex="-1"
+    id="example-offcanvas"
+    aria-labelledby="example-offcanvas-title"
+    style="
+      transition: transform, ease-in-out;
+      transform: none;
+      visibility: visible;
+    "
+  >
+    <div
+      data-testid="offcanvas-header"
+      style="
+        transition: transform, ease-in-out;
+        transform: none;
+        visibility: visible;
+      "
+      class="ab ac d w x y z offcanvas-header"
+    >
+      <h5
+        data-testid="offcanvas-title"
+        class="ae af offcanvas-title"
+        id="example-offcanvas-title"
+      >
+        Offcanvas
+      </h5>
+      <button
+        data-testid="offcanvas-close-button"
+        type="button"
+        class="ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br offcanvas-btn-close"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div
+      data-testid="offcanvas-body"
+      class="ab ac bs bt y z offcanvas-body"
+      style="
+        transition: transform, ease-in-out;
+        transform: none;
+        visibility: visible;
+      "
+    >
+      Offcanvas Example Body
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Offcanvas/Offcanvas should render an open offcanvas with a backdrop 1`] = `
+".a {
+  position: fixed;
+}
+.b {
+  bottom: 0;
+}
+.c {
+  z-index: 1045;
+}
+.d {
+  display: flex;
+}
+.e {
+  flex-direction: column;
+}
+.f {
+  max-width: 100%;
+}
+.g {
+  color: #212529;
+}
+.h {
+  visibility: visible;
+}
+.i {
+  background-color: #fff;
+}
+.j {
+  background-clip: padding-box;
+}
+.k {
+  top: 0;
+}
+.l {
+  left: 0;
+}
+.m {
+  width: 400px;
+}
+.n {
+  transform: none;
+}
+.o {
+  border-right-width: 1px;
+}
+.p {
+  border-right-style: solid;
+}
+.q {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.r {
+  transition-property: transform;
+}
+.s {
+  transition-duration: 0.3s;
+}
+.t {
+  transition-delay: ease-in-out;
+}
+.u {
+  transition-timing-function: ease;
+}
+.v {
+  outline-width: 0;
+}
+.w {
+  align-items: center;
+}
+.x {
+  justify-content: space-between;
+}
+.y {
+  padding-top: 1rem;
+}
+.z {
+  padding-right: 1rem;
+}
+.ab {
+  padding-bottom: 1rem;
+}
+.ac {
+  padding-left: 1rem;
+}
+.ae {
+  margin-bottom: 0;
+}
+.af {
+  line-height: 1.5;
+}
+.ag {
+  border-top-left-radius: 0.375rem;
+}
+.ah {
+  border-top-right-radius: 0.375rem;
+}
+.ai {
+  border-bottom-right-radius: 0.375rem;
+}
+.aj {
+  border-bottom-left-radius: 0.375rem;
+}
+.ak {
+  background-color: transparent;
+}
+.al {
+  background-image: url(test-file-stub);
+}
+.am {
+  background-position-x: center;
+}
+.an {
+  background-origin: padding-box;
+}
+.ao {
+  background-clip: border-box;
+}
+.ap {
+  background-position-y: 1em;
+}
+.aq {
+  background-repeat: no-repeat;
+}
+.ar {
+  background-size: auto;
+}
+.as {
+  box-sizing: content-box;
+}
+.at {
+  color: #000;
+}
+.au {
+  height: 1em;
+}
+.av {
+  opacity: 0.5;
+}
+.aw {
+  padding-top: 10px;
+}
+.ax {
+  padding-bottom: 10px;
+}
+.ay {
+  padding-left: 0.25em;
+}
+.az {
+  padding-right: 0.25em;
+}
+.ba {
+  width: 1em;
+}
+.be:disabled {
+  opacity: 0.25;
+}
+.bf:disabled {
+  pointer-events: none;
+}
+.bg:disabled {
+  user-select: none;
+}
+.bh {
+  margin-top: calc(-0.5 * 1rem);
+}
+.bi {
+  margin-right: calc(-0.5 * 1rem);
+}
+.bj {
+  margin-bottom: calc(-0.5 * 1rem);
+}
+.bk {
+  border-top-width: 0;
+}
+.bl {
+  border-right-width: 0;
+}
+.bm {
+  border-bottom-width: 0;
+}
+.bn {
+  border-left-width: 0;
+}
+.bo {
+  border-top-color: rgb(0, 0, 0);
+}
+.bp {
+  border-right-color: rgb(0, 0, 0);
+}
+.bq {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.br {
+  border-left-color: rgb(0, 0, 0);
+}
+.bs {
+  flex-grow: 1;
+}
+.bt {
+  overflow-y: auto;
+}
+.bu {
+  z-index: 1040;
+}
+.bv {
+  width: 100vw;
+}
+.bw {
+  height: 100vh;
+}
+.bx {
+  background-color: #000;
+}
+.bb:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bc:focus {
+  opacity: 1;
+}
+.bd:focus {
+  outline-width: 0;
+}
+
+
+<div id="example-offcanvas-wrapper-with-backdrop">
+  <div
+    data-testid="offcanvas-wrapper"
+    class="a b c d e f g h i j k l m n o p q r s t u v offcanvas offcanvas-start"
+    tabindex="-1"
+    id="example-offcanvas"
+    aria-labelledby="example-offcanvas-title"
+    style="
+      transition: transform, ease-in-out;
+      transform: none;
+      visibility: visible;
+      display: block;
+    "
+  >
+    <div
+      data-testid="offcanvas-header"
+      style="
+        transition: transform, ease-in-out;
+        transform: none;
+        visibility: visible;
+        display: block;
+      "
+      class="ab ac d w x y z offcanvas-header"
+    >
+      <h5
+        data-testid="offcanvas-title"
+        class="ae af offcanvas-title"
+        id="example-offcanvas-title"
+      >
+        Offcanvas
+      </h5>
+      <button
+        data-testid="offcanvas-close-button"
+        type="button"
+        class="ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br offcanvas-btn-close"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div
+      data-testid="offcanvas-body"
+      class="ab ac bs bt y z offcanvas-body"
+      style="
+        transition: transform, ease-in-out;
+        transform: none;
+        visibility: visible;
+        display: block;
+      "
+    >
+      Offcanvas Example Body
+    </div>
+  </div>
+  <div
+    data-testid="offcanvas-backdrop"
+    style="
+      transition: transform, ease-in-out;
+      transform: none;
+      visibility: visible;
+      display: block;
+    "
+    class="a av bu bv bw bx k l offcanvas-backdrop"
+  ></div>
+</div>
+;
+"
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Collapse/Target should render a collapsible target 1`] = `
+"
+
+<div data-testid="collapse-target"></div>
+;
+"
+`;

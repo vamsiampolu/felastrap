@@ -1,0 +1,1533 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Pagination/Next should create a Next component of size large 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: block;
+}
+.c {
+  font-size: 1.25rem;
+}
+.d {
+  color: #6ea8fe;
+}
+.e {
+  background-color: #fff;
+}
+.v {
+  margin-left: -1px;
+}
+.w {
+  border-top-right-radius: 0.5rem;
+}
+.x {
+  border-bottom-right-radius: 0.5rem;
+}
+.y {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.z {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.ab {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.ac {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.ae {
+  border-top-width: 1px;
+}
+.af {
+  border-right-width: 1px;
+}
+.ag {
+  border-bottom-width: 1px;
+}
+.ah {
+  border-left-width: 1px;
+}
+.ai {
+  border-top-style: solid;
+}
+.aj {
+  border-right-style: solid;
+}
+.ak {
+  border-bottom-style: solid;
+}
+.al {
+  border-left-style: solid;
+}
+.am {
+  border-top-color: #dee2e6;
+}
+.an {
+  border-right-color: #dee2e6;
+}
+.ao {
+  border-bottom-color: #dee2e6;
+}
+.ap {
+  border-left-color: #dee2e6;
+}
+.aq {
+  text-decoration-line: none;
+}
+.ar {
+  padding-top: 0.75rem;
+}
+.as {
+  padding-right: 1.5rem;
+}
+.at {
+  padding-bottom: 0.75rem;
+}
+.au {
+  padding-left: 1.5rem;
+}
+.o:hover {
+  z-index: 2;
+}
+.p:hover {
+  color: #8bb9fe;
+}
+.q:hover {
+  background-color: #2b3035;
+}
+.r:hover {
+  border-top-color: #dee2e6;
+}
+.s:hover {
+  border-right-color: #dee2e6;
+}
+.t:hover {
+  border-bottom-color: #dee2e6;
+}
+.u:hover {
+  border-left-color: #dee2e6;
+}
+.j:focus {
+  z-index: 3;
+}
+.k:focus {
+  color: #8bb9fe;
+}
+.l:focus {
+  background-color: #e9ecef;
+}
+.m:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.n:focus {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<li aria-disabled="false" data-testid="next" class="">
+  <a
+    aria-disabled="false"
+    data-testid="page-link"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au b c d e f g h i j k l m n o p q r s t u v w x y z"
+    >»</a
+  >
+</li>
+;
+"
+`;
+
+exports[`components/Pagination/Next should create a Next component of size large with label Next 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: block;
+}
+.c {
+  font-size: 1.25rem;
+}
+.d {
+  color: #6ea8fe;
+}
+.e {
+  background-color: #fff;
+}
+.v {
+  margin-left: -1px;
+}
+.w {
+  border-top-right-radius: 0.5rem;
+}
+.x {
+  border-bottom-right-radius: 0.5rem;
+}
+.y {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.z {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.ab {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.ac {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.ae {
+  border-top-width: 1px;
+}
+.af {
+  border-right-width: 1px;
+}
+.ag {
+  border-bottom-width: 1px;
+}
+.ah {
+  border-left-width: 1px;
+}
+.ai {
+  border-top-style: solid;
+}
+.aj {
+  border-right-style: solid;
+}
+.ak {
+  border-bottom-style: solid;
+}
+.al {
+  border-left-style: solid;
+}
+.am {
+  border-top-color: #dee2e6;
+}
+.an {
+  border-right-color: #dee2e6;
+}
+.ao {
+  border-bottom-color: #dee2e6;
+}
+.ap {
+  border-left-color: #dee2e6;
+}
+.aq {
+  text-decoration-line: none;
+}
+.ar {
+  padding-top: 0.75rem;
+}
+.as {
+  padding-right: 1.5rem;
+}
+.at {
+  padding-bottom: 0.75rem;
+}
+.au {
+  padding-left: 1.5rem;
+}
+.o:hover {
+  z-index: 2;
+}
+.p:hover {
+  color: #8bb9fe;
+}
+.q:hover {
+  background-color: #2b3035;
+}
+.r:hover {
+  border-top-color: #dee2e6;
+}
+.s:hover {
+  border-right-color: #dee2e6;
+}
+.t:hover {
+  border-bottom-color: #dee2e6;
+}
+.u:hover {
+  border-left-color: #dee2e6;
+}
+.j:focus {
+  z-index: 3;
+}
+.k:focus {
+  color: #8bb9fe;
+}
+.l:focus {
+  background-color: #e9ecef;
+}
+.m:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.n:focus {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<li aria-disabled="false" data-testid="next" class="">
+  <a
+    aria-disabled="false"
+    data-testid="page-link"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au b c d e f g h i j k l m n o p q r s t u v w x y z"
+    >Next</a
+  >
+</li>
+;
+"
+`;
+
+exports[`components/Pagination/Next should create a Next component of size medium 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: block;
+}
+.c {
+  font-size: 1rem;
+}
+.d {
+  color: #6ea8fe;
+}
+.e {
+  background-color: #fff;
+}
+.v {
+  margin-left: -1px;
+}
+.w {
+  border-top-right-radius: 0.375rem;
+}
+.x {
+  border-bottom-right-radius: 0.375rem;
+}
+.y {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.z {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.ab {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.ac {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.ae {
+  border-top-width: 1px;
+}
+.af {
+  border-right-width: 1px;
+}
+.ag {
+  border-bottom-width: 1px;
+}
+.ah {
+  border-left-width: 1px;
+}
+.ai {
+  border-top-style: solid;
+}
+.aj {
+  border-right-style: solid;
+}
+.ak {
+  border-bottom-style: solid;
+}
+.al {
+  border-left-style: solid;
+}
+.am {
+  border-top-color: #dee2e6;
+}
+.an {
+  border-right-color: #dee2e6;
+}
+.ao {
+  border-bottom-color: #dee2e6;
+}
+.ap {
+  border-left-color: #dee2e6;
+}
+.aq {
+  text-decoration-line: none;
+}
+.ar {
+  padding-top: 0.375rem;
+}
+.as {
+  padding-right: 0.75rem;
+}
+.at {
+  padding-bottom: 0.375rem;
+}
+.au {
+  padding-left: 0.75rem;
+}
+.o:hover {
+  z-index: 2;
+}
+.p:hover {
+  color: #8bb9fe;
+}
+.q:hover {
+  background-color: #2b3035;
+}
+.r:hover {
+  border-top-color: #dee2e6;
+}
+.s:hover {
+  border-right-color: #dee2e6;
+}
+.t:hover {
+  border-bottom-color: #dee2e6;
+}
+.u:hover {
+  border-left-color: #dee2e6;
+}
+.j:focus {
+  z-index: 3;
+}
+.k:focus {
+  color: #8bb9fe;
+}
+.l:focus {
+  background-color: #e9ecef;
+}
+.m:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.n:focus {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<li aria-disabled="false" data-testid="next" class="">
+  <a
+    aria-disabled="false"
+    data-testid="page-link"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au b c d e f g h i j k l m n o p q r s t u v w x y z"
+    >»</a
+  >
+</li>
+;
+"
+`;
+
+exports[`components/Pagination/Next should create a Next component of size medium with label Next 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: block;
+}
+.c {
+  font-size: 1rem;
+}
+.d {
+  color: #6ea8fe;
+}
+.e {
+  background-color: #fff;
+}
+.v {
+  margin-left: -1px;
+}
+.w {
+  border-top-right-radius: 0.375rem;
+}
+.x {
+  border-bottom-right-radius: 0.375rem;
+}
+.y {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.z {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.ab {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.ac {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.ae {
+  border-top-width: 1px;
+}
+.af {
+  border-right-width: 1px;
+}
+.ag {
+  border-bottom-width: 1px;
+}
+.ah {
+  border-left-width: 1px;
+}
+.ai {
+  border-top-style: solid;
+}
+.aj {
+  border-right-style: solid;
+}
+.ak {
+  border-bottom-style: solid;
+}
+.al {
+  border-left-style: solid;
+}
+.am {
+  border-top-color: #dee2e6;
+}
+.an {
+  border-right-color: #dee2e6;
+}
+.ao {
+  border-bottom-color: #dee2e6;
+}
+.ap {
+  border-left-color: #dee2e6;
+}
+.aq {
+  text-decoration-line: none;
+}
+.ar {
+  padding-top: 0.375rem;
+}
+.as {
+  padding-right: 0.75rem;
+}
+.at {
+  padding-bottom: 0.375rem;
+}
+.au {
+  padding-left: 0.75rem;
+}
+.o:hover {
+  z-index: 2;
+}
+.p:hover {
+  color: #8bb9fe;
+}
+.q:hover {
+  background-color: #2b3035;
+}
+.r:hover {
+  border-top-color: #dee2e6;
+}
+.s:hover {
+  border-right-color: #dee2e6;
+}
+.t:hover {
+  border-bottom-color: #dee2e6;
+}
+.u:hover {
+  border-left-color: #dee2e6;
+}
+.j:focus {
+  z-index: 3;
+}
+.k:focus {
+  color: #8bb9fe;
+}
+.l:focus {
+  background-color: #e9ecef;
+}
+.m:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.n:focus {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<li aria-disabled="false" data-testid="next" class="">
+  <a
+    aria-disabled="false"
+    data-testid="page-link"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au b c d e f g h i j k l m n o p q r s t u v w x y z"
+    >Next</a
+  >
+</li>
+;
+"
+`;
+
+exports[`components/Pagination/Next should create a Next component of size small 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: block;
+}
+.c {
+  font-size: 0.875rem;
+}
+.d {
+  color: #6ea8fe;
+}
+.e {
+  background-color: #fff;
+}
+.v {
+  margin-left: -1px;
+}
+.w {
+  border-top-right-radius: 0.25rem;
+}
+.x {
+  border-bottom-right-radius: 0.25rem;
+}
+.y {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.z {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.ab {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.ac {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.ae {
+  border-top-width: 1px;
+}
+.af {
+  border-right-width: 1px;
+}
+.ag {
+  border-bottom-width: 1px;
+}
+.ah {
+  border-left-width: 1px;
+}
+.ai {
+  border-top-style: solid;
+}
+.aj {
+  border-right-style: solid;
+}
+.ak {
+  border-bottom-style: solid;
+}
+.al {
+  border-left-style: solid;
+}
+.am {
+  border-top-color: #dee2e6;
+}
+.an {
+  border-right-color: #dee2e6;
+}
+.ao {
+  border-bottom-color: #dee2e6;
+}
+.ap {
+  border-left-color: #dee2e6;
+}
+.aq {
+  text-decoration-line: none;
+}
+.ar {
+  padding-top: 0.25rem;
+}
+.as {
+  padding-right: 0.5rem;
+}
+.at {
+  padding-bottom: 0.25rem;
+}
+.au {
+  padding-left: 0.5rem;
+}
+.o:hover {
+  z-index: 2;
+}
+.p:hover {
+  color: #8bb9fe;
+}
+.q:hover {
+  background-color: #2b3035;
+}
+.r:hover {
+  border-top-color: #dee2e6;
+}
+.s:hover {
+  border-right-color: #dee2e6;
+}
+.t:hover {
+  border-bottom-color: #dee2e6;
+}
+.u:hover {
+  border-left-color: #dee2e6;
+}
+.j:focus {
+  z-index: 3;
+}
+.k:focus {
+  color: #8bb9fe;
+}
+.l:focus {
+  background-color: #e9ecef;
+}
+.m:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.n:focus {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<li aria-disabled="false" data-testid="next" class="">
+  <a
+    aria-disabled="false"
+    data-testid="page-link"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au b c d e f g h i j k l m n o p q r s t u v w x y z"
+    >»</a
+  >
+</li>
+;
+"
+`;
+
+exports[`components/Pagination/Next should create a Next component of size small with label Next 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: block;
+}
+.c {
+  font-size: 0.875rem;
+}
+.d {
+  color: #6ea8fe;
+}
+.e {
+  background-color: #fff;
+}
+.v {
+  margin-left: -1px;
+}
+.w {
+  border-top-right-radius: 0.25rem;
+}
+.x {
+  border-bottom-right-radius: 0.25rem;
+}
+.y {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.z {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.ab {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.ac {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.ae {
+  border-top-width: 1px;
+}
+.af {
+  border-right-width: 1px;
+}
+.ag {
+  border-bottom-width: 1px;
+}
+.ah {
+  border-left-width: 1px;
+}
+.ai {
+  border-top-style: solid;
+}
+.aj {
+  border-right-style: solid;
+}
+.ak {
+  border-bottom-style: solid;
+}
+.al {
+  border-left-style: solid;
+}
+.am {
+  border-top-color: #dee2e6;
+}
+.an {
+  border-right-color: #dee2e6;
+}
+.ao {
+  border-bottom-color: #dee2e6;
+}
+.ap {
+  border-left-color: #dee2e6;
+}
+.aq {
+  text-decoration-line: none;
+}
+.ar {
+  padding-top: 0.25rem;
+}
+.as {
+  padding-right: 0.5rem;
+}
+.at {
+  padding-bottom: 0.25rem;
+}
+.au {
+  padding-left: 0.5rem;
+}
+.o:hover {
+  z-index: 2;
+}
+.p:hover {
+  color: #8bb9fe;
+}
+.q:hover {
+  background-color: #2b3035;
+}
+.r:hover {
+  border-top-color: #dee2e6;
+}
+.s:hover {
+  border-right-color: #dee2e6;
+}
+.t:hover {
+  border-bottom-color: #dee2e6;
+}
+.u:hover {
+  border-left-color: #dee2e6;
+}
+.j:focus {
+  z-index: 3;
+}
+.k:focus {
+  color: #8bb9fe;
+}
+.l:focus {
+  background-color: #e9ecef;
+}
+.m:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.n:focus {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<li aria-disabled="false" data-testid="next" class="">
+  <a
+    aria-disabled="false"
+    data-testid="page-link"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au b c d e f g h i j k l m n o p q r s t u v w x y z"
+    >Next</a
+  >
+</li>
+;
+"
+`;
+
+exports[`components/Pagination/Next should create a disabled Next component of size large 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: block;
+}
+.c {
+  font-size: 1.25rem;
+}
+.d {
+  color: rgba(33, 37, 41, 0.75);
+}
+.e {
+  background-color: #e9ecef;
+}
+.v {
+  margin-left: -1px;
+}
+.w {
+  border-top-right-radius: 0.5rem;
+}
+.x {
+  border-bottom-right-radius: 0.5rem;
+}
+.y {
+  pointer-events: none;
+}
+.z {
+  border-top-color: #dee2e6;
+}
+.ab {
+  border-right-color: #dee2e6;
+}
+.ac {
+  border-bottom-color: #dee2e6;
+}
+.ae {
+  border-left-color: #dee2e6;
+}
+.af {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.ag {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.ah {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.ai {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.aj {
+  border-top-width: 1px;
+}
+.ak {
+  border-right-width: 1px;
+}
+.al {
+  border-bottom-width: 1px;
+}
+.am {
+  border-left-width: 1px;
+}
+.an {
+  border-top-style: solid;
+}
+.ao {
+  border-right-style: solid;
+}
+.ap {
+  border-bottom-style: solid;
+}
+.aq {
+  border-left-style: solid;
+}
+.ar {
+  text-decoration-line: none;
+}
+.as {
+  padding-top: 0.75rem;
+}
+.at {
+  padding-right: 1.5rem;
+}
+.au {
+  padding-bottom: 0.75rem;
+}
+.av {
+  padding-left: 1.5rem;
+}
+.o:hover {
+  z-index: 2;
+}
+.p:hover {
+  color: #8bb9fe;
+}
+.q:hover {
+  background-color: #2b3035;
+}
+.r:hover {
+  border-top-color: #dee2e6;
+}
+.s:hover {
+  border-right-color: #dee2e6;
+}
+.t:hover {
+  border-bottom-color: #dee2e6;
+}
+.u:hover {
+  border-left-color: #dee2e6;
+}
+.j:focus {
+  z-index: 3;
+}
+.k:focus {
+  color: #8bb9fe;
+}
+.l:focus {
+  background-color: #e9ecef;
+}
+.m:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.n:focus {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<li aria-disabled="true" data-testid="next" class="">
+  <a
+    aria-disabled="true"
+    data-testid="page-link"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av b c d e f g h i j k l m n o p q r s t u v w x y z"
+    >Next</a
+  >
+</li>
+;
+"
+`;
+
+exports[`components/Pagination/Next should create a disabled Next component of size medium 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: block;
+}
+.c {
+  font-size: 1rem;
+}
+.d {
+  color: rgba(33, 37, 41, 0.75);
+}
+.e {
+  background-color: #e9ecef;
+}
+.v {
+  margin-left: -1px;
+}
+.w {
+  border-top-right-radius: 0.375rem;
+}
+.x {
+  border-bottom-right-radius: 0.375rem;
+}
+.y {
+  pointer-events: none;
+}
+.z {
+  border-top-color: #dee2e6;
+}
+.ab {
+  border-right-color: #dee2e6;
+}
+.ac {
+  border-bottom-color: #dee2e6;
+}
+.ae {
+  border-left-color: #dee2e6;
+}
+.af {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.ag {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.ah {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.ai {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.aj {
+  border-top-width: 1px;
+}
+.ak {
+  border-right-width: 1px;
+}
+.al {
+  border-bottom-width: 1px;
+}
+.am {
+  border-left-width: 1px;
+}
+.an {
+  border-top-style: solid;
+}
+.ao {
+  border-right-style: solid;
+}
+.ap {
+  border-bottom-style: solid;
+}
+.aq {
+  border-left-style: solid;
+}
+.ar {
+  text-decoration-line: none;
+}
+.as {
+  padding-top: 0.375rem;
+}
+.at {
+  padding-right: 0.75rem;
+}
+.au {
+  padding-bottom: 0.375rem;
+}
+.av {
+  padding-left: 0.75rem;
+}
+.o:hover {
+  z-index: 2;
+}
+.p:hover {
+  color: #8bb9fe;
+}
+.q:hover {
+  background-color: #2b3035;
+}
+.r:hover {
+  border-top-color: #dee2e6;
+}
+.s:hover {
+  border-right-color: #dee2e6;
+}
+.t:hover {
+  border-bottom-color: #dee2e6;
+}
+.u:hover {
+  border-left-color: #dee2e6;
+}
+.j:focus {
+  z-index: 3;
+}
+.k:focus {
+  color: #8bb9fe;
+}
+.l:focus {
+  background-color: #e9ecef;
+}
+.m:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.n:focus {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<li aria-disabled="true" data-testid="next" class="">
+  <a
+    aria-disabled="true"
+    data-testid="page-link"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av b c d e f g h i j k l m n o p q r s t u v w x y z"
+    >Next</a
+  >
+</li>
+;
+"
+`;
+
+exports[`components/Pagination/Next should create a disabled Next component of size small 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: block;
+}
+.c {
+  font-size: 0.875rem;
+}
+.d {
+  color: rgba(33, 37, 41, 0.75);
+}
+.e {
+  background-color: #e9ecef;
+}
+.v {
+  margin-left: -1px;
+}
+.w {
+  border-top-right-radius: 0.25rem;
+}
+.x {
+  border-bottom-right-radius: 0.25rem;
+}
+.y {
+  pointer-events: none;
+}
+.z {
+  border-top-color: #dee2e6;
+}
+.ab {
+  border-right-color: #dee2e6;
+}
+.ac {
+  border-bottom-color: #dee2e6;
+}
+.ae {
+  border-left-color: #dee2e6;
+}
+.af {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.ag {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.ah {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.ai {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.aj {
+  border-top-width: 1px;
+}
+.ak {
+  border-right-width: 1px;
+}
+.al {
+  border-bottom-width: 1px;
+}
+.am {
+  border-left-width: 1px;
+}
+.an {
+  border-top-style: solid;
+}
+.ao {
+  border-right-style: solid;
+}
+.ap {
+  border-bottom-style: solid;
+}
+.aq {
+  border-left-style: solid;
+}
+.ar {
+  text-decoration-line: none;
+}
+.as {
+  padding-top: 0.25rem;
+}
+.at {
+  padding-right: 0.5rem;
+}
+.au {
+  padding-bottom: 0.25rem;
+}
+.av {
+  padding-left: 0.5rem;
+}
+.o:hover {
+  z-index: 2;
+}
+.p:hover {
+  color: #8bb9fe;
+}
+.q:hover {
+  background-color: #2b3035;
+}
+.r:hover {
+  border-top-color: #dee2e6;
+}
+.s:hover {
+  border-right-color: #dee2e6;
+}
+.t:hover {
+  border-bottom-color: #dee2e6;
+}
+.u:hover {
+  border-left-color: #dee2e6;
+}
+.j:focus {
+  z-index: 3;
+}
+.k:focus {
+  color: #8bb9fe;
+}
+.l:focus {
+  background-color: #e9ecef;
+}
+.m:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.n:focus {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<li aria-disabled="true" data-testid="next" class="">
+  <a
+    aria-disabled="true"
+    data-testid="page-link"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av b c d e f g h i j k l m n o p q r s t u v w x y z"
+    >Next</a
+  >
+</li>
+;
+"
+`;
+
+exports[`components/Pagination/Next should respond to click events on Next 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  display: block;
+}
+.c {
+  font-size: 1rem;
+}
+.d {
+  color: #6ea8fe;
+}
+.e {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.v {
+  margin-left: -1px;
+}
+.w {
+  border-top-right-radius: 0.375rem;
+}
+.x {
+  border-bottom-right-radius: 0.375rem;
+}
+.y {
+  transition-property: color, background-color, border-color, box-shadow;
+}
+.z {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.ab {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+}
+.ac {
+  transition-timing-function: ease, ease, ease, ease;
+}
+.ae {
+  border-top-width: 1px;
+}
+.af {
+  border-right-width: 1px;
+}
+.ag {
+  border-bottom-width: 1px;
+}
+.ah {
+  border-left-width: 1px;
+}
+.ai {
+  border-top-style: solid;
+}
+.aj {
+  border-right-style: solid;
+}
+.ak {
+  border-bottom-style: solid;
+}
+.al {
+  border-left-style: solid;
+}
+.am {
+  border-top-color: #dee2e6;
+}
+.an {
+  border-right-color: #dee2e6;
+}
+.ao {
+  border-bottom-color: #dee2e6;
+}
+.ap {
+  border-left-color: #dee2e6;
+}
+.aq {
+  text-decoration-line: none;
+}
+.ar {
+  padding-top: 0.375rem;
+}
+.as {
+  padding-right: 0.75rem;
+}
+.at {
+  padding-bottom: 0.375rem;
+}
+.au {
+  padding-left: 0.75rem;
+}
+.o:hover {
+  z-index: 2;
+}
+.p:hover {
+  color: #8bb9fe;
+}
+.q:hover {
+  -webkit-background-color: #2b3035;
+  background-color: #2b3035;
+}
+.r:hover {
+  border-top-color: #dee2e6;
+}
+.s:hover {
+  border-right-color: #dee2e6;
+}
+.t:hover {
+  border-bottom-color: #dee2e6;
+}
+.u:hover {
+  border-left-color: #dee2e6;
+}
+.j:focus {
+  z-index: 3;
+}
+.k:focus {
+  color: #8bb9fe;
+}
+.l:focus {
+  -webkit-background-color: #e9ecef;
+  background-color: #e9ecef;
+}
+.m:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.n:focus {
+  outline-width: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .f {
+    transition-property: none;
+  }
+  .g {
+    transition-duration: 0s;
+  }
+  .h {
+    transition-delay: 0s;
+  }
+  .i {
+    transition-timing-function: ease;
+  }
+}
+
+
+<li aria-disabled="false" data-testid="next" class="">
+  <a
+    aria-disabled="false"
+    data-testid="page-link"
+    class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au b c d e f g h i j k l m n o p q r s t u v w x y z"
+    >»</a
+  >
+</li>
+;
+"
+`;

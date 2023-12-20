@@ -1,0 +1,344 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/SegmentedButton/Segment should render a Segment as a button with a visually hidden label 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  z-index: 2;
+}
+.d {
+  white-space: nowrap;
+}
+.e {
+  border-top-right-radius: 0;
+}
+.f {
+  border-bottom-right-radius: 0;
+}
+.g {
+  border-top-left-radius: 0;
+}
+.h {
+  border-bottom-left-radius: 0;
+}
+.i {
+  margin-left: -1px;
+}
+.j {
+  padding-right: 0.5625rem;
+}
+.k {
+  padding-left: 0.5625rem;
+}
+.l {
+  width: 1px !important;
+}
+.m {
+  height: 1px !important;
+}
+.n {
+  clip: rect(0, 0, 0, 0) !important;
+}
+.o {
+  white-space: nowrap !important;
+}
+.p {
+  position: absolute !important;
+}
+.q {
+  border-top-width: 0;
+}
+.r {
+  border-right-width: 0;
+}
+.s {
+  border-bottom-width: 0;
+}
+.t {
+  border-left-width: 0;
+}
+.u {
+  border-top-color: !important;
+}
+.v {
+  border-right-color: !important;
+}
+.w {
+  border-bottom-color: !important;
+}
+.x {
+  border-left-color: !important;
+}
+.y {
+  overflow-x: hidden;
+}
+.z {
+  overflow-y: !important;
+}
+.ab {
+  margin-top: -1px;
+}
+.ac {
+  margin-right: !important;
+}
+.ae {
+  margin-bottom: -1px;
+}
+.af {
+  margin-left: !important;
+}
+.ag {
+  padding-top: 0;
+}
+.ah {
+  padding-right: !important;
+}
+.ai {
+  padding-bottom: 0;
+}
+.aj {
+  padding-left: !important;
+}
+.ak {
+  display: inline-block;
+}
+.al {
+  margin-left: 0;
+}
+.am {
+  vertical-align: 0.255em;
+}
+.an {
+  border-left-width: 0.3em;
+}
+.ao {
+  border-left-style: solid;
+}
+.ap {
+  border-left-color: transparent;
+}
+.aq {
+  border-right-width: 0.3em;
+}
+.ar {
+  border-right-style: solid;
+}
+.as {
+  border-right-color: transparent;
+}
+.at {
+  border-top-width: 0.3em;
+}
+.au {
+  border-top-style: solid;
+}
+.av {
+  border-top-left-radius: 4px;
+}
+.aw {
+  border-bottom-left-radius: 4px;
+}
+.ax {
+  padding-top: 6px;
+}
+.ay {
+  padding-bottom: 6px;
+}
+.az {
+  padding-left: 12px;
+}
+.ba {
+  padding-right: 12px;
+}
+.bb {
+  background-color: rgba(0, 0, 0, 0);
+}
+.bc {
+  background-image: none;
+}
+.bd {
+  color: #6c757d;
+}
+.be {
+  cursor: pointer;
+}
+.bf {
+  font-size: 14px;
+}
+.bg {
+  font-weight: 400;
+}
+.bh {
+  line-height: 1.42857143;
+}
+.bi {
+  margin-bottom: 0;
+}
+.bj {
+  text-align: center;
+}
+.bk {
+  touch-action: manipulation;
+}
+.bl {
+  vertical-align: middle;
+}
+.bm {
+  user-select: none;
+}
+.bw:disabled {
+  background-color: transparent;
+}
+.bx:disabled {
+  color: #6c757d;
+}
+.by:disabled {
+  box-shadow: none;
+}
+.bz:disabled {
+  cursor: not-allowed;
+}
+.ca:disabled {
+  filter: alpha(opacity=65);
+}
+.cb:disabled {
+  opacity: 0.65;
+}
+.cc:disabled {
+  pointer-events: none;
+}
+.cd:disabled {
+  border-top-color: #6c757d;
+}
+.ce:disabled {
+  border-right-color: #6c757d;
+}
+.cf:disabled {
+  border-bottom-color: #6c757d;
+}
+.cg:disabled {
+  border-left-color: #6c757d;
+}
+.cv {
+  gradient: none;
+}
+.cx {
+  border-top-width: 1px;
+}
+.cy {
+  border-right-width: 1px;
+}
+.cz {
+  border-bottom-width: 1px;
+}
+.da {
+  border-left-width: 1px;
+}
+.db {
+  border-bottom-style: solid;
+}
+.dc {
+  border-top-color: #6c757d;
+}
+.dd {
+  border-right-color: #6c757d;
+}
+.de {
+  border-bottom-color: #6c757d;
+}
+.df {
+  border-left-color: #6c757d;
+}
+.cp:hover {
+  background-color: #6c757d;
+}
+.cq:hover {
+  color: #fff;
+}
+.cr:hover {
+  border-top-color: #6c757d;
+}
+.cs:hover {
+  border-right-color: #6c757d;
+}
+.ct:hover {
+  border-bottom-color: #6c757d;
+}
+.cu:hover {
+  border-left-color: #6c757d;
+}
+.c:focus {
+  z-index: 5;
+}
+.ch:focus-visible {
+  color: #fff;
+}
+.ci:focus-visible {
+  background-color: #5c636a;
+}
+.cj:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+}
+.ck:focus-visible {
+  outline-width: 0;
+}
+.cl:focus-visible {
+  border-top-color: #565e64;
+}
+.cm:focus-visible {
+  border-right-color: #565e64;
+}
+.cn:focus-visible {
+  border-bottom-color: #565e64;
+}
+.co:focus-visible {
+  border-left-color: #565e64;
+}
+.cw:focus {
+  box-shadow: 0 0 0 0.25rem rgba(108, 117, 125, 0.5);
+}
+.bn:active {
+  color: #fff;
+}
+.bo:active {
+  background-color: #6c757d;
+}
+.bp:active {
+  background-image: none;
+}
+.bq:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.br:active {
+  outline-width: 0;
+}
+.bs:active {
+  border-top-color: #6c757d;
+}
+.bt:active {
+  border-right-color: #6c757d;
+}
+.bu:active {
+  border-bottom-color: #6c757d;
+}
+.bv:active {
+  border-left-color: #6c757d;
+}
+
+
+<button
+  data-testid="segment"
+  class="ak ao ar au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz d da db dc dd de df e f a b c d e f g h i j k segment"
+>
+  <span
+    data-testid="segment-visually-hidden"
+    class="ab ac ae af ag ah ai aj l m n o p q r s t u v w x y z visually-hidden"
+    >Toggle Dropdown</span
+  ><span
+    data-testid="segment-after"
+    class="ak al am an ao ap aq ar as at au s segment-after"
+  ></span></button
+>;
+"
+`;

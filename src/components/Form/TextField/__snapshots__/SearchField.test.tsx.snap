@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/TextField/SearchField should a search field 1`] = `
+".a {
+  margin-bottom: 1rem;
+}
+.b {
+  position: absolute;
+}
+.c {
+  z-index: 2;
+}
+.d {
+  display: block;
+}
+.e {
+  width: 2.375rem;
+}
+.f {
+  height: 2.375rem;
+}
+.g {
+  line-height: 2.375rem;
+}
+.h {
+  text-align: center;
+}
+.i {
+  pointer-events: none;
+}
+.j {
+  color: #aaa;
+}
+.k {
+  background-image: url(test-file-stub);
+}
+.l {
+  background-repeat: no-repeat;
+}
+.m {
+  background-position: left center;
+}
+.n {
+  background-size: 30px 30px;
+}
+.o {
+  margin-left: 2px;
+}
+.p {
+  padding-left: 2rem;
+}
+.q {
+  appearance: none;
+}
+.r {
+  background-clip: padding-box;
+}
+.s {
+  background-color: #fff;
+}
+.t {
+  border: 1px solid #dee2e6;
+}
+.u {
+  border-radius: 0.375rem;
+}
+.v {
+  color: #212529;
+}
+.w {
+  font-size: 1rem;
+}
+.x {
+  font-weight: 400;
+}
+.y {
+  line-height: 1.5;
+}
+.z {
+  padding: 0.375rem 0.75rem;
+}
+.ab {
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+.ac {
+  width: 100%;
+}
+.af:disabled {
+  background-color: #e9ecef;
+}
+.ag:disabled {
+  opacity: 1;
+}
+.am::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.an::placeholder {
+  opacity: 1;
+}
+.ah:focus {
+  background-color: #fff;
+}
+.ai:focus {
+  border-color: #86b7fe;
+}
+.aj:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ak:focus {
+  color: #212529;
+}
+.al:focus {
+  outline: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ae {
+    transition: none;
+  }
+}
+
+
+<div data-testid="search-field" class="a">
+  <span
+    data-testid="search-icon"
+    class="b c d e f g h i j k l m n o search"
+  ></span
+  ><input
+    data-testid="text-input"
+    type="search"
+    class="p"
+    placeholder="Search"
+    value=""
+  />
+</div>
+;
+"
+`;

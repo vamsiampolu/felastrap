@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Card/Image should render an image as part of the card body 1`] = `
+".a {
+  width: 100%;
+}
+
+
+<img data-testid="card-image" class="a" src="https://placehold.co/600x400" />;
+"
+`;
+
+exports[`components/Card/Image should render an image at the bottom of the card 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  border-bottom-right-radius: calc(0.375rem - 1px);
+}
+.c {
+  border-bottom-left-radius: calc(0.375rem - 1px);
+}
+
+
+<img
+  data-testid="card-image"
+  class="a b c"
+  src="https://placehold.co/600x400"
+/>;
+"
+`;
+
+exports[`components/Card/Image should render an image at the top of the card 1`] = `
+".a {
+  width: 100%;
+}
+.b {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.c {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+
+
+<img
+  data-testid="card-image"
+  class="a b c"
+  src="https://placehold.co/600x400"
+/>;
+"
+`;

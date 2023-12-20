@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/ProgressiveImage should render a progressive image 1`] = `
+"@-webkit-keyframes k1 {
+  0% {
+    -webkit-background-color: #eee;
+    background-color: #eee;
+  }
+  50% {
+    -webkit-background-color: #ccc;
+    background-color: #ccc;
+  }
+  100% {
+    -webkit-background-color: #eee;
+    background-color: #eee;
+  }
+}
+@-moz-keyframes k1 {
+  0% {
+    -webkit-background-color: #eee;
+    background-color: #eee;
+  }
+  50% {
+    -webkit-background-color: #ccc;
+    background-color: #ccc;
+  }
+  100% {
+    -webkit-background-color: #eee;
+    background-color: #eee;
+  }
+}
+@keyframes k1 {
+  0% {
+    -webkit-background-color: #eee;
+    background-color: #eee;
+  }
+  50% {
+    -webkit-background-color: #ccc;
+    background-color: #ccc;
+  }
+  100% {
+    -webkit-background-color: #eee;
+    background-color: #eee;
+  }
+}
+@-webkit-keyframes k2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@-moz-keyframes k2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes k2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.a {
+  width: 200px;
+}
+.b {
+  height: 300px;
+}
+.c > img {
+  width: 100%;
+}
+.d {
+  animation: k1 ease-in-out 2s infinite;
+}
+.e {
+  animation: k2 linear 0.5s;
+}
+
+
+<div data-testid="progressive-image-wrapper" class="a b c d">
+  <img
+    data-testid="progressive-image"
+    class="e"
+    src="https://picsum.photos/seed/crayon/200/300"
+    loading="lazy"
+  />
+</div>
+;
+"
+`;
+
+exports[`components/ProgressiveImage should render a progressive image with an error image 1`] = `
+"@-webkit-keyframes k1 {
+  0% {
+    -webkit-background-color: #eee;
+    background-color: #eee;
+  }
+  50% {
+    -webkit-background-color: #ccc;
+    background-color: #ccc;
+  }
+  100% {
+    -webkit-background-color: #eee;
+    background-color: #eee;
+  }
+}
+@-moz-keyframes k1 {
+  0% {
+    -webkit-background-color: #eee;
+    background-color: #eee;
+  }
+  50% {
+    -webkit-background-color: #ccc;
+    background-color: #ccc;
+  }
+  100% {
+    -webkit-background-color: #eee;
+    background-color: #eee;
+  }
+}
+@keyframes k1 {
+  0% {
+    -webkit-background-color: #eee;
+    background-color: #eee;
+  }
+  50% {
+    -webkit-background-color: #ccc;
+    background-color: #ccc;
+  }
+  100% {
+    -webkit-background-color: #eee;
+    background-color: #eee;
+  }
+}
+@-webkit-keyframes k2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@-moz-keyframes k2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes k2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.a {
+  width: 200px;
+}
+.b {
+  height: 300px;
+}
+.c > img {
+  width: 100%;
+}
+.d {
+  animation: k1 ease-in-out 2s infinite;
+}
+.e {
+  animation: k2 linear 0.5s;
+}
+
+
+<div data-testid="progressive-image-wrapper" class="a b c d">
+  <img
+    data-testid="progressive-image"
+    class="e"
+    src="https://picsum.photos/seed/crayon/200/300"
+    loading="lazy"
+  />
+</div>
+;
+"
+`;

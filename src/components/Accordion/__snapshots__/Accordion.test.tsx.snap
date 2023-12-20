@@ -1,0 +1,1023 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Accordion/Accordion should render a flush Accordion with items 1`] = `
+".a {
+  color: #212529;
+}
+.b {
+  background-color: #fff;
+}
+.c {
+  border-top-left-radius: 0.375rem;
+}
+.d {
+  border-top-right-radius: 0.375rem;
+}
+.e {
+  border-bottom-right-radius: 0;
+}
+.f {
+  border-bottom-left-radius: 0;
+}
+.g {
+  border-right-width: 0;
+}
+.h {
+  border-top-width: 0;
+}
+.i {
+  border-left-width: 0;
+}
+.j {
+  border-bottom-width: 1px;
+}
+.k {
+  border-top-style: solid;
+}
+.l {
+  border-right-style: solid;
+}
+.m {
+  border-bottom-style: solid;
+}
+.n {
+  border-left-style: solid;
+}
+.o {
+  border-top-color: #dee2e6;
+}
+.p {
+  border-right-color: #dee2e6;
+}
+.q {
+  border-bottom-color: #dee2e6;
+}
+.r {
+  border-left-color: #dee2e6;
+}
+.s {
+  margin-bottom: 0;
+}
+.t {
+  margin-top: 0;
+}
+.u {
+  color: inherit;
+}
+.v {
+  font-weight: 500;
+}
+.w {
+  font-size: calc(1.325rem + 0.9vw);
+}
+.x {
+  line-height: 1.2;
+}
+.y {
+  margin-bottom: 0.5rem;
+}
+.ab {
+  position: relative;
+}
+.ac {
+  display: flex !important;
+}
+.ae {
+  align-items: center;
+}
+.af {
+  width: 100%;
+}
+.ag {
+  font-size: 1rem;
+}
+.ah {
+  text-align: left;
+}
+.ai {
+  overflow-anchor: none;
+}
+.av {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.aw {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.ax {
+  transition-property: color, background-color, border-color, box-shadow,
+    border-radius;
+}
+.ay {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.az {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease;
+}
+.ba {
+  transition-timing-function: ease, ease, ease, ease, ease;
+}
+.bb {
+  border-bottom-width: 0;
+}
+.bc {
+  padding-top: 1.25rem;
+}
+.bd {
+  padding-right: 1rem;
+}
+.be {
+  padding-bottom: 1.25rem;
+}
+.bf {
+  padding-left: 1rem;
+}
+.bg {
+  border-top-left-radius: 4px;
+}
+.bh {
+  border-top-right-radius: 0;
+}
+.bi {
+  border-bottom-left-radius: 4px;
+}
+.bj {
+  padding-top: 6px;
+}
+.bk {
+  padding-bottom: 6px;
+}
+.bl {
+  padding-left: 12px;
+}
+.bm {
+  padding-right: 12px;
+}
+.bn {
+  background-image: none;
+}
+.bo {
+  color: #333;
+}
+.bp {
+  cursor: pointer;
+}
+.bq {
+  display: inline-block;
+}
+.br {
+  font-size: 14px;
+}
+.bs {
+  font-weight: 400;
+}
+.bt {
+  line-height: 1.42857143;
+}
+.bu {
+  text-align: center;
+}
+.bv {
+  touch-action: manipulation;
+}
+.bw {
+  white-space: nowrap;
+}
+.bx {
+  vertical-align: middle;
+}
+.by {
+  user-select: none;
+}
+.ci:disabled {
+  background-color: #fff;
+}
+.cj:disabled {
+  color: #333;
+}
+.ck:disabled {
+  box-shadow: none;
+}
+.cl:disabled {
+  cursor: not-allowed;
+}
+.cm:disabled {
+  filter: alpha(opacity=65);
+}
+.cn:disabled {
+  opacity: 0.65;
+}
+.co:disabled {
+  pointer-events: none;
+}
+.cp:disabled {
+  border-top-color: #ccc;
+}
+.cq:disabled {
+  border-right-color: #ccc;
+}
+.cr:disabled {
+  border-bottom-color: #ccc;
+}
+.cs:disabled {
+  border-left-color: #ccc;
+}
+.dh {
+  border-top-width: 1px;
+}
+.di {
+  border-right-width: 1px;
+}
+.dj {
+  border-left-width: 1px;
+}
+.dk {
+  border-top-color: #ccc;
+}
+.dl {
+  border-right-color: #ccc;
+}
+.dm {
+  border-bottom-color: #ccc;
+}
+.dn {
+  border-left-color: #ccc;
+}
+.do {
+  flex-shrink: 0;
+}
+.dp {
+  width: 1.25rem;
+}
+.dq {
+  height: 1.25rem;
+}
+.dr {
+  margin-left: auto;
+}
+.ds {
+  background-image: url("/chevron-down.svg");
+}
+.dt {
+  background-repeat: no-repeat;
+}
+.du {
+  background-size: 1.25rem;
+}
+.dv {
+  transition-property: transform;
+}
+.dw {
+  transition-duration: 0.2s;
+}
+.dx {
+  transition-delay: ease-in-out;
+}
+.dy {
+  transition-timing-function: ease;
+}
+.dz {
+  height: 0;
+}
+.ea {
+  padding-top: 1rem;
+}
+.eb {
+  padding-right: 1.25rem;
+}
+.ec {
+  padding-bottom: 1rem;
+}
+.ed {
+  padding-left: 1.25rem;
+}
+.ee {
+  border-top-left-radius: 0;
+}
+.ef {
+  border-bottom-right-radius: 0.375rem;
+}
+.eg {
+  border-bottom-left-radius: 0.375rem;
+}
+.au:hover {
+  z-index: 2;
+}
+.db:hover {
+  background-color: #e6e6e6;
+}
+.dc:hover {
+  color: #333;
+}
+.dd:hover {
+  border-top-color: #adadad;
+}
+.de:hover {
+  border-right-color: #adadad;
+}
+.df:hover {
+  border-bottom-color: #adadad;
+}
+.dg:hover {
+  border-left-color: #adadad;
+}
+.an:focus {
+  z-index: 3;
+}
+.ao:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.ap:focus {
+  outline-width: 0;
+}
+.aq:focus {
+  border-top-color: #86b7fe;
+}
+.ar:focus {
+  border-right-color: #86b7fe;
+}
+.as:focus {
+  border-bottom-color: #86b7fe;
+}
+.at:focus {
+  border-left-color: #86b7fe;
+}
+.ct:focus-visible {
+  color: #333;
+}
+.cu:focus-visible {
+  background-color: #e6e6e6;
+}
+.cv:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.cw:focus-visible {
+  outline-width: 0;
+}
+.cx:focus-visible {
+  border-top-color: #adadad;
+}
+.cy:focus-visible {
+  border-right-color: #adadad;
+}
+.cz:focus-visible {
+  border-bottom-color: #adadad;
+}
+.da:focus-visible {
+  border-left-color: #adadad;
+}
+.bz:active {
+  color: #333;
+}
+.ca:active {
+  background-color: #e6e6e6;
+}
+.cb:active {
+  background-image: none;
+}
+.cc:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.cd:active {
+  outline-width: 0;
+}
+.ce:active {
+  border-top-color: #adadad;
+}
+.cf:active {
+  border-right-color: #adadad;
+}
+.cg:active {
+  border-bottom-color: #adadad;
+}
+.ch:active {
+  border-left-color: #adadad;
+}
+@media (min-width: 1200px) {
+  .z {
+    font-size: 2rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .aj {
+    transition-property: none;
+  }
+  .ak {
+    transition-duration: 0s;
+  }
+  .al {
+    transition-delay: 0s;
+  }
+  .am {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="accordion">
+  <div
+    data-testid="accordion-panel"
+    class="a b c d e f g h i j k l m n o p q r accordion-item"
+  >
+    <h2 class="s t accordion-header" data-testid="accordion-panel-header">
+      <button
+        data-testid="accordion-toggle-button"
+        class="b bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di dj dk dl dm dn e j k l m n s a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf e f g h i accordion-toggle-button"
+        aria-expanded="false"
+      >
+        Accordion Item #1
+        <div
+          data-testid="accordion-toggle-icon"
+          class="aj ak al am do dp dq dr ds dt du dv dw dx dy accordion-toggle-icon"
+        ></div>
+      </button>
+    </h2>
+    <div
+      data-testid="accordion-panel-content"
+      class="bb dz ea eb ec ed g h i accordion-body"
+      hidden=""
+    >
+      This is the first item&#x27;s accordion body. It is shown by default,
+      until the collapse plugin adds the appropriate classes that we use to
+      style each element. These classes control the overall appearance, as well
+      as the showing and hiding via CSS transitions. You can modify any of this
+      with custom CSS or overriding our default variables.
+    </div>
+  </div>
+  <div
+    data-testid="accordion-panel"
+    class="a b bh e ee f g h i j k l m n o p q r accordion-item"
+  >
+    <h2 class="s t accordion-header" data-testid="accordion-panel-header">
+      <button
+        data-testid="accordion-toggle-button"
+        class="b bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di dj dk dl dm dn e j k l m n s a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au ax ay az b ba bb bc bd be bf bh e ee f g h i accordion-toggle-button"
+        aria-expanded="false"
+      >
+        Accordion Item #2
+        <div
+          data-testid="accordion-toggle-icon"
+          class="aj ak al am do dp dq dr ds dt du dv dw dx dy accordion-toggle-icon"
+        ></div>
+      </button>
+    </h2>
+    <div
+      data-testid="accordion-panel-content"
+      class="bb dz ea eb ec ed g h i accordion-body"
+      hidden=""
+    >
+      This is the second item&#x27;s accordion body. It is hidden by default,
+      until the collapse plugin adds the appropriate classes that we use to
+      style each element. These classes control the overall appearance, as well
+      as the showing and hiding via CSS transitions. You can modify any of this
+      with custom CSS or overriding our default variables.
+    </div>
+  </div>
+  <div
+    data-testid="accordion-panel"
+    class="a b bb bh ee ef eg g h i k l m n o p q r accordion-item"
+  >
+    <div
+      data-testid="accordion-panel"
+      class="a b bh e ee f g h i j k l m n o p q r accordion-item"
+    >
+      <h2 class="s t accordion-header" data-testid="accordion-panel-header">
+        <button
+          data-testid="accordion-toggle-button"
+          class="b bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di dj dk dl dm dn e j k l m n s a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au ax ay az b ba bb bc bd be bf bh e ee f g h i accordion-toggle-button"
+          aria-expanded="false"
+        >
+          Accordion Item #3
+          <div
+            data-testid="accordion-toggle-icon"
+            class="aj ak al am do dp dq dr ds dt du dv dw dx dy accordion-toggle-icon"
+          ></div>
+        </button>
+      </h2>
+      <div
+        data-testid="accordion-panel-content"
+        class="bb dz ea eb ec ed g h i accordion-body"
+        hidden=""
+      >
+        This is the third item&#x27;s accordion body. It is hidden by default,
+        until the collapse plugin adds the appropriate classes that we use to
+        style each element. These classes control the overall appearance, as
+        well as the showing and hiding via CSS transitions. You can modify any
+        of this with custom CSS or overriding our default variables.
+      </div>
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Accordion/Accordion should render an Accordion with items 1`] = `
+".a {
+  color: #212529;
+}
+.b {
+  background-color: #fff;
+}
+.c {
+  border-top-left-radius: 0.375rem;
+}
+.d {
+  border-top-right-radius: 0.375rem;
+}
+.e {
+  border-top-width: 1px;
+}
+.f {
+  border-right-width: 1px;
+}
+.g {
+  border-bottom-width: 1px;
+}
+.h {
+  border-left-width: 1px;
+}
+.i {
+  border-top-style: solid;
+}
+.j {
+  border-right-style: solid;
+}
+.k {
+  border-bottom-style: solid;
+}
+.l {
+  border-left-style: solid;
+}
+.m {
+  border-top-color: #dee2e6;
+}
+.n {
+  border-right-color: #dee2e6;
+}
+.o {
+  border-bottom-color: #dee2e6;
+}
+.p {
+  border-left-color: #dee2e6;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  margin-top: 0;
+}
+.s {
+  color: inherit;
+}
+.t {
+  font-weight: 500;
+}
+.u {
+  font-size: calc(1.325rem + 0.9vw);
+}
+.v {
+  line-height: 1.2;
+}
+.w {
+  margin-bottom: 0.5rem;
+}
+.y {
+  position: relative;
+}
+.z {
+  display: flex !important;
+}
+.ab {
+  align-items: center;
+}
+.ac {
+  width: 100%;
+}
+.ae {
+  font-size: 1rem;
+}
+.af {
+  text-align: left;
+}
+.ag {
+  overflow-anchor: none;
+}
+.at {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.au {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.av {
+  transition-property: color, background-color, border-color, box-shadow,
+    border-radius;
+}
+.aw {
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s, 0.15s;
+}
+.ax {
+  transition-delay: ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease;
+}
+.ay {
+  transition-timing-function: ease, ease, ease, ease, ease;
+}
+.az {
+  border-bottom-right-radius: 0;
+}
+.ba {
+  border-bottom-left-radius: 0;
+}
+.bb {
+  border-top-width: 0;
+}
+.bc {
+  border-right-width: 0;
+}
+.bd {
+  border-bottom-width: 0;
+}
+.be {
+  border-left-width: 0;
+}
+.bf {
+  padding-top: 1.25rem;
+}
+.bg {
+  padding-right: 1rem;
+}
+.bh {
+  padding-bottom: 1.25rem;
+}
+.bi {
+  padding-left: 1rem;
+}
+.bj {
+  border-top-left-radius: 4px;
+}
+.bk {
+  border-top-right-radius: 0;
+}
+.bl {
+  border-bottom-left-radius: 4px;
+}
+.bm {
+  padding-top: 6px;
+}
+.bn {
+  padding-bottom: 6px;
+}
+.bo {
+  padding-left: 12px;
+}
+.bp {
+  padding-right: 12px;
+}
+.bq {
+  background-image: none;
+}
+.br {
+  color: #333;
+}
+.bs {
+  cursor: pointer;
+}
+.bt {
+  display: inline-block;
+}
+.bu {
+  font-size: 14px;
+}
+.bv {
+  font-weight: 400;
+}
+.bw {
+  line-height: 1.42857143;
+}
+.bx {
+  text-align: center;
+}
+.by {
+  touch-action: manipulation;
+}
+.bz {
+  white-space: nowrap;
+}
+.ca {
+  vertical-align: middle;
+}
+.cb {
+  user-select: none;
+}
+.cl:disabled {
+  background-color: #fff;
+}
+.cm:disabled {
+  color: #333;
+}
+.cn:disabled {
+  box-shadow: none;
+}
+.co:disabled {
+  cursor: not-allowed;
+}
+.cp:disabled {
+  filter: alpha(opacity=65);
+}
+.cq:disabled {
+  opacity: 0.65;
+}
+.cr:disabled {
+  pointer-events: none;
+}
+.cs:disabled {
+  border-top-color: #ccc;
+}
+.ct:disabled {
+  border-right-color: #ccc;
+}
+.cu:disabled {
+  border-bottom-color: #ccc;
+}
+.cv:disabled {
+  border-left-color: #ccc;
+}
+.dk {
+  border-top-color: #ccc;
+}
+.dl {
+  border-right-color: #ccc;
+}
+.dm {
+  border-bottom-color: #ccc;
+}
+.dn {
+  border-left-color: #ccc;
+}
+.do {
+  flex-shrink: 0;
+}
+.dp {
+  width: 1.25rem;
+}
+.dq {
+  height: 1.25rem;
+}
+.dr {
+  margin-left: auto;
+}
+.ds {
+  background-image: url("/chevron-down.svg");
+}
+.dt {
+  background-repeat: no-repeat;
+}
+.du {
+  background-size: 1.25rem;
+}
+.dv {
+  transition-property: transform;
+}
+.dw {
+  transition-duration: 0.2s;
+}
+.dx {
+  transition-delay: ease-in-out;
+}
+.dy {
+  transition-timing-function: ease;
+}
+.dz {
+  height: 0;
+}
+.ea {
+  padding-top: 1rem;
+}
+.eb {
+  padding-right: 1.25rem;
+}
+.ec {
+  padding-bottom: 1rem;
+}
+.ed {
+  padding-left: 1.25rem;
+}
+.ee {
+  border-top-left-radius: 0;
+}
+.ef {
+  border-bottom-right-radius: 0.375rem;
+}
+.eg {
+  border-bottom-left-radius: 0.375rem;
+}
+.as:hover {
+  z-index: 2;
+}
+.de:hover {
+  background-color: #e6e6e6;
+}
+.df:hover {
+  color: #333;
+}
+.dg:hover {
+  border-top-color: #adadad;
+}
+.dh:hover {
+  border-right-color: #adadad;
+}
+.di:hover {
+  border-bottom-color: #adadad;
+}
+.dj:hover {
+  border-left-color: #adadad;
+}
+.al:focus {
+  z-index: 3;
+}
+.am:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.an:focus {
+  outline-width: 0;
+}
+.ao:focus {
+  border-top-color: #86b7fe;
+}
+.ap:focus {
+  border-right-color: #86b7fe;
+}
+.aq:focus {
+  border-bottom-color: #86b7fe;
+}
+.ar:focus {
+  border-left-color: #86b7fe;
+}
+.cw:focus-visible {
+  color: #333;
+}
+.cx:focus-visible {
+  background-color: #e6e6e6;
+}
+.cy:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.cz:focus-visible {
+  outline-width: 0;
+}
+.da:focus-visible {
+  border-top-color: #adadad;
+}
+.db:focus-visible {
+  border-right-color: #adadad;
+}
+.dc:focus-visible {
+  border-bottom-color: #adadad;
+}
+.dd:focus-visible {
+  border-left-color: #adadad;
+}
+.cc:active {
+  color: #333;
+}
+.cd:active {
+  background-color: #e6e6e6;
+}
+.ce:active {
+  background-image: none;
+}
+.cf:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.cg:active {
+  outline-width: 0;
+}
+.ch:active {
+  border-top-color: #adadad;
+}
+.ci:active {
+  border-right-color: #adadad;
+}
+.cj:active {
+  border-bottom-color: #adadad;
+}
+.ck:active {
+  border-left-color: #adadad;
+}
+@media (min-width: 1200px) {
+  .x {
+    font-size: 2rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ah {
+    transition-property: none;
+  }
+  .ai {
+    transition-duration: 0s;
+  }
+  .aj {
+    transition-delay: 0s;
+  }
+  .ak {
+    transition-timing-function: ease;
+  }
+}
+
+
+<div data-testid="accordion">
+  <div
+    data-testid="accordion-panel"
+    class="a b c d e f g h i j k l m n o p accordion-item"
+  >
+    <h2 class="q r accordion-header" data-testid="accordion-panel-header">
+      <button
+        data-testid="accordion-toggle-button"
+        class="az b bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di dj dk dl dm dn e f g h i j k l q a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi y z accordion-toggle-button"
+        aria-expanded="false"
+      >
+        Accordion Item #1
+        <div
+          data-testid="accordion-toggle-icon"
+          class="ah ai aj ak do dp dq dr ds dt du dv dw dx dy accordion-toggle-icon"
+        ></div>
+      </button>
+    </h2>
+    <div
+      data-testid="accordion-panel-content"
+      class="dz ea eb ec ed accordion-body"
+      hidden=""
+    >
+      This is the first item&#x27;s accordion body. It is shown by default,
+      until the collapse plugin adds the appropriate classes that we use to
+      style each element. These classes control the overall appearance, as well
+      as the showing and hiding via CSS transitions. You can modify any of this
+      with custom CSS or overriding our default variables.
+    </div>
+  </div>
+  <div
+    data-testid="accordion-panel"
+    class="a b bb f g h i j k l m n o p accordion-item"
+  >
+    <h2 class="q r accordion-header" data-testid="accordion-panel-header">
+      <button
+        data-testid="accordion-toggle-button"
+        class="az b bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di dj dk dl dm dn e f g h i j k l q a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as av aw ax ay az b ba bb bc bd be bf bg bh bi bk ee y z accordion-toggle-button"
+        aria-expanded="false"
+      >
+        Accordion Item #2
+        <div
+          data-testid="accordion-toggle-icon"
+          class="ah ai aj ak do dp dq dr ds dt du dv dw dx dy accordion-toggle-icon"
+        ></div>
+      </button>
+    </h2>
+    <div
+      data-testid="accordion-panel-content"
+      class="dz ea eb ec ed accordion-body"
+      hidden=""
+    >
+      This is the second item&#x27;s accordion body. It is hidden by default,
+      until the collapse plugin adds the appropriate classes that we use to
+      style each element. These classes control the overall appearance, as well
+      as the showing and hiding via CSS transitions. You can modify any of this
+      with custom CSS or overriding our default variables.
+    </div>
+  </div>
+  <div
+    data-testid="accordion-panel"
+    class="a b bb ef eg f g h i j k l m n o p accordion-item"
+  >
+    <div
+      data-testid="accordion-panel"
+      class="a b bb f g h i j k l m n o p accordion-item"
+    >
+      <h2 class="q r accordion-header" data-testid="accordion-panel-header">
+        <button
+          data-testid="accordion-toggle-button"
+          class="az b bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx cy cz da db dc dd de df dg dh di dj dk dl dm dn e f g h i j k l q a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as av aw ax ay az b ba bb bc bd be bf bg bh bi bk ee y z accordion-toggle-button"
+          aria-expanded="false"
+        >
+          Accordion Item #3
+          <div
+            data-testid="accordion-toggle-icon"
+            class="ah ai aj ak do dp dq dr ds dt du dv dw dx dy accordion-toggle-icon"
+          ></div>
+        </button>
+      </h2>
+      <div
+        data-testid="accordion-panel-content"
+        class="dz ea eb ec ed accordion-body"
+        hidden=""
+      >
+        This is the third item&#x27;s accordion body. It is hidden by default,
+        until the collapse plugin adds the appropriate classes that we use to
+        style each element. These classes control the overall appearance, as
+        well as the showing and hiding via CSS transitions. You can modify any
+        of this with custom CSS or overriding our default variables.
+      </div>
+    </div>
+  </div>
+</div>
+;
+"
+`;

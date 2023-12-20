@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/InputGroup/GroupInput should display a group input 1`] = `
+".a {
+  position: relative;
+}
+.b {
+  width: 1%;
+}
+.c {
+  min-width: 0;
+}
+.e {
+  flex-grow: 1;
+}
+.f {
+  flex-shrink: 1;
+}
+.g {
+  flex-basis: auto;
+}
+.h {
+  appearance: none;
+}
+.i {
+  background-clip: padding-box;
+}
+.j {
+  background-color: #fff;
+}
+.k {
+  color: #212529;
+}
+.l {
+  display: block;
+}
+.m {
+  font-size: 1rem;
+}
+.n {
+  font-weight: 400;
+}
+.o {
+  line-height: 1.5;
+}
+.p {
+  width: 100%;
+}
+.u:disabled {
+  background-color: #e9ecef;
+}
+.v:disabled {
+  opacity: 1;
+}
+.ag::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ah::placeholder {
+  opacity: 1;
+}
+.ai::-webkit-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aj::-webkit-input-placeholder {
+  opacity: 1;
+}
+.ak::-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.al::-moz-placeholder {
+  opacity: 1;
+}
+.am:-ms-input-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.an:-ms-input-placeholder {
+  opacity: 1;
+}
+.ao:-moz-placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ap:-moz-placeholder {
+  opacity: 1;
+}
+.aq {
+  transition-property: border-color, box-shadow;
+}
+.ar {
+  transition-duration: 0.15s, 0.15s;
+}
+.as {
+  transition-delay: ease-in-out, ease-in-out;
+}
+.at {
+  transition-timing-function: ease, ease;
+}
+.au {
+  padding-top: 0.375rem;
+}
+.av {
+  padding-right: 0.75rem;
+}
+.aw {
+  padding-bottom: 0.375rem;
+}
+.ax {
+  padding-left: 0.75rem;
+}
+.ay {
+  border-top-left-radius: 0.375rem;
+}
+.az {
+  border-top-right-radius: 0.375rem;
+}
+.ba {
+  border-bottom-right-radius: 0.375rem;
+}
+.bb {
+  border-bottom-left-radius: 0.375rem;
+}
+.bc {
+  border-top-width: 1px;
+}
+.bd {
+  border-right-width: 1px;
+}
+.be {
+  border-bottom-width: 1px;
+}
+.bf {
+  border-left-width: 1px;
+}
+.bg {
+  border-top-style: solid;
+}
+.bh {
+  border-right-style: solid;
+}
+.bi {
+  border-bottom-style: solid;
+}
+.bj {
+  border-left-style: solid;
+}
+.bk {
+  border-top-color: #dee2e6;
+}
+.bl {
+  border-right-color: #dee2e6;
+}
+.bm {
+  border-bottom-color: #dee2e6;
+}
+.bn {
+  border-left-color: #dee2e6;
+}
+.d:focus {
+  z-index: 5;
+}
+.w:focus {
+  background-color: #fff;
+}
+.x:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.y:focus {
+  color: #212529;
+}
+.z:focus {
+  outline-width: 0;
+}
+.ab:focus {
+  border-top-color: #86b7fe;
+}
+.ac:focus {
+  border-right-color: #86b7fe;
+}
+.ae:focus {
+  border-bottom-color: #86b7fe;
+}
+.af:focus {
+  border-left-color: #86b7fe;
+}
+@media (prefers-reduced-motion: reduce) {
+  .q {
+    transition-property: none;
+  }
+  .r {
+    transition-duration: 0s;
+  }
+  .s {
+    transition-delay: 0s;
+  }
+  .t {
+    transition-timing-function: ease;
+  }
+}
+
+
+<input data-testid="text-input" type="text" class="a b c d e f g" value="" />;
+"
+`;

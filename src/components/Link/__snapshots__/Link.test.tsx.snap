@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Link should render an anchor element 1`] = `
+".a {
+  font-weight: 500;
+}
+.b {
+  color: #646cff;
+}
+.d {
+  text-decoration-line: inherit;
+}
+.c:hover {
+  color: #535bf2;
+}
+
+
+<a data-testid="link" href="/home" target="" rel="" class="a b c d">Home</a>;
+"
+`;
+
+exports[`components/Link should render an anchor element with target and rel 1`] = `
+".a {
+  font-weight: 500;
+}
+.b {
+  color: #646cff;
+}
+.d {
+  text-decoration-line: inherit;
+}
+.c:hover {
+  color: #535bf2;
+}
+
+
+<a
+  data-testid="link"
+  href="/home"
+  target="_blank"
+  rel="noopener"
+  class="a b c d"
+  >Home</a
+>;
+"
+`;

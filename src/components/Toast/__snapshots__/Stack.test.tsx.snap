@@ -1,0 +1,2932 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Toast/Stack should display a toast stack placed at bottom-center 1`] = `
+".a {
+  position: static !important;
+}
+.b {
+  margin-bottom: 1.5rem;
+}
+.c {
+  position: absolute;
+}
+.d {
+  bottom: 0;
+}
+.e {
+  left: 50%;
+}
+.f {
+  transform: translateX(-50%);
+}
+.g {
+  width: 350px;
+}
+.h {
+  max-width: 100%;
+}
+.i {
+  font-size: 0.875rem;
+}
+.j {
+  pointer-events: auto;
+}
+.k {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.l {
+  background-clip: padding-box;
+}
+.m {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.n {
+  border-top-left-radius: 0.375rem;
+}
+.o {
+  border-top-right-radius: 0.375rem;
+}
+.p {
+  border-bottom-right-radius: 0.375rem;
+}
+.q {
+  border-bottom-left-radius: 0.375rem;
+}
+.r {
+  border-top-width: 1px;
+}
+.s {
+  border-right-width: 1px;
+}
+.t {
+  border-bottom-width: 1px;
+}
+.u {
+  border-left-width: 1px;
+}
+.v {
+  border-top-style: solid;
+}
+.w {
+  border-right-style: solid;
+}
+.x {
+  border-bottom-style: solid;
+}
+.y {
+  border-left-style: solid;
+}
+.z {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.ab {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.ac {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ae {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.af {
+  align-items: center;
+}
+.ag {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.ah {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.ai {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aj {
+  display: flex !important;
+}
+.ak {
+  padding-top: 0.5rem;
+}
+.al {
+  padding-right: 0.75rem;
+}
+.am {
+  padding-bottom: 0.5rem;
+}
+.an {
+  padding-left: 0.75rem;
+}
+.ao {
+  margin-right: auto;
+}
+.ap {
+  margin-top: 0.5rem;
+}
+.aq {
+  margin-right: 0.5rem;
+}
+.ar {
+  margin-right: calc(-0.5 * 0.75rem);
+}
+.as {
+  margin-left: 0.75rem;
+}
+.at {
+  padding-top: 10px !important;
+}
+.au {
+  padding-bottom: 10px !important;
+}
+.av {
+  background-color: transparent;
+}
+.aw {
+  background-image: url(test-file-stub);
+}
+.ax {
+  background-position-x: center;
+}
+.ay {
+  background-origin: padding-box;
+}
+.az {
+  background-clip: border-box;
+}
+.ba {
+  background-position-y: 1em;
+}
+.bb {
+  background-repeat: no-repeat;
+}
+.bc {
+  background-size: auto;
+}
+.bd {
+  box-sizing: content-box;
+}
+.be {
+  color: #000;
+}
+.bf {
+  height: 1em;
+}
+.bg {
+  opacity: 0.5;
+}
+.bh {
+  width: 1em;
+}
+.bl:disabled {
+  opacity: 0.25;
+}
+.bm:disabled {
+  pointer-events: none;
+}
+.bn:disabled {
+  user-select: none;
+}
+.bo {
+  border-top-width: 0;
+}
+.bp {
+  border-right-width: 0;
+}
+.bq {
+  border-bottom-width: 0;
+}
+.br {
+  border-left-width: 0;
+}
+.bs {
+  border-top-color: rgb(0, 0, 0);
+}
+.bt {
+  border-right-color: rgb(0, 0, 0);
+}
+.bu {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bv {
+  border-left-color: rgb(0, 0, 0);
+}
+.bw {
+  word-wrap: break-word;
+}
+.bx {
+  padding-top: 0.75rem;
+}
+.by {
+  padding-bottom: 0.75rem;
+}
+.bi:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bj:focus {
+  opacity: 1;
+}
+.bk:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="toast-container"
+  class="c d e f toast-container a toast-stack-container"
+>
+  <div data-testid="portal" id="toasts">
+    <div
+      data-testid="toast"
+      style="opacity: 1; display: block"
+      class="ab ac ae g h i j k l m n o p q r s t u v w x y z toast b"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div
+        data-testid="toast-header"
+        class="ac af ag ah ai aj ak al am an k l t x toast-header"
+        style="opacity: 1; display: block"
+      >
+        <svg
+          data-testid="toast-icon"
+          class="aq n o p q toast-icon"
+          width="20"
+          height="20"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <rect width="100%" height="100%" fill="#007aff"></rect></svg
+        ><strong data-testid="toast-title" class="ao ap toast-title"
+          >Bootstrap</strong
+        ><small class="toast-header-right" data-testid="toast-header-right"
+          >2 seconds ago</small
+        ><button
+          data-testid="toast-close-button"
+          type="button"
+          class="ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv n o p q toast-btn-close"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        data-testid="toast-body"
+        class="al an bw bx by toast-body"
+        style="opacity: 1; display: block"
+      >
+        Heads, up! Toasts will stack automatically.
+      </div>
+    </div>
+  </div>
+  <div data-testid="portal" id="toasts">
+    <div
+      data-testid="toast"
+      style="opacity: 1; display: block"
+      class="ab ac ae g h i j k l m n o p q r s t u v w x y z toast b"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div
+        data-testid="toast-header"
+        class="ac af ag ah ai aj ak al am an k l t x toast-header"
+        style="opacity: 1; display: block"
+      >
+        <svg
+          data-testid="toast-icon"
+          class="aq n o p q toast-icon"
+          width="20"
+          height="20"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <rect width="100%" height="100%" fill="#007aff"></rect></svg
+        ><strong data-testid="toast-title" class="ao ap toast-title"
+          >Bootstrap</strong
+        ><small class="toast-header-right" data-testid="toast-header-right"
+          >now</small
+        ><button
+          data-testid="toast-close-button"
+          type="button"
+          class="ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv n o p q toast-btn-close"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        data-testid="toast-body"
+        class="al an bw bx by toast-body"
+        style="opacity: 1; display: block"
+      >
+        See? Just like this.
+      </div>
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Stack should display a toast stack placed at bottom-left 1`] = `
+".a {
+  position: static !important;
+}
+.b {
+  margin-bottom: 1.5rem;
+}
+.c {
+  position: absolute;
+}
+.d {
+  bottom: 0;
+}
+.e {
+  left: 0;
+}
+.f {
+  width: 350px;
+}
+.g {
+  max-width: 100%;
+}
+.h {
+  font-size: 0.875rem;
+}
+.i {
+  pointer-events: auto;
+}
+.j {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.k {
+  background-clip: padding-box;
+}
+.l {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.m {
+  border-top-left-radius: 0.375rem;
+}
+.n {
+  border-top-right-radius: 0.375rem;
+}
+.o {
+  border-bottom-right-radius: 0.375rem;
+}
+.p {
+  border-bottom-left-radius: 0.375rem;
+}
+.q {
+  border-top-width: 1px;
+}
+.r {
+  border-right-width: 1px;
+}
+.s {
+  border-bottom-width: 1px;
+}
+.t {
+  border-left-width: 1px;
+}
+.u {
+  border-top-style: solid;
+}
+.v {
+  border-right-style: solid;
+}
+.w {
+  border-bottom-style: solid;
+}
+.x {
+  border-left-style: solid;
+}
+.y {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.z {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.ab {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ac {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ae {
+  align-items: center;
+}
+.af {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.ag {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.ah {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ai {
+  display: flex !important;
+}
+.aj {
+  padding-top: 0.5rem;
+}
+.ak {
+  padding-right: 0.75rem;
+}
+.al {
+  padding-bottom: 0.5rem;
+}
+.am {
+  padding-left: 0.75rem;
+}
+.an {
+  margin-right: auto;
+}
+.ao {
+  margin-top: 0.5rem;
+}
+.ap {
+  margin-right: 0.5rem;
+}
+.aq {
+  margin-right: calc(-0.5 * 0.75rem);
+}
+.ar {
+  margin-left: 0.75rem;
+}
+.as {
+  padding-top: 10px !important;
+}
+.at {
+  padding-bottom: 10px !important;
+}
+.au {
+  background-color: transparent;
+}
+.av {
+  background-image: url(test-file-stub);
+}
+.aw {
+  background-position-x: center;
+}
+.ax {
+  background-origin: padding-box;
+}
+.ay {
+  background-clip: border-box;
+}
+.az {
+  background-position-y: 1em;
+}
+.ba {
+  background-repeat: no-repeat;
+}
+.bb {
+  background-size: auto;
+}
+.bc {
+  box-sizing: content-box;
+}
+.bd {
+  color: #000;
+}
+.be {
+  height: 1em;
+}
+.bf {
+  opacity: 0.5;
+}
+.bg {
+  width: 1em;
+}
+.bk:disabled {
+  opacity: 0.25;
+}
+.bl:disabled {
+  pointer-events: none;
+}
+.bm:disabled {
+  user-select: none;
+}
+.bn {
+  border-top-width: 0;
+}
+.bo {
+  border-right-width: 0;
+}
+.bp {
+  border-bottom-width: 0;
+}
+.bq {
+  border-left-width: 0;
+}
+.br {
+  border-top-color: rgb(0, 0, 0);
+}
+.bs {
+  border-right-color: rgb(0, 0, 0);
+}
+.bt {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bu {
+  border-left-color: rgb(0, 0, 0);
+}
+.bv {
+  word-wrap: break-word;
+}
+.bw {
+  padding-top: 0.75rem;
+}
+.bx {
+  padding-bottom: 0.75rem;
+}
+.bh:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bi:focus {
+  opacity: 1;
+}
+.bj:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="toast-container"
+  class="c d e toast-container a toast-stack-container"
+>
+  <div data-testid="portal" id="toasts">
+    <div
+      data-testid="toast"
+      style="opacity: 1; display: block"
+      class="ab ac f g h i j k l m n o p q r s t u v w x y z toast b"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div
+        data-testid="toast-header"
+        class="ab ae af ag ah ai aj ak al am j k s w toast-header"
+        style="opacity: 1; display: block"
+      >
+        <svg
+          data-testid="toast-icon"
+          class="ap m n o p toast-icon"
+          width="20"
+          height="20"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <rect width="100%" height="100%" fill="#007aff"></rect></svg
+        ><strong data-testid="toast-title" class="an ao toast-title"
+          >Bootstrap</strong
+        ><small class="toast-header-right" data-testid="toast-header-right"
+          >2 seconds ago</small
+        ><button
+          data-testid="toast-close-button"
+          type="button"
+          class="aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu m n o p toast-btn-close"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        data-testid="toast-body"
+        class="ak am bv bw bx toast-body"
+        style="opacity: 1; display: block"
+      >
+        Heads, up! Toasts will stack automatically.
+      </div>
+    </div>
+  </div>
+  <div data-testid="portal" id="toasts">
+    <div
+      data-testid="toast"
+      style="opacity: 1; display: block"
+      class="ab ac f g h i j k l m n o p q r s t u v w x y z toast b"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div
+        data-testid="toast-header"
+        class="ab ae af ag ah ai aj ak al am j k s w toast-header"
+        style="opacity: 1; display: block"
+      >
+        <svg
+          data-testid="toast-icon"
+          class="ap m n o p toast-icon"
+          width="20"
+          height="20"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <rect width="100%" height="100%" fill="#007aff"></rect></svg
+        ><strong data-testid="toast-title" class="an ao toast-title"
+          >Bootstrap</strong
+        ><small class="toast-header-right" data-testid="toast-header-right"
+          >now</small
+        ><button
+          data-testid="toast-close-button"
+          type="button"
+          class="aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu m n o p toast-btn-close"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        data-testid="toast-body"
+        class="ak am bv bw bx toast-body"
+        style="opacity: 1; display: block"
+      >
+        See? Just like this.
+      </div>
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Stack should display a toast stack placed at bottom-right 1`] = `
+".a {
+  position: static !important;
+}
+.b {
+  margin-bottom: 1.5rem;
+}
+.c {
+  position: absolute;
+}
+.d {
+  bottom: 0;
+}
+.e {
+  right: 0;
+}
+.f {
+  width: 350px;
+}
+.g {
+  max-width: 100%;
+}
+.h {
+  font-size: 0.875rem;
+}
+.i {
+  pointer-events: auto;
+}
+.j {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.k {
+  background-clip: padding-box;
+}
+.l {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.m {
+  border-top-left-radius: 0.375rem;
+}
+.n {
+  border-top-right-radius: 0.375rem;
+}
+.o {
+  border-bottom-right-radius: 0.375rem;
+}
+.p {
+  border-bottom-left-radius: 0.375rem;
+}
+.q {
+  border-top-width: 1px;
+}
+.r {
+  border-right-width: 1px;
+}
+.s {
+  border-bottom-width: 1px;
+}
+.t {
+  border-left-width: 1px;
+}
+.u {
+  border-top-style: solid;
+}
+.v {
+  border-right-style: solid;
+}
+.w {
+  border-bottom-style: solid;
+}
+.x {
+  border-left-style: solid;
+}
+.y {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.z {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.ab {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ac {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ae {
+  align-items: center;
+}
+.af {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.ag {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.ah {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ai {
+  display: flex !important;
+}
+.aj {
+  padding-top: 0.5rem;
+}
+.ak {
+  padding-right: 0.75rem;
+}
+.al {
+  padding-bottom: 0.5rem;
+}
+.am {
+  padding-left: 0.75rem;
+}
+.an {
+  margin-right: auto;
+}
+.ao {
+  margin-top: 0.5rem;
+}
+.ap {
+  margin-right: 0.5rem;
+}
+.aq {
+  margin-right: calc(-0.5 * 0.75rem);
+}
+.ar {
+  margin-left: 0.75rem;
+}
+.as {
+  padding-top: 10px !important;
+}
+.at {
+  padding-bottom: 10px !important;
+}
+.au {
+  background-color: transparent;
+}
+.av {
+  background-image: url(test-file-stub);
+}
+.aw {
+  background-position-x: center;
+}
+.ax {
+  background-origin: padding-box;
+}
+.ay {
+  background-clip: border-box;
+}
+.az {
+  background-position-y: 1em;
+}
+.ba {
+  background-repeat: no-repeat;
+}
+.bb {
+  background-size: auto;
+}
+.bc {
+  box-sizing: content-box;
+}
+.bd {
+  color: #000;
+}
+.be {
+  height: 1em;
+}
+.bf {
+  opacity: 0.5;
+}
+.bg {
+  width: 1em;
+}
+.bk:disabled {
+  opacity: 0.25;
+}
+.bl:disabled {
+  pointer-events: none;
+}
+.bm:disabled {
+  user-select: none;
+}
+.bn {
+  border-top-width: 0;
+}
+.bo {
+  border-right-width: 0;
+}
+.bp {
+  border-bottom-width: 0;
+}
+.bq {
+  border-left-width: 0;
+}
+.br {
+  border-top-color: rgb(0, 0, 0);
+}
+.bs {
+  border-right-color: rgb(0, 0, 0);
+}
+.bt {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bu {
+  border-left-color: rgb(0, 0, 0);
+}
+.bv {
+  word-wrap: break-word;
+}
+.bw {
+  padding-top: 0.75rem;
+}
+.bx {
+  padding-bottom: 0.75rem;
+}
+.bh:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bi:focus {
+  opacity: 1;
+}
+.bj:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="toast-container"
+  class="c d e toast-container a toast-stack-container"
+>
+  <div data-testid="portal" id="toasts">
+    <div
+      data-testid="toast"
+      style="opacity: 1; display: block"
+      class="ab ac f g h i j k l m n o p q r s t u v w x y z toast b"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div
+        data-testid="toast-header"
+        class="ab ae af ag ah ai aj ak al am j k s w toast-header"
+        style="opacity: 1; display: block"
+      >
+        <svg
+          data-testid="toast-icon"
+          class="ap m n o p toast-icon"
+          width="20"
+          height="20"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <rect width="100%" height="100%" fill="#007aff"></rect></svg
+        ><strong data-testid="toast-title" class="an ao toast-title"
+          >Bootstrap</strong
+        ><small class="toast-header-right" data-testid="toast-header-right"
+          >2 seconds ago</small
+        ><button
+          data-testid="toast-close-button"
+          type="button"
+          class="aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu m n o p toast-btn-close"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        data-testid="toast-body"
+        class="ak am bv bw bx toast-body"
+        style="opacity: 1; display: block"
+      >
+        Heads, up! Toasts will stack automatically.
+      </div>
+    </div>
+  </div>
+  <div data-testid="portal" id="toasts">
+    <div
+      data-testid="toast"
+      style="opacity: 1; display: block"
+      class="ab ac f g h i j k l m n o p q r s t u v w x y z toast b"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div
+        data-testid="toast-header"
+        class="ab ae af ag ah ai aj ak al am j k s w toast-header"
+        style="opacity: 1; display: block"
+      >
+        <svg
+          data-testid="toast-icon"
+          class="ap m n o p toast-icon"
+          width="20"
+          height="20"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <rect width="100%" height="100%" fill="#007aff"></rect></svg
+        ><strong data-testid="toast-title" class="an ao toast-title"
+          >Bootstrap</strong
+        ><small class="toast-header-right" data-testid="toast-header-right"
+          >now</small
+        ><button
+          data-testid="toast-close-button"
+          type="button"
+          class="aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu m n o p toast-btn-close"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        data-testid="toast-body"
+        class="ak am bv bw bx toast-body"
+        style="opacity: 1; display: block"
+      >
+        See? Just like this.
+      </div>
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Stack should display a toast stack placed at middle-center 1`] = `
+".a {
+  position: static !important;
+}
+.b {
+  margin-bottom: 1.5rem;
+}
+.c {
+  position: absolute;
+}
+.d {
+  top: 50%;
+}
+.e {
+  left: 50%;
+}
+.f {
+  transform: translate(-50%, -50%);
+}
+.g {
+  width: 350px;
+}
+.h {
+  max-width: 100%;
+}
+.i {
+  font-size: 0.875rem;
+}
+.j {
+  pointer-events: auto;
+}
+.k {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.l {
+  background-clip: padding-box;
+}
+.m {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.n {
+  border-top-left-radius: 0.375rem;
+}
+.o {
+  border-top-right-radius: 0.375rem;
+}
+.p {
+  border-bottom-right-radius: 0.375rem;
+}
+.q {
+  border-bottom-left-radius: 0.375rem;
+}
+.r {
+  border-top-width: 1px;
+}
+.s {
+  border-right-width: 1px;
+}
+.t {
+  border-bottom-width: 1px;
+}
+.u {
+  border-left-width: 1px;
+}
+.v {
+  border-top-style: solid;
+}
+.w {
+  border-right-style: solid;
+}
+.x {
+  border-bottom-style: solid;
+}
+.y {
+  border-left-style: solid;
+}
+.z {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.ab {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.ac {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ae {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.af {
+  align-items: center;
+}
+.ag {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.ah {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.ai {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aj {
+  display: flex !important;
+}
+.ak {
+  padding-top: 0.5rem;
+}
+.al {
+  padding-right: 0.75rem;
+}
+.am {
+  padding-bottom: 0.5rem;
+}
+.an {
+  padding-left: 0.75rem;
+}
+.ao {
+  margin-right: auto;
+}
+.ap {
+  margin-top: 0.5rem;
+}
+.aq {
+  margin-right: 0.5rem;
+}
+.ar {
+  margin-right: calc(-0.5 * 0.75rem);
+}
+.as {
+  margin-left: 0.75rem;
+}
+.at {
+  padding-top: 10px !important;
+}
+.au {
+  padding-bottom: 10px !important;
+}
+.av {
+  background-color: transparent;
+}
+.aw {
+  background-image: url(test-file-stub);
+}
+.ax {
+  background-position-x: center;
+}
+.ay {
+  background-origin: padding-box;
+}
+.az {
+  background-clip: border-box;
+}
+.ba {
+  background-position-y: 1em;
+}
+.bb {
+  background-repeat: no-repeat;
+}
+.bc {
+  background-size: auto;
+}
+.bd {
+  box-sizing: content-box;
+}
+.be {
+  color: #000;
+}
+.bf {
+  height: 1em;
+}
+.bg {
+  opacity: 0.5;
+}
+.bh {
+  width: 1em;
+}
+.bl:disabled {
+  opacity: 0.25;
+}
+.bm:disabled {
+  pointer-events: none;
+}
+.bn:disabled {
+  user-select: none;
+}
+.bo {
+  border-top-width: 0;
+}
+.bp {
+  border-right-width: 0;
+}
+.bq {
+  border-bottom-width: 0;
+}
+.br {
+  border-left-width: 0;
+}
+.bs {
+  border-top-color: rgb(0, 0, 0);
+}
+.bt {
+  border-right-color: rgb(0, 0, 0);
+}
+.bu {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bv {
+  border-left-color: rgb(0, 0, 0);
+}
+.bw {
+  word-wrap: break-word;
+}
+.bx {
+  padding-top: 0.75rem;
+}
+.by {
+  padding-bottom: 0.75rem;
+}
+.bi:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bj:focus {
+  opacity: 1;
+}
+.bk:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="toast-container"
+  class="c d e f toast-container a toast-stack-container"
+>
+  <div data-testid="portal" id="toasts">
+    <div
+      data-testid="toast"
+      style="opacity: 1; display: block"
+      class="ab ac ae g h i j k l m n o p q r s t u v w x y z toast b"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div
+        data-testid="toast-header"
+        class="ac af ag ah ai aj ak al am an k l t x toast-header"
+        style="opacity: 1; display: block"
+      >
+        <svg
+          data-testid="toast-icon"
+          class="aq n o p q toast-icon"
+          width="20"
+          height="20"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <rect width="100%" height="100%" fill="#007aff"></rect></svg
+        ><strong data-testid="toast-title" class="ao ap toast-title"
+          >Bootstrap</strong
+        ><small class="toast-header-right" data-testid="toast-header-right"
+          >2 seconds ago</small
+        ><button
+          data-testid="toast-close-button"
+          type="button"
+          class="ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv n o p q toast-btn-close"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        data-testid="toast-body"
+        class="al an bw bx by toast-body"
+        style="opacity: 1; display: block"
+      >
+        Heads, up! Toasts will stack automatically.
+      </div>
+    </div>
+  </div>
+  <div data-testid="portal" id="toasts">
+    <div
+      data-testid="toast"
+      style="opacity: 1; display: block"
+      class="ab ac ae g h i j k l m n o p q r s t u v w x y z toast b"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div
+        data-testid="toast-header"
+        class="ac af ag ah ai aj ak al am an k l t x toast-header"
+        style="opacity: 1; display: block"
+      >
+        <svg
+          data-testid="toast-icon"
+          class="aq n o p q toast-icon"
+          width="20"
+          height="20"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <rect width="100%" height="100%" fill="#007aff"></rect></svg
+        ><strong data-testid="toast-title" class="ao ap toast-title"
+          >Bootstrap</strong
+        ><small class="toast-header-right" data-testid="toast-header-right"
+          >now</small
+        ><button
+          data-testid="toast-close-button"
+          type="button"
+          class="ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv n o p q toast-btn-close"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        data-testid="toast-body"
+        class="al an bw bx by toast-body"
+        style="opacity: 1; display: block"
+      >
+        See? Just like this.
+      </div>
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Stack should display a toast stack placed at middle-left 1`] = `
+".a {
+  position: static !important;
+}
+.b {
+  margin-bottom: 1.5rem;
+}
+.c {
+  position: absolute;
+}
+.d {
+  top: 50%;
+}
+.e {
+  left: 0;
+}
+.f {
+  transform: translateY(-50%);
+}
+.g {
+  width: 350px;
+}
+.h {
+  max-width: 100%;
+}
+.i {
+  font-size: 0.875rem;
+}
+.j {
+  pointer-events: auto;
+}
+.k {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.l {
+  background-clip: padding-box;
+}
+.m {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.n {
+  border-top-left-radius: 0.375rem;
+}
+.o {
+  border-top-right-radius: 0.375rem;
+}
+.p {
+  border-bottom-right-radius: 0.375rem;
+}
+.q {
+  border-bottom-left-radius: 0.375rem;
+}
+.r {
+  border-top-width: 1px;
+}
+.s {
+  border-right-width: 1px;
+}
+.t {
+  border-bottom-width: 1px;
+}
+.u {
+  border-left-width: 1px;
+}
+.v {
+  border-top-style: solid;
+}
+.w {
+  border-right-style: solid;
+}
+.x {
+  border-bottom-style: solid;
+}
+.y {
+  border-left-style: solid;
+}
+.z {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.ab {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.ac {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ae {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.af {
+  align-items: center;
+}
+.ag {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.ah {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.ai {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aj {
+  display: flex !important;
+}
+.ak {
+  padding-top: 0.5rem;
+}
+.al {
+  padding-right: 0.75rem;
+}
+.am {
+  padding-bottom: 0.5rem;
+}
+.an {
+  padding-left: 0.75rem;
+}
+.ao {
+  margin-right: auto;
+}
+.ap {
+  margin-top: 0.5rem;
+}
+.aq {
+  margin-right: 0.5rem;
+}
+.ar {
+  margin-right: calc(-0.5 * 0.75rem);
+}
+.as {
+  margin-left: 0.75rem;
+}
+.at {
+  padding-top: 10px !important;
+}
+.au {
+  padding-bottom: 10px !important;
+}
+.av {
+  background-color: transparent;
+}
+.aw {
+  background-image: url(test-file-stub);
+}
+.ax {
+  background-position-x: center;
+}
+.ay {
+  background-origin: padding-box;
+}
+.az {
+  background-clip: border-box;
+}
+.ba {
+  background-position-y: 1em;
+}
+.bb {
+  background-repeat: no-repeat;
+}
+.bc {
+  background-size: auto;
+}
+.bd {
+  box-sizing: content-box;
+}
+.be {
+  color: #000;
+}
+.bf {
+  height: 1em;
+}
+.bg {
+  opacity: 0.5;
+}
+.bh {
+  width: 1em;
+}
+.bl:disabled {
+  opacity: 0.25;
+}
+.bm:disabled {
+  pointer-events: none;
+}
+.bn:disabled {
+  user-select: none;
+}
+.bo {
+  border-top-width: 0;
+}
+.bp {
+  border-right-width: 0;
+}
+.bq {
+  border-bottom-width: 0;
+}
+.br {
+  border-left-width: 0;
+}
+.bs {
+  border-top-color: rgb(0, 0, 0);
+}
+.bt {
+  border-right-color: rgb(0, 0, 0);
+}
+.bu {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bv {
+  border-left-color: rgb(0, 0, 0);
+}
+.bw {
+  word-wrap: break-word;
+}
+.bx {
+  padding-top: 0.75rem;
+}
+.by {
+  padding-bottom: 0.75rem;
+}
+.bi:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bj:focus {
+  opacity: 1;
+}
+.bk:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="toast-container"
+  class="c d e f toast-container a toast-stack-container"
+>
+  <div data-testid="portal" id="toasts">
+    <div
+      data-testid="toast"
+      style="opacity: 1; display: block"
+      class="ab ac ae g h i j k l m n o p q r s t u v w x y z toast b"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div
+        data-testid="toast-header"
+        class="ac af ag ah ai aj ak al am an k l t x toast-header"
+        style="opacity: 1; display: block"
+      >
+        <svg
+          data-testid="toast-icon"
+          class="aq n o p q toast-icon"
+          width="20"
+          height="20"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <rect width="100%" height="100%" fill="#007aff"></rect></svg
+        ><strong data-testid="toast-title" class="ao ap toast-title"
+          >Bootstrap</strong
+        ><small class="toast-header-right" data-testid="toast-header-right"
+          >2 seconds ago</small
+        ><button
+          data-testid="toast-close-button"
+          type="button"
+          class="ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv n o p q toast-btn-close"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        data-testid="toast-body"
+        class="al an bw bx by toast-body"
+        style="opacity: 1; display: block"
+      >
+        Heads, up! Toasts will stack automatically.
+      </div>
+    </div>
+  </div>
+  <div data-testid="portal" id="toasts">
+    <div
+      data-testid="toast"
+      style="opacity: 1; display: block"
+      class="ab ac ae g h i j k l m n o p q r s t u v w x y z toast b"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div
+        data-testid="toast-header"
+        class="ac af ag ah ai aj ak al am an k l t x toast-header"
+        style="opacity: 1; display: block"
+      >
+        <svg
+          data-testid="toast-icon"
+          class="aq n o p q toast-icon"
+          width="20"
+          height="20"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <rect width="100%" height="100%" fill="#007aff"></rect></svg
+        ><strong data-testid="toast-title" class="ao ap toast-title"
+          >Bootstrap</strong
+        ><small class="toast-header-right" data-testid="toast-header-right"
+          >now</small
+        ><button
+          data-testid="toast-close-button"
+          type="button"
+          class="ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv n o p q toast-btn-close"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        data-testid="toast-body"
+        class="al an bw bx by toast-body"
+        style="opacity: 1; display: block"
+      >
+        See? Just like this.
+      </div>
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Stack should display a toast stack placed at middle-right 1`] = `
+".a {
+  position: static !important;
+}
+.b {
+  margin-bottom: 1.5rem;
+}
+.c {
+  position: absolute;
+}
+.d {
+  top: 50%;
+}
+.e {
+  right: 0;
+}
+.f {
+  transform: translateY(-50%);
+}
+.g {
+  width: 350px;
+}
+.h {
+  max-width: 100%;
+}
+.i {
+  font-size: 0.875rem;
+}
+.j {
+  pointer-events: auto;
+}
+.k {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.l {
+  background-clip: padding-box;
+}
+.m {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.n {
+  border-top-left-radius: 0.375rem;
+}
+.o {
+  border-top-right-radius: 0.375rem;
+}
+.p {
+  border-bottom-right-radius: 0.375rem;
+}
+.q {
+  border-bottom-left-radius: 0.375rem;
+}
+.r {
+  border-top-width: 1px;
+}
+.s {
+  border-right-width: 1px;
+}
+.t {
+  border-bottom-width: 1px;
+}
+.u {
+  border-left-width: 1px;
+}
+.v {
+  border-top-style: solid;
+}
+.w {
+  border-right-style: solid;
+}
+.x {
+  border-bottom-style: solid;
+}
+.y {
+  border-left-style: solid;
+}
+.z {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.ab {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.ac {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ae {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.af {
+  align-items: center;
+}
+.ag {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.ah {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.ai {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aj {
+  display: flex !important;
+}
+.ak {
+  padding-top: 0.5rem;
+}
+.al {
+  padding-right: 0.75rem;
+}
+.am {
+  padding-bottom: 0.5rem;
+}
+.an {
+  padding-left: 0.75rem;
+}
+.ao {
+  margin-right: auto;
+}
+.ap {
+  margin-top: 0.5rem;
+}
+.aq {
+  margin-right: 0.5rem;
+}
+.ar {
+  margin-right: calc(-0.5 * 0.75rem);
+}
+.as {
+  margin-left: 0.75rem;
+}
+.at {
+  padding-top: 10px !important;
+}
+.au {
+  padding-bottom: 10px !important;
+}
+.av {
+  background-color: transparent;
+}
+.aw {
+  background-image: url(test-file-stub);
+}
+.ax {
+  background-position-x: center;
+}
+.ay {
+  background-origin: padding-box;
+}
+.az {
+  background-clip: border-box;
+}
+.ba {
+  background-position-y: 1em;
+}
+.bb {
+  background-repeat: no-repeat;
+}
+.bc {
+  background-size: auto;
+}
+.bd {
+  box-sizing: content-box;
+}
+.be {
+  color: #000;
+}
+.bf {
+  height: 1em;
+}
+.bg {
+  opacity: 0.5;
+}
+.bh {
+  width: 1em;
+}
+.bl:disabled {
+  opacity: 0.25;
+}
+.bm:disabled {
+  pointer-events: none;
+}
+.bn:disabled {
+  user-select: none;
+}
+.bo {
+  border-top-width: 0;
+}
+.bp {
+  border-right-width: 0;
+}
+.bq {
+  border-bottom-width: 0;
+}
+.br {
+  border-left-width: 0;
+}
+.bs {
+  border-top-color: rgb(0, 0, 0);
+}
+.bt {
+  border-right-color: rgb(0, 0, 0);
+}
+.bu {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bv {
+  border-left-color: rgb(0, 0, 0);
+}
+.bw {
+  word-wrap: break-word;
+}
+.bx {
+  padding-top: 0.75rem;
+}
+.by {
+  padding-bottom: 0.75rem;
+}
+.bi:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bj:focus {
+  opacity: 1;
+}
+.bk:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="toast-container"
+  class="c d e f toast-container a toast-stack-container"
+>
+  <div data-testid="portal" id="toasts">
+    <div
+      data-testid="toast"
+      style="opacity: 1; display: block"
+      class="ab ac ae g h i j k l m n o p q r s t u v w x y z toast b"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div
+        data-testid="toast-header"
+        class="ac af ag ah ai aj ak al am an k l t x toast-header"
+        style="opacity: 1; display: block"
+      >
+        <svg
+          data-testid="toast-icon"
+          class="aq n o p q toast-icon"
+          width="20"
+          height="20"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <rect width="100%" height="100%" fill="#007aff"></rect></svg
+        ><strong data-testid="toast-title" class="ao ap toast-title"
+          >Bootstrap</strong
+        ><small class="toast-header-right" data-testid="toast-header-right"
+          >2 seconds ago</small
+        ><button
+          data-testid="toast-close-button"
+          type="button"
+          class="ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv n o p q toast-btn-close"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        data-testid="toast-body"
+        class="al an bw bx by toast-body"
+        style="opacity: 1; display: block"
+      >
+        Heads, up! Toasts will stack automatically.
+      </div>
+    </div>
+  </div>
+  <div data-testid="portal" id="toasts">
+    <div
+      data-testid="toast"
+      style="opacity: 1; display: block"
+      class="ab ac ae g h i j k l m n o p q r s t u v w x y z toast b"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div
+        data-testid="toast-header"
+        class="ac af ag ah ai aj ak al am an k l t x toast-header"
+        style="opacity: 1; display: block"
+      >
+        <svg
+          data-testid="toast-icon"
+          class="aq n o p q toast-icon"
+          width="20"
+          height="20"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <rect width="100%" height="100%" fill="#007aff"></rect></svg
+        ><strong data-testid="toast-title" class="ao ap toast-title"
+          >Bootstrap</strong
+        ><small class="toast-header-right" data-testid="toast-header-right"
+          >now</small
+        ><button
+          data-testid="toast-close-button"
+          type="button"
+          class="ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv n o p q toast-btn-close"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        data-testid="toast-body"
+        class="al an bw bx by toast-body"
+        style="opacity: 1; display: block"
+      >
+        See? Just like this.
+      </div>
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Stack should display a toast stack placed at top-center 1`] = `
+".a {
+  position: static !important;
+}
+.b {
+  margin-bottom: 1.5rem;
+}
+.c {
+  position: absolute;
+}
+.d {
+  top: 0;
+}
+.e {
+  left: 50%;
+}
+.f {
+  transform: translateX(-50%);
+}
+.g {
+  width: 350px;
+}
+.h {
+  max-width: 100%;
+}
+.i {
+  font-size: 0.875rem;
+}
+.j {
+  pointer-events: auto;
+}
+.k {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.l {
+  background-clip: padding-box;
+}
+.m {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.n {
+  border-top-left-radius: 0.375rem;
+}
+.o {
+  border-top-right-radius: 0.375rem;
+}
+.p {
+  border-bottom-right-radius: 0.375rem;
+}
+.q {
+  border-bottom-left-radius: 0.375rem;
+}
+.r {
+  border-top-width: 1px;
+}
+.s {
+  border-right-width: 1px;
+}
+.t {
+  border-bottom-width: 1px;
+}
+.u {
+  border-left-width: 1px;
+}
+.v {
+  border-top-style: solid;
+}
+.w {
+  border-right-style: solid;
+}
+.x {
+  border-bottom-style: solid;
+}
+.y {
+  border-left-style: solid;
+}
+.z {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.ab {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.ac {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ae {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.af {
+  align-items: center;
+}
+.ag {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.ah {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.ai {
+  color: rgba(33, 37, 41, 0.75);
+}
+.aj {
+  display: flex !important;
+}
+.ak {
+  padding-top: 0.5rem;
+}
+.al {
+  padding-right: 0.75rem;
+}
+.am {
+  padding-bottom: 0.5rem;
+}
+.an {
+  padding-left: 0.75rem;
+}
+.ao {
+  margin-right: auto;
+}
+.ap {
+  margin-top: 0.5rem;
+}
+.aq {
+  margin-right: 0.5rem;
+}
+.ar {
+  margin-right: calc(-0.5 * 0.75rem);
+}
+.as {
+  margin-left: 0.75rem;
+}
+.at {
+  padding-top: 10px !important;
+}
+.au {
+  padding-bottom: 10px !important;
+}
+.av {
+  background-color: transparent;
+}
+.aw {
+  background-image: url(test-file-stub);
+}
+.ax {
+  background-position-x: center;
+}
+.ay {
+  background-origin: padding-box;
+}
+.az {
+  background-clip: border-box;
+}
+.ba {
+  background-position-y: 1em;
+}
+.bb {
+  background-repeat: no-repeat;
+}
+.bc {
+  background-size: auto;
+}
+.bd {
+  box-sizing: content-box;
+}
+.be {
+  color: #000;
+}
+.bf {
+  height: 1em;
+}
+.bg {
+  opacity: 0.5;
+}
+.bh {
+  width: 1em;
+}
+.bl:disabled {
+  opacity: 0.25;
+}
+.bm:disabled {
+  pointer-events: none;
+}
+.bn:disabled {
+  user-select: none;
+}
+.bo {
+  border-top-width: 0;
+}
+.bp {
+  border-right-width: 0;
+}
+.bq {
+  border-bottom-width: 0;
+}
+.br {
+  border-left-width: 0;
+}
+.bs {
+  border-top-color: rgb(0, 0, 0);
+}
+.bt {
+  border-right-color: rgb(0, 0, 0);
+}
+.bu {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bv {
+  border-left-color: rgb(0, 0, 0);
+}
+.bw {
+  word-wrap: break-word;
+}
+.bx {
+  padding-top: 0.75rem;
+}
+.by {
+  padding-bottom: 0.75rem;
+}
+.bi:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bj:focus {
+  opacity: 1;
+}
+.bk:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="toast-container"
+  class="c d e f toast-container a toast-stack-container"
+>
+  <div data-testid="portal" id="toasts">
+    <div
+      data-testid="toast"
+      style="opacity: 1; display: block"
+      class="ab ac ae g h i j k l m n o p q r s t u v w x y z toast b"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div
+        data-testid="toast-header"
+        class="ac af ag ah ai aj ak al am an k l t x toast-header"
+        style="opacity: 1; display: block"
+      >
+        <svg
+          data-testid="toast-icon"
+          class="aq n o p q toast-icon"
+          width="20"
+          height="20"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <rect width="100%" height="100%" fill="#007aff"></rect></svg
+        ><strong data-testid="toast-title" class="ao ap toast-title"
+          >Bootstrap</strong
+        ><small class="toast-header-right" data-testid="toast-header-right"
+          >2 seconds ago</small
+        ><button
+          data-testid="toast-close-button"
+          type="button"
+          class="ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv n o p q toast-btn-close"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        data-testid="toast-body"
+        class="al an bw bx by toast-body"
+        style="opacity: 1; display: block"
+      >
+        Heads, up! Toasts will stack automatically.
+      </div>
+    </div>
+  </div>
+  <div data-testid="portal" id="toasts">
+    <div
+      data-testid="toast"
+      style="opacity: 1; display: block"
+      class="ab ac ae g h i j k l m n o p q r s t u v w x y z toast b"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div
+        data-testid="toast-header"
+        class="ac af ag ah ai aj ak al am an k l t x toast-header"
+        style="opacity: 1; display: block"
+      >
+        <svg
+          data-testid="toast-icon"
+          class="aq n o p q toast-icon"
+          width="20"
+          height="20"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <rect width="100%" height="100%" fill="#007aff"></rect></svg
+        ><strong data-testid="toast-title" class="ao ap toast-title"
+          >Bootstrap</strong
+        ><small class="toast-header-right" data-testid="toast-header-right"
+          >now</small
+        ><button
+          data-testid="toast-close-button"
+          type="button"
+          class="ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv n o p q toast-btn-close"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        data-testid="toast-body"
+        class="al an bw bx by toast-body"
+        style="opacity: 1; display: block"
+      >
+        See? Just like this.
+      </div>
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Stack should display a toast stack placed at top-left 1`] = `
+".a {
+  position: static !important;
+}
+.b {
+  margin-bottom: 1.5rem;
+}
+.c {
+  position: absolute;
+}
+.d {
+  top: 0;
+}
+.e {
+  left: 0;
+}
+.f {
+  width: 350px;
+}
+.g {
+  max-width: 100%;
+}
+.h {
+  font-size: 0.875rem;
+}
+.i {
+  pointer-events: auto;
+}
+.j {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.k {
+  background-clip: padding-box;
+}
+.l {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.m {
+  border-top-left-radius: 0.375rem;
+}
+.n {
+  border-top-right-radius: 0.375rem;
+}
+.o {
+  border-bottom-right-radius: 0.375rem;
+}
+.p {
+  border-bottom-left-radius: 0.375rem;
+}
+.q {
+  border-top-width: 1px;
+}
+.r {
+  border-right-width: 1px;
+}
+.s {
+  border-bottom-width: 1px;
+}
+.t {
+  border-left-width: 1px;
+}
+.u {
+  border-top-style: solid;
+}
+.v {
+  border-right-style: solid;
+}
+.w {
+  border-bottom-style: solid;
+}
+.x {
+  border-left-style: solid;
+}
+.y {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.z {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.ab {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ac {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ae {
+  align-items: center;
+}
+.af {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.ag {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.ah {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ai {
+  display: flex !important;
+}
+.aj {
+  padding-top: 0.5rem;
+}
+.ak {
+  padding-right: 0.75rem;
+}
+.al {
+  padding-bottom: 0.5rem;
+}
+.am {
+  padding-left: 0.75rem;
+}
+.an {
+  margin-right: auto;
+}
+.ao {
+  margin-top: 0.5rem;
+}
+.ap {
+  margin-right: 0.5rem;
+}
+.aq {
+  margin-right: calc(-0.5 * 0.75rem);
+}
+.ar {
+  margin-left: 0.75rem;
+}
+.as {
+  padding-top: 10px !important;
+}
+.at {
+  padding-bottom: 10px !important;
+}
+.au {
+  background-color: transparent;
+}
+.av {
+  background-image: url(test-file-stub);
+}
+.aw {
+  background-position-x: center;
+}
+.ax {
+  background-origin: padding-box;
+}
+.ay {
+  background-clip: border-box;
+}
+.az {
+  background-position-y: 1em;
+}
+.ba {
+  background-repeat: no-repeat;
+}
+.bb {
+  background-size: auto;
+}
+.bc {
+  box-sizing: content-box;
+}
+.bd {
+  color: #000;
+}
+.be {
+  height: 1em;
+}
+.bf {
+  opacity: 0.5;
+}
+.bg {
+  width: 1em;
+}
+.bk:disabled {
+  opacity: 0.25;
+}
+.bl:disabled {
+  pointer-events: none;
+}
+.bm:disabled {
+  user-select: none;
+}
+.bn {
+  border-top-width: 0;
+}
+.bo {
+  border-right-width: 0;
+}
+.bp {
+  border-bottom-width: 0;
+}
+.bq {
+  border-left-width: 0;
+}
+.br {
+  border-top-color: rgb(0, 0, 0);
+}
+.bs {
+  border-right-color: rgb(0, 0, 0);
+}
+.bt {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bu {
+  border-left-color: rgb(0, 0, 0);
+}
+.bv {
+  word-wrap: break-word;
+}
+.bw {
+  padding-top: 0.75rem;
+}
+.bx {
+  padding-bottom: 0.75rem;
+}
+.bh:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bi:focus {
+  opacity: 1;
+}
+.bj:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="toast-container"
+  class="c d e toast-container a toast-stack-container"
+>
+  <div data-testid="portal" id="toasts">
+    <div
+      data-testid="toast"
+      style="opacity: 1; display: block"
+      class="ab ac f g h i j k l m n o p q r s t u v w x y z toast b"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div
+        data-testid="toast-header"
+        class="ab ae af ag ah ai aj ak al am j k s w toast-header"
+        style="opacity: 1; display: block"
+      >
+        <svg
+          data-testid="toast-icon"
+          class="ap m n o p toast-icon"
+          width="20"
+          height="20"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <rect width="100%" height="100%" fill="#007aff"></rect></svg
+        ><strong data-testid="toast-title" class="an ao toast-title"
+          >Bootstrap</strong
+        ><small class="toast-header-right" data-testid="toast-header-right"
+          >2 seconds ago</small
+        ><button
+          data-testid="toast-close-button"
+          type="button"
+          class="aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu m n o p toast-btn-close"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        data-testid="toast-body"
+        class="ak am bv bw bx toast-body"
+        style="opacity: 1; display: block"
+      >
+        Heads, up! Toasts will stack automatically.
+      </div>
+    </div>
+  </div>
+  <div data-testid="portal" id="toasts">
+    <div
+      data-testid="toast"
+      style="opacity: 1; display: block"
+      class="ab ac f g h i j k l m n o p q r s t u v w x y z toast b"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div
+        data-testid="toast-header"
+        class="ab ae af ag ah ai aj ak al am j k s w toast-header"
+        style="opacity: 1; display: block"
+      >
+        <svg
+          data-testid="toast-icon"
+          class="ap m n o p toast-icon"
+          width="20"
+          height="20"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <rect width="100%" height="100%" fill="#007aff"></rect></svg
+        ><strong data-testid="toast-title" class="an ao toast-title"
+          >Bootstrap</strong
+        ><small class="toast-header-right" data-testid="toast-header-right"
+          >now</small
+        ><button
+          data-testid="toast-close-button"
+          type="button"
+          class="aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu m n o p toast-btn-close"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        data-testid="toast-body"
+        class="ak am bv bw bx toast-body"
+        style="opacity: 1; display: block"
+      >
+        See? Just like this.
+      </div>
+    </div>
+  </div>
+</div>
+;
+"
+`;
+
+exports[`components/Toast/Stack should display a toast stack placed at top-right 1`] = `
+".a {
+  position: static !important;
+}
+.b {
+  margin-bottom: 1.5rem;
+}
+.c {
+  position: absolute;
+}
+.d {
+  top: 0;
+}
+.e {
+  right: 0;
+}
+.f {
+  width: 350px;
+}
+.g {
+  max-width: 100%;
+}
+.h {
+  font-size: 0.875rem;
+}
+.i {
+  pointer-events: auto;
+}
+.j {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.k {
+  background-clip: padding-box;
+}
+.l {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.m {
+  border-top-left-radius: 0.375rem;
+}
+.n {
+  border-top-right-radius: 0.375rem;
+}
+.o {
+  border-bottom-right-radius: 0.375rem;
+}
+.p {
+  border-bottom-left-radius: 0.375rem;
+}
+.q {
+  border-top-width: 1px;
+}
+.r {
+  border-right-width: 1px;
+}
+.s {
+  border-bottom-width: 1px;
+}
+.t {
+  border-left-width: 1px;
+}
+.u {
+  border-top-style: solid;
+}
+.v {
+  border-right-style: solid;
+}
+.w {
+  border-bottom-style: solid;
+}
+.x {
+  border-left-style: solid;
+}
+.y {
+  border-top-color: rgba(0, 0, 0, 0.175);
+}
+.z {
+  border-right-color: rgba(0, 0, 0, 0.175);
+}
+.ab {
+  border-bottom-color: rgba(0, 0, 0, 0.175);
+}
+.ac {
+  border-left-color: rgba(0, 0, 0, 0.175);
+}
+.ae {
+  align-items: center;
+}
+.af {
+  border-top-left-radius: calc(0.375rem - 1px);
+}
+.ag {
+  border-top-right-radius: calc(0.375rem - 1px);
+}
+.ah {
+  color: rgba(33, 37, 41, 0.75);
+}
+.ai {
+  display: flex !important;
+}
+.aj {
+  padding-top: 0.5rem;
+}
+.ak {
+  padding-right: 0.75rem;
+}
+.al {
+  padding-bottom: 0.5rem;
+}
+.am {
+  padding-left: 0.75rem;
+}
+.an {
+  margin-right: auto;
+}
+.ao {
+  margin-top: 0.5rem;
+}
+.ap {
+  margin-right: 0.5rem;
+}
+.aq {
+  margin-right: calc(-0.5 * 0.75rem);
+}
+.ar {
+  margin-left: 0.75rem;
+}
+.as {
+  padding-top: 10px !important;
+}
+.at {
+  padding-bottom: 10px !important;
+}
+.au {
+  background-color: transparent;
+}
+.av {
+  background-image: url(test-file-stub);
+}
+.aw {
+  background-position-x: center;
+}
+.ax {
+  background-origin: padding-box;
+}
+.ay {
+  background-clip: border-box;
+}
+.az {
+  background-position-y: 1em;
+}
+.ba {
+  background-repeat: no-repeat;
+}
+.bb {
+  background-size: auto;
+}
+.bc {
+  box-sizing: content-box;
+}
+.bd {
+  color: #000;
+}
+.be {
+  height: 1em;
+}
+.bf {
+  opacity: 0.5;
+}
+.bg {
+  width: 1em;
+}
+.bk:disabled {
+  opacity: 0.25;
+}
+.bl:disabled {
+  pointer-events: none;
+}
+.bm:disabled {
+  user-select: none;
+}
+.bn {
+  border-top-width: 0;
+}
+.bo {
+  border-right-width: 0;
+}
+.bp {
+  border-bottom-width: 0;
+}
+.bq {
+  border-left-width: 0;
+}
+.br {
+  border-top-color: rgb(0, 0, 0);
+}
+.bs {
+  border-right-color: rgb(0, 0, 0);
+}
+.bt {
+  border-bottom-color: rgb(0, 0, 0);
+}
+.bu {
+  border-left-color: rgb(0, 0, 0);
+}
+.bv {
+  word-wrap: break-word;
+}
+.bw {
+  padding-top: 0.75rem;
+}
+.bx {
+  padding-bottom: 0.75rem;
+}
+.bh:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.bi:focus {
+  opacity: 1;
+}
+.bj:focus {
+  outline-width: 0;
+}
+
+
+<div
+  data-testid="toast-container"
+  class="c d e toast-container a toast-stack-container"
+>
+  <div data-testid="portal" id="toasts">
+    <div
+      data-testid="toast"
+      style="opacity: 1; display: block"
+      class="ab ac f g h i j k l m n o p q r s t u v w x y z toast b"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div
+        data-testid="toast-header"
+        class="ab ae af ag ah ai aj ak al am j k s w toast-header"
+        style="opacity: 1; display: block"
+      >
+        <svg
+          data-testid="toast-icon"
+          class="ap m n o p toast-icon"
+          width="20"
+          height="20"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <rect width="100%" height="100%" fill="#007aff"></rect></svg
+        ><strong data-testid="toast-title" class="an ao toast-title"
+          >Bootstrap</strong
+        ><small class="toast-header-right" data-testid="toast-header-right"
+          >2 seconds ago</small
+        ><button
+          data-testid="toast-close-button"
+          type="button"
+          class="aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu m n o p toast-btn-close"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        data-testid="toast-body"
+        class="ak am bv bw bx toast-body"
+        style="opacity: 1; display: block"
+      >
+        Heads, up! Toasts will stack automatically.
+      </div>
+    </div>
+  </div>
+  <div data-testid="portal" id="toasts">
+    <div
+      data-testid="toast"
+      style="opacity: 1; display: block"
+      class="ab ac f g h i j k l m n o p q r s t u v w x y z toast b"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div
+        data-testid="toast-header"
+        class="ab ae af ag ah ai aj ak al am j k s w toast-header"
+        style="opacity: 1; display: block"
+      >
+        <svg
+          data-testid="toast-icon"
+          class="ap m n o p toast-icon"
+          width="20"
+          height="20"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <rect width="100%" height="100%" fill="#007aff"></rect></svg
+        ><strong data-testid="toast-title" class="an ao toast-title"
+          >Bootstrap</strong
+        ><small class="toast-header-right" data-testid="toast-header-right"
+          >now</small
+        ><button
+          data-testid="toast-close-button"
+          type="button"
+          class="aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu m n o p toast-btn-close"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        data-testid="toast-body"
+        class="ak am bv bw bx toast-body"
+        style="opacity: 1; display: block"
+      >
+        See? Just like this.
+      </div>
+    </div>
+  </div>
+</div>
+;
+"
+`;

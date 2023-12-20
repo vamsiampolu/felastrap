@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Breadcrumb/ActiveItem should render an active breadcrumb item 1`] = `
+".a {
+  color: rgba(33, 37, 41, 0.75);
+}
+.b {
+  padding-left: 0.5rem;
+}
+.c {
+  float: left;
+}
+.d {
+  padding-right: 0.5rem;
+}
+
+
+<li
+  class="a b breadcrumb-active-item"
+  data-testid="breadcrumb-active-item"
+  aria-current="page"
+>
+  <span data-testid="breadcrumb-divider" aria-hidden="true" class="a c d"
+    >/</span
+  >Active Item
+</li>
+;
+"
+`;

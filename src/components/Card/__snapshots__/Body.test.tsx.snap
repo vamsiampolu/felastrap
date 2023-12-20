@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Card/Body should render a card body 1`] = `
+".a {
+  padding-top: 1rem;
+}
+.b {
+  padding-bottom: 1rem;
+}
+.c {
+  padding-left: 1rem;
+}
+.d {
+  padding-right: 1rem;
+}
+.e {
+  color: #000;
+}
+.f {
+  flex-grow: 1;
+}
+.g {
+  -webkit-flex-shrink: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+}
+.h {
+  -webkit-box-flex-basis: auto;
+  -webkit-flex-basis: auto;
+  -ms-flex-basis: auto;
+  flex-basis: auto;
+}
+
+
+<div data-testid="card-body" class="a b c d e f g h">Card Body</div>
+;
+"
+`;

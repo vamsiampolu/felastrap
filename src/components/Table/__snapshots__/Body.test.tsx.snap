@@ -1,0 +1,832 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Table/Body should render a Table Body 1`] = `
+".a {
+  vertical-align: inherit;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a Table Body of variant danger 1`] = `
+".a {
+  vertical-align: inherit;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a Table Body of variant default 1`] = `
+".a {
+  vertical-align: inherit;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a Table Body of variant info 1`] = `
+".a {
+  vertical-align: inherit;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a Table Body of variant primary 1`] = `
+".a {
+  vertical-align: inherit;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a Table Body of variant secondary 1`] = `
+".a {
+  vertical-align: inherit;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a Table Body of variant success 1`] = `
+".a {
+  vertical-align: inherit;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a Table Body of variant warning 1`] = `
+".a {
+  vertical-align: inherit;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a Table Body with a className 1`] = `
+".a {
+  vertical-align: inherit;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a table-body comfortable-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a bordered Table Body 1`] = `
+".a {
+  vertical-align: inherit;
+}
+.b {
+  border-top-width: 1px;
+}
+.c {
+  border-right-width: 0;
+}
+.d {
+  border-bottom-width: 1px;
+}
+.e {
+  border-left-width: 0;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a b c d e table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a hover Table Body 1`] = `
+".a {
+  vertical-align: inherit;
+}
+.b > tr:hover > * {
+  cursor: pointer;
+}
+.c > tr:hover > * {
+  color: #000;
+}
+.d > tr:hover > * {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a b c d table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a hover bordered Table Body of variant danger 1`] = `
+".a {
+  vertical-align: inherit;
+}
+.b > tr:hover > * {
+  cursor: pointer;
+}
+.c > tr:hover > * {
+  color: #000;
+}
+.d > tr:hover > * {
+  background-color: rgba(229, 199, 202, 0.075);
+}
+.e {
+  border-top-width: 1px;
+}
+.f {
+  border-right-width: 0;
+}
+.g {
+  border-bottom-width: 1px;
+}
+.h {
+  border-left-width: 0;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a b c d e f g h table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a hover bordered Table Body of variant default 1`] = `
+".a {
+  vertical-align: inherit;
+}
+.b > tr:hover > * {
+  cursor: pointer;
+}
+.c > tr:hover > * {
+  color: #000;
+}
+.d > tr:hover > * {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+.e {
+  border-top-width: 1px;
+}
+.f {
+  border-right-width: 0;
+}
+.g {
+  border-bottom-width: 1px;
+}
+.h {
+  border-left-width: 0;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a b c d e f g h table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a hover bordered Table Body of variant info 1`] = `
+".a {
+  vertical-align: inherit;
+}
+.b > tr:hover > * {
+  cursor: pointer;
+}
+.c > tr:hover > * {
+  color: #000;
+}
+.d > tr:hover > * {
+  background-color: rgba(191, 226, 233, 0.075);
+}
+.e {
+  border-top-width: 1px;
+}
+.f {
+  border-right-width: 0;
+}
+.g {
+  border-bottom-width: 1px;
+}
+.h {
+  border-left-width: 0;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a b c d e f g h table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a hover bordered Table Body of variant primary 1`] = `
+".a {
+  vertical-align: inherit;
+}
+.b > tr:hover > * {
+  cursor: pointer;
+}
+.c > tr:hover > * {
+  color: #000;
+}
+.d > tr:hover > * {
+  background-color: rgba(191, 209, 236, 0.075);
+}
+.e {
+  border-top-width: 1px;
+}
+.f {
+  border-right-width: 0;
+}
+.g {
+  border-bottom-width: 1px;
+}
+.h {
+  border-left-width: 0;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a b c d e f g h table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a hover bordered Table Body of variant secondary 1`] = `
+".a {
+  vertical-align: inherit;
+}
+.b > tr:hover > * {
+  cursor: pointer;
+}
+.c > tr:hover > * {
+  color: #000;
+}
+.d > tr:hover > * {
+  background-color: rgba(209, 210, 212, 0.075);
+}
+.e {
+  border-top-width: 1px;
+}
+.f {
+  border-right-width: 0;
+}
+.g {
+  border-bottom-width: 1px;
+}
+.h {
+  border-left-width: 0;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a b c d e f g h table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a hover bordered Table Body of variant success 1`] = `
+".a {
+  vertical-align: inherit;
+}
+.b > tr:hover > * {
+  cursor: pointer;
+}
+.c > tr:hover > * {
+  color: #000;
+}
+.d > tr:hover > * {
+  background-color: rgba(193, 214, 204, 0.075);
+}
+.e {
+  border-top-width: 1px;
+}
+.f {
+  border-right-width: 0;
+}
+.g {
+  border-bottom-width: 1px;
+}
+.h {
+  border-left-width: 0;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a b c d e f g h table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a hover bordered Table Body of variant warning 1`] = `
+".a {
+  vertical-align: inherit;
+}
+.b > tr:hover > * {
+  cursor: pointer;
+}
+.c > tr:hover > * {
+  color: #000;
+}
+.d > tr:hover > * {
+  background-color: rgba(236, 225, 190, 0.075);
+}
+.e {
+  border-top-width: 1px;
+}
+.f {
+  border-right-width: 0;
+}
+.g {
+  border-bottom-width: 1px;
+}
+.h {
+  border-left-width: 0;
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a b c d e f g h table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a hovered Table Body of variant danger 1`] = `
+".a {
+  vertical-align: inherit;
+}
+.b > tr:hover > * {
+  cursor: pointer;
+}
+.c > tr:hover > * {
+  color: #000;
+}
+.d > tr:hover > * {
+  background-color: rgba(229, 199, 202, 0.075);
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a b c d table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a hovered Table Body of variant default 1`] = `
+".a {
+  vertical-align: inherit;
+}
+.b > tr:hover > * {
+  cursor: pointer;
+}
+.c > tr:hover > * {
+  color: #000;
+}
+.d > tr:hover > * {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a b c d table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a hovered Table Body of variant info 1`] = `
+".a {
+  vertical-align: inherit;
+}
+.b > tr:hover > * {
+  cursor: pointer;
+}
+.c > tr:hover > * {
+  color: #000;
+}
+.d > tr:hover > * {
+  background-color: rgba(191, 226, 233, 0.075);
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a b c d table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a hovered Table Body of variant primary 1`] = `
+".a {
+  vertical-align: inherit;
+}
+.b > tr:hover > * {
+  cursor: pointer;
+}
+.c > tr:hover > * {
+  color: #000;
+}
+.d > tr:hover > * {
+  background-color: rgba(191, 209, 236, 0.075);
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a b c d table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a hovered Table Body of variant secondary 1`] = `
+".a {
+  vertical-align: inherit;
+}
+.b > tr:hover > * {
+  cursor: pointer;
+}
+.c > tr:hover > * {
+  color: #000;
+}
+.d > tr:hover > * {
+  background-color: rgba(209, 210, 212, 0.075);
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a b c d table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a hovered Table Body of variant success 1`] = `
+".a {
+  vertical-align: inherit;
+}
+.b > tr:hover > * {
+  cursor: pointer;
+}
+.c > tr:hover > * {
+  color: #000;
+}
+.d > tr:hover > * {
+  background-color: rgba(193, 214, 204, 0.075);
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a b c d table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;
+
+exports[`components/Table/Body should render a hovered Table Body of variant warning 1`] = `
+".a {
+  vertical-align: inherit;
+}
+.b > tr:hover > * {
+  cursor: pointer;
+}
+.c > tr:hover > * {
+  color: #000;
+}
+.d > tr:hover > * {
+  background-color: rgba(236, 225, 190, 0.075);
+}
+
+
+<table>
+  <thead>
+    <tr>
+      <td>Column A</td>
+      <td>Column B</td>
+    </tr>
+  </thead>
+  <tbody data-testid="table-body" class="a b c d table-body">
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+;
+"
+`;

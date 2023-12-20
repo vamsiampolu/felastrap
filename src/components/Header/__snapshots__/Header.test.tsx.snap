@@ -1,0 +1,373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Header should render a display header as h1 1`] = `
+".a {
+  color: inherit;
+}
+.b {
+  font-weight: 300;
+}
+.c {
+  font-size: 5rem;
+}
+.d {
+  line-height: 1.2;
+}
+.e {
+  margin-top: 0;
+}
+.f {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1200px) {
+  .g {
+    font-size: 5rem;
+  }
+}
+
+
+<h1 class="a b c d e f g">Hello, World</h1>
+;
+"
+`;
+
+exports[`components/Header should render a display header as h2 1`] = `
+".a {
+  color: inherit;
+}
+.b {
+  font-weight: 300;
+}
+.c {
+  font-size: 4.5rem;
+}
+.d {
+  line-height: 1.2;
+}
+.e {
+  margin-top: 0;
+}
+.f {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1200px) {
+  .g {
+    font-size: 4.5rem;
+  }
+}
+
+
+<h2 class="a b c d e f g">Hello, World</h2>
+;
+"
+`;
+
+exports[`components/Header should render a display header as h3 1`] = `
+".a {
+  color: inherit;
+}
+.b {
+  font-weight: 300;
+}
+.c {
+  font-size: 4rem;
+}
+.d {
+  line-height: 1.2;
+}
+.e {
+  margin-top: 0;
+}
+.f {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1200px) {
+  .g {
+    font-size: 4rem;
+  }
+}
+
+
+<h3 class="a b c d e f g">Hello, World</h3>
+;
+"
+`;
+
+exports[`components/Header should render a display header as h4 1`] = `
+".a {
+  color: inherit;
+}
+.b {
+  font-weight: 300;
+}
+.c {
+  font-size: 3.5rem;
+}
+.d {
+  line-height: 1.2;
+}
+.e {
+  margin-top: 0;
+}
+.f {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1200px) {
+  .g {
+    font-size: 3.5rem;
+  }
+}
+
+
+<h4 class="a b c d e f g">Hello, World</h4>
+;
+"
+`;
+
+exports[`components/Header should render a display header as h5 1`] = `
+".a {
+  color: inherit;
+}
+.b {
+  font-weight: 300;
+}
+.c {
+  font-size: 3rem;
+}
+.d {
+  line-height: 1.2;
+}
+.e {
+  margin-top: 0;
+}
+.f {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1200px) {
+  .g {
+    font-size: 3rem;
+  }
+}
+
+
+<h5 class="a b c d e f g">Hello, World</h5>
+;
+"
+`;
+
+exports[`components/Header should render a display header as h6 1`] = `
+".a {
+  color: inherit;
+}
+.b {
+  font-weight: 300;
+}
+.c {
+  font-size: 2.5rem;
+}
+.d {
+  line-height: 1.2;
+}
+.e {
+  margin-top: 0;
+}
+.f {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1200px) {
+  .g {
+    font-size: 2.5rem;
+  }
+}
+
+
+<h6 class="a b c d e f g">Hello, World</h6>
+;
+"
+`;
+
+exports[`components/Header should render a header as h1 1`] = `
+".a {
+  color: inherit;
+}
+.b {
+  font-weight: 500;
+}
+.c {
+  font-size: calc(1.375rem + 1.5vw);
+}
+.d {
+  line-height: 1.2;
+}
+.e {
+  margin-top: 0;
+}
+.f {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1200px) {
+  .g {
+    font-size: 2.5rem;
+  }
+}
+
+
+<h1 class="a b c d e f g">Hello, World</h1>
+;
+"
+`;
+
+exports[`components/Header should render a header as h2 1`] = `
+".a {
+  color: inherit;
+}
+.b {
+  font-weight: 500;
+}
+.c {
+  font-size: calc(1.325rem + 0.9vw);
+}
+.d {
+  line-height: 1.2;
+}
+.e {
+  margin-top: 0;
+}
+.f {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1200px) {
+  .g {
+    font-size: 2rem;
+  }
+}
+
+
+<h2 class="a b c d e f g">Hello, World</h2>
+;
+"
+`;
+
+exports[`components/Header should render a header as h3 1`] = `
+".a {
+  color: inherit;
+}
+.b {
+  font-weight: 500;
+}
+.c {
+  font-size: calc(1.3rem + 0.6vw);
+}
+.d {
+  line-height: 1.2;
+}
+.e {
+  margin-top: 0;
+}
+.f {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1200px) {
+  .g {
+    font-size: 1.75rem;
+  }
+}
+
+
+<h3 class="a b c d e f g">Hello, World</h3>
+;
+"
+`;
+
+exports[`components/Header should render a header as h4 1`] = `
+".a {
+  color: inherit;
+}
+.b {
+  font-weight: 500;
+}
+.c {
+  font-size: calc(1.275rem + 0.3vw);
+}
+.d {
+  line-height: 1.2;
+}
+.e {
+  margin-top: 0;
+}
+.f {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1200px) {
+  .g {
+    font-size: 1.5rem;
+  }
+}
+
+
+<h4 class="a b c d e f g">Hello, World</h4>
+;
+"
+`;
+
+exports[`components/Header should render a header as h5 1`] = `
+".a {
+  color: inherit;
+}
+.b {
+  font-weight: 500;
+}
+.c {
+  font-size: 1.25rem;
+}
+.d {
+  line-height: 1.2;
+}
+.e {
+  margin-top: 0;
+}
+.f {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1200px) {
+  .g {
+    font-size: 1.25rem;
+  }
+}
+
+
+<h5 class="a b c d e f g">Hello, World</h5>
+;
+"
+`;
+
+exports[`components/Header should render a header as h6 1`] = `
+".a {
+  color: inherit;
+}
+.b {
+  font-weight: 500;
+}
+.c {
+  font-size: 1rem;
+}
+.d {
+  line-height: 1.2;
+}
+.e {
+  margin-top: 0;
+}
+.f {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1200px) {
+  .g {
+    font-size: 1rem;
+  }
+}
+
+
+<h6 class="a b c d e f g">Hello, World</h6>
+;
+"
+`;

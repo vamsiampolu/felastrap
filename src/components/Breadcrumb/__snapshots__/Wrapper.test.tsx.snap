@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Breadcrumbs/Divider should render a divider 1`] = `
+".a {
+  padding-left: 0;
+}
+.b {
+  padding-right: 0;
+}
+.c {
+  padding-top: 0;
+}
+.d {
+  padding-bottom: 0;
+}
+.e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.f {
+  flex-wrap: wrap;
+}
+.g {
+  margin-bottom: 1rem;
+}
+.h {
+  font-size: 1rem;
+}
+.i {
+  list-style: none;
+}
+.j {
+  padding-left: 0.5rem;
+}
+.k {
+  font-weight: 500;
+}
+.l {
+  color: #646cff;
+}
+.n {
+  text-decoration-line: inherit;
+}
+.o {
+  color: rgba(33, 37, 41, 0.75);
+}
+.p {
+  float: left;
+}
+.q {
+  padding-right: 0.5rem;
+}
+.m:hover {
+  color: #535bf2;
+}
+
+
+<nav data-testid="breadcrumb" aria-label="Breadcrumb">
+  <ol class="a b c d e f g h i">
+    <li class="breadcrumb-first-item" data-testid="breadcrumb-first-item">
+      <a data-testid="link" href="/foo" target="" rel="" class="k l m n">Foo</a>
+    </li>
+    <li
+      class="j o breadcrumb-active-item"
+      data-testid="breadcrumb-active-item"
+      aria-current="page"
+    >
+      <span data-testid="breadcrumb-divider" aria-hidden="true" class="o p q"
+        >/</span
+      >Bar
+    </li>
+  </ol>
+</nav>
+;
+"
+`;

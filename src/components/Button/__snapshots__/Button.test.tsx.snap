@@ -1,0 +1,8814 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Button should render a hovered button 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #333;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.ai:disabled {
+  color: #333;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #ccc;
+}
+.ap:disabled {
+  border-right-color: #ccc;
+}
+.aq:disabled {
+  border-bottom-color: #ccc;
+}
+.ar:disabled {
+  border-left-color: #ccc;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #ccc;
+}
+.bp {
+  border-right-color: #ccc;
+}
+.bq {
+  border-bottom-color: #ccc;
+}
+.br {
+  border-left-color: #ccc;
+}
+.ba:hover {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.bb:hover {
+  color: #333;
+}
+.bc:hover {
+  border-top-color: #adadad;
+}
+.bd:hover {
+  border-right-color: #adadad;
+}
+.be:hover {
+  border-bottom-color: #adadad;
+}
+.bf:hover {
+  border-left-color: #adadad;
+}
+.as:focus-visible {
+  color: #333;
+}
+.at:focus-visible {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #adadad;
+}
+.ax:focus-visible {
+  border-right-color: #adadad;
+}
+.ay:focus-visible {
+  border-bottom-color: #adadad;
+}
+.az:focus-visible {
+  border-left-color: #adadad;
+}
+.w:active {
+  color: #333;
+}
+.x:active {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #adadad;
+}
+.ae:active {
+  border-right-color: #adadad;
+}
+.af:active {
+  border-bottom-color: #adadad;
+}
+.ag:active {
+  border-left-color: #adadad;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button size should render a button of the size large 1`] = `
+".a {
+  border-top-left-radius: 0.5rem;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 0.5rem;
+}
+.e {
+  padding-top: 0.5rem;
+}
+.f {
+  padding-bottom: 0.5rem;
+}
+.g {
+  padding-left: 1rem;
+}
+.h {
+  padding-right: 1rem;
+}
+.i {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #333;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 1.25rem;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.ai:disabled {
+  color: #333;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #ccc;
+}
+.ap:disabled {
+  border-right-color: #ccc;
+}
+.aq:disabled {
+  border-bottom-color: #ccc;
+}
+.ar:disabled {
+  border-left-color: #ccc;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #ccc;
+}
+.bp {
+  border-right-color: #ccc;
+}
+.bq {
+  border-bottom-color: #ccc;
+}
+.br {
+  border-left-color: #ccc;
+}
+.ba:hover {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.bb:hover {
+  color: #333;
+}
+.bc:hover {
+  border-top-color: #adadad;
+}
+.bd:hover {
+  border-right-color: #adadad;
+}
+.be:hover {
+  border-bottom-color: #adadad;
+}
+.bf:hover {
+  border-left-color: #adadad;
+}
+.as:focus-visible {
+  color: #333;
+}
+.at:focus-visible {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #adadad;
+}
+.ax:focus-visible {
+  border-right-color: #adadad;
+}
+.ay:focus-visible {
+  border-bottom-color: #adadad;
+}
+.az:focus-visible {
+  border-left-color: #adadad;
+}
+.w:active {
+  color: #333;
+}
+.x:active {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #adadad;
+}
+.ae:active {
+  border-right-color: #adadad;
+}
+.af:active {
+  border-bottom-color: #adadad;
+}
+.ag:active {
+  border-left-color: #adadad;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button size should render a button of the size medium 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #333;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.ai:disabled {
+  color: #333;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #ccc;
+}
+.ap:disabled {
+  border-right-color: #ccc;
+}
+.aq:disabled {
+  border-bottom-color: #ccc;
+}
+.ar:disabled {
+  border-left-color: #ccc;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #ccc;
+}
+.bp {
+  border-right-color: #ccc;
+}
+.bq {
+  border-bottom-color: #ccc;
+}
+.br {
+  border-left-color: #ccc;
+}
+.ba:hover {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.bb:hover {
+  color: #333;
+}
+.bc:hover {
+  border-top-color: #adadad;
+}
+.bd:hover {
+  border-right-color: #adadad;
+}
+.be:hover {
+  border-bottom-color: #adadad;
+}
+.bf:hover {
+  border-left-color: #adadad;
+}
+.as:focus-visible {
+  color: #333;
+}
+.at:focus-visible {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #adadad;
+}
+.ax:focus-visible {
+  border-right-color: #adadad;
+}
+.ay:focus-visible {
+  border-bottom-color: #adadad;
+}
+.az:focus-visible {
+  border-left-color: #adadad;
+}
+.w:active {
+  color: #333;
+}
+.x:active {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #adadad;
+}
+.ae:active {
+  border-right-color: #adadad;
+}
+.af:active {
+  border-bottom-color: #adadad;
+}
+.ag:active {
+  border-left-color: #adadad;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button size should render a button of the size small 1`] = `
+".a {
+  border-top-left-radius: 0.25rem;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 0.25rem;
+}
+.e {
+  padding-top: 0.25rem;
+}
+.f {
+  padding-bottom: 0.25rem;
+}
+.g {
+  padding-left: 0.5rem;
+}
+.h {
+  padding-right: 0.5rem;
+}
+.i {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #333;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 0.875rem;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.ai:disabled {
+  color: #333;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #ccc;
+}
+.ap:disabled {
+  border-right-color: #ccc;
+}
+.aq:disabled {
+  border-bottom-color: #ccc;
+}
+.ar:disabled {
+  border-left-color: #ccc;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #ccc;
+}
+.bp {
+  border-right-color: #ccc;
+}
+.bq {
+  border-bottom-color: #ccc;
+}
+.br {
+  border-left-color: #ccc;
+}
+.ba:hover {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.bb:hover {
+  color: #333;
+}
+.bc:hover {
+  border-top-color: #adadad;
+}
+.bd:hover {
+  border-right-color: #adadad;
+}
+.be:hover {
+  border-bottom-color: #adadad;
+}
+.bf:hover {
+  border-left-color: #adadad;
+}
+.as:focus-visible {
+  color: #333;
+}
+.at:focus-visible {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #adadad;
+}
+.ax:focus-visible {
+  border-right-color: #adadad;
+}
+.ay:focus-visible {
+  border-bottom-color: #adadad;
+}
+.az:focus-visible {
+  border-left-color: #adadad;
+}
+.w:active {
+  color: #333;
+}
+.x:active {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #adadad;
+}
+.ae:active {
+  border-right-color: #adadad;
+}
+.af:active {
+  border-bottom-color: #adadad;
+}
+.ag:active {
+  border-left-color: #adadad;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a button with a variant: danger 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #dc3545;
+  background-color: #dc3545;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #fff;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #dc3545;
+  background-color: #dc3545;
+}
+.ai:disabled {
+  color: #fff;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #dc3545;
+}
+.ap:disabled {
+  border-right-color: #dc3545;
+}
+.aq:disabled {
+  border-bottom-color: #dc3545;
+}
+.ar:disabled {
+  border-left-color: #dc3545;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #dc3545;
+}
+.bp {
+  border-right-color: #dc3545;
+}
+.bq {
+  border-bottom-color: #dc3545;
+}
+.br {
+  border-left-color: #dc3545;
+}
+.ba:hover {
+  -webkit-background-color: #bb2d3b;
+  background-color: #bb2d3b;
+}
+.bb:hover {
+  color: #fff;
+}
+.bc:hover {
+  border-top-color: #b02a37;
+}
+.bd:hover {
+  border-right-color: #b02a37;
+}
+.be:hover {
+  border-bottom-color: #b02a37;
+}
+.bf:hover {
+  border-left-color: #b02a37;
+}
+.as:focus-visible {
+  color: #fff;
+}
+.at:focus-visible {
+  -webkit-background-color: #bb2d3b;
+  background-color: #bb2d3b;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(225, 83, 97, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #b02a37;
+}
+.ax:focus-visible {
+  border-right-color: #b02a37;
+}
+.ay:focus-visible {
+  border-bottom-color: #b02a37;
+}
+.az:focus-visible {
+  border-left-color: #b02a37;
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  -webkit-background-color: #b02a37;
+  background-color: #b02a37;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #a52834;
+}
+.ae:active {
+  border-right-color: #a52834;
+}
+.af:active {
+  border-bottom-color: #a52834;
+}
+.ag:active {
+  border-left-color: #a52834;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a button with a variant: default 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #333;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.ai:disabled {
+  color: #333;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #ccc;
+}
+.ap:disabled {
+  border-right-color: #ccc;
+}
+.aq:disabled {
+  border-bottom-color: #ccc;
+}
+.ar:disabled {
+  border-left-color: #ccc;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #ccc;
+}
+.bp {
+  border-right-color: #ccc;
+}
+.bq {
+  border-bottom-color: #ccc;
+}
+.br {
+  border-left-color: #ccc;
+}
+.ba:hover {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.bb:hover {
+  color: #333;
+}
+.bc:hover {
+  border-top-color: #adadad;
+}
+.bd:hover {
+  border-right-color: #adadad;
+}
+.be:hover {
+  border-bottom-color: #adadad;
+}
+.bf:hover {
+  border-left-color: #adadad;
+}
+.as:focus-visible {
+  color: #333;
+}
+.at:focus-visible {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #adadad;
+}
+.ax:focus-visible {
+  border-right-color: #adadad;
+}
+.ay:focus-visible {
+  border-bottom-color: #adadad;
+}
+.az:focus-visible {
+  border-left-color: #adadad;
+}
+.w:active {
+  color: #333;
+}
+.x:active {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #adadad;
+}
+.ae:active {
+  border-right-color: #adadad;
+}
+.af:active {
+  border-bottom-color: #adadad;
+}
+.ag:active {
+  border-left-color: #adadad;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a button with a variant: info 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #0dcaf0;
+  background-color: #0dcaf0;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #000;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #0dcaf0;
+  background-color: #0dcaf0;
+}
+.ai:disabled {
+  color: #000;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #0dcaf0;
+}
+.ap:disabled {
+  border-right-color: #0dcaf0;
+}
+.aq:disabled {
+  border-bottom-color: #0dcaf0;
+}
+.ar:disabled {
+  border-left-color: #0dcaf0;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #0dcaf0;
+}
+.bp {
+  border-right-color: #0dcaf0;
+}
+.bq {
+  border-bottom-color: #0dcaf0;
+}
+.br {
+  border-left-color: #0dcaf0;
+}
+.ba:hover {
+  -webkit-background-color: #31d2f2;
+  background-color: #31d2f2;
+}
+.bb:hover {
+  color: #000;
+}
+.bc:hover {
+  border-top-color: #25cff2;
+}
+.bd:hover {
+  border-right-color: #25cff2;
+}
+.be:hover {
+  border-bottom-color: #25cff2;
+}
+.bf:hover {
+  border-left-color: #25cff2;
+}
+.as:focus-visible {
+  color: #000;
+}
+.at:focus-visible {
+  -webkit-background-color: #31d2f2;
+  background-color: #31d2f2;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(11, 172, 204, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #25cff2;
+}
+.ax:focus-visible {
+  border-right-color: #25cff2;
+}
+.ay:focus-visible {
+  border-bottom-color: #25cff2;
+}
+.az:focus-visible {
+  border-left-color: #25cff2;
+}
+.w:active {
+  color: #000;
+}
+.x:active {
+  -webkit-background-color: #3dd5f3;
+  background-color: #3dd5f3;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #25cff2;
+}
+.ae:active {
+  border-right-color: #25cff2;
+}
+.af:active {
+  border-bottom-color: #25cff2;
+}
+.ag:active {
+  border-left-color: #25cff2;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a button with a variant: primary 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #fff;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.ai:disabled {
+  color: #fff;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #0d6efd;
+}
+.ap:disabled {
+  border-right-color: #0d6efd;
+}
+.aq:disabled {
+  border-bottom-color: #0d6efd;
+}
+.ar:disabled {
+  border-left-color: #0d6efd;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #2e6da4;
+}
+.bp {
+  border-right-color: #2e6da4;
+}
+.bq {
+  border-bottom-color: #2e6da4;
+}
+.br {
+  border-left-color: #2e6da4;
+}
+.ba:hover {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.bb:hover {
+  color: #fff;
+}
+.bc:hover {
+  border-top-color: #0a58ca;
+}
+.bd:hover {
+  border-right-color: #0a58ca;
+}
+.be:hover {
+  border-bottom-color: #0a58ca;
+}
+.bf:hover {
+  border-left-color: #0a58ca;
+}
+.as:focus-visible {
+  color: #fff;
+}
+.at:focus-visible {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #0a58ca;
+}
+.ax:focus-visible {
+  border-right-color: #0a58ca;
+}
+.ay:focus-visible {
+  border-bottom-color: #0a58ca;
+}
+.az:focus-visible {
+  border-left-color: #0a58ca;
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  -webkit-background-color: #0a58ca;
+  background-color: #0a58ca;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #0a53be;
+}
+.ae:active {
+  border-right-color: #0a53be;
+}
+.af:active {
+  border-bottom-color: #0a53be;
+}
+.ag:active {
+  border-left-color: #0a53be;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a button with a variant: secondary 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #6c757d;
+  background-color: #6c757d;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #fff;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #6c757d;
+  background-color: #6c757d;
+}
+.ai:disabled {
+  color: #fff;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #6c757d;
+}
+.ap:disabled {
+  border-right-color: #6c757d;
+}
+.aq:disabled {
+  border-bottom-color: #6c757d;
+}
+.ar:disabled {
+  border-left-color: #6c757d;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #6c757d;
+}
+.bp {
+  border-right-color: #6c757d;
+}
+.bq {
+  border-bottom-color: #6c757d;
+}
+.br {
+  border-left-color: #6c757d;
+}
+.ba:hover {
+  -webkit-background-color: #5c636a;
+  background-color: #5c636a;
+}
+.bb:hover {
+  color: #fff;
+}
+.bc:hover {
+  border-top-color: #565e64;
+}
+.bd:hover {
+  border-right-color: #565e64;
+}
+.be:hover {
+  border-bottom-color: #565e64;
+}
+.bf:hover {
+  border-left-color: #565e64;
+}
+.as:focus-visible {
+  color: #fff;
+}
+.at:focus-visible {
+  -webkit-background-color: #5c636a;
+  background-color: #5c636a;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #565e64;
+}
+.ax:focus-visible {
+  border-right-color: #565e64;
+}
+.ay:focus-visible {
+  border-bottom-color: #565e64;
+}
+.az:focus-visible {
+  border-left-color: #565e64;
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  -webkit-background-color: #565e64;
+  background-color: #565e64;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #51585e;
+}
+.ae:active {
+  border-right-color: #51585e;
+}
+.af:active {
+  border-bottom-color: #51585e;
+}
+.ag:active {
+  border-left-color: #51585e;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a button with a variant: success 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #198754;
+  background-color: #198754;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #fff;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #198754;
+  background-color: #198754;
+}
+.ai:disabled {
+  color: #fff;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #198754;
+}
+.ap:disabled {
+  border-right-color: #198754;
+}
+.aq:disabled {
+  border-bottom-color: #198754;
+}
+.ar:disabled {
+  border-left-color: #198754;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #198754;
+}
+.bp {
+  border-right-color: #198754;
+}
+.bq {
+  border-bottom-color: #198754;
+}
+.br {
+  border-left-color: #198754;
+}
+.ba:hover {
+  -webkit-background-color: #157347;
+  background-color: #157347;
+}
+.bb:hover {
+  color: #fff;
+}
+.bc:hover {
+  border-top-color: #146c43;
+}
+.bd:hover {
+  border-right-color: #146c43;
+}
+.be:hover {
+  border-bottom-color: #146c43;
+}
+.bf:hover {
+  border-left-color: #146c43;
+}
+.as:focus-visible {
+  color: #fff;
+}
+.at:focus-visible {
+  -webkit-background-color: #157347;
+  background-color: #157347;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #146c43;
+}
+.ax:focus-visible {
+  border-right-color: #146c43;
+}
+.ay:focus-visible {
+  border-bottom-color: #146c43;
+}
+.az:focus-visible {
+  border-left-color: #146c43;
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  -webkit-background-color: #146c43;
+  background-color: #146c43;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #13653f;
+}
+.ae:active {
+  border-right-color: #13653f;
+}
+.af:active {
+  border-bottom-color: #13653f;
+}
+.ag:active {
+  border-left-color: #13653f;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a button with a variant: warning 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #ffc107;
+  background-color: #ffc107;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #000;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #ffc107;
+  background-color: #ffc107;
+}
+.ai:disabled {
+  color: #000;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #ffc107;
+}
+.ap:disabled {
+  border-right-color: #ffc107;
+}
+.aq:disabled {
+  border-bottom-color: #ffc107;
+}
+.ar:disabled {
+  border-left-color: #ffc107;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #ffc107;
+}
+.bp {
+  border-right-color: #ffc107;
+}
+.bq {
+  border-bottom-color: #ffc107;
+}
+.br {
+  border-left-color: #ffc107;
+}
+.ba:hover {
+  -webkit-background-color: #ffca2c;
+  background-color: #ffca2c;
+}
+.bb:hover {
+  color: #000;
+}
+.bc:hover {
+  border-top-color: #ffc720;
+}
+.bd:hover {
+  border-right-color: #ffc720;
+}
+.be:hover {
+  border-bottom-color: #ffc720;
+}
+.bf:hover {
+  border-left-color: #ffc720;
+}
+.as:focus-visible {
+  color: #000;
+}
+.at:focus-visible {
+  -webkit-background-color: #ffca2c;
+  background-color: #ffca2c;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(217, 164, 6, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #ffc720;
+}
+.ax:focus-visible {
+  border-right-color: #ffc720;
+}
+.ay:focus-visible {
+  border-bottom-color: #ffc720;
+}
+.az:focus-visible {
+  border-left-color: #ffc720;
+}
+.w:active {
+  color: #000;
+}
+.x:active {
+  -webkit-background-color: #ffcd39;
+  background-color: #ffcd39;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #ffc720;
+}
+.ae:active {
+  border-right-color: #ffc720;
+}
+.af:active {
+  border-bottom-color: #ffc720;
+}
+.ag:active {
+  border-left-color: #ffc720;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a disabled button of variant danger 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #dc3545;
+  background-color: #dc3545;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #fff;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #dc3545;
+  background-color: #dc3545;
+}
+.ai:disabled {
+  color: #fff;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #dc3545;
+}
+.ap:disabled {
+  border-right-color: #dc3545;
+}
+.aq:disabled {
+  border-bottom-color: #dc3545;
+}
+.ar:disabled {
+  border-left-color: #dc3545;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #dc3545;
+}
+.bp {
+  border-right-color: #dc3545;
+}
+.bq {
+  border-bottom-color: #dc3545;
+}
+.br {
+  border-left-color: #dc3545;
+}
+.ba:hover {
+  -webkit-background-color: #bb2d3b;
+  background-color: #bb2d3b;
+}
+.bb:hover {
+  color: #fff;
+}
+.bc:hover {
+  border-top-color: #b02a37;
+}
+.bd:hover {
+  border-right-color: #b02a37;
+}
+.be:hover {
+  border-bottom-color: #b02a37;
+}
+.bf:hover {
+  border-left-color: #b02a37;
+}
+.as:focus-visible {
+  color: #fff;
+}
+.at:focus-visible {
+  -webkit-background-color: #bb2d3b;
+  background-color: #bb2d3b;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(225, 83, 97, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #b02a37;
+}
+.ax:focus-visible {
+  border-right-color: #b02a37;
+}
+.ay:focus-visible {
+  border-bottom-color: #b02a37;
+}
+.az:focus-visible {
+  border-left-color: #b02a37;
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  -webkit-background-color: #b02a37;
+  background-color: #b02a37;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #a52834;
+}
+.ae:active {
+  border-right-color: #a52834;
+}
+.af:active {
+  border-bottom-color: #a52834;
+}
+.ag:active {
+  border-left-color: #a52834;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+  disabled=""
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a disabled button of variant default 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #333;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.ai:disabled {
+  color: #333;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #ccc;
+}
+.ap:disabled {
+  border-right-color: #ccc;
+}
+.aq:disabled {
+  border-bottom-color: #ccc;
+}
+.ar:disabled {
+  border-left-color: #ccc;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #ccc;
+}
+.bp {
+  border-right-color: #ccc;
+}
+.bq {
+  border-bottom-color: #ccc;
+}
+.br {
+  border-left-color: #ccc;
+}
+.ba:hover {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.bb:hover {
+  color: #333;
+}
+.bc:hover {
+  border-top-color: #adadad;
+}
+.bd:hover {
+  border-right-color: #adadad;
+}
+.be:hover {
+  border-bottom-color: #adadad;
+}
+.bf:hover {
+  border-left-color: #adadad;
+}
+.as:focus-visible {
+  color: #333;
+}
+.at:focus-visible {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #adadad;
+}
+.ax:focus-visible {
+  border-right-color: #adadad;
+}
+.ay:focus-visible {
+  border-bottom-color: #adadad;
+}
+.az:focus-visible {
+  border-left-color: #adadad;
+}
+.w:active {
+  color: #333;
+}
+.x:active {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #adadad;
+}
+.ae:active {
+  border-right-color: #adadad;
+}
+.af:active {
+  border-bottom-color: #adadad;
+}
+.ag:active {
+  border-left-color: #adadad;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+  disabled=""
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a disabled button of variant info 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #0dcaf0;
+  background-color: #0dcaf0;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #000;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #0dcaf0;
+  background-color: #0dcaf0;
+}
+.ai:disabled {
+  color: #000;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #0dcaf0;
+}
+.ap:disabled {
+  border-right-color: #0dcaf0;
+}
+.aq:disabled {
+  border-bottom-color: #0dcaf0;
+}
+.ar:disabled {
+  border-left-color: #0dcaf0;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #0dcaf0;
+}
+.bp {
+  border-right-color: #0dcaf0;
+}
+.bq {
+  border-bottom-color: #0dcaf0;
+}
+.br {
+  border-left-color: #0dcaf0;
+}
+.ba:hover {
+  -webkit-background-color: #31d2f2;
+  background-color: #31d2f2;
+}
+.bb:hover {
+  color: #000;
+}
+.bc:hover {
+  border-top-color: #25cff2;
+}
+.bd:hover {
+  border-right-color: #25cff2;
+}
+.be:hover {
+  border-bottom-color: #25cff2;
+}
+.bf:hover {
+  border-left-color: #25cff2;
+}
+.as:focus-visible {
+  color: #000;
+}
+.at:focus-visible {
+  -webkit-background-color: #31d2f2;
+  background-color: #31d2f2;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(11, 172, 204, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #25cff2;
+}
+.ax:focus-visible {
+  border-right-color: #25cff2;
+}
+.ay:focus-visible {
+  border-bottom-color: #25cff2;
+}
+.az:focus-visible {
+  border-left-color: #25cff2;
+}
+.w:active {
+  color: #000;
+}
+.x:active {
+  -webkit-background-color: #3dd5f3;
+  background-color: #3dd5f3;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #25cff2;
+}
+.ae:active {
+  border-right-color: #25cff2;
+}
+.af:active {
+  border-bottom-color: #25cff2;
+}
+.ag:active {
+  border-left-color: #25cff2;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+  disabled=""
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a disabled button of variant primary 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #fff;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.ai:disabled {
+  color: #fff;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #0d6efd;
+}
+.ap:disabled {
+  border-right-color: #0d6efd;
+}
+.aq:disabled {
+  border-bottom-color: #0d6efd;
+}
+.ar:disabled {
+  border-left-color: #0d6efd;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #2e6da4;
+}
+.bp {
+  border-right-color: #2e6da4;
+}
+.bq {
+  border-bottom-color: #2e6da4;
+}
+.br {
+  border-left-color: #2e6da4;
+}
+.ba:hover {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.bb:hover {
+  color: #fff;
+}
+.bc:hover {
+  border-top-color: #0a58ca;
+}
+.bd:hover {
+  border-right-color: #0a58ca;
+}
+.be:hover {
+  border-bottom-color: #0a58ca;
+}
+.bf:hover {
+  border-left-color: #0a58ca;
+}
+.as:focus-visible {
+  color: #fff;
+}
+.at:focus-visible {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #0a58ca;
+}
+.ax:focus-visible {
+  border-right-color: #0a58ca;
+}
+.ay:focus-visible {
+  border-bottom-color: #0a58ca;
+}
+.az:focus-visible {
+  border-left-color: #0a58ca;
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  -webkit-background-color: #0a58ca;
+  background-color: #0a58ca;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #0a53be;
+}
+.ae:active {
+  border-right-color: #0a53be;
+}
+.af:active {
+  border-bottom-color: #0a53be;
+}
+.ag:active {
+  border-left-color: #0a53be;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+  disabled=""
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a disabled button of variant secondary 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #6c757d;
+  background-color: #6c757d;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #fff;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #6c757d;
+  background-color: #6c757d;
+}
+.ai:disabled {
+  color: #fff;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #6c757d;
+}
+.ap:disabled {
+  border-right-color: #6c757d;
+}
+.aq:disabled {
+  border-bottom-color: #6c757d;
+}
+.ar:disabled {
+  border-left-color: #6c757d;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #6c757d;
+}
+.bp {
+  border-right-color: #6c757d;
+}
+.bq {
+  border-bottom-color: #6c757d;
+}
+.br {
+  border-left-color: #6c757d;
+}
+.ba:hover {
+  -webkit-background-color: #5c636a;
+  background-color: #5c636a;
+}
+.bb:hover {
+  color: #fff;
+}
+.bc:hover {
+  border-top-color: #565e64;
+}
+.bd:hover {
+  border-right-color: #565e64;
+}
+.be:hover {
+  border-bottom-color: #565e64;
+}
+.bf:hover {
+  border-left-color: #565e64;
+}
+.as:focus-visible {
+  color: #fff;
+}
+.at:focus-visible {
+  -webkit-background-color: #5c636a;
+  background-color: #5c636a;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #565e64;
+}
+.ax:focus-visible {
+  border-right-color: #565e64;
+}
+.ay:focus-visible {
+  border-bottom-color: #565e64;
+}
+.az:focus-visible {
+  border-left-color: #565e64;
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  -webkit-background-color: #565e64;
+  background-color: #565e64;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #51585e;
+}
+.ae:active {
+  border-right-color: #51585e;
+}
+.af:active {
+  border-bottom-color: #51585e;
+}
+.ag:active {
+  border-left-color: #51585e;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+  disabled=""
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a disabled button of variant success 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #198754;
+  background-color: #198754;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #fff;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #198754;
+  background-color: #198754;
+}
+.ai:disabled {
+  color: #fff;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #198754;
+}
+.ap:disabled {
+  border-right-color: #198754;
+}
+.aq:disabled {
+  border-bottom-color: #198754;
+}
+.ar:disabled {
+  border-left-color: #198754;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #198754;
+}
+.bp {
+  border-right-color: #198754;
+}
+.bq {
+  border-bottom-color: #198754;
+}
+.br {
+  border-left-color: #198754;
+}
+.ba:hover {
+  -webkit-background-color: #157347;
+  background-color: #157347;
+}
+.bb:hover {
+  color: #fff;
+}
+.bc:hover {
+  border-top-color: #146c43;
+}
+.bd:hover {
+  border-right-color: #146c43;
+}
+.be:hover {
+  border-bottom-color: #146c43;
+}
+.bf:hover {
+  border-left-color: #146c43;
+}
+.as:focus-visible {
+  color: #fff;
+}
+.at:focus-visible {
+  -webkit-background-color: #157347;
+  background-color: #157347;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #146c43;
+}
+.ax:focus-visible {
+  border-right-color: #146c43;
+}
+.ay:focus-visible {
+  border-bottom-color: #146c43;
+}
+.az:focus-visible {
+  border-left-color: #146c43;
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  -webkit-background-color: #146c43;
+  background-color: #146c43;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #13653f;
+}
+.ae:active {
+  border-right-color: #13653f;
+}
+.af:active {
+  border-bottom-color: #13653f;
+}
+.ag:active {
+  border-left-color: #13653f;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+  disabled=""
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a disabled button of variant warning 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #ffc107;
+  background-color: #ffc107;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #000;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #ffc107;
+  background-color: #ffc107;
+}
+.ai:disabled {
+  color: #000;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #ffc107;
+}
+.ap:disabled {
+  border-right-color: #ffc107;
+}
+.aq:disabled {
+  border-bottom-color: #ffc107;
+}
+.ar:disabled {
+  border-left-color: #ffc107;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #ffc107;
+}
+.bp {
+  border-right-color: #ffc107;
+}
+.bq {
+  border-bottom-color: #ffc107;
+}
+.br {
+  border-left-color: #ffc107;
+}
+.ba:hover {
+  -webkit-background-color: #ffca2c;
+  background-color: #ffca2c;
+}
+.bb:hover {
+  color: #000;
+}
+.bc:hover {
+  border-top-color: #ffc720;
+}
+.bd:hover {
+  border-right-color: #ffc720;
+}
+.be:hover {
+  border-bottom-color: #ffc720;
+}
+.bf:hover {
+  border-left-color: #ffc720;
+}
+.as:focus-visible {
+  color: #000;
+}
+.at:focus-visible {
+  -webkit-background-color: #ffca2c;
+  background-color: #ffca2c;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(217, 164, 6, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #ffc720;
+}
+.ax:focus-visible {
+  border-right-color: #ffc720;
+}
+.ay:focus-visible {
+  border-bottom-color: #ffc720;
+}
+.az:focus-visible {
+  border-left-color: #ffc720;
+}
+.w:active {
+  color: #000;
+}
+.x:active {
+  -webkit-background-color: #ffcd39;
+  background-color: #ffcd39;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #ffc720;
+}
+.ae:active {
+  border-right-color: #ffc720;
+}
+.af:active {
+  border-bottom-color: #ffc720;
+}
+.ag:active {
+  border-left-color: #ffc720;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+  disabled=""
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a hovered button of variant danger 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #dc3545;
+  background-color: #dc3545;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #fff;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #dc3545;
+  background-color: #dc3545;
+}
+.ai:disabled {
+  color: #fff;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #dc3545;
+}
+.ap:disabled {
+  border-right-color: #dc3545;
+}
+.aq:disabled {
+  border-bottom-color: #dc3545;
+}
+.ar:disabled {
+  border-left-color: #dc3545;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #dc3545;
+}
+.bp {
+  border-right-color: #dc3545;
+}
+.bq {
+  border-bottom-color: #dc3545;
+}
+.br {
+  border-left-color: #dc3545;
+}
+.ba:hover {
+  -webkit-background-color: #bb2d3b;
+  background-color: #bb2d3b;
+}
+.bb:hover {
+  color: #fff;
+}
+.bc:hover {
+  border-top-color: #b02a37;
+}
+.bd:hover {
+  border-right-color: #b02a37;
+}
+.be:hover {
+  border-bottom-color: #b02a37;
+}
+.bf:hover {
+  border-left-color: #b02a37;
+}
+.as:focus-visible {
+  color: #fff;
+}
+.at:focus-visible {
+  -webkit-background-color: #bb2d3b;
+  background-color: #bb2d3b;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(225, 83, 97, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #b02a37;
+}
+.ax:focus-visible {
+  border-right-color: #b02a37;
+}
+.ay:focus-visible {
+  border-bottom-color: #b02a37;
+}
+.az:focus-visible {
+  border-left-color: #b02a37;
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  -webkit-background-color: #b02a37;
+  background-color: #b02a37;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #a52834;
+}
+.ae:active {
+  border-right-color: #a52834;
+}
+.af:active {
+  border-bottom-color: #a52834;
+}
+.ag:active {
+  border-left-color: #a52834;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a hovered button of variant default 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #333;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.ai:disabled {
+  color: #333;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #ccc;
+}
+.ap:disabled {
+  border-right-color: #ccc;
+}
+.aq:disabled {
+  border-bottom-color: #ccc;
+}
+.ar:disabled {
+  border-left-color: #ccc;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #ccc;
+}
+.bp {
+  border-right-color: #ccc;
+}
+.bq {
+  border-bottom-color: #ccc;
+}
+.br {
+  border-left-color: #ccc;
+}
+.ba:hover {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.bb:hover {
+  color: #333;
+}
+.bc:hover {
+  border-top-color: #adadad;
+}
+.bd:hover {
+  border-right-color: #adadad;
+}
+.be:hover {
+  border-bottom-color: #adadad;
+}
+.bf:hover {
+  border-left-color: #adadad;
+}
+.as:focus-visible {
+  color: #333;
+}
+.at:focus-visible {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #adadad;
+}
+.ax:focus-visible {
+  border-right-color: #adadad;
+}
+.ay:focus-visible {
+  border-bottom-color: #adadad;
+}
+.az:focus-visible {
+  border-left-color: #adadad;
+}
+.w:active {
+  color: #333;
+}
+.x:active {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #adadad;
+}
+.ae:active {
+  border-right-color: #adadad;
+}
+.af:active {
+  border-bottom-color: #adadad;
+}
+.ag:active {
+  border-left-color: #adadad;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a hovered button of variant info 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #0dcaf0;
+  background-color: #0dcaf0;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #000;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #0dcaf0;
+  background-color: #0dcaf0;
+}
+.ai:disabled {
+  color: #000;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #0dcaf0;
+}
+.ap:disabled {
+  border-right-color: #0dcaf0;
+}
+.aq:disabled {
+  border-bottom-color: #0dcaf0;
+}
+.ar:disabled {
+  border-left-color: #0dcaf0;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #0dcaf0;
+}
+.bp {
+  border-right-color: #0dcaf0;
+}
+.bq {
+  border-bottom-color: #0dcaf0;
+}
+.br {
+  border-left-color: #0dcaf0;
+}
+.ba:hover {
+  -webkit-background-color: #31d2f2;
+  background-color: #31d2f2;
+}
+.bb:hover {
+  color: #000;
+}
+.bc:hover {
+  border-top-color: #25cff2;
+}
+.bd:hover {
+  border-right-color: #25cff2;
+}
+.be:hover {
+  border-bottom-color: #25cff2;
+}
+.bf:hover {
+  border-left-color: #25cff2;
+}
+.as:focus-visible {
+  color: #000;
+}
+.at:focus-visible {
+  -webkit-background-color: #31d2f2;
+  background-color: #31d2f2;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(11, 172, 204, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #25cff2;
+}
+.ax:focus-visible {
+  border-right-color: #25cff2;
+}
+.ay:focus-visible {
+  border-bottom-color: #25cff2;
+}
+.az:focus-visible {
+  border-left-color: #25cff2;
+}
+.w:active {
+  color: #000;
+}
+.x:active {
+  -webkit-background-color: #3dd5f3;
+  background-color: #3dd5f3;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #25cff2;
+}
+.ae:active {
+  border-right-color: #25cff2;
+}
+.af:active {
+  border-bottom-color: #25cff2;
+}
+.ag:active {
+  border-left-color: #25cff2;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a hovered button of variant primary 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #fff;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.ai:disabled {
+  color: #fff;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #0d6efd;
+}
+.ap:disabled {
+  border-right-color: #0d6efd;
+}
+.aq:disabled {
+  border-bottom-color: #0d6efd;
+}
+.ar:disabled {
+  border-left-color: #0d6efd;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #2e6da4;
+}
+.bp {
+  border-right-color: #2e6da4;
+}
+.bq {
+  border-bottom-color: #2e6da4;
+}
+.br {
+  border-left-color: #2e6da4;
+}
+.ba:hover {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.bb:hover {
+  color: #fff;
+}
+.bc:hover {
+  border-top-color: #0a58ca;
+}
+.bd:hover {
+  border-right-color: #0a58ca;
+}
+.be:hover {
+  border-bottom-color: #0a58ca;
+}
+.bf:hover {
+  border-left-color: #0a58ca;
+}
+.as:focus-visible {
+  color: #fff;
+}
+.at:focus-visible {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #0a58ca;
+}
+.ax:focus-visible {
+  border-right-color: #0a58ca;
+}
+.ay:focus-visible {
+  border-bottom-color: #0a58ca;
+}
+.az:focus-visible {
+  border-left-color: #0a58ca;
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  -webkit-background-color: #0a58ca;
+  background-color: #0a58ca;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #0a53be;
+}
+.ae:active {
+  border-right-color: #0a53be;
+}
+.af:active {
+  border-bottom-color: #0a53be;
+}
+.ag:active {
+  border-left-color: #0a53be;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a hovered button of variant secondary 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #6c757d;
+  background-color: #6c757d;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #fff;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #6c757d;
+  background-color: #6c757d;
+}
+.ai:disabled {
+  color: #fff;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #6c757d;
+}
+.ap:disabled {
+  border-right-color: #6c757d;
+}
+.aq:disabled {
+  border-bottom-color: #6c757d;
+}
+.ar:disabled {
+  border-left-color: #6c757d;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #6c757d;
+}
+.bp {
+  border-right-color: #6c757d;
+}
+.bq {
+  border-bottom-color: #6c757d;
+}
+.br {
+  border-left-color: #6c757d;
+}
+.ba:hover {
+  -webkit-background-color: #5c636a;
+  background-color: #5c636a;
+}
+.bb:hover {
+  color: #fff;
+}
+.bc:hover {
+  border-top-color: #565e64;
+}
+.bd:hover {
+  border-right-color: #565e64;
+}
+.be:hover {
+  border-bottom-color: #565e64;
+}
+.bf:hover {
+  border-left-color: #565e64;
+}
+.as:focus-visible {
+  color: #fff;
+}
+.at:focus-visible {
+  -webkit-background-color: #5c636a;
+  background-color: #5c636a;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #565e64;
+}
+.ax:focus-visible {
+  border-right-color: #565e64;
+}
+.ay:focus-visible {
+  border-bottom-color: #565e64;
+}
+.az:focus-visible {
+  border-left-color: #565e64;
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  -webkit-background-color: #565e64;
+  background-color: #565e64;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #51585e;
+}
+.ae:active {
+  border-right-color: #51585e;
+}
+.af:active {
+  border-bottom-color: #51585e;
+}
+.ag:active {
+  border-left-color: #51585e;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a hovered button of variant success 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #198754;
+  background-color: #198754;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #fff;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #198754;
+  background-color: #198754;
+}
+.ai:disabled {
+  color: #fff;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #198754;
+}
+.ap:disabled {
+  border-right-color: #198754;
+}
+.aq:disabled {
+  border-bottom-color: #198754;
+}
+.ar:disabled {
+  border-left-color: #198754;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #198754;
+}
+.bp {
+  border-right-color: #198754;
+}
+.bq {
+  border-bottom-color: #198754;
+}
+.br {
+  border-left-color: #198754;
+}
+.ba:hover {
+  -webkit-background-color: #157347;
+  background-color: #157347;
+}
+.bb:hover {
+  color: #fff;
+}
+.bc:hover {
+  border-top-color: #146c43;
+}
+.bd:hover {
+  border-right-color: #146c43;
+}
+.be:hover {
+  border-bottom-color: #146c43;
+}
+.bf:hover {
+  border-left-color: #146c43;
+}
+.as:focus-visible {
+  color: #fff;
+}
+.at:focus-visible {
+  -webkit-background-color: #157347;
+  background-color: #157347;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #146c43;
+}
+.ax:focus-visible {
+  border-right-color: #146c43;
+}
+.ay:focus-visible {
+  border-bottom-color: #146c43;
+}
+.az:focus-visible {
+  border-left-color: #146c43;
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  -webkit-background-color: #146c43;
+  background-color: #146c43;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #13653f;
+}
+.ae:active {
+  border-right-color: #13653f;
+}
+.af:active {
+  border-bottom-color: #13653f;
+}
+.ag:active {
+  border-left-color: #13653f;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render a hovered button of variant warning 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #ffc107;
+  background-color: #ffc107;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #000;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #ffc107;
+  background-color: #ffc107;
+}
+.ai:disabled {
+  color: #000;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #ffc107;
+}
+.ap:disabled {
+  border-right-color: #ffc107;
+}
+.aq:disabled {
+  border-bottom-color: #ffc107;
+}
+.ar:disabled {
+  border-left-color: #ffc107;
+}
+.bg {
+  border-top-width: 1px;
+}
+.bh {
+  border-right-width: 1px;
+}
+.bi {
+  border-bottom-width: 1px;
+}
+.bj {
+  border-left-width: 1px;
+}
+.bk {
+  border-top-style: solid;
+}
+.bl {
+  border-right-style: solid;
+}
+.bm {
+  border-bottom-style: solid;
+}
+.bn {
+  border-left-style: solid;
+}
+.bo {
+  border-top-color: #ffc107;
+}
+.bp {
+  border-right-color: #ffc107;
+}
+.bq {
+  border-bottom-color: #ffc107;
+}
+.br {
+  border-left-color: #ffc107;
+}
+.ba:hover {
+  -webkit-background-color: #ffca2c;
+  background-color: #ffca2c;
+}
+.bb:hover {
+  color: #000;
+}
+.bc:hover {
+  border-top-color: #ffc720;
+}
+.bd:hover {
+  border-right-color: #ffc720;
+}
+.be:hover {
+  border-bottom-color: #ffc720;
+}
+.bf:hover {
+  border-left-color: #ffc720;
+}
+.as:focus-visible {
+  color: #000;
+}
+.at:focus-visible {
+  -webkit-background-color: #ffca2c;
+  background-color: #ffca2c;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(217, 164, 6, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #ffc720;
+}
+.ax:focus-visible {
+  border-right-color: #ffc720;
+}
+.ay:focus-visible {
+  border-bottom-color: #ffc720;
+}
+.az:focus-visible {
+  border-left-color: #ffc720;
+}
+.w:active {
+  color: #000;
+}
+.x:active {
+  -webkit-background-color: #ffcd39;
+  background-color: #ffcd39;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #ffc720;
+}
+.ae:active {
+  border-right-color: #ffc720;
+}
+.af:active {
+  border-bottom-color: #ffc720;
+}
+.ag:active {
+  border-left-color: #ffc720;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render an active button with a variant: danger 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #dc3545;
+  background-color: #dc3545;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #fff;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #dc3545;
+  background-color: #dc3545;
+}
+.ai:disabled {
+  color: #fff;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #dc3545;
+}
+.ap:disabled {
+  border-right-color: #dc3545;
+}
+.aq:disabled {
+  border-bottom-color: #dc3545;
+}
+.ar:disabled {
+  border-left-color: #dc3545;
+}
+.bg {
+  z-index: 1;
+}
+.bh {
+  border-top-width: 1px;
+}
+.bi {
+  border-right-width: 1px;
+}
+.bj {
+  border-bottom-width: 1px;
+}
+.bk {
+  border-left-width: 1px;
+}
+.bl {
+  border-top-style: solid;
+}
+.bm {
+  border-right-style: solid;
+}
+.bn {
+  border-bottom-style: solid;
+}
+.bo {
+  border-left-style: solid;
+}
+.bp {
+  border-top-color: #dc3545;
+}
+.bq {
+  border-right-color: #dc3545;
+}
+.br {
+  border-bottom-color: #dc3545;
+}
+.bs {
+  border-left-color: #dc3545;
+}
+.ba:hover {
+  -webkit-background-color: #bb2d3b;
+  background-color: #bb2d3b;
+}
+.bb:hover {
+  color: #fff;
+}
+.bc:hover {
+  border-top-color: #b02a37;
+}
+.bd:hover {
+  border-right-color: #b02a37;
+}
+.be:hover {
+  border-bottom-color: #b02a37;
+}
+.bf:hover {
+  border-left-color: #b02a37;
+}
+.as:focus-visible {
+  color: #fff;
+}
+.at:focus-visible {
+  -webkit-background-color: #bb2d3b;
+  background-color: #bb2d3b;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(225, 83, 97, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #b02a37;
+}
+.ax:focus-visible {
+  border-right-color: #b02a37;
+}
+.ay:focus-visible {
+  border-bottom-color: #b02a37;
+}
+.az:focus-visible {
+  border-left-color: #b02a37;
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  -webkit-background-color: #b02a37;
+  background-color: #b02a37;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #a52834;
+}
+.ae:active {
+  border-right-color: #a52834;
+}
+.af:active {
+  border-bottom-color: #a52834;
+}
+.ag:active {
+  border-left-color: #a52834;
+}
+
+
+<button
+  data-testid="button"
+  active="active"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render an active button with a variant: default 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #333;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #fff;
+  background-color: #fff;
+}
+.ai:disabled {
+  color: #333;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #ccc;
+}
+.ap:disabled {
+  border-right-color: #ccc;
+}
+.aq:disabled {
+  border-bottom-color: #ccc;
+}
+.ar:disabled {
+  border-left-color: #ccc;
+}
+.bg {
+  z-index: 1;
+}
+.bh {
+  border-top-width: 1px;
+}
+.bi {
+  border-right-width: 1px;
+}
+.bj {
+  border-bottom-width: 1px;
+}
+.bk {
+  border-left-width: 1px;
+}
+.bl {
+  border-top-style: solid;
+}
+.bm {
+  border-right-style: solid;
+}
+.bn {
+  border-bottom-style: solid;
+}
+.bo {
+  border-left-style: solid;
+}
+.bp {
+  border-top-color: #ccc;
+}
+.bq {
+  border-right-color: #ccc;
+}
+.br {
+  border-bottom-color: #ccc;
+}
+.bs {
+  border-left-color: #ccc;
+}
+.ba:hover {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.bb:hover {
+  color: #333;
+}
+.bc:hover {
+  border-top-color: #adadad;
+}
+.bd:hover {
+  border-right-color: #adadad;
+}
+.be:hover {
+  border-bottom-color: #adadad;
+}
+.bf:hover {
+  border-left-color: #adadad;
+}
+.as:focus-visible {
+  color: #333;
+}
+.at:focus-visible {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #adadad;
+}
+.ax:focus-visible {
+  border-right-color: #adadad;
+}
+.ay:focus-visible {
+  border-bottom-color: #adadad;
+}
+.az:focus-visible {
+  border-left-color: #adadad;
+}
+.w:active {
+  color: #333;
+}
+.x:active {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #adadad;
+}
+.ae:active {
+  border-right-color: #adadad;
+}
+.af:active {
+  border-bottom-color: #adadad;
+}
+.ag:active {
+  border-left-color: #adadad;
+}
+
+
+<button
+  data-testid="button"
+  active="active"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render an active button with a variant: info 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #0dcaf0;
+  background-color: #0dcaf0;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #000;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #0dcaf0;
+  background-color: #0dcaf0;
+}
+.ai:disabled {
+  color: #000;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #0dcaf0;
+}
+.ap:disabled {
+  border-right-color: #0dcaf0;
+}
+.aq:disabled {
+  border-bottom-color: #0dcaf0;
+}
+.ar:disabled {
+  border-left-color: #0dcaf0;
+}
+.bg {
+  z-index: 1;
+}
+.bh {
+  border-top-width: 1px;
+}
+.bi {
+  border-right-width: 1px;
+}
+.bj {
+  border-bottom-width: 1px;
+}
+.bk {
+  border-left-width: 1px;
+}
+.bl {
+  border-top-style: solid;
+}
+.bm {
+  border-right-style: solid;
+}
+.bn {
+  border-bottom-style: solid;
+}
+.bo {
+  border-left-style: solid;
+}
+.bp {
+  border-top-color: #0dcaf0;
+}
+.bq {
+  border-right-color: #0dcaf0;
+}
+.br {
+  border-bottom-color: #0dcaf0;
+}
+.bs {
+  border-left-color: #0dcaf0;
+}
+.ba:hover {
+  -webkit-background-color: #31d2f2;
+  background-color: #31d2f2;
+}
+.bb:hover {
+  color: #000;
+}
+.bc:hover {
+  border-top-color: #25cff2;
+}
+.bd:hover {
+  border-right-color: #25cff2;
+}
+.be:hover {
+  border-bottom-color: #25cff2;
+}
+.bf:hover {
+  border-left-color: #25cff2;
+}
+.as:focus-visible {
+  color: #000;
+}
+.at:focus-visible {
+  -webkit-background-color: #31d2f2;
+  background-color: #31d2f2;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(11, 172, 204, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #25cff2;
+}
+.ax:focus-visible {
+  border-right-color: #25cff2;
+}
+.ay:focus-visible {
+  border-bottom-color: #25cff2;
+}
+.az:focus-visible {
+  border-left-color: #25cff2;
+}
+.w:active {
+  color: #000;
+}
+.x:active {
+  -webkit-background-color: #3dd5f3;
+  background-color: #3dd5f3;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #25cff2;
+}
+.ae:active {
+  border-right-color: #25cff2;
+}
+.af:active {
+  border-bottom-color: #25cff2;
+}
+.ag:active {
+  border-left-color: #25cff2;
+}
+
+
+<button
+  data-testid="button"
+  active="active"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render an active button with a variant: primary 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #fff;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.ai:disabled {
+  color: #fff;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #0d6efd;
+}
+.ap:disabled {
+  border-right-color: #0d6efd;
+}
+.aq:disabled {
+  border-bottom-color: #0d6efd;
+}
+.ar:disabled {
+  border-left-color: #0d6efd;
+}
+.bg {
+  z-index: 1;
+}
+.bh {
+  border-top-width: 1px;
+}
+.bi {
+  border-right-width: 1px;
+}
+.bj {
+  border-bottom-width: 1px;
+}
+.bk {
+  border-left-width: 1px;
+}
+.bl {
+  border-top-style: solid;
+}
+.bm {
+  border-right-style: solid;
+}
+.bn {
+  border-bottom-style: solid;
+}
+.bo {
+  border-left-style: solid;
+}
+.bp {
+  border-top-color: #2e6da4;
+}
+.bq {
+  border-right-color: #2e6da4;
+}
+.br {
+  border-bottom-color: #2e6da4;
+}
+.bs {
+  border-left-color: #2e6da4;
+}
+.ba:hover {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.bb:hover {
+  color: #fff;
+}
+.bc:hover {
+  border-top-color: #0a58ca;
+}
+.bd:hover {
+  border-right-color: #0a58ca;
+}
+.be:hover {
+  border-bottom-color: #0a58ca;
+}
+.bf:hover {
+  border-left-color: #0a58ca;
+}
+.as:focus-visible {
+  color: #fff;
+}
+.at:focus-visible {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #0a58ca;
+}
+.ax:focus-visible {
+  border-right-color: #0a58ca;
+}
+.ay:focus-visible {
+  border-bottom-color: #0a58ca;
+}
+.az:focus-visible {
+  border-left-color: #0a58ca;
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  -webkit-background-color: #0a58ca;
+  background-color: #0a58ca;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #0a53be;
+}
+.ae:active {
+  border-right-color: #0a53be;
+}
+.af:active {
+  border-bottom-color: #0a53be;
+}
+.ag:active {
+  border-left-color: #0a53be;
+}
+
+
+<button
+  data-testid="button"
+  active="active"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render an active button with a variant: secondary 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #6c757d;
+  background-color: #6c757d;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #fff;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #6c757d;
+  background-color: #6c757d;
+}
+.ai:disabled {
+  color: #fff;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #6c757d;
+}
+.ap:disabled {
+  border-right-color: #6c757d;
+}
+.aq:disabled {
+  border-bottom-color: #6c757d;
+}
+.ar:disabled {
+  border-left-color: #6c757d;
+}
+.bg {
+  z-index: 1;
+}
+.bh {
+  border-top-width: 1px;
+}
+.bi {
+  border-right-width: 1px;
+}
+.bj {
+  border-bottom-width: 1px;
+}
+.bk {
+  border-left-width: 1px;
+}
+.bl {
+  border-top-style: solid;
+}
+.bm {
+  border-right-style: solid;
+}
+.bn {
+  border-bottom-style: solid;
+}
+.bo {
+  border-left-style: solid;
+}
+.bp {
+  border-top-color: #6c757d;
+}
+.bq {
+  border-right-color: #6c757d;
+}
+.br {
+  border-bottom-color: #6c757d;
+}
+.bs {
+  border-left-color: #6c757d;
+}
+.ba:hover {
+  -webkit-background-color: #5c636a;
+  background-color: #5c636a;
+}
+.bb:hover {
+  color: #fff;
+}
+.bc:hover {
+  border-top-color: #565e64;
+}
+.bd:hover {
+  border-right-color: #565e64;
+}
+.be:hover {
+  border-bottom-color: #565e64;
+}
+.bf:hover {
+  border-left-color: #565e64;
+}
+.as:focus-visible {
+  color: #fff;
+}
+.at:focus-visible {
+  -webkit-background-color: #5c636a;
+  background-color: #5c636a;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #565e64;
+}
+.ax:focus-visible {
+  border-right-color: #565e64;
+}
+.ay:focus-visible {
+  border-bottom-color: #565e64;
+}
+.az:focus-visible {
+  border-left-color: #565e64;
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  -webkit-background-color: #565e64;
+  background-color: #565e64;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #51585e;
+}
+.ae:active {
+  border-right-color: #51585e;
+}
+.af:active {
+  border-bottom-color: #51585e;
+}
+.ag:active {
+  border-left-color: #51585e;
+}
+
+
+<button
+  data-testid="button"
+  active="active"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render an active button with a variant: success 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #198754;
+  background-color: #198754;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #fff;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #198754;
+  background-color: #198754;
+}
+.ai:disabled {
+  color: #fff;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #198754;
+}
+.ap:disabled {
+  border-right-color: #198754;
+}
+.aq:disabled {
+  border-bottom-color: #198754;
+}
+.ar:disabled {
+  border-left-color: #198754;
+}
+.bg {
+  z-index: 1;
+}
+.bh {
+  border-top-width: 1px;
+}
+.bi {
+  border-right-width: 1px;
+}
+.bj {
+  border-bottom-width: 1px;
+}
+.bk {
+  border-left-width: 1px;
+}
+.bl {
+  border-top-style: solid;
+}
+.bm {
+  border-right-style: solid;
+}
+.bn {
+  border-bottom-style: solid;
+}
+.bo {
+  border-left-style: solid;
+}
+.bp {
+  border-top-color: #198754;
+}
+.bq {
+  border-right-color: #198754;
+}
+.br {
+  border-bottom-color: #198754;
+}
+.bs {
+  border-left-color: #198754;
+}
+.ba:hover {
+  -webkit-background-color: #157347;
+  background-color: #157347;
+}
+.bb:hover {
+  color: #fff;
+}
+.bc:hover {
+  border-top-color: #146c43;
+}
+.bd:hover {
+  border-right-color: #146c43;
+}
+.be:hover {
+  border-bottom-color: #146c43;
+}
+.bf:hover {
+  border-left-color: #146c43;
+}
+.as:focus-visible {
+  color: #fff;
+}
+.at:focus-visible {
+  -webkit-background-color: #157347;
+  background-color: #157347;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #146c43;
+}
+.ax:focus-visible {
+  border-right-color: #146c43;
+}
+.ay:focus-visible {
+  border-bottom-color: #146c43;
+}
+.az:focus-visible {
+  border-left-color: #146c43;
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  -webkit-background-color: #146c43;
+  background-color: #146c43;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #13653f;
+}
+.ae:active {
+  border-right-color: #13653f;
+}
+.af:active {
+  border-bottom-color: #13653f;
+}
+.ag:active {
+  border-left-color: #13653f;
+}
+
+
+<button
+  data-testid="button"
+  active="active"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render an active button with a variant: warning 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: #ffc107;
+  background-color: #ffc107;
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #000;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: #ffc107;
+  background-color: #ffc107;
+}
+.ai:disabled {
+  color: #000;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #ffc107;
+}
+.ap:disabled {
+  border-right-color: #ffc107;
+}
+.aq:disabled {
+  border-bottom-color: #ffc107;
+}
+.ar:disabled {
+  border-left-color: #ffc107;
+}
+.bg {
+  z-index: 1;
+}
+.bh {
+  border-top-width: 1px;
+}
+.bi {
+  border-right-width: 1px;
+}
+.bj {
+  border-bottom-width: 1px;
+}
+.bk {
+  border-left-width: 1px;
+}
+.bl {
+  border-top-style: solid;
+}
+.bm {
+  border-right-style: solid;
+}
+.bn {
+  border-bottom-style: solid;
+}
+.bo {
+  border-left-style: solid;
+}
+.bp {
+  border-top-color: #ffc107;
+}
+.bq {
+  border-right-color: #ffc107;
+}
+.br {
+  border-bottom-color: #ffc107;
+}
+.bs {
+  border-left-color: #ffc107;
+}
+.ba:hover {
+  -webkit-background-color: #ffca2c;
+  background-color: #ffca2c;
+}
+.bb:hover {
+  color: #000;
+}
+.bc:hover {
+  border-top-color: #ffc720;
+}
+.bd:hover {
+  border-right-color: #ffc720;
+}
+.be:hover {
+  border-bottom-color: #ffc720;
+}
+.bf:hover {
+  border-left-color: #ffc720;
+}
+.as:focus-visible {
+  color: #000;
+}
+.at:focus-visible {
+  -webkit-background-color: #ffca2c;
+  background-color: #ffca2c;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(217, 164, 6, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #ffc720;
+}
+.ax:focus-visible {
+  border-right-color: #ffc720;
+}
+.ay:focus-visible {
+  border-bottom-color: #ffc720;
+}
+.az:focus-visible {
+  border-left-color: #ffc720;
+}
+.w:active {
+  color: #000;
+}
+.x:active {
+  -webkit-background-color: #ffcd39;
+  background-color: #ffcd39;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #ffc720;
+}
+.ae:active {
+  border-right-color: #ffc720;
+}
+.af:active {
+  border-bottom-color: #ffc720;
+}
+.ag:active {
+  border-left-color: #ffc720;
+}
+
+
+<button
+  data-testid="button"
+  active="active"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render an outlined button of variant danger 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #dc3545;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.ai:disabled {
+  color: #dc3545;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #dc3545;
+}
+.ap:disabled {
+  border-right-color: #dc3545;
+}
+.aq:disabled {
+  border-bottom-color: #dc3545;
+}
+.ar:disabled {
+  border-left-color: #dc3545;
+}
+.bg {
+  gradient: none;
+}
+.bi {
+  border-top-width: 1px;
+}
+.bj {
+  border-right-width: 1px;
+}
+.bk {
+  border-bottom-width: 1px;
+}
+.bl {
+  border-left-width: 1px;
+}
+.bm {
+  border-top-style: solid;
+}
+.bn {
+  border-right-style: solid;
+}
+.bo {
+  border-bottom-style: solid;
+}
+.bp {
+  border-left-style: solid;
+}
+.bq {
+  border-top-color: #dc3545;
+}
+.br {
+  border-right-color: #dc3545;
+}
+.bs {
+  border-bottom-color: #dc3545;
+}
+.bt {
+  border-left-color: #dc3545;
+}
+.ba:hover {
+  -webkit-background-color: #dc3545;
+  background-color: #dc3545;
+}
+.bb:hover {
+  color: #fff;
+}
+.bc:hover {
+  border-top-color: #dc3545;
+}
+.bd:hover {
+  border-right-color: #dc3545;
+}
+.be:hover {
+  border-bottom-color: #dc3545;
+}
+.bf:hover {
+  border-left-color: #dc3545;
+}
+.as:focus-visible {
+  color: #fff;
+}
+.at:focus-visible {
+  -webkit-background-color: #bb2d3b;
+  background-color: #bb2d3b;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(225, 83, 97, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #b02a37;
+}
+.ax:focus-visible {
+  border-right-color: #b02a37;
+}
+.ay:focus-visible {
+  border-bottom-color: #b02a37;
+}
+.az:focus-visible {
+  border-left-color: #b02a37;
+}
+.bh:focus {
+  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.5);
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  -webkit-background-color: #dc3545;
+  background-color: #dc3545;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #dc3545;
+}
+.ae:active {
+  border-right-color: #dc3545;
+}
+.af:active {
+  border-bottom-color: #dc3545;
+}
+.ag:active {
+  border-left-color: #dc3545;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render an outlined button of variant default 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #333;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.ai:disabled {
+  color: #333;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #333;
+}
+.ap:disabled {
+  border-right-color: #333;
+}
+.aq:disabled {
+  border-bottom-color: #333;
+}
+.ar:disabled {
+  border-left-color: #333;
+}
+.bg {
+  gradient: none;
+}
+.bi {
+  border-top-width: 1px;
+}
+.bj {
+  border-right-width: 1px;
+}
+.bk {
+  border-bottom-width: 1px;
+}
+.bl {
+  border-left-width: 1px;
+}
+.bm {
+  border-top-style: solid;
+}
+.bn {
+  border-right-style: solid;
+}
+.bo {
+  border-bottom-style: solid;
+}
+.bp {
+  border-left-style: solid;
+}
+.bq {
+  border-top-color: #333;
+}
+.br {
+  border-right-color: #333;
+}
+.bs {
+  border-bottom-color: #333;
+}
+.bt {
+  border-left-color: #333;
+}
+.ba:hover {
+  -webkit-background-color: #333;
+  background-color: #333;
+}
+.bb:hover {
+  color: #000;
+}
+.bc:hover {
+  border-top-color: #333;
+}
+.bd:hover {
+  border-right-color: #333;
+}
+.be:hover {
+  border-bottom-color: #333;
+}
+.bf:hover {
+  border-left-color: #333;
+}
+.as:focus-visible {
+  color: #333;
+}
+.at:focus-visible {
+  -webkit-background-color: #e6e6e6;
+  background-color: #e6e6e6;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.125);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #adadad;
+}
+.ax:focus-visible {
+  border-right-color: #adadad;
+}
+.ay:focus-visible {
+  border-bottom-color: #adadad;
+}
+.az:focus-visible {
+  border-left-color: #adadad;
+}
+.bh:focus {
+  box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5);
+}
+.w:active {
+  color: #000;
+}
+.x:active {
+  -webkit-background-color: #333;
+  background-color: #333;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #333;
+}
+.ae:active {
+  border-right-color: #333;
+}
+.af:active {
+  border-bottom-color: #333;
+}
+.ag:active {
+  border-left-color: #333;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render an outlined button of variant info 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #0dcaf0;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.ai:disabled {
+  color: #0dcaf0;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #0dcaf0;
+}
+.ap:disabled {
+  border-right-color: #0dcaf0;
+}
+.aq:disabled {
+  border-bottom-color: #0dcaf0;
+}
+.ar:disabled {
+  border-left-color: #0dcaf0;
+}
+.bg {
+  gradient: none;
+}
+.bi {
+  border-top-width: 1px;
+}
+.bj {
+  border-right-width: 1px;
+}
+.bk {
+  border-bottom-width: 1px;
+}
+.bl {
+  border-left-width: 1px;
+}
+.bm {
+  border-top-style: solid;
+}
+.bn {
+  border-right-style: solid;
+}
+.bo {
+  border-bottom-style: solid;
+}
+.bp {
+  border-left-style: solid;
+}
+.bq {
+  border-top-color: #0dcaf0;
+}
+.br {
+  border-right-color: #0dcaf0;
+}
+.bs {
+  border-bottom-color: #0dcaf0;
+}
+.bt {
+  border-left-color: #0dcaf0;
+}
+.ba:hover {
+  -webkit-background-color: #0dcaf0;
+  background-color: #0dcaf0;
+}
+.bb:hover {
+  color: #000;
+}
+.bc:hover {
+  border-top-color: #0dcaf0;
+}
+.bd:hover {
+  border-right-color: #0dcaf0;
+}
+.be:hover {
+  border-bottom-color: #0dcaf0;
+}
+.bf:hover {
+  border-left-color: #0dcaf0;
+}
+.as:focus-visible {
+  color: #000;
+}
+.at:focus-visible {
+  -webkit-background-color: #31d2f2;
+  background-color: #31d2f2;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(11, 172, 204, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #25cff2;
+}
+.ax:focus-visible {
+  border-right-color: #25cff2;
+}
+.ay:focus-visible {
+  border-bottom-color: #25cff2;
+}
+.az:focus-visible {
+  border-left-color: #25cff2;
+}
+.bh:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 202, 240, 0.5);
+}
+.w:active {
+  color: #000;
+}
+.x:active {
+  -webkit-background-color: #0dcaf0;
+  background-color: #0dcaf0;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #0dcaf0;
+}
+.ae:active {
+  border-right-color: #0dcaf0;
+}
+.af:active {
+  border-bottom-color: #0dcaf0;
+}
+.ag:active {
+  border-left-color: #0dcaf0;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render an outlined button of variant primary 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #0d6efd;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.ai:disabled {
+  color: #0d6efd;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #0d6efd;
+}
+.ap:disabled {
+  border-right-color: #0d6efd;
+}
+.aq:disabled {
+  border-bottom-color: #0d6efd;
+}
+.ar:disabled {
+  border-left-color: #0d6efd;
+}
+.bg {
+  gradient: none;
+}
+.bi {
+  border-top-width: 1px;
+}
+.bj {
+  border-right-width: 1px;
+}
+.bk {
+  border-bottom-width: 1px;
+}
+.bl {
+  border-left-width: 1px;
+}
+.bm {
+  border-top-style: solid;
+}
+.bn {
+  border-right-style: solid;
+}
+.bo {
+  border-bottom-style: solid;
+}
+.bp {
+  border-left-style: solid;
+}
+.bq {
+  border-top-color: #0d6efd;
+}
+.br {
+  border-right-color: #0d6efd;
+}
+.bs {
+  border-bottom-color: #0d6efd;
+}
+.bt {
+  border-left-color: #0d6efd;
+}
+.ba:hover {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.bb:hover {
+  color: #fff;
+}
+.bc:hover {
+  border-top-color: #0d6efd;
+}
+.bd:hover {
+  border-right-color: #0d6efd;
+}
+.be:hover {
+  border-bottom-color: #0d6efd;
+}
+.bf:hover {
+  border-left-color: #0d6efd;
+}
+.as:focus-visible {
+  color: #fff;
+}
+.at:focus-visible {
+  -webkit-background-color: #0b5ed7;
+  background-color: #0b5ed7;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #0a58ca;
+}
+.ax:focus-visible {
+  border-right-color: #0a58ca;
+}
+.ay:focus-visible {
+  border-bottom-color: #0a58ca;
+}
+.az:focus-visible {
+  border-left-color: #0a58ca;
+}
+.bh:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  -webkit-background-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #0d6efd;
+}
+.ae:active {
+  border-right-color: #0d6efd;
+}
+.af:active {
+  border-bottom-color: #0d6efd;
+}
+.ag:active {
+  border-left-color: #0d6efd;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render an outlined button of variant secondary 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #6c757d;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.ai:disabled {
+  color: #6c757d;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #6c757d;
+}
+.ap:disabled {
+  border-right-color: #6c757d;
+}
+.aq:disabled {
+  border-bottom-color: #6c757d;
+}
+.ar:disabled {
+  border-left-color: #6c757d;
+}
+.bg {
+  gradient: none;
+}
+.bi {
+  border-top-width: 1px;
+}
+.bj {
+  border-right-width: 1px;
+}
+.bk {
+  border-bottom-width: 1px;
+}
+.bl {
+  border-left-width: 1px;
+}
+.bm {
+  border-top-style: solid;
+}
+.bn {
+  border-right-style: solid;
+}
+.bo {
+  border-bottom-style: solid;
+}
+.bp {
+  border-left-style: solid;
+}
+.bq {
+  border-top-color: #6c757d;
+}
+.br {
+  border-right-color: #6c757d;
+}
+.bs {
+  border-bottom-color: #6c757d;
+}
+.bt {
+  border-left-color: #6c757d;
+}
+.ba:hover {
+  -webkit-background-color: #6c757d;
+  background-color: #6c757d;
+}
+.bb:hover {
+  color: #fff;
+}
+.bc:hover {
+  border-top-color: #6c757d;
+}
+.bd:hover {
+  border-right-color: #6c757d;
+}
+.be:hover {
+  border-bottom-color: #6c757d;
+}
+.bf:hover {
+  border-left-color: #6c757d;
+}
+.as:focus-visible {
+  color: #fff;
+}
+.at:focus-visible {
+  -webkit-background-color: #5c636a;
+  background-color: #5c636a;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #565e64;
+}
+.ax:focus-visible {
+  border-right-color: #565e64;
+}
+.ay:focus-visible {
+  border-bottom-color: #565e64;
+}
+.az:focus-visible {
+  border-left-color: #565e64;
+}
+.bh:focus {
+  box-shadow: 0 0 0 0.25rem rgba(108, 117, 125, 0.5);
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  -webkit-background-color: #6c757d;
+  background-color: #6c757d;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #6c757d;
+}
+.ae:active {
+  border-right-color: #6c757d;
+}
+.af:active {
+  border-bottom-color: #6c757d;
+}
+.ag:active {
+  border-left-color: #6c757d;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render an outlined button of variant success 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #198754;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.ai:disabled {
+  color: #198754;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #198754;
+}
+.ap:disabled {
+  border-right-color: #198754;
+}
+.aq:disabled {
+  border-bottom-color: #198754;
+}
+.ar:disabled {
+  border-left-color: #198754;
+}
+.bg {
+  gradient: none;
+}
+.bi {
+  border-top-width: 1px;
+}
+.bj {
+  border-right-width: 1px;
+}
+.bk {
+  border-bottom-width: 1px;
+}
+.bl {
+  border-left-width: 1px;
+}
+.bm {
+  border-top-style: solid;
+}
+.bn {
+  border-right-style: solid;
+}
+.bo {
+  border-bottom-style: solid;
+}
+.bp {
+  border-left-style: solid;
+}
+.bq {
+  border-top-color: #198754;
+}
+.br {
+  border-right-color: #198754;
+}
+.bs {
+  border-bottom-color: #198754;
+}
+.bt {
+  border-left-color: #198754;
+}
+.ba:hover {
+  -webkit-background-color: #198754;
+  background-color: #198754;
+}
+.bb:hover {
+  color: #fff;
+}
+.bc:hover {
+  border-top-color: #198754;
+}
+.bd:hover {
+  border-right-color: #198754;
+}
+.be:hover {
+  border-bottom-color: #198754;
+}
+.bf:hover {
+  border-left-color: #198754;
+}
+.as:focus-visible {
+  color: #fff;
+}
+.at:focus-visible {
+  -webkit-background-color: #157347;
+  background-color: #157347;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #146c43;
+}
+.ax:focus-visible {
+  border-right-color: #146c43;
+}
+.ay:focus-visible {
+  border-bottom-color: #146c43;
+}
+.az:focus-visible {
+  border-left-color: #146c43;
+}
+.bh:focus {
+  box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.5);
+}
+.w:active {
+  color: #fff;
+}
+.x:active {
+  -webkit-background-color: #198754;
+  background-color: #198754;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #198754;
+}
+.ae:active {
+  border-right-color: #198754;
+}
+.af:active {
+  border-bottom-color: #198754;
+}
+.ag:active {
+  border-left-color: #198754;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
+
+exports[`components/Button variants should render an outlined button of variant warning 1`] = `
+".a {
+  border-top-left-radius: 4px;
+}
+.b {
+  border-top-right-radius: 0;
+}
+.c {
+  border-bottom-right-radius: 0;
+}
+.d {
+  border-bottom-left-radius: 4px;
+}
+.e {
+  padding-top: 6px;
+}
+.f {
+  padding-bottom: 6px;
+}
+.g {
+  padding-left: 12px;
+}
+.h {
+  padding-right: 12px;
+}
+.i {
+  -webkit-background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+.j {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.k {
+  color: #ffc107;
+}
+.l {
+  cursor: pointer;
+}
+.m {
+  display: inline-block;
+}
+.n {
+  font-size: 14px;
+}
+.o {
+  font-weight: 400;
+}
+.p {
+  line-height: 1.42857143;
+}
+.q {
+  margin-bottom: 0;
+}
+.r {
+  text-align: center;
+}
+.s {
+  touch-action: manipulation;
+}
+.t {
+  white-space: nowrap;
+}
+.u {
+  vertical-align: middle;
+}
+.v {
+  user-select: none;
+}
+.ah:disabled {
+  -webkit-background-color: transparent;
+  background-color: transparent;
+}
+.ai:disabled {
+  color: #ffc107;
+}
+.aj:disabled {
+  box-shadow: none;
+}
+.ak:disabled {
+  cursor: not-allowed;
+}
+.al:disabled {
+  -webkit-filter: alpha(opacity=65);
+  filter: alpha(opacity=65);
+}
+.am:disabled {
+  opacity: 0.65;
+}
+.an:disabled {
+  pointer-events: none;
+}
+.ao:disabled {
+  border-top-color: #ffc107;
+}
+.ap:disabled {
+  border-right-color: #ffc107;
+}
+.aq:disabled {
+  border-bottom-color: #ffc107;
+}
+.ar:disabled {
+  border-left-color: #ffc107;
+}
+.bg {
+  gradient: none;
+}
+.bi {
+  border-top-width: 1px;
+}
+.bj {
+  border-right-width: 1px;
+}
+.bk {
+  border-bottom-width: 1px;
+}
+.bl {
+  border-left-width: 1px;
+}
+.bm {
+  border-top-style: solid;
+}
+.bn {
+  border-right-style: solid;
+}
+.bo {
+  border-bottom-style: solid;
+}
+.bp {
+  border-left-style: solid;
+}
+.bq {
+  border-top-color: #ffc107;
+}
+.br {
+  border-right-color: #ffc107;
+}
+.bs {
+  border-bottom-color: #ffc107;
+}
+.bt {
+  border-left-color: #ffc107;
+}
+.ba:hover {
+  -webkit-background-color: #ffc107;
+  background-color: #ffc107;
+}
+.bb:hover {
+  color: #000;
+}
+.bc:hover {
+  border-top-color: #ffc107;
+}
+.bd:hover {
+  border-right-color: #ffc107;
+}
+.be:hover {
+  border-bottom-color: #ffc107;
+}
+.bf:hover {
+  border-left-color: #ffc107;
+}
+.as:focus-visible {
+  color: #000;
+}
+.at:focus-visible {
+  -webkit-background-color: #ffca2c;
+  background-color: #ffca2c;
+}
+.au:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(217, 164, 6, 0.5);
+}
+.av:focus-visible {
+  outline-width: 0;
+}
+.aw:focus-visible {
+  border-top-color: #ffc720;
+}
+.ax:focus-visible {
+  border-right-color: #ffc720;
+}
+.ay:focus-visible {
+  border-bottom-color: #ffc720;
+}
+.az:focus-visible {
+  border-left-color: #ffc720;
+}
+.bh:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.5);
+}
+.w:active {
+  color: #000;
+}
+.x:active {
+  -webkit-background-color: #ffc107;
+  background-color: #ffc107;
+}
+.y:active {
+  -webkit-background-image: none;
+  background-image: none;
+}
+.z:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.ab:active {
+  outline-width: 0;
+}
+.ac:active {
+  border-top-color: #ffc107;
+}
+.ae:active {
+  border-right-color: #ffc107;
+}
+.af:active {
+  border-bottom-color: #ffc107;
+}
+.ag:active {
+  border-left-color: #ffc107;
+}
+
+
+<button
+  data-testid="button"
+  class="a ab ac ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt c d e f g h i j k l m n o p q r s t u v w x y z"
+>
+  Click Me</button
+>;
+"
+`;
