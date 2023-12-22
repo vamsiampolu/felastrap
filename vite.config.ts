@@ -1,12 +1,21 @@
-import { defineConfig } from "vite";
+import { defineConfig, type PluginOption } from "vite";
 import react from "@vitejs/plugin-react";
 import dts from "vite-plugin-dts";
+import { visualizer } from "rollup-plugin-visualizer";
 import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), dts({ insertTypesEntry: true, include: ["src/"] })],
+  plugins: [
+    react(),
+    dts({ insertTypesEntry: true, include: ["src/"] }),
+    visualizer({
+      title: "Felastrap",
+      template: "network",
+    }) as unknown as PluginOption,
+  ],
   build: {
+    sourcemap: true,
     lib: {
       entry: path.resolve(__dirname, "src/main.tsx"),
       name: "Felastrap",
@@ -24,6 +33,7 @@ export default defineConfig({
         "src/Pages/**/*",
       ],
       output: {
+        sourcemap: true,
         globals: {
           react: "React",
           "react-dom": "ReactDOm",
