@@ -24,6 +24,9 @@ jobs:
         run: yarn test --ci --coverage
   storybook:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      pages: write
     needs: setup
     steps:
       - uses: actions/checkout@v4
