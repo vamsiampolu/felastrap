@@ -27,3 +27,4 @@ dist-ssr
 
 .yarn/
 .yarnrc.yml
+stats.html
