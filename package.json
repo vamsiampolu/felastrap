@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "@floating-ui/core": "^1.5.0",
-    "@floating-ui/react": "^0.26.0",
+    "@floating-ui/react": "^0.26.4",
     "aria-attributes": "^2.0.1",
     "array.prototype.tosorted": "^1.1.2",
     "fela": "^12.2.1",
