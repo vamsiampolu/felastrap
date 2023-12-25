@@ -1,5 +1,5 @@
 {
-  "name": "felastrap",
+  "name": "@vamsiampolu/felastrap",
   "private": true,
   "version": "1.0.0",
   "author": {
@@ -22,6 +22,13 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vamsiampolu/felastrap"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "format": "prettier --write .",
     "format:check": "prettier . --check",
@@ -32,7 +39,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "clean": "rimraf ./dist ./storybook-static ./stats.html"
+    "clean": "rimraf ./dist ./storybook-static ./stats.html",
+    "prepack": "yarn build"
   },
   "dependencies": {
     "@floating-ui/core": "^1.5.2",
